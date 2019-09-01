@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/categories/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <title>Categories</title>
+      <link>https://dig-eg-gaz.github.io/categories/</link>
+    </image>
+    
+    <item>
+      <title>analysis</title>
+      <link>https://dig-eg-gaz.github.io/categories/analysis/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/categories/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curiosities</title>
+      <link>https://dig-eg-gaz.github.io/categories/curiosities/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/categories/curiosities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>organic medicines</title>
+      <link>https://dig-eg-gaz.github.io/categories/organic-medicines/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/categories/organic-medicines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sports</title>
+      <link>https://dig-eg-gaz.github.io/categories/sports/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/categories/sports/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

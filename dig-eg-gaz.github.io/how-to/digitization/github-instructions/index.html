@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Objective We will manage our digitization of the Egyptian Gazette using GitHub. This tutorial gives you instructions about how to submit your own work to our shared repositories.
+1. What is GitHub? GitHub is a tool to manage versioning and collaboration in coding projects large and small. It&rsquo;s built on git software, and offers a bunch of useful social and communication tools in its user interface. Each of us will create an individual account where we&rsquo;ll store and refine our work until it&rsquo;s ready to upload to the dig-eg-gaz organization repositories.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/">
+  <meta property="og:title" content="GitHub instructions | Digital Egyptian Gazette">
+  <meta property="og:description" content="Objective We will manage our digitization of the Egyptian Gazette using GitHub. This tutorial gives you instructions about how to submit your own work to our shared repositories.
+1. What is GitHub? GitHub is a tool to manage versioning and collaboration in coding projects large and small. It&rsquo;s built on git software, and offers a bunch of useful social and communication tools in its user interface. Each of us will create an individual account where we&rsquo;ll store and refine our work until it&rsquo;s ready to upload to the dig-eg-gaz organization repositories."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-09-30T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2016-09-30T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>GitHub instructions | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/templating-instructions/">Templating</a>
+      </li>
+      
+      <li class="active">
+        <a href="/how-to/digitization/github-instructions/">GitHub</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/ocr-instructions/">OCR</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Content markup</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/query-instructions/">Querying</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/regular-expression-instructions/">Regular expressions</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/visualization-instructions/">Data visualization</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-what-is-github">1. What is GitHub?</a></li>
+<li><a href="#2-how-to-access-github">2. How to access GitHub</a></li>
+<li><a href="#3-how-to-use-the-organization-repository-and-your-own-fork-of-it">3. How to use the organization repository and your own fork of it</a></li>
+<li><a href="#4-how-to-submit-your-deliverables">4. How to submit your deliverables</a></li>
+<li><a href="#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">5. How do I make sure that my content fork is up to date?</a></li>
+<li><a href="#6-resources">6. Resources</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">GitHub instructions</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="objective">Objective</h2>
+
+<p>We will manage our digitization of the Egyptian Gazette using GitHub. This tutorial gives you instructions about how to submit your own work to our shared repositories.</p>
+
+<h2 id="1-what-is-github">1. What is GitHub?</h2>
+
+<p>GitHub is a tool to manage versioning and collaboration in coding projects large and small. It&rsquo;s built on <a href="https://en.wikipedia.org/wiki/Git" target="_blank">git</a> software, and offers a bunch of useful social and communication tools in its user interface. Each of us will create an individual account where we&rsquo;ll store and refine our work until it&rsquo;s ready to upload to the <a href="https://github.com/dig-eg-gaz" target="_blank">dig-eg-gaz organization repositories</a>.</p>
+
+<h2 id="2-how-to-access-github">2. How to access GitHub</h2>
+
+<p>You can approach GitHub three ways:
+- using a web browser to access <a href="https://github.com/" target="_blank">github.com</a>,
+- using the <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a> client , or
+- using <a href="http://programminghistorian.org/lessons/intro-to-bash" target="_blank">the command line</a>.</p>
+
+<p>We&rsquo;ll be using the Desktop client mostly, but in a pinch you can use the web browser.</p>
+
+<h2 id="3-how-to-use-the-organization-repository-and-your-own-fork-of-it">3. How to use the organization repository and your own fork of it</h2>
+
+<ol>
+<li>Create an account, and email me your username so that I can add you to the dig-eg-gaz organization..</li>
+<li>Navigate to the organization <a href="https://github.com/dig-eg-gaz/content" target="_blank">content repository</a>, and <strong>fork</strong> the repository by clicking on the &ldquo;fork&rdquo; icon on the top right. You will be offered the chance to fork the repository under your own username&ndash;do so. This will make a copy of the repository in your own GitHub account.</li>
+<li>Clone this repository in your Desktop.</li>
+<li>In GitHub Desktop, right click the &ldquo;content&rdquo; repository, and choose &ldquo;Show in Finder.&rdquo; This will show where the content files you&rsquo;ve just cloned are stored on your hard drive. Move your xml files here, and continue to edit and save them in this location. Desktop will help you to send these edits to Github.
+<img src="/img/content-show-in-finder.png" alt="show in finder" /></li>
+<li>When you&rsquo;re ready to sync your changes with the GitHub cloud, write a summary of your changes (e.g., &ldquo;creating page 1&rdquo;), hit &ldquo;Commit to Master&rdquo;, then hit &ldquo;Fetch origin&rdquo; (on the top right). This will backup your work onto your fork on GitHub&rsquo;s servers.
+<img src="/img/fetch-origin-desktop.png" alt="fetch origin desktop" /></li>
+</ol>
+
+<h2 id="4-how-to-submit-your-deliverables">4. How to submit your deliverables</h2>
+
+<p>When your page files are complete, you can fold them from your own fork into the <strong>master</strong> organization content repository by sending me a <strong>pull request</strong>. You do this by navigating (on the github website) to <em>your fork</em> of the content repository. If it says &ldquo;This branch is 1 commit ahead,&rdquo; you can submit a pull request by clicking the &ldquo;new pull request&rdquo; button on the top left above your list of files. Follow the instructions and keep clicking until the pull request is submitted.
+<img src="/img/new-pull-request.png" alt="new pull request" />
+I will then see the pull request and either merge your files into the organization&rsquo;s content or request that you change something before doing so. If you want to check the status of your pull requests, scroll all the way to the top of the github web page. Click on &ldquo;Pull requests&rdquo; in white letters on a black background. You will then see a list of the pull requests you&rsquo;ve submitted.</p>
+
+<h2 id="5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">5. How do I make sure that my content fork is up to date?</h2>
+
+<p>In the screenshot above, you&rsquo;ll notice the caption &ldquo;This branch is 1 commit ahead, 98 commits behind dig-eg-gaz:master.&rdquo; The &ldquo;commit ahead&rdquo; is work that needs to be submitted in a pull request and merged. The &ldquo;commits behind&rdquo; represents work that your colleagues have done, and that has been merged into the master content repository but hasn&rsquo;t made it to your fork yet. When it comes time to do your querying and analysis of others&rsquo; files, it&rsquo;s very important to make sure that you are working on an up-to-date version of the content files. When you look at your fork of the <code>dig-eg-gaz/content</code> repository on the github website, you will see a line comparing your repository to the organization repository:
+<img src="/img/250-commits-behind.png" alt="not up to date" />
+If you are ahead, click the &ldquo;new pull request&rdquo; button above the status report and ask the organization to merge your changes.</p>
+
+<p>If you are behind:</p>
+
+<ol>
+<li>click &ldquo;pull request&rdquo; on the same line and to the right of the status of the report.</li>
+<li>You may then be taken to a screen saying &ldquo;There isn&rsquo;t anything to compare.&rdquo; Click on the &ldquo;switching the base&rdquo; link just below.</li>
+<li>You will then be taken to a screen that allows you to create a pull request. Do so.</li>
+<li>This pull request will now appear on the &ldquo;pull requests&rdquo; tab of your fork of the content folder.
+<img src="/img/pull-requests-tab.png" alt="pull requests" />
+Click on the tab, and on the pull request, and then merge the pull request.</li>
+<li>Your fork should now be up to date&ndash;the status line will confirm this.</li>
+</ol>
+
+<h2 id="6-resources">6. Resources</h2>
+
+<p>These Github tutorials might be useful:</p>
+
+<ul>
+<li><a href="https://guides.github.com/introduction/flow/" target="_blank">Github flow</a>: describes branch, commit, pull, etc. 5 minute read.</li>
+<li><a href="https://guides.github.com/activities/hello-world/" target="_blank">Hello world</a>: step-by-step explanation of key functions via web interface. 10 minute read.</li>
+<li><a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/" target="_blank">Understanding Github</a>: very clear introductory discussion, focusing on command line interface.</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/how-to/digitization/templating-instructions/" rel="next">Templating instructions</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/how-to/digitization/ocr-instructions/" rel="prev">OCR instructions</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Sep 30, 2016</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

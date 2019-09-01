@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/resources/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
+    <description>Resources</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <title>Resources</title>
+      <link>https://dig-eg-gaz.github.io/resources/</link>
+    </image>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://dig-eg-gaz.github.io/resources/syllabus/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/syllabus/</guid>
+      <description>
+
+&lt;p&gt;The course syllabus for the current semester, hosted on google docs, is available &lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;previous-semesters&#34;&gt;Previous semesters&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Fall 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34; target=&#34;_blank&#34;&gt;Spring 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34; target=&#34;_blank&#34;&gt;Spring 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Fall 2016&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub Organization Page</title>
+      <link>https://dig-eg-gaz.github.io/resources/github/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/github/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz&#34; target=&#34;_blank&#34;&gt;GitHub organization page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information on how we use github, see the &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/&#34;&gt;GitHub tutorial&lt;/a&gt; in the how-to section.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Egyptian Gazette Schema</title>
+      <link>https://dig-eg-gaz.github.io/resources/schema/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/schema/</guid>
+      <description>
+
+&lt;p&gt;This page describes the schema used in the Digital Egyptian Gazette project, which lives &lt;a href=&#34;https://github.com/dig-eg-gaz/resources/blob/master/egSchema.odd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; in &lt;a href=&#34;http://www.tei-c.org/Guidelines/Customization/odds.xml&#34; target=&#34;_blank&#34;&gt;ODD (‘One Document Does it All’)&lt;/a&gt; format.&lt;/p&gt;
+
+&lt;p&gt;The schema expressed in relaxNG compact (made from .odd files using the &lt;a href=&#34;http://www.tei-c.org/Roma/&#34; target=&#34;_blank&#34;&gt;Roma tool&lt;/a&gt; at &lt;a href=&#34;http://www.tei-c.org/Roma/&#34; target=&#34;_blank&#34;&gt;TEI-c.org.&lt;/a&gt;) is &lt;a href=&#34;https://github.com/dig-eg-gaz/resources/blob/master/egSchema.rnc&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It can be validated against by using the URL &lt;a href=&#34;https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc&#34; target=&#34;_blank&#34;&gt;https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc&lt;/a&gt; in an XML editor.&lt;/p&gt;
+
+&lt;p&gt;In addition to the tags offered by the &lt;a href=&#34;http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html&#34; target=&#34;_blank&#34;&gt;TEI P5 guidelines&lt;/a&gt;, the customized schema employs the following terms.&lt;/p&gt;
+
+&lt;h2 id=&#34;div-attributes&#34;&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; attributes&lt;/h2&gt;
+
+&lt;h3 id=&#34;type&#34;&gt;Type&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;masthead: use for the first page of the paper only&lt;/li&gt;
+&lt;li&gt;page: always use the &lt;code&gt;n=&amp;quot;&amp;quot;&lt;/code&gt; attribute&lt;/li&gt;
+&lt;li&gt;item: the default and most generic &lt;code&gt;div&lt;/code&gt; type&lt;/li&gt;
+&lt;li&gt;section: a &lt;code&gt;div&lt;/code&gt; containing other &lt;code&gt;div&lt;/code&gt;s, typically of the &lt;code&gt;item&lt;/code&gt; type.&lt;/li&gt;
+&lt;li&gt;subsection: a &lt;code&gt;div&lt;/code&gt; within a &lt;code&gt;section&lt;/code&gt; itself containing other &lt;code&gt;div&lt;/code&gt;s, typically of the &lt;code&gt;item&lt;/code&gt; type.&lt;/li&gt;
+&lt;li&gt;article: use for longer pieces&lt;/li&gt;
+&lt;li&gt;wireReport: a single wire report with a &lt;code&gt;&amp;lt;dateline&amp;gt;&lt;/code&gt; and the name of the wireservice (typically Reuters or Havas)&lt;/li&gt;
+&lt;li&gt;advert: any advertisement; templates are listed &lt;a href=&#34;https://dig-eg-gaz.github.io/advertisements&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;feature&#34;&gt;Feature&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;weather: Daily Weather Report&lt;/li&gt;
+&lt;li&gt;wire: Telegrams&lt;/li&gt;
+&lt;li&gt;local: Local and General&lt;/li&gt;
+&lt;li&gt;sport: Sport and Play&lt;/li&gt;
+&lt;li&gt;social: Personal and Social&lt;/li&gt;
+&lt;li&gt;comingEvents: Calendar of Coming Events&lt;/li&gt;
+&lt;li&gt;passList: Passenger List&lt;/li&gt;
+&lt;li&gt;visitList: Visitors&amp;rsquo; List&lt;/li&gt;
+&lt;li&gt;letters: Letters to the Editor&lt;/li&gt;
+&lt;li&gt;mattersMoment: Matters of Moment. Pith of the Press Comments.&lt;/li&gt;
+&lt;li&gt;nativePress: Native Press Comments&lt;/li&gt;
+&lt;li&gt;khedive: The Khedive&lt;/li&gt;
+&lt;li&gt;esbekieh: Esbekieh Gardens&lt;/li&gt;
+&lt;li&gt;army: Army and Navy / Army of Occupation / Egyptian Army&lt;/li&gt;
+&lt;li&gt;shippingMovement: Shipping Movement&lt;/li&gt;
+&lt;li&gt;steamerMovement: Steamer Movement&lt;/li&gt;
+&lt;li&gt;navalNotes: Naval Notes&lt;/li&gt;
+&lt;li&gt;mouvementMaritime: Mouvement Maritime&lt;/li&gt;
+&lt;li&gt;londonLetter: Our London Letter&lt;/li&gt;
+&lt;li&gt;parisLetter: Our Paris Letter&lt;/li&gt;
+&lt;li&gt;prepaidAdvertisements: Cheap Prepaid advertisements&lt;/li&gt;
+&lt;li&gt;bulletinBourse: Bulletin de la bulletin&lt;/li&gt;
+&lt;li&gt;councilMinisters: Council of Ministers&lt;/li&gt;
+&lt;li&gt;shareMarket: Egyptian Share Market&lt;/li&gt;
+&lt;li&gt;notesPortSaid: Notes from Port Said&lt;/li&gt;
+&lt;li&gt;notesSuez: Notes from Suez&lt;/li&gt;
+&lt;li&gt;notesSuakin: Notes from Suakin&lt;/li&gt;
+&lt;li&gt;notesKhartoum: Notes from Khartoum&lt;/li&gt;
+&lt;li&gt;notesConstantinople: Notes from Constantinople&lt;/li&gt;
+&lt;li&gt;notesCyprus: Notes from Cyprus&lt;/li&gt;
+&lt;li&gt;notesSudan: Notes from the Sudan&lt;/li&gt;
+&lt;li&gt;notesFayoum: Notes from Fayoum&lt;/li&gt;
+&lt;li&gt;notesOther: Notes from other places in Egypt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;scope&#34;&gt;Scope&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;advertisement&lt;/li&gt;
+&lt;li&gt;international&lt;/li&gt;
+&lt;li&gt;local&lt;/li&gt;
+&lt;li&gt;financial&lt;/li&gt;
+&lt;li&gt;weather&lt;/li&gt;
+&lt;li&gt;newspaper&lt;/li&gt;
+&lt;li&gt;social&lt;/li&gt;
+&lt;li&gt;sporting&lt;/li&gt;
+&lt;li&gt;official&lt;/li&gt;
+&lt;li&gt;maritime&lt;/li&gt;
+&lt;li&gt;classifieds&lt;/li&gt;
+&lt;li&gt;letters&lt;/li&gt;
+&lt;li&gt;calendar&lt;/li&gt;
+&lt;li&gt;measurements&lt;/li&gt;
+&lt;li&gt;announcements&lt;/li&gt;
+&lt;li&gt;municipality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;site&#34;&gt;Site&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alexandria&lt;/li&gt;
+&lt;li&gt;Cairo&lt;/li&gt;
+&lt;li&gt;Suez&lt;/li&gt;
+&lt;li&gt;Port Said&lt;/li&gt;
+&lt;li&gt;Suakin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;local&lt;/li&gt;
+&lt;li&gt;wire&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;measure-attributes&#34;&gt;&lt;code&gt;&amp;lt;measure&amp;gt;&lt;/code&gt; attributes&lt;/h2&gt;
+
+&lt;h3 id=&#34;units&#34;&gt;Units&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;tal: Talari&lt;/li&gt;
+&lt;li&gt;cantar: qantar&lt;/li&gt;
+&lt;li&gt;£: British Pounds Sterling&lt;/li&gt;
+&lt;li&gt;fcs: francs&lt;/li&gt;
+&lt;li&gt;sh: shillings&lt;/li&gt;
+&lt;li&gt;LE: Egyptian pounds (livres égyptien)&lt;/li&gt;
+&lt;li&gt;balles: bales of cotton&lt;/li&gt;
+&lt;li&gt;ton: tonnes&lt;/li&gt;
+&lt;li&gt;dC: degrees celsius&lt;/li&gt;
+&lt;li&gt;mm: millimeters&lt;/li&gt;
+&lt;li&gt;pt: piasters tarif&lt;/li&gt;
+&lt;li&gt;min: minutes&lt;/li&gt;
+&lt;li&gt;LE M: Egyptian pounds and millimes&lt;/li&gt;
+&lt;li&gt;ard: ardeb&lt;/li&gt;
+&lt;li&gt;$: US dollars&lt;/li&gt;
+&lt;li&gt;sack: sacks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;commodity&#34;&gt;Commodity&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;currency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;type-1&#34;&gt;Type&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;indexNo: number corresponding to indexing system for newspaper features, especially paid advertisements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;columns&#34;&gt;Columns&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;cols: Specifies the number of columns in a given section&lt;/li&gt;
+&lt;li&gt;colSpan: Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Other Resources</title>
+      <link>https://dig-eg-gaz.github.io/resources/other-resources/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/other-resources/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Slack Team&lt;/a&gt; &lt;strong&gt;&lt;em&gt;NOTE: not currently monitored&lt;/em&gt;&lt;/strong&gt; - the team where you can communicate with classmates, and get help with the git platform. Slack is the standard for communication in technical teams, but it&amp;rsquo;s gaining traction as an email replacement in a very wide variety of companies and organizations. Slack organizes all communication into dedicated channels, where people can have focused conversations, and can always find a place to ask important questions. If you would like to learn more about Slack, watch &lt;a href=&#34;https://www.youtube.com/watch?v=B6zVzWU95Sw&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; video. &lt;a href=&#34;http://dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Join the dig-eg-gaz slack team!&lt;/a&gt; All you need is your @my.fsu.edu email address.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/samples&#34; target=&#34;_blank&#34;&gt;Samples&lt;/a&gt; - offers a few sample files (images of pages and plain text) of page 3 of the July 7, 1905 issue for you to test your OCR and editing processes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unicode symbols reference key</title>
+      <link>https://dig-eg-gaz.github.io/resources/unicode/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/unicode/</guid>
+      <description>&lt;p&gt;This page will list unicode symbols for the Digital &lt;em&gt;Egyptian Gazette&lt;/em&gt; project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

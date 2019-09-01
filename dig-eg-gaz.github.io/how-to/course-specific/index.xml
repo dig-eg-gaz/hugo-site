@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course-specific instructions | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/how-to/course-specific/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/how-to/course-specific/index.xml" rel="self" type="application/rss+xml" />
+    <description>Course-specific instructions</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <title>Course-specific instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/</link>
+    </image>
+    
+    <item>
+      <title>Blogging instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/blogging-instructions/</guid>
+      <description>
+
+&lt;h2 id=&#34;1-fork-the-repository&#34;&gt;1. Fork the repository&lt;/h2&gt;
+
+&lt;p&gt;Fork a copy of the organization &lt;a href=&#34;https://github.com/dig-eg-gaz/blog-posts&#34; target=&#34;_blank&#34;&gt;blog-posts&lt;/a&gt; repository on your personal github account. Do this by clicking on the &amp;ldquo;fork&amp;rdquo; icon on the top right. You will be offered the chance to fork the repository under your own username&amp;ndash;do so. This will make a copy of the repository in your own GitHub account, in which you should save your draft blog posts.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-name-your-post&#34;&gt;2. Name your post&lt;/h2&gt;
+
+&lt;p&gt;Paste this &lt;a href=&#34;https://raw.githubusercontent.com/dig-eg-gaz/blog-posts/master/YYYY-MM-DD-post-name.md&#34; target=&#34;_blank&#34;&gt;default text&lt;/a&gt; into a text editor (such as Atom) and save it with a unique name following this format: &lt;code&gt;2016-09-01-yourlastname-post-name.md&lt;/code&gt;. Plug in today&amp;rsquo;s date and a distinctive name for your post.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-fill-in-the-header&#34;&gt;3. Fill in the header&lt;/h2&gt;
+
+&lt;p&gt;The header (the material in the opening lines of the document, between the two &amp;mdash; lines) is very important. It tells the website how to treat your blog post. Enter your name (in quotation marks) as the subheadline. Give your post a title and provide a one to two sentence teaser. Enter the date and your name. Use the category &amp;ldquo;curiosities&amp;rdquo; for post 1, &amp;ldquo;technical&amp;rdquo; for post 2, and &amp;ldquo;serial questions&amp;rdquo; for post 3. List a few tags that reflect the subject matter that your post covers. Enter the name of an image that you would like to appear to promote the post on the header, thumb, and homepage lines, and give that image a caption and (if appropriate) a link. (For more on images, see number 5 below.)&lt;/p&gt;
+
+&lt;h2 id=&#34;4-write-a-post-in-markdown-and-add-images&#34;&gt;4. Write a post in markdown and add images&lt;/h2&gt;
+
+&lt;p&gt;You will write your text using &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, a very simple markup language but a different one from xml, which you are using for the newspaper pages. Here&amp;rsquo;s a &lt;a href=&#34;http://www.markdowntutorial.com/&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt; and here&amp;rsquo;s a &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;cheatsheet&lt;/a&gt;. Aim for at least 200 words, but it&amp;rsquo;s fine if you write more. Integrate some links into your post, and use an image or two.&lt;/p&gt;
+
+&lt;h2 id=&#34;5-working-with-images&#34;&gt;5. Working with images&lt;/h2&gt;
+
+&lt;p&gt;Include an image clipped from your issue of the paper, and any other images that might add to the impact of your post. If you are using an image that you find on the internet, make sure that you have the right to reuse it, and download the image (don&amp;rsquo;t just link to it). To include images in your post, add a line in the following format: &lt;code&gt;![Image label](image-file-name.png)&lt;/code&gt;. Save these images in the forked folder. Make sure that you give all of the images a distinctive name, and use that name in the header and body.&lt;/p&gt;
+
+&lt;h2 id=&#34;6-send-a-pull-request-to-the-group-repository&#34;&gt;6. Send a pull request to the group repository&lt;/h2&gt;
+
+&lt;p&gt;When your blog post and image are ready, you can fold them back into the organization content repository by sending me a &lt;strong&gt;pull request&lt;/strong&gt;. You do this by clicking the &amp;ldquo;new pull request&amp;rdquo; button the top left above your list of files. I will then see the pull request and either merge your files into the organization&amp;rsquo;s content or request that you change something before doing so.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</guid>
+      <description>
+
+&lt;p&gt;Students wishing to write small tutorials should write in Markdown. Proceed in the same manner as you do with blog posts and analysis reports, but for this assignment fork and add your work to the &lt;a href=&#34;https://github.com/dig-eg-gaz/tutorials&#34; target=&#34;_blank&#34;&gt;tutorials repository&lt;/a&gt;. Send a pull request when you are done.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-wish-list&#34;&gt;How-to wish list&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Glossary&lt;/li&gt;
+&lt;li&gt;Github use, especially pull requests, issues, communications&lt;/li&gt;
+&lt;li&gt;the various ways of pasting text files into Oxygen&lt;/li&gt;
+&lt;li&gt;dealing with images in advertisements&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt;&lt;/strong&gt; for images.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serial question instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</guid>
+      <description>
+
+&lt;p&gt;Your final project is to consider a theme or question that recurs across many issues of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Part of your work is to compose a serial question that makes sense and can be answered by the dataset. Explain this question (supplying, for instance, the xpath formula you will use), and explain how you extract the results. For guidance on queries, consult the &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/query-instructions&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To consult previous serial analysis projects, see this &lt;a href=&#34;https://dig-eg-gaz.github.io/analysis/analysis&#34; target=&#34;_blank&#34;&gt;directory&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;panel radius&#34; markdown=&#34;1&#34;&gt;
+**Contents**
+{: #toc }
+*  TOC
+{:toc}
+&lt;/div&gt;
+
+&lt;h2 id=&#34;how-do-i-submit-material&#34;&gt;How do I submit material?&lt;/h2&gt;
+
+&lt;p&gt;Fork the &lt;a href=&#34;https://github.com/dig-eg-gaz/analysis&#34; target=&#34;_blank&#34;&gt;analysis&lt;/a&gt; repository, add your analysis and images, and send a pull request. Do this at least twice: once you&amp;rsquo;ve finished your question, and a second time once you&amp;rsquo;ve written your analysis. It is fine to do it more often too, sending partial material or drafts. I will make comments, and you can revise them.&lt;/p&gt;
+
+&lt;p&gt;Make sure that &lt;em&gt;every&lt;/em&gt; file name starts with your name (so that we don&amp;rsquo;t get confused by a whole bunch of &lt;code&gt;graph.jpg&lt;/code&gt; files), and that you have no spaces in your file names&amp;ndash;use dashes instead.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-i-format-my-serial-analysis&#34;&gt;How do I format my serial analysis?&lt;/h2&gt;
+
+&lt;p&gt;Write it in markdown.&lt;/p&gt;
+
+&lt;p&gt;Use a header:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+layout: page
+title: &amp;lt;!--- insert title ---&amp;gt;
+permalink: /analysis/2018/yourname-analysis
+author: YourName
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Name it &lt;code&gt;yourname-analysis.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-images&#34;&gt;What about images?&lt;/h2&gt;
+
+&lt;p&gt;Please produce data visualization(s) to accompany your analysis.&lt;/p&gt;
+
+&lt;p&gt;You may use a variety of tools:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://hdlab.stanford.edu/palladio/&#34; target=&#34;_blank&#34;&gt;Palladio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/chart/&#34; target=&#34;_blank&#34;&gt;Google charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/visualization-instructions/&#34; target=&#34;_blank&#34;&gt;Tableau&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;how-do-i-show-these-visualizations-in-my-markdown-page&#34;&gt;How do I show these visualizations in my markdown page?&lt;/h2&gt;
+
+&lt;p&gt;The easiest thing to do is to take a screenshot and include the static image using markdown&amp;rsquo;s code: &lt;code&gt;![image title](image-file-name.png)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If, however, you have produced an &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/visualization-instructions/&#34; target=&#34;_blank&#34;&gt;interactive visualization&lt;/a&gt; using Tableau or Google Charts, you need to do two things to embed data visualizations in your markdown github pages.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Host the visualization:&lt;/li&gt;
+&lt;li&gt;For Tableau, you will need to upload your workbook to Tableau Public&amp;rsquo;s server. Use the &amp;ldquo;server&amp;rdquo; drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For Google Charts, perhaps the easiest thing to do is to post your code as a &lt;a href=&#34;https://gist.github.com/&#34; target=&#34;_blank&#34;&gt;gist&lt;/a&gt;, then render it using a link from &lt;a href=&#34;http://rawgit.com/&#34; target=&#34;_blank&#34;&gt;rawgit&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Embed the visualization:&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For Tableau, a complete version of embedding instructions is included in this &lt;a href=&#34;https://www.datavizforall.org/embed/tableau/&#34; target=&#34;_blank&#34;&gt;excellent tutorial&lt;/a&gt;. Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;iframe src=&amp;quot;https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&amp;amp;:embed=true&amp;quot; align=&amp;quot;center&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;500&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(For the &lt;code&gt;YOURURLHERE&lt;/code&gt; part, include everything to the right of &lt;code&gt;views/&lt;/code&gt; and to the left of the question mark. Your line should look something like this: &lt;code&gt;&amp;lt;iframe src=&amp;quot;https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&amp;amp;:embed=true&amp;quot; align=&amp;quot;center&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;500&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;.) Paste this code into your markdown file.
+- For Google Charts, place this bit of code in a markdown file, and your visualization should appear: &lt;code&gt;&amp;lt;iframe src=&amp;quot;your-rawgit-link&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;400&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data revision instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/data-revision-instruction/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/data-revision-instruction/</guid>
+      <description>
+
+&lt;p&gt;As our project develops into a database, it is important for us to ensure the accuracy of our content. One important step of this revision is to check one specific element/section/div across the full run of the Digital Egyptian Gazette.&lt;/p&gt;
+
+&lt;div class=&#34;panel radius&#34; markdown=&#34;1&#34;&gt;
+**Contents**
+{: #toc }
+*  TOC
+{:toc}
+&lt;/div&gt;
+
+&lt;h2 id=&#34;1-preparation&#34;&gt;1. Preparation&lt;/h2&gt;
+
+&lt;p&gt;Before you start revising our project, you will need to have your fork of the
+content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date&#34; target=&#34;_blank&#34;&gt;You can do it through pull request&lt;/a&gt;). Download your folk of content repository trough Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all the former file you want to look at. Then, choose the element/section/div that you might want to revise, and find the template for it on our website.&lt;/p&gt;
+
+&lt;p&gt;List that feature or element on this &lt;a href=&#34;https://docs.google.com/spreadsheets/d/187JP5PY11SP4sV1WWrDV3aC8riTQScX7tz6WF7_l_34/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;spreadsheet&lt;/a&gt;, to be sure that you are not duplicating someone else&amp;rsquo;s work.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-search-and-compare&#34;&gt;2.  Search and Compare&lt;/h2&gt;
+
+&lt;p&gt;Look at the template and think about the possible values that might appear if someone just copied the template and left it unchanged. Use the characteristics (such as type/element/feature/xml:id/scope) that defined your targeted div to do XPath queries.&lt;/p&gt;
+
+&lt;p&gt;For example, you can search &lt;code&gt;//table[@xml:id=&amp;quot;deg-ta-shli01&amp;quot;]&lt;/code&gt; to find all the specific tables in all files that associated with the xml id of &amp;ldquo;deg-ta-shli01&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Use more specific queries to search for the possible values that might appear. For example, the first value in the Share List (template 1) on our website is &amp;ldquo;13 &lt;sup&gt;13&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&amp;rdquo;. And it is always in the 3rd cell of the 1st row of the first table of the Share List. Thus, we can use &lt;code&gt;//div[table[@xml:id=&amp;quot;deg-ta-shli01&amp;quot;]/row[1]/cell[3]/measure&lt;/code&gt; to locate all the unchanged &amp;ldquo;13 &lt;sup&gt;13&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&amp;rdquo; in our files by using Find/Replace in Files.&lt;/p&gt;
+
+&lt;p&gt;After you get all the possible result, compare more values in your targets and make sure that you only deal with those unchanged ones. Keep it mind that it is very possible that your result has the same value with the template by accident. Play with other values or queries to get the best result.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-replace-and-update&#34;&gt;3. Replace and Update&lt;/h2&gt;
+
+&lt;p&gt;Once you find a good query that allows you to locate all unchanged divs, you will need to add a comment in the very beginning of them to let others know the risk of using such bad sources. Here is an easy way to add comments to all of them instead of doing that manually.&lt;/p&gt;
+
+&lt;p&gt;Using the Share List part as an example, you can use &lt;code&gt;//div[child::table[@xml:id=&amp;quot;deg-ta-shli01&amp;quot;]/row[1]/cell[3]/measure[contains(., &amp;quot;13 13/16&amp;quot;)]]&lt;/code&gt; in the Find/Replace in File tool to tell Oxygen to look at the div itself instead of the table inside the div.&lt;/p&gt;
+
+&lt;p&gt;Then, you can use this query to find &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; in the div and replace it with &lt;code&gt;&amp;lt;!-- incorrect value --&amp;gt;\n&amp;lt;head&amp;gt;&lt;/code&gt;. Please remember to enable the regular expression. (See details in the image).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;data-revision-example.png&#34; alt=&#34;replace example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After you add a comment for individual divs, you can search you comment to find these divs and update them according to the page-images on our website.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-submission&#34;&gt;4. Submission&lt;/h2&gt;
+
+&lt;p&gt;Once you finish the former process, it is time to submit those changes through your Github Desktop and open a pull request for them.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

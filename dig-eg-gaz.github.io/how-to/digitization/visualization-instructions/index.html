@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.
+Installation  Your FSU emails allow you free access to Tableau’s full Desktop suite. Navigate to this page and its instructions to download your copy of Tableau. Be sure to use your FSU email address.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/">
+  <meta property="og:title" content="Data Visualization Tutorial | Digital Egyptian Gazette">
+  <meta property="og:description" content="Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.
+Installation  Your FSU emails allow you free access to Tableau’s full Desktop suite. Navigate to this page and its instructions to download your copy of Tableau. Be sure to use your FSU email address."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-03-28T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2017-03-28T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Data Visualization Tutorial | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/templating-instructions/">Templating</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/github-instructions/">GitHub</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/ocr-instructions/">OCR</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Content markup</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/query-instructions/">Querying</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/regular-expression-instructions/">Regular expressions</a>
+      </li>
+      
+      <li class="active">
+        <a href="/how-to/digitization/visualization-instructions/">Data visualization</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#walkthrough">Walkthrough</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Data Visualization Tutorial</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.</p>
+
+<h2 id="installation">Installation</h2>
+
+<ol>
+<li><p>Your FSU emails allow you free access to Tableau’s full Desktop suite. Navigate to <a href="https://www.tableau.com/academic/students" target="_blank">this page</a> and its instructions to download your copy of Tableau. <strong>Be sure to use your FSU email address</strong>.</p></li>
+
+<li><p>You will receive a download link via email. Download Tableau and follow installation instructions.</p></li>
+
+<li><p>After downloading and installing the software, you can follow <a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html" target="_blank">video tutorials</a> to get up to speed with more advanced functions. But for now, let&rsquo;s look at some simple examples using data from the digital Egyptian Gazette.</p></li>
+</ol>
+
+<h2 id="walkthrough">Walkthrough</h2>
+
+<ol>
+<li><p>First, let&rsquo;s gather data to explore in Tableau. This data comes from the <a href="https://dig-eg-gaz.github.io/templates/#coton" target="_blank">Coton</a> table, which appears regularly in the financial news section of the Egyptian Gazette.</p></li>
+
+<li><p>Using this query: <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'balles')]/following-sibling::cell[1]</code>, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.</p></li>
+
+<li><p>We will want to do more than just explore total cotton exports so let&rsquo;s also run this query:<code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]</code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.</p></li>
+
+<li><p>The resulting data from each of these queries will be quite raw. We can use <a href="https://dig-eg-gaz.github.io/how-to/regular-expression-instructions/" target="_blank">Regular Expressions</a> to clean up our data before putting it into Tableau.</p></li>
+
+<li><p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample <a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx" target="_blank">spreadsheet</a> containing these data.</p></li>
+
+<li><p>Now that we have data representing monthly total cotton exports and where they are being shipped we want to visualize this data.</p></li>
+
+<li><p>Open Tableau, and click &ldquo;Connect to a File&rdquo; in the upper left corner, and select the spreadsheet from your hard drive.</p></li>
+
+<li><p>Make sure that Tableau is recognizing the data types in your spreadsheet (dates, country names, numbers, etc). While in the Data Source interface, change the “Month” column from string to date value by Clicking on the “Abc” icon and selecting “Date” from the drop down menu. Set the “Country” column&rsquo;s geographic role to &ldquo;Country/Region&rdquo;.</p></li>
+
+<li><p>At the bottom, click Sheet 1. After dragging and dropping the “Total Cotton Export (Bales)” cell in the row slot, place the “Month” cell in the column slot, under Marks select “Bar”.</p></li>
+</ol>
+
+<p><img src="/img/tableau-1905-cotton-export-total.png" alt="Cotton Exports" /></p>
+
+<p>The resulting visual gives us an annual total of exports, but we can go deeper.</p>
+
+<ol>
+<li><p>In the column slot, click the “Date” cell and select “Month”. This provides a clearer representation of fluctuations in the cotton export value during the year. <!-- If we select the second “Month” in the drop down menu it provides a visualization that includes zero value months. -->
+<img src="/img/tableau-1905-monthly-cotton-exports.png" alt="Cotton Exports" /></p></li>
+
+<li><p>In the &ldquo;Marks&rdquo; box select &ldquo;Label&rdquo;, and click the box next to &ldquo;Show Mark Labels&rdquo;. Now our data is effectively communicating the monthly totals of cotton exports. Now let&rsquo;s incorporate each destination to further increase the accuracy of the data.</p></li>
+
+<li><p>Drag and drop the &ldquo;Country&rdquo; cell into the Color box. Now we can see that a majority of the cotton exported every month was shipped to England.</p></li>
+</ol>
+
+<p><img src="/img/tableau-cotton-exports-by-country.png" alt="Cotton Exports" /></p>
+
+<ol>
+<li>For a simpler comparative drag and drop the &ldquo;Country&rdquo; cell into the Filters box, click none, then select which countries you want to compare. For now let&rsquo;s look at the difference between cotton exports to England and France.</li>
+</ol>
+
+<p><img src="/img/tableau-cotton-exports-england-france.png" alt="Cotton Exports to England and France" />.</p>
+
+<ol>
+<li>To create a different kind of visualization clear the Columns and Rows then drag and drop the &ldquo;Country&rdquo; cell into the Columns slot and &ldquo;Total Cotton Export&rdquo; into the Rows slot. (You may need to remove the filter to display all countries). On the right hand side of the interface click &ldquo;Show Me&rdquo;, and select the Symbol Map option. The resulting image depicts the amount of comparative cotton exported to each location.</li>
+</ol>
+
+<p><img src="/img/tableau-global-cotton-exports.png" alt="Global Cotton Exports" /></p>
+
+<ol>
+<li>To save our visualizations, click “Story”, “New Story”. Drag the desired sheet to the designated location. Click “Story”, “Export Image”.</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Tableau is great for creating visualisations from your data, but it also is useful for data exploration. When we create data visualisations it is important to remember to keep graphics simple and self-explanatory. For independent data exploration, however, we can try simple as well as complex approaches. Experiment with your data in the software to not only create graphics, but to see how different visualisations help you think about your research.</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/how-to/digitization/regular-expression-instructions/" rel="next">Regular expressions instructions</a>
+  </div>
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Mar 28, 2017</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

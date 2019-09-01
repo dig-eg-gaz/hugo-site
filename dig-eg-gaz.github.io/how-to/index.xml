@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How to | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/how-to/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <description>How to</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <title>How to</title>
+      <link>https://dig-eg-gaz.github.io/how-to/</link>
+    </image>
+    
+    <item>
+      <title>Digitization</title>
+      <link>https://dig-eg-gaz.github.io/how-to/digitization/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/digitization/</guid>
+      <description>
+
+&lt;h2 id=&#34;digital-egyptian-gazette-project-instructions&#34;&gt;Digital Egyptian Gazette project instructions&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;microfilm-instructions&#34; target=&#34;_blank&#34;&gt;How to scan microfilm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;tei-xml-instructions&#34; target=&#34;_blank&#34;&gt;How to perform structural markup in TEI-XML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;templating-instructions&#34; target=&#34;_blank&#34;&gt;How to use boilerplates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;github-instructions&#34; target=&#34;_blank&#34;&gt;How to use GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;OCR-instructions&#34; target=&#34;_blank&#34;&gt;How to OCR text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;text-editor-instructions&#34; target=&#34;_blank&#34;&gt;How to use a plain text editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;tagging-people-and-places-instructions&#34; target=&#34;_blank&#34;&gt;How to perform content markup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;query-instructions&#34; target=&#34;_blank&#34;&gt;How to query the full contents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;regular-expression-instructions&#34; target=&#34;_blank&#34;&gt;How to use regular expressions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;visualization-instructions&#34; target=&#34;_blank&#34;&gt;How to create data visualizations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;embed-visualization-instructions&#34; target=&#34;_blank&#34;&gt;How to embed visualizations in markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course-specific instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/</guid>
+      <description>
+
+&lt;h2 id=&#34;course-specific-instructions&#34;&gt;Course-specific instructions&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;blogging-instructions&#34; target=&#34;_blank&#34;&gt;How to produce blog posts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;tutorials-instructions&#34; target=&#34;_blank&#34;&gt;How to write small tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;serial-question-instructions&#34; target=&#34;_blank&#34;&gt;How to submit serial question analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;data-revision-instructions&#34; target=&#34;_blank&#34;&gt;How to revise templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;further-instructions-to-come-in-future-semesters&#34;&gt;Further instructions (to come in future semesters)&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;[How to map places mentioned in the Egyptian Gazette]&lt;/li&gt;
+&lt;li&gt;[How to identify people mentioned in the Egyptian Gazette]&lt;/li&gt;
+&lt;li&gt;[How to identify organizations and institutions mentioned in the Egyptian Gazette]&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

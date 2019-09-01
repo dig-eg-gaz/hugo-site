@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Your final project is to consider a theme or question that recurs across many issues of the Egyptian Gazette
+Part of your work is to compose a serial question that makes sense and can be answered by the dataset. Explain this question (supplying, for instance, the xpath formula you will use), and explain how you extract the results. For guidance on queries, consult the tutorial.
+To consult previous serial analysis projects, see this directory.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/">
+  <meta property="og:title" content="Serial question instructions | Digital Egyptian Gazette">
+  <meta property="og:description" content="Your final project is to consider a theme or question that recurs across many issues of the Egyptian Gazette
+Part of your work is to compose a serial question that makes sense and can be answered by the dataset. Explain this question (supplying, for instance, the xpath formula you will use), and explain how you extract the results. For guidance on queries, consult the tutorial.
+To consult previous serial analysis projects, see this directory."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-09-30T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2016-09-30T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Serial question instructions | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/how-to/course-specific/blogging-instructions/">Course specific</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/course-specific/blogging-instructions/">Blogging</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/course-specific/tutorials-instructions/">Tutorials</a>
+      </li>
+      
+      <li class="active">
+        <a href="/how-to/course-specific/serial-question-instructions/">Serial question</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/course-specific/data-revision-instruction/">Data revision</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#how-do-i-submit-material">How do I submit material?</a></li>
+<li><a href="#how-do-i-format-my-serial-analysis">How do I format my serial analysis?</a></li>
+<li><a href="#what-about-images">What about images?</a></li>
+<li><a href="#how-do-i-show-these-visualizations-in-my-markdown-page">How do I show these visualizations in my markdown page?</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Serial question instructions</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>Your final project is to consider a theme or question that recurs across many issues of the <em>Egyptian Gazette</em></p>
+
+<p>Part of your work is to compose a serial question that makes sense and can be answered by the dataset. Explain this question (supplying, for instance, the xpath formula you will use), and explain how you extract the results. For guidance on queries, consult the <a href="https://dig-eg-gaz.github.io/how-to/query-instructions" target="_blank">tutorial</a>.</p>
+
+<p>To consult previous serial analysis projects, see this <a href="https://dig-eg-gaz.github.io/analysis/analysis" target="_blank">directory</a>.</p>
+
+<div class="panel radius" markdown="1">
+**Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+
+<h2 id="how-do-i-submit-material">How do I submit material?</h2>
+
+<p>Fork the <a href="https://github.com/dig-eg-gaz/analysis" target="_blank">analysis</a> repository, add your analysis and images, and send a pull request. Do this at least twice: once you&rsquo;ve finished your question, and a second time once you&rsquo;ve written your analysis. It is fine to do it more often too, sending partial material or drafts. I will make comments, and you can revise them.</p>
+
+<p>Make sure that <em>every</em> file name starts with your name (so that we don&rsquo;t get confused by a whole bunch of <code>graph.jpg</code> files), and that you have no spaces in your file names&ndash;use dashes instead.</p>
+
+<h2 id="how-do-i-format-my-serial-analysis">How do I format my serial analysis?</h2>
+
+<p>Write it in markdown.</p>
+
+<p>Use a header:</p>
+
+<pre><code>---
+layout: page
+title: &lt;!--- insert title ---&gt;
+permalink: /analysis/2018/yourname-analysis
+author: YourName
+---
+</code></pre>
+
+<p>Name it <code>yourname-analysis.md</code>.</p>
+
+<h2 id="what-about-images">What about images?</h2>
+
+<p>Please produce data visualization(s) to accompany your analysis.</p>
+
+<p>You may use a variety of tools:</p>
+
+<ul>
+<li><a href="http://hdlab.stanford.edu/palladio/" target="_blank">Palladio</a></li>
+<li><a href="https://developers.google.com/chart/" target="_blank">Google charts</a></li>
+<li><a href="https://dig-eg-gaz.github.io/how-to/visualization-instructions/" target="_blank">Tableau</a></li>
+</ul>
+
+<h2 id="how-do-i-show-these-visualizations-in-my-markdown-page">How do I show these visualizations in my markdown page?</h2>
+
+<p>The easiest thing to do is to take a screenshot and include the static image using markdown&rsquo;s code: <code>![image title](image-file-name.png)</code>.</p>
+
+<p>If, however, you have produced an <a href="https://dig-eg-gaz.github.io/how-to/visualization-instructions/" target="_blank">interactive visualization</a> using Tableau or Google Charts, you need to do two things to embed data visualizations in your markdown github pages.</p>
+
+<ol>
+<li>Host the visualization:</li>
+<li>For Tableau, you will need to upload your workbook to Tableau Public&rsquo;s server. Use the &ldquo;server&rdquo; drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.</li>
+
+<li><p>For Google Charts, perhaps the easiest thing to do is to post your code as a <a href="https://gist.github.com/" target="_blank">gist</a>, then render it using a link from <a href="http://rawgit.com/" target="_blank">rawgit</a>.</p></li>
+
+<li><p>Embed the visualization:</p></li>
+
+<li><p>For Tableau, a complete version of embedding instructions is included in this <a href="https://www.datavizforall.org/embed/tableau/" target="_blank">excellent tutorial</a>. Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:</p></li>
+</ol>
+
+<p><code>&lt;iframe src=&quot;https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&amp;:embed=true&quot; align=&quot;center&quot; width=&quot;90%&quot; height=&quot;500&quot;&gt;&lt;/iframe&gt;</code></p>
+
+<p>(For the <code>YOURURLHERE</code> part, include everything to the right of <code>views/</code> and to the left of the question mark. Your line should look something like this: <code>&lt;iframe src=&quot;https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&amp;:embed=true&quot; align=&quot;center&quot; width=&quot;90%&quot; height=&quot;500&quot;&gt;&lt;/iframe&gt;</code>.) Paste this code into your markdown file.
+- For Google Charts, place this bit of code in a markdown file, and your visualization should appear: <code>&lt;iframe src=&quot;your-rawgit-link&quot; width=&quot;90%&quot; height=&quot;400&quot;/&gt;</code></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/how-to/course-specific/tutorials-instructions/" rel="next">Tutorials instructions</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/how-to/course-specific/data-revision-instruction/" rel="prev">Data revision instructions</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Sep 30, 2016</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

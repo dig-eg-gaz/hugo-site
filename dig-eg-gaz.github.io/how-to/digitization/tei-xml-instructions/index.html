@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Objective These instructions guide you in transforming your plain text page files into a marked-up xml document that conforms to the standards of TEI (the Text Encoding Initiative).
+1. Set up your XML editor Download the full-function Oxygen XML Editor, which offers a free 30-day trial. After 30 days, you might find ways to renew your trial access, or simply purchase Oxygen using their academic and educational discount).
+2. Create an xml file Copy and paste this template into a new document.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/">
+  <meta property="og:title" content="TEI-XML instructions | Digital Egyptian Gazette">
+  <meta property="og:description" content="Objective These instructions guide you in transforming your plain text page files into a marked-up xml document that conforms to the standards of TEI (the Text Encoding Initiative).
+1. Set up your XML editor Download the full-function Oxygen XML Editor, which offers a free 30-day trial. After 30 days, you might find ways to renew your trial access, or simply purchase Oxygen using their academic and educational discount).
+2. Create an xml file Copy and paste this template into a new document."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-09-05T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2016-09-05T00:00:00&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>TEI-XML instructions | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
+      </li>
+      
+      <li class="active">
+        <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/templating-instructions/">Templating</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/github-instructions/">GitHub</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/ocr-instructions/">OCR</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Content markup</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/query-instructions/">Querying</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/regular-expression-instructions/">Regular expressions</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/visualization-instructions/">Data visualization</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-set-up-your-xml-editor">1. Set up your XML editor</a></li>
+<li><a href="#2-create-an-xml-file">2. Create an xml file</a></li>
+<li><a href="#3-fill-in-the-header">3. Fill in the header</a></li>
+<li><a href="#4-copy-and-paste-templated-material">4. Copy and paste templated material</a></li>
+<li><a href="#5-make-sure-that-your-document-is-well-formed">5. Make sure that your document is well-formed</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">TEI-XML instructions</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="objective">Objective</h2>
+
+<p>These instructions guide you in transforming your plain text page files into a marked-up xml document that conforms to the standards of <a href="http://www.tei-c.org" target="_blank">TEI</a> (the Text Encoding Initiative).</p>
+
+<h2 id="1-set-up-your-xml-editor">1. Set up your XML editor</h2>
+
+<p>Download the full-function Oxygen XML Editor, which offers a <a href="http://www.oxygenxml.com/xml_editor/register.html" target="_blank">free 30-day trial</a>. After 30 days, you might find <a href="https://10minutemail.com/" target="_blank">ways</a> to renew your trial access, or simply purchase Oxygen using their <a href="http://oxygenxml.com/academic/" target="_blank">academic and educational discount</a>).</p>
+
+<h2 id="2-create-an-xml-file">2. Create an xml file</h2>
+
+<p>Copy and paste <a href="https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/empty-issue.xml" target="_blank">this template</a> into a new document. <strong>Important</strong>: the new document will have <code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</code> as its first line, and it&rsquo;s also the first line of the template; delete one of them, otherwise your document will be ill-formed. Name this document using the date of the issue and an xml extension (YYYY-MM-DD.xml). (This document will eventually contain all of the pages of the issue, so it is not necessary to add the page number to the document name.) Save this document on your hard drive.</p>
+
+<h2 id="3-fill-in-the-header">3. Fill in the header</h2>
+
+<p>Enter your name into the template (under <code>&lt;editor&gt;</code>), today&rsquo;s date (under <code>&lt;edition&gt;</code>, in text and numeric formats), and the issue date (under <code>&lt;bibl&gt;</code>, in text and numeric formats). (Currently, these areas have entries in the comment format (<code>&lt;!-- --&gt;</code>)&ndash;replace these with your text). Save your file.</p>
+
+<h2 id="4-copy-and-paste-templated-material">4. Copy and paste templated material</h2>
+
+<p>In your xml document, the text of your issue itself (as opposed to just the header) starts like this:</p>
+
+<p><img src="page-1-example.png" alt="page-1-example" /></p>
+
+<p>The masthead is the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements. Update the number, date, and number of pages.</p>
+
+<p>Now you need to find the templates that correspond to the ads that appear in your issue. There are detailed template instructions <a href="https://dig-eg-gaz.github.io/how-to/templating-instructions/" target="_blank">here</a>. Following the indications there, copy the xml text of template you need.</p>
+
+<p>Next, you must paste this text into the right place in your xml document. The two ads flanking the masthead go right after the title, date, and so on, and before the <code>&lt;/div&gt;</code> tag that closes the masthead:</p>
+
+<p><img src="masthead-xml-example.png" alt="masthead-xml-example" /></p>
+
+<p>Then insert the first ad in the first column after the masthead after the <code>&lt;cb n=&quot;1&quot;/&gt;</code> tag in the advertising section division, and proceed inserting ads all the way to the end of the page.</p>
+
+<h2 id="5-make-sure-that-your-document-is-well-formed">5. Make sure that your document is well-formed</h2>
+
+<p>At the top right hand corner of your editing window in Oxygen, there is a square that will be either red or green. If it&rsquo;s green, your document is well-formed, which means that it conforms to TEI XML standards and will be searchable and useable. If it&rsquo;s red, the file contains errors that you must fix before you submit it. The errors appear as red lines on the right hand scrolling column. Click on a line to see the error described at the bottom of your editing screen.</p>
+
+<p>One common error that prevents a well-formed document:
+- doubled <code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</code> lines at the opening of the xml document.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+<li>“<a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html" target="_blank">A Gentle Introduction to XML</a>,” TEI Consortium.</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/how-to/digitization/microfilm-instructions/" rel="next">Microfilm instructions</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/how-to/digitization/templating-instructions/" rel="prev">Templating instructions</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Sep 5, 2016</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

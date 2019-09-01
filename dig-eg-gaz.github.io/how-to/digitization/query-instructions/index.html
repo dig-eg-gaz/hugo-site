@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Objective We are digitizing the Egyptian Gazette to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for &ldquo;London&rdquo; in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for &ldquo;London&rdquo; in specific parts of the newspaper: page 3, for example, or local news.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/query-instructions/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/query-instructions/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/query-instructions/">
+  <meta property="og:title" content="Querying the Digital Egyptian Gazette | Digital Egyptian Gazette">
+  <meta property="og:description" content="Objective We are digitizing the Egyptian Gazette to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for &ldquo;London&rdquo; in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for &ldquo;London&rdquo; in specific parts of the newspaper: page 3, for example, or local news."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-09-30T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2016-09-30T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Querying the Digital Egyptian Gazette | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/templating-instructions/">Templating</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/github-instructions/">GitHub</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/ocr-instructions/">OCR</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Content markup</a>
+      </li>
+      
+      <li class="active">
+        <a href="/how-to/digitization/query-instructions/">Querying</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/regular-expression-instructions/">Regular expressions</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/visualization-instructions/">Data visualization</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor</a>
+<ul>
+<li><a href="#searching-a-single-file">Searching a single file</a></li>
+<li><a href="#searching-more-than-one-file">Searching more than one file</a></li>
+<li><a href="#searching-the-full-contents-of-the-digital-egyptian-gazette">Searching the full contents of the digital Egyptian Gazette</a></li>
+<li><a href="#basic-xpath-searches">Basic XPath searches</a></li>
+</ul></li>
+<li><a href="#2-basic-principles-of-xpath">2. Basic principles of XPath</a>
+<ul>
+<li><a href="#where-searches">&ldquo;Where&rdquo; searches</a></li>
+<li><a href="#what-searches">&ldquo;What&rdquo; searches</a></li>
+</ul></li>
+<li><a href="#3-navigating-the-tree">3. Navigating the tree</a>
+<ul>
+<li><a href="#search-using-xml-id-or-feature">Search using xml:id or feature</a></li>
+</ul></li>
+<li><a href="#4-working-with-tables">4. Working with tables</a></li>
+<li><a href="#5-recipe-book">5. Recipe book</a>
+<ul>
+<li><a href="#searching-for-instances-of-particular-words">Searching for instances of particular words</a></li>
+<li><a href="#counting-instances">Counting instances</a></li>
+<li><a href="#item-length">Item length</a></li>
+<li><a href="#exclude-section-div-page">Exclude Section/div/Page</a></li>
+<li><a href="#search-for-one-word-but-not-another">Search for one word but not another</a></li>
+</ul></li>
+<li><a href="#6-searching-with-regular-expressions">6. Searching with regular expressions</a></li>
+<li><a href="#7-export-and-manipulate-results">7. Export and manipulate results</a></li>
+<li><a href="#8-xquery">8. XQuery</a></li>
+<li><a href="#9-resources">9. Resources</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Querying the Digital Egyptian Gazette</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="objective">Objective</h2>
+
+<p>We are digitizing the <em>Egyptian Gazette</em> to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for &ldquo;London&rdquo; in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for &ldquo;London&rdquo; in specific parts of the newspaper: page 3, for example, or local news. The two main query (search) languages for XML are <a href="https://www.w3.org/TR/xpath-datamodel-30/" target="_blank">XPath and XQuery</a>. These instructions focus on XPath as used in the Oxygen XML editor.</p>
+
+<h2 id="1-setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor</h2>
+
+<h3 id="searching-a-single-file">Searching a single file</h3>
+
+<p>Open the file that you wish to search in the Oxygen XML editor. Then, click on Find/Replace. This will allow you to search for a keyword in the open file. The results will be displayed at the bottom of the editor. Click on any item in this list to be taken to that location in your file.</p>
+
+<h3 id="searching-more-than-one-file">Searching more than one file</h3>
+
+<p>Open all of the files that you wish to search, then click on Find/Replace in Files:
+<img src="/img/find-replace-oxygen.png" alt="find replace oxygen" />
+This will open a dialogue box. Under &ldquo;Scope,&rdquo; choose &ldquo;All opened files,&rdquo; then proceed with your search.</p>
+
+<h3 id="searching-the-full-contents-of-the-digital-egyptian-gazette">Searching the full contents of the digital Egyptian Gazette</h3>
+
+<p>To search everything in the <a href="https://github.com/dig-eg-gaz/content" target="_blank">Digital Egyptian Gazette content repository</a>, under Find/Replace in Files &gt; Scope, choose &ldquo;Specified path,&rdquo; then navigate to the location where you&rsquo;ve cloned your fork of the content repository. For more information about how to find this location, consult the <a href="https://dig-eg-gaz.github.io/how-to/github-instructions/" target="_blank">Github tutorial</a>.</p>
+
+<h3 id="basic-xpath-searches">Basic XPath searches</h3>
+
+<p>To search directly with XPath, locate the XPath query box near the top left.
+<img src="/img/xpath-query-box-oxygen.png" alt="xpath query box oxygen" />
+The drop-down icon on the left of this box allows you to choose the scope: current file, all opened files, and so on. Now, try these commands:
+- a list of all the &ldquo;divs&rdquo; in your file: <code>//div</code>
+- a list of all the item-type divs in your file: <code>//div[@type=&quot;item&quot;]</code>
+- a list of all the item-type divs in your file containing the word &ldquo;cotton&rdquo;: <code>//div[@type=&quot;item&quot;][contains(., 'cotton')]</code>
+- all tagged names of persons or places in the files: <code>//persName</code> or <code>//placeName</code></p>
+
+<h2 id="2-basic-principles-of-xpath">2. Basic principles of XPath</h2>
+
+<p>XPath asks you to do two things: specify <strong>where</strong> you want to search, and specify <strong>what</strong> you want to search for. An XPath query is a series of terms (words) separated by slashes (/) and other punctuation. For example:</p>
+
+<p><code>//div[@type=&quot;section&quot;]/div/p[contains(., 'cotton')]</code></p>
+
+<h3 id="where-searches">&ldquo;Where&rdquo; searches</h3>
+
+<p>We use XML to structure our issues of the <em>Egyptian Gazette</em> by page, section, item, and so on. For example, we use nesting pairs of tags to put <code>&lt;div type=&quot;item&quot;&gt; &lt;/div&gt;</code> inside <code>&lt;div type=&quot;section&quot;&gt; &lt;/div&gt;</code>, and <code>&lt;div type=&quot;section&quot;&gt; &lt;/div&gt;</code> inside <code>&lt;div type=&quot;page&quot;&gt; &lt;/div&gt;</code>.</p>
+
+<p>This structure is commonly described as a &ldquo;tree.&rdquo; The root is the issue, which branches into six or eight pages, and each page branches into sections and items and paragraphs.</p>
+
+<p>An XPath query shows the tree parts separated slashes, starting from root and heading towards the branches, like so:</p>
+
+<p><code>//div[@type=&quot;page&quot;]/div[@type=&quot;section&quot;]/div[@type=&quot;item&quot;]/p</code></p>
+
+<p>A double slash (<strong>//</strong>) tells the computer to look anywhere in the document for the item that comes next. A single slash (<strong>/</strong>) tells the computer to look only one level up the tree. What difference does this make?</p>
+
+<ul>
+<li><code>//div//head</code> would return any headline in any div in the whole document. This would not be a very good search, because it would return a huge number of results.</li>
+<li><code>//div/div/div/div/head</code> would return any paragraph that is inside four divisions (for instance, a paragraph in an item in a section in a page). This would return fewer results.</li>
+</ul>
+
+<p>The best way to say exactly where you want to look is by using <strong>attributes</strong>. These are contained in square brackets. For example, if you want to search for the headlines within page 1 only, you would say <code>//div[@type=&quot;page&quot;][@n=&quot;1&quot;]//head</code>. What goes in the square brackets is the attributes you put in the <code>&lt;div&gt;</code> tag when you&rsquo;re encoding the issues.</p>
+
+<p>With a little practice, you&rsquo;ll learn to search for results only in the relevant parts of the newspaper.</p>
+
+<h3 id="what-searches">&ldquo;What&rdquo; searches</h3>
+
+<p>After you tell XPath <em>where</em> you want it to search, you can tell it <em>what</em> you want it to return. (This is optional.) Probably the most common thing to search for is a word or words. To do this, add <code>[contains(., &quot;searchtext&quot;)]</code> to the end of your search, putting your search word(s) between the quotation marks. For example, <code>//div[contains(., &quot;plague&quot;)]</code> will return all divs that contain the word &ldquo;plague.&rdquo; Note that this search is case sensitive, and will not return &ldquo;PLAGUE&rdquo; and &ldquo;Plague.&rdquo; To remedy this ,use the <code>matches</code> function with the <code>'i'</code> flag, which makes the search case insensitive: <code>//div[matches(.,'the plague', 'i')]</code>.</p>
+
+<p>You can also search for particular kinds of information. Add a slash to the end of the location, then tell it you want
+- <code>count()</code> &ndash; how many of these things are there?
+- <code>string()</code> &ndash; what is the string of text this thing contains?
+- <code>number()</code> &ndash; what number is found on this branch?</p>
+
+<h2 id="3-navigating-the-tree">3. Navigating the tree</h2>
+
+<p>You can navigate around the tree by using commands like <code>parent::</code> or <code>following-sibling::</code> instead of the slash. These will move you up and down the tree.</p>
+
+<p>For example:
+- Return all datelines contained in a &ldquo;wireReport&rdquo; div type: <code>//div[@type=&quot;wireReport&quot;]/parent::div//dateline</code>
+- Return all placeNames in wireReports: <code>//div[@type=&quot;wireReport&quot;]/parent::div//dateline//placeName</code></p>
+
+<h3 id="search-using-xml-id-or-feature">Search using xml:id or feature</h3>
+
+<p>Many ads, templates, and sections have <code>xml:id</code> or <code>feature</code> tags embedded in them. These are meant to simplify your search. For features, use <code>//div[@feature=&quot;shippingMovements&quot;]</code>. For tables, use <code>//table[@xml:id=&quot;deg-ta-cppa01&quot;]</code>.</p>
+
+<h2 id="4-working-with-tables">4. Working with tables</h2>
+
+<p>Tables are a powerful part of the XML-encoded <em>Egyptian Gazette</em>. XPath gives us tools to return precise parts of the information these tables contain. For example:
+- return the text contained in the cell after a cell containing the text &ldquo;P.T.&rdquo; <code>//table//cell[contains(.,'P.T.')]/following-sibling::cell[1]/text()</code>. Does not work for numbers, it seems.
+- return the number contained in the cell after a cell containing the text &ldquo;Augment.&rdquo; <code>//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/number()</code>. Does not work if number appears as a string (i.e. contains a comma after the thousands for example).
+- return the string contained in the cell after a cell containing the text &ldquo;Augment.&rdquo; <code>//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/string()</code>
+- return the string text of the first paragraph of the div with the heading &ldquo;MARCHE DE MINET&rdquo; <code>//div//head[contains(.,'MARCHE DE MINET')]/following-sibling::p[1]/string()</code>
+- return the value of the &ldquo;when&rdquo; attribute of dates in the third line of the Orient-Royal Mail Line ad: <code>//div[@xml:id=&quot;deg-ad-orm01&quot;]//head/following-sibling::p[3]/date/@when</code></p>
+
+<p>An example of working your way through table cells, looking at prices for cotton:</p>
+
+<ul>
+<li>This query will look at all tables and return the value in the fourth cell to the right of the cell containing the word &ldquo;Cotton&rdquo;: <code>//table//cell[contains(.,'Cotton')]/following-sibling::cell[4]</code></li>
+<li>This query will look at the &ldquo;Coton&rdquo; table (which has an xml:id of &ldquo;deg-ta-cotn01&rdquo;), and return the value in the cell to the right of the cell containing the word &ldquo;Russie&rdquo;:  <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Russie')]/following-sibling::cell[1]</code></li>
+</ul>
+
+<h2 id="5-recipe-book">5. Recipe book</h2>
+
+<p>The possibilities are endless. Here are some samples.</p>
+
+<h3 id="searching-for-instances-of-particular-words">Searching for instances of particular words</h3>
+
+<ul>
+<li>Return all placename items that contain the word &ldquo;Aden&rdquo;: <code>//placeName[contains(.,'Aden')]</code></li>
+</ul>
+
+<h3 id="counting-instances">Counting instances</h3>
+
+<ul>
+<li>Count the number of items containing the term &lsquo;native&rsquo;: <code>count(//div[contains(., 'native')])</code></li>
+<li>count the number of ads (divs) on page 1 (div n=&ldquo;1&rdquo;): <code>count(//div[@n=&quot;1&quot;]//div)</code></li>
+<li>count the number of paragraphs in the division whose heading contains &ldquo;MARCHE DE MINET&rdquo;: <code>count(//div/head[contains(.,'MARCHE DE MINET')]/following-sibling::p)</code></li>
+</ul>
+
+<h3 id="item-length">Item length</h3>
+
+<ul>
+<li>Find all paragraphs longer than 5000 characters: <code>//p[string-length() &gt; 5000]</code></li>
+</ul>
+
+<h3 id="exclude-section-div-page">Exclude Section/div/Page</h3>
+
+<ul>
+<li>Search all the divs after Page 1: <code>//div[not(descendant::div[@n=&quot;1&quot;]) and not(ancestor-or-self::div[@n=&quot;1&quot;])]</code></li>
+</ul>
+
+<h3 id="search-for-one-word-but-not-another">Search for one word but not another</h3>
+
+<ul>
+<li>Search for paragraphs containing the word &ldquo;theatre&rdquo; but not the word &ldquo;performance&rdquo;: <code>//p[contains(.,'theatre')]/text() | //p[contains(.,'theatre')]/*[not(contains(.,'performance'))]/text()</code></li>
+</ul>
+
+<h2 id="6-searching-with-regular-expressions">6. Searching with regular expressions</h2>
+
+<p>It is possible to combine regular expression and XPath searches by using the find/replace menu. Enter the regular expression you wish to search for in the Find box, and the XPath location in which you wish to search in the XPath box. <!--- explain further ---></p>
+
+<h2 id="7-export-and-manipulate-results">7. Export and manipulate results</h2>
+
+<p>Right click on results, then export file. You can then clean up these results with regular expressions to remove the parts you don&rsquo;t want. After this, you can work with the results in a spreadsheet.</p>
+
+<h2 id="8-xquery">8. XQuery</h2>
+
+<p>More complex querying can be accomplished using XQuery.</p>
+
+<p>Example, returning the date of every issue with a page 7:
+<code>for $a in collection(&quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&quot;)
+where $a//*:div[@n=&quot;7&quot;]
+return $a//*:bibl/*:date</code></p>
+
+<p>Identify six versus eight page issues:
+<code>for $a in collection(&quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&quot;)
+return if ($a//*:div[@n=&quot;7&quot;])
+then &lt;eight-page&gt;{data($a//*:bibl/*:date)}&lt;/eight-page&gt;
+else &lt;six-page&gt;{data($a//*:bibl/*:date)}&lt;/six-page&gt;</code></p>
+
+<h2 id="9-resources">9. Resources</h2>
+
+<ul>
+<li><a href="http://www.w3schools.com/xml/xsl_functions.asp" target="_blank">XPath functions list</a></li>
+<li><a href="https://www.w3.org/TR/2010/REC-xpath-functions-20101214/#func-number" target="_blank">W3C XPath functions list</a></li>
+<li><a href="http://www.w3schools.com/xml/xpath_intro.asp" target="_blank">XPath tutorial</a></li>
+<li>Got a question or comment? File an issue <a href="https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/_pages/how-to/query-instructions.md" target="_blank">here</a>.</li>
+</ul>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/how-to/digitization/tagging-people-and-places-instructions/" rel="next">Tagging people and places</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/how-to/digitization/regular-expression-instructions/" rel="prev">Regular expressions instructions</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Sep 30, 2016</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
