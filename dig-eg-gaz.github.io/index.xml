@@ -2532,7 +2532,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-des-courtiers_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-des-courtiers.png&#34; target=&#34;_blank&#34;&gt;Full sized image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the  xml:id &lt;code&gt;deg-ta-adcm01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the  xml:id &lt;code&gt;deg-ta-adcm01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-02-01 &lt;br&gt;&lt;br&gt;Latest: 1907-01-28&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2552,7 +2552,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-des-courtiers-02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-des-courtiers-02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id &lt;code&gt;deg-ta-adcm02&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id &lt;code&gt;deg-ta-adcm02&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-03-01 &lt;br&gt;&lt;br&gt;Latest: 1907-04-02&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2572,7 +2572,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-courtiers-service-special_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-courtiers-service-special.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2612,7 +2612,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cotons_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cotons.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-ctns01&lt;/code&gt;, &lt;code&gt;deg-ta-ctns02&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-ctns01&lt;/code&gt;, &lt;code&gt;deg-ta-ctns02&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2632,7 +2632,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/derniere-heure_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/derniere-heure.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dehe1&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dehe1&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2652,7 +2652,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-04&lt;br&gt;&lt;br&gt;Latest: 1907-05-22&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2796,7 +2796,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-de-la-situation-cotonniere_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-de-la-situation-cotonniere.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-07-18 &lt;br&gt;&lt;br&gt;Latest: 1907-04-23&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2816,7 +2816,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-mouvement-coton_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-mouvement-coton.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: 1906-07-27 &lt;br&gt;&lt;br&gt;Latest: 1907-04-01&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2845,7 +2845,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-agpa01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-agpa01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2905,7 +2905,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/coals_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/coals.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-coal01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-coal01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -2925,7 +2925,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/egyptian-markets-limited_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/egyptian-markets-limited.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-egml01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-egml01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3025,7 +3025,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-tdex01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-tdex01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3073,7 +3073,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3095,7 +3095,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3135,7 +3135,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/london-stock-exchange_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/london-stock-exchange.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-lsex01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-lsex01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3157,7 +3157,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-shli01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-shli01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3177,7 +3177,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list-02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list092.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-shli01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-shli01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1906-07-02&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3197,7 +3197,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-stsh01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-stsh01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3217,7 +3217,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-ssab01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-ssab01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3237,7 +3237,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/telegramme-havas_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/telegramme-havas.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-teha01&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-teha01&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-02&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3361,7 +3361,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/daily-weather-report_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/daily-weather-report.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dawr01&lt;/code&gt;, &lt;code&gt;deg-ta-dawr02&lt;/code&gt;, &lt;code&gt;deg-ta-dawr03&lt;/code&gt;, &lt;code&gt;deg-ta-dawr04&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dawr01&lt;/code&gt;, &lt;code&gt;deg-ta-dawr02&lt;/code&gt;, &lt;code&gt;deg-ta-dawr03&lt;/code&gt;, &lt;code&gt;deg-ta-dawr04&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-02&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3381,7 +3381,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/daily-weather-report-02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/daily-weather-report-02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dawr01&lt;/code&gt;, &lt;code&gt;deg-ta-dawr02&lt;/code&gt;, &lt;code&gt;deg-ta-dawr03&lt;/code&gt;, &lt;code&gt;deg-ta-dawr04&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dawr01&lt;/code&gt;, &lt;code&gt;deg-ta-dawr02&lt;/code&gt;, &lt;code&gt;deg-ta-dawr03&lt;/code&gt;, &lt;code&gt;deg-ta-dawr04&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3401,7 +3401,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/daily-weather-report-small_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/daily-weather-report-small.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dawr01&lt;/code&gt;, &lt;code&gt;deg-ta-dawr02&lt;/code&gt;, &lt;code&gt;deg-ta-dawr03&lt;/code&gt;, &lt;code&gt;deg-ta-dawr04&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dawr01&lt;/code&gt;, &lt;code&gt;deg-ta-dawr02&lt;/code&gt;, &lt;code&gt;deg-ta-dawr03&lt;/code&gt;, &lt;code&gt;deg-ta-dawr04&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3503,7 +3503,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-tramway_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-tramway.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-rrat02&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-rrat02&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3523,7 +3523,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/delta-light-railways_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/delta-light-railways.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dllr01&lt;/code&gt;, &lt;code&gt;deg-ta-dllr02&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dllr01&lt;/code&gt;, &lt;code&gt;deg-ta-dllr02&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3543,7 +3543,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/ramleh-railway-alexandria-tramway_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/ramleh-railway-alexandria-tramway.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt; Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-rrat01&lt;/code&gt;, &lt;code&gt;deg-ta-rrat02&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-rrat01&lt;/code&gt;, &lt;code&gt;deg-ta-rrat02&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3607,7 +3607,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: 1905-01-02 &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3627,7 +3627,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/subscriptions-advertisements-02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
