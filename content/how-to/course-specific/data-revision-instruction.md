@@ -15,16 +15,9 @@ weight: 4
 ---
 As our project develops into a database, it is important for us to ensure the accuracy of our content. One important step of this revision is to check one specific element/section/div across the full run of the Digital Egyptian Gazette.
 
-<div class="panel radius" markdown="1">
-**Contents**
-{: #toc }
-*  TOC
-{:toc}
-</div>
-
 ## 1. Preparation
 Before you start revising our project, you will need to have your fork of the
-content repository updated. ([You can do it through pull request](https://dig-eg-gaz.github.io/how-to/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date)). Download your folk of content repository trough Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all the former file you want to look at. Then, choose the element/section/div that you might want to revise, and find the template for it on our website.
+content repository updated. ([You can do it through pull request](/how-to/digitization/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date)). Download your folk of content repository trough Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all the former file you want to look at. Then, choose the element/section/div that you might want to revise, and find the template for it on our website.
 
 List that feature or element on this [spreadsheet](https://docs.google.com/spreadsheets/d/187JP5PY11SP4sV1WWrDV3aC8riTQScX7tz6WF7_l_34/edit?usp=sharing), to be sure that you are not duplicating someone else's work.
 

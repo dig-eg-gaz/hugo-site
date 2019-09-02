@@ -13,7 +13,6 @@ menu:
 weight: 2
 ---
 
-
 Students wishing to write small tutorials should write in Markdown. Proceed in the same manner as you do with blog posts and analysis reports, but for this assignment fork and add your work to the [tutorials repository](https://github.com/dig-eg-gaz/tutorials). Send a pull request when you are done.
 
 ## How-to wish list
