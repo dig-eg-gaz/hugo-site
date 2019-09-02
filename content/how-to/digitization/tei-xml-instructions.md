@@ -32,7 +32,7 @@ In your xml document, the text of your issue itself (as opposed to just the head
 
 The masthead is the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements. Update the number, date, and number of pages.
 
-Now you need to find the templates that correspond to the ads that appear in your issue. There are detailed template instructions [here](https://dig-eg-gaz.github.io/how-to/templating-instructions/). Following the indications there, copy the xml text of template you need.
+Now you need to find the templates that correspond to the ads that appear in your issue. There are detailed template instructions [here](/how-to/digitization/templating-instructions/). Following the indications there, copy the xml text of template you need.
 
 Next, you must paste this text into the right place in your xml document. The two ads flanking the masthead go right after the title, date, and so on, and before the `</div>` tag that closes the masthead:
 

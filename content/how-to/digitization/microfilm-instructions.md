@@ -14,7 +14,7 @@ weight: 1
 ---
 
 ## Objective
-This tutorial explains how to produced high-quality, [OCR](https://dig-eg-gaz.github.io/how-to/OCR-instructions/)-readable images from microfilm of a historical newspaper. **Note:** Library staff may offer you some help in using the microfilm readers, but they are not responsible to do the work for you. This tutorial explains everything you need to know to do this task.
+This tutorial explains how to produced high-quality, [OCR](/how-to/digitization/OCR-instructions/)-readable images from microfilm of a historical newspaper. **Note:** Library staff may offer you some help in using the microfilm readers, but they are not responsible to do the work for you. This tutorial explains everything you need to know to do this task.
 
 ## 1. Setup
 1. Get film NP 486 for the appropriate month and year from the reserve desk in the basement in Strozier. You can sign it out for two hours. Each film contains three months' worth of issues. You might have to scroll through a lot of film to find your date.

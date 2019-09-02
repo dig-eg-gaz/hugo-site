@@ -25,7 +25,7 @@ menu:
 
 3. [How to scan microfilm](/how-to/digitization/microfilm-instructions)
 5. [How to perform structural markup in TEI-XML](/how-to/digitization/tei-xml-instructions)
-6. [How to use boilerplates](/how-to/digitization/templating-instructions)
+6. [How to use templates](/how-to/digitization/templating-instructions)
 2. [How to use GitHub](/how-to/digitization/github-instructions)
 4. [How to OCR text](/how-to/digitization/ocr-instructions)
 1. [How to use a plain text editor](/how-to/digitization/text-editor-instructions)

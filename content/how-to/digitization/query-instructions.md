@@ -27,7 +27,7 @@ Open all of the files that you wish to search, then click on Find/Replace in Fil
 This will open a dialogue box. Under "Scope," choose "All opened files," then proceed with your search.
 
 ### Searching the full contents of the digital Egyptian Gazette
-To search everything in the [Digital Egyptian Gazette content repository](https://github.com/dig-eg-gaz/content), under Find/Replace in Files > Scope, choose "Specified path," then navigate to the location where you've cloned your fork of the content repository. For more information about how to find this location, consult the [Github tutorial](https://dig-eg-gaz.github.io/how-to/github-instructions/).
+To search everything in the [Digital Egyptian Gazette content repository](https://github.com/dig-eg-gaz/content), under Find/Replace in Files > Scope, choose "Specified path," then navigate to the location where you've cloned your fork of the content repository. For more information about how to find this location, consult the [Github tutorial](/how-to/digitization/github-instructions/).
 
 ### Basic XPath searches
 To search directly with XPath, locate the XPath query box near the top left.

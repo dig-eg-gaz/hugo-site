@@ -24,13 +24,13 @@ Tableau is a powerful tool that can be used to view, manipulate, explore, and an
 3. After downloading and installing the software, you can follow [video tutorials](https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html) to get up to speed with more advanced functions. But for now, let's look at some simple examples using data from the digital Egyptian Gazette.
 
 ## Walkthrough
-1. First, let's gather data to explore in Tableau. This data comes from the [Coton](https://dig-eg-gaz.github.io/templates/#coton) table, which appears regularly in the financial news section of the Egyptian Gazette.
+1. First, let's gather data to explore in Tableau. This data comes from the [Coton](/contents/templates/#coton) table, which appears regularly in the financial news section of the Egyptian Gazette.
 
 2. Using this query: `//table[@xml:id="deg-ta-cotn01"]//cell[contains(.,'balles')]/following-sibling::cell[1]`, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.
 
 3. We will want to do more than just explore total cotton exports so let's also run this query:`//table[@xml:id="deg-ta-cotn01"]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]`, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.
 
-4. The resulting data from each of these queries will be quite raw. We can use [Regular Expressions](https://dig-eg-gaz.github.io/how-to/regular-expression-instructions/) to clean up our data before putting it into Tableau.
+4. The resulting data from each of these queries will be quite raw. We can use [Regular Expressions](/how-to/digitization/regular-expression-instructions/) to clean up our data before putting it into Tableau.
 
 5. The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample [spreadsheet](https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx) containing these data.
 

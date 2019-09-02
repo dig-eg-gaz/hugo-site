@@ -25,7 +25,7 @@ menu:
 
 3. [How to scan microfilm](microfilm-instructions)
 5. [How to perform structural markup in TEI-XML](tei-xml-instructions)
-6. [How to use boilerplates](templating-instructions)
+6. [How to use templates](templating-instructions)
 2. [How to use GitHub](github-instructions)
 4. [How to OCR text](OCR-instructions)
 1. [How to use a plain text editor](text-editor-instructions)
