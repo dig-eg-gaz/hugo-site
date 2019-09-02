@@ -472,7 +472,7 @@
 
 <h2 id="objective">Objective</h2>
 
-<p>This lesson explains how to turn images of text into editable files. Use this technique to work with free text wherever you encounter it in the <em>Egyptian Gazette</em>. Do not use this technique to work with text that has been <a href="https://dig-eg-gaz.github.io/how-to/templating-instructions/" target="_blank">templated</a>. Once you&rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for <a href="https://dig-eg-gaz.github.io/how-to/tagging-people-and-places-instructions/" target="_blank">TEI-XML markup</a>.</p>
+<p>This lesson explains how to turn images of text into editable files. Use this technique to work with free text wherever you encounter it in the <em>Egyptian Gazette</em>. Do not use this technique to work with text that has been <a href="/how-to/digitization/templating-instructions/">templated</a>. Once you&rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML markup</a>.</p>
 
 <h2 id="1-transform-image-into-text">1. Transform image into Text</h2>
 
@@ -506,37 +506,46 @@
 
 <h2 id="3-add-basic-structural-tags">3. Add basic structural tags</h2>
 
-<p>Wrap the text in tags. For now, we&rsquo;ll limit ourselves to three tags:
--  <code>&lt;div type=&quot;item&quot;&gt;</code>, which you can use for articles, items, or any division of the page that makes sense to you,
-- <code>&lt;head&gt;</code>, which indicates a headline (the headline must be the first element in the item),
-- <code>&lt;p&gt;</code>, which indicates a paragraph.</p>
+<p>Wrap the text in tags. For now, we&rsquo;ll limit ourselves to three tags:</p>
+
+<ul>
+<li><code>&lt;div type=&quot;item&quot;&gt;</code>, which you can use for articles, items, or any division of the page that makes sense to you,</li>
+<li><code>&lt;head&gt;</code>, which indicates a headline (the headline must be the first element in the item),</li>
+<li><code>&lt;p&gt;</code>, which indicates a paragraph.</li>
+</ul>
 
 <p>Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit <code>command-E</code>. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit <code>command-slash</code>.</p>
 
-<p>Once you add these tags to your page, you might have a valid document (an thus a green box in Oxygen). But these common errors will probably also have to be addressed:
-- <strong>&amp;</strong>: the ampersand is represented as <code>&amp;amp;</code> in xml. <code>&amp;</code> alone will create an error.
-- <strong>&gt;</strong> or <strong>&lt;</strong>: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.
-- anything else not in a <code>&lt;div&gt;</code>, and not in a <code>&lt;p&gt;</code> or a <code>&lt;head&gt;</code>.</p>
+<p>Once you add these tags to your page, you might have a valid document (an thus a green box in Oxygen). But these common errors will probably also have to be addressed:</p>
+
+<ul>
+<li><strong>&amp;</strong>: the ampersand is represented as <code>&amp;amp;</code> in xml. <code>&amp;</code> alone will create an error.</li>
+<li><strong>&gt;</strong> or <strong>&lt;</strong>: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.</li>
+<li>anything else not in a <code>&lt;div&gt;</code>, and not in a <code>&lt;p&gt;</code> or a <code>&lt;head&gt;</code>.</li>
+</ul>
 
 <h2 id="4-add-feature-attributes">4. Add feature attributes</h2>
 
-<p>There are many recurring features that show up issue after issue: local news, international news, sports, and many more. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is <a href="https://dig-eg-gaz.github.io/features/" target="_blank">here</a>. To add an feature attribute, place it within the <code>&lt;div&gt;</code> tag, after the <code>type=&quot;item&quot;</code> attribute.</p>
+<p>There are many recurring features that show up issue after issue: local news, international news, sports, and many more. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is <a href="/contents/features/">here</a>. To add an feature attribute, place it within the <code>&lt;div&gt;</code> tag, after the <code>type=&quot;item&quot;</code> attribute.</p>
 
 <h2 id="5-add-more-complex-structural-tags">5. Add more complex structural tags</h2>
 
-<p>There are more tags that you can add:
-- If the article or item is in French, add the attribute <code>xml:lang=&quot;fr&quot;</code> to the <code>&lt;div&gt;</code> tag.
-- <strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see <a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb" target="_blank">this guidance</a>.
-- <strong><code>&lt;div type=&quot;section&quot;&gt;</code></strong> to wrap multiple items that belong together, for instance in the international or local news sections.
-- <strong><code>&lt;dateline&gt;</code></strong> for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new <code>&lt;div type=&quot;item&quot;&gt;</code> for each newswire report.
-- <strong><code>&lt;byline&gt;</code></strong> for authors. There can only be one byline per division.
-- <strong><code>&lt;gap/&gt;</code></strong> for holes in the text, <strong><code>&lt;unclear&gt;</code></strong> for illegible text (you can supply an attribute explaining why), and <strong><code>&lt;supplied&gt;</code></strong> for something that was illegible but which you figured out by finding the same thing in a different issue.
-- pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;item1&quot;&gt;</code>. If the articles are in different issues, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;YYYY-MM-DD.xml#item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;YYYY-MM-DD.xml#item1&quot;&gt;</code>.
-- the <strong><code>&lt;figure&gt;</code></strong> element will be useful for the <em>Egyptian Gazette</em>, but I have not yet worked out how to use it.</p>
+<p>There are more tags that you can add:</p>
+
+<ul>
+<li>If the article or item is in French, add the attribute <code>xml:lang=&quot;fr&quot;</code> to the <code>&lt;div&gt;</code> tag.</li>
+<li><strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see <a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb" target="_blank">this guidance</a>.</li>
+<li><strong><code>&lt;div type=&quot;section&quot;&gt;</code></strong> to wrap multiple items that belong together, for instance in the international or local news sections.</li>
+<li><strong><code>&lt;dateline&gt;</code></strong> for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new <code>&lt;div type=&quot;item&quot;&gt;</code> for each newswire report.</li>
+<li><strong><code>&lt;byline&gt;</code></strong> for authors. There can only be one byline per division.</li>
+<li><strong><code>&lt;gap/&gt;</code></strong> for holes in the text, <strong><code>&lt;unclear&gt;</code></strong> for illegible text (you can supply an attribute explaining why), and <strong><code>&lt;supplied&gt;</code></strong> for something that was illegible but which you figured out by finding the same thing in a different issue.</li>
+<li>pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;item1&quot;&gt;</code>. If the articles are in different issues, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;YYYY-MM-DD.xml#item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;YYYY-MM-DD.xml#item1&quot;&gt;</code>.</li>
+<li>the <strong><code>&lt;figure&gt;</code></strong> element will be useful for the <em>Egyptian Gazette</em>, but I have not yet worked out how to use it.</li>
+</ul>
 
 <h2 id="6-add-content-tags">6. Add content tags</h2>
 
-<p>This is a more advanced undertaking. See the separate tutorial <a href="https://dig-eg-gaz.github.io/how-to/tagging-people-and-places-instructions/" target="_blank">here</a>.</p>
+<p>This is a more advanced undertaking. See the separate tutorial <a href="/how-to/digitization/tagging-people-and-places-instructions/">here</a>.</p>
 
 <h2 id="faqs">FAQs</h2>
 

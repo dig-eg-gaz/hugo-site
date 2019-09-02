@@ -466,13 +466,13 @@ Installation  Your FSU emails allow you free access to Tableau’s full Desktop 
 <h2 id="walkthrough">Walkthrough</h2>
 
 <ol>
-<li><p>First, let&rsquo;s gather data to explore in Tableau. This data comes from the <a href="https://dig-eg-gaz.github.io/templates/#coton" target="_blank">Coton</a> table, which appears regularly in the financial news section of the Egyptian Gazette.</p></li>
+<li><p>First, let&rsquo;s gather data to explore in Tableau. This data comes from the <a href="/contents/templates/#coton">Coton</a> table, which appears regularly in the financial news section of the Egyptian Gazette.</p></li>
 
 <li><p>Using this query: <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'balles')]/following-sibling::cell[1]</code>, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.</p></li>
 
 <li><p>We will want to do more than just explore total cotton exports so let&rsquo;s also run this query:<code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]</code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.</p></li>
 
-<li><p>The resulting data from each of these queries will be quite raw. We can use <a href="https://dig-eg-gaz.github.io/how-to/regular-expression-instructions/" target="_blank">Regular Expressions</a> to clean up our data before putting it into Tableau.</p></li>
+<li><p>The resulting data from each of these queries will be quite raw. We can use <a href="/how-to/digitization/regular-expression-instructions/">Regular Expressions</a> to clean up our data before putting it into Tableau.</p></li>
 
 <li><p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample <a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx" target="_blank">spreadsheet</a> containing these data.</p></li>
 
