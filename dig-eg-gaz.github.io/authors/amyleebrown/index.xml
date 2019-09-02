@@ -14,9 +14,9 @@
     
     <item>
       <title>Mistreatment or misunderstanding?</title>
-      <link>https://dig-eg-gaz.github.io/post/s18-brown/</link>
+      <link>https://dig-eg-gaz.github.io/post/18-brown/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/post/s18-brown/</guid>
+      <guid>https://dig-eg-gaz.github.io/post/18-brown/</guid>
       <description>&lt;p&gt;Upon visiting the mosque at the University of al Azhar, Mr. Sheldon Amos, judge of the Native Court, claims that he was met with &amp;ldquo;considerable rudeness&amp;rdquo; on behalf of the students there. This incident caused the chancellor of the university to face repercussions from the government, being required to implement a new system for visitors at the institution.&lt;/p&gt;
 
 &lt;p&gt;Parts of Mr. Amos&amp;rsquo; story do not add up. He claims that the students were rude to him, but at the time he visited the mosque, there was a commotion among the students due to a sudden rain shower. The chancellor of the school claims the visitors were probably sent in the direction of disorder, and that any claims of rudeness are simply a misunderstanding.&lt;/p&gt;
@@ -36,9 +36,9 @@
     
     <item>
       <title>Jobs in Cheap Prepaid Advertisements</title>
-      <link>https://dig-eg-gaz.github.io/post/s-18-analysis-brown/</link>
+      <link>https://dig-eg-gaz.github.io/post/18-analysis-brown/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/post/s-18-analysis-brown/</guid>
+      <guid>https://dig-eg-gaz.github.io/post/18-analysis-brown/</guid>
       <description>&lt;p&gt;For my analysis project, I decided to analyze job advertisements in the “Cheap Prepaid Advertisements” section of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. The specific contents of the job advertisements that I analyzed were the languages that employers wanted applicants to know, the expected gender of the applicants, and the adjectives used to describe desired applicants. In addition, I considered the amount of job advertisements that were present in different months during 1905 and 1906 to see if there were any noticeable trends.&lt;/p&gt;
 
 &lt;p&gt;I used an excel sheet to organize my data into five categories. I placed job titles in column one, the date of the issue in column two, gender mentioned in the advert in column three, adjectives used in column four, and languages required in column five. Overall, I found 129 instances of job advertisements in the issues I searched. I used the Xpath query &lt;code&gt;//div[@element=&amp;quot;prepaidAdvertisements&amp;quot;]&lt;/code&gt; to search my content folder. This brought up places where people used this element tag to describe an item or section. From there, I went through the results and put the data I needed from the job advertisements into my excel sheet. The Xpath query I used was very broad, but I had to use it because there was no way to search for specific job advertisements without yet knowing the names of different jobs. The one disadvantage of using this query is that some people might have put the “Cheap Prepaid Advertisements” section in their file without using the element tag. That said, I decided that my results would provide a good representation of job advertisements in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;

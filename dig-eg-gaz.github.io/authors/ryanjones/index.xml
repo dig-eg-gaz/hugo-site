@@ -14,9 +14,9 @@
     
     <item>
       <title>Humidity In Alexandria</title>
-      <link>https://dig-eg-gaz.github.io/post/s-18-analysis-jones/</link>
+      <link>https://dig-eg-gaz.github.io/post/18-analysis-jones/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/post/s-18-analysis-jones/</guid>
+      <guid>https://dig-eg-gaz.github.io/post/18-analysis-jones/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;jones-2018-04-16.png&#34; alt=&#34;2018-04-16&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When looking back on Alexandria, Egypt over one-hundred years ago one would not expect much interest to be taken in the humidity in the day to day lives of the Alexandrians. In reality humidity could have an effect on how these Alexandrians functioned in their daily lives and caused different consequences on the city as a whole. Seemingly small things can be more impactful than as they appear on the surface. In this analysis project research was done to see how these Alexandrians could have been affected by humidity and what other consequences could have resulted due to high levels of humidity. The resource that was used to gather this information was from a microfilm version of The Egyptian Gazette. This was a British run newspaper in Alexandria, Egypt in the early 1900s when Egypt was still under British control. This means that some of the information in the newspaper could be skewed to make the British empire look better, so I chose to go with something that would be unbiased. In the newspaper there is a section called The Daily Weather Report which presents much information about the weather that the Alexandrians experienced on each day. The Daily Weather Report was found a page 2 in many of the editions of the newspaper. This was the main source of information used for the analysis project and the Xpath query I used was able to pull all of the data for humidity for each of these days in order to help further my work on the project. The Xpath query done in Oxygen XML editor was &lt;code&gt;//table[@xml:id=&amp;quot;deg-ta-dawr01&amp;quot;]/row[6]cell[2]/measure[text()]&lt;/code&gt; and it yielded 149 items which is a sufficient amount of data that could be analyzed and allow me to draw conclusions. Through conversations with class members I was able to find out more interesting facts about humidity. My classmates helped me to become more aware of the health effects of humidity on the human body, so I used their knowledge to investigate on the web. The information found in The Daily Weather Report was useful to Alexandrians in the past, but now it is also useful for todays weather experts in order to compare it to the present to see changes in climate and also to see what kind of health conditions these Alexandrians may have been experiencing.&lt;/p&gt;
@@ -46,9 +46,9 @@
     
     <item>
       <title>The Bad Guys</title>
-      <link>https://dig-eg-gaz.github.io/post/s18-jones/</link>
+      <link>https://dig-eg-gaz.github.io/post/18-jones/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/post/s18-jones/</guid>
+      <guid>https://dig-eg-gaz.github.io/post/18-jones/</guid>
       <description>
 
 &lt;p&gt;The article I decided to write my blog post on was about Russian Terrorism in Alexandria. I found this article on page 3 of the Tuesday edition of January 23, 1907. I chose this article because of how interesting the topic was.&lt;/p&gt;

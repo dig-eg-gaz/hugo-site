@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Hashsish smuggling analysis">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/16-analysis-conway/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/post/16-analysis-conway/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/post/16-analysis-conway/">
+  <meta property="og:title" content="Hash smuggling: seeing the profits through the haze | Digital Egyptian Gazette">
+  <meta property="og:description" content="Hashsish smuggling analysis"><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-12-18T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2016-12-18T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Hash smuggling: seeing the profits through the haze | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Hash smuggling: seeing the profits through the haze</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2016-12-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-12-18 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Dec 18, 2016</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/16-analysis-conway/&amp;text=Hash%20smuggling:%20seeing%20the%20profits%20through%20the%20haze" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/16-analysis-conway/&amp;t=Hash%20smuggling:%20seeing%20the%20profits%20through%20the%20haze" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Hash%20smuggling:%20seeing%20the%20profits%20through%20the%20haze&amp;body=https://dig-eg-gaz.github.io/post/16-analysis-conway/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/16-analysis-conway/&amp;title=Hash%20smuggling:%20seeing%20the%20profits%20through%20the%20haze" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Hash%20smuggling:%20seeing%20the%20profits%20through%20the%20haze%20https://dig-eg-gaz.github.io/post/16-analysis-conway/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/16-analysis-conway/&amp;title=Hash%20smuggling:%20seeing%20the%20profits%20through%20the%20haze" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Although not everyone takes part in it, everyone has been around it and known  someone who indulges in the forbidden fruit that is Hashish. Hashish is an  extracted concentrate from the marijuana plant leaves, that is much more potent  and has been used for thousands of years, but popularity has risen in the past  500 years. Egyptians were the first to really use this drug and its importation  and exportation has stemmed from the African continent for most of its history.  Hashish shares a commonality with its parent, marijuana, in that the smuggling  of it into countries where it is illegal will prove to be a very highly  profitable business if you choose to take the serious risks that are involved.  In my assigned the issues of June 26-July 1, I had 2 occurrences of hashish  being found trying to be smuggled around Egypt, on boats and camels. When I saw  the happening of this I realized a serial question could be posed from that, so  I am going to see how many hashish seizures there were in the year 1905 by doing  a serial analysis of the data that we have been provided by ourselves and  classmates.</p>
+
+<p>There are many occurrences of hashish popping up in 1905 in the Egyptian Gazette. Approximately 25 times in the year in some way hashish has been mentioned, whether in a medical way, or in a post about police seizing it and arresting others. Mostly it has been that hashish has been found or uncovered in a smuggling operation that has gone wrong. There is no shortage of ingenuity when it comes to smugglers, though for they have come up with many interesting ways of concealing the contraband from the authorities, and just like today, they will stop at nothing to make money and get their product to the foreign and very profitable countries that lie outside of their borders. Smuggling of marijuana related products is a serious offense, especially back in 1905, it was not taken lightly and smugglers were punished harshly by the authorities for the serious infringement on law they had committed. Hashish is very possibly the most documented smuggled item in the year; it would not be surprising to learn that it was the most widely smuggled item overall of the year, as Egypt is a large hashish producing and using country.</p>
+
+<p>The first documented seizure is reported in the February 1st edition on page 3 saying there had been a hashish seizure by the Egyptian Coast Guard, in the desert. This was an interesting seizure and report for a few reasons, starting with the Coast Guard in the desert. The Coast Guard in the desert is weird but in Egypt much of the land was actually patrolled by their coast guard, this being their equivalent to the police these days. These men were said to be riding camels and had it hidden in the lining of their saddles completely undetectable to the untrained eye, but for the coast guard they know where to look and how to interrogate. How wild would it be to smuggle thing via camel back, and to have to come up with elaborate schemes to carry hidden Hashish past authorities, these guys were good.</p>
+
+<p>I noticed a really cool mention of Hashish came up on April 28th 1905 that was a fight about a previous edition’s column on Hashish being taken out of the market, and being condemned illegal. Someone says it is a large contradiction to say that it is off the market since they know sure and well it has never been so easily obtained and never been as cheap as it was at that time. They go on further to say that the coast guard will not impose as much as they would on it, as a lot of them were being paid “prize” money to turn a blind eye or they take it and sell it. It says that unless a large penalty is posted on Hashish it will remain a movable commodity, that switches hands between those who seize it and those who smuggle it. Something I have also never seen is marijuana referred to as a “noxious herb” and I thought that was hilarious. It is interesting to read this fight against a column because it is going directly against what the government claims and is truly being a sort of a whistle blower to the whole operation of hashish smuggling and the cooperation of authorities in helping them or helping themselves.</p>
+
+<p>The next mention of Hashish comes on May 24th 1905 when there comes a column on a convention between Egypt and Greece discussing hashish cultivation. The column states that Egypt has given Greece a stern order to completely prohibit the cultivation of hashish. Greece though cannot complete the requests because it simply is not right or possible. It is not right because it is a chief resource to the people that live on the central plateau near Peloponnesus, so if they were to ban the cultivation of this cash crop, it would effectively take the poor farmers and going to send them into a deeper poverty and take away money from the Greek government. The Egyptians end the first convention with a null and void and nothing really happens but the proposition for a second has been announced. The Egyptian Government denounces Greece and has it in their highest priority to end the importation of Greek hashish into Egypt. They also make it paramount to have the resources to strengthen their police force.</p>
+
+<p>The month of July came with 3 arrests in the smuggling of hashish into Egypt. The first was a very large one that came by a whistleblower who gave the police an idea of the possibility of smugglers hiding out on an island off the coast where they were importing the hashish and then waiting to carry it across the water to land to be sold. The next arrest was a Greek native that had hashish bricks wrapped around his legs trying to pass through the border. The following day the coast guard seized 200 kilos off of a ship that came to port and was searched. July was a big month for hashish and almost seems like it was the peak of smuggling for the year.</p>
+
+<p>My next occurrence comes on August 7th where 46 kilos were seized in the Esbekiah quarter. This time there is no hashish mention for more than a month until the same smuggler was arrested trying to come through customs with 7 kilos of hashish in his bag. Persistence is key in smuggling, but stupidity clearly trumped it here. And then an even larger break in time of hashish smuggling comes when there isn’t a seizure for over 3 months until December 13th when the coast guard gets the largest seizure of the year and finds 763 kilos on a ship on the west coast of Egypt. This is by far the largest seizure of the year and is a sign that smugglers stopped with little amount and clearly wanted to make one big move into Egypt at once.</p>
+
+<p>Greed got them here and they lost it all, and most likely their freedom. Smuggling was very rampant in Egypt and the entire Mediterranean at this time in history and with hashish being incredibly profitable it was one of the most smuggled items of the year. The smugglers stopped at nothing to try and get their product to Egypt and it was very interesting to see how some try and succeed, some try and don’t succeed and some never stop trying. But the most interesting part for me is how there was a 3-month lull of no seizures until the biggest one of the year took place, clearly they were waiting and it didn’t pay off.</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/will/avatar_hu35b2da85a4fefe308ddc6fb1d889f904_40763_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://dig-eg-gaz.github.io">Will Hanley</a></h5>
+      <h6 class="card-subtitle">Associate Professor of History</h6>
+      <p class="card-text" itemprop="description">I study the legal history of the Middle East and teach at Florida State University.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/HanleyWill" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=d7LLAbwAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/whanley" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

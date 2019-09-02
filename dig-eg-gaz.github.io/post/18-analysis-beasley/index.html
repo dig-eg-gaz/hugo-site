@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="In this analysis project I analyzed the temperatures of Port Said and Assouan. Specifically, I gathered information about the maximum temperatures and the minimum temperatures. This data was pulled from the section titled ‘Daily Weather Report’ from within the Egyptian Gazette newspaper. The section appears in almost every days’ issue and includes information such as the highs and lows in the shade, the humidity percentages, and the rainfall totals of all the major cities within Egypt during the early twentieth century.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/18-analysis-beasley/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/post/18-analysis-beasley/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/post/18-analysis-beasley/">
+  <meta property="og:title" content="Temperatures in Assouan and Port Said | Digital Egyptian Gazette">
+  <meta property="og:description" content="In this analysis project I analyzed the temperatures of Port Said and Assouan. Specifically, I gathered information about the maximum temperatures and the minimum temperatures. This data was pulled from the section titled ‘Daily Weather Report’ from within the Egyptian Gazette newspaper. The section appears in almost every days’ issue and includes information such as the highs and lows in the shade, the humidity percentages, and the rainfall totals of all the major cities within Egypt during the early twentieth century."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2018-04-18T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2018-04-18T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Temperatures in Assouan and Port Said | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Temperatures in Assouan and Port Said</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2018-04-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2018-04-18 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/parkerbeasley/">Parker Beasley</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Apr 18, 2018</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/analysis/">analysis</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/18-analysis-beasley/&amp;text=Temperatures%20in%20Assouan%20and%20Port%20Said" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/18-analysis-beasley/&amp;t=Temperatures%20in%20Assouan%20and%20Port%20Said" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Temperatures%20in%20Assouan%20and%20Port%20Said&amp;body=https://dig-eg-gaz.github.io/post/18-analysis-beasley/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/18-analysis-beasley/&amp;title=Temperatures%20in%20Assouan%20and%20Port%20Said" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Temperatures%20in%20Assouan%20and%20Port%20Said%20https://dig-eg-gaz.github.io/post/18-analysis-beasley/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/18-analysis-beasley/&amp;title=Temperatures%20in%20Assouan%20and%20Port%20Said" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>In this analysis project I analyzed the temperatures of Port Said and Assouan. Specifically, I gathered information about the maximum temperatures and the minimum temperatures. This data was pulled from the section titled ‘Daily Weather Report’ from within the <em>Egyptian Gazette</em> newspaper. The section appears in almost every days’ issue and includes information such as the highs and lows in the shade, the humidity percentages, and the rainfall totals of all the major cities within Egypt during the early twentieth century. With the information on temperatures that was pulled from almost every day from 1905 to 1907 I was able to analyze the trends in seasonal changes. I observed to see if there were days or weeks where temperatures were too high or too low, resulting in the possibility of work being postponed or the possibility of people getting sick. Outside sources and credits made this process more fluid and really assisted in gathering information about safety requirements within a work place and the dangers of being in extreme hot or cold temperatures for set durations of time.</p>
+
+<p>The locations of Port Said and Assouan are the key points of focus for my research. Port Said is a city that is in northern Egypt and located on the Mediterranean Sea. On the other hand, Assouan is in southern Egypt, near the Nile River, and a part of the Sahara Desert. Both cities have vast differences in their climate and these differences are easily recognizable. For example, Port Said is on the coast of the Mediterranean Sea meaning that it gets a sea breeze unlike Assouan. The sea breeze provides outlets for more moisture content to build up in the area, causing the overall weather-like symptoms to be rather humid and seem hotter on some days than it actually is. Unlike Port Said, Assouan is located in the midst of a desert, meaning that the temperatures fluctuate during the day and night. However, the climate of Assouan is notoriously dry and hot. The Nile River does provide some moisture that can increase the humidity, making the temperatures seem like they are hotter than they actually are, and vice-versa with wind coming off the river making temperatures seem cooler and more bearable.</p>
+
+<p>Another locational difference that stands between the cities of Port Said and Assouan is the Tropic of Cancer. The line serves as a peaking point for the sun during the summer months in the northern hemisphere. On June twenty first of every year the sun appears directly overhead of the Tropic of Cancer marking the initial point and start of summer. The southern most city of the two, Assouan, is directly in the path of the sun during this time. The Tropic of Cancer is located on the latitude 23.5 degrees north, and Assouan is on the latitude 24 degrees north. In addition to being in the path of the Tropic of Cancer line, Assouan is also closer to the equator than Port Said is. When drawing a direct line that connects the two cities the distance between them is four hundred ninety-eight miles, or eight hundred one kilometers. This concludes that Assouan is nearly five hundred miles closer to the equator than Port Said is. For a better grasp of understanding on the distance I’ve included a comparison on distance from two cities in the U.S. From Miami, FL to Charleston, SC it is a direct distance of 485 miles. If you are a native of the Southern region of the United States or have ever travelled to Miami and Charleston during the peak of winter and summer, you know how different these climates and seasonal temperatures are.</p>
+
+<p>In addition to differences in climate and seasonal changes, the data that I collected and observed for Assouan and Port Said were fairly different from one another. To show the data that was collected and then evaluated based on several averages I made two graphs. One graph is composed of the average maximum temperature for each month that the data was recorded for, and the other is the same, just with the average minimum temperature. Note that all the temperatures within ‘The Daily Weather Report’ were recorded in Celsius and not Fahrenheit.</p>
+
+<p><img src="beasley-graphmax.PNG" alt="MAXIMUM TEMPERATURE GRAPH" /></p>
+
+<p><img src="beasley-graphmin.PNG" alt="MINIMUM TEMPERATURE GRAPH" /></p>
+
+<p>Looking at the graphs, you can see that there are numerous spikes within the data. The spikes occur around the month of July, and the month of January both for the maximum and the minimum temperatures. The maximum temperature spikes for Assouan are around forty to forty-three degrees Celsius. Meaning that the maximum average temperature for the month of July in all three years was 109 degrees Fahrenheit. The minimum temperature spikes for Assouan are around twenty-seven to thirty degrees Celsius. Meaning that the minimum average for the month July was eighty-four degrees Fahrenheit. That is a fluctuation of about thirty degrees per day, which is very common all around the world.</p>
+
+<p>The maximum temperatures for Assouan in the month of January averaged at about twenty-three degrees Celsius, or seventy-three degrees Fahrenheit. The minimum temperature for Assouan in the month of January averaged at about eight degrees Celsius, or forty-six degrees Fahrenheit. This once again is about a thirty-degree fluctuation in temperature throughout the day.</p>
+
+<p>If we look at the spikes that occur in the data for Port Said they are around the same times as those of Assouan. This means that the two cities have roughly the same seasonal patterns. However, they are in different climates and that is totally recognizable from the data that was collected. Over the three years that we have data from, the average maximum temperatures for the month of August was around thirty-two degrees Celsius, or eighty-nine degrees Fahrenheit, and the minimum was around 24 degrees Celsius, or seventy-five degrees Fahrenheit. As for the winter months we’ll be looking at the month January. The average maximum temperature over the three years for January was seventeen degrees Celsius, or sixty-two degrees Fahrenheit, and the minimum temperatures were about five degrees Celsius, or forty-one degrees Fahrenheit.</p>
+
+<p>In conclusion, this data sums up that the average annual temperature for Assouan is much higher than Port Said. During the beginning of the summer months Assouan is hottest. This is because of the location in comparison to the Tropic of Cancer. During the middle of winter months Port Said is coldest. This also has to do with their location in comparison the Tropic of Cancer, but more so due to the equator.</p>
+
+<p>Additionally, in The <em>Egyptian Gazette</em> we can read about the things that people did for enjoyment, work, and many other things. In particular, we are able to analyze that during the summer months people often left Egypt to go elsewhere. When reading the newspaper, a reader can see a plethora of advertisements having to do with ships leaving and/or returning. A huge sum of these ships leaves during the hottest time of year, and it is no coincidence. Work is abandoned in the summer months and people go off for vacation. This isn’t the case in the winter months because the average daily temperatures were extremely comfortable, and barely dipped below forty degrees, and barely peaked any higher than seventy-five degrees. To see why work might have been abandoned during the summer months in Egypt I did some research about the possible side effects of working in extreme temperatures.</p>
+
+<p>There are many plus sides to working year-round, but there are also factors that put people at risk. Working in the extreme heat increases the likelihood of developing heat stress. Heat stress can occur from being out in the heat for too long, working at a high rate, or wearing the wrong type of clothing. The effect of this is the body trying to regulate its temperature and ultimately starting to fail. Resulting in dehydration and nausea. This is a huge reason why work load was put off in Egypt during the summer months, especially in cities that were closer to the Tropic of Cancer, and the equator. In cities like Assouan there are recorded temperatures exceeding one hundred degrees Fahrenheit. These are not suitable working temperatures and working in these environments can lead to exhaustion and even death.</p>
+
+<p>Furthermore, the body’s set point temperature is ninety-eight point six degrees Fahrenheit. Whenever the temperature outside or in the working environment exceeds or goes below this temperature, the body is trying to cool, or obtain heat. In today’s modern time we have technology that allows us to see what the current temperature is at all times. This includes temperatures with or without a heat index to get the ‘feels like’ temperature. However, in early twentieth century Egypt there weren’t weather instruments that were accurate enough to constantly check the weather and its symptoms. All that was given was the daily maximum and minimum in the shade, so there was no way to tell what the ‘feels like’ temperature was. This could’ve resulted in occasions where people suffered heat stroke and other heat related symptoms because they didn’t know what the actual temperature outside was.</p>
+
+<p>Reading through the <em>Egyptian Gazette</em> will give you abundant information about Alexandria, the neighboring cities, and Egypt all together during the early twentieth century. As an historian, reading the numbers that are provided in the daily weather report mean next to nothing. However, comparing cities within the report with the help of modern information allows for a better understanding of why the Egyptian community did certain things at differing times of the year. Assouan and Port Said are two of the most separated cities in Egypt and give insight on the conditions of life in Egypt during this time from an understanding perspective.</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/parkerbeasley/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/parkerbeasley/">Parker Beasley</a></h5>
+      <h6 class="card-subtitle">Student</h6>
+      <p class="card-text" itemprop="description">The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2018.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/parkerb21" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

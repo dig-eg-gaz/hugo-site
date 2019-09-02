@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I have decided to write my analysis projected on the bubonic plague, but more specifically, how hospitals were affected over the span of year (1905-1906). This was during the third major outbreak that occurred in Asia (more info here). By this time, some preventive methods and treatments were known so being cured from the plague was possible. Since the rate of infections was shifting during this time, I wanted to know how many people were being treated in the hospital (spots occupied) and how many died in the hospital per month.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/17-analysis-morales/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/post/17-analysis-morales/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/post/17-analysis-morales/">
+  <meta property="og:title" content="The Plague and the roles hospitals played | Digital Egyptian Gazette">
+  <meta property="og:description" content="I have decided to write my analysis projected on the bubonic plague, but more specifically, how hospitals were affected over the span of year (1905-1906). This was during the third major outbreak that occurred in Asia (more info here). By this time, some preventive methods and treatments were known so being cured from the plague was possible. Since the rate of infections was shifting during this time, I wanted to know how many people were being treated in the hospital (spots occupied) and how many died in the hospital per month."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-05-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2017-05-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>The Plague and the roles hospitals played | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">The Plague and the roles hospitals played</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2017-05-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2017-05-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jonathanmorales/">Jonathan Morales</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 1, 2017</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/17-analysis-morales/&amp;text=The%20Plague%20and%20the%20roles%20hospitals%20played" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/17-analysis-morales/&amp;t=The%20Plague%20and%20the%20roles%20hospitals%20played" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20Plague%20and%20the%20roles%20hospitals%20played&amp;body=https://dig-eg-gaz.github.io/post/17-analysis-morales/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/17-analysis-morales/&amp;title=The%20Plague%20and%20the%20roles%20hospitals%20played" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=The%20Plague%20and%20the%20roles%20hospitals%20played%20https://dig-eg-gaz.github.io/post/17-analysis-morales/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/17-analysis-morales/&amp;title=The%20Plague%20and%20the%20roles%20hospitals%20played" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>I have decided to write my analysis projected on the bubonic plague, but more specifically, how hospitals were affected over the span of year (1905-1906). This was during the third major outbreak that occurred in Asia (more info <a href="http://www.nytimes.com/2010/11/01/health/01plague.html" target="_blank">here</a>). By this time, some preventive methods and treatments were known so being cured from the plague was possible. Since the rate of infections was shifting during this time, I wanted to know how many people were being treated in the hospital (spots occupied) and how many died in the hospital per month. Instead of looking at overall deaths contractions of the plague, I would be looking at how the plague affected hospitals during this time period. This question came to me while reading the &lsquo;local and general&rsquo; section of the <em>Gazette</em>. I noticed there was an article for the plague that not only mentioned the recorded number of new cases and deaths of the plague but also how many were taken to a hospital and what happened to those patients.</p>
+
+<p>To find the answer to my question, I had to construct an xPath query to search through the various <em>Gazettes</em>. I started off by creating the query: <code>//div[@type=&quot;item&quot;][contains(.,'the plague')]</code>. I noticed that this returned all items that mentioned the plague - even ads. So I changed my query to search for &lsquo;the plague&rsquo; under the head tag. <code>//div[@type=&quot;item&quot;]/head[contains(.,'the plague')]</code>. I noticed that although this returned the correct type of articles I was looking for, it only returned some but not all. I realized that it was because on some it was typed as &ldquo;THE PLAGUE&rdquo; while others were typed as &ldquo;The Plague&rdquo;, &ldquo;the plague&rdquo;, or some other letter case variation. To solve that problem, I changed the query to <code>//div[@type=&quot;item&quot;]/head[matches(.,'the plague', 'i')]</code> which uses the &lsquo;i&rsquo; flag to ignore case sensitivity and just search for the phrase. Upon beginning to read through the results, I found that not all the articles about the plague mentioned anything about hospitals. Some just gave the total number of cases on the plague while others spoke about warnings or information on it. To ensure I only got back articles from the plague that also mentioned hospitals, I used the final query: <code>//div[@type=&quot;item&quot;]/head[matches(.,'the plague', 'i')]/following-sibling::p[matches(.,'hospital', 'i')]</code> . By telling xPath to look for a paragraph sibling that mentioned &lsquo;hospital&rsquo; I was able to find exactly what I was looking for.</p>
+
+<p>To collect the data for my analysis, I sorted the numbers into two groups: the number of patients that were being treated and taking up space in the hospital and those that died in the hospital. For data accuracy purposes and to prevent any abnormalities, I ignored people that were brought to the hospital and found dead or any mentions of death or contractions outside of the hospital. These two groups were then further sorted by months. After collecting my data, I was able to construct the following graphs in Excel:</p>
+
+<p><img src="morales-graph1.PNG" alt="Line graph for hospital deaths" /></p>
+
+<p><img src="morales-graph2.PNG" alt="Line graph for hospital patients" /></p>
+
+<p>From this graph, I inferred two things:
+A) There were a lot of months without any hospital data and
+B) The number of patients being reported seemed low.</p>
+
+<p>These results led me to two further questions:
+1. For the missing months, was the plague not mentioned at all? Was no one admitted to the hospital for the plague during those months? and
+2. Was the low number of patients normal, above normal, or below normal when compared relatively to the amount of deaths or new cases being reported outside of the hospital?</p>
+
+<p>To find the answer to the first question, I used the following query:
+<code>//div[@type=&quot;item&quot;]/head[matches(.,'the plague', 'i')] )</code>
+This way I could see what the <em>Gazette</em> said about the plague each day and if there were some months that didn&rsquo;t report any cases or if it did but didn&rsquo;t report any hospital cases. While reading through the results however, I found that the <em>Gazette</em> also wrote articles about the plague with the title &ldquo;bubonic plague&rdquo; instead of just &ldquo;the plague&rdquo;. Some of these articles mentioned hospital reports so I ran a new query with:
+<code>//div[@type=&quot;item&quot;]/head[matches(.,'bubonic', 'i')]</code> (some entries were typed as bubonic plaque instead of plague)
+This brought up new results that I hadn&rsquo;t seen before and re-populated my data with this new information. The graphs were slightly altered and generated this in Excel:</p>
+
+<p><img src="morales-graph3.PNG" alt="Line graph for hospital deaths updated" /></p>
+
+<p><img src="morales-graph4.PNG" alt="Line graph for hospital patients updated" /></p>
+
+<p>Still, even after these new data points, I was still missing a significant amount of months from my graphs. I returned to my previous query searching just for the plague and began to see if those missing months didn&rsquo;t in fact mention any death or new cases.
+I found that:
+* February started off with a clean start. New cases almost immediately were cured. Only 1 fatal case was reported.
+* No articles on the plague were written for the month of March.
+* April had low numbers of cases reported. Only about 5 were reported.
+* In October, Egypt was declared plague free on the 23rd.
+* In November, only one case was reported.
+* No records of the plague were recorded between December of 1905 and March of 1906.</p>
+
+<p>From these findings, I can conclude that the plague was in fact mentioned during these months and did have cases reported but only a handful and none were sent to the hospital. This could be due to the decrease in cases throughout the years. The total number of reported cases in 1905 was 259 but in 1904 was 808.
+From this query, I was also able to answer my second question. While comparing the number of deaths and new cases that happened outside of hospitals vs inside, I found that all cases and death outside of hospitals were either about the same or more than in hospitals. This leads me to conclude that the number of patients being recorded in the hospital was most of the time average or at times below average when it was compared to out of hospital records.</p>
+
+<p>In conclusion, I definitely learned a lot about the plague and the process of filtering through various items to get what I needed. Starting the report, I thought that hospitals were going to be a large part of the plague and that there would rarely be reported deaths or new cases that were found outside of the hospital. Ending now, I see it’s the complete opposite. I believe this is because the plague had been going on for years now, and cure as well as prevention was being practiced during this time. In fact, so few reports of the plague came up that there were times Egypt was declared plague-free and when one or two cases came up, quarantines would be put into effect to prevent the spreading of the disease. All this was shown throughout the articles of the <em>Egyptian Gazette</em>. Although there weren&rsquo;t as many plague records as I wish I could have seen, this gave me some great insight to where they and their hospitals stood in the years of 1905-1906.</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/jonathanmorales/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/jonathanmorales/">Jonathan Morales</a></h5>
+      <h6 class="card-subtitle">Student</h6>
+      <p class="card-text" itemprop="description">The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2017.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
