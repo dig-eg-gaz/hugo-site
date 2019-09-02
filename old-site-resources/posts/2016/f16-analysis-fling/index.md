@@ -1,10 +1,6 @@
 ---
-layout: page
-title: The Egyptian Gazette’s Fires of 1905
-author: AmberFling
-permalink: /analysis/2016/fling-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "The Egyptian Gazette’s Fires of 1905"
+authors: [AmberFling]
 ---
 
 ![photo](https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/analysis-images/fling-Individual-Project-Photo.png?raw=true "photo")

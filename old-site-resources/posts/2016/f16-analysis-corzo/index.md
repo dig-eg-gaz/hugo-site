@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Silent Killer
-author: thomascorzo
-permalink: /analysis/2016/corzo-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Silent Killer"
+authors: [thomascorzo]
 ---
 
 ![Serial Analysis Data](https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/analysis-images/corzo-image.png?raw=true)

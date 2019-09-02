@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Advertising in Alexandria Egypt 1905
-author: Olivia Evanoff
-permalink: /analysis/2016/evanoff-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Advertising in Alexandria Egypt 1905"
+authors: [Olivia Evanoff]
 ---
 
 ![table](https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/analysis-images/evanoff-table.jpg?raw=true "table")

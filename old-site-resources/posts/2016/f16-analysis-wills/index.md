@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Global Diplomatic Influence on Egypt
-author: LoganWills
-permalink: /analysis/2016/wills-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Global Diplomatic Influence on Egypt"
+authors: [LoganWills]
 
 ---
 The *Egyptian Gazette* was a popular newspaper company that first published its one of a

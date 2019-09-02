@@ -1,10 +1,8 @@
 ---
-layout: page
-title: Counting Countries, Counting Cities
+title: "Counting Countries, Counting Cities"
 teaser: "My final project for IFS 2116."
-permalink: /analysis/2016/white-analysis
 date: 2016-12-07
-author: John White
+authors: [John White]
 tags:
   - final
   - international news

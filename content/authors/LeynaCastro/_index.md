@@ -1,9 +1,9 @@
 ---
 # Display name
-name: Leyna Castro
+name: Will Pearce
 
 authors:
-- leynacastro
+- willpearce
 
 superuser: no
 

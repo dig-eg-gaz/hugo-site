@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Expeditions in 1905
-author: EmmaTaylor
-permalink: /analysis/2016/taylor-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Expeditions in 1905"
+authors: [EmmaTaylor]
 ---
 ![screenshot](https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/analysis-images/taylor-screenshot.png?raw=true "screenshot")
 

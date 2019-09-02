@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Fleet Tracking
-author: Jacob Stefonek
-permalink: /analysis/2016/stefonek-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Fleet Tracking"
+authors: [Jacob Stefonek]
 ---
 ![figure](https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/analysis-images/stefonek-Serial-Example.PNG?raw=true "figure")
 

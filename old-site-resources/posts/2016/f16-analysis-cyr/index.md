@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Bubonic Plague In Egypt, 1905
-author: Erek Cyr
-permalink: /analysis/2016/cyr-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Bubonic Plague In Egypt, 1905"
+authors: [Erek Cyr]
 ---
 The goal of this final project was to focus and analyze instances of ‘disease’ found
 within the pages of the Egyptian Gazette in the year 1905. Each student in the class

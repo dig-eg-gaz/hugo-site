@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Analysis
-author: RileyOuellette
-permalink: /analysis/2016/ouellette-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Analysis"
+authors: [RileyOuellette]
 ---
 
 ![alt text](http://imgur.com/a/Y0Fzn?raw=true)

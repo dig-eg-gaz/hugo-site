@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Fluctuation in Egyptian Cotton Exports Throughout the Year
-author: DanteGrieco
-permalink: /analysis/2016/grieco-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Fluctuation in Egyptian Cotton Exports Throughout the Year"
+authors: [DanteGrieco]
 ---
 For millennia, cotton has been cultivated extensively in Egypt along the banks of
 the Nile Valley.

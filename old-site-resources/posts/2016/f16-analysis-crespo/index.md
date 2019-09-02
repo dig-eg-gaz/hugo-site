@@ -1,10 +1,7 @@
 ---
-author: Anet Crespo
+authors: [Anet Crespo]
 date: 9 February 2017
-title: Nile River
-permalink: /analysis/2016/crespo-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Nile River"
 ---
 The Nile River is a river that flows in Northeastern Africa. The Nile River is known for its length as the longest river in the world. The Nile River passes through eleven countries, Tanzania, Uganda, Rwanda, Burundi, the Democratic Republic of Congo, Kenya, Ethiopia, Eritrea, South Sudan, Sudan, and Egypt (Pedersen). The Nile River supplies these countries with water and fertile soil. The Nile River floods during season and helps out with the harvesting of the crops that are grown beside it, too much flooding though, can cause serious damage to the crops. In order to know when the Nile River would flood the Ancient Egyptians measured the depth systematically. In a land with so little rainfall, this flooding was essential for the well-being of the crops.
 

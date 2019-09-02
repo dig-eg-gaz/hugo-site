@@ -1,10 +1,6 @@
 ---
-layout: page
-title: 20th Century Smoking Culture
-author: Alexander Caliendo
-permalink: /analysis/2016/caliendo-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "20th Century Smoking Culture"
+authors: [Alexander Caliendo]
 ---
 In 1905 Alexandria, *The Egyptian Gazette* consisted of a vast quantity of diverse information. On one end of the spectrum, you had instances of local community reports about robberies, and local sporting events. At a wider view, the newspaper contained articles about the Egyptian economy, and world-wide events. While this is a great characteristic of generally any newspaper, for the purpose of the final project, the over abundance of diverse information made the process of choosing a serial question to research moderately difficult.
 

@@ -1,10 +1,6 @@
 ---
-layout: page
-title: Cultural Significance of Events in Alexandria
-author: Samantha Lappin
-permalink: /analysis/2016/lappin-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "Cultural Significance of Events in Alexandria"
+authors: [Samantha Lappin]
 ---
 I am researching the most common events publicly hosted in Alexandria, and possibly Cairo for comparison, and what this could possibly mean about the culture of the people. In order to do so, I needed to find every list of events in the paper. In order to find these, I began with my own issues of the paper, knowing I had labeled everything of this sort with “scope=’calendar’” so all I had to do was use the regular search function and find all of these. Once I had done so, I took note of what each of these segments were called; it seemed there were only the “Calendar of Events,” “Coptic Calendar/Weekly Calendar,” and “Seasonal Fixtures.” Knowing that the Coptic calendar had nothing to do with the information I was looking for, I elected to ignore it in my search. Therefore, I began searching every issue for the term “calendar” and the string “seasonal fixtures.” I had to do so manually, flipping through every issue and using the less powerful search function, because my xpath is malfunctioning for some reason and won’t return any results, even when I search for strings that I know exist at least within my own issues of the paper. Also, there were too many flags on some issues to attempt to resolve them so I could get information from those issues of the paper via the xpath query. Regardless, I carried out my search and found the issues of the paper containing calendars and lists of events.
 

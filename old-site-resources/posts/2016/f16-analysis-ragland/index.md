@@ -1,10 +1,6 @@
 ---
-layout: page
-title: The Exploration of Musicians in Alexandria
-author: ChristianRagland
-permalink: /analysis/2016/ragland-analysis
-header:
-  image_fullwidth: front-page.jpg
+title: "The Exploration of Musicians in Alexandria"
+authors: [ChristianRagland]
 ---
 #Intro and Question
 
