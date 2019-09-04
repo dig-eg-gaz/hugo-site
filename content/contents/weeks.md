@@ -38,7 +38,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|||
 ---|---|---|---|---|---|---
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|||
-*30|July 22, 1907|July 27, 1907|[Shaneze Tyesha Douglas](https://github.com/)|||
+30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|||
 31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|||
 *33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/)|||
 ---|---|---|---|---|---|---
@@ -48,7 +48,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|||
 ---|---|---|---|---|---|---
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||
-*39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/)|||
+39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/KwNick305)|||
 *40|September 30, 1907|October 5, 1907|[Adam Crum](https://github.com/)|||
 41|October 7, 1907|October 12, 1907|[Milan Amar](https://github.com/milanamar)|||
 ---|---|---|---|---|---|---
