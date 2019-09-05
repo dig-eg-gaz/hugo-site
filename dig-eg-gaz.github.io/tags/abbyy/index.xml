@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ABBYY | Digital Egyptian Gazette</title>
+    <link>https://dig-eg-gaz.github.io/tags/abbyy/</link>
+      <atom:link href="https://dig-eg-gaz.github.io/tags/abbyy/index.xml" rel="self" type="application/rss+xml" />
+    <description>ABBYY</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <title>ABBYY</title>
+      <link>https://dig-eg-gaz.github.io/tags/abbyy/</link>
+    </image>
+    
+    <item>
+      <title>OCR OCSucks</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-11-09-sain-technical-reflection/</link>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-11-09-sain-technical-reflection/</guid>
+      <description>&lt;p&gt;Although the whole process of learning new word processing and encoding programs was challenging, the most frustrating aspect was the &lt;a href=&#34;https://www.abbyy.com/en-us/finereader/about-ocr/what-is-ocr/&#34; target=&#34;_blank&#34;&gt;OCR&lt;/a&gt;. It is supposed to be a faster way to translate the newspaper pages into plain text, it turned out to take up about as much time as it would have to hand type it all. I felt as if no matter how many times I scanned the &lt;a href=&#34;https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche&#34; target=&#34;_blank&#34;&gt;microfilm&lt;/a&gt; images and changed the focus, brightness, contrast, or zoomed in on the page, it would not run through &lt;a href=&#34;https://www.abbyy.com/en-us/&#34; target=&#34;_blank&#34;&gt;ABBYY&lt;/a&gt; in the way I was expecting it to. I was hoping to have to make minimal corrections after the scanned images were OCRed, but with all the pages I have done up to this point, I have had to make a minimum of two hours’ worth of corrections per page. The word processing software may read a majority of the words (I would estimate around 85%), I still spent a majority of my time in this class fixing the mistakes the OCR made. I also found the other programs in this class easier to use than ABBYY. Sometimes while editing a word, the image it received it from would disappear, I also found the ordering of the paragraphs challenging at times. Overall, the program may have saved me some time, but another OCR processor may be more efficient, from my experience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finereader Rage</title>
+      <link>https://dig-eg-gaz.github.io/post/2016-10-28-thompson-finereader-rage/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/post/2016-10-28-thompson-finereader-rage/</guid>
+      <description>&lt;p&gt;So my biggest technical difficulty while working on this project has to have been the multiple errors that I encountered while using he OCR. Overall it worked ok, but when it failed, it failed big time. For instance, while correcting some of the errors in one page I was on the very last paragraph and went to save it, and Finereader crashed. Two hours of work, two hours of my life, gone, down the drain, and there was nothing I could do about it. I was understandably irate, but after I took some time for cathartic expression and collected myself, I felt much better. I also found out that I was not alone in my anger, some of my fellow students had been experiencing troubles as well.&lt;/p&gt;
+
+&lt;p&gt;However, from what I have seen online, things could have actually been much worse. Apparently it could actually cause other Microsoft programs to crash, at least according to &lt;a href=&#34;https://support.microsoft.com/en-us/kb/2755838&#34; target=&#34;_blank&#34;&gt;this support article on Microsoft’s website&lt;/a&gt;. I could also have run into errors that wouldn’t have allowed me to do any work within Finereader, such as the &lt;a href=&#34;http://knowledgebase.ocrsdk.com/article/1096&#34; target=&#34;_blank&#34;&gt;license not reading&lt;/a&gt;, so that fact that it worked for me relatively well is a good thing in general.&lt;/p&gt;
+
+&lt;p&gt;Overall, Finereader was a useful program that, while annoying at times, did enable me to do my work properly and relatively quickly.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

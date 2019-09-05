@@ -40,7 +40,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|||
 30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|||
 31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|||
-*33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/)|||
+33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|||
