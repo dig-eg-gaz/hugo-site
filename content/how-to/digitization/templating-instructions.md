@@ -19,12 +19,13 @@ While [features](/contents/features/) of the *Egyptian Gazette* were composed fr
 ## 1. Recurring features
 
 The first step is to determine if you are looking at something that is a template. Advertisements, tables, and other material that is not free text is probably templated. Check these indexes to see if you can find something identical or similar to what you want to find:
+
 - The complete catalog of advertisements is [here](/contents/advertisements/).
 - The complete catalog of financial tables and other boilerplates is [here](/contents/templates/).
 
 These indexes contain images of the templated items, links to TEI-XML documents representing the templated item, and (sometimes) a comment or two about the template. Once you've identified the relevant template, copy and paste its XML into your own file. **Important**: Only copy the material contained within the `<body> </body>` tags--the rest of the file should not appear in your issue file. To do so, select the text like this:
 
-![copy-paste-example](/img/advertisement-copy-paste.png)
+![templateCopy](/img/templateCopy.png)
 
 Paste only this portion of the text into your issue document.
 

@@ -28,7 +28,7 @@ Enter your name into the template (under `<editor>`), today's date (under `<edit
 ## 4. Copy and paste templated material
 In your xml document, the text of your issue itself (as opposed to just the header) starts like this:
 
-![page-1-example](page-1-example.png)
+![page-1-example](/img/page-1-example.png)
 
 The masthead is the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements. Update the number, date, and number of pages.
 
@@ -36,7 +36,7 @@ Now you need to find the templates that correspond to the ads that appear in you
 
 Next, you must paste this text into the right place in your xml document. The two ads flanking the masthead go right after the title, date, and so on, and before the `</div>` tag that closes the masthead:
 
-![masthead-xml-example](masthead-xml-example.png)
+![masthead-xml-example](/img/masthead-xml-example.png)
 
 Then insert the first ad in the first column after the masthead after the `<cb n="1"/>` tag in the advertising section division, and proceed inserting ads all the way to the end of the page.
 

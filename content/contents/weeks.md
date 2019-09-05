@@ -33,14 +33,14 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 *18|April 29, 1907|May 4, 1907|[Moriah Grace House](https://github.com/)|||
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
-22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas5777)|||
+22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|||
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|||
 24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|||
 ---|---|---|---|---|---|---
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|||
 30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|||
 31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|||
-33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
+*33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|||
@@ -63,7 +63,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|||
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|||
-51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
+*51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|||
 1|December 30, 1907|January 4, 1908|[Gabrielle Murray](https://github.com/gam18g)|||
 ---|---|---|---|---|---|---
@@ -82,7 +82,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 23|June 5, 1905|June 10, 1905|[Joseph Chack-On](https://github.com/jochack/dig-eg-gaz)||3|
 24|June 12, 1905|June 17, 1905|[Thomas Corzo](https://github.com/ThomasC24)||2|
 27|July 3, 1905|July 8, 1905|[Will Hanley](https://github.com/whanley)||3|
-33|August 14, 1905|August 19, 1905|[Zach Reddick](https://github.com/znr13)|5||
 42|October 16, 1905|October 21, 1905|[Brooklyn Vincent](https://github.com/bjv15/dig-eg-gaz)||1|
 2|January 8, 1906|January 13, 1906|[Nino Fricano](https://github.com/ninofricano)||3|
 3|January 15, 1906|January 20, 1906|[Cameron Greco](https://github.com/cgreco1)||3|
