@@ -25,12 +25,12 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 49|December 3, 1906|December 8, 1906|[Tomas Cabezas](https://github.com/tomascabezas)|||
 51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|||
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
-*3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/)|||
+3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|45||
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|||
 *11|March 11, 1907|March 16, 1907|[Tyler David Kolby](https://github.com/)|||
-*18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||
+18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|||
@@ -40,7 +40,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|||
 30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|||
 31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|||
-*33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
+33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|||
@@ -63,7 +63,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|||
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|||
-*51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
+51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|||
 1|December 30, 1907|January 4, 1908|[Gabrielle Murray](https://github.com/gam18g)|||
 ---|---|---|---|---|---|---
