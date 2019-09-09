@@ -8,8 +8,8 @@ draft: false
 menu:
   resources:
     parent: Resources
-    weight: 7
+    weight: 9
 
-weight: 7
+weight: 9
 ---
 This page will list unicode symbols for the Digital _Egyptian Gazette_ project.

@@ -2236,7 +2236,76 @@
       <link>https://dig-eg-gaz.github.io/resources/</link>
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/</guid>
-      <description>&lt;p&gt;Use the menu to the left to access some of the infrastructure of the Digital &lt;em&gt;Egyptian Gazette&lt;/em&gt; project.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Use the menu to the left to access some of the infrastructure of the Digital &lt;em&gt;Egyptian Gazette&lt;/em&gt; project.&lt;/p&gt;
+
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+
+&lt;p&gt;The &lt;em&gt;Egyptian Gazette&lt;/em&gt;, a daily newspaper catering to English and French speaking residents of Alexandria, began publication in 1880. This website is product of a digital microhistory course at &lt;a href=&#34;fsu.edu&#34; target=&#34;_blank&#34;&gt;Florida State University&lt;/a&gt;, which was offered for the first time in fall 2016. The aim of this course is to produce a digital version of the paper for the years 1905-8, including full structure and content markup. This website presents the contents of the paper, and host student analysis of our findings.&lt;/p&gt;
+
+&lt;p&gt;For more information, contact &lt;a href=&#34;https://history.fsu.edu/person/will-hanley&#34; target=&#34;_blank&#34;&gt;Will Hanley&lt;/a&gt; by &lt;a href=&#34;willpdfs@gmail.com&#34; target=&#34;_blank&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;course-description&#34;&gt;Course description&lt;/h3&gt;
+
+&lt;p&gt;Through close reading of the Egyptian Gazette, an English-language daily newspaper published in Alexandria, we will compile comprehensive data about local events during a single year, 1905. Each student will be responsible for one week (6 issues, totaling 40 pages) of the paper; together we will cover the year.&lt;/p&gt;
+
+&lt;p&gt;This class brings together&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;microhistory,&lt;/li&gt;
+&lt;li&gt;urban history,&lt;/li&gt;
+&lt;li&gt;Middle Eastern history,&lt;/li&gt;
+&lt;li&gt;media history,&lt;/li&gt;
+&lt;li&gt;and digital history.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is suitable for those interested in&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;history&lt;/li&gt;
+&lt;li&gt;Middle East studies&lt;/li&gt;
+&lt;li&gt;digital humanities&lt;/li&gt;
+&lt;li&gt;computer science&lt;/li&gt;
+&lt;li&gt;communications&lt;/li&gt;
+&lt;li&gt;international studies&lt;/li&gt;
+&lt;li&gt;history of journalism and advertising&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No background in these fields is necessary, however.&lt;/p&gt;
+
+&lt;p&gt;We will gather this data using digital methods. Students will learn to use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;microfilm&lt;/li&gt;
+&lt;li&gt;photo stitching (&lt;a href=&#34;http://research.microsoft.com/en-us/um/redmond/groups/ivm/ICE/&#34; target=&#34;_blank&#34;&gt;Microsoft Image Composite Editor&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;optical character recognition (&lt;a href=&#34;http://finereader.abbyy.com/&#34; target=&#34;_blank&#34;&gt;AABBY FineReader&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;project management (&lt;a href=&#34;https://github.com/dig-eg-gaz&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;XML editor (&lt;a href=&#34;https://www.oxygenxml.com/&#34; target=&#34;_blank&#34;&gt;Oxygen&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tei-c.org/index.xml&#34; target=&#34;_blank&#34;&gt;Text Encoding Initiative&lt;/a&gt; tags&lt;/li&gt;
+&lt;li&gt;name authority files (&lt;a href=&#34;http://prosop.org/&#34; target=&#34;_blank&#34;&gt;Prosop&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;mapping software (&lt;a href=&#34;http://mapsengine.google.com/&#34; target=&#34;_blank&#34;&gt;Google Maps Engine&lt;/a&gt;, &lt;a href=&#34;http://pds.lib.harvard.edu/pds/view/15525296?n=21&amp;amp;imagesize=1200&amp;amp;jp2Res=0.125&amp;amp;printThumbnails=no&#34; target=&#34;_blank&#34;&gt;GOAD fire insurance maps 1905&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The class is composed of labs and workshops, not lectures.&lt;/p&gt;
+
+&lt;p&gt;We then work together to represent those events in a website that will employ a variety of digital communication tools. This website will present serial data and analysis concerning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;local crime news&lt;/li&gt;
+&lt;li&gt;international events&lt;/li&gt;
+&lt;li&gt;commodity prices&lt;/li&gt;
+&lt;li&gt;shipping&lt;/li&gt;
+&lt;li&gt;passenger arrivals and departures&lt;/li&gt;
+&lt;li&gt;weather&lt;/li&gt;
+&lt;li&gt;the stock market&lt;/li&gt;
+&lt;li&gt;advertising&lt;/li&gt;
+&lt;li&gt;sports scores&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;science news&lt;/p&gt;
+
+&lt;p&gt;and much, much more!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

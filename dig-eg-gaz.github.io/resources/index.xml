@@ -192,13 +192,120 @@
     </item>
     
     <item>
+      <title>Changelog</title>
+      <link>https://dig-eg-gaz.github.io/resources/changelog/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/changelog/</guid>
+      <description>
+
+&lt;h3 id=&#34;2019-08-19-version-0-13&#34;&gt;2019-08-19 // Version 0.13&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Fourth class&lt;/a&gt; begins&lt;/li&gt;
+&lt;li&gt;Launch of new website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2018-04-17-version-0-12&#34;&gt;2018-04-17 // Version 0.12&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Change &lt;code&gt;@element&lt;/code&gt; attribute to &lt;code&gt;@feature&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Move to establish &lt;code&gt;&amp;lt;pb/&amp;gt;&lt;/code&gt; in lieu of &lt;code&gt;&amp;lt;div type=&amp;quot;page&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;@status&lt;/code&gt; attribute to indicate completeness of divs&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;&amp;lt;gloss&amp;gt;&lt;/code&gt; to XML header to indicate completeness of issues&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2018-01-08-version-0-11&#34;&gt;2018-01-08 // Version 0.11&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34; target=&#34;_blank&#34;&gt;Third class&lt;/a&gt; begins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017-09-17-version-0-10&#34;&gt;2017-09-17 // Version 0.10&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reduce and standardize page images, using ImageMagick command &lt;code&gt;mogrify -strip -interlace Plane -gaussian-blur 0.05 -quality 85% *.jpg&lt;/code&gt; (via &lt;a href=&#34;https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick#7262050&#34; target=&#34;_blank&#34;&gt;stackoverflow&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017-05-12-version-0-09&#34;&gt;2017-05-12 // Version 0.09&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Second semester complete&lt;/li&gt;
+&lt;li&gt;New, complete contents listing&lt;/li&gt;
+&lt;li&gt;Change issue file serving to &lt;a href=&#34;gitCDN.xyz&#34; target=&#34;_blank&#34;&gt;gitCDN.xyz&lt;/a&gt; for better support of updated files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017-03-15-version-0-05&#34;&gt;2017-03-15 // Version 0.05&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added &lt;code&gt;@elements&lt;/code&gt; attribute to recurring elements and tables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017-01-30-version-0-04&#34;&gt;2017-01-30 // Version 0.04&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added XSLT stylesheet&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2017-01-15-version-0-03&#34;&gt;2017-01-15 // Version 0.03&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34; target=&#34;_blank&#34;&gt;Second class&lt;/a&gt; begins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016-11-28-version-0-02&#34;&gt;2016-11-28 // Version 0.02&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added &lt;code&gt;xml:id&lt;/code&gt;s to recurring elements and tables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2016-09-01-version-0-01&#34;&gt;2016-09-01 // Version 0.01&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;First class&lt;/a&gt; begins&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>https://dig-eg-gaz.github.io/resources/roadmap/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/roadmap/</guid>
+      <description>
+
+&lt;h2 id=&#34;ideas-and-possible-new-features&#34;&gt;Ideas and possible new features&lt;/h2&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; publication of content on &lt;a href=&#34;http://exist-db.org/exist/apps/homepage/index.html&#34; target=&#34;_blank&#34;&gt;Exist-db&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; deploy &lt;a href=&#34;https://srophe.app/&#34; target=&#34;_blank&#34;&gt;srophe&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; publication of weeks, under editors&amp;rsquo; names, on &lt;a href=&#34;https://fsu.digital.flvc.org&#34; target=&#34;_blank&#34;&gt;diginole&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; integration of page images in XML text&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; introduction of search form (not necessary if I use srophe)&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; deploying TEI Boilerplate (?)&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;done&#34;&gt;Done&lt;/h2&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; XSLT stylesheet&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; &lt;a href=&#34;https://dig-eg-gaz.github.io/authors/&#34;&gt;authors list&lt;/a&gt; (September 2019)&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; transition website from Jekyll to Hugo (September 2019)&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Other Resources</title>
       <link>https://dig-eg-gaz.github.io/resources/other-resources/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/other-resources/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Slack Team&lt;/a&gt; &lt;strong&gt;&lt;em&gt;NOTE: not currently monitored&lt;/em&gt;&lt;/strong&gt; - the team where you can communicate with classmates, and get help with the git platform. Slack is the standard for communication in technical teams, but it&amp;rsquo;s gaining traction as an email replacement in a very wide variety of companies and organizations. Slack organizes all communication into dedicated channels, where people can have focused conversations, and can always find a place to ask important questions. If you would like to learn more about Slack, watch &lt;a href=&#34;https://www.youtube.com/watch?v=B6zVzWU95Sw&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; video. &lt;a href=&#34;http://dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Join the dig-eg-gaz slack team!&lt;/a&gt; All you need is your @my.fsu.edu email address.&lt;/p&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/old-site/&#34; target=&#34;_blank&#34;&gt;Previous website&lt;/a&gt;, archived in September 2019. Some links may be broken.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/samples&#34; target=&#34;_blank&#34;&gt;Samples&lt;/a&gt; - offers a few sample files (images of pages and plain text) of page 3 of the July 7, 1905 issue for you to test your OCR and editing processes.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Slack Team&lt;/a&gt; &lt;strong&gt;&lt;em&gt;NOTE: not currently monitored&lt;/em&gt;&lt;/strong&gt; - the team where you can communicate with classmates, and get help with the git platform. Slack is the standard for communication in technical teams, but it&amp;rsquo;s gaining traction as an email replacement in a very wide variety of companies and organizations. Slack organizes all communication into dedicated channels, where people can have focused conversations, and can always find a place to ask important questions. If you would like to learn more about Slack, watch &lt;a href=&#34;https://www.youtube.com/watch?v=B6zVzWU95Sw&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; video. &lt;a href=&#34;http://dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Join the dig-eg-gaz slack team!&lt;/a&gt; All you need is your @my.fsu.edu email address.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/samples&#34; target=&#34;_blank&#34;&gt;Samples&lt;/a&gt; - offers a few sample files (images of pages and plain text) of page 3 of the July 7, 1905 issue for you to test your OCR and editing processes.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

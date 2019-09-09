@@ -28,12 +28,10 @@
   
     
   
-  <meta name="description" content="This page describes the schema used in the Digital Egyptian Gazette project, which lives here in ODD (‘One Document Does it All’) format.
-The schema expressed in relaxNG compact (made from .odd files using the Roma tool at TEI-c.org.) is here. It can be validated against by using the URL https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc in an XML editor.
-In addition to the tags offered by the TEI P5 guidelines, the customized schema employs the following terms.">
+  <meta name="description" content="2019-08-19 // Version 0.13  Fourth class begins Launch of new website  2018-04-17 // Version 0.12  Change @element attribute to @feature Move to establish &lt;pb/&gt; in lieu of &lt;div type=&quot;page&quot;&gt; Add @status attribute to indicate completeness of divs Add &lt;gloss&gt; to XML header to indicate completeness of issues  2018-01-08 // Version 0.11  Third class begins  2017-09-17 // Version 0.10  Reduce and standardize page images, using ImageMagick command mogrify -strip -interlace Plane -gaussian-blur 0.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/resources/schema/">
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/resources/changelog/">
 
   
 
@@ -98,7 +96,7 @@ In addition to the tags offered by the TEI P5 guidelines, the customized schema 
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dig-eg-gaz.github.io/resources/schema/">
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/resources/changelog/">
 
   
   
@@ -111,11 +109,9 @@ In addition to the tags offered by the TEI P5 guidelines, the customized schema 
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Digital Egyptian Gazette">
-  <meta property="og:url" content="https://dig-eg-gaz.github.io/resources/schema/">
-  <meta property="og:title" content="Digital Egyptian Gazette Schema | Digital Egyptian Gazette">
-  <meta property="og:description" content="This page describes the schema used in the Digital Egyptian Gazette project, which lives here in ODD (‘One Document Does it All’) format.
-The schema expressed in relaxNG compact (made from .odd files using the Roma tool at TEI-c.org.) is here. It can be validated against by using the URL https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc in an XML editor.
-In addition to the tags offered by the TEI P5 guidelines, the customized schema employs the following terms."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/resources/changelog/">
+  <meta property="og:title" content="Changelog | Digital Egyptian Gazette">
+  <meta property="og:description" content="2019-08-19 // Version 0.13  Fourth class begins Launch of new website  2018-04-17 // Version 0.12  Change @element attribute to @feature Move to establish &lt;pb/&gt; in lieu of &lt;div type=&quot;page&quot;&gt; Add @status attribute to indicate completeness of divs Add &lt;gloss&gt; to XML header to indicate completeness of issues  2018-01-08 // Version 0.11  Third class begins  2017-09-17 // Version 0.10  Reduce and standardize page images, using ImageMagick command mogrify -strip -interlace Plane -gaussian-blur 0."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -133,7 +129,7 @@ In addition to the tags offered by the TEI P5 guidelines, the customized schema 
 
 
 
-  <title>Digital Egyptian Gazette Schema | Digital Egyptian Gazette</title>
+  <title>Changelog | Digital Egyptian Gazette</title>
 
 </head>
 
@@ -380,11 +376,11 @@ In addition to the tags offered by the TEI P5 guidelines, the customized schema 
         <a href="/resources/github/">GitHub</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/resources/schema/">Schema</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/resources/changelog/">Changelog</a>
       </li>
       
@@ -420,21 +416,19 @@ In addition to the tags offered by the TEI P5 guidelines, the customized schema 
 <ul>
 <li>
 <ul>
-<li><a href="#div-attributes"><code>&lt;div&gt;</code> attributes</a>
+<li>
 <ul>
-<li><a href="#type">Type</a></li>
-<li><a href="#feature">Feature</a></li>
-<li><a href="#scope">Scope</a></li>
-<li><a href="#site">Site</a></li>
-<li><a href="#source">Source</a></li>
+<li><a href="#2019-08-19-version-0-13">2019-08-19 // Version 0.13</a></li>
+<li><a href="#2018-04-17-version-0-12">2018-04-17 // Version 0.12</a></li>
+<li><a href="#2018-01-08-version-0-11">2018-01-08 // Version 0.11</a></li>
+<li><a href="#2017-09-17-version-0-10">2017-09-17 // Version 0.10</a></li>
+<li><a href="#2017-05-12-version-0-09">2017-05-12 // Version 0.09</a></li>
+<li><a href="#2017-03-15-version-0-05">2017-03-15 // Version 0.05</a></li>
+<li><a href="#2017-01-30-version-0-04">2017-01-30 // Version 0.04</a></li>
+<li><a href="#2017-01-15-version-0-03">2017-01-15 // Version 0.03</a></li>
+<li><a href="#2016-11-28-version-0-02">2016-11-28 // Version 0.02</a></li>
+<li><a href="#2016-09-01-version-0-01">2016-09-01 // Version 0.01</a></li>
 </ul></li>
-<li><a href="#measure-attributes"><code>&lt;measure&gt;</code> attributes</a>
-<ul>
-<li><a href="#units">Units</a></li>
-<li><a href="#commodity">Commodity</a></li>
-<li><a href="#type-1">Type</a></li>
-</ul></li>
-<li><a href="#columns">Columns</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -448,148 +442,75 @@ In addition to the tags offered by the TEI P5 guidelines, the customized schema 
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Digital Egyptian Gazette Schema</h1>
+          <h1 itemprop="name">Changelog</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>This page describes the schema used in the Digital Egyptian Gazette project, which lives <a href="https://github.com/dig-eg-gaz/resources/blob/master/egSchema.odd" target="_blank">here</a> in <a href="http://www.tei-c.org/Guidelines/Customization/odds.xml" target="_blank">ODD (‘One Document Does it All’)</a> format.</p>
-
-<p>The schema expressed in relaxNG compact (made from .odd files using the <a href="http://www.tei-c.org/Roma/" target="_blank">Roma tool</a> at <a href="http://www.tei-c.org/Roma/" target="_blank">TEI-c.org.</a>) is <a href="https://github.com/dig-eg-gaz/resources/blob/master/egSchema.rnc" target="_blank">here</a>. It can be validated against by using the URL <a href="https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc" target="_blank">https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc</a> in an XML editor.</p>
-
-<p>In addition to the tags offered by the <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html" target="_blank">TEI P5 guidelines</a>, the customized schema employs the following terms.</p>
-
-<h2 id="div-attributes"><code>&lt;div&gt;</code> attributes</h2>
-
-<h3 id="type">Type</h3>
+<h3 id="2019-08-19-version-0-13">2019-08-19 // Version 0.13</h3>
 
 <ul>
-<li>masthead: use for the first page of the paper only</li>
-<li>page: always use the <code>n=&quot;&quot;</code> attribute</li>
-<li>item: the default and most generic <code>div</code> type</li>
-<li>section: a <code>div</code> containing other <code>div</code>s, typically of the <code>item</code> type.</li>
-<li>subsection: a <code>div</code> within a <code>section</code> itself containing other <code>div</code>s, typically of the <code>item</code> type.</li>
-<li>article: use for longer pieces</li>
-<li>wireReport: a single wire report with a <code>&lt;dateline&gt;</code> and the name of the wireservice (typically Reuters or Havas)</li>
-<li>advert: any advertisement; templates are listed <a href="https://dig-eg-gaz.github.io/advertisements" target="_blank">here</a></li>
+<li><a href="https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing" target="_blank">Fourth class</a> begins</li>
+<li>Launch of new website</li>
 </ul>
 
-<h3 id="feature">Feature</h3>
+<h3 id="2018-04-17-version-0-12">2018-04-17 // Version 0.12</h3>
 
 <ul>
-<li>weather: Daily Weather Report</li>
-<li>wire: Telegrams</li>
-<li>local: Local and General</li>
-<li>sport: Sport and Play</li>
-<li>social: Personal and Social</li>
-<li>comingEvents: Calendar of Coming Events</li>
-<li>passList: Passenger List</li>
-<li>visitList: Visitors&rsquo; List</li>
-<li>letters: Letters to the Editor</li>
-<li>mattersMoment: Matters of Moment. Pith of the Press Comments.</li>
-<li>nativePress: Native Press Comments</li>
-<li>khedive: The Khedive</li>
-<li>esbekieh: Esbekieh Gardens</li>
-<li>army: Army and Navy / Army of Occupation / Egyptian Army</li>
-<li>shippingMovement: Shipping Movement</li>
-<li>steamerMovement: Steamer Movement</li>
-<li>navalNotes: Naval Notes</li>
-<li>mouvementMaritime: Mouvement Maritime</li>
-<li>londonLetter: Our London Letter</li>
-<li>parisLetter: Our Paris Letter</li>
-<li>prepaidAdvertisements: Cheap Prepaid advertisements</li>
-<li>bulletinBourse: Bulletin de la bulletin</li>
-<li>councilMinisters: Council of Ministers</li>
-<li>shareMarket: Egyptian Share Market</li>
-<li>notesPortSaid: Notes from Port Said</li>
-<li>notesSuez: Notes from Suez</li>
-<li>notesSuakin: Notes from Suakin</li>
-<li>notesKhartoum: Notes from Khartoum</li>
-<li>notesConstantinople: Notes from Constantinople</li>
-<li>notesCyprus: Notes from Cyprus</li>
-<li>notesSudan: Notes from the Sudan</li>
-<li>notesFayoum: Notes from Fayoum</li>
-<li>notesOther: Notes from other places in Egypt</li>
+<li>Change <code>@element</code> attribute to <code>@feature</code></li>
+<li>Move to establish <code>&lt;pb/&gt;</code> in lieu of <code>&lt;div type=&quot;page&quot;&gt;</code></li>
+<li>Add <code>@status</code> attribute to indicate completeness of divs</li>
+<li>Add <code>&lt;gloss&gt;</code> to XML header to indicate completeness of issues</li>
 </ul>
 
-<h3 id="scope">Scope</h3>
+<h3 id="2018-01-08-version-0-11">2018-01-08 // Version 0.11</h3>
 
 <ul>
-<li>advertisement</li>
-<li>international</li>
-<li>local</li>
-<li>financial</li>
-<li>weather</li>
-<li>newspaper</li>
-<li>social</li>
-<li>sporting</li>
-<li>official</li>
-<li>maritime</li>
-<li>classifieds</li>
-<li>letters</li>
-<li>calendar</li>
-<li>measurements</li>
-<li>announcements</li>
-<li>municipality</li>
+<li><a href="https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I" target="_blank">Third class</a> begins</li>
 </ul>
 
-<h3 id="site">Site</h3>
+<h3 id="2017-09-17-version-0-10">2017-09-17 // Version 0.10</h3>
 
 <ul>
-<li>Alexandria</li>
-<li>Cairo</li>
-<li>Suez</li>
-<li>Port Said</li>
-<li>Suakin</li>
+<li>Reduce and standardize page images, using ImageMagick command <code>mogrify -strip -interlace Plane -gaussian-blur 0.05 -quality 85% *.jpg</code> (via <a href="https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick#7262050" target="_blank">stackoverflow</a>)</li>
 </ul>
 
-<h3 id="source">Source</h3>
+<h3 id="2017-05-12-version-0-09">2017-05-12 // Version 0.09</h3>
 
 <ul>
-<li>local</li>
-<li>wire</li>
+<li>Second semester complete</li>
+<li>New, complete contents listing</li>
+<li>Change issue file serving to <a href="gitCDN.xyz" target="_blank">gitCDN.xyz</a> for better support of updated files</li>
 </ul>
 
-<h2 id="measure-attributes"><code>&lt;measure&gt;</code> attributes</h2>
-
-<h3 id="units">Units</h3>
+<h3 id="2017-03-15-version-0-05">2017-03-15 // Version 0.05</h3>
 
 <ul>
-<li>tal: Talari</li>
-<li>cantar: qantar</li>
-<li>£: British Pounds Sterling</li>
-<li>fcs: francs</li>
-<li>sh: shillings</li>
-<li>LE: Egyptian pounds (livres égyptien)</li>
-<li>balles: bales of cotton</li>
-<li>ton: tonnes</li>
-<li>dC: degrees celsius</li>
-<li>mm: millimeters</li>
-<li>pt: piasters tarif</li>
-<li>min: minutes</li>
-<li>LE M: Egyptian pounds and millimes</li>
-<li>ard: ardeb</li>
-<li>$: US dollars</li>
-<li>sack: sacks</li>
+<li>Added <code>@elements</code> attribute to recurring elements and tables</li>
 </ul>
 
-<h3 id="commodity">Commodity</h3>
+<h3 id="2017-01-30-version-0-04">2017-01-30 // Version 0.04</h3>
 
 <ul>
-<li>currency</li>
+<li>Added XSLT stylesheet</li>
 </ul>
 
-<h3 id="type-1">Type</h3>
+<h3 id="2017-01-15-version-0-03">2017-01-15 // Version 0.03</h3>
 
 <ul>
-<li>indexNo: number corresponding to indexing system for newspaper features, especially paid advertisements</li>
+<li><a href="https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI" target="_blank">Second class</a> begins</li>
 </ul>
 
-<h2 id="columns">Columns</h2>
+<h3 id="2016-11-28-version-0-02">2016-11-28 // Version 0.02</h3>
 
 <ul>
-<li>cols: Specifies the number of columns in a given section</li>
-<li>colSpan: Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.</li>
+<li>Added <code>xml:id</code>s to recurring elements and tables</li>
+</ul>
+
+<h3 id="2016-09-01-version-0-01">2016-09-01 // Version 0.01</h3>
+
+<ul>
+<li><a href="https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing" target="_blank">First class</a> begins</li>
 </ul>
 
           </div>
@@ -607,14 +528,14 @@ In addition to the tags offered by the TEI P5 guidelines, the customized schema 
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/resources/github/" rel="next">GitHub Organization Page</a>
+    <a href="/resources/schema/" rel="next">Digital Egyptian Gazette Schema</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/resources/changelog/" rel="prev">Changelog</a>
+    <a href="/resources/roadmap/" rel="prev">Roadmap</a>
   </div>
   
 </div>

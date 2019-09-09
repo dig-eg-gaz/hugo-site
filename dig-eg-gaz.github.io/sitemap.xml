@@ -107,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/resources/other-resources/</loc>
+    <loc>https://dig-eg-gaz.github.io/resources/changelog/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -117,7 +117,7 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/resources/unicode/</loc>
+    <loc>https://dig-eg-gaz.github.io/resources/roadmap/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -127,8 +127,18 @@
   </url>
   
   <url>
+    <loc>https://dig-eg-gaz.github.io/resources/other-resources/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dig-eg-gaz.github.io/how-to/digitization/query-instructions/</loc>
     <lastmod>2016-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/resources/unicode/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
