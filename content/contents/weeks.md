@@ -29,7 +29,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|45||
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|||
-*11|March 11, 1907|March 16, 1907|[Tyler David Kolby](https://github.com/)|||
+11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
@@ -44,7 +44,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|||
-*36|September 2, 1907|September 7, 1907|[Juan C Morales](https://github.com/)|||
+36|September 2, 1907|September 7, 1907|[Juan C Morales](https://github.com/bambambaklava)|||
 37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|||
 ---|---|---|---|---|---|---
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||

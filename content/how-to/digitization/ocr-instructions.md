@@ -3,7 +3,7 @@ title: OCR instructions
 linktitle: OCR
 toc: true
 type: docs
-date: "2016-09-30"
+date: "2019-09-09"
 draft: false
 menu:
   digitization:
@@ -11,12 +11,141 @@ menu:
     weight: 5
 
 weight: 5
+markup: mmark
 ---
 
 ## Objective
-This lesson explains how to turn images of text into editable files. Use this technique to work with free text wherever you encounter it in the *Egyptian Gazette*. Do not use this technique to work with text that has been [templated](/how-to/digitization/templating-instructions/). Once you've transformed OCRed text and performed basic corrections, it will be ready for [TEI-XML markup](/how-to/digitization/tei-xml-instructions/).
+This lesson explains how to turn images of text into editable files. We will use ["optical character recognition" (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition) to work with free text wherever we encounter it in the *Egyptian Gazette*. Once we've transformed OCRed text and performed basic corrections, it will be ready for [TEI-XML markup](/how-to/digitization/tei-xml-instructions/).
 
-## 1. Transform image into Text
+A> You will not need use OCR on text that has been [templated](/how-to/digitization/templating-instructions/). 
+
+## 1. Install Tesseract
+[Tesseract](https://github.com/tesseract-ocr/tesseract) is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications. 
+
+We will be running it on the hard drives of our own laptops. Unlike most programs you will have used, tesseract does not have a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) (GUI). Instead, you run it from the [command line](https://en.wikipedia.org/wiki/Command-line_interface). The command line interface can take a bit of getting used to, but it is relatively straightforward. Also, once you know how to use the command line it's easier to look under the hood of your computer when you need to.
+
+### 1a. Access the command line
+You need to open a program in order to access the command line.
+
+- **OSX**: The command line program is **Terminal**. You can find it in `Applications > Utilities`. 
+-  **Windows**: If you're using Windows, click Start, then in the Search or Run line, type `cmd` (short for command), and press enter.  
+
+When you open this program, you will face a plain black box which offers you no hints or help. But don't worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.
+
+### 1b. Install Tesseract
+Detailed instructions to install Tesseract can be found [here](https://github.com/tesseract-ocr/tesseract/wiki). The `tl;dr` version is: 
+
+- **OSX**: install [Homebrew](https://brew.sh/) (a "package manager") by pasting `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` in the command line, pressing enter, and following the prompts. Then, install tesseract by running `brew install tesseract` in the terminal.
+- **Windows**: download [this program](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe). **Instructions incomplete.** 
+- **Linux**: you probably already know enough to figure it out.
+
+## 2. Transform image into Text
+You will be running tesseract from the command line. 
+
+### 2a. Navigate to image directory
+First, you must make sure that you are working in the "directory" (location) on your computer that contains the image file that you want to process. Enter the command `ls` to see a list of the files in the directory you're currently in. It's probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:
+
+- **OSX**: Type `cd` ("change directory") at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.
+- **Windows**: From the File Explorer window that contains the image file, click on the “File” menu to see an option to open that location in a command prompt.
+
+Once you've done this, type `ls` at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in `YYYY-MM-DD.jpg` format) is listed, you're ready for the next step.
+
+### 2b. Run OCR
+You can perform a basic read by running the command `tesseract <input_file> <output_file>` (where `<input_file>` is the exact name of your image file, including the .jpg extension, and `<output_file>` is whatever name you want to give the results file).
+
+Open the output file (which will be in [plain text](https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/)) and take a gander at the results. They will be okay, but not as good as we'd like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.
+
+Things should work a bit better using this command:
+
+`tesseract <input_file> <output_file> -l eng+fra --psm 1`
+
+If everything looks good, proceed to step 2d. If not, follow step 2c.
+
+### 2c. Help tesseract see the columns
+There are various reasons why your OCR results might be poor. 
+
+- the microfilm itself might be dirty
+- the image you took might be blurred 
+- the image might be too small or too compressed
+- the image might not be straight. 
+
+Do everything you can to use the cleanest, straightest images possible.
+
+If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (**unverified**)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don't need tesseract to read.
+
+![column-block-right](/img/column-block-right.png)
+
+Then make another copy, blocking out the first, third, and fifth columns.
+
+![column-block-left](/img/column-block-left.png)
+
+Run OCR on these images. The two text files that result will contain some errors, but they won't confuse the columns.
+
+### 2d. Fix the line breaks
+Before moving this text into XML, let's try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs. 
+
+Using **Find and Replace** in your plain text editor, follow these steps:
+
+- find every `<` and `>`, which will almost certainly be OCR errors, and delete or replace them.
+- enable regular expressions, then find `\n\n` (all double paragraph breaks) and replace with `</p><p>` (XML paragraph breaks)
+- replace `&` with `&amp;`. (XML freaks out if it sees an "and" symbol, and there are lots of them in the _Egyptian Gazette_.)
+- add a `<p>` at the very start of the file, and a `</p>` at the very end of the file.
+
+## 3. Move the text into your XML file
+
+Copy the contents of the first column in the text file you've prepared. Open Oxygen. In the xml file that you're preparing, put a `<div type="item"> <cb n="1"/> </div>` pair of tags after the <pb n="?"/> tag corresponding to the page you've OCRed. Paste the text in between these tags. 
+
+Proceed to copy the second column in your text file. In Oxygen, add an `<cb n="2"/>` tag, then paste the contents of the second column. Proceed in the same way for the next four columns of the page.
+
+## 4. Fix the basic structural tags
+You should have a green box, indicating a well-formed document. If not, correct any errors you find. Now correct and add basic structural tags of three types:
+
+-  `<div type="item">`, which you can use for articles, items, or any division of the page that makes sense to you,
+- `<head>`, which indicates a headline (the headline must be the first element in the item),
+- `<p>`, which indicates a paragraph.
+
+Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit `command-E`. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit `command-slash`.
+
+Once you add these tags to your page, you might have a valid document (and thus a green box in Oxygen). But these common errors will probably also have to be addressed:
+
+- **&**: the ampersand is represented as `&amp;` in xml. `&` alone will create an error.
+- **>** or **<**: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.
+- anything else not in a `<div>`, and not in a `<p>` or a `<head>`.
+
+## 5. Add feature attributes
+There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked `<div type="section">` rather than `<div type="item">`. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is [here](/contents/features/). To add an feature attribute, place it within the `<div>` tag, after the `type="section"` attribute, thus: `<div type="section" feature="local">`. If you type `feature` inside the tag, Oxygen should offer you an autocomplete menu of features.
+
+## 6. Add more complex structural tags
+There are more tags that you can add:
+
+- If the article or item is in French, add the attribute `xml:lang="fr"` to the `<div>` tag.
+- **`<cb/>`** for column breaks. Be sure to put this tag at the *beginning* of the column. Add the number of the column, as well, thus: `<cb n="1"/>` For mixed columns, see [this guidance](http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb).
+- **`<div type="section">`** to wrap multiple items that belong together, for instance in the international or local news sections.
+- **`<dateline>`** for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new `<div type="item">` for each newswire report.
+- **`<byline>`** for authors. There can only be one byline per division.
+- **`<gap/>`** for holes in the text, **`<unclear>`** for illegible text (you can supply an attribute explaining why), and **`<supplied>`** for something that was illegible but which you figured out by finding the same thing in a different issue.
+- pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags `<div type="item" xml:id="item1" next="item2">` and `<div type="item" xml:id="item2" prev="item1">`. If the articles are in different issues, make their tags `<div type="item" xml:id="item1" next="YYYY-MM-DD.xml#item2">` and `<div type="item" xml:id="item2" prev="YYYY-MM-DD.xml#item1">`.
+- the **`<figure>`** element will be useful for the *Egyptian Gazette*, but I have not yet worked out how to use it.
+
+## 6. Add content tags
+This is a more advanced undertaking. See the separate tutorial [here](/how-to/digitization/tagging-people-and-places-instructions/).
+
+# FAQs
+
+## How many errors should I expect to find?
+
+If you find a very large number of errors, you might consider re-scanning the page at a higher resolution or a better focus.
+
+## How do I deal with accented letters?
+
+Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for [Windows](https://kb.iu.edu/d/aihp) and [Mac](http://symbolcodes.tlt.psu.edu/accents/codemac.html).
+
+## What if I can't read the text?
+
+Wrap it in an `<unclear>` tag, and maybe add a `<!-- comment -->` explaining what's going on.
+
+## What if I want a GUI OCR program?
+If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.
 
 ### If you are using Windows:
 1. Download [AABBY Finereader](http://trial.abbyyusa.com/download-fr12pro). The 30-day, 100-page free trial that they offer *should* be enough time to complete your OCR work for this class. If you don't complete it on time, you have the option to buy the software for about $100.
@@ -37,63 +166,12 @@ To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then,
 ### If your trial license runs out:
 The free version of [Finereader Online](finereaderonline.com) allows you to OCR 10 pages per month. This should help if you don't manage to finish all of your OCR in time. Note that there is no verification tool in the online version.
 
-## 2. Move the text into your XML file
-
-Open a the text file that you've corrected, and copy the contents. In the xml file that you're preparing, locate the `<div type="page"> </div>` pair of tags corresponding to the page you're transforming. Paste the text in between these tags. Atom will immediately tell you that you have many errors and issues. Don't fret--we'll address them in the next step. Save the file.
-
-## 3. Add basic structural tags
-Wrap the text in tags. For now, we'll limit ourselves to three tags:
-
--  `<div type="item">`, which you can use for articles, items, or any division of the page that makes sense to you,
-- `<head>`, which indicates a headline (the headline must be the first element in the item),
-- `<p>`, which indicates a paragraph.
-
-Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit `command-E`. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit `command-slash`.
-
-Once you add these tags to your page, you might have a valid document (an thus a green box in Oxygen). But these common errors will probably also have to be addressed:
-
-- **&**: the ampersand is represented as `&amp;` in xml. `&` alone will create an error.
-- **>** or **<**: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.
-- anything else not in a `<div>`, and not in a `<p>` or a `<head>`.
-
-## 4. Add feature attributes
-There are many recurring features that show up issue after issue: local news, international news, sports, and many more. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is [here](/contents/features/). To add an feature attribute, place it within the `<div>` tag, after the `type="item"` attribute.
-
-## 5. Add more complex structural tags
-There are more tags that you can add:
-
-- If the article or item is in French, add the attribute `xml:lang="fr"` to the `<div>` tag.
-- **`<cb/>`** for column breaks. Be sure to put this tag at the *beginning* of the column. Add the number of the column, as well, thus: `<cb n="1"/>` For mixed columns, see [this guidance](http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb).
-- **`<div type="section">`** to wrap multiple items that belong together, for instance in the international or local news sections.
-- **`<dateline>`** for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new `<div type="item">` for each newswire report.
-- **`<byline>`** for authors. There can only be one byline per division.
-- **`<gap/>`** for holes in the text, **`<unclear>`** for illegible text (you can supply an attribute explaining why), and **`<supplied>`** for something that was illegible but which you figured out by finding the same thing in a different issue.
-- pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags `<div type="item" xml:id="item1" next="item2">` and `<div type="item" xml:id="item2" prev="item1">`. If the articles are in different issues, make their tags `<div type="item" xml:id="item1" next="YYYY-MM-DD.xml#item2">` and `<div type="item" xml:id="item2" prev="YYYY-MM-DD.xml#item1">`.
-- the **`<figure>`** element will be useful for the *Egyptian Gazette*, but I have not yet worked out how to use it.
-
-## 6. Add content tags
-This is a more advanced undertaking. See the separate tutorial [here](/how-to/digitization/tagging-people-and-places-instructions/).
-
-## FAQs
-
-### How many errors should I expect to find?
-
-If you find a very large number of errors, you might consider re-scanning the page at a higher resolution or a better focus.
-
-### How do I deal with accented letters?
-
-Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for [Windows](https://kb.iu.edu/d/aihp) and [Mac](http://symbolcodes.tlt.psu.edu/accents/codemac.html).
-
-### What if I can't read the text?
-
-Wrap it in an `<unclear>` tag, and maybe add a `<!-- comment -->` explaining what's going on.
-
-### Are there other OCR programs available for Mac?
+## Are there other OCR programs available for Mac?
 I've also had good results with [Cisdem OCR Wizard](https://www.cisdem.com/ocr-wizard-mac.html). I'm not sure how long their free trial lasts, but it's worth a try, and can also be purchased for $60. Follow the directions below.
 
 (There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of [Readiris Pro](http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&utm_medium=Popup&utm_campaign=Popup-trial). [PDF OCR X Community Edition](http://solutions.weblite.ca/pdfocrx/download_mac) also didn't do a great job, but it's free).
 
-#### Using Cisdem
+### Using Cisdem
 1.  Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press "recognize". Let it do its work.
 3. Cisdem seems to recognize newspaper columns quite well, and you can probably simply proceed to OCR once the recognition is finished and correct by hand later. But if you notice egregious errors, reshape the green boxes.
 5. Select .text or .docx as the output format, and click export. Wait. When you are offered the option to save the document, name it following the standard format of YYYY-MM-DD-p#.
