@@ -42,9 +42,9 @@ When you open this program, you will face a plain black box which offers you no 
 #### Installation for OSX 
 - Install [Homebrew](https://brew.sh/) (a "package manager") by pasting `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` in the command line, pressing enter, and following the prompts. Then, install tesseract by running `brew install tesseract` in the terminal.
 
-#### Installation for Windows**
+#### Installation for Windows
 - Download [this program](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe) (compiled by generous folks at the University of Mannheim). Run it, which will install Tesseract-OCR, which will be listed under the start menu. Click on it, then click on Console, and a command line terminal will open.
-![tesseract-windows-terminal](tesseract-windows-terminal.png) 
+![tesseract-windows-console](/img/tesseract-windows-console.png) 
 Copy the whole bottom line _except_ the final `>`.
 - In order to use the program easily, you also need to set an environment variable, which requires the following two steps.
 - In File Explorer, right click on "This PC." Then, click on Properties > Advanced system settings > Environment Variables. Under System Variables, double click the Path variable. Then click New, and then paste the code you just copied from the console (something like `C:\Program Files\Tesseract-OCR`). Click OK.
@@ -60,7 +60,7 @@ If you have some problem in installation, more detailed instructions to install 
 Now that the program is installed, you will be running tesseract from the command line. 
 
 ### 2a. Navigate to image directory
-First, you must make sure that you are working in the "directory" (location) on your computer that contains the image file that you want to process. Enter the command `ls` to see a list of the files in the directory you're currently in. It's probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:
+First, you must make sure that you are working in the "directory" (location) on your computer that contains the image file that you want to process. Enter the command `ls` (OSX) or `dir` (Windows) to see a list of the files in the directory you're currently in. It's probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:
 
 - **OSX**: Type `cd` ("change directory") at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.
 - **Windows**: From the File Explorer window that contains the image file, click on the “File” menu, then "Open Windows PowerShell". Or, if you are more comfortable with command line, you can use `cd` in console to navigate to your images' directory.

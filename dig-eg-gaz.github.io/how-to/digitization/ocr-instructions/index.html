@@ -438,7 +438,12 @@
 <li><a href="#1-install-tesseract">1. Install Tesseract</a>
 <ul>
 <li><a href="#1a-access-the-command-line">1a. Access the command line</a></li>
-<li><a href="#1b-install-tesseract">1b. Install Tesseract</a></li>
+<li><a href="#1b-install-tesseract">1b. Install Tesseract</a>
+<ul>
+<li><a href="#installation-for-osx">Installation for OSX</a></li>
+<li><a href="#installation-for-windows">Installation for Windows</a></li>
+<li><a href="#test-your-installation">Test your installation</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#2-transform-image-into-text">2. Transform image into Text</a>
 <ul>
@@ -515,33 +520,48 @@
 
 <h3 id="1b-install-tesseract">1b. Install Tesseract</h3>
 
-<p>The <code>tl;dr</code> version is:</p>
+<h4 id="installation-for-osx">Installation for OSX</h4>
 
 <ul>
-<li><strong>OSX</strong>: install <a href="https://brew.sh/" target="_blank">Homebrew</a> (a &ldquo;package manager&rdquo;) by pasting <code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code> in the command line, pressing enter, and following the prompts. Then, install tesseract by running <code>brew install tesseract</code> in the terminal.</li>
-<li><strong>Windows</strong>: download <a href="https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe" target="_blank">this program</a>. <strong>Instructions incomplete.</strong></li>
+<li>Install <a href="https://brew.sh/" target="_blank">Homebrew</a> (a &ldquo;package manager&rdquo;) by pasting <code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code> in the command line, pressing enter, and following the prompts. Then, install tesseract by running <code>brew install tesseract</code> in the terminal.</li>
 </ul>
 
-<p>More detailed instructions to install Tesseract can be found <a href="https://github.com/tesseract-ocr/tesseract/wiki" target="_blank">here</a>.</p>
+<h4 id="installation-for-windows">Installation for Windows</h4>
+
+<ul>
+<li>Download <a href="https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe" target="_blank">this program</a> (compiled by generous folks at the University of Mannheim). Run it, which will install Tesseract-OCR, which will be listed under the start menu. Click on it, then click on Console, and a command line terminal will open.
+<img src="/img/tesseract-windows-console.png" alt="tesseract-windows-console" />
+Copy the whole bottom line <em>except</em> the final <code>&gt;</code>.</li>
+<li>In order to use the program easily, you also need to set an environment variable, which requires the following two steps.</li>
+<li>In File Explorer, right click on &ldquo;This PC.&rdquo; Then, click on Properties &gt; Advanced system settings &gt; Environment Variables. Under System Variables, double click the Path variable. Then click New, and then paste the code you just copied from the console (something like <code>C:\Program Files\Tesseract-OCR</code>). Click OK.</li>
+<li>Now under System Variables, click New. Under Variable name, enter <code>TESSDATA_PREFIX</code>, and under Variable value, enter the code you copied from the console, plus <code>\tessdata</code>. Together, the variable should be something like <code>C:\Program Files\Tesseract-OCR\tessdata</code>. Click OK.</li>
+<li>Close any terminals that are open.</li>
+</ul>
+
+<h4 id="test-your-installation">Test your installation</h4>
+
+<p>Open a command line terminal and type <code>tesseract --version</code>. If it says <code>tesseract 4.0.0</code> or <code>tesseract v5.0.0</code> or something like that, you have successfully installed tesseract.</p>
+
+<p>If you have some problem in installation, more detailed instructions to install Tesseract can be found <a href="https://github.com/tesseract-ocr/tesseract/wiki" target="_blank">here</a>.</p>
 
 <h2 id="2-transform-image-into-text">2. Transform image into Text</h2>
 
-<p>You will be running tesseract from the command line.</p>
+<p>Now that the program is installed, you will be running tesseract from the command line.</p>
 
 <h3 id="2a-navigate-to-image-directory">2a. Navigate to image directory</h3>
 
-<p>First, you must make sure that you are working in the &ldquo;directory&rdquo; (location) on your computer that contains the image file that you want to process. Enter the command <code>ls</code> to see a list of the files in the directory you&rsquo;re currently in. It&rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:</p>
+<p>First, you must make sure that you are working in the &ldquo;directory&rdquo; (location) on your computer that contains the image file that you want to process. Enter the command <code>ls</code> (OSX) or <code>dir</code> (Windows) to see a list of the files in the directory you&rsquo;re currently in. It&rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:</p>
 
 <ul>
 <li><strong>OSX</strong>: Type <code>cd</code> (&ldquo;change directory&rdquo;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.</li>
-<li><strong>Windows</strong>: From the File Explorer window that contains the image file, click on the “File” menu to see an option to open that location in a command prompt.</li>
+<li><strong>Windows</strong>: From the File Explorer window that contains the image file, click on the “File” menu, then &ldquo;Open Windows PowerShell&rdquo;. Or, if you are more comfortable with command line, you can use <code>cd</code> in console to navigate to your images&rsquo; directory.</li>
 </ul>
 
-<p>Once you&rsquo;ve done this, type <code>ls</code> at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in <code>YYYY-MM-DD.jpg</code> format) is listed, you&rsquo;re ready for the next step.</p>
+<p>Once you&rsquo;ve done this, type <code>ls</code> (in OSX) or <code>dir</code> (in Windows) at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in <code>YYYY-MM-DD.jpg</code> format) is listed, you&rsquo;re ready for the next step.</p>
 
 <h3 id="2b-run-ocr">2b. Run OCR</h3>
 
-<p>You can perform a basic read by running the command <code>tesseract &lt;input_file&gt; &lt;output_file&gt;</code> (where <code>&lt;input_file&gt;</code> is the exact name of your image file, including the .jpg extension, and <code>&lt;output_file&gt;</code> is whatever name you want to give the results file).</p>
+<p>You can perform a basic read by running the command <code>tesseract &lt;input_file&gt; &lt;output_file&gt;</code>, where <code>&lt;input_file&gt;</code> is the exact name of your image file, including the .jpg extension, and <code>&lt;output_file&gt;</code> is whatever name you want to give the results file. For example, you might say <code>tesseract 1905-07-18-p3.jpg monday-page-three-text</code>.</p>
 
 <p>Open the output file (which will be in <a href="https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/" target="_blank">plain text</a>) and take a gander at the results. They will be okay, but not as good as we&rsquo;d like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.</p>
 

@@ -291,33 +291,48 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;h3 id=&#34;1b-install-tesseract&#34;&gt;1b. Install Tesseract&lt;/h3&gt;
 
-&lt;p&gt;The &lt;code&gt;tl;dr&lt;/code&gt; version is:&lt;/p&gt;
+&lt;h4 id=&#34;installation-for-osx&#34;&gt;Installation for OSX&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: install &lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; (a &amp;ldquo;package manager&amp;rdquo;) by pasting &lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt; in the command line, pressing enter, and following the prompts. Then, install tesseract by running &lt;code&gt;brew install tesseract&lt;/code&gt; in the terminal.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: download &lt;a href=&#34;https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe&#34; target=&#34;_blank&#34;&gt;this program&lt;/a&gt;. &lt;strong&gt;Instructions incomplete.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; (a &amp;ldquo;package manager&amp;rdquo;) by pasting &lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt; in the command line, pressing enter, and following the prompts. Then, install tesseract by running &lt;code&gt;brew install tesseract&lt;/code&gt; in the terminal.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;More detailed instructions to install Tesseract can be found &lt;a href=&#34;https://github.com/tesseract-ocr/tesseract/wiki&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;installation-for-windows&#34;&gt;Installation for Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe&#34; target=&#34;_blank&#34;&gt;this program&lt;/a&gt; (compiled by generous folks at the University of Mannheim). Run it, which will install Tesseract-OCR, which will be listed under the start menu. Click on it, then click on Console, and a command line terminal will open.
+&lt;img src=&#34;https://dig-eg-gaz.github.io/img/tesseract-windows-console.png&#34; alt=&#34;tesseract-windows-console&#34; /&gt;
+Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;In order to use the program easily, you also need to set an environment variable, which requires the following two steps.&lt;/li&gt;
+&lt;li&gt;In File Explorer, right click on &amp;ldquo;This PC.&amp;rdquo; Then, click on Properties &amp;gt; Advanced system settings &amp;gt; Environment Variables. Under System Variables, double click the Path variable. Then click New, and then paste the code you just copied from the console (something like &lt;code&gt;C:\Program Files\Tesseract-OCR&lt;/code&gt;). Click OK.&lt;/li&gt;
+&lt;li&gt;Now under System Variables, click New. Under Variable name, enter &lt;code&gt;TESSDATA_PREFIX&lt;/code&gt;, and under Variable value, enter the code you copied from the console, plus &lt;code&gt;\tessdata&lt;/code&gt;. Together, the variable should be something like &lt;code&gt;C:\Program Files\Tesseract-OCR\tessdata&lt;/code&gt;. Click OK.&lt;/li&gt;
+&lt;li&gt;Close any terminals that are open.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;test-your-installation&#34;&gt;Test your installation&lt;/h4&gt;
+
+&lt;p&gt;Open a command line terminal and type &lt;code&gt;tesseract --version&lt;/code&gt;. If it says &lt;code&gt;tesseract 4.0.0&lt;/code&gt; or &lt;code&gt;tesseract v5.0.0&lt;/code&gt; or something like that, you have successfully installed tesseract.&lt;/p&gt;
+
+&lt;p&gt;If you have some problem in installation, more detailed instructions to install Tesseract can be found &lt;a href=&#34;https://github.com/tesseract-ocr/tesseract/wiki&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;2-transform-image-into-text&#34;&gt;2. Transform image into Text&lt;/h2&gt;
 
-&lt;p&gt;You will be running tesseract from the command line.&lt;/p&gt;
+&lt;p&gt;Now that the program is installed, you will be running tesseract from the command line.&lt;/p&gt;
 
 &lt;h3 id=&#34;2a-navigate-to-image-directory&#34;&gt;2a. Navigate to image directory&lt;/h3&gt;
 
-&lt;p&gt;First, you must make sure that you are working in the &amp;ldquo;directory&amp;rdquo; (location) on your computer that contains the image file that you want to process. Enter the command &lt;code&gt;ls&lt;/code&gt; to see a list of the files in the directory you&amp;rsquo;re currently in. It&amp;rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:&lt;/p&gt;
+&lt;p&gt;First, you must make sure that you are working in the &amp;ldquo;directory&amp;rdquo; (location) on your computer that contains the image file that you want to process. Enter the command &lt;code&gt;ls&lt;/code&gt; (OSX) or &lt;code&gt;dir&lt;/code&gt; (Windows) to see a list of the files in the directory you&amp;rsquo;re currently in. It&amp;rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: Type &lt;code&gt;cd&lt;/code&gt; (&amp;ldquo;change directory&amp;rdquo;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: From the File Explorer window that contains the image file, click on the “File” menu to see an option to open that location in a command prompt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: From the File Explorer window that contains the image file, click on the “File” menu, then &amp;ldquo;Open Windows PowerShell&amp;rdquo;. Or, if you are more comfortable with command line, you can use &lt;code&gt;cd&lt;/code&gt; in console to navigate to your images&amp;rsquo; directory.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Once you&amp;rsquo;ve done this, type &lt;code&gt;ls&lt;/code&gt; at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in &lt;code&gt;YYYY-MM-DD.jpg&lt;/code&gt; format) is listed, you&amp;rsquo;re ready for the next step.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve done this, type &lt;code&gt;ls&lt;/code&gt; (in OSX) or &lt;code&gt;dir&lt;/code&gt; (in Windows) at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in &lt;code&gt;YYYY-MM-DD.jpg&lt;/code&gt; format) is listed, you&amp;rsquo;re ready for the next step.&lt;/p&gt;
 
 &lt;h3 id=&#34;2b-run-ocr&#34;&gt;2b. Run OCR&lt;/h3&gt;
 
-&lt;p&gt;You can perform a basic read by running the command &lt;code&gt;tesseract &amp;lt;input_file&amp;gt; &amp;lt;output_file&amp;gt;&lt;/code&gt; (where &lt;code&gt;&amp;lt;input_file&amp;gt;&lt;/code&gt; is the exact name of your image file, including the .jpg extension, and &lt;code&gt;&amp;lt;output_file&amp;gt;&lt;/code&gt; is whatever name you want to give the results file).&lt;/p&gt;
+&lt;p&gt;You can perform a basic read by running the command &lt;code&gt;tesseract &amp;lt;input_file&amp;gt; &amp;lt;output_file&amp;gt;&lt;/code&gt;, where &lt;code&gt;&amp;lt;input_file&amp;gt;&lt;/code&gt; is the exact name of your image file, including the .jpg extension, and &lt;code&gt;&amp;lt;output_file&amp;gt;&lt;/code&gt; is whatever name you want to give the results file. For example, you might say &lt;code&gt;tesseract 1905-07-18-p3.jpg monday-page-three-text&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Open the output file (which will be in &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/&#34; target=&#34;_blank&#34;&gt;plain text&lt;/a&gt;) and take a gander at the results. They will be okay, but not as good as we&amp;rsquo;d like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.&lt;/p&gt;
 
