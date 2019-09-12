@@ -68,4 +68,5 @@ Luxor|"notesLuxor"|also appears as Luxor Notes
 Other|"notesOther"|Notes from Akhmin, Keneh, Kafr Zayat, Minet el Gamh, Wadi Medani, and other places in Egypt
 
 Others infrequently occurring features, not yet assigned a `feature` value:
+
 - Questions municipales
