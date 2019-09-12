@@ -28,9 +28,8 @@
   
     
   
-  <meta name="description" content="Objective This lesson explains how to turn images of text into editable files. We will use &quot;optical character recognition&quot; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&#39;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup.
- You will not need use OCR on text that has been templated.
- 1. Install Tesseract Tesseract is an open-source OCR program supported by Google.">
+  <meta name="description" content="Objective This lesson explains how to turn images of text into editable files. We will use &ldquo;optical character recognition&rdquo; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup.
+ You will not need use OCR on text that has been templated.   1. Install Tesseract Tesseract is an open-source OCR program supported by Google.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/">
@@ -113,9 +112,8 @@
   <meta property="og:site_name" content="Digital Egyptian Gazette">
   <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/">
   <meta property="og:title" content="OCR instructions | Digital Egyptian Gazette">
-  <meta property="og:description" content="Objective This lesson explains how to turn images of text into editable files. We will use &quot;optical character recognition&quot; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&#39;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup.
- You will not need use OCR on text that has been templated.
- 1. Install Tesseract Tesseract is an open-source OCR program supported by Google."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="og:description" content="Objective This lesson explains how to turn images of text into editable files. We will use &ldquo;optical character recognition&rdquo; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup.
+ You will not need use OCR on text that has been templated.   1. Install Tesseract Tesseract is an open-source OCR program supported by Google."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -393,11 +391,15 @@
       </li>
       
       <li >
+        <a href="/how-to/digitization/content-markup-instructions/">Content markup</a>
+      </li>
+      
+      <li >
         <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
       </li>
       
       <li >
-        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Content markup</a>
+        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Advanced tagging</a>
       </li>
       
       <li >
@@ -428,7 +430,43 @@
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-install-tesseract">1. Install Tesseract</a>
+<ul>
+<li><a href="#1a-access-the-command-line">1a. Access the command line</a></li>
+<li><a href="#1b-install-tesseract">1b. Install Tesseract</a></li>
+</ul></li>
+<li><a href="#2-transform-image-into-text">2. Transform image into Text</a>
+<ul>
+<li><a href="#2a-navigate-to-image-directory">2a. Navigate to image directory</a></li>
+<li><a href="#2b-run-ocr">2b. Run OCR</a></li>
+<li><a href="#2c-help-tesseract-see-the-columns">2c. Help tesseract see the columns</a></li>
+<li><a href="#2d-fix-the-line-breaks">2d. Fix the line breaks</a></li>
+</ul></li>
+<li><a href="#3-move-the-text-into-your-xml-file">3. Move the text into your XML file</a></li>
+</ul></li>
+<li><a href="#faqs">FAQs</a>
+<ul>
+<li><a href="#how-many-errors-should-i-expect-to-find">How many errors should I expect to find?</a></li>
+<li><a href="#how-do-i-deal-with-accented-letters">How do I deal with accented letters?</a></li>
+<li><a href="#what-if-i-can-t-read-the-text">What if I can&rsquo;t read the text?</a></li>
+<li><a href="#what-if-i-want-a-gui-ocr-program">What if I want a GUI OCR program?</a>
+<ul>
+<li><a href="#if-you-are-using-windows">If you are using Windows:</a></li>
+<li><a href="#if-you-are-using-mac">If you are using Mac:</a></li>
+<li><a href="#if-your-trial-license-runs-out">If your trial license runs out:</a></li>
+</ul></li>
+<li><a href="#are-there-other-ocr-programs-available-for-mac">Are there other OCR programs available for Mac?</a>
+<ul>
+<li><a href="#using-cisdem">Using Cisdem</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -442,19 +480,23 @@
           <h1 itemprop="name">OCR instructions</h1>
 
           <div class="article-style" itemprop="articleBody">
-            <h2 id="objective">Objective</h2>
+            
 
-<p>This lesson explains how to turn images of text into editable files. We will use <a href="https://en.wikipedia.org/wiki/Optical_character_recognition">&quot;optical character recognition&quot; (OCR)</a> to work with free text wherever we encounter it in the <em>Egyptian Gazette</em>. Once we've transformed OCRed text and performed basic corrections, it will be ready for <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML markup</a>.</p>
+<h2 id="objective">Objective</h2>
 
-<aside>
-<p>You will not need use OCR on text that has been <a href="/how-to/digitization/templating-instructions/">templated</a>.</p>
-</aside>
+<p>This lesson explains how to turn images of text into editable files. We will use <a href="https://en.wikipedia.org/wiki/Optical_character_recognition" target="_blank">&ldquo;optical character recognition&rdquo; (OCR)</a> to work with free text wherever we encounter it in the <em>Egyptian Gazette</em>. Once we&rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML markup</a>.</p>
+
+<div class="alert alert-note">
+  <div>
+    You will not need use OCR on text that has been <a href="/how-to/digitization/templating-instructions/">templated</a>.
+  </div>
+</div>
 
 <h2 id="1-install-tesseract">1. Install Tesseract</h2>
 
-<p><a href="https://github.com/tesseract-ocr/tesseract">Tesseract</a> is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.</p>
+<p><a href="https://github.com/tesseract-ocr/tesseract" target="_blank">Tesseract</a> is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.</p>
 
-<p>We will be running it on the hard drives of our own laptops. Unlike most programs you will have used, tesseract does not have a <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">graphical user interface</a> (GUI). Instead, you run it from the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command line</a>. The command line interface can take a bit of getting used to, but it is relatively straightforward. Also, once you know how to use the command line it's easier to look under the hood of your computer when you need to.</p>
+<p>We will be running it on the hard drives of our own laptops. Unlike most programs you will have used, tesseract does not have a <a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank">graphical user interface</a> (GUI). Instead, you run it from the <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank">command line</a>. The command line interface can take a bit of getting used to, but it is relatively straightforward. Also, once you know how to use the command line it&rsquo;s easier to look under the hood of your computer when you need to.</p>
 
 <h3 id="1a-access-the-command-line">1a. Access the command line</h3>
 
@@ -462,20 +504,25 @@
 
 <ul>
 <li><strong>OSX</strong>: The command line program is <strong>Terminal</strong>. You can find it in <code>Applications &gt; Utilities</code>.</li>
-<li><strong>Windows</strong>: If you're using Windows, click Start, then in the Search or Run line, type <code>cmd</code> (short for command), and press enter.<br></li>
+<li><strong>Windows</strong>: If you&rsquo;re using Windows, click Start, then in the Search or Run line, type <code>cmd</code> (short for command), and press enter.<br /></li>
 </ul>
 
-<p>When you open this program, you will face a plain black box which offers you no hints or help. But don't worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.</p>
+<p>The program you open will look something like this:</p>
+
+<p><img src="/img/command-line.png" alt="command line" /></p>
+
+<p>When you open this program, you will face a plain black box which offers you no hints or help. But don&rsquo;t worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.</p>
 
 <h3 id="1b-install-tesseract">1b. Install Tesseract</h3>
 
-<p>Detailed instructions to install Tesseract can be found <a href="https://github.com/tesseract-ocr/tesseract/wiki">here</a>. The <code>tl;dr</code> version is:</p>
+<p>The <code>tl;dr</code> version is:</p>
 
 <ul>
-<li><strong>OSX</strong>: install <a href="https://brew.sh/">Homebrew</a> (a &quot;package manager&quot;) by pasting <code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code> in the command line, pressing enter, and following the prompts. Then, install tesseract by running <code>brew install tesseract</code> in the terminal.</li>
-<li><strong>Windows</strong>: download <a href="https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe">this program</a>. <strong>Instructions incomplete.</strong></li>
-<li><strong>Linux</strong>: you probably already know enough to figure it out.</li>
+<li><strong>OSX</strong>: install <a href="https://brew.sh/" target="_blank">Homebrew</a> (a &ldquo;package manager&rdquo;) by pasting <code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code> in the command line, pressing enter, and following the prompts. Then, install tesseract by running <code>brew install tesseract</code> in the terminal.</li>
+<li><strong>Windows</strong>: download <a href="https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe" target="_blank">this program</a>. <strong>Instructions incomplete.</strong></li>
 </ul>
+
+<p>More detailed instructions to install Tesseract can be found <a href="https://github.com/tesseract-ocr/tesseract/wiki" target="_blank">here</a>.</p>
 
 <h2 id="2-transform-image-into-text">2. Transform image into Text</h2>
 
@@ -483,20 +530,20 @@
 
 <h3 id="2a-navigate-to-image-directory">2a. Navigate to image directory</h3>
 
-<p>First, you must make sure that you are working in the &quot;directory&quot; (location) on your computer that contains the image file that you want to process. Enter the command <code>ls</code> to see a list of the files in the directory you're currently in. It's probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:</p>
+<p>First, you must make sure that you are working in the &ldquo;directory&rdquo; (location) on your computer that contains the image file that you want to process. Enter the command <code>ls</code> to see a list of the files in the directory you&rsquo;re currently in. It&rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:</p>
 
 <ul>
-<li><strong>OSX</strong>: Type <code>cd</code> (&quot;change directory&quot;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.</li>
+<li><strong>OSX</strong>: Type <code>cd</code> (&ldquo;change directory&rdquo;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.</li>
 <li><strong>Windows</strong>: From the File Explorer window that contains the image file, click on the “File” menu to see an option to open that location in a command prompt.</li>
 </ul>
 
-<p>Once you've done this, type <code>ls</code> at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in <code>YYYY-MM-DD.jpg</code> format) is listed, you're ready for the next step.</p>
+<p>Once you&rsquo;ve done this, type <code>ls</code> at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in <code>YYYY-MM-DD.jpg</code> format) is listed, you&rsquo;re ready for the next step.</p>
 
 <h3 id="2b-run-ocr">2b. Run OCR</h3>
 
 <p>You can perform a basic read by running the command <code>tesseract &lt;input_file&gt; &lt;output_file&gt;</code> (where <code>&lt;input_file&gt;</code> is the exact name of your image file, including the .jpg extension, and <code>&lt;output_file&gt;</code> is whatever name you want to give the results file).</p>
 
-<p>Open the output file (which will be in <a href="https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/">plain text</a>) and take a gander at the results. They will be okay, but not as good as we'd like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.</p>
+<p>Open the output file (which will be in <a href="https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/" target="_blank">plain text</a>) and take a gander at the results. They will be okay, but not as good as we&rsquo;d like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.</p>
 
 <p>Things should work a bit better using this command:</p>
 
@@ -517,91 +564,50 @@
 
 <p>Do everything you can to use the cleanest, straightest images possible.</p>
 
-<p>If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (<strong>unverified</strong>)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don't need tesseract to read.</p>
+<p>If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (<strong>unverified</strong>)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don&rsquo;t need tesseract to read.</p>
 
-<p><figure><img src="/img/column-block-right.png" alt="column-block-right"></figure></p>
+<p><img src="/img/column-block-right.png" alt="column-block-right" /></p>
 
 <p>Then make another copy, blocking out the first, third, and fifth columns.</p>
 
-<p><figure><img src="/img/column-block-left.png" alt="column-block-left"></figure></p>
+<p><img src="/img/column-block-left.png" alt="column-block-left" /></p>
 
-<p>Run OCR on these images. The two text files that result will contain some errors, but they won't confuse the columns.</p>
+<p>Run OCR on these images. The two text files that result will contain some errors, but they won&rsquo;t confuse the columns.</p>
 
 <h3 id="2d-fix-the-line-breaks">2d. Fix the line breaks</h3>
 
-<p>Before moving this text into XML, let's try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs.</p>
+<p>Before moving this text into XML, let&rsquo;s try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs.</p>
 
 <p>Using <strong>Find and Replace</strong> in your plain text editor, follow these steps:</p>
 
 <ul>
 <li>find every <code>&lt;</code> and <code>&gt;</code>, which will almost certainly be OCR errors, and delete or replace them.</li>
 <li>enable regular expressions, then find <code>\n\n</code> (all double paragraph breaks) and replace with <code>&lt;/p&gt;&lt;p&gt;</code> (XML paragraph breaks)</li>
-<li>replace <code>&amp;</code> with <code>&amp;amp;</code>. (XML freaks out if it sees an &quot;and&quot; symbol, and there are lots of them in the <em>Egyptian Gazette</em>.)</li>
+<li>replace <code>&amp;</code> with <code>&amp;amp;</code>. (XML freaks out if it sees an &ldquo;and&rdquo; symbol, and there are lots of them in the <em>Egyptian Gazette</em>.)</li>
 <li>add a <code>&lt;p&gt;</code> at the very start of the file, and a <code>&lt;/p&gt;</code> at the very end of the file.</li>
 </ul>
 
 <h2 id="3-move-the-text-into-your-xml-file">3. Move the text into your XML file</h2>
 
-<p>Copy the contents of the first column in the text file you've prepared. Open Oxygen. In the xml file that you're preparing, put a <code>&lt;div type=&quot;item&quot;&gt; &lt;cb n=&quot;1&quot;/&gt; &lt;/div&gt;</code> pair of tags after the <pb n="?"/> tag corresponding to the page you've OCRed. Paste the text in between these tags.</p>
+<p>Copy the contents of the first column in the text file you&rsquo;ve prepared. Open Oxygen. In the xml file that you&rsquo;re preparing, put a <code>&lt;div type=&quot;item&quot;&gt; &lt;cb n=&quot;1&quot;/&gt; &lt;/div&gt;</code> pair of tags after the <pb n="?"/> tag corresponding to the page you&rsquo;ve OCRed. Paste the text in between these tags.</p>
 
 <p>Proceed to copy the second column in your text file. In Oxygen, add an <code>&lt;cb n=&quot;2&quot;/&gt;</code> tag, then paste the contents of the second column. Proceed in the same way for the next four columns of the page.</p>
 
-<h2 id="4-fix-the-basic-structural-tags">4. Fix the basic structural tags</h2>
-
-<p>You should have a green box, indicating a well-formed document. If not, correct any errors you find. Now correct and add basic structural tags of three types:</p>
-
-<ul>
-<li><code>&lt;div type=&quot;item&quot;&gt;</code>, which you can use for articles, items, or any division of the page that makes sense to you,</li>
-<li><code>&lt;head&gt;</code>, which indicates a headline (the headline must be the first element in the item),</li>
-<li><code>&lt;p&gt;</code>, which indicates a paragraph.</li>
-</ul>
-
-<p>Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit <code>command-E</code>. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit <code>command-slash</code>.</p>
-
-<p>Once you add these tags to your page, you might have a valid document (and thus a green box in Oxygen). But these common errors will probably also have to be addressed:</p>
-
-<ul>
-<li><strong>&amp;</strong>: the ampersand is represented as <code>&amp;amp;</code> in xml. <code>&amp;</code> alone will create an error.</li>
-<li><strong>&gt;</strong> or <strong>&lt;</strong>: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.</li>
-<li>anything else not in a <code>&lt;div&gt;</code>, and not in a <code>&lt;p&gt;</code> or a <code>&lt;head&gt;</code>.</li>
-</ul>
-
-<h2 id="5-add-feature-attributes">5. Add feature attributes</h2>
-
-<p>There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked <code>&lt;div type=&quot;section&quot;&gt;</code> rather than <code>&lt;div type=&quot;item&quot;&gt;</code>. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is <a href="/contents/features/">here</a>. To add an feature attribute, place it within the <code>&lt;div&gt;</code> tag, after the <code>type=&quot;section&quot;</code> attribute, thus: <code>&lt;div type=&quot;section&quot; feature=&quot;local&quot;&gt;</code>. If you type <code>feature</code> inside the tag, Oxygen should offer you an autocomplete menu of features.</p>
-
-<h2 id="6-add-more-complex-structural-tags">6. Add more complex structural tags</h2>
-
-<p>There are more tags that you can add:</p>
-
-<ul>
-<li>If the article or item is in French, add the attribute <code>xml:lang=&quot;fr&quot;</code> to the <code>&lt;div&gt;</code> tag.</li>
-<li><strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see <a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb">this guidance</a>.</li>
-<li><strong><code>&lt;div type=&quot;section&quot;&gt;</code></strong> to wrap multiple items that belong together, for instance in the international or local news sections.</li>
-<li><strong><code>&lt;dateline&gt;</code></strong> for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new <code>&lt;div type=&quot;item&quot;&gt;</code> for each newswire report.</li>
-<li><strong><code>&lt;byline&gt;</code></strong> for authors. There can only be one byline per division.</li>
-<li><strong><code>&lt;gap/&gt;</code></strong> for holes in the text, <strong><code>&lt;unclear&gt;</code></strong> for illegible text (you can supply an attribute explaining why), and <strong><code>&lt;supplied&gt;</code></strong> for something that was illegible but which you figured out by finding the same thing in a different issue.</li>
-<li>pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;item1&quot;&gt;</code>. If the articles are in different issues, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;YYYY-MM-DD.xml#item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;YYYY-MM-DD.xml#item1&quot;&gt;</code>.</li>
-<li>the <strong><code>&lt;figure&gt;</code></strong> element will be useful for the <em>Egyptian Gazette</em>, but I have not yet worked out how to use it.</li>
-</ul>
-
-<h2 id="6-add-content-tags">6. Add content tags</h2>
-
-<p>This is a more advanced undertaking. See the separate tutorial <a href="/how-to/digitization/tagging-people-and-places-instructions/">here</a>.</p>
+<p>You should have a green box, indicating a well-formed document. If not, correct any errors you find.</p>
 
 <h1 id="faqs">FAQs</h1>
 
 <h2 id="how-many-errors-should-i-expect-to-find">How many errors should I expect to find?</h2>
 
-<p>If you find a very large number of errors, you might consider re-scanning the page at a higher resolution or a better focus.</p>
+<p>If you find a very large number of misread words, you might consider re-scanning the page at a higher resolution or a better focus.</p>
 
 <h2 id="how-do-i-deal-with-accented-letters">How do I deal with accented letters?</h2>
 
-<p>Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for <a href="https://kb.iu.edu/d/aihp">Windows</a> and <a href="http://symbolcodes.tlt.psu.edu/accents/codemac.html">Mac</a>.</p>
+<p>Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for <a href="https://kb.iu.edu/d/aihp" target="_blank">Windows</a> and <a href="http://symbolcodes.tlt.psu.edu/accents/codemac.html" target="_blank">Mac</a>.</p>
 
-<h2 id="what-if-i-cant-read-the-text">What if I can't read the text?</h2>
+<h2 id="what-if-i-can-t-read-the-text">What if I can&rsquo;t read the text?</h2>
 
-<p>Wrap it in an <code>&lt;unclear&gt;</code> tag, and maybe add a <code>&lt;!-- comment --&gt;</code> explaining what's going on.</p>
+<p>Wrap it in an <code>&lt;unclear&gt;</code> tag, and maybe add a <code>&lt;!-- comment --&gt;</code> explaining what&rsquo;s going on.</p>
 
 <h2 id="what-if-i-want-a-gui-ocr-program">What if I want a GUI OCR program?</h2>
 
@@ -610,41 +616,41 @@
 <h3 id="if-you-are-using-windows">If you are using Windows:</h3>
 
 <ol>
-<li>Download <a href="http://trial.abbyyusa.com/download-fr12pro">AABBY Finereader</a>. The 30-day, 100-page free trial that they offer <em>should</em> be enough time to complete your OCR work for this class. If you don't complete it on time, you have the option to buy the software for about $100.</li>
+<li>Download <a href="http://trial.abbyyusa.com/download-fr12pro" target="_blank">AABBY Finereader</a>. The 30-day, 100-page free trial that they offer <em>should</em> be enough time to complete your OCR work for this class. If you don&rsquo;t complete it on time, you have the option to buy the software for about $100.</li>
 <li>Open the program, then open the image file of the page you wish to read. When you open the document, Finereader will automatically read it. Let it do its work.</li>
-<li>Once the initial read is complete, you'll need to make sure that it's defined the areas correctly. The areas are the green-bordered boxes of text. Often the machine will skip a word, or draw an extra few words in from a different column. You need to have the whole text read in the proper order, so you'll want to reshape these boxes so that they cover the text correctly. I've sometimes found that it's best just to drag one box so that it covers a whole column. You can delete the boxes covering any advertisements or other templated material--you'll copy and paste templates rather than OCR those items.</li>
-<li>Once the boxes cover all of the text, you need to make sure that they're in the right sequence. Click the tool on the left hand menu with a blue down arrow and a red up arrow. This is the tool to reorder the areas of text.</li>
-<li>It is possible that your page contains text in French. If this is the case, enclose that text in its own area and set the language (in the &quot;Area Properties&quot; tab at the bottom of the screen) to French.</li>
-<li>Once the sequence of areas is correct, click the &quot;read&quot; icon again. The program will reread the text in the order you've indicated.</li>
-<li>Click on the &quot;verification&quot; icon, and proceed to correct the text. When verifying the text, remember that you are only correcting the automatic reading. <em>Do not</em> correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.</li>
-<li>Once you've verified some or all of the text, save your verification work. (If you close Finereader without saving the verification separately, you will lose your work). To do this, use the &quot;Save&quot; icon in the middle top of the page. Choose &quot;Plain text&quot; or &quot;Word Document&quot; as the document layout (as you like), and click &quot;Save.&quot; Name the document following the standard format of YYYY-MM-DD-p#. If you click &quot;Format options,&quot; and check &quot;Use blank line as paragraph separator,&quot; it will make your work easier later on. You can now close Finereader without losing your verification work.</li>
-<li>Once you've finished work on the page, upload it to your personal GitHub repository.</li>
+<li>Once the initial read is complete, you&rsquo;ll need to make sure that it&rsquo;s defined the areas correctly. The areas are the green-bordered boxes of text. Often the machine will skip a word, or draw an extra few words in from a different column. You need to have the whole text read in the proper order, so you&rsquo;ll want to reshape these boxes so that they cover the text correctly. I&rsquo;ve sometimes found that it&rsquo;s best just to drag one box so that it covers a whole column. You can delete the boxes covering any advertisements or other templated material&ndash;you&rsquo;ll copy and paste templates rather than OCR those items.</li>
+<li>Once the boxes cover all of the text, you need to make sure that they&rsquo;re in the right sequence. Click the tool on the left hand menu with a blue down arrow and a red up arrow. This is the tool to reorder the areas of text.</li>
+<li>It is possible that your page contains text in French. If this is the case, enclose that text in its own area and set the language (in the &ldquo;Area Properties&rdquo; tab at the bottom of the screen) to French.</li>
+<li>Once the sequence of areas is correct, click the &ldquo;read&rdquo; icon again. The program will reread the text in the order you&rsquo;ve indicated.</li>
+<li>Click on the &ldquo;verification&rdquo; icon, and proceed to correct the text. When verifying the text, remember that you are only correcting the automatic reading. <em>Do not</em> correct any errors you might find in the newspaper itself&ndash;not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.</li>
+<li>Once you&rsquo;ve verified some or all of the text, save your verification work. (If you close Finereader without saving the verification separately, you will lose your work). To do this, use the &ldquo;Save&rdquo; icon in the middle top of the page. Choose &ldquo;Plain text&rdquo; or &ldquo;Word Document&rdquo; as the document layout (as you like), and click &ldquo;Save.&rdquo; Name the document following the standard format of YYYY-MM-DD-p#. If you click &ldquo;Format options,&rdquo; and check &ldquo;Use blank line as paragraph separator,&rdquo; it will make your work easier later on. You can now close Finereader without losing your verification work.</li>
+<li>Once you&rsquo;ve finished work on the page, upload it to your personal GitHub repository.</li>
 </ol>
 
 <h3 id="if-you-are-using-mac">If you are using Mac:</h3>
 
-<p>This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can <a href="https://trial.abbyyusa.com/download-frpro-mac-free-trial">download here</a>. The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you've downloaded, don't install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.</p>
+<p>This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can <a href="https://trial.abbyyusa.com/download-frpro-mac-free-trial" target="_blank">download here</a>. The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you&rsquo;ve downloaded, don&rsquo;t install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.</p>
 
-<p>To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click &quot;Export.&quot; Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.</p>
+<p>To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click &ldquo;Export.&rdquo; Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.</p>
 
 <h3 id="if-your-trial-license-runs-out">If your trial license runs out:</h3>
 
-<p>The free version of <a href="finereaderonline.com">Finereader Online</a> allows you to OCR 10 pages per month. This should help if you don't manage to finish all of your OCR in time. Note that there is no verification tool in the online version.</p>
+<p>The free version of <a href="finereaderonline.com" target="_blank">Finereader Online</a> allows you to OCR 10 pages per month. This should help if you don&rsquo;t manage to finish all of your OCR in time. Note that there is no verification tool in the online version.</p>
 
 <h2 id="are-there-other-ocr-programs-available-for-mac">Are there other OCR programs available for Mac?</h2>
 
-<p>I've also had good results with <a href="https://www.cisdem.com/ocr-wizard-mac.html">Cisdem OCR Wizard</a>. I'm not sure how long their free trial lasts, but it's worth a try, and can also be purchased for $60. Follow the directions below.</p>
+<p>I&rsquo;ve also had good results with <a href="https://www.cisdem.com/ocr-wizard-mac.html" target="_blank">Cisdem OCR Wizard</a>. I&rsquo;m not sure how long their free trial lasts, but it&rsquo;s worth a try, and can also be purchased for $60. Follow the directions below.</p>
 
-<p>(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of <a href="http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&amp;utm_medium=Popup&amp;utm_campaign=Popup-trial">Readiris Pro</a>. <a href="http://solutions.weblite.ca/pdfocrx/download_mac">PDF OCR X Community Edition</a> also didn't do a great job, but it's free).</p>
+<p>(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of <a href="http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&amp;utm_medium=Popup&amp;utm_campaign=Popup-trial" target="_blank">Readiris Pro</a>. <a href="http://solutions.weblite.ca/pdfocrx/download_mac" target="_blank">PDF OCR X Community Edition</a> also didn&rsquo;t do a great job, but it&rsquo;s free).</p>
 
 <h3 id="using-cisdem">Using Cisdem</h3>
 
 <ol>
-<li>Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press &quot;recognize&quot;. Let it do its work.</li>
+<li>Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press &ldquo;recognize&rdquo;. Let it do its work.</li>
 <li>Cisdem seems to recognize newspaper columns quite well, and you can probably simply proceed to OCR once the recognition is finished and correct by hand later. But if you notice egregious errors, reshape the green boxes.</li>
 <li>Select .text or .docx as the output format, and click export. Wait. When you are offered the option to save the document, name it following the standard format of YYYY-MM-DD-p#.</li>
-<li>Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. <em>Do not</em> correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.</li>
-<li>Once you've finished work on the page, save it--soon we'll upload it to your xml issue file.</li>
+<li>Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. <em>Do not</em> correct any errors you might find in the newspaper itself&ndash;not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.</li>
+<li>Once you&rsquo;ve finished work on the page, save it&ndash;soon we&rsquo;ll upload it to your xml issue file.</li>
 </ol>
 
           </div>
@@ -669,7 +675,7 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/how-to/digitization/text-editor-instructions/" rel="prev">Plain text instructions</a>
+    <a href="/how-to/digitization/content-markup-instructions/" rel="prev">Content markup instructions</a>
   </div>
   
 </div>

@@ -11,13 +11,14 @@ menu:
     weight: 5
 
 weight: 5
-markup: mmark
 ---
 
 ## Objective
 This lesson explains how to turn images of text into editable files. We will use ["optical character recognition" (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition) to work with free text wherever we encounter it in the *Egyptian Gazette*. Once we've transformed OCRed text and performed basic corrections, it will be ready for [TEI-XML markup](/how-to/digitization/tei-xml-instructions/).
 
-A> You will not need use OCR on text that has been [templated](/how-to/digitization/templating-instructions/). 
+{{% alert note %}}
+You will not need use OCR on text that has been [templated](/how-to/digitization/templating-instructions/). 
+{{% /alert %}}
 
 ## 1. Install Tesseract
 [Tesseract](https://github.com/tesseract-ocr/tesseract) is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications. 
@@ -30,14 +31,19 @@ You need to open a program in order to access the command line.
 - **OSX**: The command line program is **Terminal**. You can find it in `Applications > Utilities`. 
 -  **Windows**: If you're using Windows, click Start, then in the Search or Run line, type `cmd` (short for command), and press enter.  
 
+The program you open will look something like this:
+
+![command line](/img/command-line.png)
+
 When you open this program, you will face a plain black box which offers you no hints or help. But don't worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.
 
 ### 1b. Install Tesseract
-Detailed instructions to install Tesseract can be found [here](https://github.com/tesseract-ocr/tesseract/wiki). The `tl;dr` version is: 
+The `tl;dr` version is: 
 
 - **OSX**: install [Homebrew](https://brew.sh/) (a "package manager") by pasting `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` in the command line, pressing enter, and following the prompts. Then, install tesseract by running `brew install tesseract` in the terminal.
 - **Windows**: download [this program](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe). **Instructions incomplete.** 
-- **Linux**: you probably already know enough to figure it out.
+
+More detailed instructions to install Tesseract can be found [here](https://github.com/tesseract-ocr/tesseract/wiki). 
 
 ## 2. Transform image into Text
 You will be running tesseract from the command line. 
@@ -97,44 +103,13 @@ Copy the contents of the first column in the text file you've prepared. Open Oxy
 
 Proceed to copy the second column in your text file. In Oxygen, add an `<cb n="2"/>` tag, then paste the contents of the second column. Proceed in the same way for the next four columns of the page.
 
-## 4. Fix the basic structural tags
-You should have a green box, indicating a well-formed document. If not, correct any errors you find. Now correct and add basic structural tags of three types:
-
--  `<div type="item">`, which you can use for articles, items, or any division of the page that makes sense to you,
-- `<head>`, which indicates a headline (the headline must be the first element in the item),
-- `<p>`, which indicates a paragraph.
-
-Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit `command-E`. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit `command-slash`.
-
-Once you add these tags to your page, you might have a valid document (and thus a green box in Oxygen). But these common errors will probably also have to be addressed:
-
-- **&**: the ampersand is represented as `&amp;` in xml. `&` alone will create an error.
-- **>** or **<**: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.
-- anything else not in a `<div>`, and not in a `<p>` or a `<head>`.
-
-## 5. Add feature attributes
-There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked `<div type="section">` rather than `<div type="item">`. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is [here](/contents/features/). To add an feature attribute, place it within the `<div>` tag, after the `type="section"` attribute, thus: `<div type="section" feature="local">`. If you type `feature` inside the tag, Oxygen should offer you an autocomplete menu of features.
-
-## 6. Add more complex structural tags
-There are more tags that you can add:
-
-- If the article or item is in French, add the attribute `xml:lang="fr"` to the `<div>` tag.
-- **`<cb/>`** for column breaks. Be sure to put this tag at the *beginning* of the column. Add the number of the column, as well, thus: `<cb n="1"/>` For mixed columns, see [this guidance](http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb).
-- **`<div type="section">`** to wrap multiple items that belong together, for instance in the international or local news sections.
-- **`<dateline>`** for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new `<div type="item">` for each newswire report.
-- **`<byline>`** for authors. There can only be one byline per division.
-- **`<gap/>`** for holes in the text, **`<unclear>`** for illegible text (you can supply an attribute explaining why), and **`<supplied>`** for something that was illegible but which you figured out by finding the same thing in a different issue.
-- pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags `<div type="item" xml:id="item1" next="item2">` and `<div type="item" xml:id="item2" prev="item1">`. If the articles are in different issues, make their tags `<div type="item" xml:id="item1" next="YYYY-MM-DD.xml#item2">` and `<div type="item" xml:id="item2" prev="YYYY-MM-DD.xml#item1">`.
-- the **`<figure>`** element will be useful for the *Egyptian Gazette*, but I have not yet worked out how to use it.
-
-## 6. Add content tags
-This is a more advanced undertaking. See the separate tutorial [here](/how-to/digitization/tagging-people-and-places-instructions/).
+You should have a green box, indicating a well-formed document. If not, correct any errors you find.
 
 # FAQs
 
 ## How many errors should I expect to find?
 
-If you find a very large number of errors, you might consider re-scanning the page at a higher resolution or a better focus.
+If you find a very large number of misread words, you might consider re-scanning the page at a higher resolution or a better focus.
 
 ## How do I deal with accented letters?
 

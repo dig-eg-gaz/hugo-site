@@ -26,13 +26,13 @@
 &lt;li&gt;&lt;a href=&#34;tei-xml-instructions&#34; target=&#34;_blank&#34;&gt;How to perform structural markup in TEI-XML&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;templating-instructions&#34; target=&#34;_blank&#34;&gt;How to use templates&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;github-instructions&#34; target=&#34;_blank&#34;&gt;How to use GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;OCR-instructions&#34; target=&#34;_blank&#34;&gt;How to OCR text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;ocr-instructions&#34; target=&#34;_blank&#34;&gt;How to OCR text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;content-markup-instructions&#34; target=&#34;_blank&#34;&gt;How to mark up OCR text in TEI-XML&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;text-editor-instructions&#34; target=&#34;_blank&#34;&gt;How to use a plain text editor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;tagging-people-and-places-instructions&#34; target=&#34;_blank&#34;&gt;How to perform content markup&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;query-instructions&#34; target=&#34;_blank&#34;&gt;How to query the full contents&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;regular-expression-instructions&#34; target=&#34;_blank&#34;&gt;How to use regular expressions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;visualization-instructions&#34; target=&#34;_blank&#34;&gt;How to create data visualizations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;embed-visualization-instructions&#34; target=&#34;_blank&#34;&gt;How to embed visualizations in markdown&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

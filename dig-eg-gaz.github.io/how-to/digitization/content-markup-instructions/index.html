@@ -28,11 +28,12 @@
   
     
   
-  <meta name="description" content="Objectives While features of the Egyptian Gazette were composed fresh each day, much of each issue consisted of templates reapplied with minor or no modifications from issue to issue. As we produce our marked-up version of the newspaper, we can save effort by reusing templates in our own work. We must remain alert to minor variations, however.
-1. Recurring features The first step is to determine if you are looking at something that is a template.">
+  <meta name="description" content="Objective This lesson explains how to convert the raw, basic XML text you produced through OCR into useable TEI-XML material.
+1. Fix the basic structural tags Now correct and add basic structural tags of three types:
+ &lt;div type=&quot;item&quot;&gt;, which you can use for articles, items, or any division of the page that makes sense to you, &lt;head&gt;, which indicates a headline (the headline must be the first element in the item), &lt;p&gt;, which indicates a paragraph.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/">
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/">
 
   
 
@@ -97,7 +98,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/">
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/">
 
   
   
@@ -110,16 +111,17 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Digital Egyptian Gazette">
-  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/">
-  <meta property="og:title" content="Templating instructions | Digital Egyptian Gazette">
-  <meta property="og:description" content="Objectives While features of the Egyptian Gazette were composed fresh each day, much of each issue consisted of templates reapplied with minor or no modifications from issue to issue. As we produce our marked-up version of the newspaper, we can save effort by reusing templates in our own work. We must remain alert to minor variations, however.
-1. Recurring features The first step is to determine if you are looking at something that is a template."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/">
+  <meta property="og:title" content="Content markup instructions | Digital Egyptian Gazette">
+  <meta property="og:description" content="Objective This lesson explains how to convert the raw, basic XML text you produced through OCR into useable TEI-XML material.
+1. Fix the basic structural tags Now correct and add basic structural tags of three types:
+ &lt;div type=&quot;item&quot;&gt;, which you can use for articles, items, or any division of the page that makes sense to you, &lt;head&gt;, which indicates a headline (the headline must be the first element in the item), &lt;p&gt;, which indicates a paragraph."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2016-09-30T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2019-09-09T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2016-09-30T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-09-09T00:00:00&#43;00:00">
   
 
   
@@ -131,7 +133,7 @@
 
 
 
-  <title>Templating instructions | Digital Egyptian Gazette</title>
+  <title>Content markup instructions | Digital Egyptian Gazette</title>
 
 </head>
 
@@ -378,7 +380,7 @@
         <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/how-to/digitization/templating-instructions/">Templating</a>
       </li>
       
@@ -390,7 +392,7 @@
         <a href="/how-to/digitization/ocr-instructions/">OCR</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/how-to/digitization/content-markup-instructions/">Content markup</a>
       </li>
       
@@ -434,10 +436,11 @@
 <ul>
 <li>
 <ul>
-<li><a href="#objectives">Objectives</a></li>
-<li><a href="#1-recurring-features">1. Recurring features</a></li>
-<li><a href="#2-what-if-there-s-no-template">2. What if there&rsquo;s no template?</a></li>
-<li><a href="#3-an-overview-of-features">3. An overview of &ldquo;features&rdquo;</a></li>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-fix-the-basic-structural-tags">1. Fix the basic structural tags</a></li>
+<li><a href="#2-add-feature-attributes">2. Add feature attributes</a></li>
+<li><a href="#3-add-more-complex-structural-tags">3. Add more complex structural tags</a></li>
+<li><a href="#4-add-advanced-content-tags">4. Add advanced content tags</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -451,45 +454,57 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Templating instructions</h1>
+          <h1 itemprop="name">Content markup instructions</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h2 id="objectives">Objectives</h2>
+<h2 id="objective">Objective</h2>
 
-<p>While <a href="/contents/features/">features</a> of the <em>Egyptian Gazette</em> were composed fresh each day, much of each issue consisted of templates reapplied with minor or no modifications from issue to issue. As we produce our marked-up version of the newspaper, we can save effort by reusing templates in our own work. We must remain alert to minor variations, however.</p>
+<p>This lesson explains how to convert the raw, basic XML text you produced through OCR into useable TEI-XML material.</p>
 
-<h2 id="1-recurring-features">1. Recurring features</h2>
+<h2 id="1-fix-the-basic-structural-tags">1. Fix the basic structural tags</h2>
 
-<p>The first step is to determine if you are looking at something that is a template. Advertisements, tables, and other material that is not free text is probably templated. Check these indexes to see if you can find something identical or similar to what you want to find:</p>
-
-<ul>
-<li>The complete catalog of advertisements is <a href="/contents/advertisements/">here</a>.</li>
-<li>The complete catalog of financial tables and other boilerplates is <a href="/contents/templates/">here</a>.</li>
-</ul>
-
-<p>These indexes contain images of the templated items, links to TEI-XML documents representing the templated item, and (sometimes) a comment or two about the template. Once you&rsquo;ve identified the relevant template, copy and paste its XML into your own file. <strong>Important</strong>: Only copy the material contained within the <code>&lt;body&gt; &lt;/body&gt;</code> tags&ndash;the rest of the file should not appear in your issue file. To do so, select the text like this:</p>
-
-<p><img src="/img/templateCopy.png" alt="templateCopy" /></p>
-
-<p>Paste only this portion of the text into your issue document.</p>
-
-<p>Next, customize the template content to match your issue&rsquo;s content. Often there will be no changes. Sometimes dates, names, or numbers will have to be changed. Sometimes the changes will be more complex. As you become more familiar with TEI-XML, you will get better at customizing the template.</p>
-
-<h2 id="2-what-if-there-s-no-template">2. What if there&rsquo;s no template?</h2>
-
-<p>If you can&rsquo;t find a template that should be there, or if your version of an item is so different from the template that you think a new template is warranted, there are a few things you can do.</p>
+<p>Now correct and add basic structural tags of three types:</p>
 
 <ul>
-<li>First, you can search the <a href="https://github.com/dig-eg-gaz/content" target="_blank">repository of already-encoded issues</a> to see if someone has already produced a version of the material.</li>
-<li>If you find it, or if you feel up to encoding it yourself, you can turn this into a new template so that everyone can save time. Upload the xml and an image of the feature to the <a href="https://github.com/dig-eg-gaz/advertisements" target="_blank">advertisements</a> or <a href="https://github.com/dig-eg-gaz/boilerplates" target="_blank">boilerplates</a> repository, and send a pull request.</li>
-<li>Finally, if you can&rsquo;t find the material anywhere and it&rsquo;s too involved to reproduce it yourself, file an <a href="https://guides.github.com/features/issues/" target="_blank">issue</a> at the <a href="https://github.com/dig-eg-gaz/advertisements/issues" target="_blank">advertisements</a> or <a href="https://github.com/dig-eg-gaz/boilerplates/issues" target="_blank">boilerplates</a> repositories, insert a <code>&lt;!-- missing template --&gt;</code> comment with a few details into your document, and move on.</li>
+<li><code>&lt;div type=&quot;item&quot;&gt;</code>, which you can use for articles, items, or any division of the page that makes sense to you,</li>
+<li><code>&lt;head&gt;</code>, which indicates a headline (the headline must be the first element in the item),</li>
+<li><code>&lt;p&gt;</code>, which indicates a paragraph.</li>
 </ul>
 
-<h2 id="3-an-overview-of-features">3. An overview of &ldquo;features&rdquo;</h2>
+<p>Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit <code>command-E</code>. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit <code>command-slash</code>.</p>
 
-<p>For a general summary of recurring features, see the tables <a href="/contents/features/">here</a>. Early on in this project, I made <a href="https://docs.google.com/spreadsheets/d/118Zv13fpHfm67i1k0Sm79OThV4ApD-d1iccvrpw1iYU/edit?authuser=0" target="_blank">this table</a>, which lists items commonly present in issues of the <em>Egyptian Gazette</em>. For a given date, the page and column number are listed. <a href="https://docs.google.com/presentation/d/1vMoj-5ktfUAsfXrEbQJqy8vSsKhYiVyGVIZZqefrJW0/edit?authuser=0" target="_blank">This powerpoint presentation</a> displays the content layout of several issues during the month of July 1905. (The main boilerplate is six pages long. On Wednesday and Saturday, when issues are eight pages, the extra pages are the fourth and fifth pages. Pages 6-8 of extended editions correspond to pages 4-6 of regular editions.)</p>
+<p>Once you add these tags to your page, you might have a valid document (and thus a green box in Oxygen). But these common errors will probably also have to be addressed:</p>
+
+<ul>
+<li><strong>&amp;</strong>: the ampersand is represented as <code>&amp;amp;</code> in xml. <code>&amp;</code> alone will create an error.</li>
+<li><strong>&gt;</strong> or <strong>&lt;</strong>: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.</li>
+<li>anything else not in a <code>&lt;div&gt;</code>, and not in a <code>&lt;p&gt;</code> or a <code>&lt;head&gt;</code>.</li>
+</ul>
+
+<h2 id="2-add-feature-attributes">2. Add feature attributes</h2>
+
+<p>There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked <code>&lt;div type=&quot;section&quot;&gt;</code> rather than <code>&lt;div type=&quot;item&quot;&gt;</code>. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is <a href="/contents/features/">here</a>. To add an feature attribute, place it within the <code>&lt;div&gt;</code> tag, after the <code>type=&quot;section&quot;</code> attribute, thus: <code>&lt;div type=&quot;section&quot; feature=&quot;local&quot;&gt;</code>. If you type <code>feature</code> inside the tag, Oxygen should offer you an autocomplete menu of features.</p>
+
+<h2 id="3-add-more-complex-structural-tags">3. Add more complex structural tags</h2>
+
+<p>There are more tags that you can add:</p>
+
+<ul>
+<li>If the article or item is in French, add the attribute <code>xml:lang=&quot;fr&quot;</code> to the <code>&lt;div&gt;</code> tag.</li>
+<li><strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see <a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb" target="_blank">this guidance</a>.</li>
+<li><strong><code>&lt;div type=&quot;section&quot;&gt;</code></strong> to wrap multiple items that belong together, for instance in the international or local news sections.</li>
+<li><strong><code>&lt;dateline&gt;</code></strong> for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new <code>&lt;div type=&quot;item&quot;&gt;</code> for each newswire report.</li>
+<li><strong><code>&lt;byline&gt;</code></strong> for authors. There can only be one byline per division.</li>
+<li><strong><code>&lt;gap/&gt;</code></strong> for holes in the text, <strong><code>&lt;unclear&gt;</code></strong> for illegible text (you can supply an attribute explaining why), and <strong><code>&lt;supplied&gt;</code></strong> for something that was illegible but which you figured out by finding the same thing in a different issue.</li>
+<li>pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;item1&quot;&gt;</code>. If the articles are in different issues, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;YYYY-MM-DD.xml#item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;YYYY-MM-DD.xml#item1&quot;&gt;</code>.</li>
+<li>the <strong><code>&lt;figure&gt;</code></strong> element will be useful for the <em>Egyptian Gazette</em>, but I have not yet worked out how to use it.</li>
+</ul>
+
+<h2 id="4-add-advanced-content-tags">4. Add advanced content tags</h2>
+
+<p>This is a more advanced undertaking. See the separate tutorial <a href="/how-to/digitization/tagging-people-and-places-instructions/">here</a>.</p>
 
           </div>
 
@@ -506,14 +521,14 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/how-to/digitization/tei-xml-instructions/" rel="next">TEI-XML instructions</a>
+    <a href="/how-to/digitization/ocr-instructions/" rel="next">OCR instructions</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/how-to/digitization/github-instructions/" rel="prev">GitHub instructions</a>
+    <a href="/how-to/digitization/text-editor-instructions/" rel="prev">Plain text instructions</a>
   </div>
   
 </div>
@@ -523,7 +538,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Sep 30, 2016</p>
+          <p>Last updated on Sep 9, 2019</p>
 
           
 

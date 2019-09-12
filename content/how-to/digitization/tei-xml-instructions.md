@@ -44,6 +44,7 @@ Then insert the first ad in the first column after the masthead after the `<cb n
 At the top right hand corner of your editing window in Oxygen, there is a square that will be either red or green. If it's green, your document is well-formed, which means that it conforms to TEI XML standards and will be searchable and useable. If it's red, the file contains errors that you must fix before you submit it. The errors appear as red lines on the right hand scrolling column. Click on a line to see the error described at the bottom of your editing screen.
 
 One common error that prevents a well-formed document:
+
 - doubled `<?xml version="1.0" encoding="UTF-8"?>` lines at the opening of the xml document.
 
 ## Resources

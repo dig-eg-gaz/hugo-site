@@ -8,9 +8,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 9
+    weight: 10
 
-weight: 9
+weight: 10
 ---
 Regular expressions (regex) is a very useful means of working with serial data which repeats similar information using similar formats.
 
@@ -20,6 +20,7 @@ Regular expressions (regex) is a very useful means of working with serial data w
 
 You can use regex in the Find/Repace in Files tool when you enable the Regular Expression option in it. 
 Some examples of commonly used regex codes:
+
 - Search `\d+ \w+ \w+ ` for patterns like "100 tons cotton"
 - Search `\W\w+ \W\w+ ` for personal names
 - Search `at [A-Z]\w+ ` for locations (Remember to enable Case Sensitive)

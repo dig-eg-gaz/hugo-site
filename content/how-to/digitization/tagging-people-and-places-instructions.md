@@ -1,6 +1,6 @@
 ---
 title: Tagging people and places
-linktitle: Content markup
+linktitle: Advanced tagging
 toc: true
 type: docs
 date: "2016-09-30"
@@ -8,9 +8,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 7
+    weight: 8
 
-weight: 7
+weight: 8
 ---
 ## Objectives
 

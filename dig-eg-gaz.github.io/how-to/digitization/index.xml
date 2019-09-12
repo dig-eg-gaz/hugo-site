@@ -114,8 +114,11 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;p&gt;At the top right hand corner of your editing window in Oxygen, there is a square that will be either red or green. If it&amp;rsquo;s green, your document is well-formed, which means that it conforms to TEI XML standards and will be searchable and useable. If it&amp;rsquo;s red, the file contains errors that you must fix before you submit it. The errors appear as red lines on the right hand scrolling column. Click on a line to see the error described at the bottom of your editing screen.&lt;/p&gt;
 
-&lt;p&gt;One common error that prevents a well-formed document:
-- doubled &lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;/code&gt; lines at the opening of the xml document.&lt;/p&gt;
+&lt;p&gt;One common error that prevents a well-formed document:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;doubled &lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&lt;/code&gt; lines at the opening of the xml document.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
@@ -186,10 +189,13 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;h2 id=&#34;2-how-to-access-github&#34;&gt;2. How to access GitHub&lt;/h2&gt;
 
-&lt;p&gt;You can approach GitHub three ways:
-- using a web browser to access &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;github.com&lt;/a&gt;,
-- using the &lt;a href=&#34;https://desktop.github.com/&#34; target=&#34;_blank&#34;&gt;GitHub Desktop&lt;/a&gt; client , or
-- using &lt;a href=&#34;http://programminghistorian.org/lessons/intro-to-bash&#34; target=&#34;_blank&#34;&gt;the command line&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can approach GitHub three ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;using a web browser to access &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;github.com&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;using the &lt;a href=&#34;https://desktop.github.com/&#34; target=&#34;_blank&#34;&gt;GitHub Desktop&lt;/a&gt; client , or&lt;/li&gt;
+&lt;li&gt;using &lt;a href=&#34;http://programminghistorian.org/lessons/intro-to-bash&#34; target=&#34;_blank&#34;&gt;the command line&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;We&amp;rsquo;ll be using the Desktop client mostly, but in a pinch you can use the web browser.&lt;/p&gt;
 
@@ -246,19 +252,23 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
       <link>https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/</guid>
-      <description>&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+      <description>
 
-&lt;p&gt;This lesson explains how to turn images of text into editable files. We will use &lt;a href=&#34;https://en.wikipedia.org/wiki/Optical_character_recognition&#34;&gt;&amp;quot;optical character recognition&amp;quot; (OCR)&lt;/a&gt; to work with free text wherever we encounter it in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Once we&#39;ve transformed OCRed text and performed basic corrections, it will be ready for &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/&#34;&gt;TEI-XML markup&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
 
-&lt;aside&gt;
-&lt;p&gt;You will not need use OCR on text that has been &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;templated&lt;/a&gt;.&lt;/p&gt;
-&lt;/aside&gt;
+&lt;p&gt;This lesson explains how to turn images of text into editable files. We will use &lt;a href=&#34;https://en.wikipedia.org/wiki/Optical_character_recognition&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;optical character recognition&amp;rdquo; (OCR)&lt;/a&gt; to work with free text wherever we encounter it in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Once we&amp;rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/&#34;&gt;TEI-XML markup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    You will not need use OCR on text that has been &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;templated&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&#34;1-install-tesseract&#34;&gt;1. Install Tesseract&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/tesseract-ocr/tesseract&#34;&gt;Tesseract&lt;/a&gt; is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/tesseract-ocr/tesseract&#34; target=&#34;_blank&#34;&gt;Tesseract&lt;/a&gt; is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.&lt;/p&gt;
 
-&lt;p&gt;We will be running it on the hard drives of our own laptops. Unlike most programs you will have used, tesseract does not have a &lt;a href=&#34;https://en.wikipedia.org/wiki/Graphical_user_interface&#34;&gt;graphical user interface&lt;/a&gt; (GUI). Instead, you run it from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Command-line_interface&#34;&gt;command line&lt;/a&gt;. The command line interface can take a bit of getting used to, but it is relatively straightforward. Also, once you know how to use the command line it&#39;s easier to look under the hood of your computer when you need to.&lt;/p&gt;
+&lt;p&gt;We will be running it on the hard drives of our own laptops. Unlike most programs you will have used, tesseract does not have a &lt;a href=&#34;https://en.wikipedia.org/wiki/Graphical_user_interface&#34; target=&#34;_blank&#34;&gt;graphical user interface&lt;/a&gt; (GUI). Instead, you run it from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Command-line_interface&#34; target=&#34;_blank&#34;&gt;command line&lt;/a&gt;. The command line interface can take a bit of getting used to, but it is relatively straightforward. Also, once you know how to use the command line it&amp;rsquo;s easier to look under the hood of your computer when you need to.&lt;/p&gt;
 
 &lt;h3 id=&#34;1a-access-the-command-line&#34;&gt;1a. Access the command line&lt;/h3&gt;
 
@@ -266,20 +276,25 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: The command line program is &lt;strong&gt;Terminal&lt;/strong&gt;. You can find it in &lt;code&gt;Applications &amp;gt; Utilities&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: If you&#39;re using Windows, click Start, then in the Search or Run line, type &lt;code&gt;cmd&lt;/code&gt; (short for command), and press enter.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: If you&amp;rsquo;re using Windows, click Start, then in the Search or Run line, type &lt;code&gt;cmd&lt;/code&gt; (short for command), and press enter.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;When you open this program, you will face a plain black box which offers you no hints or help. But don&#39;t worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.&lt;/p&gt;
+&lt;p&gt;The program you open will look something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/command-line.png&#34; alt=&#34;command line&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you open this program, you will face a plain black box which offers you no hints or help. But don&amp;rsquo;t worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.&lt;/p&gt;
 
 &lt;h3 id=&#34;1b-install-tesseract&#34;&gt;1b. Install Tesseract&lt;/h3&gt;
 
-&lt;p&gt;Detailed instructions to install Tesseract can be found &lt;a href=&#34;https://github.com/tesseract-ocr/tesseract/wiki&#34;&gt;here&lt;/a&gt;. The &lt;code&gt;tl;dr&lt;/code&gt; version is:&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;tl;dr&lt;/code&gt; version is:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: install &lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; (a &amp;quot;package manager&amp;quot;) by pasting &lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt; in the command line, pressing enter, and following the prompts. Then, install tesseract by running &lt;code&gt;brew install tesseract&lt;/code&gt; in the terminal.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: download &lt;a href=&#34;https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe&#34;&gt;this program&lt;/a&gt;. &lt;strong&gt;Instructions incomplete.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Linux&lt;/strong&gt;: you probably already know enough to figure it out.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: install &lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; (a &amp;ldquo;package manager&amp;rdquo;) by pasting &lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt; in the command line, pressing enter, and following the prompts. Then, install tesseract by running &lt;code&gt;brew install tesseract&lt;/code&gt; in the terminal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: download &lt;a href=&#34;https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe&#34; target=&#34;_blank&#34;&gt;this program&lt;/a&gt;. &lt;strong&gt;Instructions incomplete.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;More detailed instructions to install Tesseract can be found &lt;a href=&#34;https://github.com/tesseract-ocr/tesseract/wiki&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;2-transform-image-into-text&#34;&gt;2. Transform image into Text&lt;/h2&gt;
 
@@ -287,20 +302,20 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;h3 id=&#34;2a-navigate-to-image-directory&#34;&gt;2a. Navigate to image directory&lt;/h3&gt;
 
-&lt;p&gt;First, you must make sure that you are working in the &amp;quot;directory&amp;quot; (location) on your computer that contains the image file that you want to process. Enter the command &lt;code&gt;ls&lt;/code&gt; to see a list of the files in the directory you&#39;re currently in. It&#39;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:&lt;/p&gt;
+&lt;p&gt;First, you must make sure that you are working in the &amp;ldquo;directory&amp;rdquo; (location) on your computer that contains the image file that you want to process. Enter the command &lt;code&gt;ls&lt;/code&gt; to see a list of the files in the directory you&amp;rsquo;re currently in. It&amp;rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: Type &lt;code&gt;cd&lt;/code&gt; (&amp;quot;change directory&amp;quot;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: Type &lt;code&gt;cd&lt;/code&gt; (&amp;ldquo;change directory&amp;rdquo;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: From the File Explorer window that contains the image file, click on the “File” menu to see an option to open that location in a command prompt.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Once you&#39;ve done this, type &lt;code&gt;ls&lt;/code&gt; at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in &lt;code&gt;YYYY-MM-DD.jpg&lt;/code&gt; format) is listed, you&#39;re ready for the next step.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve done this, type &lt;code&gt;ls&lt;/code&gt; at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in &lt;code&gt;YYYY-MM-DD.jpg&lt;/code&gt; format) is listed, you&amp;rsquo;re ready for the next step.&lt;/p&gt;
 
 &lt;h3 id=&#34;2b-run-ocr&#34;&gt;2b. Run OCR&lt;/h3&gt;
 
 &lt;p&gt;You can perform a basic read by running the command &lt;code&gt;tesseract &amp;lt;input_file&amp;gt; &amp;lt;output_file&amp;gt;&lt;/code&gt; (where &lt;code&gt;&amp;lt;input_file&amp;gt;&lt;/code&gt; is the exact name of your image file, including the .jpg extension, and &lt;code&gt;&amp;lt;output_file&amp;gt;&lt;/code&gt; is whatever name you want to give the results file).&lt;/p&gt;
 
-&lt;p&gt;Open the output file (which will be in &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/&#34;&gt;plain text&lt;/a&gt;) and take a gander at the results. They will be okay, but not as good as we&#39;d like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.&lt;/p&gt;
+&lt;p&gt;Open the output file (which will be in &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/&#34; target=&#34;_blank&#34;&gt;plain text&lt;/a&gt;) and take a gander at the results. They will be okay, but not as good as we&amp;rsquo;d like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.&lt;/p&gt;
 
 &lt;p&gt;Things should work a bit better using this command:&lt;/p&gt;
 
@@ -321,38 +336,111 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;p&gt;Do everything you can to use the cleanest, straightest images possible.&lt;/p&gt;
 
-&lt;p&gt;If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (&lt;strong&gt;unverified&lt;/strong&gt;)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don&#39;t need tesseract to read.&lt;/p&gt;
+&lt;p&gt;If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (&lt;strong&gt;unverified&lt;/strong&gt;)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don&amp;rsquo;t need tesseract to read.&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-right.png&#34; alt=&#34;column-block-right&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-right.png&#34; alt=&#34;column-block-right&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then make another copy, blocking out the first, third, and fifth columns.&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-left.png&#34; alt=&#34;column-block-left&#34;&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-left.png&#34; alt=&#34;column-block-left&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Run OCR on these images. The two text files that result will contain some errors, but they won&#39;t confuse the columns.&lt;/p&gt;
+&lt;p&gt;Run OCR on these images. The two text files that result will contain some errors, but they won&amp;rsquo;t confuse the columns.&lt;/p&gt;
 
 &lt;h3 id=&#34;2d-fix-the-line-breaks&#34;&gt;2d. Fix the line breaks&lt;/h3&gt;
 
-&lt;p&gt;Before moving this text into XML, let&#39;s try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs.&lt;/p&gt;
+&lt;p&gt;Before moving this text into XML, let&amp;rsquo;s try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs.&lt;/p&gt;
 
 &lt;p&gt;Using &lt;strong&gt;Find and Replace&lt;/strong&gt; in your plain text editor, follow these steps:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;find every &lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;, which will almost certainly be OCR errors, and delete or replace them.&lt;/li&gt;
 &lt;li&gt;enable regular expressions, then find &lt;code&gt;\n\n&lt;/code&gt; (all double paragraph breaks) and replace with &lt;code&gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&lt;/code&gt; (XML paragraph breaks)&lt;/li&gt;
-&lt;li&gt;replace &lt;code&gt;&amp;amp;&lt;/code&gt; with &lt;code&gt;&amp;amp;amp;&lt;/code&gt;. (XML freaks out if it sees an &amp;quot;and&amp;quot; symbol, and there are lots of them in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.)&lt;/li&gt;
+&lt;li&gt;replace &lt;code&gt;&amp;amp;&lt;/code&gt; with &lt;code&gt;&amp;amp;amp;&lt;/code&gt;. (XML freaks out if it sees an &amp;ldquo;and&amp;rdquo; symbol, and there are lots of them in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.)&lt;/li&gt;
 &lt;li&gt;add a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; at the very start of the file, and a &lt;code&gt;&amp;lt;/p&amp;gt;&lt;/code&gt; at the very end of the file.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;3-move-the-text-into-your-xml-file&#34;&gt;3. Move the text into your XML file&lt;/h2&gt;
 
-&lt;p&gt;Copy the contents of the first column in the text file you&#39;ve prepared. Open Oxygen. In the xml file that you&#39;re preparing, put a &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt; &amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt; &amp;lt;/div&amp;gt;&lt;/code&gt; pair of tags after the &lt;pb n=&#34;?&#34;/&gt; tag corresponding to the page you&#39;ve OCRed. Paste the text in between these tags.&lt;/p&gt;
+&lt;p&gt;Copy the contents of the first column in the text file you&amp;rsquo;ve prepared. Open Oxygen. In the xml file that you&amp;rsquo;re preparing, put a &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt; &amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt; &amp;lt;/div&amp;gt;&lt;/code&gt; pair of tags after the &lt;pb n=&#34;?&#34;/&gt; tag corresponding to the page you&amp;rsquo;ve OCRed. Paste the text in between these tags.&lt;/p&gt;
 
 &lt;p&gt;Proceed to copy the second column in your text file. In Oxygen, add an &lt;code&gt;&amp;lt;cb n=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code&gt; tag, then paste the contents of the second column. Proceed in the same way for the next four columns of the page.&lt;/p&gt;
 
-&lt;h2 id=&#34;4-fix-the-basic-structural-tags&#34;&gt;4. Fix the basic structural tags&lt;/h2&gt;
+&lt;p&gt;You should have a green box, indicating a well-formed document. If not, correct any errors you find.&lt;/p&gt;
 
-&lt;p&gt;You should have a green box, indicating a well-formed document. If not, correct any errors you find. Now correct and add basic structural tags of three types:&lt;/p&gt;
+&lt;h1 id=&#34;faqs&#34;&gt;FAQs&lt;/h1&gt;
+
+&lt;h2 id=&#34;how-many-errors-should-i-expect-to-find&#34;&gt;How many errors should I expect to find?&lt;/h2&gt;
+
+&lt;p&gt;If you find a very large number of misread words, you might consider re-scanning the page at a higher resolution or a better focus.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-i-deal-with-accented-letters&#34;&gt;How do I deal with accented letters?&lt;/h2&gt;
+
+&lt;p&gt;Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for &lt;a href=&#34;https://kb.iu.edu/d/aihp&#34; target=&#34;_blank&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;http://symbolcodes.tlt.psu.edu/accents/codemac.html&#34; target=&#34;_blank&#34;&gt;Mac&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-if-i-can-t-read-the-text&#34;&gt;What if I can&amp;rsquo;t read the text?&lt;/h2&gt;
+
+&lt;p&gt;Wrap it in an &lt;code&gt;&amp;lt;unclear&amp;gt;&lt;/code&gt; tag, and maybe add a &lt;code&gt;&amp;lt;!-- comment --&amp;gt;&lt;/code&gt; explaining what&amp;rsquo;s going on.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-if-i-want-a-gui-ocr-program&#34;&gt;What if I want a GUI OCR program?&lt;/h2&gt;
+
+&lt;p&gt;If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.&lt;/p&gt;
+
+&lt;h3 id=&#34;if-you-are-using-windows&#34;&gt;If you are using Windows:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&#34;http://trial.abbyyusa.com/download-fr12pro&#34; target=&#34;_blank&#34;&gt;AABBY Finereader&lt;/a&gt;. The 30-day, 100-page free trial that they offer &lt;em&gt;should&lt;/em&gt; be enough time to complete your OCR work for this class. If you don&amp;rsquo;t complete it on time, you have the option to buy the software for about $100.&lt;/li&gt;
+&lt;li&gt;Open the program, then open the image file of the page you wish to read. When you open the document, Finereader will automatically read it. Let it do its work.&lt;/li&gt;
+&lt;li&gt;Once the initial read is complete, you&amp;rsquo;ll need to make sure that it&amp;rsquo;s defined the areas correctly. The areas are the green-bordered boxes of text. Often the machine will skip a word, or draw an extra few words in from a different column. You need to have the whole text read in the proper order, so you&amp;rsquo;ll want to reshape these boxes so that they cover the text correctly. I&amp;rsquo;ve sometimes found that it&amp;rsquo;s best just to drag one box so that it covers a whole column. You can delete the boxes covering any advertisements or other templated material&amp;ndash;you&amp;rsquo;ll copy and paste templates rather than OCR those items.&lt;/li&gt;
+&lt;li&gt;Once the boxes cover all of the text, you need to make sure that they&amp;rsquo;re in the right sequence. Click the tool on the left hand menu with a blue down arrow and a red up arrow. This is the tool to reorder the areas of text.&lt;/li&gt;
+&lt;li&gt;It is possible that your page contains text in French. If this is the case, enclose that text in its own area and set the language (in the &amp;ldquo;Area Properties&amp;rdquo; tab at the bottom of the screen) to French.&lt;/li&gt;
+&lt;li&gt;Once the sequence of areas is correct, click the &amp;ldquo;read&amp;rdquo; icon again. The program will reread the text in the order you&amp;rsquo;ve indicated.&lt;/li&gt;
+&lt;li&gt;Click on the &amp;ldquo;verification&amp;rdquo; icon, and proceed to correct the text. When verifying the text, remember that you are only correcting the automatic reading. &lt;em&gt;Do not&lt;/em&gt; correct any errors you might find in the newspaper itself&amp;ndash;not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.&lt;/li&gt;
+&lt;li&gt;Once you&amp;rsquo;ve verified some or all of the text, save your verification work. (If you close Finereader without saving the verification separately, you will lose your work). To do this, use the &amp;ldquo;Save&amp;rdquo; icon in the middle top of the page. Choose &amp;ldquo;Plain text&amp;rdquo; or &amp;ldquo;Word Document&amp;rdquo; as the document layout (as you like), and click &amp;ldquo;Save.&amp;rdquo; Name the document following the standard format of YYYY-MM-DD-p#. If you click &amp;ldquo;Format options,&amp;rdquo; and check &amp;ldquo;Use blank line as paragraph separator,&amp;rdquo; it will make your work easier later on. You can now close Finereader without losing your verification work.&lt;/li&gt;
+&lt;li&gt;Once you&amp;rsquo;ve finished work on the page, upload it to your personal GitHub repository.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;if-you-are-using-mac&#34;&gt;If you are using Mac:&lt;/h3&gt;
+
+&lt;p&gt;This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can &lt;a href=&#34;https://trial.abbyyusa.com/download-frpro-mac-free-trial&#34; target=&#34;_blank&#34;&gt;download here&lt;/a&gt;. The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you&amp;rsquo;ve downloaded, don&amp;rsquo;t install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.&lt;/p&gt;
+
+&lt;p&gt;To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click &amp;ldquo;Export.&amp;rdquo; Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.&lt;/p&gt;
+
+&lt;h3 id=&#34;if-your-trial-license-runs-out&#34;&gt;If your trial license runs out:&lt;/h3&gt;
+
+&lt;p&gt;The free version of &lt;a href=&#34;finereaderonline.com&#34; target=&#34;_blank&#34;&gt;Finereader Online&lt;/a&gt; allows you to OCR 10 pages per month. This should help if you don&amp;rsquo;t manage to finish all of your OCR in time. Note that there is no verification tool in the online version.&lt;/p&gt;
+
+&lt;h2 id=&#34;are-there-other-ocr-programs-available-for-mac&#34;&gt;Are there other OCR programs available for Mac?&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve also had good results with &lt;a href=&#34;https://www.cisdem.com/ocr-wizard-mac.html&#34; target=&#34;_blank&#34;&gt;Cisdem OCR Wizard&lt;/a&gt;. I&amp;rsquo;m not sure how long their free trial lasts, but it&amp;rsquo;s worth a try, and can also be purchased for $60. Follow the directions below.&lt;/p&gt;
+
+&lt;p&gt;(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of &lt;a href=&#34;http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&amp;amp;utm_medium=Popup&amp;amp;utm_campaign=Popup-trial&#34; target=&#34;_blank&#34;&gt;Readiris Pro&lt;/a&gt;. &lt;a href=&#34;http://solutions.weblite.ca/pdfocrx/download_mac&#34; target=&#34;_blank&#34;&gt;PDF OCR X Community Edition&lt;/a&gt; also didn&amp;rsquo;t do a great job, but it&amp;rsquo;s free).&lt;/p&gt;
+
+&lt;h3 id=&#34;using-cisdem&#34;&gt;Using Cisdem&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press &amp;ldquo;recognize&amp;rdquo;. Let it do its work.&lt;/li&gt;
+&lt;li&gt;Cisdem seems to recognize newspaper columns quite well, and you can probably simply proceed to OCR once the recognition is finished and correct by hand later. But if you notice egregious errors, reshape the green boxes.&lt;/li&gt;
+&lt;li&gt;Select .text or .docx as the output format, and click export. Wait. When you are offered the option to save the document, name it following the standard format of YYYY-MM-DD-p#.&lt;/li&gt;
+&lt;li&gt;Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. &lt;em&gt;Do not&lt;/em&gt; correct any errors you might find in the newspaper itself&amp;ndash;not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.&lt;/li&gt;
+&lt;li&gt;Once you&amp;rsquo;ve finished work on the page, save it&amp;ndash;soon we&amp;rsquo;ll upload it to your xml issue file.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Content markup instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/</guid>
+      <description>
+
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+
+&lt;p&gt;This lesson explains how to convert the raw, basic XML text you produced through OCR into useable TEI-XML material.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-fix-the-basic-structural-tags&#34;&gt;1. Fix the basic structural tags&lt;/h2&gt;
+
+&lt;p&gt;Now correct and add basic structural tags of three types:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt;&lt;/code&gt;, which you can use for articles, items, or any division of the page that makes sense to you,&lt;/li&gt;
@@ -370,17 +458,17 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;li&gt;anything else not in a &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, and not in a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; or a &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;5-add-feature-attributes&#34;&gt;5. Add feature attributes&lt;/h2&gt;
+&lt;h2 id=&#34;2-add-feature-attributes&#34;&gt;2. Add feature attributes&lt;/h2&gt;
 
 &lt;p&gt;There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked &lt;code&gt;&amp;lt;div type=&amp;quot;section&amp;quot;&amp;gt;&lt;/code&gt; rather than &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt;&lt;/code&gt;. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is &lt;a href=&#34;https://dig-eg-gaz.github.io/contents/features/&#34;&gt;here&lt;/a&gt;. To add an feature attribute, place it within the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag, after the &lt;code&gt;type=&amp;quot;section&amp;quot;&lt;/code&gt; attribute, thus: &lt;code&gt;&amp;lt;div type=&amp;quot;section&amp;quot; feature=&amp;quot;local&amp;quot;&amp;gt;&lt;/code&gt;. If you type &lt;code&gt;feature&lt;/code&gt; inside the tag, Oxygen should offer you an autocomplete menu of features.&lt;/p&gt;
 
-&lt;h2 id=&#34;6-add-more-complex-structural-tags&#34;&gt;6. Add more complex structural tags&lt;/h2&gt;
+&lt;h2 id=&#34;3-add-more-complex-structural-tags&#34;&gt;3. Add more complex structural tags&lt;/h2&gt;
 
 &lt;p&gt;There are more tags that you can add:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;If the article or item is in French, add the attribute &lt;code&gt;xml:lang=&amp;quot;fr&amp;quot;&lt;/code&gt; to the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;cb/&amp;gt;&lt;/code&gt;&lt;/strong&gt; for column breaks. Be sure to put this tag at the &lt;em&gt;beginning&lt;/em&gt; of the column. Add the number of the column, as well, thus: &lt;code&gt;&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code&gt; For mixed columns, see &lt;a href=&#34;http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb&#34;&gt;this guidance&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;cb/&amp;gt;&lt;/code&gt;&lt;/strong&gt; for column breaks. Be sure to put this tag at the &lt;em&gt;beginning&lt;/em&gt; of the column. Add the number of the column, as well, thus: &lt;code&gt;&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code&gt; For mixed columns, see &lt;a href=&#34;http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb&#34; target=&#34;_blank&#34;&gt;this guidance&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;div type=&amp;quot;section&amp;quot;&amp;gt;&lt;/code&gt;&lt;/strong&gt; to wrap multiple items that belong together, for instance in the international or local news sections.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;dateline&amp;gt;&lt;/code&gt;&lt;/strong&gt; for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt;&lt;/code&gt; for each newswire report.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;byline&amp;gt;&lt;/code&gt;&lt;/strong&gt; for authors. There can only be one byline per division.&lt;/li&gt;
@@ -389,67 +477,9 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;li&gt;the &lt;strong&gt;&lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt;&lt;/strong&gt; element will be useful for the &lt;em&gt;Egyptian Gazette&lt;/em&gt;, but I have not yet worked out how to use it.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;6-add-content-tags&#34;&gt;6. Add content tags&lt;/h2&gt;
+&lt;h2 id=&#34;4-add-advanced-content-tags&#34;&gt;4. Add advanced content tags&lt;/h2&gt;
 
 &lt;p&gt;This is a more advanced undertaking. See the separate tutorial &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/tagging-people-and-places-instructions/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&#34;faqs&#34;&gt;FAQs&lt;/h1&gt;
-
-&lt;h2 id=&#34;how-many-errors-should-i-expect-to-find&#34;&gt;How many errors should I expect to find?&lt;/h2&gt;
-
-&lt;p&gt;If you find a very large number of errors, you might consider re-scanning the page at a higher resolution or a better focus.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-do-i-deal-with-accented-letters&#34;&gt;How do I deal with accented letters?&lt;/h2&gt;
-
-&lt;p&gt;Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for &lt;a href=&#34;https://kb.iu.edu/d/aihp&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;http://symbolcodes.tlt.psu.edu/accents/codemac.html&#34;&gt;Mac&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-if-i-cant-read-the-text&#34;&gt;What if I can&#39;t read the text?&lt;/h2&gt;
-
-&lt;p&gt;Wrap it in an &lt;code&gt;&amp;lt;unclear&amp;gt;&lt;/code&gt; tag, and maybe add a &lt;code&gt;&amp;lt;!-- comment --&amp;gt;&lt;/code&gt; explaining what&#39;s going on.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-if-i-want-a-gui-ocr-program&#34;&gt;What if I want a GUI OCR program?&lt;/h2&gt;
-
-&lt;p&gt;If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.&lt;/p&gt;
-
-&lt;h3 id=&#34;if-you-are-using-windows&#34;&gt;If you are using Windows:&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Download &lt;a href=&#34;http://trial.abbyyusa.com/download-fr12pro&#34;&gt;AABBY Finereader&lt;/a&gt;. The 30-day, 100-page free trial that they offer &lt;em&gt;should&lt;/em&gt; be enough time to complete your OCR work for this class. If you don&#39;t complete it on time, you have the option to buy the software for about $100.&lt;/li&gt;
-&lt;li&gt;Open the program, then open the image file of the page you wish to read. When you open the document, Finereader will automatically read it. Let it do its work.&lt;/li&gt;
-&lt;li&gt;Once the initial read is complete, you&#39;ll need to make sure that it&#39;s defined the areas correctly. The areas are the green-bordered boxes of text. Often the machine will skip a word, or draw an extra few words in from a different column. You need to have the whole text read in the proper order, so you&#39;ll want to reshape these boxes so that they cover the text correctly. I&#39;ve sometimes found that it&#39;s best just to drag one box so that it covers a whole column. You can delete the boxes covering any advertisements or other templated material--you&#39;ll copy and paste templates rather than OCR those items.&lt;/li&gt;
-&lt;li&gt;Once the boxes cover all of the text, you need to make sure that they&#39;re in the right sequence. Click the tool on the left hand menu with a blue down arrow and a red up arrow. This is the tool to reorder the areas of text.&lt;/li&gt;
-&lt;li&gt;It is possible that your page contains text in French. If this is the case, enclose that text in its own area and set the language (in the &amp;quot;Area Properties&amp;quot; tab at the bottom of the screen) to French.&lt;/li&gt;
-&lt;li&gt;Once the sequence of areas is correct, click the &amp;quot;read&amp;quot; icon again. The program will reread the text in the order you&#39;ve indicated.&lt;/li&gt;
-&lt;li&gt;Click on the &amp;quot;verification&amp;quot; icon, and proceed to correct the text. When verifying the text, remember that you are only correcting the automatic reading. &lt;em&gt;Do not&lt;/em&gt; correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.&lt;/li&gt;
-&lt;li&gt;Once you&#39;ve verified some or all of the text, save your verification work. (If you close Finereader without saving the verification separately, you will lose your work). To do this, use the &amp;quot;Save&amp;quot; icon in the middle top of the page. Choose &amp;quot;Plain text&amp;quot; or &amp;quot;Word Document&amp;quot; as the document layout (as you like), and click &amp;quot;Save.&amp;quot; Name the document following the standard format of YYYY-MM-DD-p#. If you click &amp;quot;Format options,&amp;quot; and check &amp;quot;Use blank line as paragraph separator,&amp;quot; it will make your work easier later on. You can now close Finereader without losing your verification work.&lt;/li&gt;
-&lt;li&gt;Once you&#39;ve finished work on the page, upload it to your personal GitHub repository.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;if-you-are-using-mac&#34;&gt;If you are using Mac:&lt;/h3&gt;
-
-&lt;p&gt;This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can &lt;a href=&#34;https://trial.abbyyusa.com/download-frpro-mac-free-trial&#34;&gt;download here&lt;/a&gt;. The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you&#39;ve downloaded, don&#39;t install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.&lt;/p&gt;
-
-&lt;p&gt;To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click &amp;quot;Export.&amp;quot; Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.&lt;/p&gt;
-
-&lt;h3 id=&#34;if-your-trial-license-runs-out&#34;&gt;If your trial license runs out:&lt;/h3&gt;
-
-&lt;p&gt;The free version of &lt;a href=&#34;finereaderonline.com&#34;&gt;Finereader Online&lt;/a&gt; allows you to OCR 10 pages per month. This should help if you don&#39;t manage to finish all of your OCR in time. Note that there is no verification tool in the online version.&lt;/p&gt;
-
-&lt;h2 id=&#34;are-there-other-ocr-programs-available-for-mac&#34;&gt;Are there other OCR programs available for Mac?&lt;/h2&gt;
-
-&lt;p&gt;I&#39;ve also had good results with &lt;a href=&#34;https://www.cisdem.com/ocr-wizard-mac.html&#34;&gt;Cisdem OCR Wizard&lt;/a&gt;. I&#39;m not sure how long their free trial lasts, but it&#39;s worth a try, and can also be purchased for $60. Follow the directions below.&lt;/p&gt;
-
-&lt;p&gt;(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of &lt;a href=&#34;http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&amp;amp;utm_medium=Popup&amp;amp;utm_campaign=Popup-trial&#34;&gt;Readiris Pro&lt;/a&gt;. &lt;a href=&#34;http://solutions.weblite.ca/pdfocrx/download_mac&#34;&gt;PDF OCR X Community Edition&lt;/a&gt; also didn&#39;t do a great job, but it&#39;s free).&lt;/p&gt;
-
-&lt;h3 id=&#34;using-cisdem&#34;&gt;Using Cisdem&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press &amp;quot;recognize&amp;quot;. Let it do its work.&lt;/li&gt;
-&lt;li&gt;Cisdem seems to recognize newspaper columns quite well, and you can probably simply proceed to OCR once the recognition is finished and correct by hand later. But if you notice egregious errors, reshape the green boxes.&lt;/li&gt;
-&lt;li&gt;Select .text or .docx as the output format, and click export. Wait. When you are offered the option to save the document, name it following the standard format of YYYY-MM-DD-p#.&lt;/li&gt;
-&lt;li&gt;Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. &lt;em&gt;Do not&lt;/em&gt; correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.&lt;/li&gt;
-&lt;li&gt;Once you&#39;ve finished work on the page, save it--soon we&#39;ll upload it to your xml issue file.&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
@@ -560,11 +590,14 @@ This will open a dialogue box. Under &amp;ldquo;Scope,&amp;rdquo; choose &amp;ld
 
 &lt;p&gt;To search directly with XPath, locate the XPath query box near the top left.
 &lt;img src=&#34;https://dig-eg-gaz.github.io/img/xpath-query-box-oxygen.png&#34; alt=&#34;xpath query box oxygen&#34; /&gt;
-The drop-down icon on the left of this box allows you to choose the scope: current file, all opened files, and so on. Now, try these commands:
-- a list of all the &amp;ldquo;divs&amp;rdquo; in your file: &lt;code&gt;//div&lt;/code&gt;
-- a list of all the item-type divs in your file: &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;]&lt;/code&gt;
-- a list of all the item-type divs in your file containing the word &amp;ldquo;cotton&amp;rdquo;: &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39;cotton&#39;)]&lt;/code&gt;
-- all tagged names of persons or places in the files: &lt;code&gt;//persName&lt;/code&gt; or &lt;code&gt;//placeName&lt;/code&gt;&lt;/p&gt;
+The drop-down icon on the left of this box allows you to choose the scope: current file, all opened files, and so on. Now, try these commands:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a list of all the &amp;ldquo;divs&amp;rdquo; in your file: &lt;code&gt;//div&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;a list of all the item-type divs in your file: &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;a list of all the item-type divs in your file containing the word &amp;ldquo;cotton&amp;rdquo;: &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39;cotton&#39;)]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;all tagged names of persons or places in the files: &lt;code&gt;//persName&lt;/code&gt; or &lt;code&gt;//placeName&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;2-basic-principles-of-xpath&#34;&gt;2. Basic principles of XPath&lt;/h2&gt;
 
@@ -597,18 +630,24 @@ The drop-down icon on the left of this box allows you to choose the scope: curre
 
 &lt;p&gt;After you tell XPath &lt;em&gt;where&lt;/em&gt; you want it to search, you can tell it &lt;em&gt;what&lt;/em&gt; you want it to return. (This is optional.) Probably the most common thing to search for is a word or words. To do this, add &lt;code&gt;[contains(., &amp;quot;searchtext&amp;quot;)]&lt;/code&gt; to the end of your search, putting your search word(s) between the quotation marks. For example, &lt;code&gt;//div[contains(., &amp;quot;plague&amp;quot;)]&lt;/code&gt; will return all divs that contain the word &amp;ldquo;plague.&amp;rdquo; Note that this search is case sensitive, and will not return &amp;ldquo;PLAGUE&amp;rdquo; and &amp;ldquo;Plague.&amp;rdquo; To remedy this ,use the &lt;code&gt;matches&lt;/code&gt; function with the &lt;code&gt;&#39;i&#39;&lt;/code&gt; flag, which makes the search case insensitive: &lt;code&gt;//div[matches(.,&#39;the plague&#39;, &#39;i&#39;)]&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;You can also search for particular kinds of information. Add a slash to the end of the location, then tell it you want
-- &lt;code&gt;count()&lt;/code&gt; &amp;ndash; how many of these things are there?
-- &lt;code&gt;string()&lt;/code&gt; &amp;ndash; what is the string of text this thing contains?
-- &lt;code&gt;number()&lt;/code&gt; &amp;ndash; what number is found on this branch?&lt;/p&gt;
+&lt;p&gt;You can also search for particular kinds of information. Add a slash to the end of the location, then tell it you want&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;count()&lt;/code&gt; &amp;ndash; how many of these things are there?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;string()&lt;/code&gt; &amp;ndash; what is the string of text this thing contains?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;number()&lt;/code&gt; &amp;ndash; what number is found on this branch?&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;3-navigating-the-tree&#34;&gt;3. Navigating the tree&lt;/h2&gt;
 
 &lt;p&gt;You can navigate around the tree by using commands like &lt;code&gt;parent::&lt;/code&gt; or &lt;code&gt;following-sibling::&lt;/code&gt; instead of the slash. These will move you up and down the tree.&lt;/p&gt;
 
-&lt;p&gt;For example:
-- Return all datelines contained in a &amp;ldquo;wireReport&amp;rdquo; div type: &lt;code&gt;//div[@type=&amp;quot;wireReport&amp;quot;]/parent::div//dateline&lt;/code&gt;
-- Return all placeNames in wireReports: &lt;code&gt;//div[@type=&amp;quot;wireReport&amp;quot;]/parent::div//dateline//placeName&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Return all datelines contained in a &amp;ldquo;wireReport&amp;rdquo; div type: &lt;code&gt;//div[@type=&amp;quot;wireReport&amp;quot;]/parent::div//dateline&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Return all placeNames in wireReports: &lt;code&gt;//div[@type=&amp;quot;wireReport&amp;quot;]/parent::div//dateline//placeName&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;search-using-xml-id-or-feature&#34;&gt;Search using xml:id or feature&lt;/h3&gt;
 
@@ -616,12 +655,15 @@ The drop-down icon on the left of this box allows you to choose the scope: curre
 
 &lt;h2 id=&#34;4-working-with-tables&#34;&gt;4. Working with tables&lt;/h2&gt;
 
-&lt;p&gt;Tables are a powerful part of the XML-encoded &lt;em&gt;Egyptian Gazette&lt;/em&gt;. XPath gives us tools to return precise parts of the information these tables contain. For example:
-- return the text contained in the cell after a cell containing the text &amp;ldquo;P.T.&amp;rdquo; &lt;code&gt;//table//cell[contains(.,&#39;P.T.&#39;)]/following-sibling::cell[1]/text()&lt;/code&gt;. Does not work for numbers, it seems.
-- return the number contained in the cell after a cell containing the text &amp;ldquo;Augment.&amp;rdquo; &lt;code&gt;//table//cell[contains(.,&#39;Augment.&#39;)]/following-sibling::cell[1]/number()&lt;/code&gt;. Does not work if number appears as a string (i.e. contains a comma after the thousands for example).
-- return the string contained in the cell after a cell containing the text &amp;ldquo;Augment.&amp;rdquo; &lt;code&gt;//table//cell[contains(.,&#39;Augment.&#39;)]/following-sibling::cell[1]/string()&lt;/code&gt;
-- return the string text of the first paragraph of the div with the heading &amp;ldquo;MARCHE DE MINET&amp;rdquo; &lt;code&gt;//div//head[contains(.,&#39;MARCHE DE MINET&#39;)]/following-sibling::p[1]/string()&lt;/code&gt;
-- return the value of the &amp;ldquo;when&amp;rdquo; attribute of dates in the third line of the Orient-Royal Mail Line ad: &lt;code&gt;//div[@xml:id=&amp;quot;deg-ad-orm01&amp;quot;]//head/following-sibling::p[3]/date/@when&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Tables are a powerful part of the XML-encoded &lt;em&gt;Egyptian Gazette&lt;/em&gt;. XPath gives us tools to return precise parts of the information these tables contain. For example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;return the text contained in the cell after a cell containing the text &amp;ldquo;P.T.&amp;rdquo; &lt;code&gt;//table//cell[contains(.,&#39;P.T.&#39;)]/following-sibling::cell[1]/text()&lt;/code&gt;. Does not work for numbers, it seems.&lt;/li&gt;
+&lt;li&gt;return the number contained in the cell after a cell containing the text &amp;ldquo;Augment.&amp;rdquo; &lt;code&gt;//table//cell[contains(.,&#39;Augment.&#39;)]/following-sibling::cell[1]/number()&lt;/code&gt;. Does not work if number appears as a string (i.e. contains a comma after the thousands for example).&lt;/li&gt;
+&lt;li&gt;return the string contained in the cell after a cell containing the text &amp;ldquo;Augment.&amp;rdquo; &lt;code&gt;//table//cell[contains(.,&#39;Augment.&#39;)]/following-sibling::cell[1]/string()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;return the string text of the first paragraph of the div with the heading &amp;ldquo;MARCHE DE MINET&amp;rdquo; &lt;code&gt;//div//head[contains(.,&#39;MARCHE DE MINET&#39;)]/following-sibling::p[1]/string()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;return the value of the &amp;ldquo;when&amp;rdquo; attribute of dates in the third line of the Orient-Royal Mail Line ad: &lt;code&gt;//div[@xml:id=&amp;quot;deg-ad-orm01&amp;quot;]//head/following-sibling::p[3]/date/@when&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;An example of working your way through table cells, looking at prices for cotton:&lt;/p&gt;
 
@@ -714,10 +756,13 @@ else &amp;lt;six-page&amp;gt;{data($a//*:bibl/*:date)}&amp;lt;/six-page&amp;gt;&
 &lt;h2 id=&#34;using-regex-in-oxygen&#34;&gt;Using regex in Oxygen&lt;/h2&gt;
 
 &lt;p&gt;You can use regex in the Find/Repace in Files tool when you enable the Regular Expression option in it.
-Some examples of commonly used regex codes:
-- Search &lt;code&gt;\d+ \w+ \w+&lt;/code&gt; for patterns like &amp;ldquo;100 tons cotton&amp;rdquo;
-- Search &lt;code&gt;\W\w+ \W\w+&lt;/code&gt; for personal names
-- Search &lt;code&gt;at [A-Z]\w+&lt;/code&gt; for locations (Remember to enable Case Sensitive)&lt;/p&gt;
+Some examples of commonly used regex codes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Search &lt;code&gt;\d+ \w+ \w+&lt;/code&gt; for patterns like &amp;ldquo;100 tons cotton&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Search &lt;code&gt;\W\w+ \W\w+&lt;/code&gt; for personal names&lt;/li&gt;
+&lt;li&gt;Search &lt;code&gt;at [A-Z]\w+&lt;/code&gt; for locations (Remember to enable Case Sensitive)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;using-regex-in-atom&#34;&gt;Using regex in Atom&lt;/h2&gt;
 

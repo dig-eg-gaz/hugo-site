@@ -21,6 +21,7 @@ GitHub is a tool to manage versioning and collaboration in coding projects large
 
 ## 2. How to access GitHub
 You can approach GitHub three ways:
+
 - using a web browser to access [github.com](https://github.com/),
 - using the [GitHub Desktop](https://desktop.github.com/) client , or
 - using [the command line](http://programminghistorian.org/lessons/intro-to-bash).

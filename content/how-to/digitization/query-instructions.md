@@ -8,9 +8,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 8
+    weight: 9
 
-weight: 8
+weight: 9
 ---
 
 ## Objective
@@ -33,6 +33,7 @@ To search everything in the [Digital Egyptian Gazette content repository](https:
 To search directly with XPath, locate the XPath query box near the top left.
 ![xpath query box oxygen](/img/xpath-query-box-oxygen.png)
 The drop-down icon on the left of this box allows you to choose the scope: current file, all opened files, and so on. Now, try these commands:
+
 - a list of all the "divs" in your file: `//div`
 - a list of all the item-type divs in your file: `//div[@type="item"]`
 - a list of all the item-type divs in your file containing the word "cotton": `//div[@type="item"][contains(., 'cotton')]`
@@ -65,6 +66,7 @@ With a little practice, you'll learn to search for results only in the relevant 
 After you tell XPath *where* you want it to search, you can tell it *what* you want it to return. (This is optional.) Probably the most common thing to search for is a word or words. To do this, add `[contains(., "searchtext")]` to the end of your search, putting your search word(s) between the quotation marks. For example, `//div[contains(., "plague")]` will return all divs that contain the word "plague." Note that this search is case sensitive, and will not return "PLAGUE" and "Plague." To remedy this ,use the `matches` function with the `'i'` flag, which makes the search case insensitive: `//div[matches(.,'the plague', 'i')]`.
 
 You can also search for particular kinds of information. Add a slash to the end of the location, then tell it you want
+
 - `count()` -- how many of these things are there?
 - `string()` -- what is the string of text this thing contains?
 - `number()` -- what number is found on this branch?
@@ -73,6 +75,7 @@ You can also search for particular kinds of information. Add a slash to the end 
 You can navigate around the tree by using commands like `parent::` or `following-sibling::` instead of the slash. These will move you up and down the tree.
 
 For example:
+
 - Return all datelines contained in a "wireReport" div type: `//div[@type="wireReport"]/parent::div//dateline`
 - Return all placeNames in wireReports: `//div[@type="wireReport"]/parent::div//dateline//placeName`
 
@@ -81,6 +84,7 @@ Many ads, templates, and sections have `xml:id` or `feature` tags embedded in th
 
 ## 4. Working with tables
 Tables are a powerful part of the XML-encoded *Egyptian Gazette*. XPath gives us tools to return precise parts of the information these tables contain. For example:
+
 - return the text contained in the cell after a cell containing the text "P.T." `//table//cell[contains(.,'P.T.')]/following-sibling::cell[1]/text()`. Does not work for numbers, it seems.
 - return the number contained in the cell after a cell containing the text "Augment." `//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/number()`. Does not work if number appears as a string (i.e. contains a comma after the thousands for example).
 - return the string contained in the cell after a cell containing the text "Augment." `//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/string()`
@@ -107,11 +111,9 @@ The possibilities are endless. Here are some samples.
 - Find all paragraphs longer than 5000 characters: `//p[string-length() > 5000]`
 
 ### Exclude Section/div/Page
-
 - Search all the divs after Page 1: `//div[not(descendant::div[@n="1"]) and not(ancestor-or-self::div[@n="1"])]`
 
 ### Search for one word but not another
-
 - Search for paragraphs containing the word "theatre" but not the word "performance": `//p[contains(.,'theatre')]/text() | //p[contains(.,'theatre')]/*[not(contains(.,'performance'))]/text()`
 
 ## 6. Searching with regular expressions

@@ -23,17 +23,17 @@ menu:
 
 ## Digital Egyptian Gazette project instructions
 
-3. [How to scan microfilm](/how-to/digitization/microfilm-instructions)
-5. [How to perform structural markup in TEI-XML](/how-to/digitization/tei-xml-instructions)
-6. [How to use templates](/how-to/digitization/templating-instructions)
-2. [How to use GitHub](/how-to/digitization/github-instructions)
-4. [How to OCR text](/how-to/digitization/ocr-instructions)
-1. [How to use a plain text editor](/how-to/digitization/text-editor-instructions)
-7. [How to perform content markup](/how-to/digitization/tagging-people-and-places-instructions)
-8. [How to query the full contents](/how-to/digitization/query-instructions)
-9. [How to use regular expressions](/how-to/digitization/regular-expression-instructions)
-10. [How to create data visualizations](/how-to/digitization/visualization-instructions)
-11. [How to embed visualizations in markdown](/how-to/digitization/visualization-instructions)
+1. [How to scan microfilm](/how-to/digitization/microfilm-instructions)
+2. [How to perform structural markup in TEI-XML](/how-to/digitization/tei-xml-instructions)
+3. [How to use templates](/how-to/digitization/templating-instructions)
+4. [How to use GitHub](/how-to/digitization/github-instructions)
+5. [How to OCR text](/how-to/digitization/ocr-instructions)
+6. [How to mark up OCR text in TEI-XML](/how-to/digitization/content-markup-instructions)
+7. [How to use a plain text editor](/how-to/digitization/text-editor-instructions)
+8. [How to perform content markup](/how-to/digitization/tagging-people-and-places-instructions)
+9. [How to query the full contents](/how-to/digitization/query-instructions)
+10. [How to use regular expressions](/how-to/digitization/regular-expression-instructions)
+11. [How to create data visualizations](/how-to/digitization/visualization-instructions)
 
 ## Course-specific instructions
 
