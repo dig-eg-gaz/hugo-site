@@ -38,27 +38,38 @@ The program you open will look something like this:
 When you open this program, you will face a plain black box which offers you no hints or help. But don't worry! These instructions will walk you through the steps you need for this task, and any search engine will quickly tell you how to do anything else you need.
 
 ### 1b. Install Tesseract
-The `tl;dr` version is: 
 
-- **OSX**: install [Homebrew](https://brew.sh/) (a "package manager") by pasting `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` in the command line, pressing enter, and following the prompts. Then, install tesseract by running `brew install tesseract` in the terminal.
-- **Windows**: download [this program](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe). **Instructions incomplete.** 
+#### Installation for OSX 
+- Install [Homebrew](https://brew.sh/) (a "package manager") by pasting `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` in the command line, pressing enter, and following the prompts. Then, install tesseract by running `brew install tesseract` in the terminal.
 
-More detailed instructions to install Tesseract can be found [here](https://github.com/tesseract-ocr/tesseract/wiki). 
+#### Installation for Windows**
+- Download [this program](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe) (compiled by generous folks at the University of Mannheim). Run it, which will install Tesseract-OCR, which will be listed under the start menu. Click on it, then click on Console, and a command line terminal will open.
+![tesseract-windows-terminal](tesseract-windows-terminal.png) 
+Copy the whole bottom line _except_ the final `>`.
+- In order to use the program easily, you also need to set an environment variable, which requires the following two steps.
+- In File Explorer, right click on "This PC." Then, click on Properties > Advanced system settings > Environment Variables. Under System Variables, double click the Path variable. Then click New, and then paste the code you just copied from the console (something like `C:\Program Files\Tesseract-OCR`). Click OK.
+- Now under System Variables, click New. Under Variable name, enter `TESSDATA_PREFIX`, and under Variable value, enter the code you copied from the console, plus `\tessdata`. Together, the variable should be something like `C:\Program Files\Tesseract-OCR\tessdata`. Click OK.
+- Close any terminals that are open.
+
+#### Test your installation
+Open a command line terminal and type `tesseract --version`. If it says `tesseract 4.0.0` or `tesseract v5.0.0` or something like that, you have successfully installed tesseract.
+
+If you have some problem in installation, more detailed instructions to install Tesseract can be found [here](https://github.com/tesseract-ocr/tesseract/wiki). 
 
 ## 2. Transform image into Text
-You will be running tesseract from the command line. 
+Now that the program is installed, you will be running tesseract from the command line. 
 
 ### 2a. Navigate to image directory
 First, you must make sure that you are working in the "directory" (location) on your computer that contains the image file that you want to process. Enter the command `ls` to see a list of the files in the directory you're currently in. It's probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:
 
 - **OSX**: Type `cd` ("change directory") at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.
-- **Windows**: From the File Explorer window that contains the image file, click on the “File” menu to see an option to open that location in a command prompt.
+- **Windows**: From the File Explorer window that contains the image file, click on the “File” menu, then "Open Windows PowerShell". Or, if you are more comfortable with command line, you can use `cd` in console to navigate to your images' directory.
 
-Once you've done this, type `ls` at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in `YYYY-MM-DD.jpg` format) is listed, you're ready for the next step.
+Once you've done this, type `ls` (in OSX) or `dir` (in Windows) at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in `YYYY-MM-DD.jpg` format) is listed, you're ready for the next step.
 
 ### 2b. Run OCR
-You can perform a basic read by running the command `tesseract <input_file> <output_file>` (where `<input_file>` is the exact name of your image file, including the .jpg extension, and `<output_file>` is whatever name you want to give the results file).
-
+You can perform a basic read by running the command `tesseract <input_file> <output_file>`, where `<input_file>` is the exact name of your image file, including the .jpg extension, and `<output_file>` is whatever name you want to give the results file. For example, you might say `tesseract 1905-07-18-p3.jpg monday-page-three-text`.
+ 
 Open the output file (which will be in [plain text](https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/)) and take a gander at the results. They will be okay, but not as good as we'd like. Probably you will find that the program is reading text lines across more than one column, and it may also be having trouble with French words.
 
 Things should work a bit better using this command:
