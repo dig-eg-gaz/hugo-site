@@ -5,7 +5,7 @@ and research  on the importance of boiling water before drinking it?  "
 date: 2017-03-01
 categories: [curiosities]
 author: [KatherineFerguson]
-tags: ["Medicine", "Typhoid Fever", "Dr. Leigh Canney"]
+tags: ["Medicine", "Typhoid", "Dr. Leigh Canney"]
 featured: false
 draft: false
 image:

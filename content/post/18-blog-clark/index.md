@@ -4,7 +4,7 @@ summary: "Exploding Lamp causes train car to burst into flames."
 date: 2018-03-05
 categories: [curiosities]
 authors: [GavinClark]
-tags: ["fire", "Kift", "train", "Italians"]
+tags: ["fire", "Kift", "trains", "Italians"]
 featured: false
 draft: false
 image:

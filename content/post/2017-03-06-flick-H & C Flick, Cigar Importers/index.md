@@ -4,7 +4,7 @@ summary: "Am I related?"
 date: 2017-03-06
 categories: [curiosities]
 author: [madisonflick]
-tags: ["advertisement", "cigar"]
+tags: ["advertisements", "cigar"]
 featured: false
 draft: false
 image:

@@ -4,7 +4,7 @@ summary: "Some technical reflecting about XML-ing"
 date: 2016-10-25
 categories: [technical]
 author: [JacobStefonek]
-tags: ["reflection", "XML", "FineReader"]
+tags: ["reflection", "XML", "ABBYY FineReader"]
 featured: false
 draft: false
 image:

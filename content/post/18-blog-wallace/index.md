@@ -4,7 +4,7 @@ summary: "Dr. Williams wants you to try his Pink Pills for Pale People. What doe
 date: 2018-03-05
 categories: [curiosities]
 authors: [thomaswallace]
-tags: ["medicine", "cure", "health"]
+tags: ["medicine", "cures", "health"]
 featured: false
 draft: false
 image:

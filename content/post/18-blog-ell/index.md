@@ -4,7 +4,7 @@ summary: "Captain Charlton and Miss Whitaker tie the knot."
 date: 2018-03-04
 categories: [curiosities]
 authors: [AdrianEll]
-tags: ["wedding", "flowers"]
+tags: ["weddings", "flowers"]
 featured: false
 draft: false
 image:

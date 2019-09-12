@@ -4,7 +4,7 @@ summary: "See what happens when engineers mix water with plants."
 date: 2017-03-06
 categories: [curiosities]
 author: [jonathanmorales]
-tags: ["advertisement", "engineering", "future", "machines", "ice", "water", "refrigeration"]
+tags: ["advertisements", "engineering", "future", "machines", "ice", "water", "refrigeration"]
 featured: false
 draft: false
 image:

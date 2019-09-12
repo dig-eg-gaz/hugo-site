@@ -4,7 +4,7 @@ summary: "* In my best Darth Vader impression* NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 date: 2016-10-28
 categories: [Technical]
 author: [HankThompson]
-tags: ["ABBYY", "abbyy finereader", "OCR crash"]
+tags: ["ABBYY finereader", "OCR crash"]
 featured: false
 draft: false
 image:
