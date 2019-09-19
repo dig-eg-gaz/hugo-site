@@ -86,9 +86,11 @@ There are various reasons why your OCR results might be poor.
 - the image might be too small or too compressed
 - the image might not be straight. 
 
-Do everything you can to use the cleanest, straightest images possible.
+Do everything you can when digitizing from microfilm to use the cleanest, straightest images possible.
 
-If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (**unverified**)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don't need tesseract to read.
+If tesseract still struggles with your columns, you can trick it by drawing a lines in between the column. Make a copy of your page image (giving it a different name from the original), then use image software (such as Preview on OSX or Paint on Windows) to draw five thin black lines overtop the lines separating columns on the images. Run OCR on this image. The text file that results will contain some reading errors, but it shouldn't confuse the columns.
+
+If it still garbles the columns, you can try drawing rectangles instead of lines. For example, you can block out the second, fourth and sixth columns. You can also block out ads, templated features, and anything else you don’t need tesseract to read.
 
 ![column-block-right](/img/column-block-right.png)
 
@@ -96,7 +98,7 @@ Then make another copy, blocking out the first, third, and fifth columns.
 
 ![column-block-left](/img/column-block-left.png)
 
-Run OCR on these images. The two text files that result will contain some errors, but they won't confuse the columns.
+When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you'll have to combine them piece by piece).
 
 ### 2d. Fix the line breaks
 Before moving this text into XML, let's try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs. 

@@ -17,6 +17,7 @@ weight: 2
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
+3|January 18, 1906|January 20, 1906|[Ozlem Atalay](https://github.com/ozlematalay)|||
 12|March 19, 1906|March 24, 1906|[Carol Howerton](https://github.com/ech15d)|||
 25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|||
 38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|37||

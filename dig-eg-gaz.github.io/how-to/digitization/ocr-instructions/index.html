@@ -582,9 +582,11 @@ Copy the whole bottom line <em>except</em> the final <code>&gt;</code>.</li>
 <li>the image might not be straight.</li>
 </ul>
 
-<p>Do everything you can to use the cleanest, straightest images possible.</p>
+<p>Do everything you can when digitizing from microfilm to use the cleanest, straightest images possible.</p>
 
-<p>If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (<strong>unverified</strong>)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don&rsquo;t need tesseract to read.</p>
+<p>If tesseract still struggles with your columns, you can trick it by drawing a lines in between the column. Make a copy of your page image (giving it a different name from the original), then use image software (such as Preview on OSX or Paint on Windows) to draw five thin black lines overtop the lines separating columns on the images. Run OCR on this image. The text file that results will contain some reading errors, but it shouldn&rsquo;t confuse the columns.</p>
+
+<p>If it still garbles the columns, you can try drawing rectangles instead of lines. For example, you can block out the second, fourth and sixth columns. You can also block out ads, templated features, and anything else you don’t need tesseract to read.</p>
 
 <p><img src="/img/column-block-right.png" alt="column-block-right" /></p>
 
@@ -592,7 +594,7 @@ Copy the whole bottom line <em>except</em> the final <code>&gt;</code>.</li>
 
 <p><img src="/img/column-block-left.png" alt="column-block-left" /></p>
 
-<p>Run OCR on these images. The two text files that result will contain some errors, but they won&rsquo;t confuse the columns.</p>
+<p>When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you&rsquo;ll have to combine them piece by piece).</p>
 
 <h3 id="2d-fix-the-line-breaks">2d. Fix the line breaks</h3>
 

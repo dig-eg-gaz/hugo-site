@@ -216,10 +216,10 @@ xml:id `deg-el-bokh01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale.png)|**Notes**: |Earliest: <br><br>Latest:
 
-### Variant 2
+### Variant 2 (Cloture de la Bourse Khediviale)
 xml:id `deg-el-clbk01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la bourse-khediviale.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale.jpg)|**Notes**: Prepared by [Brett Crawford](authors/brettcrawford)<br><br>|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale.jpg)|**Notes**: Prepared by [Brett Crawford](/authors/brettcrawford)<br><br>|Earliest: <br><br>Latest:
 
 ## London Stock Exchange
 

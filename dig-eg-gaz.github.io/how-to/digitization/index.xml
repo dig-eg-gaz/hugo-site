@@ -131,7 +131,7 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
     <item>
       <title>Templating instructions</title>
       <link>https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/</link>
-      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/</guid>
       <description>
 
@@ -139,7 +139,7 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;p&gt;While &lt;a href=&#34;https://dig-eg-gaz.github.io/contents/features/&#34;&gt;features&lt;/a&gt; of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; were composed fresh each day, much of each issue consisted of templates reapplied with minor or no modifications from issue to issue. As we produce our marked-up version of the newspaper, we can save effort by reusing templates in our own work. We must remain alert to minor variations, however.&lt;/p&gt;
 
-&lt;h2 id=&#34;1-recurring-features&#34;&gt;1. Recurring features&lt;/h2&gt;
+&lt;h2 id=&#34;1-identifying-recurring-features&#34;&gt;1. Identifying recurring features&lt;/h2&gt;
 
 &lt;p&gt;The first step is to determine if you are looking at something that is a template. Advertisements, tables, and other material that is not free text is probably templated. Check these indexes to see if you can find something identical or similar to what you want to find:&lt;/p&gt;
 
@@ -148,15 +148,33 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 &lt;li&gt;The complete catalog of financial tables and other boilerplates is &lt;a href=&#34;https://dig-eg-gaz.github.io/contents/templates/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;These indexes contain images of the templated items, links to TEI-XML documents representing the templated item, and (sometimes) a comment or two about the template. Once you&amp;rsquo;ve identified the relevant template, copy and paste its XML into your own file. &lt;strong&gt;Important&lt;/strong&gt;: Only copy the material contained within the &lt;code&gt;&amp;lt;body&amp;gt; &amp;lt;/body&amp;gt;&lt;/code&gt; tags&amp;ndash;the rest of the file should not appear in your issue file. To do so, select the text like this:&lt;/p&gt;
+&lt;p&gt;These indexes contain images of the templated items, links to TEI-XML documents representing the templated item, and (sometimes) a comment or two about the template.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-using-templates&#34;&gt;2. Using templates&lt;/h2&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve identified the relevant template, you can paste its XML code into your own file. There are two ways to do this.&lt;/p&gt;
+
+&lt;h3 id=&#34;2a-using-content-completion-boilerplates&#34;&gt;2a. Using content completion boilerplates&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ve made a file that contains shortcuts to most of the boilerplates that you will need. (Note that it does not contain advertisements.) You can download it &lt;a href=&#34;https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/dig-eg-gaz-code-templates.xml&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Once downloaded, you can install the file in Oxygen XML Editor by opening the Preferences dialog box (Options &amp;gt; Preferences), then going to Editor &amp;gt; Templates &amp;gt; Code Templates. Now click the Import button, and select the file you have downloaded.&lt;/p&gt;
+
+&lt;p&gt;Once you have installed the content completion boilerplates, you can press Control + Space, and a drop down menu of templates will appear. Choose the template you need and it will automatically appear where your cursor was.&lt;/p&gt;
+
+&lt;p&gt;Next, customize the template content to match your issue&amp;rsquo;s content. Often there will be no changes. Sometimes dates, names, or numbers will have to be changed. Sometimes the changes will be more complex. As you become more familiar with TEI-XML, you will get better at customizing the template.&lt;/p&gt;
+
+&lt;p&gt;Note that this content completion file will not be automatically updated. For the latest versions of boilerplates, consult the complete catalog, and follow the following procedure:&lt;/p&gt;
+
+&lt;h3 id=&#34;2b-copy-and-paste-from-xml-file&#34;&gt;2b. Copy and paste from xml file&lt;/h3&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve found the template you need, click the XML link. This will take you to a file in the dig-eg-gaz GitHub repository. Here you can copy the code you need to paste into your file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important&lt;/strong&gt;: Only copy the material contained within the &lt;code&gt;&amp;lt;body&amp;gt; &amp;lt;/body&amp;gt;&lt;/code&gt; tags&amp;ndash;the rest of the file should not appear in your issue file. To do so, select the text like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/templateCopy.png&#34; alt=&#34;templateCopy&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Paste only this portion of the text into your issue document.&lt;/p&gt;
 
-&lt;p&gt;Next, customize the template content to match your issue&amp;rsquo;s content. Often there will be no changes. Sometimes dates, names, or numbers will have to be changed. Sometimes the changes will be more complex. As you become more familiar with TEI-XML, you will get better at customizing the template.&lt;/p&gt;
-
-&lt;h2 id=&#34;2-what-if-there-s-no-template&#34;&gt;2. What if there&amp;rsquo;s no template?&lt;/h2&gt;
+&lt;h2 id=&#34;3-what-if-there-s-no-template&#34;&gt;3. What if there&amp;rsquo;s no template?&lt;/h2&gt;
 
 &lt;p&gt;If you can&amp;rsquo;t find a template that should be there, or if your version of an item is so different from the template that you think a new template is warranted, there are a few things you can do.&lt;/p&gt;
 
@@ -166,7 +184,7 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 &lt;li&gt;Finally, if you can&amp;rsquo;t find the material anywhere and it&amp;rsquo;s too involved to reproduce it yourself, file an &lt;a href=&#34;https://guides.github.com/features/issues/&#34; target=&#34;_blank&#34;&gt;issue&lt;/a&gt; at the &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/issues&#34; target=&#34;_blank&#34;&gt;advertisements&lt;/a&gt; or &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/issues&#34; target=&#34;_blank&#34;&gt;boilerplates&lt;/a&gt; repositories, insert a &lt;code&gt;&amp;lt;!-- missing template --&amp;gt;&lt;/code&gt; comment with a few details into your document, and move on.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;3-an-overview-of-features-from-page-to-page-and-day-to-day&#34;&gt;3. An overview of &amp;ldquo;features&amp;rdquo; from page to page and day to day&lt;/h2&gt;
+&lt;h2 id=&#34;4-an-overview-of-features-from-page-to-page-and-day-to-day&#34;&gt;4. An overview of &amp;ldquo;features&amp;rdquo; from page to page and day to day&lt;/h2&gt;
 
 &lt;p&gt;For a general summary of recurring features, see the tables &lt;a href=&#34;https://dig-eg-gaz.github.io/contents/features/&#34;&gt;here&lt;/a&gt;. Every numbered page of the &lt;em&gt;Gazette&lt;/em&gt; held similar material every day. The slides below offer an overview of the format over a typical week in July 1905. Page numbers are indicated on the bottom right. The main boilerplate is six pages long. On Wednesday and Saturday, when issues are eight pages, the extra pages are the fourth and fifth pages. Pages 6-8 of extended editions correspond to pages 4-6 of regular editions.&lt;/p&gt;
 
@@ -353,9 +371,11 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 &lt;li&gt;the image might not be straight.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Do everything you can to use the cleanest, straightest images possible.&lt;/p&gt;
+&lt;p&gt;Do everything you can when digitizing from microfilm to use the cleanest, straightest images possible.&lt;/p&gt;
 
-&lt;p&gt;If tesseract still struggles with your columns, you can trick it by blocking out every other column. Make a copy of your page image (giving it a different name from the original), then use image software (Preview on OSX or Photos on Windows (&lt;strong&gt;unverified&lt;/strong&gt;)) to draw black rectangles over the second, fourth and sixth column. Also block out ads, templated features, and anything else you don&amp;rsquo;t need tesseract to read.&lt;/p&gt;
+&lt;p&gt;If tesseract still struggles with your columns, you can trick it by drawing a lines in between the column. Make a copy of your page image (giving it a different name from the original), then use image software (such as Preview on OSX or Paint on Windows) to draw five thin black lines overtop the lines separating columns on the images. Run OCR on this image. The text file that results will contain some reading errors, but it shouldn&amp;rsquo;t confuse the columns.&lt;/p&gt;
+
+&lt;p&gt;If it still garbles the columns, you can try drawing rectangles instead of lines. For example, you can block out the second, fourth and sixth columns. You can also block out ads, templated features, and anything else you don’t need tesseract to read.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-right.png&#34; alt=&#34;column-block-right&#34; /&gt;&lt;/p&gt;
 
@@ -363,7 +383,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/column-block-left.png&#34; alt=&#34;column-block-left&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Run OCR on these images. The two text files that result will contain some errors, but they won&amp;rsquo;t confuse the columns.&lt;/p&gt;
+&lt;p&gt;When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you&amp;rsquo;ll have to combine them piece by piece).&lt;/p&gt;
 
 &lt;h3 id=&#34;2d-fix-the-line-breaks&#34;&gt;2d. Fix the line breaks&lt;/h3&gt;
 
