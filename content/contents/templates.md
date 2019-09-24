@@ -3,14 +3,14 @@ title: Templates
 linktitle: Templates
 toc: true
 type: docs
-date: "2016-09-30"
+date: "2019-09-20"
 draft: false
 menu:
   contents:
     parent: Contents
-    weight: 4
+    weight: 5
 
-weight: 4
+weight: 5
 ---
 Many features in the *Egyptian Gazette* were produced using boilerplates. This page's database contains a complete set of these features, which are listed here in seven general categories:
 

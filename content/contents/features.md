@@ -8,9 +8,9 @@ draft: false
 menu:
   contents:
     parent: Contents
-    weight: 3
+    weight: 4
 
-weight: 3
+weight: 4
 ---
 The *Egyptian Gazette* contains a large number of recurring elements, which this project identifies using the `feature` attribute. Some of this material is captured in [templates](/contents/templates/), and others are [advertisements](/contents/advertisements). This pages lists recurring free-text features, which are described using terms from the [Digital Egyptian Gazette schema](/resources/schema/). Many of the features listed (ought to) contain sub-items with their own headlines, often also bylines and datelines.
 

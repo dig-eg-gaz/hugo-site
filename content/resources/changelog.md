@@ -12,6 +12,9 @@ menu:
 
 weight: 6
 ---
+### 2019-09-20 // Version 0.14
+* Begin hosting [collection of page images]() beyond scope of class.
+
 ### 2019-08-19 // Version 0.13
 * [Fourth class](https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing) begins
 * Launch of new website

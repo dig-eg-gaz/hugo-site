@@ -8,9 +8,9 @@ draft: false
 menu:
   contents:
     parent: Contents
-    weight: 5
+    weight: 6
 
-weight: 5
+weight: 6
 ---
 Advertisements in the *Egyptian Gazette* were produced using boilerplates that repeated from issue to issue with only minor variations. This page's database contains a complete set of these advertisements. Each advertiser is given a three-letter code, and each distinct ad from that advertiser is given a numeric suffix. Use the images and links to text below, or consult the separate [database](https://github.com/dig-eg-gaz/advertisements/blob/master/ads-db.tsv), [XML files](https://github.com/dig-eg-gaz/advertisements/tree/master/ad-text), or [image files](https://github.com/dig-eg-gaz/advertisements/tree/master/ad-images).
 
