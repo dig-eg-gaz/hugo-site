@@ -100,15 +100,21 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 
 &lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/page-1-example.png&#34; alt=&#34;page-1-example&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The masthead is the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements. Update the number, date, and number of pages.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;nameplate&amp;rdquo; &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; that you see here represents the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements:&lt;/p&gt;
 
-&lt;p&gt;Now you need to find the templates that correspond to the ads that appear in your issue. There are detailed template instructions &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;here&lt;/a&gt;. Following the indications there, copy the xml text of template you need.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/nameplate.png&#34; alt=&#34;nameplate&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Next, you must paste this text into the right place in your xml document. The two ads flanking the masthead go right after the title, date, and so on, and before the &lt;code&gt;&amp;lt;/div&amp;gt;&lt;/code&gt; tag that closes the masthead:&lt;/p&gt;
+&lt;p&gt;You will need to update your xml file to reflect the content of your own issue. First, you need to look in the &lt;a href=&#34;https://dig-eg-gaz.github.io/contents/advertisements&#34;&gt;advertisements directory&lt;/a&gt; to find templates that correspond to the ads that appear in your issue. Following the detailed indications &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;here&lt;/a&gt;, copy the xml text of templates you need.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/masthead-xml-example.png&#34; alt=&#34;masthead-xml-example&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;You must paste this text into the correct spot in the nameplate of your xml document. The two ads flanking the title take the form of &lt;code&gt;&amp;lt;cell&amp;gt;&lt;/code&gt;s that go in the first &lt;code&gt;&amp;lt;row&amp;gt;&lt;/code&gt; of the nameplate. The second &lt;code&gt;&amp;lt;row&amp;gt;&lt;/code&gt; of the nameplate lists the number, date, and number of pages of the issue. Update this information.&lt;/p&gt;
 
-&lt;p&gt;Then insert the first ad in the first column after the masthead after the &lt;code&gt;&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code&gt; tag in the advertising section division, and proceed inserting ads all the way to the end of the page.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/nameplate-2nd-row.png&#34; alt=&#34;nameplate-2nd-row&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you switch to author mode (choose it from the text-grid-author buttons near the bottom of your screen), the whole nameplate should look something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/author-mode-nameplate.png&#34; alt=&#34;author-mode-nameplate&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now switch back to text mode and proceed to work on the rest of the page. Find the text of the first ad in the first column after the nameplate, and paste it after the &lt;code&gt;&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code&gt; tag in the advertising section division. Proceed inserting ads all the way to the end of the third column.&lt;/p&gt;
 
 &lt;h2 id=&#34;5-make-sure-that-your-document-is-well-formed&#34;&gt;5. Make sure that your document is well-formed&lt;/h2&gt;
 

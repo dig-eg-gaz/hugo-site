@@ -30,15 +30,21 @@ In your xml document, the text of your issue itself (as opposed to just the head
 
 ![page-1-example](/img/page-1-example.png)
 
-The masthead is the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements. Update the number, date, and number of pages.
+The "nameplate" `<div>` that you see here represents the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements: 
 
-Now you need to find the templates that correspond to the ads that appear in your issue. There are detailed template instructions [here](/how-to/digitization/templating-instructions/). Following the indications there, copy the xml text of template you need.
+![nameplate](/img/nameplate.png)
 
-Next, you must paste this text into the right place in your xml document. The two ads flanking the masthead go right after the title, date, and so on, and before the `</div>` tag that closes the masthead:
+You will need to update your xml file to reflect the content of your own issue. First, you need to look in the [advertisements directory](/contents/advertisements) to find templates that correspond to the ads that appear in your issue. Following the detailed indications [here](/how-to/digitization/templating-instructions/), copy the xml text of templates you need.
 
-![masthead-xml-example](/img/masthead-xml-example.png)
+You must paste this text into the correct spot in the nameplate of your xml document. The two ads flanking the title take the form of `<cell>`s that go in the first `<row>` of the nameplate. The second `<row>` of the nameplate lists the number, date, and number of pages of the issue. Update this information.
 
-Then insert the first ad in the first column after the masthead after the `<cb n="1"/>` tag in the advertising section division, and proceed inserting ads all the way to the end of the page.
+![nameplate-2nd-row](/img/nameplate-2nd-row.png)
+
+If you switch to author mode (choose it from the text-grid-author buttons near the bottom of your screen), the whole nameplate should look something like this:
+
+![author-mode-nameplate](/img/author-mode-nameplate.png)
+
+Now switch back to text mode and proceed to work on the rest of the page. Find the text of the first ad in the first column after the nameplate, and paste it after the `<cb n="1"/>` tag in the advertising section division. Proceed inserting ads all the way to the end of the third column.
 
 ## 5. Make sure that your document is well-formed
 At the top right hand corner of your editing window in Oxygen, there is a square that will be either red or green. If it's green, your document is well-formed, which means that it conforms to TEI XML standards and will be searchable and useable. If it's red, the file contains errors that you must fix before you submit it. The errors appear as red lines on the right hand scrolling column. Click on a line to see the error described at the bottom of your editing screen.

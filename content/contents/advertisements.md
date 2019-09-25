@@ -1685,7 +1685,7 @@ xml text: [nrp01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-te
 ## wmc01 Whitehead Morris & Co.
  | 
 ---|---
-![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc01-whitehead-morris-co_tn.jpg?raw=true)|xml text: [wmc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wmc01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc01-whitehead-morris-co.png)
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc01-whitehead-morris-co_tn.jpg?raw=true)|xml text: [wmc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wmc01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc01-whitehead-morris-co.png)<br><br>paste as cell in nameplate table
 
 ## wsl01 White Star Line
  | 
