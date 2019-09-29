@@ -318,7 +318,7 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 &lt;h4 id=&#34;installation-for-osx&#34;&gt;Installation for OSX&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Install &lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; (a &amp;ldquo;package manager&amp;rdquo;) by pasting &lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt; in the command line, pressing enter, and following the prompts. Then, install tesseract by running &lt;code&gt;brew install tesseract&lt;/code&gt; in the terminal.&lt;/li&gt;
+&lt;li&gt;Install &lt;a href=&#34;https://brew.sh/&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; (a &amp;ldquo;package manager&amp;rdquo;) by pasting &lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt; in the command line, pressing enter, and following the prompts. Then, install tesseract by running &lt;code&gt;brew install tesseract&lt;/code&gt; in the terminal. You&amp;rsquo;ll also want to add French language support: run &lt;code&gt;brew install tesseract-lang&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;installation-for-windows&#34;&gt;Installation for Windows&lt;/h4&gt;
