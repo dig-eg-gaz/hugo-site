@@ -34,7 +34,9 @@ Another problem that arises is failing to close divs or pages. You'll know you h
 
 ## 2. Get the breaks right
 
-There are three types of "breaks" in the digital _Egyptian Gazette_. Two of them are very straightforward to work with:
+There are three types of "breaks" in the digital _Egyptian Gazette_. All are indicated using single tags, rather than pairs: unlike paragraph tags, for example, which must open (`<p>`) and close (`</p>`), break tags come alone. They include a "slash" just before the closing bracket to show that they have no partner: `<lb/>`. 
+
+Two of the break tags are quite straightforward to work with:
 
 ### a. Line breaks
 
@@ -78,3 +80,7 @@ We encode the columns on this page like this:
 
 ### c. `<colSpan n="?"/>` 
 This tag is used for items that are wider than a single column and are located in a spot where the page is not cannot be divided into even-sized columns using `<cols/>`.
+
+For example, the "Nile Gauge Reading" item at the bottom of this page should be preceded by a `<colSpan n="4"/)` tag.
+
+![cols-example-colspan-4](cols-example-colspan-4.png)

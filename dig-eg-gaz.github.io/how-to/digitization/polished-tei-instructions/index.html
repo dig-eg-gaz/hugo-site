@@ -493,7 +493,9 @@ All other &lt;div&gt;s should be inside the page &lt;div&gt; in which they appea
 
 <h2 id="2-get-the-breaks-right">2. Get the breaks right</h2>
 
-<p>There are three types of &ldquo;breaks&rdquo; in the digital <em>Egyptian Gazette</em>. Two of them are very straightforward to work with:</p>
+<p>There are three types of &ldquo;breaks&rdquo; in the digital <em>Egyptian Gazette</em>. All are indicated using single tags, rather than pairs: unlike paragraph tags, for example, which must open (<code>&lt;p&gt;</code>) and close (<code>&lt;/p&gt;</code>), break tags come alone. They include a &ldquo;slash&rdquo; just before the closing bracket to show that they have no partner: <code>&lt;lb/&gt;</code>.</p>
+
+<p>Two of the break tags are quite straightforward to work with:</p>
 
 <h3 id="a-line-breaks">a. Line breaks</h3>
 
@@ -540,6 +542,10 @@ All other &lt;div&gt;s should be inside the page &lt;div&gt; in which they appea
 <h3 id="c-colspan-n">c. <code>&lt;colSpan n=&quot;?&quot;/&gt;</code></h3>
 
 <p>This tag is used for items that are wider than a single column and are located in a spot where the page is not cannot be divided into even-sized columns using <code>&lt;cols/&gt;</code>.</p>
+
+<p>For example, the &ldquo;Nile Gauge Reading&rdquo; item at the bottom of this page should be preceded by a <code>&lt;colSpan n=&quot;4&quot;/)</code> tag.</p>
+
+<p><img src="cols-example-colspan-4.png" alt="cols-example-colspan-4" /></p>
 
           </div>
 

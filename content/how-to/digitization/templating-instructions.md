@@ -31,7 +31,7 @@ Once you've identified the relevant template, you can paste its XML code into yo
 
 ### 2a. Using content completion boilerplates
 
-I've made a file that contains shortcuts to most of the boilerplates that you will need. (Note that it does not contain advertisements.) You can download it [here](https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/dig-eg-gaz-code-templates.xml). Once downloaded, you can install the file in Oxygen XML Editor by opening the Preferences dialog box (Options > Preferences), then going to Editor > Templates > Code Templates. Now click the Import button, and select the file you have downloaded.
+I've made a file that contains shortcuts to most of the boilerplates that you will need. (Note that it does not contain advertisements.) You can download it [here](https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/dig-eg-gaz-code-templates.xml). Once downloaded, you can install the file in Oxygen XML Editor by opening the Preferences dialog box (Options > Preferences), then going to Editor > Content Completion > Code Templates. Now click the Import button, and select the file you have downloaded.
 
 Once you have installed the content completion boilerplates, you can press Control + Space, and a drop down menu of templates will appear. Choose the template you need and it will automatically appear where your cursor was.
 
