@@ -17,10 +17,10 @@ weight: 5
 This lesson explains how to turn images of text into editable files. We will use ["optical character recognition" (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition) to work with free text wherever we encounter it in the *Egyptian Gazette*. Once we've transformed OCRed text and performed basic corrections, it will be ready for [TEI-XML markup](/how-to/digitization/tei-xml-instructions/).
 
 {{% alert note %}}
-You will not need use OCR on text that has been [templated](/how-to/digitization/templating-instructions/). 
+You will not need to use OCR on text that has been [templated](/how-to/digitization/templating-instructions/). 
 {{% /alert %}}
 
-## 1. Install Tesseract
+## 1. Set up Tesseract
 [Tesseract](https://github.com/tesseract-ocr/tesseract) is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications. 
 
 We will be running it on the hard drives of our own laptops. Unlike most programs you will have used, tesseract does not have a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) (GUI). Instead, you run it from the [command line](https://en.wikipedia.org/wiki/Command-line_interface). The command line interface can take a bit of getting used to, but it is relatively straightforward. Also, once you know how to use the command line it's easier to look under the hood of your computer when you need to.
@@ -100,17 +100,19 @@ Then make another copy, blocking out the first, third, and fifth columns.
 
 When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you'll have to combine them piece by piece).
 
-### 2d. Fix the line breaks
-Before moving this text into XML, let's try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs. 
+## 3. Make basic edits to the raw text
+Before moving this raw text into our XML file, we need to prepare it for XML. To do this, use a full plain text editor such as [Sublime Text](https://www.sublimetext.com/) or [Atom](https://atom.io/). (We'll learn more about plain text editing in [another tutorial](/how-to/digitization/text-editor-instructions)). Do not use the text editor that your operating system provides, because it does not support regular expressions.
 
 Using **Find and Replace** in your plain text editor, follow these steps:
 
-- find every `<` and `>`, which will almost certainly be OCR errors, and delete or replace them.
-- enable regular expressions, then find `\n\n` (all double paragraph breaks) and replace with `</p><p>` (XML paragraph breaks)
-- replace `&` with `&amp;`. (XML freaks out if it sees an "and" symbol, and there are lots of them in the _Egyptian Gazette_.)
-- add a `<p>` at the very start of the file, and a `</p>` at the very end of the file.
+1. Rind every `<` and `>`, which will almost certainly be OCR errors, and delete or replace them.
+2. XML freaks out if it sees an "and" symbol, and there are lots of them in the _Egyptian Gazette_. Replace `&` with `&amp;`.
+3. Tesseract puts an empty line between most paragraphs that it recognizes. We can use [regular expressions](/how-to/digitization/regular-expression-instructions/) to mark these paragraph breaks in XML code. In your text editor, enable regular expressions. Then, find `\n\n` (the regular expression for double paragraph breaks) and replace with `</p><p>` (the XML code for paragraph breaks).
+4. In order to complete this file, add a `<p>` at the very start, and a `</p>` at the very end. These are necessary to open and close the first and last paragraph.
 
-## 3. Move the text into your XML file
+You should now be able to paste this text into XML without errors.
+
+## 4. Move the text into your XML file
 
 Copy the contents of the first column in the text file you've prepared. Open Oxygen. In the xml file that you're preparing, put a `<div type="item"> <cb n="1"/> </div>` pair of tags after the <pb n="?"/> tag corresponding to the page you've OCRed. Paste the text in between these tags. 
 

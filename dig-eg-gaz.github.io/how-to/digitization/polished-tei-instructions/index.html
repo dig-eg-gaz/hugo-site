@@ -28,10 +28,12 @@
   
     
   
-  <meta name="description" content="Tutorials for the production of all elements of the Digital Egyptian Gazette.">
+  <meta name="description" content="Objective This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.
+1. Get the page hierarchy right The best way to get a quick idea of your file&rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page &lt;div&gt;s:
+All other &lt;div&gt;s should be inside the page &lt;div&gt; in which they appear.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/">
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/">
 
   
 
@@ -91,14 +93,12 @@
   
 
   
-  <link rel="alternate" href="/how-to/index.xml" type="application/rss+xml" title="Digital Egyptian Gazette">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/">
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/">
 
   
   
@@ -111,12 +111,17 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Digital Egyptian Gazette">
-  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/">
-  <meta property="og:title" content="How to | Digital Egyptian Gazette">
-  <meta property="og:description" content="Tutorials for the production of all elements of the Digital Egyptian Gazette."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/">
+  <meta property="og:title" content="Polishing TEI instructions | Digital Egyptian Gazette">
+  <meta property="og:description" content="Objective This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.
+1. Get the page hierarchy right The best way to get a quick idea of your file&rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page &lt;div&gt;s:
+All other &lt;div&gt;s should be inside the page &lt;div&gt; in which they appear."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2016-09-09T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2019-10-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-10-01T00:00:00&#43;00:00">
   
 
   
@@ -128,7 +133,7 @@
 
 
 
-  <title>How to | Digital Egyptian Gazette</title>
+  <title>Polishing TEI instructions | Digital Egyptian Gazette</title>
 
 </head>
 
@@ -363,18 +368,60 @@
 <nav class="collapse docs-links" id="docs-nav">
   
   
-  <div class="docs-toc-item active">
-    <a class="docs-toc-link" href="/how-to/"></a>
-
-  </div>
-  
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/how-to/digitization/">Digitization</a>
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/how-to/course-specific/">Course specific</a>
+    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/templating-instructions/">Templating</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/github-instructions/">GitHub</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/ocr-instructions/">OCR</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/content-markup-instructions/">Content markup</a>
+      </li>
+      
+      <li class="active">
+        <a href="/how-to/digitization/polished-tei-instructions/">Polished TEI</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Advanced tagging</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/query-instructions/">Querying</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/regular-expression-instructions/">Regular expressions</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/visualization-instructions/">Data visualization</a>
+      </li>
+      
+    </ul>
+    
 
   </div>
   
@@ -393,9 +440,19 @@
 <ul>
 <li>
 <ul>
-<li><a href="#digital-egyptian-gazette-project-instructions">Digital Egyptian Gazette project instructions</a></li>
-<li><a href="#course-specific-instructions">Course-specific instructions</a></li>
-<li><a href="#further-instructions-to-come-in-future-semesters">Further instructions (to come in future semesters)</a></li>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-get-the-page-hierarchy-right">1. Get the page hierarchy right</a></li>
+<li><a href="#2-get-the-breaks-right">2. Get the breaks right</a>
+<ul>
+<li><a href="#a-line-breaks">a. Line breaks</a></li>
+<li><a href="#b-page-breaks">b. Page breaks</a></li>
+</ul></li>
+<li><a href="#3-column-breaks">3. Column breaks</a>
+<ul>
+<li><a href="#a-cb-n">a. <code>&lt;cb n=&quot;?&quot;/&gt;</code></a></li>
+<li><a href="#b-cols-n">b. <code>&lt;cols n=&quot;?&quot;/&gt;</code></a></li>
+<li><a href="#c-colspan-n">c. <code>&lt;colSpan n=&quot;?&quot;/&gt;</code></a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -409,44 +466,80 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">How to</h1>
+          <h1 itemprop="name">Polishing TEI instructions</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h2 id="digital-egyptian-gazette-project-instructions">Digital Egyptian Gazette project instructions</h2>
+<h2 id="objective">Objective</h2>
 
-<ol>
-<li><a href="/how-to/digitization/microfilm-instructions">How to scan microfilm</a></li>
-<li><a href="/how-to/digitization/tei-xml-instructions">How to perform structural markup in TEI-XML</a></li>
-<li><a href="/how-to/digitization/templating-instructions">How to use templates</a></li>
-<li><a href="/how-to/digitization/github-instructions">How to use GitHub</a></li>
-<li><a href="/how-to/digitization/ocr-instructions">How to OCR text</a></li>
-<li><a href="/how-to/digitization/content-markup-instructions">How to mark up OCR text in TEI-XML</a></li>
-<li><a href="/how-to/digitization/polished-tei-instructions">How to polish your TEI-XML</a></li>
-<li><a href="/how-to/digitization/text-editor-instructions">How to use a plain text editor</a></li>
-<li><a href="/how-to/digitization/tagging-people-and-places-instructions">How to perform content markup</a></li>
-<li><a href="/how-to/digitization/query-instructions">How to query the full contents</a></li>
-<li><a href="/how-to/digitization/regular-expression-instructions">How to use regular expressions</a></li>
-<li><a href="/how-to/digitization/visualization-instructions">How to create data visualizations</a></li>
-</ol>
+<p>This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.</p>
 
-<h2 id="course-specific-instructions">Course-specific instructions</h2>
+<h2 id="1-get-the-page-hierarchy-right">1. Get the page hierarchy right</h2>
 
-<ol>
-<li><a href="/how-to/course-specific/blogging-instructions">How to produce blog posts</a></li>
-<li><a href="/how-to/course-specific/tutorials-instructions">How to write small tutorials</a></li>
-<li><a href="/how-to/course-specific/serial-question-instructions">How to submit serial question analysis</a></li>
-<li><a href="/how-to/course-specific/data-revision-instruction">How to revise templates</a></li>
-</ol>
+<p>The best way to get a quick idea of your file&rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page <code>&lt;div&gt;</code>s:</p>
 
-<h2 id="further-instructions-to-come-in-future-semesters">Further instructions (to come in future semesters)</h2>
+<p><img src="/img/page-div-outline.png" alt="page-div-outline" /></p>
 
-<ol>
-<li>[How to map places mentioned in the Egyptian Gazette]</li>
-<li>[How to identify people mentioned in the Egyptian Gazette]</li>
-<li>[How to identify organizations and institutions mentioned in the Egyptian Gazette]</li>
-</ol>
+<p>All other <code>&lt;div&gt;</code>s should be <em>inside</em> the page <code>&lt;div&gt;</code> in which they appear. If you do not have everything inside pages, your outline will look messy:</p>
+
+<p><img src="/img/page-div-outline-messy.png" alt="page-div-outline-messy" /></p>
+
+<p>The solution is to drag everything into its proper page.</p>
+
+<p>Another problem that arises is failing to close divs or pages. You&rsquo;ll know you have this problem if the end of your file looks like this:</p>
+
+<p><img src="/img/unclosed-divs.png" alt="unclosed-divs" /></p>
+
+<h2 id="2-get-the-breaks-right">2. Get the breaks right</h2>
+
+<p>There are three types of &ldquo;breaks&rdquo; in the digital <em>Egyptian Gazette</em>. Two of them are very straightforward to work with:</p>
+
+<h3 id="a-line-breaks">a. Line breaks</h3>
+
+<p>You will have little need for line breaks, which are coded <code>&lt;lb/&gt;</code>. For the most part, line breaks are indicated with paragraph tags. Sometimes, however (in adverts, for instance), you may find it useful or necessary to use a <code>&lt;lb/&gt;</code> instead of <code>&lt;p&gt;&lt;/p&gt;</code>.</p>
+
+<h3 id="b-page-breaks">b. Page breaks</h3>
+
+<p>Page breaks (<code>&lt;pb n=&quot;?&quot;/&gt;</code>) are currently used in the digital <em>Egyptian Gazette</em>, but they are redundant, because every page is contained in <code>&lt;div type=&quot;page&quot; n=&quot;?&quot;&gt; &lt;/div&gt;</code> tags. In both cases, the <code>n=&quot;?&quot;</code> attribute records the page number.</p>
+
+<p>Please use both divs and breaks to indicate pages. TEI&rsquo;s rules for periodicals are still in development, and we want our resource to be flexible to more than one approach. Note that the page break tag comes <em>before</em> the page <code>&lt;div&gt;</code> itself; the arrangement outlined in the first page hierarchy image above is correct.</p>
+
+<h2 id="3-column-breaks">3. Column breaks</h2>
+
+<p>Column breaks can be hard to work out, not least because they are not well implemented in the TEI specification. In this project, we use three different tags to describe the columns:</p>
+
+<h3 id="a-cb-n">a. <code>&lt;cb n=&quot;?&quot;/&gt;</code></h3>
+
+<p>This tag indicates the start of a new column. Use it at the beginning of every page, and again each time the text stops at the bottom of the page and jumps to the top of another column. Use the <code>n=</code> attribute to indicate which column is beginning.</p>
+
+<p>This is straightforward on a typical page 3, which contains six even-sized columns running from the top to the bottom of the page.</p>
+
+<p><img src="/img/cols-example-6-cbs-p-3.png" alt="cols-example-6-cbs-p-3" /></p>
+
+<p>Do not make each column into its own <code>&lt;div&gt;</code>. Column breaks often coincide with the start of a new <code>&lt;div&gt;</code>, but they have a distinct role. They indicate the layout of the paper, not its content. <code>&lt;div&gt;</code>, on the other hand, is used to encode articles and sections of the paper with their own headline and content. A <code>&lt;cb/&gt;</code> can even be dropped in the middle of a paragraph, as we see with the column break at the start of column 5 in the image above.</p>
+
+<h3 id="b-cols-n">b. <code>&lt;cols n=&quot;?&quot;/&gt;</code></h3>
+
+<p>This tag indicates how many evenly-sized columns the page is divided into. Use it only when the width of columns change. Below the nameplate on page 1, for example, we use a <code>&lt;cols n=&quot;3&quot;/&gt;</code> tag to show that the page is divided into three equal columns. We insert this tag before we show the start of the first column using <code>&lt;cb n=&quot;1&quot;/&gt;</code>.</p>
+
+<p>Page 3 is usually divided into six equal columns. We can indicate this using <code>&lt;cols n=&quot;6&quot;/&gt;</code>. Again, this tag comes before the first column break (as indicated in the image above).</p>
+
+<p>Things are more complicated on page 2, which often contains a mix of single- and double-width columns. Remember that single-width columns are indicated with <code>&lt;cols n=&quot;6&quot;/&gt;</code>, because the page can contain six of them. Double-width colums are indicated with <code>&lt;cols n=&quot;3&quot;/&gt;</code>, because the page can contain only three of them. The rare triple-width column would be marked with <code>&lt;cols n=&quot;2&quot;/&gt;</code>.</p>
+
+<p>Here is an example of a page 2, with its layout blocked in colored columns:</p>
+
+<p><img src="/img/cols-example-p-2-layout.png" alt="cols-example-p-2-layout" /></p>
+
+<p>The page starts with a double-width column (A), which splits into two single-width columns (A &amp; B) partway down. The middle of the page contains another double-width column &copy; that splits into single-width columns (C &amp; D). The right-hand side of the page contains two full-length single-width columns (E &amp; F).</p>
+
+<p>We encode the columns on this page like this:</p>
+
+<p><img src="/img/cols-example-p-2-layout-xml.png" alt="cols-example-p-2-layout-xml" /></p>
+
+<h3 id="c-colspan-n">c. <code>&lt;colSpan n=&quot;?&quot;/&gt;</code></h3>
+
+<p>This tag is used for items that are wider than a single column and are located in a spot where the page is not cannot be divided into even-sized columns using <code>&lt;cols/&gt;</code>.</p>
 
           </div>
 
@@ -460,6 +553,19 @@
 <div class="post-nav">
   
   
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/how-to/digitization/content-markup-instructions/" rel="next">Content markup instructions</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/how-to/digitization/text-editor-instructions/" rel="prev">Plain text instructions</a>
+  </div>
+  
 </div>
 
           </div>
@@ -467,7 +573,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Aug 28, 2019</p>
+          <p>Last updated on Oct 1, 2019</p>
 
           
 

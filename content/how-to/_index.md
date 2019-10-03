@@ -29,6 +29,7 @@ menu:
 4. [How to use GitHub](/how-to/digitization/github-instructions)
 5. [How to OCR text](/how-to/digitization/ocr-instructions)
 6. [How to mark up OCR text in TEI-XML](/how-to/digitization/content-markup-instructions)
+7. [How to polish your TEI-XML](/how-to/digitization/polished-tei-instructions)
 7. [How to use a plain text editor](/how-to/digitization/text-editor-instructions)
 8. [How to perform content markup](/how-to/digitization/tagging-people-and-places-instructions)
 9. [How to query the full contents](/how-to/digitization/query-instructions)

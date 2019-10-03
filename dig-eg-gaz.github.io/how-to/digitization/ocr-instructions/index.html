@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="Objective This lesson explains how to turn images of text into editable files. We will use &ldquo;optical character recognition&rdquo; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup.
- You will not need use OCR on text that has been templated.   1. Install Tesseract Tesseract is an open-source OCR program supported by Google.">
+ You will not need to use OCR on text that has been templated.   1. Set up Tesseract Tesseract is an open-source OCR program supported by Google.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/">
@@ -113,7 +113,7 @@
   <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/">
   <meta property="og:title" content="OCR instructions | Digital Egyptian Gazette">
   <meta property="og:description" content="Objective This lesson explains how to turn images of text into editable files. We will use &ldquo;optical character recognition&rdquo; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&rsquo;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup.
- You will not need use OCR on text that has been templated.   1. Install Tesseract Tesseract is an open-source OCR program supported by Google."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+ You will not need to use OCR on text that has been templated.   1. Set up Tesseract Tesseract is an open-source OCR program supported by Google."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -395,6 +395,10 @@
       </li>
       
       <li >
+        <a href="/how-to/digitization/polished-tei-instructions/">Polished TEI</a>
+      </li>
+      
+      <li >
         <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
       </li>
       
@@ -435,7 +439,7 @@
 <li>
 <ul>
 <li><a href="#objective">Objective</a></li>
-<li><a href="#1-install-tesseract">1. Install Tesseract</a>
+<li><a href="#1-set-up-tesseract">1. Set up Tesseract</a>
 <ul>
 <li><a href="#1a-access-the-command-line">1a. Access the command line</a></li>
 <li><a href="#1b-install-tesseract">1b. Install Tesseract</a>
@@ -450,9 +454,9 @@
 <li><a href="#2a-navigate-to-image-directory">2a. Navigate to image directory</a></li>
 <li><a href="#2b-run-ocr">2b. Run OCR</a></li>
 <li><a href="#2c-help-tesseract-see-the-columns">2c. Help tesseract see the columns</a></li>
-<li><a href="#2d-fix-the-line-breaks">2d. Fix the line breaks</a></li>
 </ul></li>
-<li><a href="#3-move-the-text-into-your-xml-file">3. Move the text into your XML file</a></li>
+<li><a href="#3-make-basic-edits-to-the-raw-text">3. Make basic edits to the raw text</a></li>
+<li><a href="#4-move-the-text-into-your-xml-file">4. Move the text into your XML file</a></li>
 </ul></li>
 <li><a href="#faqs">FAQs</a>
 <ul>
@@ -493,11 +497,11 @@
 
 <div class="alert alert-note">
   <div>
-    You will not need use OCR on text that has been <a href="/how-to/digitization/templating-instructions/">templated</a>.
+    You will not need to use OCR on text that has been <a href="/how-to/digitization/templating-instructions/">templated</a>.
   </div>
 </div>
 
-<h2 id="1-install-tesseract">1. Install Tesseract</h2>
+<h2 id="1-set-up-tesseract">1. Set up Tesseract</h2>
 
 <p><a href="https://github.com/tesseract-ocr/tesseract" target="_blank">Tesseract</a> is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.</p>
 
@@ -596,20 +600,22 @@ Copy the whole bottom line <em>except</em> the final <code>&gt;</code>.</li>
 
 <p>When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you&rsquo;ll have to combine them piece by piece).</p>
 
-<h3 id="2d-fix-the-line-breaks">2d. Fix the line breaks</h3>
+<h2 id="3-make-basic-edits-to-the-raw-text">3. Make basic edits to the raw text</h2>
 
-<p>Before moving this text into XML, let&rsquo;s try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs.</p>
+<p>Before moving this raw text into our XML file, we need to prepare it for XML. To do this, use a full plain text editor such as <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a> or <a href="https://atom.io/" target="_blank">Atom</a>. (We&rsquo;ll learn more about plain text editing in <a href="/how-to/digitization/text-editor-instructions">another tutorial</a>). Do not use the text editor that your operating system provides, because it does not support regular expressions.</p>
 
 <p>Using <strong>Find and Replace</strong> in your plain text editor, follow these steps:</p>
 
-<ul>
-<li>find every <code>&lt;</code> and <code>&gt;</code>, which will almost certainly be OCR errors, and delete or replace them.</li>
-<li>enable regular expressions, then find <code>\n\n</code> (all double paragraph breaks) and replace with <code>&lt;/p&gt;&lt;p&gt;</code> (XML paragraph breaks)</li>
-<li>replace <code>&amp;</code> with <code>&amp;amp;</code>. (XML freaks out if it sees an &ldquo;and&rdquo; symbol, and there are lots of them in the <em>Egyptian Gazette</em>.)</li>
-<li>add a <code>&lt;p&gt;</code> at the very start of the file, and a <code>&lt;/p&gt;</code> at the very end of the file.</li>
-</ul>
+<ol>
+<li>Rind every <code>&lt;</code> and <code>&gt;</code>, which will almost certainly be OCR errors, and delete or replace them.</li>
+<li>XML freaks out if it sees an &ldquo;and&rdquo; symbol, and there are lots of them in the <em>Egyptian Gazette</em>. Replace <code>&amp;</code> with <code>&amp;amp;</code>.</li>
+<li>Tesseract puts an empty line between most paragraphs that it recognizes. We can use <a href="/how-to/digitization/regular-expression-instructions/">regular expressions</a> to mark these paragraph breaks in XML code. In your text editor, enable regular expressions. Then, find <code>\n\n</code> (the regular expression for double paragraph breaks) and replace with <code>&lt;/p&gt;&lt;p&gt;</code> (the XML code for paragraph breaks).</li>
+<li>In order to complete this file, add a <code>&lt;p&gt;</code> at the very start, and a <code>&lt;/p&gt;</code> at the very end. These are necessary to open and close the first and last paragraph.</li>
+</ol>
 
-<h2 id="3-move-the-text-into-your-xml-file">3. Move the text into your XML file</h2>
+<p>You should now be able to paste this text into XML without errors.</p>
+
+<h2 id="4-move-the-text-into-your-xml-file">4. Move the text into your XML file</h2>
 
 <p>Copy the contents of the first column in the text file you&rsquo;ve prepared. Open Oxygen. In the xml file that you&rsquo;re preparing, put a <code>&lt;div type=&quot;item&quot;&gt; &lt;cb n=&quot;1&quot;/&gt; &lt;/div&gt;</code> pair of tags after the <pb n="?"/> tag corresponding to the page you&rsquo;ve OCRed. Paste the text in between these tags.</p>
 

@@ -23,7 +23,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|37||
 45|October 5, 1906|November 10, 1906|[Conrad Wielgus](https://github.com/csw18)|||
 ---|---|---|---|---|---|---
-49|December 3, 1906|December 8, 1906|[Tomas Cabezas](https://github.com/tomascabezas)|||
+49|December 3, 1906|December 8, 1906|unassigned|||
 51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|||
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
 3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
@@ -60,7 +60,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|||
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|||
-48|November 25, 1907|November 30, 1907|[Lauren Khawam](https://github.com/lak19f)|||
+48|November 25, 1907|November 30, 1907|unassigned|||
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|||
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|||
@@ -124,6 +124,8 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
+49|December 3, 1906|December 8, 1906|unassigned|||
+48|November 25, 1907|November 30, 1907|unassigned|||
 
 ## Previous courses
 

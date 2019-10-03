@@ -9,9 +9,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 11
+    weight: 12
 
-weight: 11
+weight: 12
 ---
 
 Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.

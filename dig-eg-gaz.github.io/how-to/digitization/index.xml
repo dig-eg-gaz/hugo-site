@@ -288,11 +288,11 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    You will not need use OCR on text that has been &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;templated&lt;/a&gt;.
+    You will not need to use OCR on text that has been &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;templated&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;1-install-tesseract&#34;&gt;1. Install Tesseract&lt;/h2&gt;
+&lt;h2 id=&#34;1-set-up-tesseract&#34;&gt;1. Set up Tesseract&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/tesseract-ocr/tesseract&#34; target=&#34;_blank&#34;&gt;Tesseract&lt;/a&gt; is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.&lt;/p&gt;
 
@@ -391,20 +391,22 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;p&gt;When you run OCR on these image, the two text files that result will certainly divide up the contents correctly (though you&amp;rsquo;ll have to combine them piece by piece).&lt;/p&gt;
 
-&lt;h3 id=&#34;2d-fix-the-line-breaks&#34;&gt;2d. Fix the line breaks&lt;/h3&gt;
+&lt;h2 id=&#34;3-make-basic-edits-to-the-raw-text&#34;&gt;3. Make basic edits to the raw text&lt;/h2&gt;
 
-&lt;p&gt;Before moving this text into XML, let&amp;rsquo;s try to mark as many paragraph breaks as we can. Tesseract puts an empty line between most paragraphs.&lt;/p&gt;
+&lt;p&gt;Before moving this raw text into our XML file, we need to prepare it for XML. To do this, use a full plain text editor such as &lt;a href=&#34;https://www.sublimetext.com/&#34; target=&#34;_blank&#34;&gt;Sublime Text&lt;/a&gt; or &lt;a href=&#34;https://atom.io/&#34; target=&#34;_blank&#34;&gt;Atom&lt;/a&gt;. (We&amp;rsquo;ll learn more about plain text editing in &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions&#34;&gt;another tutorial&lt;/a&gt;). Do not use the text editor that your operating system provides, because it does not support regular expressions.&lt;/p&gt;
 
 &lt;p&gt;Using &lt;strong&gt;Find and Replace&lt;/strong&gt; in your plain text editor, follow these steps:&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;find every &lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;, which will almost certainly be OCR errors, and delete or replace them.&lt;/li&gt;
-&lt;li&gt;enable regular expressions, then find &lt;code&gt;\n\n&lt;/code&gt; (all double paragraph breaks) and replace with &lt;code&gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&lt;/code&gt; (XML paragraph breaks)&lt;/li&gt;
-&lt;li&gt;replace &lt;code&gt;&amp;amp;&lt;/code&gt; with &lt;code&gt;&amp;amp;amp;&lt;/code&gt;. (XML freaks out if it sees an &amp;ldquo;and&amp;rdquo; symbol, and there are lots of them in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.)&lt;/li&gt;
-&lt;li&gt;add a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; at the very start of the file, and a &lt;code&gt;&amp;lt;/p&amp;gt;&lt;/code&gt; at the very end of the file.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Rind every &lt;code&gt;&amp;lt;&lt;/code&gt; and &lt;code&gt;&amp;gt;&lt;/code&gt;, which will almost certainly be OCR errors, and delete or replace them.&lt;/li&gt;
+&lt;li&gt;XML freaks out if it sees an &amp;ldquo;and&amp;rdquo; symbol, and there are lots of them in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Replace &lt;code&gt;&amp;amp;&lt;/code&gt; with &lt;code&gt;&amp;amp;amp;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tesseract puts an empty line between most paragraphs that it recognizes. We can use &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/&#34;&gt;regular expressions&lt;/a&gt; to mark these paragraph breaks in XML code. In your text editor, enable regular expressions. Then, find &lt;code&gt;\n\n&lt;/code&gt; (the regular expression for double paragraph breaks) and replace with &lt;code&gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&lt;/code&gt; (the XML code for paragraph breaks).&lt;/li&gt;
+&lt;li&gt;In order to complete this file, add a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; at the very start, and a &lt;code&gt;&amp;lt;/p&amp;gt;&lt;/code&gt; at the very end. These are necessary to open and close the first and last paragraph.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h2 id=&#34;3-move-the-text-into-your-xml-file&#34;&gt;3. Move the text into your XML file&lt;/h2&gt;
+&lt;p&gt;You should now be able to paste this text into XML without errors.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-move-the-text-into-your-xml-file&#34;&gt;4. Move the text into your XML file&lt;/h2&gt;
 
 &lt;p&gt;Copy the contents of the first column in the text file you&amp;rsquo;ve prepared. Open Oxygen. In the xml file that you&amp;rsquo;re preparing, put a &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt; &amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt; &amp;lt;/div&amp;gt;&lt;/code&gt; pair of tags after the &lt;pb n=&#34;?&#34;/&gt; tag corresponding to the page you&amp;rsquo;ve OCRed. Paste the text in between these tags.&lt;/p&gt;
 
@@ -525,6 +527,85 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 &lt;h2 id=&#34;4-add-advanced-content-tags&#34;&gt;4. Add advanced content tags&lt;/h2&gt;
 
 &lt;p&gt;This is a more advanced undertaking. See the separate tutorial &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/tagging-people-and-places-instructions/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Polishing TEI instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/</guid>
+      <description>
+
+&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;
+
+&lt;p&gt;This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-get-the-page-hierarchy-right&#34;&gt;1. Get the page hierarchy right&lt;/h2&gt;
+
+&lt;p&gt;The best way to get a quick idea of your file&amp;rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/page-div-outline.png&#34; alt=&#34;page-div-outline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All other &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;s should be &lt;em&gt;inside&lt;/em&gt; the page &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; in which they appear. If you do not have everything inside pages, your outline will look messy:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/page-div-outline-messy.png&#34; alt=&#34;page-div-outline-messy&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The solution is to drag everything into its proper page.&lt;/p&gt;
+
+&lt;p&gt;Another problem that arises is failing to close divs or pages. You&amp;rsquo;ll know you have this problem if the end of your file looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/unclosed-divs.png&#34; alt=&#34;unclosed-divs&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;2-get-the-breaks-right&#34;&gt;2. Get the breaks right&lt;/h2&gt;
+
+&lt;p&gt;There are three types of &amp;ldquo;breaks&amp;rdquo; in the digital &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Two of them are very straightforward to work with:&lt;/p&gt;
+
+&lt;h3 id=&#34;a-line-breaks&#34;&gt;a. Line breaks&lt;/h3&gt;
+
+&lt;p&gt;You will have little need for line breaks, which are coded &lt;code&gt;&amp;lt;lb/&amp;gt;&lt;/code&gt;. For the most part, line breaks are indicated with paragraph tags. Sometimes, however (in adverts, for instance), you may find it useful or necessary to use a &lt;code&gt;&amp;lt;lb/&amp;gt;&lt;/code&gt; instead of &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;b-page-breaks&#34;&gt;b. Page breaks&lt;/h3&gt;
+
+&lt;p&gt;Page breaks (&lt;code&gt;&amp;lt;pb n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code&gt;) are currently used in the digital &lt;em&gt;Egyptian Gazette&lt;/em&gt;, but they are redundant, because every page is contained in &lt;code&gt;&amp;lt;div type=&amp;quot;page&amp;quot; n=&amp;quot;?&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;&lt;/code&gt; tags. In both cases, the &lt;code&gt;n=&amp;quot;?&amp;quot;&lt;/code&gt; attribute records the page number.&lt;/p&gt;
+
+&lt;p&gt;Please use both divs and breaks to indicate pages. TEI&amp;rsquo;s rules for periodicals are still in development, and we want our resource to be flexible to more than one approach. Note that the page break tag comes &lt;em&gt;before&lt;/em&gt; the page &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; itself; the arrangement outlined in the first page hierarchy image above is correct.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-column-breaks&#34;&gt;3. Column breaks&lt;/h2&gt;
+
+&lt;p&gt;Column breaks can be hard to work out, not least because they are not well implemented in the TEI specification. In this project, we use three different tags to describe the columns:&lt;/p&gt;
+
+&lt;h3 id=&#34;a-cb-n&#34;&gt;a. &lt;code&gt;&amp;lt;cb n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;This tag indicates the start of a new column. Use it at the beginning of every page, and again each time the text stops at the bottom of the page and jumps to the top of another column. Use the &lt;code&gt;n=&lt;/code&gt; attribute to indicate which column is beginning.&lt;/p&gt;
+
+&lt;p&gt;This is straightforward on a typical page 3, which contains six even-sized columns running from the top to the bottom of the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-6-cbs-p-3.png&#34; alt=&#34;cols-example-6-cbs-p-3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do not make each column into its own &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;. Column breaks often coincide with the start of a new &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, but they have a distinct role. They indicate the layout of the paper, not its content. &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, on the other hand, is used to encode articles and sections of the paper with their own headline and content. A &lt;code&gt;&amp;lt;cb/&amp;gt;&lt;/code&gt; can even be dropped in the middle of a paragraph, as we see with the column break at the start of column 5 in the image above.&lt;/p&gt;
+
+&lt;h3 id=&#34;b-cols-n&#34;&gt;b. &lt;code&gt;&amp;lt;cols n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;This tag indicates how many evenly-sized columns the page is divided into. Use it only when the width of columns change. Below the nameplate on page 1, for example, we use a &lt;code&gt;&amp;lt;cols n=&amp;quot;3&amp;quot;/&amp;gt;&lt;/code&gt; tag to show that the page is divided into three equal columns. We insert this tag before we show the start of the first column using &lt;code&gt;&amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Page 3 is usually divided into six equal columns. We can indicate this using &lt;code&gt;&amp;lt;cols n=&amp;quot;6&amp;quot;/&amp;gt;&lt;/code&gt;. Again, this tag comes before the first column break (as indicated in the image above).&lt;/p&gt;
+
+&lt;p&gt;Things are more complicated on page 2, which often contains a mix of single- and double-width columns. Remember that single-width columns are indicated with &lt;code&gt;&amp;lt;cols n=&amp;quot;6&amp;quot;/&amp;gt;&lt;/code&gt;, because the page can contain six of them. Double-width colums are indicated with &lt;code&gt;&amp;lt;cols n=&amp;quot;3&amp;quot;/&amp;gt;&lt;/code&gt;, because the page can contain only three of them. The rare triple-width column would be marked with &lt;code&gt;&amp;lt;cols n=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is an example of a page 2, with its layout blocked in colored columns:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-p-2-layout.png&#34; alt=&#34;cols-example-p-2-layout&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The page starts with a double-width column (A), which splits into two single-width columns (A &amp;amp; B) partway down. The middle of the page contains another double-width column &amp;copy; that splits into single-width columns (C &amp;amp; D). The right-hand side of the page contains two full-length single-width columns (E &amp;amp; F).&lt;/p&gt;
+
+&lt;p&gt;We encode the columns on this page like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-p-2-layout-xml.png&#34; alt=&#34;cols-example-p-2-layout-xml&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;c-colspan-n&#34;&gt;c. &lt;code&gt;&amp;lt;colSpan n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;This tag is used for items that are wider than a single column and are located in a spot where the page is not cannot be divided into even-sized columns using &lt;code&gt;&amp;lt;cols/&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
