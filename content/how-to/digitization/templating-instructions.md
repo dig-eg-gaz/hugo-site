@@ -8,9 +8,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 3
+    weight: 30
 
-weight: 3
+weight: 30
 ---
 ## Objectives
 

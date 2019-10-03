@@ -8,9 +8,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 1
+    weight: 10
 
-weight: 1
+weight: 10
 ---
 
 ## Objective
@@ -29,13 +29,13 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 3. Now you are ready to save it as an image file. Under the Scan/Print tab, change the scan resolution to 600dpi. Press "Scan to Drive #1." Name your file following the standard dating format plus page number plus a suffix for the top left hand corner (YYYY-MM-DD-p1a). Choose file type jpg. Then proceed to scan the bottom left hand corner (p1b), the top right (p1c), and the bottom right (p1d).
 
 ## 3. Stitch the quarters
-4. Stitch the four quarters into a single high-resolution file using the [Microsoft Image Composite Editor](http://research.microsoft.com/en-us/um/redmond/projects/ice/). The program is loaded on all of the scanning computers at Strozier. If you use a Windows computer, it is free to download for your own computer. When you open the program, click "New Panorama," import the four quarter images you just produced, click "Stitch," then click "Export." Choose image quality "superb," and save the file with the name "YYYY-MM-DD-p1.jpg". This is the file that you will use for subsequent work--save it to your hard drive.
-4. Go ahead and do the same for all the pages of the issue. **Note:** You may find that certain pages (often page 1) are doubled on the microfilm. When this is the case, you only need scan one version of the doubled page.
+1. Stitch the four quarters into a single high-resolution file using the [Microsoft Image Composite Editor](http://research.microsoft.com/en-us/um/redmond/projects/ice/). The program is loaded on all of the scanning computers at Strozier. If you use a Windows computer, it is free to download for your own computer. When you open the program, click "New Panorama," import the four quarter images you just produced, click "Stitch," then click "Export." Choose image quality "superb," and save the file with the name "YYYY-MM-DD-p1.jpg". This is the file that you will use for subsequent work--save it to your hard drive.
+2. Go ahead and do the same for all the pages of the issue. **Note:** You may find that certain pages (often page 1) are doubled on the microfilm. When this is the case, you only need scan one version of the doubled page.
 
 ## 4. Save your files
-5. Find the stitched image files you've created on the computer's hard drive, and copy them to a USB key, save them to Dropbox, or save them some other way. Do not simply leave them on the microfilm computer. You do not need to save the quarter page images.
-6. Return the microfilm to the checkout desk--your classmates will need to find it.
-7. Once you are satisfied with your images, upload them directly to the appropriate subfolder within the [page-images repository](https://github.com/dig-eg-gaz/page-images) repository on GitHub. There are four subfolders (one for each quarter of the year). Make doubly sure *before you upload* that your images are named exactly according to this format: `YYYY-MM-DD-p1.jpg` (substitute .png or .pdf if using those format).
+1. Find the stitched image files you've created on the computer's hard drive, and copy them to a USB key, save them to Dropbox, or save them some other way. Do not simply leave them on the microfilm computer. You do not need to save the quarter page images.
+2. Return the microfilm to the checkout desk--your classmates will need to find it.
+3. Once you are satisfied with your images, upload them directly to the appropriate subfolder within the [page-images repository](https://github.com/dig-eg-gaz/page-images) repository on GitHub. There are many subfolders (one for each quarter of each year). Make doubly sure before *before you upload* that your images are named exactly according to this format: `YYYY-MM-DD-p1.jpg`.
 
 ### Troubleshooting
 Sometimes the microfilm hardware fails to function. When this is the case, follow these instructions (courtesy Malcolm Shackelford of FSU libraries): Those MF machines are prone to fits, but the cure is nearly always to

@@ -8,9 +8,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 11
+    weight: 110
 
-weight: 11
+weight: 110
 ---
 Regular expressions (regex) is a very useful means of working with serial data which repeats similar information using similar formats.
 

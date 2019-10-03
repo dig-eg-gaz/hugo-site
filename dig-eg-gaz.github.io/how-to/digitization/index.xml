@@ -53,7 +53,7 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 &lt;ol&gt;
 &lt;li&gt;Find the stitched image files you&amp;rsquo;ve created on the computer&amp;rsquo;s hard drive, and copy them to a USB key, save them to Dropbox, or save them some other way. Do not simply leave them on the microfilm computer. You do not need to save the quarter page images.&lt;/li&gt;
 &lt;li&gt;Return the microfilm to the checkout desk&amp;ndash;your classmates will need to find it.&lt;/li&gt;
-&lt;li&gt;Once you are satisfied with your images, upload them directly to the appropriate subfolder within the &lt;a href=&#34;https://github.com/dig-eg-gaz/page-images&#34; target=&#34;_blank&#34;&gt;page-images repository&lt;/a&gt; repository on GitHub. There are four subfolders (one for each quarter of the year). Make doubly sure &lt;em&gt;before you upload&lt;/em&gt; that your images are named exactly according to this format: &lt;code&gt;YYYY-MM-DD-p1.jpg&lt;/code&gt; (substitute .png or .pdf if using those format).&lt;/li&gt;
+&lt;li&gt;Once you are satisfied with your images, upload them directly to the appropriate subfolder within the &lt;a href=&#34;https://github.com/dig-eg-gaz/page-images&#34; target=&#34;_blank&#34;&gt;page-images repository&lt;/a&gt; repository on GitHub. There are many subfolders (one for each quarter of each year). Make doubly sure before &lt;em&gt;before you upload&lt;/em&gt; that your images are named exactly according to this format: &lt;code&gt;YYYY-MM-DD-p1.jpg&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
@@ -599,7 +599,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-p-2-layout.png&#34; alt=&#34;cols-example-p-2-layout&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The page starts with a double-width column (A), which splits into two single-width columns (A &amp;amp; B) partway down. The middle of the page contains another double-width column &amp;copy; that splits into single-width columns (C &amp;amp; D). The right-hand side of the page contains two full-length single-width columns (E &amp;amp; F).&lt;/p&gt;
+&lt;p&gt;The page starts with a double-width column (A), which splits into two single-width columns (A &amp;amp; B) partway down. The middle of the page contains another double-width column ( C ) that splits into single-width columns (C &amp;amp; D). The right-hand side of the page contains two full-length single-width columns (E &amp;amp; F).&lt;/p&gt;
 
 &lt;p&gt;We encode the columns on this page like this:&lt;/p&gt;
 
@@ -611,7 +611,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;p&gt;For example, the &amp;ldquo;Nile Gauge Reading&amp;rdquo; item at the bottom of this page should be preceded by a &lt;code&gt;&amp;lt;colSpan n=&amp;quot;4&amp;quot;/)&lt;/code&gt; tag.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;cols-example-colspan-4.png&#34; alt=&#34;cols-example-colspan-4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cols-example-colspan-4.png&#34; alt=&#34;cols-example-colspan-4&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/microfilm-instructions/</loc>
-    <lastmod>2016-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/contents/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
   </url>
@@ -53,18 +48,8 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/</loc>
-    <lastmod>2016-09-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/contents/images/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/</loc>
-    <lastmod>2019-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -92,23 +77,8 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/</loc>
-    <lastmod>2016-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/contents/templates/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -122,11 +92,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/resources/roadmap/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
@@ -137,13 +102,48 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/</loc>
+    <loc>https://dig-eg-gaz.github.io/resources/unicode/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/microfilm-instructions/</loc>
     <lastmod>2016-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/resources/unicode/</loc>
-    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/</loc>
+    <lastmod>2016-09-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/</loc>
+    <lastmod>2019-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/</loc>
+    <lastmod>2016-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/content-markup-instructions/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/digitization/text-editor-instructions/</loc>
+    <lastmod>2016-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>

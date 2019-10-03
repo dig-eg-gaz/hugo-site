@@ -8,9 +8,9 @@ draft: false
 menu:
   digitization:
     parent: Digitization
-    weight: 7
+    weight: 70
 
-weight: 7
+weight: 70
 ---
 
 ## Objective
@@ -72,7 +72,7 @@ Here is an example of a page 2, with its layout blocked in colored columns:
 
 ![cols-example-p-2-layout](/img/cols-example-p-2-layout.png)
 
-The page starts with a double-width column (A), which splits into two single-width columns (A & B) partway down. The middle of the page contains another double-width column (C) that splits into single-width columns (C & D). The right-hand side of the page contains two full-length single-width columns (E & F).
+The page starts with a double-width column (A), which splits into two single-width columns (A & B) partway down. The middle of the page contains another double-width column ( C ) that splits into single-width columns (C & D). The right-hand side of the page contains two full-length single-width columns (E & F).
 
 We encode the columns on this page like this:
 
@@ -83,4 +83,4 @@ This tag is used for items that are wider than a single column and are located i
 
 For example, the "Nile Gauge Reading" item at the bottom of this page should be preceded by a `<colSpan n="4"/)` tag.
 
-![cols-example-colspan-4](cols-example-colspan-4.png)
+![cols-example-colspan-4](/img/cols-example-colspan-4.png)
