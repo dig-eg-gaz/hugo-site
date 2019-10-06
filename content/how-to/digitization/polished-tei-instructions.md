@@ -79,7 +79,7 @@ We encode the columns on this page like this:
 ![cols-example-p-2-layout-xml](/img/cols-example-p-2-layout-xml.png)
 
 ### c. `<colSpan n="?"/>` 
-This tag is used for items that are wider than a single column and are located in a spot where the page is not cannot be divided into even-sized columns using `<cols/>`.
+You will rarely need to use this tag. It is only used for items that are wider than a single column located where the page cannot be divided into even-sized columns using `<cols/>`.
 
 For example, the "Nile Gauge Reading" item at the bottom of this page should be preceded by a `<colSpan n="4"/)` tag.
 

@@ -607,7 +607,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;h3 id=&#34;c-colspan-n&#34;&gt;c. &lt;code&gt;&amp;lt;colSpan n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/h3&gt;
 
-&lt;p&gt;This tag is used for items that are wider than a single column and are located in a spot where the page is not cannot be divided into even-sized columns using &lt;code&gt;&amp;lt;cols/&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You will rarely need to use this tag. It is only used for items that are wider than a single column located where the page cannot be divided into even-sized columns using &lt;code&gt;&amp;lt;cols/&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;For example, the &amp;ldquo;Nile Gauge Reading&amp;rdquo; item at the bottom of this page should be preceded by a &lt;code&gt;&amp;lt;colSpan n=&amp;quot;4&amp;quot;/)&lt;/code&gt; tag.&lt;/p&gt;
 
