@@ -28,7 +28,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
 3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
 ---|---|---|---|---|---|---
-9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|45||
+9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48||
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|||
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||
@@ -51,7 +51,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||
 39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/KwNick305)|||
 *40|September 30, 1907|October 5, 1907|[Adam Crum](https://github.com/)|||
-41|October 7, 1907|October 12, 1907|[Milan Amar](https://github.com/milanamar)|||
 ---|---|---|---|---|---|---
 42|October 14, 1907|October 19, 1907|[Peyton Smith](https://github.com/19peytonsmith)|||
 43|October 21, 1907|October 26, 1907|[Emily Seguin](https://github.com/emily-seguin)|||
@@ -105,8 +104,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 40|October 1, 1906|October 6, 1906|[Will Hanley](https://github.com/whanley)|20|3|
 42|October 15, 1906|October 20, 1906|[Kailen Chapple](https://github.com/wavyncurly)|14|3|
 44|October 29, 1906|November 3, 1906|[Gillian D'Onofrio](https://github.com/gillidonof)||4|ongoing
--|November 19, 1906|||in pdf|
--|December 20, 1906|||in pdf|
 -|February 4, 1906|||page 1 split|
 13|March 25, 1907|March 30, 1907|[Greyson Porter](https://github.com/gporter1)|15?|2|1907-03-29 missing? ongoing
 14|April 1, 1907|April 6, 1907|[Will Hanley](https://github.com/whanley)|20|3|
@@ -125,6 +122,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 49|December 3, 1906|December 8, 1906|unassigned|||
+41|October 7, 1907|October 12, 1907|unassigned|||
 48|November 25, 1907|November 30, 1907|unassigned|||
 
 ## Previous courses
