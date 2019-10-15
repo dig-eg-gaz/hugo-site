@@ -20,6 +20,27 @@ This lesson explains how to turn images of text into editable files. We will use
 You will not need to use OCR on text that has been [templated](/how-to/digitization/templating-instructions/). 
 {{% /alert %}}
 
+There are many OCR options. Each has strengths and weaknesses. I'll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week. Some issues are clearer than others, both in terms of the printing of the original newspaper itself and its transfer to microfilm. The quality of type varies, as does the white balance and background noise in the microfilm images. Always start with the clearest, straightest images you can produce.
+
+# Option A: Tesseract
+
+**Strengths:**
+
+- lots of configuration options
+- free, open-source program that can be used without limit
+- multi-language support
+- continually updated and well-supported
+- allows scanning of full page in one go
+- plain text output can be cleaned easily
+
+**Weaknesses:**
+
+- no graphic user interface (GUI) 
+- plain text output must be converted to XML
+- can struggle with columns
+- uneven quality
+- no in-program correction interface
+
 ## 1. Set up Tesseract
 [Tesseract](https://github.com/tesseract-ocr/tesseract) is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications. 
 
@@ -120,6 +141,106 @@ Proceed to copy the second column in your text file. In Oxygen, add an `<cb n="2
 
 You should have a green box, indicating a well-formed document. If not, correct any errors you find.
 
+# Option B: Google Drive
+
+**Strengths:**
+
+- free program that can be used without limit
+- multi-language support
+- continually updated and well-supported
+- good OCR results
+- handles line breaks and paragraph breaks well
+
+**Weaknesses:**
+
+- requires images to be cropped into single columns
+- cumbersome upload process
+- output can be over-formatted when pasted into author mode
+- no configuration options
+
+## 1. Crop your page images into single columns
+
+It can be helpful to embed the column number into the image name. For example, you could call the image of column 1 of page 5 of the July 8, 1905 issue `1905-07-08-p5-c1.jpg`.
+
+## 2. Upload the images to Google Drive
+
+## 3. Convert the image file to Google Docs
+
+Right click on the image file within Google Drive, and open it with Google Docs.
+
+![open-with-google-docs](/img/open-with-google-docs.png)
+
+Wait a moment, and a new file will appear containing your image and its text. You may want to correct any spelling mistakes that Google Docs identifies at this stage.
+
+## 4. Paste results into Oxygen's author mode
+
+Whenever OCR produces formatted text (rather than plain text such as tesseract gives us), it is best to paste it using Oxygen XML Editor's author mode (choose it from the text-grid-author buttons near the bottom of your screen). This means that paragraphs and other formatting will carry over into XML. When you switch back to text mode you will see them already marked up. 
+
+Pasting into author mode can create some odd `div` issues. Sometimes it is easiest to create an empty div in text mode, put your cursor inside it, then switch to author mode and paste the OCRed material. Normally it will appear in the right spot. Don't neglect to go back to text mode and make sure everything looks okay.
+
+When you are pasting column by column from Google Drive conversion, it can be useful to use the `<cb n="?"/>` tags to keep track of your place in the page.
+
+# Option C: ABBY Finereader
+
+If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.
+
+**Strengths:**
+
+- multi-language support
+- well-supported
+- allows scanning of full page in one go
+- excellent in-program correction interface (Windows only)
+
+**Weaknesses:**
+
+- requires correcting text boxes to recognize columns correctly
+- free trial is limited, and program is expensive
+- OSX version is inferior to Windows version
+
+## If you are using Windows:
+1. Download [AABBY Finereader](http://trial.abbyyusa.com/download-fr12pro). The 30-day, 100-page free trial that they offer *should* be enough time to complete your OCR work for this class. If you don't complete it on time, you have the option to buy the software for about $100.
+2. Open the program, then open the image file of the page you wish to read. When you open the document, Finereader will automatically read it. Let it do its work.
+3. Once the initial read is complete, you'll need to make sure that it's defined the areas correctly. The areas are the green-bordered boxes of text. Often the machine will skip a word, or draw an extra few words in from a different column. You need to have the whole text read in the proper order, so you'll want to reshape these boxes so that they cover the text correctly. I've sometimes found that it's best just to drag one box so that it covers a whole column. You can delete the boxes covering any advertisements or other templated material--you'll copy and paste templates rather than OCR those items.
+4. Once the boxes cover all of the text, you need to make sure that they're in the right sequence. Click the tool on the left hand menu with a blue down arrow and a red up arrow. This is the tool to reorder the areas of text.
+4. It is possible that your page contains text in French. If this is the case, enclose that text in its own area and set the language (in the "Area Properties" tab at the bottom of the screen) to French.
+5. Once the sequence of areas is correct, click the "read" icon again. The program will reread the text in the order you've indicated.
+6. Click on the "verification" icon, and proceed to correct the text. When verifying the text, remember that you are only correcting the automatic reading. *Do not* correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.
+7. Once you've verified some or all of the text, save your verification work. (If you close Finereader without saving the verification separately, you will lose your work). To do this, use the "Save" icon in the middle top of the page. Choose "Plain text" or "Word Document" as the document layout (as you like), and click "Save." Name the document following the standard format of YYYY-MM-DD-p#. If you click "Format options," and check "Use blank line as paragraph separator," it will make your work easier later on. You can now close Finereader without losing your verification work.
+8. Once you've finished work on the page, upload it to your personal GitHub repository.
+
+## If you are using Mac:
+This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can [download here](https://trial.abbyyusa.com/download-frpro-mac-free-trial). The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you've downloaded, don't install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.
+
+To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click "Export." Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.
+
+## If your trial license runs out:
+The free version of [Finereader Online](finereaderonline.com) allows you to OCR 10 pages per month. This should help if you don't manage to finish all of your OCR in time. Note that there is no verification tool in the online version.
+
+# Option D: Cisdem (OSX only)
+
+I've also had good results with [Cisdem OCR Wizard](https://www.cisdem.com/ocr-wizard-mac.html). I'm not sure how long their free trial lasts, but it's worth a try, and can also be purchased for $60. Follow the directions below.
+
+**Strengths:**
+
+- multi-language support
+- allows scanning of full page in one go
+
+**Weaknesses:**
+
+- requires correcting text boxes to recognize columns correctly
+- free trial is limited, and program is expensive
+- OSX only
+
+## Using Cisdem
+1.  Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press "recognize". Let it do its work.
+3. Cisdem seems to recognize newspaper columns quite well, and you can probably simply proceed to OCR once the recognition is finished and correct by hand later. But if you notice egregious errors, reshape the green boxes.
+5. Select .text or .docx as the output format, and click export. Wait. When you are offered the option to save the document, name it following the standard format of YYYY-MM-DD-p#.
+6. Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. *Do not* correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.
+8. Once you've finished work on the page, save it--soon we'll upload it to your xml issue file.
+
+(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of [Readiris Pro](http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&utm_medium=Popup&utm_campaign=Popup-trial). [PDF OCR X Community Edition](http://solutions.weblite.ca/pdfocrx/download_mac) also didn't do a great job, but it's free).
+
+
 # FAQs
 
 ## How many errors should I expect to find?
@@ -133,37 +254,3 @@ Preserve all accents (e.g. in words like début). You will need to enter accents
 ## What if I can't read the text?
 
 Wrap it in an `<unclear>` tag, and maybe add a `<!-- comment -->` explaining what's going on.
-
-## What if I want a GUI OCR program?
-If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.
-
-### If you are using Windows:
-1. Download [AABBY Finereader](http://trial.abbyyusa.com/download-fr12pro). The 30-day, 100-page free trial that they offer *should* be enough time to complete your OCR work for this class. If you don't complete it on time, you have the option to buy the software for about $100.
-2. Open the program, then open the image file of the page you wish to read. When you open the document, Finereader will automatically read it. Let it do its work.
-3. Once the initial read is complete, you'll need to make sure that it's defined the areas correctly. The areas are the green-bordered boxes of text. Often the machine will skip a word, or draw an extra few words in from a different column. You need to have the whole text read in the proper order, so you'll want to reshape these boxes so that they cover the text correctly. I've sometimes found that it's best just to drag one box so that it covers a whole column. You can delete the boxes covering any advertisements or other templated material--you'll copy and paste templates rather than OCR those items.
-4. Once the boxes cover all of the text, you need to make sure that they're in the right sequence. Click the tool on the left hand menu with a blue down arrow and a red up arrow. This is the tool to reorder the areas of text.
-4. It is possible that your page contains text in French. If this is the case, enclose that text in its own area and set the language (in the "Area Properties" tab at the bottom of the screen) to French.
-5. Once the sequence of areas is correct, click the "read" icon again. The program will reread the text in the order you've indicated.
-6. Click on the "verification" icon, and proceed to correct the text. When verifying the text, remember that you are only correcting the automatic reading. *Do not* correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.
-7. Once you've verified some or all of the text, save your verification work. (If you close Finereader without saving the verification separately, you will lose your work). To do this, use the "Save" icon in the middle top of the page. Choose "Plain text" or "Word Document" as the document layout (as you like), and click "Save." Name the document following the standard format of YYYY-MM-DD-p#. If you click "Format options," and check "Use blank line as paragraph separator," it will make your work easier later on. You can now close Finereader without losing your verification work.
-8. Once you've finished work on the page, upload it to your personal GitHub repository.
-
-### If you are using Mac:
-This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can [download here](https://trial.abbyyusa.com/download-frpro-mac-free-trial). The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you've downloaded, don't install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.
-
-To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click "Export." Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.
-
-### If your trial license runs out:
-The free version of [Finereader Online](finereaderonline.com) allows you to OCR 10 pages per month. This should help if you don't manage to finish all of your OCR in time. Note that there is no verification tool in the online version.
-
-## Are there other OCR programs available for Mac?
-I've also had good results with [Cisdem OCR Wizard](https://www.cisdem.com/ocr-wizard-mac.html). I'm not sure how long their free trial lasts, but it's worth a try, and can also be purchased for $60. Follow the directions below.
-
-(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of [Readiris Pro](http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&utm_medium=Popup&utm_campaign=Popup-trial). [PDF OCR X Community Edition](http://solutions.weblite.ca/pdfocrx/download_mac) also didn't do a great job, but it's free).
-
-### Using Cisdem
-1.  Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press "recognize". Let it do its work.
-3. Cisdem seems to recognize newspaper columns quite well, and you can probably simply proceed to OCR once the recognition is finished and correct by hand later. But if you notice egregious errors, reshape the green boxes.
-5. Select .text or .docx as the output format, and click export. Wait. When you are offered the option to save the document, name it following the standard format of YYYY-MM-DD-p#.
-6. Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. *Do not* correct any errors you might find in the newspaper itself--not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.
-8. Once you've finished work on the page, save it--soon we'll upload it to your xml issue file.

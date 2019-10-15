@@ -292,6 +292,31 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;There are many OCR options. Each has strengths and weaknesses. I&amp;rsquo;ll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week. Some issues are clearer than others, both in terms of the printing of the original newspaper itself and its transfer to microfilm. The quality of type varies, as does the white balance and background noise in the microfilm images. Always start with the clearest, straightest images you can produce.&lt;/p&gt;
+
+&lt;h1 id=&#34;option-a-tesseract&#34;&gt;Option A: Tesseract&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Strengths:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;lots of configuration options&lt;/li&gt;
+&lt;li&gt;free, open-source program that can be used without limit&lt;/li&gt;
+&lt;li&gt;multi-language support&lt;/li&gt;
+&lt;li&gt;continually updated and well-supported&lt;/li&gt;
+&lt;li&gt;allows scanning of full page in one go&lt;/li&gt;
+&lt;li&gt;plain text output can be cleaned easily&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Weaknesses:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;no graphic user interface (GUI)&lt;/li&gt;
+&lt;li&gt;plain text output must be converted to XML&lt;/li&gt;
+&lt;li&gt;can struggle with columns&lt;/li&gt;
+&lt;li&gt;uneven quality&lt;/li&gt;
+&lt;li&gt;no in-program correction interface&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;1-set-up-tesseract&#34;&gt;1. Set up Tesseract&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/tesseract-ocr/tesseract&#34; target=&#34;_blank&#34;&gt;Tesseract&lt;/a&gt; is an open-source OCR program supported by Google. It is the engine behind text recognition in Google docs, Google image search, and many other Orwellian applications.&lt;/p&gt;
@@ -414,25 +439,71 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 
 &lt;p&gt;You should have a green box, indicating a well-formed document. If not, correct any errors you find.&lt;/p&gt;
 
-&lt;h1 id=&#34;faqs&#34;&gt;FAQs&lt;/h1&gt;
+&lt;h1 id=&#34;option-b-google-drive&#34;&gt;Option B: Google Drive&lt;/h1&gt;
 
-&lt;h2 id=&#34;how-many-errors-should-i-expect-to-find&#34;&gt;How many errors should I expect to find?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Strengths:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you find a very large number of misread words, you might consider re-scanning the page at a higher resolution or a better focus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;free program that can be used without limit&lt;/li&gt;
+&lt;li&gt;multi-language support&lt;/li&gt;
+&lt;li&gt;continually updated and well-supported&lt;/li&gt;
+&lt;li&gt;good OCR results&lt;/li&gt;
+&lt;li&gt;handles line breaks and paragraph breaks well&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;how-do-i-deal-with-accented-letters&#34;&gt;How do I deal with accented letters?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Weaknesses:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for &lt;a href=&#34;https://kb.iu.edu/d/aihp&#34; target=&#34;_blank&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;http://symbolcodes.tlt.psu.edu/accents/codemac.html&#34; target=&#34;_blank&#34;&gt;Mac&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;requires images to be cropped into single columns&lt;/li&gt;
+&lt;li&gt;cumbersome upload process&lt;/li&gt;
+&lt;li&gt;output can be over-formatted when pasted into author mode&lt;/li&gt;
+&lt;li&gt;no configuration options&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;what-if-i-can-t-read-the-text&#34;&gt;What if I can&amp;rsquo;t read the text?&lt;/h2&gt;
+&lt;h2 id=&#34;1-crop-your-page-images-into-single-columns&#34;&gt;1. Crop your page images into single columns&lt;/h2&gt;
 
-&lt;p&gt;Wrap it in an &lt;code&gt;&amp;lt;unclear&amp;gt;&lt;/code&gt; tag, and maybe add a &lt;code&gt;&amp;lt;!-- comment --&amp;gt;&lt;/code&gt; explaining what&amp;rsquo;s going on.&lt;/p&gt;
+&lt;p&gt;It can be helpful to embed the column number into the image name. For example, you could call the image of column 1 of page 5 of the July 8, 1905 issue &lt;code&gt;1905-07-08-p5-c1.jpg&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-if-i-want-a-gui-ocr-program&#34;&gt;What if I want a GUI OCR program?&lt;/h2&gt;
+&lt;h2 id=&#34;2-upload-the-images-to-google-drive&#34;&gt;2. Upload the images to Google Drive&lt;/h2&gt;
+
+&lt;h2 id=&#34;3-convert-the-image-file-to-google-docs&#34;&gt;3. Convert the image file to Google Docs&lt;/h2&gt;
+
+&lt;p&gt;Right click on the image file within Google Drive, and open it with Google Docs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/open-with-google-docs.png&#34; alt=&#34;open-with-google-docs&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wait a moment, and a new file will appear containing your image and its text. You may want to correct any spelling mistakes that Google Docs identifies at this stage.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-paste-results-into-oxygen-s-author-mode&#34;&gt;4. Paste results into Oxygen&amp;rsquo;s author mode&lt;/h2&gt;
+
+&lt;p&gt;Whenever OCR produces formatted text (rather than plain text such as tesseract gives us), it is best to paste it using Oxygen XML Editor&amp;rsquo;s author mode (choose it from the text-grid-author buttons near the bottom of your screen). This means that paragraphs and other formatting will carry over into XML. When you switch back to text mode you will see them already marked up.&lt;/p&gt;
+
+&lt;p&gt;Pasting into author mode can create some odd &lt;code&gt;div&lt;/code&gt; issues. Sometimes it is easiest to create an empty div in text mode, put your cursor inside it, then switch to author mode and paste the OCRed material. Normally it will appear in the right spot. Don&amp;rsquo;t neglect to go back to text mode and make sure everything looks okay.&lt;/p&gt;
+
+&lt;p&gt;When you are pasting column by column from Google Drive conversion, it can be useful to use the &lt;code&gt;&amp;lt;cb n=&amp;quot;?&amp;quot;/&amp;gt;&lt;/code&gt; tags to keep track of your place in the page.&lt;/p&gt;
+
+&lt;h1 id=&#34;option-c-abby-finereader&#34;&gt;Option C: ABBY Finereader&lt;/h1&gt;
 
 &lt;p&gt;If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.&lt;/p&gt;
 
-&lt;h3 id=&#34;if-you-are-using-windows&#34;&gt;If you are using Windows:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Strengths:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;multi-language support&lt;/li&gt;
+&lt;li&gt;well-supported&lt;/li&gt;
+&lt;li&gt;allows scanning of full page in one go&lt;/li&gt;
+&lt;li&gt;excellent in-program correction interface (Windows only)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Weaknesses:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;requires correcting text boxes to recognize columns correctly&lt;/li&gt;
+&lt;li&gt;free trial is limited, and program is expensive&lt;/li&gt;
+&lt;li&gt;OSX version is inferior to Windows version&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;if-you-are-using-windows&#34;&gt;If you are using Windows:&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Download &lt;a href=&#34;http://trial.abbyyusa.com/download-fr12pro&#34; target=&#34;_blank&#34;&gt;AABBY Finereader&lt;/a&gt;. The 30-day, 100-page free trial that they offer &lt;em&gt;should&lt;/em&gt; be enough time to complete your OCR work for this class. If you don&amp;rsquo;t complete it on time, you have the option to buy the software for about $100.&lt;/li&gt;
@@ -446,23 +517,36 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 &lt;li&gt;Once you&amp;rsquo;ve finished work on the page, upload it to your personal GitHub repository.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;if-you-are-using-mac&#34;&gt;If you are using Mac:&lt;/h3&gt;
+&lt;h2 id=&#34;if-you-are-using-mac&#34;&gt;If you are using Mac:&lt;/h2&gt;
 
 &lt;p&gt;This is one of the rare instances when you may be better off using Windows. If you can get ahold of a Windows machine and use Finereader following the instructions above, that may be easier. If not, you can use the Mac version of Finereader, which you can &lt;a href=&#34;https://trial.abbyyusa.com/download-frpro-mac-free-trial&#34; target=&#34;_blank&#34;&gt;download here&lt;/a&gt;. The Mac version lacks a verification tool, but it works okay. When you open the .dmg file you&amp;rsquo;ve downloaded, don&amp;rsquo;t install the program by dragging it into your applications folder. Instead, doubleclick the Finereader icon and run the program directly. That way you may face fewer problems if your trial period runs out.&lt;/p&gt;
 
 &lt;p&gt;To use Finereader on a mac, follow steps 2 to 5 of the instructions above. Then, click &amp;ldquo;Export.&amp;rdquo; Choose a format (I recommend plain text, but .doc is also useful) and save the file. Then open that file for text correction and to transfer the text into the Oxygen XML editor.&lt;/p&gt;
 
-&lt;h3 id=&#34;if-your-trial-license-runs-out&#34;&gt;If your trial license runs out:&lt;/h3&gt;
+&lt;h2 id=&#34;if-your-trial-license-runs-out&#34;&gt;If your trial license runs out:&lt;/h2&gt;
 
 &lt;p&gt;The free version of &lt;a href=&#34;finereaderonline.com&#34; target=&#34;_blank&#34;&gt;Finereader Online&lt;/a&gt; allows you to OCR 10 pages per month. This should help if you don&amp;rsquo;t manage to finish all of your OCR in time. Note that there is no verification tool in the online version.&lt;/p&gt;
 
-&lt;h2 id=&#34;are-there-other-ocr-programs-available-for-mac&#34;&gt;Are there other OCR programs available for Mac?&lt;/h2&gt;
+&lt;h1 id=&#34;option-d-cisdem-osx-only&#34;&gt;Option D: Cisdem (OSX only)&lt;/h1&gt;
 
 &lt;p&gt;I&amp;rsquo;ve also had good results with &lt;a href=&#34;https://www.cisdem.com/ocr-wizard-mac.html&#34; target=&#34;_blank&#34;&gt;Cisdem OCR Wizard&lt;/a&gt;. I&amp;rsquo;m not sure how long their free trial lasts, but it&amp;rsquo;s worth a try, and can also be purchased for $60. Follow the directions below.&lt;/p&gt;
 
-&lt;p&gt;(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of &lt;a href=&#34;http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&amp;amp;utm_medium=Popup&amp;amp;utm_campaign=Popup-trial&#34; target=&#34;_blank&#34;&gt;Readiris Pro&lt;/a&gt;. &lt;a href=&#34;http://solutions.weblite.ca/pdfocrx/download_mac&#34; target=&#34;_blank&#34;&gt;PDF OCR X Community Edition&lt;/a&gt; also didn&amp;rsquo;t do a great job, but it&amp;rsquo;s free).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Strengths:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;using-cisdem&#34;&gt;Using Cisdem&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;multi-language support&lt;/li&gt;
+&lt;li&gt;allows scanning of full page in one go&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Weaknesses:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;requires correcting text boxes to recognize columns correctly&lt;/li&gt;
+&lt;li&gt;free trial is limited, and program is expensive&lt;/li&gt;
+&lt;li&gt;OSX only&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;using-cisdem&#34;&gt;Using Cisdem&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Open the program, then open the image file of the page you scanned (likely page 2 or 3). When you open the document, Cisdem might automatically analyze it, or it might require you to press &amp;ldquo;recognize&amp;rdquo;. Let it do its work.&lt;/li&gt;
@@ -471,6 +555,22 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 &lt;li&gt;Once you have saved the text file, open it and proceed to correct the text. It may be most convenient to have the image file on one half of the screen and your text editor on the other. When verifying the text, remember that you are only correcting the automatic reading. &lt;em&gt;Do not&lt;/em&gt; correct any errors you might find in the newspaper itself&amp;ndash;not even minor spelling errors. We want to preserve the newspaper in its original text, warts and all.&lt;/li&gt;
 &lt;li&gt;Once you&amp;rsquo;ve finished work on the page, save it&amp;ndash;soon we&amp;rsquo;ll upload it to your xml issue file.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;(There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of &lt;a href=&#34;http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&amp;amp;utm_medium=Popup&amp;amp;utm_campaign=Popup-trial&#34; target=&#34;_blank&#34;&gt;Readiris Pro&lt;/a&gt;. &lt;a href=&#34;http://solutions.weblite.ca/pdfocrx/download_mac&#34; target=&#34;_blank&#34;&gt;PDF OCR X Community Edition&lt;/a&gt; also didn&amp;rsquo;t do a great job, but it&amp;rsquo;s free).&lt;/p&gt;
+
+&lt;h1 id=&#34;faqs&#34;&gt;FAQs&lt;/h1&gt;
+
+&lt;h2 id=&#34;how-many-errors-should-i-expect-to-find&#34;&gt;How many errors should I expect to find?&lt;/h2&gt;
+
+&lt;p&gt;If you find a very large number of misread words, you might consider re-scanning the page at a higher resolution or a better focus.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-i-deal-with-accented-letters&#34;&gt;How do I deal with accented letters?&lt;/h2&gt;
+
+&lt;p&gt;Preserve all accents (e.g. in words like début). You will need to enter accents as single characters. To do so, use the extended keyboard. Here are some pointers for &lt;a href=&#34;https://kb.iu.edu/d/aihp&#34; target=&#34;_blank&#34;&gt;Windows&lt;/a&gt; and &lt;a href=&#34;http://symbolcodes.tlt.psu.edu/accents/codemac.html&#34; target=&#34;_blank&#34;&gt;Mac&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-if-i-can-t-read-the-text&#34;&gt;What if I can&amp;rsquo;t read the text?&lt;/h2&gt;
+
+&lt;p&gt;Wrap it in an &lt;code&gt;&amp;lt;unclear&amp;gt;&lt;/code&gt; tag, and maybe add a &lt;code&gt;&amp;lt;!-- comment --&amp;gt;&lt;/code&gt; explaining what&amp;rsquo;s going on.&lt;/p&gt;
 </description>
     </item>
     
