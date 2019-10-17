@@ -3,14 +3,14 @@ title: Serial question instructions
 linktitle: Serial question
 toc: true
 type: docs
-date: "2016-analysis-09-30"
+date: "2016-09-30"
 draft: false
 menu:
   course-specific:
     parent: Course specific
-    weight: 3
+    weight: 2
 
-weight: 3
+weight: 2
 ---
 Your final project is to consider a theme or question that recurs across many issues of the *Egyptian Gazette*
 

@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="As our project develops into a database, it is important for us to ensure the accuracy of our content. One important step of this revision is to check one specific element/section/div across the full run of the Digital Egyptian Gazette.
-1. Preparation Before you start revising our project, you will need to have your fork of the content repository updated. (You can do it through pull request). Download your folk of content repository trough Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all the former file you want to look at.">
+1. Preparation Before you start revising our project, you will need to have your fork of the content repository updated. (You can do this using pull requests). Download your folk of the content repository through Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all of the files you want to look at.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/course-specific/data-revision-instruction/">
@@ -113,7 +113,7 @@
   <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/course-specific/data-revision-instruction/">
   <meta property="og:title" content="Data revision instructions | Digital Egyptian Gazette">
   <meta property="og:description" content="As our project develops into a database, it is important for us to ensure the accuracy of our content. One important step of this revision is to check one specific element/section/div across the full run of the Digital Egyptian Gazette.
-1. Preparation Before you start revising our project, you will need to have your fork of the content repository updated. (You can do it through pull request). Download your folk of content repository trough Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all the former file you want to look at."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+1. Preparation Before you start revising our project, you will need to have your fork of the content repository updated. (You can do this using pull requests). Download your folk of the content repository through Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all of the files you want to look at."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -375,15 +375,15 @@
       </li>
       
       <li >
-        <a href="/how-to/course-specific/tutorials-instructions/">Tutorials</a>
-      </li>
-      
-      <li >
         <a href="/how-to/course-specific/serial-question-instructions/">Serial question</a>
       </li>
       
       <li class="active">
         <a href="/how-to/course-specific/data-revision-instruction/">Data revision</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/course-specific/tutorials-instructions/">Tutorials</a>
       </li>
       
     </ul>
@@ -407,9 +407,11 @@
 <li>
 <ul>
 <li><a href="#1-preparation">1. Preparation</a></li>
-<li><a href="#2-search-and-compare">2.  Search and Compare</a></li>
-<li><a href="#3-replace-and-update">3. Replace and Update</a></li>
-<li><a href="#4-submission">4. Submission</a></li>
+<li><a href="#2-finding-an-element-to-revise">2. Finding an Element to Revise</a></li>
+<li><a href="#3-avoiding-conflicts">3. Avoiding Conflicts</a></li>
+<li><a href="#4-tagging-problems">4. Tagging Problems</a></li>
+<li><a href="#5-fixing-proglems">5. Fixing proglems</a></li>
+<li><a href="#6-submission">6. Submission</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -433,11 +435,11 @@
 <h2 id="1-preparation">1. Preparation</h2>
 
 <p>Before you start revising our project, you will need to have your fork of the
-content repository updated. (<a href="/how-to/digitization/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">You can do it through pull request</a>). Download your folk of content repository trough Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all the former file you want to look at. Then, choose the element/section/div that you might want to revise, and find the template for it on our website.</p>
+content repository updated. (<a href="/how-to/digitization/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date">You can do this using pull requests</a>). Download your folk of the content repository through Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all of the files you want to look at.</p>
 
-<p>List that feature or element on this <a href="https://docs.google.com/spreadsheets/d/187JP5PY11SP4sV1WWrDV3aC8riTQScX7tz6WF7_l_34/edit?usp=sharing" target="_blank">spreadsheet</a>, to be sure that you are not duplicating someone else&rsquo;s work.</p>
+<p>Then, choose the element/section/div that you might want to revise, and find the template for it on our website. List that feature or element on this <a href="https://docs.google.com/spreadsheets/d/187JP5PY11SP4sV1WWrDV3aC8riTQScX7tz6WF7_l_34/edit?usp=sharing" target="_blank">spreadsheet</a>, to be sure that you are not duplicating someone else&rsquo;s work.</p>
 
-<h2 id="2-search-and-compare">2.  Search and Compare</h2>
+<h2 id="2-finding-an-element-to-revise">2. Finding an Element to Revise</h2>
 
 <p>Look at the template and think about the possible values that might appear if someone just copied the template and left it unchanged. Use the characteristics (such as type/element/feature/xml:id/scope) that defined your targeted div to do XPath queries.</p>
 
@@ -447,7 +449,11 @@ content repository updated. (<a href="/how-to/digitization/github-instructions/#
 
 <p>After you get all the possible result, compare more values in your targets and make sure that you only deal with those unchanged ones. Keep it mind that it is very possible that your result has the same value with the template by accident. Play with other values or queries to get the best result.</p>
 
-<h2 id="3-replace-and-update">3. Replace and Update</h2>
+<h2 id="3-avoiding-conflicts">3. Avoiding Conflicts</h2>
+
+<p>Because you will be changing a large number of files, we need to proceed carefully in order to avoid creating conflicts with others&rsquo; changes. We will do this in two ways. First, you will write a markdown file documenting your revision logic, findings, and process. This process must be replicable and duplicable. Obviously you may be doing some work by hand as well, but describe the general process in this way. Second, we will make all of our changes on the same day, during a class period. We will do this together to ensure that we avoid conflicts.</p>
+
+<h2 id="4-tagging-problems">4. Tagging Problems</h2>
 
 <p>Once you find a good query that allows you to locate all unchanged divs, you will need to add a comment in the very beginning of them to let others know the risk of using such bad sources. Here is an easy way to add comments to all of them instead of doing that manually.</p>
 
@@ -455,13 +461,15 @@ content repository updated. (<a href="/how-to/digitization/github-instructions/#
 
 <p>Then, you can use this query to find <code>&lt;head&gt;</code> in the div and replace it with <code>&lt;!-- incorrect value --&gt;\n&lt;head&gt;</code>. Please remember to enable the regular expression. (See details in the image).</p>
 
-<p><img src="data-revision-example.png" alt="replace example" /></p>
+<p><img src="/img/data-revision-example.png" alt="replace example" /></p>
 
-<p>After you add a comment for individual divs, you can search you comment to find these divs and update them according to the page-images on our website.</p>
+<h2 id="5-fixing-proglems">5. Fixing proglems</h2>
 
-<h2 id="4-submission">4. Submission</h2>
+<p>After you add a comment for individual divs, you can search you comment to find these divs and update them according to the page-images on our website, or using an alogrithm of your design.</p>
 
-<p>Once you finish the former process, it is time to submit those changes through your Github Desktop and open a pull request for them.</p>
+<h2 id="6-submission">6. Submission</h2>
+
+<p>TBA</p>
 
           </div>
 
@@ -481,6 +489,12 @@ content repository updated. (<a href="/how-to/digitization/github-instructions/#
     <a href="/how-to/course-specific/serial-question-instructions/" rel="next">Serial question instructions</a>
   </div>
   
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/how-to/course-specific/tutorials-instructions/" rel="prev">Tutorials instructions</a>
+  </div>
   
 </div>
 

@@ -27,7 +27,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48||
-10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|||
+10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8||
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||
 ---|---|---|---|---|---|---
@@ -56,7 +56,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|39||
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|8||image filenames incorrect
 48|November 25, 1907|November 30, 1907|unassigned|||
-49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|||
+49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40||fix filename
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40||
 51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
@@ -66,7 +66,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|17||missing Monday page 1
 3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|||
 4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
-5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|16||misnamed file
+5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|26||misnamed file
 
 ## Items lacking (previous semesters)
 

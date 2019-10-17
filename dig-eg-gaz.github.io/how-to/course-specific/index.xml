@@ -60,30 +60,9 @@
     </item>
     
     <item>
-      <title>Tutorials instructions</title>
-      <link>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</link>
-      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</guid>
-      <description>
-
-&lt;p&gt;Students wishing to write small tutorials should write in Markdown. Proceed in the same manner as you do with blog posts and analysis reports, but for this assignment fork and add your work to the &lt;a href=&#34;https://github.com/dig-eg-gaz/tutorials&#34; target=&#34;_blank&#34;&gt;tutorials repository&lt;/a&gt;. Send a pull request when you are done.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-wish-list&#34;&gt;How-to wish list&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Glossary&lt;/li&gt;
-&lt;li&gt;Github use, especially pull requests, issues, communications&lt;/li&gt;
-&lt;li&gt;the various ways of pasting text files into Oxygen&lt;/li&gt;
-&lt;li&gt;dealing with images in advertisements&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt;&lt;/strong&gt; for images.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Serial question instructions</title>
       <link>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/how-to/course-specific/serial-question-instructions/</guid>
       <description>
 
@@ -709,11 +688,11 @@ author: YourName
 &lt;h2 id=&#34;1-preparation&#34;&gt;1. Preparation&lt;/h2&gt;
 
 &lt;p&gt;Before you start revising our project, you will need to have your fork of the
-content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date&#34;&gt;You can do it through pull request&lt;/a&gt;). Download your folk of content repository trough Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all the former file you want to look at. Then, choose the element/section/div that you might want to revise, and find the template for it on our website.&lt;/p&gt;
+content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/#5-how-do-i-make-sure-that-my-content-fork-is-up-to-date&#34;&gt;You can do this using pull requests&lt;/a&gt;). Download your folk of the content repository through Github Desktop and make a project or worksheet in your Oxygen XML Editor that covers all of the files you want to look at.&lt;/p&gt;
 
-&lt;p&gt;List that feature or element on this &lt;a href=&#34;https://docs.google.com/spreadsheets/d/187JP5PY11SP4sV1WWrDV3aC8riTQScX7tz6WF7_l_34/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;spreadsheet&lt;/a&gt;, to be sure that you are not duplicating someone else&amp;rsquo;s work.&lt;/p&gt;
+&lt;p&gt;Then, choose the element/section/div that you might want to revise, and find the template for it on our website. List that feature or element on this &lt;a href=&#34;https://docs.google.com/spreadsheets/d/187JP5PY11SP4sV1WWrDV3aC8riTQScX7tz6WF7_l_34/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;spreadsheet&lt;/a&gt;, to be sure that you are not duplicating someone else&amp;rsquo;s work.&lt;/p&gt;
 
-&lt;h2 id=&#34;2-search-and-compare&#34;&gt;2.  Search and Compare&lt;/h2&gt;
+&lt;h2 id=&#34;2-finding-an-element-to-revise&#34;&gt;2. Finding an Element to Revise&lt;/h2&gt;
 
 &lt;p&gt;Look at the template and think about the possible values that might appear if someone just copied the template and left it unchanged. Use the characteristics (such as type/element/feature/xml:id/scope) that defined your targeted div to do XPath queries.&lt;/p&gt;
 
@@ -723,7 +702,11 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 
 &lt;p&gt;After you get all the possible result, compare more values in your targets and make sure that you only deal with those unchanged ones. Keep it mind that it is very possible that your result has the same value with the template by accident. Play with other values or queries to get the best result.&lt;/p&gt;
 
-&lt;h2 id=&#34;3-replace-and-update&#34;&gt;3. Replace and Update&lt;/h2&gt;
+&lt;h2 id=&#34;3-avoiding-conflicts&#34;&gt;3. Avoiding Conflicts&lt;/h2&gt;
+
+&lt;p&gt;Because you will be changing a large number of files, we need to proceed carefully in order to avoid creating conflicts with others&amp;rsquo; changes. We will do this in two ways. First, you will write a markdown file documenting your revision logic, findings, and process. This process must be replicable and duplicable. Obviously you may be doing some work by hand as well, but describe the general process in this way. Second, we will make all of our changes on the same day, during a class period. We will do this together to ensure that we avoid conflicts.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-tagging-problems&#34;&gt;4. Tagging Problems&lt;/h2&gt;
 
 &lt;p&gt;Once you find a good query that allows you to locate all unchanged divs, you will need to add a comment in the very beginning of them to let others know the risk of using such bad sources. Here is an easy way to add comments to all of them instead of doing that manually.&lt;/p&gt;
 
@@ -731,13 +714,36 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 
 &lt;p&gt;Then, you can use this query to find &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; in the div and replace it with &lt;code&gt;&amp;lt;!-- incorrect value --&amp;gt;\n&amp;lt;head&amp;gt;&lt;/code&gt;. Please remember to enable the regular expression. (See details in the image).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;data-revision-example.png&#34; alt=&#34;replace example&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/data-revision-example.png&#34; alt=&#34;replace example&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;After you add a comment for individual divs, you can search you comment to find these divs and update them according to the page-images on our website.&lt;/p&gt;
+&lt;h2 id=&#34;5-fixing-proglems&#34;&gt;5. Fixing proglems&lt;/h2&gt;
 
-&lt;h2 id=&#34;4-submission&#34;&gt;4. Submission&lt;/h2&gt;
+&lt;p&gt;After you add a comment for individual divs, you can search you comment to find these divs and update them according to the page-images on our website, or using an alogrithm of your design.&lt;/p&gt;
 
-&lt;p&gt;Once you finish the former process, it is time to submit those changes through your Github Desktop and open a pull request for them.&lt;/p&gt;
+&lt;h2 id=&#34;6-submission&#34;&gt;6. Submission&lt;/h2&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorials instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/tutorials-instructions/</guid>
+      <description>
+
+&lt;p&gt;Students wishing to write small tutorials should write in Markdown. Proceed in the same manner as you do with blog posts and analysis reports, but for this assignment fork and add your work to the &lt;a href=&#34;https://github.com/dig-eg-gaz/tutorials&#34; target=&#34;_blank&#34;&gt;tutorials repository&lt;/a&gt;. Send a pull request when you are done.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-wish-list&#34;&gt;How-to wish list&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Glossary&lt;/li&gt;
+&lt;li&gt;Github use, especially pull requests, issues, communications&lt;/li&gt;
+&lt;li&gt;the various ways of pasting text files into Oxygen&lt;/li&gt;
+&lt;li&gt;dealing with images in advertisements&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt;&lt;/strong&gt; for images.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

@@ -1701,7 +1701,7 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ## tas01 T. A. Spartali & Co.
  | 
 ---|---
-![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tas01-T-A-Spartali-Co_tn.jpg?raw=true)|xml text: [tas01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/as01.xml)<br><br>Date: 1905-07-13<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tas01-T-A-Spartali-Co.png)
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tas01-T-A-Spartali-Co_tn.jpg?raw=true)|xml text: [tas01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/tas01.xml)<br><br>Date: 1905-07-13<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tas01-T-A-Spartali-Co.png)
 
 ## tas02 Carpets T. A. Spartali & Co.
  | 
