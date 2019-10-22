@@ -14972,6 +14972,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;xml:id &lt;code&gt;deg-el-tdex02&lt;/code&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/tarif-dexportation-2.xml&#34; target=&#34;_blank&#34;&gt;XML Template&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;Example: 1907-10-17&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation-2_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation-2.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-tdex02&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h1 id=&#34;stocks-shares-and-finance&#34;&gt;Stocks, Shares, and Finance&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;:&lt;/p&gt;
@@ -16779,6 +16797,42 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;bov03-bovril&#34;&gt;bov03 Bovril&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bov03_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/bov03.xml&#34; target=&#34;_blank&#34;&gt;bov03&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bov03.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;brb01-brown-boveri&#34;&gt;brb01 Brown Boveri&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/brb01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/brb01.xml&#34; target=&#34;_blank&#34;&gt;brb01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-17&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/brb01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;bsl01-berlitz-school-of-languages&#34;&gt;bsl01 Berlitz School of Languages&lt;/h2&gt;
 
 &lt;table&gt;
@@ -17031,6 +17085,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;cgc01-clayton-gas-co&#34;&gt;cgc01 Clayton Gas Co.&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cgc01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/cgc01.xml&#34; target=&#34;_blank&#34;&gt;cgc01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cgc01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;cgg01-champagne-george-goulet&#34;&gt;cgg01 Champagne George Goulet&lt;/h2&gt;
 
 &lt;table&gt;
@@ -17121,6 +17193,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;chu01-chubb-sons&#34;&gt;chu01 Chubb &amp;amp; Sons&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/chu01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/chu01.xml&#34; target=&#34;_blank&#34;&gt;chu01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/chu01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;clh01-cigares-de-la-havane&#34;&gt;clh01 Cigares de la Havane&lt;/h2&gt;
 
 &lt;table&gt;
@@ -17207,6 +17297,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cne02-comptoir-national-descompte_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/cne02.xml&#34; target=&#34;_blank&#34;&gt;cne02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cne02-comptoir-national-descompte.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;coc01-cochran-and-co-annan-limited&#34;&gt;coc01 Cochran and Co Annan Limited&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/coc01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/coc01.xml&#34; target=&#34;_blank&#34;&gt;coc01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-17&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/coc01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -18255,6 +18363,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;ess01-egyptian-salt-soda-coy-limited&#34;&gt;ess01 Egyptian Salt &amp;amp; Soda Coy. Limited&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ess01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/ess01.xml&#34; target=&#34;_blank&#34;&gt;ess01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ess01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;etc01-the-eastern-telegraph-company-limited&#34;&gt;etc01 The Eastern Telegraph Company, Limited&lt;/h2&gt;
 
 &lt;table&gt;
@@ -18377,6 +18503,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus01-Fussells-Cream_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/fus01.xml&#34; target=&#34;_blank&#34;&gt;fus01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1905-07-12&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus01-Fussells-Cream.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;fus02-fussell-s-pure-cream-milks&#34;&gt;fus02 Fussell&amp;rsquo;s Pure Cream &amp;amp; Milks&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/fus02.xml&#34; target=&#34;_blank&#34;&gt;fus02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -19011,6 +19155,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;hob04-howies-butter&#34;&gt;hob04 Howies Butter&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/hob04_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/hob04.xml&#34; target=&#34;_blank&#34;&gt;hob04&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/hob04.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;hom01-homocea&#34;&gt;hom01 Homocea&lt;/h2&gt;
 
 &lt;table&gt;
@@ -19389,6 +19551,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;jfc01-john-fowler-co-leeds-ltd&#34;&gt;jfc01 John Fowler &amp;amp; Co., (Leeds) Ltd.&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jfc01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/jfc01.xml&#34; target=&#34;_blank&#34;&gt;jfc01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jfc01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;jjb01-john-j-m-bult&#34;&gt;jjb01 John J.M. Bult&lt;/h2&gt;
 
 &lt;table&gt;
@@ -19403,6 +19583,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb01.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/jjb01.xml&#34; target=&#34;_blank&#34;&gt;jjb01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-02-06&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb01.jpg&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;jjb02-john-j-m-bult&#34;&gt;jjb02 John J.M. Bult&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/jjb02.xml&#34; target=&#34;_blank&#34;&gt;jjb02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -19749,6 +19947,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;lea02-lea-and-perrins&#34;&gt;lea02 Lea and Perrins&amp;rsquo;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lea02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lea02.xml&#34; target=&#34;_blank&#34;&gt;lea02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lea02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;lem01-lemco&#34;&gt;lem01 Lemco&lt;/h2&gt;
 
 &lt;table&gt;
@@ -19763,6 +19979,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem01-lemco_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lem01.xml&#34; target=&#34;_blank&#34;&gt;lem01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem01-lemco.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;lem02-lemco&#34;&gt;lem02 Lemco&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lem02.xml&#34; target=&#34;_blank&#34;&gt;lem02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -19983,6 +20217,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;mer01-merryweathers-universal-hand-power-pump&#34;&gt;mer01 Merryweathers&amp;rsquo; &amp;ldquo;Universal&amp;rdquo; Hand-Power Pump&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mer01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/mer01.xml&#34; target=&#34;_blank&#34;&gt;mer01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mer01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;mhl01-messrs-humphrey-s-ltd&#34;&gt;mhl01 Messrs. Humphrey&amp;rsquo;s Ltd.&lt;/h2&gt;
 
 &lt;table&gt;
@@ -20145,7 +20397,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;msp02-mclaren-steam-plouging-engines&#34;&gt;msp02 McLaren Steam Plouging Engines&lt;/h2&gt;
+&lt;h2 id=&#34;msp02-mclaren-steam-ploughing-engines&#34;&gt;msp02 McLaren Steam Ploughing Engines&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -20159,6 +20411,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/msp02.xml&#34; target=&#34;_blank&#34;&gt;msp02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-02-06&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp02.jpg&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;msp03-mclaren-steam-ploughs&#34;&gt;msp03 McLaren Steam Ploughs&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp03_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/msp03.xml&#34; target=&#34;_blank&#34;&gt;msp03&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp03.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -20285,6 +20555,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nea01-neaves_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nea01.xml&#34; target=&#34;_blank&#34;&gt;nea01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nea01-neaves.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;nes01-nestle-s-condensed-milk&#34;&gt;nes01 Nestle&amp;rsquo;s Condensed Milk&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nes01.xml&#34; target=&#34;_blank&#34;&gt;nes01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -20483,24 +20771,6 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrc01-national-residence-cairo_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nrc01.xml&#34; target=&#34;_blank&#34;&gt;nrc01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrc01-national-residence-cairo.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;nrp01-nouveau-remede-purgatif-purgen&#34;&gt;nrp01 Nouveau Remede Purgatif (Purgen)&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrp01-Nouveau-Remede-Purgatif_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nrp01.xml&#34; target=&#34;_blank&#34;&gt;nrp01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrp01-Nouveau-Remede-Purgatif.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -20757,6 +21027,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;per03-pe-ru-na&#34;&gt;per03 Pe-Ru-Na&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/per03_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/per03.xml&#34; target=&#34;_blank&#34;&gt;per03&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/per03.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;phc01-p-henderson-co-s-line&#34;&gt;phc01 P. Henderson &amp;amp; Co.&amp;rsquo;s Line.&lt;/h2&gt;
 
 &lt;table&gt;
@@ -20937,6 +21225,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;psp01-p-spicer-sons&#34;&gt;psp01 P. Spicer &amp;amp; Sons&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/psp01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/psp01.xml&#34; target=&#34;_blank&#34;&gt;psp01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/psp01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;pss01-port-said-savoy-hotel&#34;&gt;pss01 Port Said Savoy Hotel&lt;/h2&gt;
 
 &lt;table&gt;
@@ -20951,6 +21257,42 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pss01-Port-Said-Savoy-Hotel_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pss01.xml&#34; target=&#34;_blank&#34;&gt;pss01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1905-07-10&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pss01-Port-Said-Savoy-Hotel.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;pur01-nouveau-remede-purgatif-purgen&#34;&gt;pur01 Nouveau Remede Purgatif (Purgen)&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur01-Nouveau-Remede-Purgatif_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pur01.xml&#34; target=&#34;_blank&#34;&gt;pur01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur01-Nouveau-Remede-Purgatif.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;pur02-purgen&#34;&gt;pur02 Purgen&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pur02.xml&#34; target=&#34;_blank&#34;&gt;pur02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -20987,6 +21329,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pwl02-Papier-Wlinsi_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pwl02.xml&#34; target=&#34;_blank&#34;&gt;pwl02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pwl02-Papier-Wlinsi.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;rat01-ratner-safes&#34;&gt;rat01 Ratner Safes&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rat01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/rat01.xml&#34; target=&#34;_blank&#34;&gt;rat01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rat01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -21423,6 +21783,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;shc01-s-howes-co&#34;&gt;shc01 S. Howes Co.&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/shc01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/shc01.xml&#34; target=&#34;_blank&#34;&gt;shc01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/shc01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;shh01-shepheard-s-hotel&#34;&gt;shh01 Shepheard&amp;rsquo;s Hotel&lt;/h2&gt;
 
 &lt;table&gt;
@@ -21527,6 +21905,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla02-standard-life-assurance_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sla02.xml&#34; target=&#34;_blank&#34;&gt;sla02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla02-standard-life-assurance.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;sla03-standard-life-assurance-company&#34;&gt;sla03 Standard Life Assurance Company&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla03_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sla03.xml&#34; target=&#34;_blank&#34;&gt;sla03&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla03.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -21689,6 +22085,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/srg01-san-remo-grand_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/srg01.xml&#34; target=&#34;_blank&#34;&gt;srg01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/srg01-san-remo-grand.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;sso01-soft-soap&#34;&gt;sso01 Soft Soap&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sso01_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sso01.xml&#34; target=&#34;_blank&#34;&gt;sso01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sso01.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -22341,6 +22755,24 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;h2 id=&#34;wam03-sterilised-fresh-milk-walker-meimarachi&#34;&gt;wam03 Sterilised Fresh Milk (Walker &amp;amp; Meimarachi)&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wam03_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wam03.xml&#34; target=&#34;_blank&#34;&gt;wam03&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wam03.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&#34;wbl01-waterlow-bros-layton&#34;&gt;wbl01 Waterlow Bros. &amp;amp; Layton&lt;/h2&gt;
 
 &lt;table&gt;
@@ -22355,6 +22787,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl01-waterlow-bros-layton_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wbl01.xml&#34; target=&#34;_blank&#34;&gt;wbl01&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl01-waterlow-bros-layton.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;br&gt;&lt;br&gt;paste as cell in nameplate table&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;wbl02-waterlow-bros-layton&#34;&gt;wbl02 Waterlow Bros. &amp;amp; Layton&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl02_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wbl02.xml&#34; target=&#34;_blank&#34;&gt;wbl02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl02.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -22445,6 +22895,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who02-windsor-hotel_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/who02.xml&#34; target=&#34;_blank&#34;&gt;who02&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1905-07-12&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who02-windsor-hotel.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;who03-windsor-hotel&#34;&gt;who03 Windsor Hotel&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who03_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/who03.xml&#34; target=&#34;_blank&#34;&gt;who03&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who03.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -22607,6 +23075,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos03-yost_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
 &lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/yos03.xml&#34; target=&#34;_blank&#34;&gt;yos03&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 0000-00-00&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos03-yost.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;yos04-yost&#34;&gt;yos04 Yost&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos04_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;xml text: &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/yos04.xml&#34; target=&#34;_blank&#34;&gt;yos04&lt;/a&gt;&lt;br&gt;&lt;br&gt;Date: 1907-10-16&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos04.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

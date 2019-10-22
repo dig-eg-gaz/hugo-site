@@ -191,6 +191,10 @@ xml:id `deg-el-tdex01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-tdex01`|Earliest: <br><br>Latest:
 
+xml:id `deg-el-tdex02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/tarif-dexportation-2.xml)|Example: 1907-10-17
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation-2_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/tarif-dexportation-2.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-tdex02`|Earliest: <br><br>Latest:
+
 # Stocks, Shares, and Finance
 
 **See also**:

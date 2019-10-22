@@ -301,6 +301,16 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bov02_tn.jpg?raw=true)|xml text: [bov02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/bov02.xml)<br><br>Date: 1907-02-09<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bov02.jpg)
 
+## bov03 Bovril
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bov03_tn.jpg?raw=true)|xml text: [bov03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/bov03.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bov03.png)
+
+## brb01 Brown Boveri
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/brb01_tn.jpg?raw=true)|xml text: [brb01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/brb01.xml)<br><br>Date: 1907-10-17<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/brb01.png)
+
 ## bsl01 Berlitz School of Languages
  | 
 ---|---
@@ -315,7 +325,6 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/caf02_tn.jpg?raw=true)|xml text: [caf02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/caf02.xml)<br><br>Date: 1907-10-15<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/caf02.jpg)
-
 
 ## cah01 Carlton Hotel
  | 
@@ -372,6 +381,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cfe01-credit-franco-egyptien_tn.jpg?raw=true)|xml text: [cfe01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/cfe01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cfe01-credit-franco-egyptien.png)
 
+## cgc01 Clayton Gas Co.
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cgc01_tn.jpg?raw=true)|xml text: [cgc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/cgc01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cgc01.png)
+
 ## cgg01 Champagne George Goulet
  | 
 ---|---
@@ -397,6 +411,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/chl01-Chlorodyne_tn.jpg?raw=true)|xml text: [chl01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/chl01.xml)<br><br>Date: 1905-07-13<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/chl01-Chlorodyne.png)
 
+## chu01 Chubb & Sons
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/chu01_tn.jpg?raw=true)|xml text: [chu01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/chu01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/chu01.png)
+
 ## clh01 Cigares de la Havane
  | 
 ---|---
@@ -421,6 +440,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cne02-comptoir-national-descompte_tn.jpg?raw=true)|xml text: [cne02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/cne02.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cne02-comptoir-national-descompte.png)
+
+## coc01 Cochran and Co Annan Limited
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/coc01_tn.jpg?raw=true)|xml text: [coc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/coc01.xml)<br><br>Date: 1907-10-17<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/coc01.png)
 
 ## cpc01 Crown Preserved Coal
  | 
@@ -712,6 +736,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/esr02_tn.jpg?raw=true)|xml text: [esr02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/esr02.xml)<br><br>Date: 1907-10-15<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/esr02-egyptian-state-railways.png)
 
+## ess01 Egyptian Salt & Soda Coy. Limited
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ess01_tn.jpg?raw=true)|xml text: [ess01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/ess01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ess01.png)
+
 ## etc01 The Eastern Telegraph Company, Limited
  | 
 ---|---
@@ -747,6 +776,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus01-Fussells-Cream_tn.jpg?raw=true)|xml text: [fus01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/fus01.xml)<br><br>Date: 1905-07-12<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus01-Fussells-Cream.png)
+
+## fus02 Fussell's Pure Cream & Milks
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus02_tn.jpg?raw=true)|xml text: [fus02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/fus02.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fus02.png)
 
 ## gac01 Guardian Assurance Company Limited
  | 
@@ -923,6 +957,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/hob03-howies-butter_tn.jpg?raw=true)|xml text: [hob03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/hob03.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/hob03-howies-butter.png)
 
+## hob04 Howies Butter
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/hob04_tn.jpg?raw=true)|xml text: [hob04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/hob04.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/hob04.png)
+
 ## hom01 Homocea
  | 
 ---|---
@@ -1028,10 +1067,20 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jes01-Joseph-Evans-Sons_tn.jpg?raw=true)|xml text: [jes01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/jes01.xml)<br><br>Date: 1905-07-10<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jes01-Joseph-Evans-Sons.png)
 
+## jfc01 John Fowler & Co., (Leeds) Ltd.
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jfc01_tn.jpg?raw=true)|xml text: [jfc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/jfc01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jfc01.png)
+
 ## jjb01 John J.M. Bult
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb01.jpg?raw=true)|xml text: [jjb01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/jjb01.xml)<br><br>Date: 1907-02-06<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb01.jpg)
+
+## jjb02 John J.M. Bult
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb02_tn.jpg?raw=true)|xml text: [jjb02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/jjb02.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/jjb02.png)
 
 ## jma01 J. Margosches
  | 
@@ -1128,10 +1177,20 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lea01_tn.jpg?raw=true)|xml text: [lea01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lea01.xml)<br><br>Date: 1905-07-15<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lea01.png)
 
+## lea02 Lea and Perrins'
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lea02_tn.jpg?raw=true)|xml text: [lea02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lea02.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lea02.png)
+
 ## lem01 Lemco
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem01-lemco_tn.jpg?raw=true)|xml text: [lem01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lem01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem01-lemco.png)
+
+## lem02 Lemco
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem02_tn.jpg?raw=true)|xml text: [lem02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lem02.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lem02.png)
 
 ## lgo01 Ladies & Gents Outfitting (S. Stein)
  | 
@@ -1193,6 +1252,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mco01-Martell-Cognac_tn.jpg?raw=true)|xml text: [mco01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/mco01.xml)<br><br>Date: 1905-07-10<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mco01-Martell-Cognac.png)
 
+## mer01 Merryweathers' "Universal" Hand-Power Pump
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mer01_tn.jpg?raw=true)|xml text: [mer01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/mer01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mer01.png)
+
 ## mhl01 Messrs. Humphrey's Ltd.
  | 
 ---|---
@@ -1238,10 +1302,15 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp01-mclarens-steam-ploughs_tn.jpg?raw=true)|xml text: [msp01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/msp01.xml)<br><br>Date: 1905-07-15<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp01-mclarens-steam-ploughs.png)
 
-## msp02 McLaren Steam Plouging Engines
+## msp02 McLaren Steam Ploughing Engines
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp02_tn.jpg?raw=true)|xml text: [msp02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/msp02.xml)<br><br>Date: 1907-02-06<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp02.jpg)
+
+## msp03 McLaren Steam Ploughs
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp03_tn.jpg?raw=true)|xml text: [msp03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/msp03.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/msp03.png)
 
 ## mss01 The Moss S. S. Company, Ltd.
  | 
@@ -1277,6 +1346,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nea01-neaves_tn.jpg?raw=true)|xml text: [nea01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nea01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nea01-neaves.png)
+
+## nes01 Nestle's Condensed Milk
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes01_tn.jpg?raw=true)|xml text: [nes01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nes01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes01.png)
 
 ## nfc01 Nile Flotilla Co
  | 
@@ -1332,11 +1406,6 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrc01-national-residence-cairo_tn.jpg?raw=true)|xml text: [nrc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nrc01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrc01-national-residence-cairo.png)
-
-## nrp01 Nouveau Remede Purgatif (Purgen)
- | 
----|---
-![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrp01-Nouveau-Remede-Purgatif_tn.jpg?raw=true)|xml text: [nrp01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nrp01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nrp01-Nouveau-Remede-Purgatif.png)
 
 ## nsa01 N. Spathis
  | 
@@ -1408,6 +1477,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/per02_tn.jpg?raw=true)|xml text: [per02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/per02.xml)<br><br>Date: 1907-02-09<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/per02.jpg)
 
+## per03 Pe-Ru-Na
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/per03_tn.jpg?raw=true)|xml text: [per03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/per03.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/per03.png)
+
 ## phc01 P. Henderson & Co.'s Line.
  | 
 ---|---
@@ -1458,10 +1532,25 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pri02-prince-line_tn.jpg?raw=true)|xml text: [pri02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pri02.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pri02-prince-line.png)
 
+## psp01 P. Spicer & Sons
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/psp01_tn.jpg?raw=true)|xml text: [psp01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/psp01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/psp01.png)
+
 ## pss01 Port Said Savoy Hotel
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pss01-Port-Said-Savoy-Hotel_tn.jpg?raw=true)|xml text: [pss01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pss01.xml)<br><br>Date: 1905-07-10<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pss01-Port-Said-Savoy-Hotel.png)
+
+## pur01 Nouveau Remede Purgatif (Purgen)
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur01-Nouveau-Remede-Purgatif_tn.jpg?raw=true)|xml text: [pur01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pur01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur01-Nouveau-Remede-Purgatif.png)
+
+## pur02 Purgen
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur02_tn.jpg?raw=true)|xml text: [pur02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pur02.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pur02.png)
 
 ## pwl01 Papier Wlinsi
  | 
@@ -1472,6 +1561,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pwl02-Papier-Wlinsi_tn.jpg?raw=true)|xml text: [pwl02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pwl02.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/pwl02-Papier-Wlinsi.png)
+
+## rat01 Ratner Safes
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rat01_tn.jpg?raw=true)|xml text: [rat01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/rat01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rat01.png)
 
 ## rbi01 Reiser & Binder
  | 
@@ -1593,6 +1687,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sha01-shannon-system_tn.jpg?raw=true)|xml text: [sha01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sha01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sha01-shannon-system.png)
 
+## shc01 S. Howes Co.
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/shc01_tn.jpg?raw=true)|xml text: [shc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/shc01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/shc01.png)
+
 ## shh01 Shepheard's Hotel
  | 
 ---|---
@@ -1622,6 +1721,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla02-standard-life-assurance_tn.jpg?raw=true)|xml text: [sla02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sla02.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla02-standard-life-assurance.png)
+
+## sla03 Standard Life Assurance Company
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla03_tn.jpg?raw=true)|xml text: [sla03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sla03.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sla03.png)
 
 ## smc01 Steineman, Mabardi & Co
  | 
@@ -1667,6 +1771,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/srg01-san-remo-grand_tn.jpg?raw=true)|xml text: [srg01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/srg01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/srg01-san-remo-grand.png)
+
+## sso01 Soft Soap
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sso01_tn.jpg?raw=true)|xml text: [sso01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/sso01.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/sso01.png)
 
 ## ssw01 Siemens Schuckert Werke
  | 
@@ -1848,10 +1957,20 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wam02-Walker-and-Meimarachi_tn.jpg?raw=true)|xml text: [wam02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wam02.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wam02-Walker-and-Meimarachi.png)
 
+## wam03 Sterilised Fresh Milk (Walker & Meimarachi)
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wam03_tn.jpg?raw=true)|xml text: [wam03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wam03.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wam03.png)
+
 ## wbl01 Waterlow Bros. & Layton
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl01-waterlow-bros-layton_tn.jpg?raw=true)|xml text: [wbl01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wbl01.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl01-waterlow-bros-layton.png)<br><br>paste as cell in nameplate table
+
+## wbl02 Waterlow Bros. & Layton
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl02_tn.jpg?raw=true)|xml text: [wbl02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wbl02.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wbl02.png)
 
 ## wha01 W. H. Allen
  | 
@@ -1877,6 +1996,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who02-windsor-hotel_tn.jpg?raw=true)|xml text: [who02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/who02.xml)<br><br>Date: 1905-07-12<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who02-windsor-hotel.png)
+
+## who03 Windsor Hotel
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who03_tn.jpg?raw=true)|xml text: [who03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/who03.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/who03.png)
 
 ## whr01 Windsor Hotel Restaurant
  | 
@@ -1922,6 +2046,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos03-yost_tn.jpg?raw=true)|xml text: [yos03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/yos03.xml)<br><br>Date: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos03-yost.png)
+
+## yos04 Yost
+ | 
+---|---
+![Thumbnail](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos04_tn.jpg?raw=true)|xml text: [yos04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/yos04.xml)<br><br>Date: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/yos04.png)
 
 ## you01 Youngs
  | 
