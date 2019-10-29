@@ -27,7 +27,7 @@ The header (the material in the opening lines of the document, between the two -
 
 ## 4. Choose a feature image
 
-Choose an image that you would like to appear to promote the post on the main page of the website. Name that image `feature.jpg` or `feature.png` (depending on the file format), and add it to your blog post folder. Give the image a caption in the appropriate section of the header. (For more on images, see number 5 below.)
+Choose an image that you would like to appear to promote the post on the main page of the website. Name that image `featured.jpg` or `featured.png` (depending on the file format), and add it to your blog post folder (replacing the `featured.png` file that's already there). You do not need to add any more information about the image to the header, other than giving it a caption in the appropriate section. (For more on images, see number 5 below.) 
 
 ## 4. Write a post in markdown and add images
 

@@ -33,7 +33,7 @@
 
 &lt;h2 id=&#34;4-choose-a-feature-image&#34;&gt;4. Choose a feature image&lt;/h2&gt;
 
-&lt;p&gt;Choose an image that you would like to appear to promote the post on the main page of the website. Name that image &lt;code&gt;feature.jpg&lt;/code&gt; or &lt;code&gt;feature.png&lt;/code&gt; (depending on the file format), and add it to your blog post folder. Give the image a caption in the appropriate section of the header. (For more on images, see number 5 below.)&lt;/p&gt;
+&lt;p&gt;Choose an image that you would like to appear to promote the post on the main page of the website. Name that image &lt;code&gt;featured.jpg&lt;/code&gt; or &lt;code&gt;featured.png&lt;/code&gt; (depending on the file format), and add it to your blog post folder (replacing the &lt;code&gt;featured.png&lt;/code&gt; file that&amp;rsquo;s already there). You do not need to add any more information about the image to the header, other than giving it a caption in the appropriate section. (For more on images, see number 5 below.)&lt;/p&gt;
 
 &lt;h2 id=&#34;4-write-a-post-in-markdown-and-add-images&#34;&gt;4. Write a post in markdown and add images&lt;/h2&gt;
 

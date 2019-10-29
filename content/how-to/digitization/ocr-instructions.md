@@ -126,7 +126,7 @@ Before moving this raw text into our XML file, we need to prepare it for XML. To
 
 Using **Find and Replace** in your plain text editor, follow these steps:
 
-1. Rind every `<` and `>`, which will almost certainly be OCR errors, and delete or replace them.
+1. Find every `<` and `>`, which will almost certainly be OCR errors, and delete or replace them.
 2. XML freaks out if it sees an "and" symbol, and there are lots of them in the _Egyptian Gazette_. Replace `&` with `&amp;`.
 3. Tesseract puts an empty line between most paragraphs that it recognizes. We can use [regular expressions](/how-to/digitization/regular-expression-instructions/) to mark these paragraph breaks in XML code. In your text editor, enable regular expressions. Then, find `\n\n` (the regular expression for double paragraph breaks) and replace with `</p><p>` (the XML code for paragraph breaks).
 4. In order to complete this file, add a `<p>` at the very start, and a `</p>` at the very end. These are necessary to open and close the first and last paragraph.
