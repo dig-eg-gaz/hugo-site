@@ -36,7 +36,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|40||
 24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|38||
 ---|---|---|---|---|---|---
-29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|10||
+29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|40||
 30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|||
 31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|40||
 33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
@@ -54,16 +54,16 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|||
 ---|---|---|---|---|---|---
 46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|38||missing 1907-11-16-p7, 1907-11-16-p8
-47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|8||image filenames incorrect
+47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40||fix filename
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40||
 51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
-52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|||
+52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|34||
 1|December 30, 1907|January 4, 1908|[Gabrielle Murray](https://github.com/gam18g)|||
 ---|---|---|---|---|---|---
 2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|23||missing 1908-01-06-p1
-3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|||
+3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|||1908-01-14 missing from microfilm
 4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
 5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|47||missing 1908-01-31-p4
 
@@ -112,6 +112,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 - April 13, 1906?
 - April 16, 1906?
 - October 31, 1907
+- January 14, 1908
 
 ## Empty weeks (to be assigned next course)
 
