@@ -5,12 +5,84 @@
     <link>https://dig-eg-gaz.github.io/tags/</link>
       <atom:link href="https://dig-eg-gaz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://dig-eg-gaz.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>death</title>
+      <link>https://dig-eg-gaz.github.io/tags/death/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/death/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>London</title>
+      <link>https://dig-eg-gaz.github.io/tags/london/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/london/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railway</title>
+      <link>https://dig-eg-gaz.github.io/tags/railway/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/railway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>train</title>
+      <link>https://dig-eg-gaz.github.io/tags/train/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/train/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wreck</title>
+      <link>https://dig-eg-gaz.github.io/tags/wreck/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/wreck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas Cook</title>
+      <link>https://dig-eg-gaz.github.io/tags/thomas-cook/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/thomas-cook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tourism</title>
+      <link>https://dig-eg-gaz.github.io/tags/tourism/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/tourism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://dig-eg-gaz.github.io/tags/travel/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>accident</title>
+      <link>https://dig-eg-gaz.github.io/tags/accident/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/accident/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bugs</title>
@@ -281,14 +353,6 @@
       <link>https://dig-eg-gaz.github.io/tags/danger/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/danger/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>death</title>
-      <link>https://dig-eg-gaz.github.io/tags/death/</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/death/</guid>
       <description></description>
     </item>
     

@@ -642,7 +642,7 @@ Copy the whole bottom line <em>except</em> the final <code>&gt;</code>.</li>
 <p>Using <strong>Find and Replace</strong> in your plain text editor, follow these steps:</p>
 
 <ol>
-<li>Rind every <code>&lt;</code> and <code>&gt;</code>, which will almost certainly be OCR errors, and delete or replace them.</li>
+<li>Find every <code>&lt;</code> and <code>&gt;</code>, which will almost certainly be OCR errors, and delete or replace them.</li>
 <li>XML freaks out if it sees an &ldquo;and&rdquo; symbol, and there are lots of them in the <em>Egyptian Gazette</em>. Replace <code>&amp;</code> with <code>&amp;amp;</code>.</li>
 <li>Tesseract puts an empty line between most paragraphs that it recognizes. We can use <a href="/how-to/digitization/regular-expression-instructions/">regular expressions</a> to mark these paragraph breaks in XML code. In your text editor, enable regular expressions. Then, find <code>\n\n</code> (the regular expression for double paragraph breaks) and replace with <code>&lt;/p&gt;&lt;p&gt;</code> (the XML code for paragraph breaks).</li>
 <li>In order to complete this file, add a <code>&lt;p&gt;</code> at the very start, and a <code>&lt;/p&gt;</code> at the very end. These are necessary to open and close the first and last paragraph.</li>
