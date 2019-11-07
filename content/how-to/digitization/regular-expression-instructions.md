@@ -33,21 +33,21 @@ To put `<persName>` around passenger names in a list: find `Mr. [A-Z][a-z, 0-9]+
 
 ## Cleaning XPath results
 
-1. Select all, copy, and paste results into atom text editor.
+1. Select all, copy, and paste results into your plain text editor.
 
-2. Open find and replace. Click the Regex option, then use this line to remove some of the results:
-Find `XPath location: .+\nStart location: .+\nEnd location: .+\n\nSystem ID: `
-Replace with (leave empty). Click Replace All.
+2. First, let's remove the lines that start with "XPath location," "Start location," and "End location," because we won't need these results. Open find and replace. Click the Regex option, then use this regex to find the first of these results: `XPath location: .+\n`. *Note*: if you're using Windows, you may have to replace the `\n` (new line indicator) at the end of this string with `\r\n`, which is how Windows sometimes indicates new lines.
 
-3. Remove the file location that precedes the issue date:
-Find `/Users/whanley/GitHub/DEG-content/` (this will be different on your computer--just select everything that comes before the date filename)
-Replace with (leave empty). Click Replace All.
+Once you've selected all of these "XPath location" lines, replace them with nothing (i.e., leave the replace box empty). Click Replace All.
 
-4. Find `.xml\nDescription: `, Replace with `\t`. Replace All.
+Now you can do the same for `Start location: .+\n` and `End location: .+\n`
 
-5. You'll have a bit of garbage left over at the beginning and end of the file. Delete this. Now you will have a tab-separated, two-column table that you can paste into a spreadsheet.
+3. Remove the file location that precedes the issue date. Find `System ID: /Users/whanley/GitHub/DEG-content/` (this will be different on your computer--just select everything that comes before the date filename). (You may need to turn off Regex in order to find this string text.) Leave the replace box empty, then click Replace All.
 
-Recipe to clean `count` results, giving a single column response: `\n.+\nDescription: `
+4. Now we replace what comes between the date and the results. Turn Regex back on, then find `.xml\nDescription: ` (or `.xml\r\nDescription: ` if you are using Windows) and replace with `\t`. Replace All.
+
+5. If you have empty lines in your file, you can remove them by finding `\n\n` (or `\r\n\r\n`) and replacing it with `\n`.
+
+6. You might have a bit of garbage left over at the beginning and end of the file. Delete this. Now you will have a tab-separated, two-column table that you can paste into a spreadsheet.
 
 ## Using regex in Microsoft word
 

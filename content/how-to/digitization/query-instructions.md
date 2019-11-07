@@ -14,42 +14,60 @@ weight: 100
 ---
 
 ## Objective
-We are digitizing the *Egyptian Gazette* to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for "London" in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for "London" in specific parts of the newspaper: page 3, for example, or local news. The two main query (search) languages for XML are [XPath and XQuery](https://www.w3.org/TR/xpath-datamodel-30/). These instructions focus on XPath as used in the Oxygen XML editor.
+We are digitizing the *Egyptian Gazette* to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for "London" in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for "London" in _specific parts_ of the newspaper: page 3, for example, or local news. Restricting your search to these locations can give you more useful results. 
+
+The two main query (search) languages for XML are [XPath and XQuery](https://www.w3.org/TR/xpath-datamodel-30/). This tutorial focuses on XPath as used in the Oxygen XML editor. An XPath is a series of terms (words) separated by slashes (/) and other punctuation that describes a specific location or locations in an XML file. For example, the XPath `//div[@type="section"]/div/p[contains(., 'cotton')]` describes paragraphs containing the word "cotton" that are contained in any `div` that is itself contained in a `div` that is defined as a section. This tutorial explains how to use this powerful tool.
 
 ## 1. Setting up queries in the Oxygen XML editor
 
-### Searching a single file
-Open the file that you wish to search in the Oxygen XML editor. Then, click on Find/Replace. This will allow you to search for a keyword in the open file. The results will be displayed at the bottom of the editor. Click on any item in this list to be taken to that location in your file.
+Oxygen XML Editor allows you to run queries in several different ways. For our purposes, the most useful are a) Find and Replace and b) the XPath query bar
 
-### Searching more than one file
+### A) Find and Replace
+
+If you are searching for a specific word or phrase, or searching using regular expressions, it's easiest to use Find and Replace. You can search for the word everywhere in a file, or in specific parts of that file, by restricting the search to a certain XPath.
+
+#### Searching a single file
+Open the file that you wish to search in the Oxygen XML editor. Then, click on Find/Replace (the magnifying glass). This will allow you to search for a keyword in the open file. The results will be displayed at the bottom of the editor. Click on any item in this list to be taken to that location in your file.
+
+As an example, search for `Egypt`. Then, search for `Egypt`, but restrict your XPath to `div[@type="page"][@n="3"]`, which will restrict your search to page 3 only. Copmpare the results of these two searches.
+
+#### Searching several files
 Open all of the files that you wish to search, then click on Find/Replace in Files:
 ![find replace oxygen](/img/find-replace-oxygen.png)
 This will open a dialogue box. Under "Scope," choose "All opened files," then proceed with your search.
 
-### Searching the full contents of the digital Egyptian Gazette
+#### Searching the full contents of the digital Egyptian Gazette
 To search everything in the [Digital Egyptian Gazette content repository](https://github.com/dig-eg-gaz/content), under Find/Replace in Files > Scope, choose "Specified path," then navigate to the location where you've cloned your fork of the content repository. For more information about how to find this location, consult the [Github tutorial](/how-to/digitization/github-instructions/).
 
-### Basic XPath searches
-To search directly with XPath, locate the XPath query box near the top left.
+### B) XPath query bar
+
+If you are searching for particular nodes rather than words, or counting nodes, it's easiest to use the XPath query bar, which is located near the top left of your screen.
+
 ![xpath query box oxygen](/img/xpath-query-box-oxygen.png)
-The drop-down icon on the left of this box allows you to choose the scope: current file, all opened files, and so on. Now, try these commands:
 
-- a list of all the "divs" in your file: `//div`
-- a list of all the item-type divs in your file: `//div[@type="item"]`
-- a list of all the item-type divs in your file containing the word "cotton": `//div[@type="item"][contains(., 'cotton')]`
-- all tagged names of persons or places in the files: `//persName` or `//placeName`
+The drop-down icon on the left of this box allows you to choose the scope of your search: current file, all opened files, and other options. To search the full contents of the digital Egyptian Gazette, you'll need to use a "working set."
 
-## 2. Basic principles of XPath
-XPath asks you to do two things: specify **where** you want to search, and specify **what** you want to search for. An XPath query is a series of terms (words) separated by slashes (/) and other punctuation. For example:
+![xpath query box scope](/img/xpath-query-box-scope.png)
 
-`//div[@type="section"]/div/p[contains(., 'cotton')]`
+#### Set up a working set
+To create a working set of files for your search, click on "Configure XPath working sets..." in the drop down menu pictured above. Create a "New working set", give it a name, then press enter. Now click "Add resources," then "Folders," then select the content folder you've cloned from GitHub. Click "Done" and "Ok", and you should be ready to query the full contents.
+
+#### Basic XPath queries
+Set the scope to "Current File," then try these basic queries:
+
+- `//div` returns a list of all the "divs" in your file
+- `//div[@type="item"]` returns a list of all the item-type divs in your file
+- `//div[@type="item"][contains(., 'cotton')]` returns a list of all the item-type divs in your file containing the word "cotton" 
+
+## 2. The What and Where of XPath
+Once you have the basic parameters set up, it's time to look a bit more carefully at the logic of XPath. XPath asks you to do two things: specify **where** you want to search, and specify **what** you want to search for. 
 
 ### "Where" searches
 We use XML to structure our issues of the *Egyptian Gazette* by page, section, item, and so on. For example, we use nesting pairs of tags to put `<div type="item"> </div>` inside `<div type="section"> </div>`, and `<div type="section"> </div>` inside `<div type="page"> </div>`.
 
 This structure is commonly described as a "tree." The root is the issue, which branches into six or eight pages, and each page branches into sections and items and paragraphs.
 
-An XPath query shows the tree parts separated slashes, starting from root and heading towards the branches, like so:
+An XPath query shows the tree parts separated by slashes, starting from root and heading towards the branches, like so:
 
 `//div[@type="page"]/div[@type="section"]/div[@type="item"]/p`
 
@@ -120,7 +138,7 @@ The possibilities are endless. Here are some samples.
 It is possible to combine regular expression and XPath searches by using the find/replace menu. Enter the regular expression you wish to search for in the Find box, and the XPath location in which you wish to search in the XPath box. <!--- explain further --->
 
 ## 7. Export and manipulate results
-Right click on results, then export file. You can then clean up these results with regular expressions to remove the parts you don't want. After this, you can work with the results in a spreadsheet.
+Right click on results, then export file. You can then [clean up these results with regular expressions](https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/#cleaning-xpath-results) to remove the parts you don't want. After this, you can work with the results in a spreadsheet.
 
 ## 8. XQuery
 More complex querying can be accomplished using XQuery.

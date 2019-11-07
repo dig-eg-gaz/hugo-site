@@ -29,7 +29,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48||
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8||
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
-18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||
+18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||1907-05-01 missing from microfilm
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40||
@@ -111,6 +111,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 - November 28, 1905
 - April 13, 1906?
 - April 16, 1906?
+- May 1, 1907
 - October 31, 1907
 - January 14, 1908
 
