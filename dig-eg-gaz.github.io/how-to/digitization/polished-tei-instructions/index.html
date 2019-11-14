@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Objective This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.
+1. Get the page hierarchy right The best way to get a quick idea of your file&rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page &lt;div&gt;s:
+All other &lt;div&gt;s should be inside the page &lt;div&gt; in which they appear.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/polished-tei-instructions/">
+  <meta property="og:title" content="Polishing TEI instructions | Digital Egyptian Gazette">
+  <meta property="og:description" content="Objective This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.
+1. Get the page hierarchy right The best way to get a quick idea of your file&rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page &lt;div&gt;s:
+All other &lt;div&gt;s should be inside the page &lt;div&gt; in which they appear."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-10-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-10-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Polishing TEI instructions | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/templating-instructions/">Templating</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/github-instructions/">GitHub</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/ocr-instructions/">OCR</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/content-markup-instructions/">Content markup</a>
+      </li>
+      
+      <li class="active">
+        <a href="/how-to/digitization/polished-tei-instructions/">Polished TEI</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/text-editor-instructions/">Plain text</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/tagging-people-and-places-instructions/">Advanced tagging</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/query-instructions/">Querying</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/regular-expression-instructions/">Regular expressions</a>
+      </li>
+      
+      <li >
+        <a href="/how-to/digitization/visualization-instructions/">Data visualization</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-get-the-page-hierarchy-right">1. Get the page hierarchy right</a></li>
+<li><a href="#2-get-the-breaks-right">2. Get the breaks right</a>
+<ul>
+<li><a href="#a-line-breaks">a. Line breaks</a></li>
+<li><a href="#b-page-breaks">b. Page breaks</a></li>
+</ul></li>
+<li><a href="#3-column-breaks">3. Column breaks</a>
+<ul>
+<li><a href="#a-cb-n">a. <code>&lt;cb n=&quot;?&quot;/&gt;</code></a></li>
+<li><a href="#b-cols-n">b. <code>&lt;cols n=&quot;?&quot;/&gt;</code></a></li>
+<li><a href="#c-colspan-n">c. <code>&lt;colSpan n=&quot;?&quot;/&gt;</code></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Polishing TEI instructions</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="objective">Objective</h2>
+
+<p>This lesson explains how to polish your TEI-XML file so that it is ready to be added to the master content repository.</p>
+
+<h2 id="1-get-the-page-hierarchy-right">1. Get the page hierarchy right</h2>
+
+<p>The best way to get a quick idea of your file&rsquo;s structure is to look at the Outline in Oxyge. At the highest level, your document should consist of six (or eight) parallel page <code>&lt;div&gt;</code>s:</p>
+
+<p><img src="/img/page-div-outline.png" alt="page-div-outline" /></p>
+
+<p>All other <code>&lt;div&gt;</code>s should be <em>inside</em> the page <code>&lt;div&gt;</code> in which they appear. If you do not have everything inside pages, your outline will look messy:</p>
+
+<p><img src="/img/page-div-outline-messy.png" alt="page-div-outline-messy" /></p>
+
+<p>The solution is to drag everything into its proper page.</p>
+
+<p>Another problem that arises is failing to close divs or pages. You&rsquo;ll know you have this problem if the end of your file looks like this:</p>
+
+<p><img src="/img/unclosed-divs.png" alt="unclosed-divs" /></p>
+
+<h2 id="2-get-the-breaks-right">2. Get the breaks right</h2>
+
+<p>There are three types of &ldquo;breaks&rdquo; in the digital <em>Egyptian Gazette</em>. All are indicated using single tags, rather than pairs: unlike paragraph tags, for example, which must open (<code>&lt;p&gt;</code>) and close (<code>&lt;/p&gt;</code>), break tags come alone. They include a &ldquo;slash&rdquo; just before the closing bracket to show that they have no partner: <code>&lt;lb/&gt;</code>.</p>
+
+<p>Two of the break tags are quite straightforward to work with:</p>
+
+<h3 id="a-line-breaks">a. Line breaks</h3>
+
+<p>You will have little need for line breaks, which are coded <code>&lt;lb/&gt;</code>. For the most part, line breaks are indicated with paragraph tags. Sometimes, however (in adverts, for instance), you may find it useful or necessary to use a <code>&lt;lb/&gt;</code> instead of <code>&lt;p&gt;&lt;/p&gt;</code>.</p>
+
+<h3 id="b-page-breaks">b. Page breaks</h3>
+
+<p>Page breaks (<code>&lt;pb n=&quot;?&quot;/&gt;</code>) are currently used in the digital <em>Egyptian Gazette</em>, but they are redundant, because every page is contained in <code>&lt;div type=&quot;page&quot; n=&quot;?&quot;&gt; &lt;/div&gt;</code> tags. In both cases, the <code>n=&quot;?&quot;</code> attribute records the page number.</p>
+
+<p>Please use both divs and breaks to indicate pages. TEI&rsquo;s rules for periodicals are still in development, and we want our resource to be flexible to more than one approach. Note that the page break tag comes <em>before</em> the page <code>&lt;div&gt;</code> itself; the arrangement outlined in the first page hierarchy image above is correct.</p>
+
+<h2 id="3-column-breaks">3. Column breaks</h2>
+
+<p>Column breaks can be hard to work out, not least because they are not well implemented in the TEI specification. In this project, we use three different tags to describe the columns:</p>
+
+<h3 id="a-cb-n">a. <code>&lt;cb n=&quot;?&quot;/&gt;</code></h3>
+
+<p>This tag indicates the start of a new column. Use it at the beginning of every page, and again each time the text stops at the bottom of the page and jumps to the top of another column. Use the <code>n=</code> attribute to indicate which column is beginning.</p>
+
+<p>This is straightforward on a typical page 3, which contains six even-sized columns running from the top to the bottom of the page.</p>
+
+<p><img src="/img/cols-example-6-cbs-p-3.png" alt="cols-example-6-cbs-p-3" /></p>
+
+<p>Do not make each column into its own <code>&lt;div&gt;</code>. Column breaks often coincide with the start of a new <code>&lt;div&gt;</code>, but they have a distinct role. They indicate the layout of the paper, not its content. <code>&lt;div&gt;</code>, on the other hand, is used to encode articles and sections of the paper with their own headline and content. A <code>&lt;cb/&gt;</code> can even be dropped in the middle of a paragraph, as we see with the column break at the start of column 5 in the image above.</p>
+
+<h3 id="b-cols-n">b. <code>&lt;cols n=&quot;?&quot;/&gt;</code></h3>
+
+<p>This tag indicates how many evenly-sized columns the page is divided into. Use it only when the width of columns change. Below the nameplate on page 1, for example, we use a <code>&lt;cols n=&quot;3&quot;/&gt;</code> tag to show that the page is divided into three equal columns. We insert this tag before we show the start of the first column using <code>&lt;cb n=&quot;1&quot;/&gt;</code>.</p>
+
+<p>Page 3 is usually divided into six equal columns. We can indicate this using <code>&lt;cols n=&quot;6&quot;/&gt;</code>. Again, this tag comes before the first column break (as indicated in the image above).</p>
+
+<p>Things are more complicated on page 2, which often contains a mix of single- and double-width columns. Remember that single-width columns are indicated with <code>&lt;cols n=&quot;6&quot;/&gt;</code>, because the page can contain six of them. Double-width colums are indicated with <code>&lt;cols n=&quot;3&quot;/&gt;</code>, because the page can contain only three of them. The rare triple-width column would be marked with <code>&lt;cols n=&quot;2&quot;/&gt;</code>.</p>
+
+<p>Here is an example of a page 2, with its layout blocked in colored columns:</p>
+
+<p><img src="/img/cols-example-p-2-layout.png" alt="cols-example-p-2-layout" /></p>
+
+<p>The page starts with a double-width column (A), which splits into two single-width columns (A &amp; B) partway down. The middle of the page contains another double-width column ( C ) that splits into single-width columns (C &amp; D). The right-hand side of the page contains two full-length single-width columns (E &amp; F).</p>
+
+<p>We encode the columns on this page like this:</p>
+
+<p><img src="/img/cols-example-p-2-layout-xml.png" alt="cols-example-p-2-layout-xml" /></p>
+
+<h3 id="c-colspan-n">c. <code>&lt;colSpan n=&quot;?&quot;/&gt;</code></h3>
+
+<p>You will rarely need to use this tag. It is only used for items that are wider than a single column located where the page cannot be divided into even-sized columns using <code>&lt;cols/&gt;</code>.</p>
+
+<p>For example, the &ldquo;Nile Gauge Reading&rdquo; item at the bottom of this page should be preceded by a <code>&lt;colSpan n=&quot;4&quot;/)</code> tag.</p>
+
+<p><img src="/img/cols-example-colspan-4.png" alt="cols-example-colspan-4" /></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/how-to/digitization/content-markup-instructions/" rel="next">Content markup instructions</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/how-to/digitization/text-editor-instructions/" rel="prev">Plain text instructions</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Oct 1, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

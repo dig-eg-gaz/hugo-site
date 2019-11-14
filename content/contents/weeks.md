@@ -26,10 +26,10 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
 3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
 ---|---|---|---|---|---|---
-9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48||
+9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8||
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
-18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|||1907-05-01 missing from microfilm
+18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|33||lacking 1907-05-02-p8.jpg, Fr 3-6, Sat 1-3; 1907-05-01 missing from microfilm
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40||
@@ -38,22 +38,22 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|40||
 30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|||
-31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|40||
+31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|40|6|
 33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
-35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|37||1907-08-31-p8 missing
-37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38||
+35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|37|6|1907-08-31-p8 missing
+37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|3|
 ---|---|---|---|---|---|---
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||
 39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/KwNick305)|6||
 ---|---|---|---|---|---|---
-42|October 14, 1907|October 19, 1907|[Peyton Smith](https://github.com/19peytonsmith)|40||
+42|October 14, 1907|October 19, 1907|[Peyton Smith](https://github.com/19peytonsmith)|40|6|
 43|October 21, 1907|October 26, 1907|[Emily Seguin](https://github.com/emily-seguin)|40||fix naming of images
-44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34||1907-10-31 missing from microfilm
+44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34|4|1907-10-31 missing from microfilm
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|||
 ---|---|---|---|---|---|---
-46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|38||missing 1907-11-16-p7, 1907-11-16-p8
+46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|38|3|missing 1907-11-16-p7, 1907-11-16-p8
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40||fix filename
 ---|---|---|---|---|---|---
@@ -65,7 +65,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|23||missing 1908-01-06-p1
 3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|||1908-01-14 missing from microfilm
 4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
-5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|47||missing 1908-01-31-p4
+5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|48|3|
 
 ## Items lacking (previous semesters)
 
@@ -76,8 +76,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 16|April 17, 1905|April 22, 1905|[Riley Ouellette](https://github.com/rouellette07/dig-eg-gaz)|All|1|
 23|June 5, 1905|June 10, 1905|[Joseph Chack-On](https://github.com/jochack/dig-eg-gaz)||3|
 24|June 12, 1905|June 17, 1905|[Thomas Corzo](https://github.com/ThomasC24)||2|
-27|July 3, 1905|July 8, 1905|[Will Hanley](https://github.com/whanley)||3|
-42|October 16, 1905|October 21, 1905|[Brooklyn Vincent](https://github.com/bjv15/dig-eg-gaz)||1|
 2|January 8, 1906|January 13, 1906|[Nino Fricano](https://github.com/ninofricano)||3|
 3|January 15, 1906|January 20, 1906|[Cameron Greco](https://github.com/cgreco1)||3|
 4|January 22, 1906|January 27, 1906|[Parker Beasley](https://github.com/ParkerB21)|8|1|missing Saturday issue (1906-01-27)

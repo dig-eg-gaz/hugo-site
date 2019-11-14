@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The city of Alexandria is a port city located in Egypt. The weather is typically hot and humid. For over one hundred years, the city of Alexandria has collected data on the warm climate. An Egyptian newspaper, the Egyptian Gazette, has listed the temperature in Celsius as well as the relative humidity every day for as long as the paper continued to be published. As science and technology has increasingly advanced, cars, livestock, and air pollutants have been theorized to gradually increase the average temperature of Earth.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/17-analysis-story/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/post/17-analysis-story/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/post/17-analysis-story/">
+  <meta property="og:title" content="Climate Change in Alexandria | Digital Egyptian Gazette">
+  <meta property="og:description" content="The city of Alexandria is a port city located in Egypt. The weather is typically hot and humid. For over one hundred years, the city of Alexandria has collected data on the warm climate. An Egyptian newspaper, the Egyptian Gazette, has listed the temperature in Celsius as well as the relative humidity every day for as long as the paper continued to be published. As science and technology has increasingly advanced, cars, livestock, and air pollutants have been theorized to gradually increase the average temperature of Earth."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-05-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2017-05-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Climate Change in Alexandria | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Climate Change in Alexandria</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2017-05-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2017-05-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/joshuastory/">Joshua Story</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 1, 2017</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/17-analysis-story/&amp;text=Climate%20Change%20in%20Alexandria" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/17-analysis-story/&amp;t=Climate%20Change%20in%20Alexandria" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Climate%20Change%20in%20Alexandria&amp;body=https://dig-eg-gaz.github.io/post/17-analysis-story/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/17-analysis-story/&amp;title=Climate%20Change%20in%20Alexandria" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Climate%20Change%20in%20Alexandria%20https://dig-eg-gaz.github.io/post/17-analysis-story/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/17-analysis-story/&amp;title=Climate%20Change%20in%20Alexandria" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>The city of Alexandria is a port city located in Egypt. The weather is typically hot and humid. For over one hundred years, the city of Alexandria has collected data on the warm climate. An Egyptian newspaper, the <em>Egyptian Gazette</em>, has listed the temperature in Celsius as well as the relative humidity every day for as long as the paper continued to be published. As science and technology has increasingly advanced, cars, livestock, and air pollutants have been theorized to gradually increase the average temperature of Earth. I will observe and analyze the comparative details between the listed temperatures in the <em>Egyptian Gazette</em> over the years 1905-1906, and a time one hundred years later specifically 2016. This analysis is incredibly specific, and only covers the weather of Alexandria; however, the outcome can serve as one instance that supports or does not support the notion that human advancement is causing global warming. I will be taking the listed max temperatures in Celsius for Alexandria. The analysis of the max temperature will not be as straightforward as one might expect. The idea of global warming is actually a misnomer, at least during the winter months. This results in global warming being evident when temperatures are not necessarily warm, but more extreme than usual. The winter months must be colder in 2016 and the summer months must be warmer in order for the change in temperature be constituted as global warming. It is important to note that the *Egyptian Gazette*’s weather report lists the temperature measured as “max temp in shade.” This just means that the measurement is not tainted by outside elements such as sunlight; the temperature of today is measured the exact same way so there are no discrepancies between the 1905-1906 group and the 2016 group.</p>
+
+<p><img src="story-DWR.png" alt="Daily Weather Report" /></p>
+
+<p>The amount of cars in Alexandria during the early part of the twentieth century is incomparable to the sheer amount of cars present today in Alexandria. The technology of the automobile in 1905 was only twenty years old at that point. For the most part, cars were reserved for middle to upper class. The very few instances of a car being mentioned in the <em>Egyptian Gazette</em> usually pertains to a rich person. For instance, a lot of the automobile mentions pertain to someone who is of the royal family. In August of 1906, Prince Mohamed Ibrahim, cousin of the Khedive, was killed in a car accident.</p>
+
+<p><img src="story-princedeath.png" alt="Prince Death" /></p>
+
+<p>This instance is one of the few times cars are even mentioned in the <em>Egyptian Gazette</em>. Other than anecdotal evidence from a newspaper, there is no survey that gives an accurate number for car population; however, to put into perspective the United States only had 78,000 cars in 1905. Considering that the United States was one of the original countries to pioneer the automobile, it is reasonable to suggest that the amount of cars in Alexandria never exceeded such an amount in 1906, and was probably nowhere near that amount. All of this evidence is to show the vast difference in the number of cars contributing to global warming between 1905-1906 and 2016. The difference is important to specify as this analysis goes off the basis that fossil fuel emission contributes to the warming of the atmosphere. With this in mind, we can expect any noticeable increase in temperature in Alexandria during the summer and a decrease of temperature in the winter to be indicative of global warming.</p>
+
+<p>The <em>Egyptian Gazette</em> had a section in the earlier pages of the newspaper known as “<a href="https://dig-eg-gaz.github.io/templates/#daily-weather-report" target="_blank">The Daily Weather Report</a>.” The weather report consisted of the maximum temperature for that day. The typically warmer months, summer and spring, in Alexandria were relatively temperate in the Daily Weather Report’s listings. The weather during the months of June, July, and August were the hottest of the year with a record maximum temperature for that time span of 37.5°C or 99.5°F. The average for the summer and spring months for temperature was a relatively warm 27.4°C or 84.92°F. This is somewhat expected from an area only 2,000 miles away from the equator. In the year 2016, the climate of Alexandria showed in an increase of temperatures in the spring and summer months. In the month of May 2016, the maximum temperature was recorded one day at a ridiculously sweltering 45°C or 113°F. This record temperature is almost 8°C higher than the record temperature in the years 1905-1906. The average maximum temperature of 2016 for the spring and summer months was 26.6°C, almost one degree lower than 1905-1906’s’s average maximum temperature. On one hand, the record high between the two instances a hundred years apart is far more than substantial. This record high would definitely hint at a warmer climate for the ladder group, 2016; however, 1905-1906 had a slightly higher average maximum temperature of the warm months. This evidence cannot, at least by itself, confirm or refute the idea of climate change. The average for the warmer months is incredibly close between the two groups.</p>
+
+<p>As mentioned before, the idea of global warming in itself is really a misnomer. This is because the winter and fall months actually are supposed to experience colder than usual temperatures within the realm of the climate change theory. The winter and fall months of Alexandria during the early 20th century were actually fairly warm. The lowest recorded high for these particular months was a moderate 16°C or 60.8°F. On average, the max temperature between the months September through February of 1905-1906 was 23.33°C or 73°F.  The record lowest maximum temperature for Alexandria in 2016 for the fall and summer months was 17°C or 62.6°F. In the coldest months of 2016, the average maximum temperature in Alexandria was 23.21°C or 73.5°F. Again, the average maximum temperatures for the two groups are almost exactly the same. There seems to be another variance with the lowest maximum temperature similar to that of the summer months, but the variance within the summer months was considerably higher. The observed climate change between the two groups, 1905-1906 and 2016, is almost nonexistent during the winter months. The numbers are too close to infer anything for the winter months.</p>
+
+<p><img src="story-0506temp.png" alt="Alexandria 1905-1906" /></p>
+
+<p><img src="story-16temp.png" alt="Alexandria 2016" /></p>
+
+<p>Global warming has become an extremely well backed theory in the realm of science. Using micro historical documents, such as newspapers, scientists and historians are now able to observe any noticeable change in climate over a range of time. The *Egyptian Gazette*’s listings of the daily maximum temperature was a crucial step in identifying any real climate change in Alexandria over 100 years. The observed change in the average maximum temperatures actually did not indicate any change in the climate indicative of global warming; however, the record maximum temperature of 113°F for 2016 is incredibly telling and concerning. The temperatures in 2016 actually were a lot more extreme, and outliers like this incredibly hot temperature was a more common occurrence in 2016. The range of temperatures was much greater, but due to the extreme temperatures varying from both cold and warm temperatures the observed average maximum temperature seemed rather normal. On the surface, the similar average maximum temperatures raises no alarm of global warming, and could actually be interpreted as evidence to disprove the theory of climate change with regards to Alexandria; however, the extreme ranges in temperature for 2016 should not go unnoticed. The record high for 2016 was 14°F higher than that of 1905-1906. One characteristic of Global Warming is an increase of extreme temperatures, which seems to fit the profile of 2016. The analysis of the maximum temperatures in Alexandria may only slightly prove climate change, but there are other signs of global warming in Alexandria which historical analysis just like this particular analysis help to prove. For instance, the sea levels of the coastal region of Alexandria have actually been observed to have risen significantly over the past 100 years. Because of a noticeable increase in frequency of extreme temperatures in Alexandria over the past century and other noticeable changes related to climate change such as rise in sea level, it can be inferred that the city of Alexandria has experienced the effects of Global Warming.</p>
+
+<h3 id="works-cited">Works Cited</h3>
+
+<ul>
+<li><a href="http://www.reuters.com/article/us-climate-egypt-idUSTRE6AD1DI20101114" target="_blank">http://www.reuters.com/article/us-climate-egypt-idUSTRE6AD1DI20101114</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Alexandria" target="_blank">https://en.wikipedia.org/wiki/Alexandria</a></li>
+<li><a href="http://dateandtime.info/distanceequator.php?id=361058" target="_blank">http://dateandtime.info/distanceequator.php?id=361058</a></li>
+</ul>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/joshuastory/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/joshuastory/">Joshua Story</a></h5>
+      <h6 class="card-subtitle">Student</h6>
+      <p class="card-text" itemprop="description">The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2017.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="As an undergraduate studying actuarial science, I will be spending ample time learning about insurance and risk management in the future, from practicing financial mathematics to understanding sound business procedure. So I decided to undertake my analysis project with a focus towards learning more about insurance in the context of the Egyptian Gazette newspaper. Most of my research was done by using the XPath search functions and reading some online media.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/17-analysis-ukah/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.9854c300b0792a5a8461f9d3a469acaa.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/post/17-analysis-ukah/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/post/17-analysis-ukah/">
+  <meta property="og:title" content="Aspects of Insurance | Digital Egyptian Gazette">
+  <meta property="og:description" content="As an undergraduate studying actuarial science, I will be spending ample time learning about insurance and risk management in the future, from practicing financial mathematics to understanding sound business procedure. So I decided to undertake my analysis project with a focus towards learning more about insurance in the context of the Egyptian Gazette newspaper. Most of my research was done by using the XPath search functions and reading some online media."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-04-30T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2017-04-30T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Aspects of Insurance | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Aspects of Insurance</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2017-04-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2017-04-30 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/kennethukah/">Kenneth Ukah</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Apr 30, 2017</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/17-analysis-ukah/&amp;text=Aspects%20of%20Insurance" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/17-analysis-ukah/&amp;t=Aspects%20of%20Insurance" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Aspects%20of%20Insurance&amp;body=https://dig-eg-gaz.github.io/post/17-analysis-ukah/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/17-analysis-ukah/&amp;title=Aspects%20of%20Insurance" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Aspects%20of%20Insurance%20https://dig-eg-gaz.github.io/post/17-analysis-ukah/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/17-analysis-ukah/&amp;title=Aspects%20of%20Insurance" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><img src="ukahSUN.jpg" alt="Sun" /></p>
+
+<p>As an undergraduate studying actuarial science, I will be spending ample time learning about insurance and risk management  in the future, from practicing financial mathematics to understanding sound business procedure. So I decided to undertake  my analysis project with a focus towards learning more about insurance in the context of the <em>Egyptian Gazette</em>  newspaper. Most of my research was done by using the XPath search functions and reading some online media. In this  report I will discuss what my findings were, my research process and analysis, and some ways to continue this study  given what information I have now.</p>
+
+<h4 id="insurance-vs-assurance">Insurance vs Assurance</h4>
+
+<p>One of the first things I noticed while scanning the newspaper for insurance ads was that there were a  handful of ads for assurance firms as well. From what I understand, assurance is just another form of insurance.  The rates, policies and procedures are different, yes, but they serve the same purpose. In fact, many insurance  ad blocks advertise both forms by placing two firms of different specialties in one block. For example, the Royal Insurance  Company is almost always grouped with the Phoenix Assurance Company in their ad block. I suspect the firms cooperated  or are affiliated in some way to occupy that space.</p>
+
+<p>I do not see much difference between the two forms of insurance to warrant excluding one form from my analysis.  In the future, extensive analysis of insurance or assurance alone might make for more discussion of this topic.</p>
+
+<h4 id="insurance-firms-and-their-specialties">Insurance Firms and Their Specialties</h4>
+
+<p>I started my analysis by using XPath to search for every insurance and assurance firm mentioned in the newspaper within  the number of issues available to me. Here are some of the core searches that yielded the most results:</p>
+
+<ul>
+<li><code>//div[@type=&quot;page&quot;][@n=&quot;1&quot;]//head[contains(.,&quot;Insurance&quot;)]</code></li>
+<li><code>//div[@type=&quot;page&quot;][@n=&quot;1&quot;]//head[contains(.,&quot;INSURANCE&quot;)]</code></li>
+<li><code>//div[@type=&quot;page&quot;][@n=&quot;3&quot;]//p[contains(.,&quot;insurance&quot;)]</code></li>
+</ul>
+
+<p>To summarize this approach, I browsed every paragraph (p) and header (head) for the variations of the words &ldquo;insurance&rdquo; and  &ldquo;assurance&rdquo;. The vast majority of results came from the first two pages of any issue, in the form of advertisements.</p>
+
+<p>Searching anywhere else brought mixed results: mentions of insurance within headers were rare outside pages 1-2; searching  within paragraphs, however, brought some success. These results came in the form of articles. While some firms were  mentioned in the articles, I ultimately decided to narrow my focus to advertisements, as the articles&rsquo; information  regarding firms was not sufficient for the type of analysis I wanted to undergo.</p>
+
+<p>Here are all of the insurance and assurance firms I found, their specialties, and their founding dates.</p>
+
+<p><img src="ukahEGFirms.png" alt="insurance firms" /></p>
+
+<p>There is a relatively even distribution of fire, life, and marine insurance firms, as well as combinations of the three.  A handful of these firms are grouped together in the newspaper. Such pairs include Edinburgh Life and Society of Canton, and  Royal Insurance and Phoenix Assurance. The number of different firms is smalller than expected, but they appear quite often  the newspaper. Based on my searching, a moderate percentage of these firms make daily appearances in the newspaper issues for some time.</p>
+
+<p>The prevalence of these forms of insurance may be explained with historical perspective. Egypt in 1905-1906 is a colony under  Britain, and Britain brought to Egypt its forms of trade and business. Britain having port cities is an explanation for the  presence of marine insurance in the newspaper, for example. Most if not all of these firms are founded in London or  Europe at the least, and it seems most of them had spread their business practices.</p>
+
+<h4 id="a-closer-look-at-some-insurance-firms">A Closer Look at Some Insurance Firms</h4>
+
+<p>The <a href="https://play.google.com/store/books/details?id=mDVOAQAAMAAJ" target="_blank">1921 Insurance Almanac</a> by The Underwriter Printing and Publishing Co. provides descriptions of multiple  insurance firms found in the <em>Egyptian Gazette</em>.</p>
+
+<h5 id="sun-insurance-office">Sun Insurance Office</h5>
+
+<blockquote>
+<p>The Sun Insurance Office is the oldest insurance company in the world, having been organized in 1710. It was known as the Sun Fire Office until 1891, when by act of Parliament its present title was assumed and the company received authority to transact all kinds of insurance. The resources and operations of the Sun are very extensive; it covers a great variety of risks and has agencies in all parts of the world.</p>
+</blockquote>
+
+<p>So about a decade after the time frame of this analysis, The Sun Insurance Office became a strong force in the market,  with assets in the quarter billions. Sun Insurance was one of the more prevalent ads in the <em>Gazette</em> at this time as well.</p>
+
+<h5 id="phoenix-assurance-company-limited">Phoenix Assurance Company, Limited</h5>
+
+<blockquote>
+<p>The Phoenix is one of the largest and most widely operated Fire Insurance companies in the world. Its assets approximate $95,451,688; its surplus and special funds $11,584,565. The reputation of the company is of the best in all respects; its strength is most impressive, its respect for its obligations is traditional, and its operations have been attended with exceptional profit. Admitted to the United States in 1804, it was the first English fire insurance company to establish an American agency plant.</p>
+</blockquote>
+
+<p>Phoenix Assurance was one of the most common insurance ads in the <em>Gazette</em>.</p>
+
+<p>Something else to note from the <em>Insurance Almanac</em> is that many firms in the <em>Gazette</em> have specialties beyond  fire, life, and marine. Sun Insurance also specialized in auto, tornado, and explosion insurance. Phoenix Assurance  covered for riots and civil commotion as well as sprinkler leakage.</p>
+
+<h4 id="data-visualizations">Data Visualizations</h4>
+
+<p>Insurance firms in the <em>Gazette</em> were rated highly in the <em>Insurance Almanac</em>. So I endeavored to find out if there  was a correlation between an insurance firm&rsquo;s success and its prevalence in the newspaper, but not all thirteen firms were  in the the almanac, unfortunately. A handful of firms mention their funds in their ads, though, so that would be my second  parameter, and a more objective one at that.</p>
+
+<p>Here are the numbers of times a firm&rsquo;s advertisement appeared in the <em>Gazette</em>, using XPath to count the number of valid targets:</p>
+
+<p><img src="ukahEGData1.png" alt="firm frequency" /></p>
+
+<p>Here are the <strong>reported</strong> funds of firms in the <em>Gazette</em>, taken from the insurance ads (non-reporting firms&rsquo; values are left blank):</p>
+
+<p><img src="ukahEGData2.png" alt="firm funds" /><br />
+<em>Gresham Life&rsquo;s funds were converted from euros to pounds</em></p>
+
+<p>Unfortunately, half of the firms in the <em>Gazette</em> do not mention their funds in their ads, making the data very incomplete,  but not useless. There is enough data to come to the conclusion that a relation between a firm&rsquo;s prevalence in the newspaper  and its funds is non-existent. Guardian Insurance and Law Union &amp; Crown have a similar number of funds but one shows up  nearly 150 times while the other, under ten. Another example: Gresham Life has the second-highest funds out of the thirteen, but only appears seven times in the <em>Gazette</em>. And there are more.</p>
+
+<p>So there are some other reasons as to why a firm appears as often as it does unrelated to the success of the firm. It may be  that the reason has more to do with the newspaper than the insurance firms.</p>
+
+<h4 id="final-thoughts-and-continuation-of-the-study">Final Thoughts and Continuation of The Study</h4>
+
+<p>I was left dissatisfied with how my results turned out. My decision to focus my research and data through the advertisements  may have been a reason why the results turned out as they did, but not having enough time to fully develop my findings,  I feel, is a more comprehensive reason. Deeper and more substantial analysis of this topic requires a better understanding  of history and finance, something I cannot afford to acquire at this moment.</p>
+
+<p>There are some other directions of study that can be taken with regards to insurance in the <em>Gazette</em> that may lead to  more substantial analysis projects.</p>
+
+<h5 id="xpath-and-the-historical-context">XPath and The Historical Context</h5>
+
+<p>It is safe to say that there may be more about the insurance firms to be found in the newspaper apart from in advertisements,  and the key to finding that information lies in the <em>Gazette</em>&rsquo;s articles. I had some success searching for key words  such as &ldquo;fire,&rdquo; or &ldquo;disaster&rdquo; in paragraphs using XPath. And the fact that the majority of insurance firms in the <em>Gazette</em> specialize in fire insurance is no coincidence. With a deeper understanding of Egypt&rsquo;s history through secondary sourcesor personal knowledge, the context behind the ads and articles can be better understood.  (P.G.M. Dickinson&rsquo;s <em>The Sun Insurance Office, 1710-1960: The History of Two and a Half Centuries of British Insurance</em> is a good place to start.)</p>
+
+<h5 id="the-financial-context">The Financial Context</h5>
+
+<p>I originally intended to include analysis of insurance firms in financial tables in the <em>Gazette</em>, until I could not find any: searching table cells for insurance firms proved fruitless. I admit my knowledge of XPath and finance is limited, but there must be <em>something</em> of worth to find in that  newspaper, if not, perhaps through secondary sources. The Reuter&rsquo;s Telegrams  and Share List tables may be the best chances at finding potentially useful information in relation to insurance.</p>
+
+<h5 id="faulty-xpath-results-and-limited-issues">Faulty XPath Results and Limited Issues</h5>
+
+<p>While effectively using XPath searches proved difficult, a part of the difficulty came from sifting through incomplete issues or  incorrect coding, which would always skew the results of XPath searches. The pool of information in these issues is always  changing as additional issues are completed and archived as well. The imperfections of the analysis and coding are to  be expected, as this is an undergraduate level course. Perhaps with time and additional data from the <em>Egyptian Gazette</em>,  projects of this form can yield more substantial results.</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/kennethukah/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/kennethukah/">Kenneth Ukah</a></h5>
+      <h6 class="card-subtitle">Student</h6>
+      <p class="card-text" itemprop="description">The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2017.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

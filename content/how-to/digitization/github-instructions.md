@@ -43,14 +43,18 @@ When your page files are complete, you can fold them from your own fork into the
 I will then see the pull request and either merge your files into the organization's content or request that you change something before doing so. If you want to check the status of your pull requests, scroll all the way to the top of the github web page. Click on "Pull requests" in white letters on a black background. You will then see a list of the pull requests you've submitted.
 
 ## 5. How do I make sure that my content fork is up to date?
-In the screenshot above, you'll notice the caption "This branch is 1 commit ahead, 98 commits behind dig-eg-gaz:master." The "commit ahead" is work that needs to be submitted in a pull request and merged. The "commits behind" represents work that your colleagues have done, and that has been merged into the master content repository but hasn't made it to your fork yet. When it comes time to do your querying and analysis of others' files, it's very important to make sure that you are working on an up-to-date version of the content files. When you look at your fork of the `dig-eg-gaz/content` repository on the github website, you will see a line comparing your repository to the organization repository:
+In the screenshot above, you'll notice the caption "This branch is 1 commit ahead, 98 commits behind dig-eg-gaz:master." "Commits ahead" is work that you've done and will (or have already) submitted in a pull request. Once it's merged into the master content repository, your fork will be "no commits ahead". 
+
+"Commits behind" represents work that your colleagues have done and that has been merged into the master content repository _after_ you first made your fork. These updates don't make their way into your fork automatically. Normally this is not big deal, as you aren't working on those files anyway. But when it comes time to do your querying and analysis of the whole repository, it's very important to make sure that you are working on an up-to-date version of the master content files. 
+
+When you look at your fork of the `dig-eg-gaz/content` repository on the github website, you will see a line comparing your repository to the organization repository:
 ![not up to date](/img/250-commits-behind.png)
 If you are ahead, click the "new pull request" button above the status report and ask the organization to merge your changes.
 
 If you are behind:
 
 1. click "pull request" on the same line and to the right of the status of the report.
-2. You may then be taken to a screen saying "There isn't anything to compare." Click on the "switching the base" link just below.
+2. You need to manipulate things so that your fork is the "base repository" and the `dig-eg-gaz/content` is the "head repository". I'm not completely sure how to accomplish this...
 3. You will then be taken to a screen that allows you to create a pull request. Do so.
 4. This pull request will now appear on the "pull requests" tab of your fork of the content folder.
 ![pull requests](/img/pull-requests-tab.png)
