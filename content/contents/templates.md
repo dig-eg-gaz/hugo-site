@@ -414,9 +414,9 @@ feature `claimsEstate`|[XML Format example](https://github.com/dig-eg-gaz/boiler
 
 ## Export Manifests
 
-feature `exportManifests`|[XML Format example](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/export-manifests.xml)|Example: 1905-07-12
+feature `exportManifests`|No template|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests.png)|**Notes**: This list is unique in each issue. Tag placenames and dates, and break out the number and unit of exported commodities in the table. table xml:id `deg-ta-exma01`<br><br>|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests.png)|**Notes**: This item is unique in each issue. Use OCR, and when formatting ensure that each line is its own `<p>`. No further formatting required|Earliest: <br><br>Latest:
 
 ## Mouvement Maritime
 

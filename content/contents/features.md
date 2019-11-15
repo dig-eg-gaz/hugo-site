@@ -48,7 +48,7 @@ Section Name|feature|Usual page(s)|Frequency|Notes
 **Chronique Financiere** |"chroniqueFinanciere"|3,4||French language
 **Circulaire H. de Vries et Boutigny. Notes et Critiques**  |"circulaire"|3,4||French language
 **Bulletin de la Bourse**  |"bulletinBourse"|||French language
-**[Export Manifests](/contents/templates/#export-manifests)** |"exportManifests"|||See [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/export-manifests.xml) for format
+**[Export Manifests](/contents/templates/#export-manifests)** |"exportManifests"|||Use OCR and break each line into its own `<p>`.
 
 ## "Notes from" section:
 These notes typically appear on page 3. They are sourced to "Our Own Correspondent". Treat individual stories as `<div type="item">`, each with its own `<head>`. It is not always clear how many stories belong to the section.

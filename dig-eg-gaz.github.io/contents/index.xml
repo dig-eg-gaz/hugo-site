@@ -14294,7 +14294,7 @@
 &lt;td&gt;&amp;ldquo;exportManifests&amp;rdquo;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;See &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/export-manifests.xml&#34; target=&#34;_blank&#34;&gt;template&lt;/a&gt; for format&lt;/td&gt;
+&lt;td&gt;Use OCR and break each line into its own &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -15686,7 +15686,7 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;feature &lt;code&gt;exportManifests&lt;/code&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/export-manifests.xml&#34; target=&#34;_blank&#34;&gt;XML Format example&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;No template&lt;/th&gt;
 &lt;th&gt;Example: 1905-07-12&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -15694,7 +15694,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests.png&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This list is unique in each issue. Tag placenames and dates, and break out the number and unit of exported commodities in the table. table xml:id &lt;code&gt;deg-ta-exma01&lt;/code&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This item is unique in each issue. Use OCR, and when formatting ensure that each line is its own &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;. No further formatting required&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
