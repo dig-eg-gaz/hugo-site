@@ -15576,7 +15576,7 @@
 
 &lt;h2 id=&#34;vade-mecum-for-the-homeward-bound&#34;&gt;Vade Mecum for the Homeward Bound&lt;/h2&gt;
 
-&lt;h3 id=&#34;1905-variant&#34;&gt;1905 Variant&lt;/h3&gt;
+&lt;h3 id=&#34;1904-1905-variant&#34;&gt;1904-1905 Variant&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -15632,6 +15632,26 @@
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1906_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1906.jpg&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This full-page vacation advertising section features on the seventh page of many issues between December 1906 and April 1907. Individual ads are not given their own &lt;code&gt;xml:id&lt;/code&gt;s, because they are consistently repeated.&lt;br&gt;&lt;br&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: 1906-12-?? &lt;br&gt;&lt;br&gt;Latest: 1907-04-??&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;1907-08-variant&#34;&gt;1907-08 Variant&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;xml:id &lt;code&gt;deg-el-vmhb03&lt;/code&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1907.xml&#34; target=&#34;_blank&#34;&gt;XML Template&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;Example:&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1907_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34; /&gt; &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1907.jpg&#34; target=&#34;_blank&#34;&gt;Full size image&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This full-page vacation advertising section features on the seventh page of many issues between December 1907 and April 1908. Individual ads are not given their own &lt;code&gt;xml:id&lt;/code&gt;s, because they are consistently repeated.&lt;br&gt;&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;Earliest: 1907-12-?? &lt;br&gt;&lt;br&gt;Latest: 1908-04-??&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

@@ -382,7 +382,7 @@ xml:id `deg-el-egsa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 ## Vade Mecum for the Homeward Bound
 
-### 1905 Variant
+### 1904-1905 Variant
 xml:id `tba`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1905-03.xml)|Example: 1905-03-10
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1905-03_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1905-03.jpg)|**Notes**: Two-page version.<br><br>|Earliest: 1905-03-10 <br><br>Latest:
@@ -396,6 +396,11 @@ xml:id `deg-el-vmhb01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 xml:id `deg-el-vmhb02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1906.xml)|Example:
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1906_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1906.jpg)|**Notes**: This full-page vacation advertising section features on the seventh page of many issues between December 1906 and April 1907. Individual ads are not given their own `xml:id`s, because they are consistently repeated.<br><br>|Earliest: 1906-12-?? <br><br>Latest: 1907-04-??
+
+### 1907-08 Variant
+xml:id `deg-el-vmhb03`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1907.xml)|Example:
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1907_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1907.jpg)|**Notes**: This full-page vacation advertising section features on the seventh page of many issues between December 1907 and April 1908. Individual ads are not given their own `xml:id`s, because they are consistently repeated.<br><br>|Earliest: 1907-12-?? <br><br>Latest: 1908-04-??
 
 # Non-templated recurring features
 The content of these items changes completely from issue to issue, so they should be OCRed. They are listed here to show the desired format for optimal search discoverability.
