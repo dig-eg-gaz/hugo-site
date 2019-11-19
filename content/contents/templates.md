@@ -385,7 +385,7 @@ xml:id `deg-el-egsa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ### 1904-1905 Variant
 xml:id `tba`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1905-03.xml)|Example: 1905-03-10
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1905-03_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1905-03.jpg)|**Notes**: Two-page version.<br><br>|Earliest: 1905-03-10 <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1904_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1905-03.jpg)|**Notes**: Two-page version.<br><br>|Earliest: 1905-03-10 <br><br>Latest:
 
 ### 1905-06 Variant
 xml:id `deg-el-vmhb01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1905.xml)|Example: 1905-12-05
@@ -393,12 +393,12 @@ xml:id `deg-el-vmhb01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1905_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1905.jpg)|**Notes**: This full-page vacation advertising section features on the seventh page of many issues between December 1905 and April 1906. This example, from December 5, 1905, was produced by Samantha Lappin. Variations from issue to issue appear to be minor. Individual ads are not given their own `xml:id`s, because they are consistently repeated.<br><br>|Earliest: 1905-12-01-p5 <br><br>Latest: 1906-04-06?
 
 ### 1906-07 Variant
-xml:id `deg-el-vmhb02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1906.xml)|Example:
+xml:id `deg-el-vmhb02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1906.xml)|Example: 1906-12-31
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1906_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1906.jpg)|**Notes**: This full-page vacation advertising section features on the seventh page of many issues between December 1906 and April 1907. Individual ads are not given their own `xml:id`s, because they are consistently repeated.<br><br>|Earliest: 1906-12-?? <br><br>Latest: 1907-04-??
 
 ### 1907-08 Variant
-xml:id `deg-el-vmhb03`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1907.xml)|Example:
+xml:id `deg-el-vmhb03`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/vade-mecum-1907.xml)|Example: 1908-01-28
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1907_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/vade-mecum-1907.jpg)|**Notes**: This full-page vacation advertising section features on the seventh page of many issues between December 1907 and April 1908. Individual ads are not given their own `xml:id`s, because they are consistently repeated.<br><br>|Earliest: 1907-12-?? <br><br>Latest: 1908-04-??
 
