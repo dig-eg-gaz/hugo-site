@@ -53,9 +53,9 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34|4|1907-10-31 missing from microfilm
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|||
 ---|---|---|---|---|---|---
-46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|38|3|missing 1907-11-16-p7, 1907-11-16-p8
+46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|38|3|missing 1907-11-16-p7, 1907-11-16-p8, 1907-11-15-p5
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
-49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40||fix filename
+49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40||
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40||
 51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
