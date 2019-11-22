@@ -103,6 +103,11 @@
   </url>
   
   <url>
+    <loc>https://dig-eg-gaz.github.io/resources/external-tools/</loc>
+    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dig-eg-gaz.github.io/resources/unicode/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
@@ -168,6 +173,11 @@
   </url>
   
   <url>
+    <loc>https://dig-eg-gaz.github.io/</loc>
+    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/peytonsmith/</loc>
     <lastmod>2019-10-22T00:00:00+00:00</lastmod>
   </url>
@@ -189,11 +199,6 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/tags/death/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/</loc>
     <lastmod>2019-10-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -2498,12 +2503,12 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/categories/technology/</loc>
+    <loc>https://dig-eg-gaz.github.io/tags/technology/</loc>
     <lastmod>2016-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/tags/technology/</loc>
+    <loc>https://dig-eg-gaz.github.io/categories/technology/</loc>
     <lastmod>2016-11-29T00:00:00+00:00</lastmod>
   </url>
   
