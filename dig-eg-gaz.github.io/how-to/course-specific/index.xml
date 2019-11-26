@@ -131,9 +131,13 @@ categories: [analysis]
 
 &lt;p&gt;Place the following bit of code in a markdown file, and your visualization should appear: &lt;code&gt;&amp;lt;iframe src=&amp;quot;your-githack-link&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;400&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;how-do-i-submit-material&#34;&gt;How do I submit material?&lt;/h2&gt;
+&lt;h2 id=&#34;how-do-i-submit-my-individual-project&#34;&gt;How do I submit my individual project?&lt;/h2&gt;
 
 &lt;p&gt;Fork the &lt;a href=&#34;https://github.com/dig-eg-gaz/analysis&#34; target=&#34;_blank&#34;&gt;analysis&lt;/a&gt; repository. Then, make a folder called named &lt;code&gt;19-analysis-yourSurname&lt;/code&gt; and add it to this fork. Add your analysis text file (named &lt;code&gt;index.md&lt;/code&gt;) to this folder, as well as your images. Make sure that you have no spaces in your file names&amp;ndash;use dashes instead. Once your folder is complete, send a pull request. Do this at least twice: first you&amp;rsquo;ve finished a draft, and a second time once you&amp;rsquo;ve completed your analysis. It is fine to do it more often too, sending partial material or drafts. I will make comments, and you can revise them.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-do-we-submit-our-group-work&#34;&gt;How do we submit our group work?&lt;/h2&gt;
+
+&lt;p&gt;One member of the group should add a folder named &lt;code&gt;19-analysis-yourGroupTopic&lt;/code&gt; to their fork of the analysis repository. This folder should be structured the same as the individual project: an &lt;code&gt;index.md&lt;/code&gt; file and image files. In the &lt;code&gt;author:&lt;/code&gt; line of the markdown header, list all members of the group.&lt;/p&gt;
 
 &lt;h2 id=&#34;directory-of-previous-analysis-projects&#34;&gt;Directory of Previous Analysis Projects&lt;/h2&gt;
 

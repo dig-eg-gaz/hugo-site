@@ -77,9 +77,13 @@ For **Google Charts**:
 
 Place the following bit of code in a markdown file, and your visualization should appear: `<iframe src="your-githack-link" width="90%" height="400"/>`
 
-## How do I submit material?
+## How do I submit my individual project?
 
 Fork the [analysis](https://github.com/dig-eg-gaz/analysis) repository. Then, make a folder called named `19-analysis-yourSurname` and add it to this fork. Add your analysis text file (named `index.md`) to this folder, as well as your images. Make sure that you have no spaces in your file names--use dashes instead. Once your folder is complete, send a pull request. Do this at least twice: first you've finished a draft, and a second time once you've completed your analysis. It is fine to do it more often too, sending partial material or drafts. I will make comments, and you can revise them.
+
+## How do we submit our group work?
+
+One member of the group should add a folder named `19-analysis-yourGroupTopic` to their fork of the analysis repository. This folder should be structured the same as the individual project: an `index.md` file and image files. In the `author:` line of the markdown header, list all members of the group.
 
 ## Directory of Previous Analysis Projects
 
