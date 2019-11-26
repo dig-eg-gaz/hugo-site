@@ -42,7 +42,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
-35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|37|6|1907-08-31-p8 missing
+35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|38|6|
 37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|3|
 ---|---|---|---|---|---|---
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||
@@ -53,7 +53,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34|4|1907-10-31 missing from microfilm
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|||
 ---|---|---|---|---|---|---
-46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|38|3|missing 1907-11-16-p7, 1907-11-16-p8, 1907-11-15-p5
+46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|40|3|
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40||
 ---|---|---|---|---|---|---
