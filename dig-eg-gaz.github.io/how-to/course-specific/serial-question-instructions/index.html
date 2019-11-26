@@ -482,21 +482,28 @@ categories: [analysis]
 
 <h3 id="1-host-the-visualization">1. Host the visualization:</h3>
 
-<p>For <strong>Tableau</strong>, you will need to upload your workbook to Tableau Public&rsquo;s server. Use the &ldquo;server&rdquo; drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.</p>
+<p>For <strong>Tableau</strong>:</p>
 
-<p>For <strong>Google Charts</strong>, perhaps the easiest thing to do is to post your code as a <a href="https://gist.github.com/" target="_blank">gist</a>, then render it using a link from <a href="http://rawgit.com/" target="_blank">rawgit</a>.</p>
+<p>Upload your workbook to Tableau Public&rsquo;s server. Use the &ldquo;server&rdquo; drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.</p>
+
+<p>For <strong>Google Charts</strong>:</p>
+
+<p>Post your code as a <a href="https://gist.github.com/" target="_blank">gist</a>, then render it using a link from <a href="http://raw.githack.com/" target="_blank">githack</a>.</p>
 
 <h3 id="2-embed-the-visualization">2. Embed the visualization:</h3>
 
-<ul>
-<li>For <strong>Tableau</strong>, a complete version of embedding instructions is included in this <a href="https://www.datavizforall.org/embed/tableau/" target="_blank">excellent tutorial</a>. Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:</li>
-</ul>
+<p>For <strong>Tableau</strong>:</p>
 
-<p><code>&lt;iframe src=&quot;https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&amp;:embed=true&quot; align=&quot;center&quot; width=&quot;90%&quot; height=&quot;500&quot;&gt;&lt;/iframe&gt;</code></p>
+<p>A complete version of embedding instructions is included in this <a href="https://www.datavizforall.org/embed/tableau/" target="_blank">excellent tutorial</a>. Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:</p>
+
+<pre><code class="language-xml">&lt;iframe src=&quot;https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&amp;:embed=true&quot; align=&quot;center&quot; width=&quot;90%&quot; height=&quot;500&quot;&gt;&lt;/iframe&gt;
+</code></pre>
 
 <p>(For the <code>YOURURLHERE</code> part, include everything to the right of <code>views/</code> and to the left of the question mark. Your line should look something like this: <code>&lt;iframe src=&quot;https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&amp;:embed=true&quot; align=&quot;center&quot; width=&quot;90%&quot; height=&quot;500&quot;&gt;&lt;/iframe&gt;</code>.) Paste this code into your markdown file.</p>
 
-<p>For <strong>Google Charts</strong>, place this bit of code in a markdown file, and your visualization should appear: <code>&lt;iframe src=&quot;your-rawgit-link&quot; width=&quot;90%&quot; height=&quot;400&quot;/&gt;</code></p>
+<p>For <strong>Google Charts</strong>:</p>
+
+<p>Place the following bit of code in a markdown file, and your visualization should appear: <code>&lt;iframe src=&quot;your-githack-link&quot; width=&quot;90%&quot; height=&quot;400&quot;/&gt;</code></p>
 
 <h2 id="how-do-i-submit-material">How do I submit material?</h2>
 

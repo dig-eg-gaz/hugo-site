@@ -52,18 +52,30 @@ The easiest thing to do is to take a screenshot and include the static image usi
 If, however, you have produced an [interactive visualization](/how-to/digitization/visualization-instructions/) using Tableau or Google Charts, you need to do two things to embed data visualizations in your markdown github pages.
 
 ### 1. Host the visualization:
-For **Tableau**, you will need to upload your workbook to Tableau Public's server. Use the "server" drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.
 
-For **Google Charts**, perhaps the easiest thing to do is to post your code as a [gist](https://gist.github.com/), then render it using a link from [rawgit](http://rawgit.com/).
+For **Tableau**:
+
+Upload your workbook to Tableau Public's server. Use the "server" drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.
+
+For **Google Charts**: 
+
+Post your code as a [gist](https://gist.github.com/), then render it using a link from [githack](http://raw.githack.com/).
 
 ### 2. Embed the visualization:
-- For **Tableau**, a complete version of embedding instructions is included in this [excellent tutorial](https://www.datavizforall.org/embed/tableau/). Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:
 
-`<iframe src="https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>`
+For **Tableau**:
+
+A complete version of embedding instructions is included in this [excellent tutorial](https://www.datavizforall.org/embed/tableau/). Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:
+
+```xml
+<iframe src="https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>
+```
 
 (For the `YOURURLHERE` part, include everything to the right of `views/` and to the left of the question mark. Your line should look something like this: `<iframe src="https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>`.) Paste this code into your markdown file.
 
-For **Google Charts**, place this bit of code in a markdown file, and your visualization should appear: `<iframe src="your-rawgit-link" width="90%" height="400"/>`
+For **Google Charts**:
+
+Place the following bit of code in a markdown file, and your visualization should appear: `<iframe src="your-githack-link" width="90%" height="400"/>`
 
 ## How do I submit material?
 
