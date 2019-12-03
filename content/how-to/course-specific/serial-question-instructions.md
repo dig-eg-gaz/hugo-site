@@ -1,5 +1,5 @@
 ---
-title: Serial question instructions
+title: Serial question analysis instructions
 linktitle: Serial question
 toc: true
 type: docs
@@ -12,34 +12,28 @@ menu:
 
 weight: 2
 ---
-Your final project is to consider a theme or question that recurs across many issues of the *Egyptian Gazette*
+Your final project is to consider a theme or question that recurs across many issues of the *Egyptian Gazette*.
 
 Part of your work is to compose a serial question that makes sense and can be answered by the dataset. Explain this question (supplying, for instance, the xpath formula you will use), and explain how you extract the results. For guidance on queries, consult the [tutorial](/how-to/digitization/query-instructions).
 
 To consult previous serial analysis projects, see this [directory](#directory-of-previous-analysis-projects).
 
-## How do I submit material?
-
-Fork the [analysis](https://github.com/dig-eg-gaz/analysis) repository, add your analysis and images, and send a pull request. Do this at least twice: once you've finished your question, and a second time once you've written your analysis. It is fine to do it more often too, sending partial material or drafts. I will make comments, and you can revise them.
-
-Make sure that *every* file name starts with your name (so that we don't get confused by a whole bunch of `graph.jpg` files), and that you have no spaces in your file names--use dashes instead.
-
 ## How do I format my serial analysis?
 
-Write it in markdown.
+Write your file in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), just as you did for the [blog post](/how-to/course-specific/blogging-instructions).
 
-Use a header:
+Use a header containing these lines. Supply the title, your name, and the date:
 
 ```
 ---
-layout: page
-title: <!--- insert title --->
-permalink: /post/18-analysis-yourname-analysis
-author: YourName
+title: "YourTitle"
+authors: [YourName]
+date: YYYY-MM-DDD
+categories: [analysis]
 ---
 ```
 
-Name it `yourname-analysis.md`.
+Name this file `index.md`.
 
 ## What about images?
 
@@ -57,17 +51,39 @@ The easiest thing to do is to take a screenshot and include the static image usi
 
 If, however, you have produced an [interactive visualization](/how-to/digitization/visualization-instructions/) using Tableau or Google Charts, you need to do two things to embed data visualizations in your markdown github pages.
 
-1. Host the visualization:
-- For Tableau, you will need to upload your workbook to Tableau Public's server. Use the "server" drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.
-- For Google Charts, perhaps the easiest thing to do is to post your code as a [gist](https://gist.github.com/), then render it using a link from [rawgit](http://rawgit.com/).
+### 1. Host the visualization:
 
-2. Embed the visualization:
-- For Tableau, a complete version of embedding instructions is included in this [excellent tutorial](https://www.datavizforall.org/embed/tableau/). Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:
+For **Tableau**:
 
-`<iframe src="https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>`
+Upload your workbook to Tableau Public's server. Use the "server" drop down menu and follow instructions. You will need to sign up for an online account, and you might have to save your dataset.
+
+For **Google Charts**: 
+
+Post your code as a [gist](https://gist.github.com/), then render it using a link from [githack](http://raw.githack.com/).
+
+### 2. Embed the visualization:
+
+For **Tableau**:
+
+A complete version of embedding instructions is included in this [excellent tutorial](https://www.datavizforall.org/embed/tableau/). Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:
+
+```xml
+<iframe src="https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>
+```
 
 (For the `YOURURLHERE` part, include everything to the right of `views/` and to the left of the question mark. Your line should look something like this: `<iframe src="https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>`.) Paste this code into your markdown file.
-- For Google Charts, place this bit of code in a markdown file, and your visualization should appear: `<iframe src="your-rawgit-link" width="90%" height="400"/>`
+
+For **Google Charts**:
+
+Place the following bit of code in a markdown file, and your visualization should appear: `<iframe src="your-githack-link" width="90%" height="400"/>`
+
+## How do I submit my individual project?
+
+Fork the [analysis](https://github.com/dig-eg-gaz/analysis) repository. Then, make a folder called named `19-analysis-yourSurname` and add it to this fork. Add your analysis text file (named `index.md`) to this folder, as well as your images. Make sure that you have no spaces in your file names--use dashes instead. Once your folder is complete, send a pull request. Do this at least twice: first you've finished a draft, and a second time once you've completed your analysis. It is fine to do it more often too, sending partial material or drafts. I will make comments, and you can revise them.
+
+## How do we submit our group work?
+
+One member of the group should add a folder named `19-analysis-yourGroupTopic` to their fork of the analysis repository. This folder should be structured the same as the individual project: an `index.md` file and image files. In the `author:` line of the markdown header, list all members of the group.
 
 ## Directory of Previous Analysis Projects
 

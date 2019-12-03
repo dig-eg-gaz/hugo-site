@@ -22,17 +22,17 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|||
 38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|3||
 ---|---|---|---|---|---|---
-51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|46||missing pp 7-8 of Monday
+51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|46|3|missing pp 7-8 of Monday
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
 3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
-10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8||
+10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8|1|
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|33||lacking 1907-05-02-p8.jpg, Fr 3-6, Sat 1-3; 1907-05-01 missing from microfilm
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
-22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40||
+22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40|6|
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|40||
 24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|38||
 ---|---|---|---|---|---|---
@@ -42,30 +42,30 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
-35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|37|6|1907-08-31-p8 missing
+35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|38|6|
 37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|3|
 ---|---|---|---|---|---|---
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||
 39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/KwNick305)|6||
 ---|---|---|---|---|---|---
 42|October 14, 1907|October 19, 1907|[Peyton Smith](https://github.com/19peytonsmith)|40|6|
-43|October 21, 1907|October 26, 1907|[Emily Seguin](https://github.com/emily-seguin)|40||
+43|October 21, 1907|October 26, 1907|[Emily Seguin](https://github.com/emily-seguin)|40|6|
 44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34|4|1907-10-31 missing from microfilm
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|||
 ---|---|---|---|---|---|---
-46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|38|3|missing 1907-11-16-p7, 1907-11-16-p8, 1907-11-15-p5
+46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|40|3|
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
-49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40||
+49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40|4|
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40||
 51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|34||
 1|December 30, 1907|January 4, 1908|[Gabrielle Murray](https://github.com/gam18g)|||
 ---|---|---|---|---|---|---
-2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|48||
-3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|||1908-01-14 missing from microfilm
+2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|48|5|
+3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|38|5|1908-01-14 missing from microfilm
 4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
-5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|48|3|
+5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|48|6|
 
 ## Items lacking (previous semesters)
 
