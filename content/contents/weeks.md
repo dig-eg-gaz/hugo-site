@@ -33,7 +33,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40|6|
-23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|40||
+23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|40|4|
 24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|38||
 ---|---|---|---|---|---|---
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|40||
