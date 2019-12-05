@@ -50,7 +50,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 42|October 14, 1907|October 19, 1907|[Peyton Smith](https://github.com/19peytonsmith)|40|6|
 43|October 21, 1907|October 26, 1907|[Emily Seguin](https://github.com/emily-seguin)|40|6|
-44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34|4|1907-10-31 missing from microfilm
+44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34|5|1907-10-31 missing from microfilm
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|||
 ---|---|---|---|---|---|---
 46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|40|3|
