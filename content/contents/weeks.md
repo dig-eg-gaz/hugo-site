@@ -29,7 +29,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8|1|
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
-18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|33||lacking 1907-05-02-p8.jpg, Fr 3-6, Sat 1-3; 1907-05-01 missing from microfilm
+18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|33|5|lacking 1907-05-02-p8.jpg, Fr 3-6, Sat 1-3; 1907-05-01 missing from microfilm
 ---|---|---|---|---|---|---
 19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40|6|
@@ -43,7 +43,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|38|6|
-37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|3|
+37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|5|
 ---|---|---|---|---|---|---
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||
 39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/KwNick305)|6||
@@ -55,7 +55,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|40|3|
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
-49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40|4|
+49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40|5|
 ---|---|---|---|---|---|---
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40||
 51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
