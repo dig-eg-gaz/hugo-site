@@ -17,21 +17,17 @@ weight: 2
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
-3|January 18, 1906|January 20, 1906|[Ozlem Atalay](https://github.com/ozlematalay)|||
-12|March 19, 1906|March 24, 1906|[Carol Howerton](https://github.com/ech15d)|||
-25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|||
-38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|3||
+25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)||3|
+38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|3|3|
 ---|---|---|---|---|---|---
-51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|46|3|missing pp 7-8 of Monday
+51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|46|6|missing pp 7-8 of Monday
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
-3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8|1|
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|33|5|lacking 1907-05-02-p8.jpg, Fr 3-6, Sat 1-3; 1907-05-01 missing from microfilm
 ---|---|---|---|---|---|---
-19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40|6|
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|40|4|
 24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|38||
@@ -43,7 +39,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|38|6|
-37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|5|
+37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|6|
 ---|---|---|---|---|---|---
 38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)|||
 39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/KwNick305)|6||
@@ -57,51 +53,39 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40|5|
 ---|---|---|---|---|---|---
-50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40||
-51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|||
+50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40|3|
+51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)||5|
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|34||
 1|December 30, 1907|January 4, 1908|[Gabrielle Murray](https://github.com/gam18g)|||
 ---|---|---|---|---|---|---
-2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|48|5|
+2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|48|6|
 3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|38|5|1908-01-14 missing from microfilm
-4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
 5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|48|6|
 
 ## Items lacking (previous semesters)
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
-7|February 13, 1905|February 18, 1905|[India Anderson](https://github.com/Indiaa)||6|ongoing
-13|March 27, 1905|April 1, 1905|[Giselle Chacon](https://github.com/Gisellechacon)||3|
 16|April 17, 1905|April 22, 1905|[Riley Ouellette](https://github.com/rouellette07/dig-eg-gaz)|All|1|
-23|June 5, 1905|June 10, 1905|[Joseph Chack-On](https://github.com/jochack/dig-eg-gaz)||3|
 24|June 12, 1905|June 17, 1905|[Thomas Corzo](https://github.com/ThomasC24)||2|
-2|January 8, 1906|January 13, 1906|[Nino Fricano](https://github.com/ninofricano)||3|
-3|January 15, 1906|January 20, 1906|[Cameron Greco](https://github.com/cgreco1)||3|
 4|January 22, 1906|January 27, 1906|[Parker Beasley](https://github.com/ParkerB21)|8|1|missing Saturday issue (1906-01-27)
-7|February 12, 1906|February 17, 1906|[Michael Hensley](https://github.com/mch15d)|24|3|
 13|March 26, 1906|March 31, 1906|[Hannah Bridges](https://github.com/hlb17)|7||
 -|April 13, 1906|||6|1|missing from microfilm?
 16|April 16, 1906|April 21, 1906|[Mia Meixner](https://github.com/Miameixner)|10|1|1906-04-16 lacking from microfilm
-18|April 30, 1906|May 5, 1906|[Jonathan Morales](https://github.com/Jonmorazav)|10|4|
+-|April 30, 1906|||2||
 -|May 9, 1906|||2||
 21|May 21, 1906|May 26, 1906|[Sabrina Nuñez](https://github.com/sabrinanunez)||2|
 23|June 4, 1906|June 9, 1906|[William Ortiz](https://github.com/williamseortiz)||2||
-27|July 2, 1906|July 7, 1906|[Huaqing Shi](https://github.com/huoyanzhizhou)|34|5|
 30|July 23, 1906|July 28, 1906|[Gretchen Sandorf](https://github.com/gretchensandorf)|5||
 31|July 30, 1906|August 4, 1906|[Jaime Sepulveda](https://github.com/jsepulveda43)|2|1|
 -|August 4, 1906|||1|
 32|August 6, 1906|August 11, 1906|[Jonathan Cannon](https://github.com/alexandriaman)|32|2|
-33|August 13, 1906|August 18, 1906|[Quin Smith](https://github.com/quinelaine)|All|3|
+33|August 13, 1906|August 15, 1906|[Quin Smith](https://github.com/quinelaine)|All||3 days
 -|September 15, 1906|||2|
-40|October 1, 1906|October 6, 1906|[Will Hanley](https://github.com/whanley)|20|3|
-42|October 15, 1906|October 20, 1906|[Kailen Chapple](https://github.com/wavyncurly)|14|3|
-44|October 29, 1906|November 3, 1906|[Gillian D'Onofrio](https://github.com/gillidonof)||4|ongoing
 -|February 4, 1906|||page 1 split|
-13|March 25, 1907|March 30, 1907|[Greyson Porter](https://github.com/gporter1)|15?|2|1907-03-29 missing? ongoing
-14|April 1, 1907|April 6, 1907|[Will Hanley](https://github.com/whanley)|20|3|
+13|March 25, 1907|March 30, 1907|[Greyson Porter](https://github.com/gporter1)|15?|2|1907-03-29 missing?
 20|May 13, 1907|May 18, 1907|[Sami Squires](https://github.com/samisquires)|28||
-28|July 8, 1907|July 13, 1907|[Patrick Mason](https://github.com/patrickmason8)|All|3|
+28|July 8, 1907|July 10, 1907|[Patrick Mason](https://github.com/patrickmason8)|All||3 days
 
 ## Images lacking from microfilm
 
@@ -117,12 +101,28 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
+7|February 13, 1905|February 18, 1905||all|1|part Monday issue
+23|June 8, 1905|June 10, 1905||all||half-week
+3|January 18, 1906|January 20, 1906||all||half-week
+7|February 15, 1906|February 17, 1906||||half-week
+12|March 19, 1906|March 24, 1906|[Carol Howerton](https://github.com/ech15d)|||
+18|May 1, 1906|May 5, 1906||T-F|5|5-day week
+27|July 2, 1906|July 7, 1906||34|5|5-day week (Huaqing)
+33|August 16, 1906|August 18, 1906||||half-week
+40|October 4, 1906|October 6, 1906||||half-week
 45|October 5, 1906|November 10, 1906||||
+42|October 17, 1906|October 20, 1906||12|4|4-half-week
+44|October 29, 1906|November 3, 1906||all|TWFS|4-day week
 49|December 3, 1906|December 8, 1906||||
+3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
+14|April 4, 1907|April 6, 1907||||half-week
+19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
+28|July 11, 1907|July 13, 1907||||half-week
 36|September 2, 1907|September 7, 1907||||
 40|September 30, 1907|October 5, 1907||||
 41|October 7, 1907|October 12, 1907||||
 48|November 25, 1907|November 30, 1907||||
+4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
 
 ## Previous courses
 
