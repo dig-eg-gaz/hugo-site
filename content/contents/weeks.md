@@ -24,9 +24,9 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
-10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|8|1|
+10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|1|
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
-18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|33|5|lacking 1907-05-02-p8.jpg, Fr 3-6, Sat 1-3; 1907-05-01 missing from microfilm
+18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|39|5|lacking 1907-05-03-p3.jpg; Not published May 1
 ---|---|---|---|---|---|---
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40|6|
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|40|4|
@@ -59,7 +59,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 1|December 30, 1907|January 4, 1908|[Gabrielle Murray](https://github.com/gam18g)|||
 ---|---|---|---|---|---|---
 2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|48|6|
-3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|38|5|1908-01-14 missing from microfilm
+3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|38|5|not published Jan 14
 5|January 27, 1908|February 1, 1908|[Jake Himmel](https://github.com/jbh18g)|48|6|
 
 ## Items lacking (previous semesters)
