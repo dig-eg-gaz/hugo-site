@@ -24,7 +24,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
-10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|1|
+10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|3|
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|||
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|39|5|lacking 1907-05-03-p3.jpg; Not published May 1
 ---|---|---|---|---|---|---
@@ -49,7 +49,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 44|October 28, 1907|November 2, 1907|[Damian Grant](https://github.com/dlg16)|34|5|1907-10-31 missing from microfilm
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|||
 ---|---|---|---|---|---|---
-46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|40|3|
+46|November 11, 1907|November 16, 1907|[Oscar Naranjo](https://github.com/onaranjo19)|40|4|
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|26||
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40|5|
 ---|---|---|---|---|---|---
