@@ -17,6 +17,8 @@ weight: 2
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
+7|February 13, 1905|February 18, 1905|[Suryia Staton](https://github.com/suryiastaton)|38||
+18|May 1, 1906|May 5, 1906|[Gabrielle Murray](https://github.com/gam18g)|30||
 25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|32|5|missing Monday, pp 7-8 of Saturday
 38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|3|3|
 ---|---|---|---|---|---|---
@@ -56,7 +58,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40|4|
 51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|40|5|
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|34||
-1|December 30, 1907|January 4, 1908|[Gabrielle Murray](https://github.com/gam18g)|||
 ---|---|---|---|---|---|---
 2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|48|6|
 3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|38|5|not published Jan 14
@@ -101,12 +102,10 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
-7|February 13, 1905|February 18, 1905||all|1|part Monday issue
 23|June 8, 1905|June 10, 1905||all||half-week
 3|January 18, 1906|January 20, 1906||all||half-week
 7|February 15, 1906|February 17, 1906||||half-week
 12|March 19, 1906|March 24, 1906|[Carol Howerton](https://github.com/ech15d)|||
-18|May 1, 1906|May 5, 1906||T-F|5|5-day week
 27|July 2, 1906|July 7, 1906||34|5|5-day week (Huaqing)
 33|August 16, 1906|August 18, 1906||||half-week
 40|October 4, 1906|October 6, 1906||||half-week
@@ -116,12 +115,13 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 49|December 3, 1906|December 8, 1906||||
 3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
 14|April 4, 1907|April 6, 1907||||half-week
-19|May 6, 1907|May 11, 1907|[Suryia Staton](https://github.com/suryiastaton)|||
+19|May 6, 1907|May 11, 1907||||
 28|July 11, 1907|July 13, 1907||||half-week
 36|September 2, 1907|September 7, 1907||||
 40|September 30, 1907|October 5, 1907||||
 41|October 7, 1907|October 12, 1907||||
 48|November 25, 1907|November 30, 1907||||
+1|December 30, 1907|January 4, 1908||||
 4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
 
 ## Previous courses
