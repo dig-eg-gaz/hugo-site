@@ -84,7 +84,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
+  <link rel="stylesheet" href="/css/academic.min.0e63a2d4cbb51cb21f28fb74861e16b4.css">
 
   
 
@@ -437,18 +437,15 @@
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#objective">Objective</a></li>
-<li><a href="#1-set-up-your-xml-editor">1. Set up your XML editor</a></li>
-<li><a href="#2-create-an-xml-file">2. Create an xml file</a></li>
-<li><a href="#3-fill-in-the-header">3. Fill in the header</a></li>
-<li><a href="#4-copy-and-paste-templated-material">4. Copy and paste templated material</a></li>
-<li><a href="#5-make-sure-that-your-document-is-well-formed">5. Make sure that your document is well-formed</a></li>
-<li><a href="#resources">Resources</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#objective">Objective</a></li>
+    <li><a href="#1-set-up-your-xml-editor">1. Set up your XML editor</a></li>
+    <li><a href="#2-create-an-xml-file">2. Create an xml file</a></li>
+    <li><a href="#3-fill-in-the-header">3. Fill in the header</a></li>
+    <li><a href="#4-copy-and-paste-templated-material">4. Copy and paste templated material</a></li>
+    <li><a href="#5-make-sure-that-your-document-is-well-formed">5. Make sure that your document is well-formed</a></li>
+    <li><a href="#resources">Resources</a></li>
+  </ul>
 </nav>
 
       
@@ -463,60 +460,34 @@
           <h1 itemprop="name">TEI-XML instructions</h1>
 
           <div class="article-style" itemprop="articleBody">
-            
-
-<h2 id="objective">Objective</h2>
-
-<p>These instructions guide you in transforming your plain text page files into a marked-up xml document that conforms to the standards of <a href="http://www.tei-c.org" target="_blank">TEI</a> (the Text Encoding Initiative).</p>
-
+            <h2 id="objective">Objective</h2>
+<p>These instructions guide you in transforming your plain text page files into a marked-up xml document that conforms to the standards of <a href="http://www.tei-c.org">TEI</a> (the Text Encoding Initiative).</p>
 <h2 id="1-set-up-your-xml-editor">1. Set up your XML editor</h2>
-
-<p>Download the full-function Oxygen XML Editor, which offers a <a href="http://www.oxygenxml.com/xml_editor/register.html" target="_blank">free 30-day trial</a>. After 30 days, you might find <a href="https://10minutemail.com/" target="_blank">ways</a> to renew your trial access, or simply purchase Oxygen using their <a href="http://oxygenxml.com/academic/" target="_blank">academic and educational discount</a>).</p>
-
+<p>Download the full-function Oxygen XML Editor, which offers a <a href="http://www.oxygenxml.com/xml_editor/register.html">free 30-day trial</a>. After 30 days, you might find <a href="https://10minutemail.com/">ways</a> to renew your trial access, or simply purchase Oxygen using their <a href="http://oxygenxml.com/academic/">academic and educational discount</a>).</p>
 <h2 id="2-create-an-xml-file">2. Create an xml file</h2>
-
-<p>Copy and paste <a href="https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/empty-issue.xml" target="_blank">this template</a> into a new document. <strong>Important</strong>: the new document will have <code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</code> as its first line, and it&rsquo;s also the first line of the template; delete one of them, otherwise your document will be ill-formed. Name this document using the date of the issue and an xml extension (YYYY-MM-DD.xml). (This document will eventually contain all of the pages of the issue, so it is not necessary to add the page number to the document name.) Save this document on your hard drive.</p>
-
+<p>Copy and paste <a href="https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/empty-issue.xml">this template</a> into a new document. <strong>Important</strong>: the new document will have <code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</code> as its first line, and it's also the first line of the template; delete one of them, otherwise your document will be ill-formed. Name this document using the date of the issue and an xml extension (YYYY-MM-DD.xml). (This document will eventually contain all of the pages of the issue, so it is not necessary to add the page number to the document name.) Save this document on your hard drive.</p>
 <h2 id="3-fill-in-the-header">3. Fill in the header</h2>
-
-<p>Enter your name into the template (under <code>&lt;editor&gt;</code>), today&rsquo;s date (under <code>&lt;edition&gt;</code>, in text and numeric formats), and the issue date (under <code>&lt;bibl&gt;</code>, in text and numeric formats). (Currently, these areas have entries in the comment format (<code>&lt;!-- --&gt;</code>)&ndash;replace these with your text). Save your file.</p>
-
+<p>Enter your name into the template (under <code>&lt;editor&gt;</code>), today's date (under <code>&lt;edition&gt;</code>, in text and numeric formats), and the issue date (under <code>&lt;bibl&gt;</code>, in text and numeric formats). (Currently, these areas have entries in the comment format (<code>&lt;!-- --&gt;</code>)&ndash;replace these with your text). Save your file.</p>
 <h2 id="4-copy-and-paste-templated-material">4. Copy and paste templated material</h2>
-
 <p>In your xml document, the text of your issue itself (as opposed to just the header) starts like this:</p>
-
-<p><img src="/img/page-1-example.png" alt="page-1-example" /></p>
-
+<p><img src="/img/page-1-example.png" alt="page-1-example"></p>
 <p>The &ldquo;nameplate&rdquo; <code>&lt;div&gt;</code> that you see here represents the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements:</p>
-
-<p><img src="/img/nameplate.png" alt="nameplate" /></p>
-
+<p><img src="/img/nameplate.png" alt="nameplate"></p>
 <p>You will need to update your xml file to reflect the content of your own issue. First, you need to look in the <a href="/contents/advertisements">advertisements directory</a> to find templates that correspond to the ads that appear in your issue. Following the detailed indications <a href="/how-to/digitization/templating-instructions/">here</a>, copy the xml text of templates you need.</p>
-
 <p>You must paste this text into the correct spot in the nameplate of your xml document. The two ads flanking the title take the form of <code>&lt;cell&gt;</code>s that go in the first <code>&lt;row&gt;</code> of the nameplate. The second <code>&lt;row&gt;</code> of the nameplate lists the number, date, and number of pages of the issue. Update this information.</p>
-
-<p><img src="/img/nameplate-2nd-row.png" alt="nameplate-2nd-row" /></p>
-
+<p><img src="/img/nameplate-2nd-row.png" alt="nameplate-2nd-row"></p>
 <p>If you switch to author mode (choose it from the text-grid-author buttons near the bottom of your screen), the whole nameplate should look something like this:</p>
-
-<p><img src="/img/author-mode-nameplate.png" alt="author-mode-nameplate" /></p>
-
+<p><img src="/img/author-mode-nameplate.png" alt="author-mode-nameplate"></p>
 <p>Now switch back to text mode and proceed to work on the rest of the page. Find the text of the first ad in the first column after the nameplate, and paste it after the <code>&lt;cb n=&quot;1&quot;/&gt;</code> tag in the advertising section division. Proceed inserting ads all the way to the end of the third column.</p>
-
 <h2 id="5-make-sure-that-your-document-is-well-formed">5. Make sure that your document is well-formed</h2>
-
-<p>At the top right hand corner of your editing window in Oxygen, there is a square that will be either red or green. If it&rsquo;s green, your document is well-formed, which means that it conforms to TEI XML standards and will be searchable and useable. If it&rsquo;s red, the file contains errors that you must fix before you submit it. The errors appear as red lines on the right hand scrolling column. Click on a line to see the error described at the bottom of your editing screen.</p>
-
+<p>At the top right hand corner of your editing window in Oxygen, there is a square that will be either red or green. If it's green, your document is well-formed, which means that it conforms to TEI XML standards and will be searchable and useable. If it's red, the file contains errors that you must fix before you submit it. The errors appear as red lines on the right hand scrolling column. Click on a line to see the error described at the bottom of your editing screen.</p>
 <p>One common error that prevents a well-formed document:</p>
-
 <ul>
 <li>doubled <code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</code> lines at the opening of the xml document.</li>
 </ul>
-
 <h2 id="resources">Resources</h2>
-
 <ul>
-<li>“<a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html" target="_blank">A Gentle Introduction to XML</a>,” TEI Consortium.</li>
+<li>“<a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html">A Gentle Introduction to XML</a>,” TEI Consortium.</li>
 </ul>
 
           </div>
