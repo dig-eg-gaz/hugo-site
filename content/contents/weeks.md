@@ -17,7 +17,7 @@ weight: 2
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
-25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)||5|
+25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|32|5|missing Monday, pp 7-8 of Saturday
 38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|3|3|
 ---|---|---|---|---|---|---
 51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|46|6|missing pp 7-8 of Monday
@@ -25,7 +25,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|3|
-11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)||6|
+11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|35|6|missing Tuesday p1, W S pp 7-8
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|39|5|lacking 1907-05-03-p3.jpg; Not published May 1
 ---|---|---|---|---|---|---
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40|6|
@@ -35,7 +35,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|40||
 30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|40||
 31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|40|6|
-33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|||
+33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|6||
 ---|---|---|---|---|---|---
 34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|||
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|38|6|
