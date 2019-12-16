@@ -20,10 +20,10 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 7|February 13, 1905|February 18, 1905|[Suryia Staton](https://github.com/suryiastaton)|38||
 18|May 1, 1906|May 5, 1906|[Gabrielle Murray](https://github.com/gam18g)|30||
 25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|32|5|missing Monday, pp 7-8 of Saturday
-38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|3|3|
+38|September 17, 1906|September 22, 1906|[Jimmy Mendez](https://github.com/jimmymendez123)|38|6|
 ---|---|---|---|---|---|---
 51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|46|6|missing pp 7-8 of Monday
-52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|||
+52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|40|5|
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
 10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|3|
@@ -32,14 +32,14 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 22|May 27, 1907|June 1, 1907|[Robert Thomas](https://github.com/Robertthomas777)|40|6|
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)|40|4|
-24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|38|3|
+24|June 10, 1907|June 15, 1907|[Nangelis Rivera](https://github.com/nanriv)|38|6|
 ---|---|---|---|---|---|---
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)|40||
-30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|40||
+30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)|40|3|
 31|July 29, 1907|August 3, 1907|[Alvin Chen](https://github.com/JC19G)|40|6|
 33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|6||
 ---|---|---|---|---|---|---
-34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|38||
+34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)|38|2|
 35|August 26, 1907|August 31, 1907|[Alec Walter](https://github.com/harleycool)|38|6|
 37|September 9, 1907|September 14, 1907|[Aaron Kamata](https://github.com/esk19b)|38|6|
 ---|---|---|---|---|---|---
@@ -55,9 +55,9 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|39||missing Sat p7
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)|40|5|
 ---|---|---|---|---|---|---
-50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40|4|
+50|December 9, 1907|December 14, 1907|[Breanna Heflin](https://github.com/bmh19)|40|6|
 51|December 16, 1907|December 21, 1907|[Karl-Frederick Roche](https://github.com/Krr17c)|40|5|
-52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|34||
+52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|34|5|
 ---|---|---|---|---|---|---
 2|January 6, 1908|January 11, 1908|[Vanessa Grimaldo](https://github.com/vg19-fsu)|48|6|
 3|January 13, 1908|January 18, 1908|[Austin Kim](https://github.com/ak18f)|38|5|not published Jan 14
