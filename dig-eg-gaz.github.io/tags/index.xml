@@ -5,7 +5,7 @@
     <link>https://dig-eg-gaz.github.io/tags/</link>
       <atom:link href="https://dig-eg-gaz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,10 +13,130 @@
     </image>
     
     <item>
+      <title>Artists</title>
+      <link>https://dig-eg-gaz.github.io/tags/artists/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/artists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>health</title>
+      <link>https://dig-eg-gaz.github.io/tags/health/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medicine</title>
+      <link>https://dig-eg-gaz.github.io/tags/medicine/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/medicine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>https://dig-eg-gaz.github.io/tags/music/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Egypt</title>
+      <link>https://dig-eg-gaz.github.io/tags/egypt/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/egypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foreigners</title>
+      <link>https://dig-eg-gaz.github.io/tags/foreigners/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/foreigners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>law</title>
+      <link>https://dig-eg-gaz.github.io/tags/law/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/law/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animals</title>
+      <link>https://dig-eg-gaz.github.io/tags/animals/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/animals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cholera</title>
+      <link>https://dig-eg-gaz.github.io/tags/cholera/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/cholera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>death</title>
       <link>https://dig-eg-gaz.github.io/tags/death/</link>
-      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/death/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disease</title>
+      <link>https://dig-eg-gaz.github.io/tags/disease/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/disease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disease Prevention</title>
+      <link>https://dig-eg-gaz.github.io/tags/disease-prevention/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/disease-prevention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pilgrimage</title>
+      <link>https://dig-eg-gaz.github.io/tags/pilgrimage/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/pilgrimage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police</title>
+      <link>https://dig-eg-gaz.github.io/tags/police/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/police/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sanitation</title>
+      <link>https://dig-eg-gaz.github.io/tags/sanitation/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/sanitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sanitation Department</title>
+      <link>https://dig-eg-gaz.github.io/tags/sanitation-department/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/sanitation-department/</guid>
       <description></description>
     </item>
     
@@ -177,14 +297,6 @@
       <link>https://dig-eg-gaz.github.io/tags/grief/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/grief/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>medicine</title>
-      <link>https://dig-eg-gaz.github.io/tags/medicine/</link>
-      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/medicine/</guid>
       <description></description>
     </item>
     
@@ -493,14 +605,6 @@
     </item>
     
     <item>
-      <title>Egypt</title>
-      <link>https://dig-eg-gaz.github.io/tags/egypt/</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/egypt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Football</title>
       <link>https://dig-eg-gaz.github.io/tags/football/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
@@ -513,14 +617,6 @@
       <link>https://dig-eg-gaz.github.io/tags/foreign-news/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/foreign-news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>health</title>
-      <link>https://dig-eg-gaz.github.io/tags/health/</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/health/</guid>
       <description></description>
     </item>
     
@@ -661,14 +757,6 @@
     </item>
     
     <item>
-      <title>animals</title>
-      <link>https://dig-eg-gaz.github.io/tags/animals/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/animals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cairo</title>
       <link>https://dig-eg-gaz.github.io/tags/cairo/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
@@ -713,14 +801,6 @@
       <link>https://dig-eg-gaz.github.io/tags/letters-to-the-editor/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/letters-to-the-editor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Music</title>
-      <link>https://dig-eg-gaz.github.io/tags/music/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/music/</guid>
       <description></description>
     </item>
     
@@ -941,7 +1021,7 @@
     </item>
     
     <item>
-      <title>colonialism</title>
+      <title>Colonialism</title>
       <link>https://dig-eg-gaz.github.io/tags/colonialism/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/colonialism/</guid>
@@ -1005,7 +1085,7 @@
     </item>
     
     <item>
-      <title>politics</title>
+      <title>Politics</title>
       <link>https://dig-eg-gaz.github.io/tags/politics/</link>
       <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/politics/</guid>
@@ -1797,14 +1877,6 @@
     </item>
     
     <item>
-      <title>disease</title>
-      <link>https://dig-eg-gaz.github.io/tags/disease/</link>
-      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/disease/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Haskell</title>
       <link>https://dig-eg-gaz.github.io/tags/haskell/</link>
       <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
@@ -1817,14 +1889,6 @@
       <link>https://dig-eg-gaz.github.io/tags/mohamedan/</link>
       <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/mohamedan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sanitation</title>
-      <link>https://dig-eg-gaz.github.io/tags/sanitation/</link>
-      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/sanitation/</guid>
       <description></description>
     </item>
     
