@@ -26,7 +26,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)|40|5|
 ---|---|---|---|---|---|---
 9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
-10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|5|
+10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|6|
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|40|6|
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|39|5|lacking 1907-05-03-p3.jpg; Not published May 1
 ---|---|---|---|---|---|---
