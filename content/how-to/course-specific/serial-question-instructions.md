@@ -87,6 +87,50 @@ One member of the group should add a folder named `19-analysis-yourGroupTopic` t
 
 ## Directory of Previous Analysis Projects
 
+### IDS 2681 Fall 2019
+
+Surname|Title
+---|---
+|**[An Accidental Analysis](/post/19-analysis-accidents)**
+Crisafulli|[Emotions and Accidents](/post/19-analysis-chrisafulli)
+Grant|[Polo in Egypt: An Attendance Analysis](/post/19-analysis-grant)
+House|[The Geography of Accidents](/post/19-analysis-house)
+Kamata|[Comparing Location and Speed to Analyze the Effectiveness of Communication](/post/19-analysis-kamata)
+Nguyen|[Accidents Linguistics](/post/19-analysis-nguyen)
+Walter|[Alexandria Fire Accidents](/post/19-analysis-walter)
+|**[Medicine](/post/19-analysis-medicine)**
+Dorsey|[Diseases and the Medical Schools/Hospitals History](/post/19-analysis-dorsey)
+Heflin|[Tuberculosis and Medicine](/post/19-analysis-heflin)
+Himmel|[Cholera](/post/19-analysis-cholera)
+Naranjo|[The Plague](/post/19-analysis-naranjo)
+Theophilopoulos|[Medical Terminology](/post/19-analysis-theophilopoulos)
+|**[Sports](/post/19-analysis-sports)**
+Faynberg|[Polo in Egypt: An Attendance Analysis](/post/19-analysis-faynberg)
+Hesse|
+Hayes|[Billiards Participants](/post/19-analysis-hayes)
+Reynolds|[Home Field Advantage in Football](/post/19-analysis-reynolds)
+Roche|[Horse Racing in 1907](/post/19-analysis-roche)
+|**[Heat of the Sun](/post/19-analysis-sun)**
+Hernandez|[Maximum and Minimum Temperature in Alexandria, Egypt(May 1906-April 1907)](/post/19-analysis-hernandez)
+Monaco|[Maximum Heat of the Sun in Different Stations Across Alexandria [May 1906-April 1907]](/post/19-analysis-monaco)
+Seguin|[Minimum Temperatures of Alexandria, Port Said, and Suez [1906-1907]](/post/19-analysis-seguin)
+Smith|[Wind speeds in relation to the heat of the sun](/post/19-analysis-smith)
+|**[Economic History of Stocks and Shares](/post/19-analysis-stocks)**
+Chen|[The Mystery of Daira Sanieh](/post/19-analysis-chen)
+Kim|[Egypt Stocks & Shares](/post/19-analysis-kim)
+Kolby|
+Ku|[Egypt’s Cotton Exports in the Early 1900s](/post/19-analysis-ku)
+Mendez|[Gold Mining and the Gold Market:To What Extent does the Nile Valley Gold Company Reflect the Gold Market?](/post/19-analysis-mendez)
+Piraino|
+|**[Environment](/post/19-analysis-environment)**
+Bryant|[The Cotton Worm in Egypt from 1905 to 1907](/post/19-analysis-bryant)
+Grimaldo|[Mosquitoes in the Egyptian Gazette](/post/19-analysis-grimaldo)
+Rivera|[Impact of Seasonal Change On Tourism and Hotel Stays](/post/19-analysis-rivera)
+Simmers|[Cotton Production In Relation To Average Temperature in Alexandria](/post/19-analysis-simmers)
+Thomas|[Humidity and its relation to cotton yields](/post/19-analysis-thomas)
+---|---
+Douglas|[Insurance vs Assurance](/post/19-analysis-douglas)
+
 ### IFS 2116 Spring 2018
 
 Surname|Title

@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Throughout history, sports have impacted the lives of not only the participants, but also the fans who choose to watch them. As the sports group, we decided to focus our analysis project on the different factors which can affect spectator turnout across the major sports of the Egyptian Gazette. Among residents of early 1900’s Egypt, three of the most popular sports were football (soccer), polo, and horse racing. By looking into the data that we have collected for these sports, we are able to get an idea of what Egyptian sport fans wanted to see.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/19-analysis-sports/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/post/19-analysis-sports/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/post/19-analysis-sports/">
+  <meta property="og:title" content="What Brings in the Crowds for Sporting Events? | Digital Egyptian Gazette">
+  <meta property="og:description" content="Throughout history, sports have impacted the lives of not only the participants, but also the fans who choose to watch them. As the sports group, we decided to focus our analysis project on the different factors which can affect spectator turnout across the major sports of the Egyptian Gazette. Among residents of early 1900’s Egypt, three of the most popular sports were football (soccer), polo, and horse racing. By looking into the data that we have collected for these sports, we are able to get an idea of what Egyptian sport fans wanted to see."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-12-10T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-12-10T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>What Brings in the Crowds for Sporting Events? | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">What Brings in the Crowds for Sporting Events?</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-12-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-12-10 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/mitchreynolds/">Mitch Reynolds</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/karl-frederickroche/">Karl-Frederick Roche</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/victorfaynberg/">Victor Faynberg</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/williamhesse/">William Hesse</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/madihayes/">Madi Hayes</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Dec 10, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/analysis/">analysis</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/19-analysis-sports/&amp;text=What%20Brings%20in%20the%20Crowds%20for%20Sporting%20Events?" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/19-analysis-sports/&amp;t=What%20Brings%20in%20the%20Crowds%20for%20Sporting%20Events?" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=What%20Brings%20in%20the%20Crowds%20for%20Sporting%20Events?&amp;body=https://dig-eg-gaz.github.io/post/19-analysis-sports/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/19-analysis-sports/&amp;title=What%20Brings%20in%20the%20Crowds%20for%20Sporting%20Events?" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=What%20Brings%20in%20the%20Crowds%20for%20Sporting%20Events?%20https://dig-eg-gaz.github.io/post/19-analysis-sports/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/19-analysis-sports/&amp;title=What%20Brings%20in%20the%20Crowds%20for%20Sporting%20Events?" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>Throughout history, sports have impacted the lives of not only the participants, but also the fans who choose to watch them. As the sports group, we decided to focus our analysis project on the different factors which can affect spectator turnout across the major sports of the Egyptian Gazette. Among residents of early 1900’s Egypt, three of the most popular sports were football (soccer), polo, and horse racing. By looking into the data that we have collected for these sports, we are able to get an idea of what Egyptian sport fans wanted to see. Through our analysis of the Egyptian Gazette data and cross-checking with multiple studies on attendance of various sports, we have concluded that in early 1900’s Egypt, there were three major factors of sports attendance: level of competition/skill of either side, rivalry between the two sides, and importance/stakes of the competition.</p>
+
+<p>The question of how to get fans in attendance of sporting events is nothing new; as long as there have been sports, there have been those in charge trying to increase attendance. Especially recently, sporting events provide a large stream of revenue, so factors which influence attendance are important information for those involved in sports. Experts and researchers, such as John Douvis and Peter Bird, have tried finding these factors in many different ways across a wide range of sports. These publications are looking at current factors, of which many do not apply to early 1900’s Egypt, however common themes across generations have held true.</p>
+
+<p>In order to collect this data, we ran a series of XPath queries aimed at finding as many games as possible for each sport. We searched for the “sport and play” sections of the newspaper, where sports data and stats are most often found. One problem we came across was that many of the sport and play sections were not tagged with the sport feature type. To combat this, we removed //div[@feature=”sport”] from our queries and replaced it with //head[matches(.,’sport and play’, ‘i’)]. What this did was return to us any div with the header “Sport and Play,” which only included sport and play sections. We utilized this along with searching for sport-specific terms like “chukker” (polo) to collect the full data range that was available to us. We also realized that many sections use qualitative descriptions instead of numbers for attendance data. These sections often used the same terms, such as “fine,” “large,” and “very large,” so we recorded these descriptions anyway.</p>
+
+<h2 id="football">Football</h2>
+
+<p>Football was one of the most popular sports at the time, often played between different military regiments or schools. The military teams, such as the Royal Inniskilling Fusiliers, were split into teams or “companies,” although they did sometimes compete together. This brings us to our first factor of attendance, level of competition.
+<img src="soccer2.png" alt="Football" title="Attendance of each football game" />
+When looking at the attendance data for these games, the effect of this factor becomes clear. The matches with high attendance are all between two of the military unit teams at full strength, and not divided into companies. Matches between two of the subdivided units, such as the Royal Inniskilling Fusiliers F. and D. Companies, tended to have much less attendance than the more high-profile competitions. This, of course, is logical because more fans are going to be willing to attend a game if it is between two good teams. The research of Peter J. W. N. Bird on league football attendance also supports this factor. In <a href="https://www-jstor-org.proxy.lib.fsu.edu/stable/2348449?seq=1#metadata_info_tab_contents" target="_blank">“The Demand for League Football,”</a> Bird looks at various teams and determined that whether or not the team was a contender during the season or a contender for the play-offs was a highly significant factor with a strong positive relation to attendance. Continuing with this first factor, the skill level of the away team appears to also play a role.
+<img src="soccer3.png" alt="Football2" title="Football attendance vs margin of victory" />
+The data above shows that there was significantly higher attendance in games where the away team had a bigger the margin of victory (shown by the points below 0). This correlation is strikingly direct, and displays an positive relationship between attendance and away team performance. This suggests a number of things, but we concluded the reason for this trend is that when a good team is in town, fans in the area would be likely to attend the game. Often, teams would have large gaps between games at the same away location, so fans understood that each of these games was the last time they could see the team for a while.  This is supported by Hal Hansen and Roger Gauthier, who in 1989 researched and collected <a href="http://content.ebscohost.com/ContentServer.asp?T=P&amp;P=AN&amp;K=16462549&amp;S=R&amp;D=s3h&amp;EbscoContent=dGJyMNLr40Sep644wtvhOLCmr1Gep7dSsKa4TbSWxWXS&amp;ContentCustomer=dGJyMPGrsUi2pq5MuePfgeyx43zx" target="_blank">40 different factors</a> which impact attendance. Included in these are the record of the visiting team and the number of star athletes on the visiting team. Like it does for the home team, the skill level of the away team makes people more inclined to attend.</p>
+
+<h2 id="polo">Polo</h2>
+
+<p>One of the oldest team sports in history, polo was also very popular in early 1900’s Egypt. Like football, polo was often played by military regiments, but polo also included more organized teams. Because there was more parity between teams, attendance is more uniform across games than football.
+<img src="polo.png" alt="Polo" title="Attendance of polo games" />
+Polo attendance in the Egyptian Gazette was only recorded as “fair,” “large,” or “very large,” so we decided to display these terms numerically 1-3 for our data visualization. Our second attendance factor, rivalry or repeated matchups, applies to our polo data. Teams like the 60th Rifles, the Mosquitos, the Egyptian Army, and the Tourists played each other more often than other teams did, and thus drew significantly bigger audiences for their games. This factor is corroborated by Hansen and Gauthier, who have “Rivalry between competing home team and opponent” as a significant factor. G.V. Wall, a researcher who analyzed attendance of Toronto Blue Jays’ games, also determined that rivalry is an <a href="http://sparti.uop.gr/~toda/asmrj/Vol1_c.pdf" target="_blank">“especially prominent indicator of attendance.”</a> As teams play each other more, the competitiveness of the matchup rises, and fans are more interested in the result. Along with this, these teams played more games in general, meaning fans were more familiar with them and more likely to attend a game.</p>
+
+<h2 id="horse-racing">Horse Racing</h2>
+
+<p>The next sport of the Egyptian Gazette that we are analyzing is horse racing. The data we found for horse racing was unique to that of our other sports because of the different stats and measurements that are recorded for it. First of all, these races all had different stakes and payouts for 1st-3rd place. Helouan was very popular venue for these horse races, but most of these races tended to be lower stakes, more recreational competitions. Instead, we are focusing on the derbies or “plates” with higher stakes. Along with the increased competition, spectators were drawn to these races because of the money on the line. Some of these plates had first place prizes upwards of 25,000 Egyptian pounds, which naturally generated more interest from fans.
+<img src="horse.png" alt="HorseRacing" title="Stakes for each race's top 3 finishers" />
+We call this factor the importance factor, because spectators are generally more interested in competitions that are more important and have more on the line, whether it be prize money or a championship trophy. This factor is why, for example, NBA Finals games are more watched than regular season competitions. The importance factor stems from a combination of multiple other factors, as many things go into how “important” a competition is. In the case of horse racing in the Egyptian Gazette, this importance comes from the large sums of money available to the winners. Unsurprisingly, the plates highest in prize amounts are the plates which were most popular and anticipated. The Sahara Stakes is especially significant, boasting a 33,000 first place prize, and a second-place prize double that of any other race we found. These plates are among the most popular of any sporting event in the Egyptian Gazette because of their high stakes and intensity. The importance factor is also seen in the sport of billiards. Despite its popularity, the data found for billiards in the newspaper is rather sparse. However, we can see that the attendance in the match referred to as the “final match” was described as “smoking” and “a concert,” as opposed to others which just state that attendance was “few.” Overall, the factor of importance describes how much the average fan cares about the result of the competition.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Across any sport, there are common factors which influence spectator turnout. The level of competition, or the skills of either team, is our first attendance factor. Fans would rather watch competition between two good teams than two poor ones, so games with better participants competing will draw more of a crowd. Specifically, in the case of football, the skill of the away team also impacts attendance, as more fans will go to a game if the visiting team is especially good. Rivalries are also a significant factor in attendance, because as two teams continue to play each other, the intensity and emotions of the matchup increase with each game. Finally, fans have more interest in important games with higher stakes and more on the line. When the competition has a large prize, like in horse racing, or is a championship, like in billiards, people have more interest in the outcome of the game and are more likely to choose to attend.</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/mitchreynolds/avatar_hu5da1a3994fe0a0b775b79de918c189e0_74056_250x250_fill_lanczos_center_2.png" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/mitchreynolds/">Mitch Reynolds</a></h5>
+      <h6 class="card-subtitle">Student</h6>
+      <p class="card-text" itemprop="description">The author, a student at Florida State University, was enrolled in the digital microhistory lab in fall 2019.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/mitchreynolds" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
