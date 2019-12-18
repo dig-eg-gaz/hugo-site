@@ -2,7 +2,7 @@
 # Display name
 name: Alec Walter
 
-authors: AlecWalter
+authors: alecwalter
 
 superuser: no
 
@@ -33,5 +33,3 @@ user_groups:
 - Writers
 ---
 The author, a student at Florida State University, was enrolled in the digital microhistory lab in fall 2019.
-
-
