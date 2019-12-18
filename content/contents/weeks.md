@@ -18,7 +18,46 @@ weight: 2
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 7|February 13, 1905|February 18, 1905|[Suryia Staton](https://github.com/suryiastaton)|38||
+23.5|June 8, 1905|June 10, 1905||all||half-week
+3.5|January 18, 1906|January 20, 1906||all||half-week
+7.5|February 15, 1906|February 17, 1906||||half-week
+12|March 19, 1906|March 21, 1906||||
+12.5|March 22, 1906|March 24, 1906||||
 18|May 1, 1906|May 5, 1906|[Gabrielle Murray](https://github.com/gam18g)|30||
+27|July 2, 1906|July 7, 1906||34|5|5-day week (Huaqing)
+33.5|August 16, 1906|August 18, 1906||||half-week
+40.5|October 4, 1906|October 6, 1906||||half-week
+42|October 17, 1906|October 20, 1906||12|4|4-half-week
+44|October 29, 1906|November 3, 1906||all|TWFS|4-day week
+45|November 5, 1906|November 7, 1906||||
+45.5|November 8, 1906|November 10, 1906||||
+49|December 3, 1906|December 5, 1906||||
+49.5|December 6, 1906|December 8, 1906||||
+3|January 14, 1907|January 16, 1907||||
+3.5|January 17, 1907|January 19, 1907||||
+14.5|April 4, 1907|April 6, 1907||||half-week
+19|May 6, 1907|May 8, 1907||||
+19.5|May 9, 1907|May 11, 1907||||
+28.5|July 11, 1907|July 13, 1907||||half-week
+30.5|July 25, 1907|July 27, 1907||all?|3|half-week
+33|August 12, 1907|August 14, 1907||||
+33.5|August 15, 1907|August 17, 1907||||
+34.5|August 21, 1907|August 24, 1907||all?|4|
+36|September 2, 1907|September 4, 1907||||
+36.5|September 5, 1907|September 7, 1907||||
+38|September 16, 1907|September 18, 1907||all?||
+38.5|September 19, 1907|September 21, 1907||all?||
+39|September 23, 1907|September 28, 1907||all?|5|5-day week
+40|September 30, 1907|October 2, 1907||||
+40.5|October 3, 1907|October 5, 1907||||
+41|October 7, 1907|October 9, 1907||||
+41.5|October 10, 1907|October 12, 1907||||
+48|November 25, 1907|November 27, 1907||||
+48.5|November 28, 1907|November 30, 1907||||
+1|December 30, 1907|January 1, 1908||||
+1.5|January 2, 1907|January 4, 1908||||
+4|January 20, 1908|January 22, 1908||||
+4.5|January 23, 1908|January 25, 1908||||
 
 ## Items lacking (previous semesters)
 
@@ -44,8 +83,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 51|December 17, 1906|December 22, 1906|[Parker Bryant](https://github.com/ParkerBryant)|2||missing pp 7-8 of Monday
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)||1|
 -|February 4, 1906 (or 1907?)|||page 1 split|
-9|February 25, 1907|March 2, 1907|[Ashley Crisafulli](https://github.com/ashleyrc23)|48|6|
-10|March 4, 1907|March 9, 1907|[Tryfon Theophilopoulos](https://github.com/tryfontheo)|48|6|
 11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|8?||pages 7-8?
 13|March 25, 1907|March 30, 1907|[Greyson Porter](https://github.com/gporter1)|15?|2|1907-03-29 missing?
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|1||lacking 1907-05-03-p3.jpg
@@ -53,16 +90,10 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)||2|
 28|July 8, 1907|July 10, 1907|[Patrick Mason](https://github.com/patrickmason8)|All||3 days
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)||3|
-30|July 22, 1907|July 27, 1907|[Shaneze Douglas](https://github.com/STD18-22)||3|
-33|August 12, 1907|August 17, 1907|[Nicole Gutierrez](https://github.com/ng15c)|all|6|
-34|August 19, 1907|August 24, 1907|[Damamli Dorsey](https://github.com/DDorsey-bit)||4|
-38|September 16, 1907|September 21, 1907|[Macray Simmers](https://github.com/MacraySimmers)||6|
-39|September 23, 1907|September 28, 1907|[Nickolas Piraino](https://github.com/KwNick305)||5|
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|some?||
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|1||missing Sat p7
-49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)||1|
+49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)||5|
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|6|1|
-
 
 ## Images lacking from microfilm
 
@@ -78,27 +109,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
-23|June 8, 1905|June 10, 1905||all||half-week
-3|January 18, 1906|January 20, 1906||all||half-week
-7|February 15, 1906|February 17, 1906||||half-week
-12|March 19, 1906|March 24, 1906|[Carol Howerton](https://github.com/ech15d)|||
-27|July 2, 1906|July 7, 1906||34|5|5-day week (Huaqing)
-33|August 16, 1906|August 18, 1906||||half-week
-40|October 4, 1906|October 6, 1906||||half-week
-45|October 5, 1906|November 10, 1906||||
-42|October 17, 1906|October 20, 1906||12|4|4-half-week
-44|October 29, 1906|November 3, 1906||all|TWFS|4-day week
-49|December 3, 1906|December 8, 1906||||
-3|January 14, 1907|January 19, 1907|[Raylen Snyder](https://github.com/rs16h)|||
-14|April 4, 1907|April 6, 1907||||half-week
-19|May 6, 1907|May 11, 1907||||
-28|July 11, 1907|July 13, 1907||||half-week
-36|September 2, 1907|September 7, 1907||||
-40|September 30, 1907|October 5, 1907||||
-41|October 7, 1907|October 12, 1907||||
-48|November 25, 1907|November 30, 1907||||
-1|December 30, 1907|January 4, 1908||||
-4|January 20, 1908|January 25, 1908|[Kathryn Judge](https://github.com/kdj16)|||
+
 
 ## Previous courses
 
