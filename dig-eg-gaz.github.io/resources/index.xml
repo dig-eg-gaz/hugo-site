@@ -17,21 +17,16 @@
       <link>https://dig-eg-gaz.github.io/resources/syllabus/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/syllabus/</guid>
-      <description>
-
-&lt;p&gt;The course syllabus for the current semester (downloadable in PDF &lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;):&lt;/p&gt;
-
+      <description>&lt;p&gt;The course syllabus for the current semester (downloadable in PDF &lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34;&gt;here&lt;/a&gt;):&lt;/p&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/document/d/e/2PACX-1vRF1RI6Ia6oyFuOW-R5wyKe71QsVoULPgIEAD4BB9Q4zCFJsMmwCT7DHnm7xAD_G6jXrmq_Sc-Ml_Wi/pub?embedded=true&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 &lt;h3 id=&#34;previous-semesters&#34;&gt;Previous semesters&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Fall 2019&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34; target=&#34;_blank&#34;&gt;Spring 2018&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34; target=&#34;_blank&#34;&gt;Spring 2017&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Fall 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34;&gt;Fall 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34;&gt;Spring 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34;&gt;Spring 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34;&gt;Fall 2016&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -41,8 +36,7 @@
       <link>https://dig-eg-gaz.github.io/resources/github/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/github/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz&#34; target=&#34;_blank&#34;&gt;GitHub organization page&lt;/a&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz&#34;&gt;GitHub organization page&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For more information on how we use github, see the &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/github-instructions/&#34;&gt;GitHub tutorial&lt;/a&gt; in the how-to section.&lt;/p&gt;
 </description>
     </item>
@@ -52,18 +46,11 @@
       <link>https://dig-eg-gaz.github.io/resources/schema/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/schema/</guid>
-      <description>
-
-&lt;p&gt;This page describes the schema used in the Digital Egyptian Gazette project, which lives &lt;a href=&#34;https://github.com/dig-eg-gaz/resources/blob/master/egSchema.odd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; in &lt;a href=&#34;http://www.tei-c.org/Guidelines/Customization/odds.xml&#34; target=&#34;_blank&#34;&gt;ODD (‘One Document Does it All’)&lt;/a&gt; format.&lt;/p&gt;
-
-&lt;p&gt;The schema expressed in relaxNG compact (made from .odd files using the &lt;a href=&#34;http://www.tei-c.org/Roma/&#34; target=&#34;_blank&#34;&gt;Roma tool&lt;/a&gt; at &lt;a href=&#34;http://www.tei-c.org/Roma/&#34; target=&#34;_blank&#34;&gt;TEI-c.org.&lt;/a&gt;) is &lt;a href=&#34;https://github.com/dig-eg-gaz/resources/blob/master/egSchema.rnc&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It can be validated against by using the URL &lt;a href=&#34;https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc&#34; target=&#34;_blank&#34;&gt;https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc&lt;/a&gt; in an XML editor.&lt;/p&gt;
-
-&lt;p&gt;In addition to the tags offered by the &lt;a href=&#34;http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html&#34; target=&#34;_blank&#34;&gt;TEI P5 guidelines&lt;/a&gt;, the customized schema employs the following terms.&lt;/p&gt;
-
+      <description>&lt;p&gt;This page describes the schema used in the Digital Egyptian Gazette project, which lives &lt;a href=&#34;https://github.com/dig-eg-gaz/resources/blob/master/egSchema.odd&#34;&gt;here&lt;/a&gt; in &lt;a href=&#34;http://www.tei-c.org/Guidelines/Customization/odds.xml&#34;&gt;ODD (‘One Document Does it All’)&lt;/a&gt; format.&lt;/p&gt;
+&lt;p&gt;The schema expressed in relaxNG compact (made from .odd files using the &lt;a href=&#34;http://www.tei-c.org/Roma/&#34;&gt;Roma tool&lt;/a&gt; at &lt;a href=&#34;http://www.tei-c.org/Roma/&#34;&gt;TEI-c.org.&lt;/a&gt;) is &lt;a href=&#34;https://github.com/dig-eg-gaz/resources/blob/master/egSchema.rnc&#34;&gt;here&lt;/a&gt;. It can be validated against by using the URL &lt;a href=&#34;https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc&#34;&gt;https://raw.githubusercontent.com/dig-eg-gaz/resources/master/egSchema.rnc&lt;/a&gt; in an XML editor.&lt;/p&gt;
+&lt;p&gt;In addition to the tags offered by the &lt;a href=&#34;http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html&#34;&gt;TEI P5 guidelines&lt;/a&gt;, the customized schema employs the following terms.&lt;/p&gt;
 &lt;h2 id=&#34;div-attributes&#34;&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; attributes&lt;/h2&gt;
-
 &lt;h3 id=&#34;type&#34;&gt;Type&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;masthead: use for the first page of the paper only&lt;/li&gt;
 &lt;li&gt;page: always use the &lt;code&gt;n=&amp;quot;&amp;quot;&lt;/code&gt; attribute&lt;/li&gt;
@@ -72,11 +59,9 @@
 &lt;li&gt;subsection: a &lt;code&gt;div&lt;/code&gt; within a &lt;code&gt;section&lt;/code&gt; itself containing other &lt;code&gt;div&lt;/code&gt;s, typically of the &lt;code&gt;item&lt;/code&gt; type.&lt;/li&gt;
 &lt;li&gt;article: use for longer pieces&lt;/li&gt;
 &lt;li&gt;wireReport: a single wire report with a &lt;code&gt;&amp;lt;dateline&amp;gt;&lt;/code&gt; and the name of the wireservice (typically Reuters or Havas)&lt;/li&gt;
-&lt;li&gt;advert: any advertisement; templates are listed &lt;a href=&#34;https://dig-eg-gaz.github.io/advertisements&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;advert: any advertisement; templates are listed &lt;a href=&#34;https://dig-eg-gaz.github.io/advertisements&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;feature&#34;&gt;Feature&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;weather: Daily Weather Report&lt;/li&gt;
 &lt;li&gt;wire: Telegrams&lt;/li&gt;
@@ -112,9 +97,7 @@
 &lt;li&gt;notesFayoum: Notes from Fayoum&lt;/li&gt;
 &lt;li&gt;notesOther: Notes from other places in Egypt&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;scope&#34;&gt;Scope&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;advertisement&lt;/li&gt;
 &lt;li&gt;international&lt;/li&gt;
@@ -133,9 +116,7 @@
 &lt;li&gt;announcements&lt;/li&gt;
 &lt;li&gt;municipality&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;site&#34;&gt;Site&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Alexandria&lt;/li&gt;
 &lt;li&gt;Cairo&lt;/li&gt;
@@ -143,18 +124,13 @@
 &lt;li&gt;Port Said&lt;/li&gt;
 &lt;li&gt;Suakin&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;local&lt;/li&gt;
 &lt;li&gt;wire&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;measure-attributes&#34;&gt;&lt;code&gt;&amp;lt;measure&amp;gt;&lt;/code&gt; attributes&lt;/h2&gt;
-
 &lt;h3 id=&#34;units&#34;&gt;Units&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;tal: Talari&lt;/li&gt;
 &lt;li&gt;cantar: qantar&lt;/li&gt;
@@ -173,21 +149,15 @@
 &lt;li&gt;$: US dollars&lt;/li&gt;
 &lt;li&gt;sack: sacks&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;commodity&#34;&gt;Commodity&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;currency&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;type-1&#34;&gt;Type&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;indexNo: number corresponding to indexing system for newspaper features, especially paid advertisements&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;columns&#34;&gt;Columns&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;cols: Specifies the number of columns in a given section&lt;/li&gt;
 &lt;li&gt;colSpan: Used to specifies the width of a div which spans multiple columns and cannot be accurately described using the cols and cb elements.&lt;/li&gt;
@@ -200,78 +170,55 @@
       <link>https://dig-eg-gaz.github.io/resources/changelog/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/changelog/</guid>
-      <description>
-
-&lt;h3 id=&#34;2019-09-20-version-0-14&#34;&gt;2019-09-20 // Version 0.14&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;2019-09-20--version-014&#34;&gt;2019-09-20 // Version 0.14&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Begin hosting &lt;a href=&#34;https://dig-eg-gaz.github.io/contents/images&#34;&gt;collection of page images&lt;/a&gt; beyond scope of class.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2019-08-19-version-0-13&#34;&gt;2019-08-19 // Version 0.13&lt;/h3&gt;
-
+&lt;h3 id=&#34;2019-08-19--version-013&#34;&gt;2019-08-19 // Version 0.13&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;Fourth class&lt;/a&gt; begins&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34;&gt;Fourth class&lt;/a&gt; begins&lt;/li&gt;
 &lt;li&gt;Launch of new website&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2018-04-17-version-0-12&#34;&gt;2018-04-17 // Version 0.12&lt;/h3&gt;
-
+&lt;h3 id=&#34;2018-04-17--version-012&#34;&gt;2018-04-17 // Version 0.12&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Change &lt;code&gt;@element&lt;/code&gt; attribute to &lt;code&gt;@feature&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Move to establish &lt;code&gt;&amp;lt;pb/&amp;gt;&lt;/code&gt; in lieu of &lt;code&gt;&amp;lt;div type=&amp;quot;page&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;@status&lt;/code&gt; attribute to indicate completeness of divs&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;&amp;lt;gloss&amp;gt;&lt;/code&gt; to XML header to indicate completeness of issues&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2018-01-08-version-0-11&#34;&gt;2018-01-08 // Version 0.11&lt;/h3&gt;
-
+&lt;h3 id=&#34;2018-01-08--version-011&#34;&gt;2018-01-08 // Version 0.11&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34; target=&#34;_blank&#34;&gt;Third class&lt;/a&gt; begins&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34;&gt;Third class&lt;/a&gt; begins&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2017-09-17-version-0-10&#34;&gt;2017-09-17 // Version 0.10&lt;/h3&gt;
-
+&lt;h3 id=&#34;2017-09-17--version-010&#34;&gt;2017-09-17 // Version 0.10&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Reduce and standardize page images, using ImageMagick command &lt;code&gt;mogrify -strip -interlace Plane -gaussian-blur 0.05 -quality 85% *.jpg&lt;/code&gt; (via &lt;a href=&#34;https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick#7262050&#34; target=&#34;_blank&#34;&gt;stackoverflow&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Reduce and standardize page images, using ImageMagick command &lt;code&gt;mogrify -strip -interlace Plane -gaussian-blur 0.05 -quality 85% *.jpg&lt;/code&gt; (via &lt;a href=&#34;https://stackoverflow.com/questions/7261855/recommendation-for-compressing-jpg-files-with-imagemagick#7262050&#34;&gt;stackoverflow&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2017-05-12-version-0-09&#34;&gt;2017-05-12 // Version 0.09&lt;/h3&gt;
-
+&lt;h3 id=&#34;2017-05-12--version-009&#34;&gt;2017-05-12 // Version 0.09&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Second semester complete&lt;/li&gt;
 &lt;li&gt;New, complete contents listing&lt;/li&gt;
-&lt;li&gt;Change issue file serving to &lt;a href=&#34;gitCDN.xyz&#34; target=&#34;_blank&#34;&gt;gitCDN.xyz&lt;/a&gt; for better support of updated files&lt;/li&gt;
+&lt;li&gt;Change issue file serving to &lt;a href=&#34;gitCDN.xyz&#34;&gt;gitCDN.xyz&lt;/a&gt; for better support of updated files&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2017-03-15-version-0-05&#34;&gt;2017-03-15 // Version 0.05&lt;/h3&gt;
-
+&lt;h3 id=&#34;2017-03-15--version-005&#34;&gt;2017-03-15 // Version 0.05&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Added &lt;code&gt;@elements&lt;/code&gt; attribute to recurring elements and tables&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2017-01-30-version-0-04&#34;&gt;2017-01-30 // Version 0.04&lt;/h3&gt;
-
+&lt;h3 id=&#34;2017-01-30--version-004&#34;&gt;2017-01-30 // Version 0.04&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Added XSLT stylesheet&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2017-01-15-version-0-03&#34;&gt;2017-01-15 // Version 0.03&lt;/h3&gt;
-
+&lt;h3 id=&#34;2017-01-15--version-003&#34;&gt;2017-01-15 // Version 0.03&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34; target=&#34;_blank&#34;&gt;Second class&lt;/a&gt; begins&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34;&gt;Second class&lt;/a&gt; begins&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2016-11-28-version-0-02&#34;&gt;2016-11-28 // Version 0.02&lt;/h3&gt;
-
+&lt;h3 id=&#34;2016-11-28--version-002&#34;&gt;2016-11-28 // Version 0.02&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Added &lt;code&gt;xml:id&lt;/code&gt;s to recurring elements and tables&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;2016-09-01-version-0-01&#34;&gt;2016-09-01 // Version 0.01&lt;/h3&gt;
-
+&lt;h3 id=&#34;2016-09-01--version-001&#34;&gt;2016-09-01 // Version 0.01&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;First class&lt;/a&gt; begins&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34;&gt;First class&lt;/a&gt; begins&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -281,25 +228,20 @@
       <link>https://dig-eg-gaz.github.io/resources/roadmap/</link>
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/roadmap/</guid>
-      <description>
-
-&lt;h2 id=&#34;ideas-and-possible-new-features&#34;&gt;Ideas and possible new features&lt;/h2&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; publication of content on &lt;a href=&#34;http://exist-db.org/exist/apps/homepage/index.html&#34; target=&#34;_blank&#34;&gt;Exist-db&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; deploy &lt;a href=&#34;https://srophe.app/&#34; target=&#34;_blank&#34;&gt;srophe&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; publication of weeks, under editors&amp;rsquo; names, on &lt;a href=&#34;https://fsu.digital.flvc.org&#34; target=&#34;_blank&#34;&gt;diginole&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; integration of page images in XML text&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; introduction of search form (not necessary if I use srophe)&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; deploying TEI Boilerplate (?)&lt;/label&gt;&lt;/li&gt;
+      <description>&lt;h2 id=&#34;ideas-and-possible-new-features&#34;&gt;Ideas and possible new features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;publication of content on &lt;a href=&#34;http://exist-db.org/exist/apps/homepage/index.html&#34;&gt;Exist-db&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;deploy &lt;a href=&#34;https://srophe.app/&#34;&gt;srophe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;publication of weeks, under editors&amp;rsquo; names, on &lt;a href=&#34;https://fsu.digital.flvc.org&#34;&gt;diginole&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;integration of page images in XML text&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;introduction of search form (not necessary if I use srophe)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;deploying TEI Boilerplate (?)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;done&#34;&gt;Done&lt;/h2&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; XSLT stylesheet&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; &lt;a href=&#34;https://dig-eg-gaz.github.io/authors/&#34;&gt;authors list&lt;/a&gt; (September 2019)&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; transition website from Jekyll to Hugo (September 2019)&lt;/label&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;XSLT stylesheet&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/authors/&#34;&gt;authors list&lt;/a&gt; (September 2019)&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;transition website from Jekyll to Hugo (September 2019)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -310,11 +252,15 @@
       <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/other-resources/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/old-site/&#34; target=&#34;_blank&#34;&gt;Previous website&lt;/a&gt;, archived in September 2019. Some links may be broken.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Slack Team&lt;/a&gt; &lt;strong&gt;&lt;em&gt;NOTE: not currently monitored&lt;/em&gt;&lt;/strong&gt; - the team where you can communicate with classmates, and get help with the git platform. Slack is the standard for communication in technical teams, but it&amp;rsquo;s gaining traction as an email replacement in a very wide variety of companies and organizations. Slack organizes all communication into dedicated channels, where people can have focused conversations, and can always find a place to ask important questions. If you would like to learn more about Slack, watch &lt;a href=&#34;https://www.youtube.com/watch?v=B6zVzWU95Sw&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; video. &lt;a href=&#34;http://dig-eg-gaz.slack.com&#34; target=&#34;_blank&#34;&gt;Join the dig-eg-gaz slack team!&lt;/a&gt; All you need is your @my.fsu.edu email address.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/samples&#34; target=&#34;_blank&#34;&gt;Samples&lt;/a&gt; - offers a few sample files (images of pages and plain text) of page 3 of the July 7, 1905 issue for you to test your OCR and editing processes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/old-site/&#34;&gt;Previous website&lt;/a&gt;, archived in September 2019. Some links may be broken.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;dig-eg-gaz.slack.com&#34;&gt;Slack Team&lt;/a&gt; &lt;em&gt;&lt;strong&gt;NOTE: not currently monitored&lt;/strong&gt;&lt;/em&gt; - the team where you can communicate with classmates, and get help with the git platform. Slack is the standard for communication in technical teams, but it&#39;s gaining traction as an email replacement in a very wide variety of companies and organizations. Slack organizes all communication into dedicated channels, where people can have focused conversations, and can always find a place to ask important questions. If you would like to learn more about Slack, watch &lt;a href=&#34;https://www.youtube.com/watch?v=B6zVzWU95Sw&#34;&gt;this&lt;/a&gt; video. &lt;a href=&#34;http://dig-eg-gaz.slack.com&#34;&gt;Join the dig-eg-gaz slack team!&lt;/a&gt; All you need is your @my.fsu.edu email address.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dig-eg-gaz/samples&#34;&gt;Samples&lt;/a&gt; - offers a few sample files (images of pages and plain text) of page 3 of the July 7, 1905 issue for you to test your OCR and editing processes.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -325,8 +271,9 @@
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/resources/external-tools/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.textfixer.com/tools/online-word-counter.php&#34; target=&#34;_blank&#34;&gt;Word Frequency Counter&lt;/a&gt;. Also available in &lt;a href=&#34;http://www.textfixerfr.com/outils/compteur-de-mots-en-ligne.php&#34; target=&#34;_blank&#34;&gt;French&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.textfixer.com/tools/online-word-counter.php&#34;&gt;Word Frequency Counter&lt;/a&gt;. Also available in &lt;a href=&#34;http://www.textfixerfr.com/outils/compteur-de-mots-en-ligne.php&#34;&gt;French&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
