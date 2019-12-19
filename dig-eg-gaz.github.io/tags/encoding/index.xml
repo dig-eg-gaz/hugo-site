@@ -18,8 +18,7 @@
       <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-11-27-esteve-egyptiangazettestructuralissues/</guid>
       <description>&lt;p&gt;During my week of the Egyptian Gazette, I have several page sevens that are unlike the other pages. These pages focus on travel and mostly have hotel advertisements. However, they also contain commentary about the best way to travel to different places and the differences in climate between the two. This commentary is split between all six columns of the newspaper. There are some advertisements (see below) that are similar in that they take up two columns. However, I have no idea how to encode these page sevens in order to reflect the structure of the newspaper. Up till now, I have just grouped the commentary in one div. If I encoded the page sevens by columns, I would get six random groups of text. Obviously, this would cause a great deal of confusion unless there was a way to connect the text in each column together. A tag that connects the text together might work, but this issue is definitely one worth exploring as we move forward.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/1905-12-11-p8-Structure.png?raw=true&#34; alt=&#34;advertisements&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/images/1905-12-11-p8-Structure.png?raw=true&#34; alt=&#34;advertisements&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -48,26 +47,23 @@ very small and it tends to be smudged and &lt;strong&gt;I hate it and it gives m
       <link>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</link>
       <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</guid>
-      <description>&lt;p&gt;When I first produced my image scans using the library&amp;rsquo;s microfilm
+      <description>&lt;p&gt;When I first produced my image scans using the library&#39;s microfilm
 of the Egyptian Gazette, I thought that by feeding the material into
 the OCR software, my computer would automatically spit back the
 entire transcription completed error-free. At first I attempted to use
-FineReader on my roommate&amp;rsquo;s laptop, hoping it would yield results, but
+FineReader on my roommate&#39;s laptop, hoping it would yield results, but
 when her computer began to lag and I realized how time consuming the
 process would be, I switched to using my Mac.&lt;/p&gt;
-
 &lt;p&gt;When the class discovered Cisdem PDF Converter for Mac, I quickly
 realized that while some pages contained minimal errors, others required
 extensive corrections to yield an accurate reading of the text.
 The pages, most of which were rife with errors, took around 2 and a half
 hours each to fully type and XML, and even then many advertisements and
 charts are still not completed.&lt;/p&gt;
-
 &lt;p&gt;After I had completed the vast majority of the transcription, I learned
 that by scanning in a higher resolution and stitching multiple images
 together, I probably could have produced the paper and a much faster rate.&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, I&amp;rsquo;m continuing to work on completing certain advertisements
+&lt;p&gt;Nevertheless, I&#39;m continuing to work on completing certain advertisements
 and charts, as well as TEI-tagging people and places.&lt;/p&gt;
 </description>
     </item>

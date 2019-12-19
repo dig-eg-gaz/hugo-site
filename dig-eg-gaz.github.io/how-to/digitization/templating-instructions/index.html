@@ -83,7 +83,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
+  <link rel="stylesheet" href="/css/academic.min.0e63a2d4cbb51cb21f28fb74861e16b4.css">
 
   
 
@@ -435,20 +435,18 @@
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#objectives">Objectives</a></li>
-<li><a href="#1-identifying-recurring-features">1. Identifying recurring features</a></li>
-<li><a href="#2-using-templates">2. Using templates</a>
-<ul>
-<li><a href="#2a-using-content-completion-boilerplates">2a. Using content completion boilerplates</a></li>
-<li><a href="#2b-copy-and-paste-from-xml-file">2b. Copy and paste from xml file</a></li>
-</ul></li>
-<li><a href="#3-what-if-there-s-no-template">3. What if there&rsquo;s no template?</a></li>
-<li><a href="#4-an-overview-of-features-from-page-to-page-and-day-to-day">4. An overview of &ldquo;features&rdquo; from page to page and day to day</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#objectives">Objectives</a></li>
+    <li><a href="#1-identifying-recurring-features">1. Identifying recurring features</a></li>
+    <li><a href="#2-using-templates">2. Using templates</a>
+      <ul>
+        <li><a href="#2a-using-content-completion-boilerplates">2a. Using content completion boilerplates</a></li>
+        <li><a href="#2b-copy-and-paste-from-xml-file">2b. Copy and paste from xml file</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-what-if-theres-no-template">3. What if there's no template?</a></li>
+    <li><a href="#4-an-overview-of-features-from-page-to-page-and-day-to-day">4. An overview of &ldquo;features&rdquo; from page to page and day to day</a></li>
+  </ul>
 </nav>
 
       
@@ -463,61 +461,36 @@
           <h1 itemprop="name">Templating instructions</h1>
 
           <div class="article-style" itemprop="articleBody">
-            
-
-<h2 id="objectives">Objectives</h2>
-
+            <h2 id="objectives">Objectives</h2>
 <p>While <a href="/contents/features/">features</a> of the <em>Egyptian Gazette</em> were composed fresh each day, much of each issue consisted of templates reapplied with minor or no modifications from issue to issue. As we produce our marked-up version of the newspaper, we can save effort by reusing templates in our own work. We must remain alert to minor variations, however.</p>
-
 <h2 id="1-identifying-recurring-features">1. Identifying recurring features</h2>
-
 <p>The first step is to determine if you are looking at something that is a template. Advertisements, tables, and other material that is not free text is probably templated. Check these indexes to see if you can find something identical or similar to what you want to find:</p>
-
 <ul>
 <li>The complete catalog of advertisements is <a href="/contents/advertisements/">here</a>.</li>
 <li>The complete catalog of financial tables and other boilerplates is <a href="/contents/templates/">here</a>.</li>
 </ul>
-
 <p>These indexes contain images of the templated items, links to TEI-XML documents representing the templated item, and (sometimes) a comment or two about the template.</p>
-
 <h2 id="2-using-templates">2. Using templates</h2>
-
-<p>Once you&rsquo;ve identified the relevant template, you can paste its XML code into your own file. There are two ways to do this.</p>
-
+<p>Once you've identified the relevant template, you can paste its XML code into your own file. There are two ways to do this.</p>
 <h3 id="2a-using-content-completion-boilerplates">2a. Using content completion boilerplates</h3>
-
-<p>I&rsquo;ve made a file that contains shortcuts to most of the boilerplates that you will need. (Note that it does not contain advertisements.) You can download it <a href="https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/dig-eg-gaz-code-templates.xml" target="_blank">here</a>. Once downloaded, you can install the file in Oxygen XML Editor by opening the Preferences dialog box (Options &gt; Preferences), then going to Editor &gt; Content Completion &gt; Code Templates. Now click the Import button, and select the file you have downloaded.</p>
-
+<p>I've made a file that contains shortcuts to most of the boilerplates that you will need. (Note that it does not contain advertisements.) You can download it <a href="https://raw.githubusercontent.com/dig-eg-gaz/boilerplates/master/dig-eg-gaz-code-templates.xml">here</a>. Once downloaded, you can install the file in Oxygen XML Editor by opening the Preferences dialog box (Options &gt; Preferences), then going to Editor &gt; Content Completion &gt; Code Templates. Now click the Import button, and select the file you have downloaded.</p>
 <p>Once you have installed the content completion boilerplates, you can press Control + Space, and a drop down menu of templates will appear. Choose the template you need and it will automatically appear where your cursor was.</p>
-
-<p>Next, customize the template content to match your issue&rsquo;s content. Often there will be no changes. Sometimes dates, names, or numbers will have to be changed. Sometimes the changes will be more complex. As you become more familiar with TEI-XML, you will get better at customizing the template.</p>
-
+<p>Next, customize the template content to match your issue's content. Often there will be no changes. Sometimes dates, names, or numbers will have to be changed. Sometimes the changes will be more complex. As you become more familiar with TEI-XML, you will get better at customizing the template.</p>
 <p>Note that this content completion file will not be automatically updated. For the latest versions of boilerplates, consult the complete catalog, and follow the following procedure:</p>
-
 <h3 id="2b-copy-and-paste-from-xml-file">2b. Copy and paste from xml file</h3>
-
-<p>Once you&rsquo;ve found the template you need, click the XML link. This will take you to a file in the dig-eg-gaz GitHub repository. Here you can copy the code you need to paste into your file.</p>
-
+<p>Once you've found the template you need, click the XML link. This will take you to a file in the dig-eg-gaz GitHub repository. Here you can copy the code you need to paste into your file.</p>
 <p><strong>Important</strong>: Only copy the material contained within the <code>&lt;body&gt; &lt;/body&gt;</code> tags&ndash;the rest of the file should not appear in your issue file. To do so, select the text like this:</p>
-
-<p><img src="/img/templateCopy.png" alt="templateCopy" /></p>
-
+<p><img src="/img/templateCopy.png" alt="templateCopy"></p>
 <p>Paste only this portion of the text into your issue document.</p>
-
-<h2 id="3-what-if-there-s-no-template">3. What if there&rsquo;s no template?</h2>
-
-<p>If you can&rsquo;t find a template that should be there, or if your version of an item is so different from the template that you think a new template is warranted, there are a few things you can do.</p>
-
+<h2 id="3-what-if-theres-no-template">3. What if there's no template?</h2>
+<p>If you can't find a template that should be there, or if your version of an item is so different from the template that you think a new template is warranted, there are a few things you can do.</p>
 <ul>
-<li>First, you can search the <a href="https://github.com/dig-eg-gaz/content" target="_blank">repository of already-encoded issues</a> to see if someone has already produced a version of the material.</li>
-<li>If you find it, or if you feel up to encoding it yourself, you can turn this into a new template so that everyone can save time. Upload the xml and an image of the feature to the <a href="https://github.com/dig-eg-gaz/advertisements" target="_blank">advertisements</a> or <a href="https://github.com/dig-eg-gaz/boilerplates" target="_blank">boilerplates</a> repository, and send a pull request.</li>
-<li>Finally, if you can&rsquo;t find the material anywhere and it&rsquo;s too involved to reproduce it yourself, file an <a href="https://guides.github.com/features/issues/" target="_blank">issue</a> at the <a href="https://github.com/dig-eg-gaz/advertisements/issues" target="_blank">advertisements</a> or <a href="https://github.com/dig-eg-gaz/boilerplates/issues" target="_blank">boilerplates</a> repositories, insert a <code>&lt;!-- missing template --&gt;</code> comment with a few details into your document, and move on.</li>
+<li>First, you can search the <a href="https://github.com/dig-eg-gaz/content">repository of already-encoded issues</a> to see if someone has already produced a version of the material.</li>
+<li>If you find it, or if you feel up to encoding it yourself, you can turn this into a new template so that everyone can save time. Upload the xml and an image of the feature to the <a href="https://github.com/dig-eg-gaz/advertisements">advertisements</a> or <a href="https://github.com/dig-eg-gaz/boilerplates">boilerplates</a> repository, and send a pull request.</li>
+<li>Finally, if you can't find the material anywhere and it's too involved to reproduce it yourself, file an <a href="https://guides.github.com/features/issues/">issue</a> at the <a href="https://github.com/dig-eg-gaz/advertisements/issues">advertisements</a> or <a href="https://github.com/dig-eg-gaz/boilerplates/issues">boilerplates</a> repositories, insert a <code>&lt;!-- missing template --&gt;</code> comment with a few details into your document, and move on.</li>
 </ul>
-
 <h2 id="4-an-overview-of-features-from-page-to-page-and-day-to-day">4. An overview of &ldquo;features&rdquo; from page to page and day to day</h2>
-
 <p>For a general summary of recurring features, see the tables <a href="/contents/features/">here</a>. Every numbered page of the <em>Gazette</em> held similar material every day. The slides below offer an overview of the format over a typical week in July 1905. Page numbers are indicated on the bottom right. The main boilerplate is six pages long. On Wednesday and Saturday, when issues are eight pages, the extra pages are the fourth and fifth pages. Pages 6-8 of extended editions correspond to pages 4-6 of regular editions.</p>
-
 <div class="responsive-wrap">
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSoNMUJRV31l_qJ-hWRQwU3JHdGi8wLNv5nEndc6eeQWcRqbo9womcWCRDlgRJmumWR7i-RL5G2rFRv/embed?start=true&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>

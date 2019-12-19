@@ -18,9 +18,7 @@
       <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/16-analysis-barrett/</guid>
       <description>&lt;p&gt;For my project I have decided to look into the sports that took place in 1905.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;barrett-Pic.png&#34; alt=&#34;Serial Question Pic&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;barrett-Pic.png&#34; alt=&#34;Serial Question Pic&#34;&gt;&lt;/p&gt;
 &lt;p&gt;So far in my week of newspaper articles I have only read about rugby football
 being played in London between Wales and Scotland, but I am sure that there is
 more going on than just that throughout the entire year of 1905.  In the article
@@ -35,9 +33,7 @@ about sports will give us any insight into what it was like back then.  Well, fo
 starters it will show us how the world functioned, what people care about, how
 they spend their free time, where popular places to live were, and how influential
 sports were to the people back then.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;barrett-Map.png&#34; alt=&#34;Serial Question Map&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;barrett-Map.png&#34; alt=&#34;Serial Question Map&#34;&gt;&lt;/p&gt;
 &lt;p&gt;For example, our society today is very sports
 oriented. There are a very large amount of die hard fans for collegiate and
 professional sports programs.  People who dress up like their team’s mascot and
@@ -66,7 +62,6 @@ information, along with all of the other information from my classmates, and use
 it to help us get a better grasp on their society.  Eventually we will have a much
 greater understanding of Alexandria in 1905, which is our overall goal in this
 class.&lt;/p&gt;
-
 &lt;p&gt;In order to find out this information, I gathered all of the data that students
 in this class have created, made them into one big project, and searched all of the xml files for keywords like &amp;ldquo;football&amp;rdquo;, &amp;ldquo;sport&amp;rdquo;, &amp;ldquo;rugby&amp;rdquo;, and &amp;ldquo;score&amp;rdquo; through the XPath query box using &lt;code&gt;//div[@type=&amp;quot;item&amp;quot;][contains(., &#39;cotton&#39;)]&lt;/code&gt;.  These key words led me to passages talking about a variety of different sports and events.
 After going through multiple pages of text, I have found a significant list of
@@ -77,7 +72,6 @@ edition of the Egyptian Gazette.  The list includes, but is not limited to, rugb
 football, soccer, racing, hunting, shooting, cricket, running, rowing, swimming,
 tennis, golf, and horse races.  From what I can tell, the most popular sports are
 football, soccer, and various types of races.&lt;/p&gt;
-
 &lt;p&gt;The writer of the newspaper usually posts an article that includes the time of
 kick off, location of the game, teams competing, and projected quality of the
 game, based on their past games played that season and which of their players is
@@ -100,7 +94,6 @@ are going to be very evenly matched and competitive. While going through all of
 this information, I read a couple cases about football teams getting plays put on
 just for them in theaters, which is not the same as being praised everywhere you
 go, but it is still considered a special treatment that normal citizens do not receive&lt;/p&gt;
-
 &lt;p&gt;One aspect of their sporting world that I was quite surprised by was the
 amount of teams made up by random groups of people.  They had a Military
 team, Boulac railway institute team, Port Said team, E.T.C Suez team, Wales
@@ -120,7 +113,6 @@ do not know why this surprised me, due to the combination of the large amount of
 horses used back then and strong love most males have for gambling.  I just did
 not see Horse races being a very popular thing to go watch, because you see
 horses all around you every day.&lt;/p&gt;
-
 &lt;p&gt;Over the course of this project I faced many difficulties.  Some of them I still
 have not fully figured out, which may be somewhat problematic.  For example,
 they talk about the sport football a lot in this newspaper.  As you probably know,
@@ -132,7 +124,6 @@ Football was invented back way back in 1869 and soccer was created way before
 that, then there is also rugby which is like a hybrid of the two that was made in
 1823.  I am assuming that most, if not all of the time they are referring to soccer
 or rugby whenever they say football, but I do not know for sure.&lt;/p&gt;
-
 &lt;p&gt;In conclusion, from this research I have learned that their most popular sport
 was football, also known as soccer by many.  There was a good amount of
 competition at these games, and there was also a good sized crowd of people

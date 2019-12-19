@@ -31,7 +31,7 @@
   <meta name="description" content="Regular expressions (regex) is a very useful means of working with serial data which repeats similar information using similar formats.
 Regexr is a great place to learn about and try out regular expressions.
 Using regex in Oxygen You can use regex in the Find/Repace in Files tool when you enable the Regular Expression option in it. Some examples of commonly used regex codes:
- Search \d&#43; \w&#43; \w&#43; for patterns like &ldquo;100 tons cotton&rdquo; Search \W\w&#43; \W\w&#43; for personal names Search at [A-Z]\w&#43; for locations (Remember to enable Case Sensitive)  Using regex in Atom To put &lt;persName&gt; around passenger names in a list: find Mr.">
+ Search \d&#43; \w&#43; \w&#43;  for patterns like &ldquo;100 tons cotton&rdquo; Search \W\w&#43; \W\w&#43;  for personal names Search at [A-Z]\w&#43;  for locations (Remember to enable Case Sensitive)  Using regex in Atom To put &lt;persName&gt; around passenger names in a list: find Mr.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/">
@@ -85,7 +85,7 @@ Using regex in Oxygen You can use regex in the Find/Repace in Files tool when yo
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
+  <link rel="stylesheet" href="/css/academic.min.0e63a2d4cbb51cb21f28fb74861e16b4.css">
 
   
 
@@ -117,7 +117,7 @@ Using regex in Oxygen You can use regex in the Find/Repace in Files tool when yo
   <meta property="og:description" content="Regular expressions (regex) is a very useful means of working with serial data which repeats similar information using similar formats.
 Regexr is a great place to learn about and try out regular expressions.
 Using regex in Oxygen You can use regex in the Find/Repace in Files tool when you enable the Regular Expression option in it. Some examples of commonly used regex codes:
- Search \d&#43; \w&#43; \w&#43; for patterns like &ldquo;100 tons cotton&rdquo; Search \W\w&#43; \W\w&#43; for personal names Search at [A-Z]\w&#43; for locations (Remember to enable Case Sensitive)  Using regex in Atom To put &lt;persName&gt; around passenger names in a list: find Mr."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+ Search \d&#43; \w&#43; \w&#43;  for patterns like &ldquo;100 tons cotton&rdquo; Search \W\w&#43; \W\w&#43;  for personal names Search at [A-Z]\w&#43;  for locations (Remember to enable Case Sensitive)  Using regex in Atom To put &lt;persName&gt; around passenger names in a list: find Mr."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -439,15 +439,12 @@ Using regex in Oxygen You can use regex in the Find/Repace in Files tool when yo
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#using-regex-in-oxygen">Using regex in Oxygen</a></li>
-<li><a href="#using-regex-in-atom">Using regex in Atom</a></li>
-<li><a href="#cleaning-xpath-results">Cleaning XPath results</a></li>
-<li><a href="#using-regex-in-microsoft-word">Using regex in Microsoft word</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#using-regex-in-oxygen">Using regex in Oxygen</a></li>
+    <li><a href="#using-regex-in-atom">Using regex in Atom</a></li>
+    <li><a href="#cleaning-xpath-results">Cleaning XPath results</a></li>
+    <li><a href="#using-regex-in-microsoft-word">Using regex in Microsoft word</a></li>
+  </ul>
 </nav>
 
       
@@ -462,57 +459,47 @@ Using regex in Oxygen You can use regex in the Find/Repace in Files tool when yo
           <h1 itemprop="name">Regular expressions instructions</h1>
 
           <div class="article-style" itemprop="articleBody">
-            
-
-<p>Regular expressions (regex) is a very useful means of working with serial data which repeats similar information using similar formats.</p>
-
-<p><a href="https://regexr.com/" target="_blank">Regexr</a> is a great place to learn about and try out regular expressions.</p>
-
+            <p>Regular expressions (regex) is a very useful means of working with serial data which repeats similar information using similar formats.</p>
+<p><a href="https://regexr.com/">Regexr</a> is a great place to learn about and try out regular expressions.</p>
 <h2 id="using-regex-in-oxygen">Using regex in Oxygen</h2>
-
 <p>You can use regex in the Find/Repace in Files tool when you enable the Regular Expression option in it.
 Some examples of commonly used regex codes:</p>
-
 <ul>
-<li>Search <code>\d+ \w+ \w+</code> for patterns like &ldquo;100 tons cotton&rdquo;</li>
-<li>Search <code>\W\w+ \W\w+</code> for personal names</li>
-<li>Search <code>at [A-Z]\w+</code> for locations (Remember to enable Case Sensitive)</li>
+<li>Search <code>\d+ \w+ \w+ </code> for patterns like &ldquo;100 tons cotton&rdquo;</li>
+<li>Search <code>\W\w+ \W\w+ </code> for personal names</li>
+<li>Search <code>at [A-Z]\w+ </code> for locations (Remember to enable Case Sensitive)</li>
 </ul>
-
 <h2 id="using-regex-in-atom">Using regex in Atom</h2>
-
 <p>To put <code>&lt;persName&gt;</code> around passenger names in a list: find <code>Mr. [A-Z][a-z, 0-9]+,</code> replace with <code>&lt;persName&gt;$&amp;&lt;/persName&gt;</code>.</p>
-
-<!-- To convert `<p>Budapest, January 4.</p>` to `<dateline>Budapest, January 4.</dateline>`: find `<p>[A-Z][a-z]+, [A-Z][a-z]+ [0-9]+\.<\/p>` and replace with `<dateline>$&</dateline>`. -->
-
+<!-- raw HTML omitted -->
 <h2 id="cleaning-xpath-results">Cleaning XPath results</h2>
-
 <ol>
-<li><p>Select all, copy, and paste results into your plain text editor.</p></li>
-
-<li><p>First, let&rsquo;s remove the lines that start with &ldquo;XPath location,&rdquo; &ldquo;Start location,&rdquo; and &ldquo;End location,&rdquo; because we won&rsquo;t need these results. Open find and replace. Click the Regex option, then use this regex to find the first of these results: <code>XPath location: .+\n</code>. <em>Note</em>: if you&rsquo;re using Windows, you may have to replace the <code>\n</code> (new line indicator) at the end of this string with <code>\r\n</code>, which is how Windows sometimes indicates new lines.</p></li>
+<li>
+<p>Select all, copy, and paste results into your plain text editor.</p>
+</li>
+<li>
+<p>First, let's remove the lines that start with &ldquo;XPath location,&rdquo; &ldquo;Start location,&rdquo; and &ldquo;End location,&rdquo; because we won't need these results. Open find and replace. Click the Regex option, then use this regex to find the first of these results: <code>XPath location: .+\n</code>. <em>Note</em>: if you're using Windows, you may have to replace the <code>\n</code> (new line indicator) at the end of this string with <code>\r\n</code>, which is how Windows sometimes indicates new lines.</p>
+</li>
 </ol>
-
-<p>Once you&rsquo;ve selected all of these &ldquo;XPath location&rdquo; lines, replace them with nothing (i.e., leave the replace box empty). Click Replace All.</p>
-
+<p>Once you've selected all of these &ldquo;XPath location&rdquo; lines, replace them with nothing (i.e., leave the replace box empty). Click Replace All.</p>
 <p>Now you can do the same for <code>Start location: .+\n</code> and <code>End location: .+\n</code></p>
-
-<ol>
-<li><p>Remove the file location that precedes the issue date. Find <code>System ID: /Users/whanley/GitHub/DEG-content/</code> (this will be different on your computer&ndash;just select everything that comes before the date filename). (You may need to turn off Regex in order to find this string text.) Leave the replace box empty, then click Replace All.</p></li>
-
-<li><p>Now we replace what comes between the date and the results. Turn Regex back on, then find <code>.xml\nDescription:</code> (or <code>.xml\r\nDescription:</code> if you are using Windows) and replace with <code>\t</code>. Replace All.</p></li>
-
-<li><p>If you have empty lines in your file, you can remove them by finding <code>\n\n</code> (or <code>\r\n\r\n</code>) and replacing it with <code>\n</code>.</p></li>
-
-<li><p>You might have a bit of garbage left over at the beginning and end of the file. Delete this. Now you will have a tab-separated, two-column table that you can paste into a spreadsheet.</p></li>
+<ol start="3">
+<li>
+<p>Remove the file location that precedes the issue date. Find <code>System ID: /Users/whanley/GitHub/DEG-content/</code> (this will be different on your computer&ndash;just select everything that comes before the date filename). (You may need to turn off Regex in order to find this string text.) Leave the replace box empty, then click Replace All.</p>
+</li>
+<li>
+<p>Now we replace what comes between the date and the results. Turn Regex back on, then find <code>.xml\nDescription: </code> (or <code>.xml\r\nDescription: </code> if you are using Windows) and replace with <code>\t</code>. Replace All.</p>
+</li>
+<li>
+<p>If you have empty lines in your file, you can remove them by finding <code>\n\n</code> (or <code>\r\n\r\n</code>) and replacing it with <code>\n</code>.</p>
+</li>
+<li>
+<p>You might have a bit of garbage left over at the beginning and end of the file. Delete this. Now you will have a tab-separated, two-column table that you can paste into a spreadsheet.</p>
+</li>
 </ol>
-
 <h2 id="using-regex-in-microsoft-word">Using regex in Microsoft word</h2>
-
 <p>Say you are trying to make a table of the results that you exported from Oxygen.</p>
-
 <p>Import these results into a Word document. Then use Edit &gt; Find &gt; Advanced Find and Replace.</p>
-
 <ol>
 <li>Find two paragraph marks (^p^p), and replace with @@.</li>
 <li>Find one paragraph mark (^p), and replace with comma.</li>
