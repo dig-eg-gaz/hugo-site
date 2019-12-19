@@ -92,7 +92,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)||3|
 45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|some?||
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|1||missing Sat p7
-49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)||5|
+49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)||1|
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|6|1|
 
 ## Images lacking from microfilm
