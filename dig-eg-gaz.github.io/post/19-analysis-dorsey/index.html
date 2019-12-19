@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Will Hanley">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The goal of my analysis project was to discover where medical schools were located within Egypt and what diseases where occurring near these schools. I then wanted to know if the occurrences of these disease in correlation with a certain school of medicine, would mean that the disease was an epidemic for that region. I wanted to know this because if the disease was found to be researched in these medical schools and hospitals In the Egyptian Gazette the term medical school is not common but the term school of medicine is.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/post/19-analysis-dorsey/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://dig-eg-gaz.github.io/post/19-analysis-dorsey/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Digital Egyptian Gazette">
+  <meta property="og:url" content="https://dig-eg-gaz.github.io/post/19-analysis-dorsey/">
+  <meta property="og:title" content="Diseases and the Medical Schools/Hospitals History | Digital Egyptian Gazette">
+  <meta property="og:description" content="The goal of my analysis project was to discover where medical schools were located within Egypt and what diseases where occurring near these schools. I then wanted to know if the occurrences of these disease in correlation with a certain school of medicine, would mean that the disease was an epidemic for that region. I wanted to know this because if the disease was found to be researched in these medical schools and hospitals In the Egyptian Gazette the term medical school is not common but the term school of medicine is."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-12-09T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-12-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Diseases and the Medical Schools/Hospitals History | Digital Egyptian Gazette</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Digital Egyptian Gazette</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/contents"><span>Contents</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/how-to"><span>How To</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Diseases and the Medical Schools/Hospitals History</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-12-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-12-09 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/damamli-dorsey/">Damamli Dorsey</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Dec 9, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/analysis/">analysis</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dig-eg-gaz.github.io/post/19-analysis-dorsey/&amp;text=Diseases%20and%20the%20Medical%20Schools/Hospitals%20History" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dig-eg-gaz.github.io/post/19-analysis-dorsey/&amp;t=Diseases%20and%20the%20Medical%20Schools/Hospitals%20History" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Diseases%20and%20the%20Medical%20Schools/Hospitals%20History&amp;body=https://dig-eg-gaz.github.io/post/19-analysis-dorsey/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dig-eg-gaz.github.io/post/19-analysis-dorsey/&amp;title=Diseases%20and%20the%20Medical%20Schools/Hospitals%20History" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Diseases%20and%20the%20Medical%20Schools/Hospitals%20History%20https://dig-eg-gaz.github.io/post/19-analysis-dorsey/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dig-eg-gaz.github.io/post/19-analysis-dorsey/&amp;title=Diseases%20and%20the%20Medical%20Schools/Hospitals%20History" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>The goal of my analysis project was to discover where medical schools were located within Egypt and what diseases where occurring near these schools. I then wanted to know if the occurrences of these disease in correlation with a certain school of medicine, would mean that the disease was an epidemic for that region. I wanted to know this because if the disease was found to be researched in these medical schools and hospitals  In the <em>Egyptian Gazette</em> the term <em>medical school</em> is not common but the term <strong>school of medicine</strong> is. Using this term, I was able to find 53 items concerning this term. Many of these articles where talking about how there were meetings at these schools but there were no indicators about what disease may have been in the area. Upon further searching, I was able to find words such as <strong>Tropical Disease</strong>, <strong>Trypanosomiasis</strong>, and <strong>Sleeping Sickness</strong> which helped me to further my search in to the diseases effecting which areas.  Also, I began to search for <strong>Kasr-el-Ainy</strong>, <strong>Gordon College</strong> and <strong>Laboratories</strong> in order to have a clearer view on where these diseases may have been treated at in addition to the medical schools. I planned to use an excel spreadsheet to record the data I find on each disease and what medical school or hospital is treated that disease. After looking at that, I will use visualizations such as a map and a bar graph to show how many times a certain disease was talked about in an area.</p>
+
+<p>The first term I looked for was <em>Tropical Disease</em> because it was shown to be treated at both a school of medicine and the Kasr-el-Ainy which were in Cairo. I used this X-path query <code>//div[@type=&quot;item&quot;][matches(., &quot;Cairo&quot;, &quot;i&quot;)]</code>, to find the amount of occurrences where tropical disease and Cairo were mentioned together. I was only able to find three times where both terms were mentioned together.  In one article, the writer was explaining how one school of medicine was being built in order to investigate the cause of Tropical Disease within the area of Alexandra and Cairo. Another article gave a brief description of the Tropical Disease which was seen to be caused by germs. Though I found information about what the disease was, I was unable to find the effects of the disease on the people in <em>Alexandra and Cairo</em>. The lack of description about Tropical Disease may stem from the fear that the disease may cause a decrease in the white male community. For example, one article called the <em>Our Letter to London, (May 18, 1905)</em>; explained how the Tropical Disease would be the real enemy of the white man if the disease was to spread. The article talked about how in order to preserve the prosperity of the empire, Tropical Disease would need to be cured with “tropical medicine” that would need to be researched by the medical school and laboratories. Another article titled, <em>Proposed Tropical School of Medicine (May 22, 1906)</em>; Tropical Disease is starting to be investigated by the Kasr-el-Ainy Hospital in order to find ways for the disease to be cured Cairo and Alexandra. This led me to my next search for the correlation between laboratories and tropical disease, in order to see what areas, the laboratories were in and if the were studying tropical disease. I was only able to find one instance in the newspaper where Tropical Disease was begin researched by a laboratory. I used these X-path queries <code>//div[@type=&quot;item&quot;][matches(., &quot;Sudan&quot;, &quot;i&quot;)]</code> and <code>//div[@type=&quot;item&quot;][matches(., &quot;Gordon College&quot;, &quot;i&quot;)]</code> to find any occurrences where Tropical Disease was found in   Within the <em>Local and General Section of November 27, 1906</em>, I was able to find a passage about the Gordon College Laboratories. <em>The Gordon College</em> Laboratories was the only laboratory I found to researching the tropical disease, but the research on the disease was being conducted in Sudan and not Cairo or Alexandra. I found this to be very interesting best the disease traveled within the year but there was still no concrete information about the disease expect for the fact that it was affecting animals and humans. I was unable to find any advertisements for treatment of tropical disease, but I believe that this lack of advertisements stems from the fears of the British in Egypt of the disease causing a lack of tourism and trade.</p>
+
+<p>Another disease called Trypanosomiasis was mentioned when I started to research Gordon College Laboratories. This disease was affecting Sudan and was seen to be a secondary disease stemming from sleeping sickness. I used this X-path query: //div[@type=&ldquo;item&rdquo;][matches(., &ldquo;Sudan&rdquo;, &ldquo;i&rdquo;)] and //div[@type=&ldquo;item&rdquo;][matches(., &ldquo;Gordon College&rdquo;, &ldquo;i&rdquo;)]  to find where sleeping sickness was presence in Sudan, I then used this same query with Trypanosomiasis. There are 17 different occurrences in the paper of sleeping sickness in Sudan. Yet, I only found 3 occurrences of Trypanosomiasis in Sudan within the paper. I was only able to find one occurrence where Gordon College is mentioned with sleeping sickness and Trypanosomiasis.  Both Trypanosomiasis and sleeping sickness were affecting the animals and people in the area of Sudan. One article named, <em>Sleeping Sickness in Sudan, (January 5, 1905)</em>, The Gordon College Laboratories appears here again for their efforts to find more about this disease. Trypanosomiasis is better detailed in the newspaper because in the article mentioned above the disease is seen to spread from Glossina palpalis. Then I began to do different X-path queries to see if I could find any pages/articles that contained Trypanosomiasis spread to Alexandra or Cairo. After doing searches, I was unable to find anything showing any cases where Trypanosomiasis was being researched in any medical schools or hospitals with Alexandra or Cairo. I did an X-path query where I looked for Trypanosomiasis begin investigated by the Kasr-el-Ainy, but I received no results. When researching sleeping sickness in the library, I was able to find one article that talked about a cure was found in Sudan for sleeping sickness. The article <em>(Elimination of sleeping sickness in Uganda could be jeopardised by conflict in South Sudan)</em> was explaining how the political and social conflict within Sudan would cause a possible delay in the administration of the cure for sleeping sickness. It was very interesting to find this article because it shows how modern medicine has given way to helping cure a disease that has been plaguing the area of Sudan for over 100 years. In the late 1900s, the preventive measures taken against the disease where beginning to become better which has led to the both of there begin less than 5 cases per year.  The author recalled how during times of civil unrest, the cases of sleeping sickness began to rise again due to the lack of attention begin placed on this disease.</p>
+
+<iframe src="https://public.tableau.com/views/SleepingSicknessandtrypanosomiasiswithinSudan/Sheet1?:display_count=y&publish=yes&:origin=viz_share_link:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>
+
+<iframe src="https://public.tableau.com/views/TropicalDiseasesinCairoandSudan/Sheet1?:display_count=y&publish=yes&:origin=viz_share_link:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>
+
+<h2 id="works-cited">Works Cited</h2>
+
+<p><a href="search.ebscohost.com/login.aspx?direct=true&amp;db=edsbl&amp;AN=vdc.100063233501.0x000001&amp;site=eds-live&amp;scope=site." target="_blank">&ldquo;Picado, Albert, and Joseph Ndung’u. &ldquo;Elimination of Sleeping Sickness in Uganda Could Be Jeopardised by Conflict in South Sudan.”&rdquo;&rdquo; Lancet.Global Health, no. 1, 2017, p. e28. EBSCOhost, </a></p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/damamli-dorsey/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

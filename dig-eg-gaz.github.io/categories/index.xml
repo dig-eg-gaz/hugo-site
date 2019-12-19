@@ -5,7 +5,7 @@
     <link>https://dig-eg-gaz.github.io/categories/</link>
       <atom:link href="https://dig-eg-gaz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
       <title>Categories</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>curiosities</title>
-      <link>https://dig-eg-gaz.github.io/categories/curiosities/</link>
-      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/categories/curiosities/</guid>
+      <title>analysis</title>
+      <link>https://dig-eg-gaz.github.io/categories/analysis/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/categories/analysis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>analysis</title>
-      <link>https://dig-eg-gaz.github.io/categories/analysis/</link>
-      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/categories/analysis/</guid>
+      <title>curiosities</title>
+      <link>https://dig-eg-gaz.github.io/categories/curiosities/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/categories/curiosities/</guid>
       <description></description>
     </item>
     
