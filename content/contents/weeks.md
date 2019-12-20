@@ -93,8 +93,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 28|July 8, 1907|July 10, 1907|[Patrick Mason](https://github.com/patrickmason8)|All||3 days
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)||3|
 34|August 21, 1907||[Damamli Dorsey](https://github.com/DDorsey-bit)||1|
-39|September 23, 1907|September 25, 1907|[Nick Piraino](https://github.com/KwNick305)||2|
-45|November 4, 1907|November 9, 1907|[Will Hesse](https://github.com/WillHesse)|4||pp 7-8
 47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|1||missing Sat p7
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)||1|
 52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|6|1|
