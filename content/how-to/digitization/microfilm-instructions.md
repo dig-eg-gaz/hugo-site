@@ -35,7 +35,10 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 ## 4. Save your files
 1. Find the stitched image files you've created on the computer's hard drive, and copy them to a USB key, save them to Dropbox, or save them some other way. Do not simply leave them on the microfilm computer. You do not need to save the quarter page images.
 2. Return the microfilm to the checkout desk--your classmates will need to find it.
-3. Once you are satisfied with your images, upload them directly to the appropriate subfolder within the [page-images repository](https://github.com/dig-eg-gaz/page-images) repository on GitHub. There are many subfolders (one for each quarter of each year). Make doubly sure before *before you upload* that your images are named exactly according to this format: `YYYY-MM-DD-p1.jpg`.
+
+## 5. Upload your images
+1. Each image file should be between 2MB and 10MB in size. If your files are larger than that, you will have to compress them.
+2. Once you are satisfied with your images, upload them directly to the appropriate subfolder within the [page-images repository](https://github.com/dig-eg-gaz/page-images) repository on GitHub. There are many subfolders (one for each quarter of each year). Make doubly sure before *before you upload* that your images are named exactly according to this format: `YYYY-MM-DD-p1.jpg`. 
 
 ### Troubleshooting
 Sometimes the microfilm hardware fails to function. When this is the case, follow these instructions (courtesy Malcolm Shackelford of FSU libraries): Those MF machines are prone to fits, but the cure is nearly always to

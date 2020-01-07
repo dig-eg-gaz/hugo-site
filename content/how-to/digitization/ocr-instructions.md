@@ -22,7 +22,46 @@ You will not need to use OCR on text that has been [templated](/how-to/digitizat
 
 There are many OCR options. Each has strengths and weaknesses. I'll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week. Some issues are clearer than others, both in terms of the printing of the original newspaper itself and its transfer to microfilm. The quality of type varies, as does the white balance and background noise in the microfilm images. Always start with the clearest, straightest images you can produce.
 
-# Option A: Tesseract
+# Option A: Google Drive
+
+**Strengths:**
+
+- free program that can be used without limit
+- multi-language support
+- continually updated and well-supported
+- good OCR results
+- handles line breaks and paragraph breaks well
+
+**Weaknesses:**
+
+- requires images to be cropped into single columns
+- cumbersome upload process
+- output can be over-formatted when pasted into author mode
+- no configuration options
+
+## 1. Crop your page images into single columns
+
+It can be helpful to embed the column number into the image name. For example, you could call the image of column 1 of page 5 of the July 8, 1905 issue `1905-07-08-p5-c1.jpg`.
+
+## 2. Upload the images to Google Drive
+
+## 3. Convert the image file to Google Docs
+
+Right click on the image file within Google Drive, and open it with Google Docs.
+
+![open-with-google-docs](/img/open-with-google-docs.png)
+
+Wait a moment, and a new file will appear containing your image and its text. You may want to correct any spelling mistakes that Google Docs identifies at this stage.
+
+## 4. Paste results into Oxygen's author mode
+
+Whenever OCR produces formatted text (rather than plain text such as tesseract gives us), it is best to paste it using Oxygen XML Editor's author mode (choose it from the text-grid-author buttons near the bottom of your screen). This means that paragraphs and other formatting will carry over into XML. When you switch back to text mode you will see them already marked up. 
+
+Pasting into author mode can create some odd `div` issues. Sometimes it is easiest to create an empty div in text mode, put your cursor inside it, then switch to author mode and paste the OCRed material. Normally it will appear in the right spot. Don't neglect to go back to text mode and make sure everything looks okay.
+
+When you are pasting column by column from Google Drive conversion, it can be useful to use the `<cb n="?"/>` tags to keep track of your place in the page.
+
+# Option B: Tesseract
 
 **Strengths:**
 
@@ -141,45 +180,6 @@ Proceed to copy the second column in your text file. In Oxygen, add an `<cb n="2
 
 You should have a green box, indicating a well-formed document. If not, correct any errors you find.
 
-# Option B: Google Drive
-
-**Strengths:**
-
-- free program that can be used without limit
-- multi-language support
-- continually updated and well-supported
-- good OCR results
-- handles line breaks and paragraph breaks well
-
-**Weaknesses:**
-
-- requires images to be cropped into single columns
-- cumbersome upload process
-- output can be over-formatted when pasted into author mode
-- no configuration options
-
-## 1. Crop your page images into single columns
-
-It can be helpful to embed the column number into the image name. For example, you could call the image of column 1 of page 5 of the July 8, 1905 issue `1905-07-08-p5-c1.jpg`.
-
-## 2. Upload the images to Google Drive
-
-## 3. Convert the image file to Google Docs
-
-Right click on the image file within Google Drive, and open it with Google Docs.
-
-![open-with-google-docs](/img/open-with-google-docs.png)
-
-Wait a moment, and a new file will appear containing your image and its text. You may want to correct any spelling mistakes that Google Docs identifies at this stage.
-
-## 4. Paste results into Oxygen's author mode
-
-Whenever OCR produces formatted text (rather than plain text such as tesseract gives us), it is best to paste it using Oxygen XML Editor's author mode (choose it from the text-grid-author buttons near the bottom of your screen). This means that paragraphs and other formatting will carry over into XML. When you switch back to text mode you will see them already marked up. 
-
-Pasting into author mode can create some odd `div` issues. Sometimes it is easiest to create an empty div in text mode, put your cursor inside it, then switch to author mode and paste the OCRed material. Normally it will appear in the right spot. Don't neglect to go back to text mode and make sure everything looks okay.
-
-When you are pasting column by column from Google Drive conversion, it can be useful to use the `<cb n="?"/>` tags to keep track of your place in the page.
-
 # Option C: ABBY Finereader
 
 If you prefer to try a GUI OCR program, follow the instructions below. Note, however, that AABBY Finereader is not free, open-source software. It only offers a 30 day trial, after which time you will have to purchase a copy.
@@ -239,7 +239,6 @@ I've also had good results with [Cisdem OCR Wizard](https://www.cisdem.com/ocr-w
 8. Once you've finished work on the page, save it--soon we'll upload it to your xml issue file.
 
 (There are other options, too, but none seems to work as well as Cisdem: you could try the 10-day, 100-page trial of [Readiris Pro](http://www.irislink.com/EN-US/c1195/10-Day-FREE-Trial---Experience-Readiris-Pro-15--OCR-Software-.aspx?utm_source=IRISLINK&utm_medium=Popup&utm_campaign=Popup-trial). [PDF OCR X Community Edition](http://solutions.weblite.ca/pdfocrx/download_mac) also didn't do a great job, but it's free).
-
 
 # FAQs
 

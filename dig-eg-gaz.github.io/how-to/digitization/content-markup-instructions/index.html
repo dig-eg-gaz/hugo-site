@@ -84,7 +84,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.0e63a2d4cbb51cb21f28fb74861e16b4.css">
+  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
 
   
 
@@ -437,13 +437,16 @@
       </ul>
 
       <nav id="TableOfContents">
-  <ul>
-    <li><a href="#objective">Objective</a></li>
-    <li><a href="#1-fix-the-basic-structural-tags">1. Fix the basic structural tags</a></li>
-    <li><a href="#2-add-feature-attributes">2. Add feature attributes</a></li>
-    <li><a href="#3-add-more-complex-structural-tags">3. Add more complex structural tags</a></li>
-    <li><a href="#4-add-advanced-content-tags">4. Add advanced content tags</a></li>
-  </ul>
+<ul>
+<li>
+<ul>
+<li><a href="#objective">Objective</a></li>
+<li><a href="#1-fix-the-basic-structural-tags">1. Fix the basic structural tags</a></li>
+<li><a href="#2-add-feature-attributes">2. Add feature attributes</a></li>
+<li><a href="#3-add-more-complex-structural-tags">3. Add more complex structural tags</a></li>
+<li><a href="#4-add-advanced-content-tags">4. Add advanced content tags</a></li>
+</ul></li>
+</ul>
 </nav>
 
       
@@ -458,29 +461,43 @@
           <h1 itemprop="name">Content markup instructions</h1>
 
           <div class="article-style" itemprop="articleBody">
-            <h2 id="objective">Objective</h2>
+            
+
+<h2 id="objective">Objective</h2>
+
 <p>This lesson explains how to convert the raw, basic XML text you produced through OCR into useable TEI-XML material.</p>
+
 <h2 id="1-fix-the-basic-structural-tags">1. Fix the basic structural tags</h2>
+
 <p>Now correct and add basic structural tags of three types:</p>
+
 <ul>
 <li><code>&lt;div type=&quot;item&quot;&gt;</code>, which you can use for articles, items, or any division of the page that makes sense to you,</li>
 <li><code>&lt;head&gt;</code>, which indicates a headline (the headline must be the first element in the item),</li>
 <li><code>&lt;p&gt;</code>, which indicates a paragraph.</li>
 </ul>
+
 <p>Oxygen offers many shortcuts to make this work go faster. Highlight the text you wish to wrap, then hit <code>command-E</code>. You will be offered a menu of tags. Choose the one you want. If you want to add more tags of the same type, hit <code>command-slash</code>.</p>
+
 <p>Once you add these tags to your page, you might have a valid document (and thus a green box in Oxygen). But these common errors will probably also have to be addressed:</p>
+
 <ul>
 <li><strong>&amp;</strong>: the ampersand is represented as <code>&amp;amp;</code> in xml. <code>&amp;</code> alone will create an error.</li>
 <li><strong>&gt;</strong> or <strong>&lt;</strong>: the OCR process produces stray angle brackets. The editor thinks these are part of a xml tag, and it causes an error.</li>
 <li>anything else not in a <code>&lt;div&gt;</code>, and not in a <code>&lt;p&gt;</code> or a <code>&lt;head&gt;</code>.</li>
 </ul>
+
 <h2 id="2-add-feature-attributes">2. Add feature attributes</h2>
+
 <p>There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked <code>&lt;div type=&quot;section&quot;&gt;</code> rather than <code>&lt;div type=&quot;item&quot;&gt;</code>. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is <a href="/contents/features/">here</a>. To add an feature attribute, place it within the <code>&lt;div&gt;</code> tag, after the <code>type=&quot;section&quot;</code> attribute, thus: <code>&lt;div type=&quot;section&quot; feature=&quot;local&quot;&gt;</code>. If you type <code>feature</code> inside the tag, Oxygen should offer you an autocomplete menu of features.</p>
+
 <h2 id="3-add-more-complex-structural-tags">3. Add more complex structural tags</h2>
+
 <p>There are more tags that you can add:</p>
+
 <ul>
 <li>If the article or item is in French, add the attribute <code>xml:lang=&quot;fr&quot;</code> to the <code>&lt;div&gt;</code> tag.</li>
-<li><strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see <a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb">this guidance</a>.</li>
+<li><strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see <a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb" target="_blank">this guidance</a>.</li>
 <li><strong><code>&lt;div type=&quot;section&quot;&gt;</code></strong> to wrap multiple items that belong together, for instance in the international or local news sections.</li>
 <li><strong><code>&lt;dateline&gt;</code></strong> for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new <code>&lt;div type=&quot;item&quot;&gt;</code> for each newswire report.</li>
 <li><strong><code>&lt;byline&gt;</code></strong> for authors. There can only be one byline per division.</li>
@@ -488,7 +505,9 @@
 <li>pieces of articles that are continuous texts broken up by ads or between issues should be connected using xml:id and the next and prev elements, thus: if the articles are in the same issue, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;item1&quot;&gt;</code>. If the articles are in different issues, make their tags <code>&lt;div type=&quot;item&quot; xml:id=&quot;item1&quot; next=&quot;YYYY-MM-DD.xml#item2&quot;&gt;</code> and <code>&lt;div type=&quot;item&quot; xml:id=&quot;item2&quot; prev=&quot;YYYY-MM-DD.xml#item1&quot;&gt;</code>.</li>
 <li>the <strong><code>&lt;figure&gt;</code></strong> element will be useful for the <em>Egyptian Gazette</em>, but I have not yet worked out how to use it.</li>
 </ul>
+
 <h2 id="4-add-advanced-content-tags">4. Add advanced content tags</h2>
+
 <p>This is a more advanced undertaking. See the separate tutorial <a href="/how-to/digitization/tagging-people-and-places-instructions/">here</a>.</p>
 
           </div>
