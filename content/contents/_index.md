@@ -22,7 +22,7 @@ menu:
 ---
 
 Dates available with completion status:
-<iframe src="https://gistcdn.githack.com/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/12331c0ba87dac37c107d1d90e7c3a3185302fcd/dig-eg-gaz-issues-calendar-chart.html"  width="120%" height="500"></iframe>
+<iframe src="https://www.gitcdn.xyz/cdn/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/e906fae5077c5b204df140afe58b00e5484166ec/dig-eg-gaz-issues-calendar-chart.html"  width="120%" height="650"></iframe>
 
 ### Key
 - 1 (blue), `plain text box`: complete, corrected issue
