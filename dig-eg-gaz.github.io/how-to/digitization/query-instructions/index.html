@@ -82,7 +82,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
+  <link rel="stylesheet" href="/css/academic.min.0e63a2d4cbb51cb21f28fb74861e16b4.css">
 
   
 
@@ -365,8 +365,12 @@
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <a class="docs-toc-link" href="/how-to/digitization/setup-instructions/">Digitization</a>
     <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/setup-instructions/">Set-up</a>
+      </li>
       
       <li >
         <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
@@ -433,48 +437,40 @@
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#objective">Objective</a></li>
-<li><a href="#1-setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor</a>
-<ul>
-<li><a href="#a-find-and-replace">A) Find and Replace</a>
-<ul>
-<li><a href="#searching-a-single-file">Searching a single file</a></li>
-<li><a href="#searching-several-files">Searching several files</a></li>
-<li><a href="#searching-the-full-contents-of-the-digital-egyptian-gazette">Searching the full contents of the digital Egyptian Gazette</a></li>
-</ul></li>
-<li><a href="#b-xpath-query-bar">B) XPath query bar</a>
-<ul>
-<li><a href="#set-up-a-working-set">Set up a working set</a></li>
-<li><a href="#basic-xpath-queries">Basic XPath queries</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#2-the-what-and-where-of-xpath">2. The What and Where of XPath</a>
-<ul>
-<li><a href="#where-searches">&ldquo;Where&rdquo; searches</a></li>
-<li><a href="#what-searches">&ldquo;What&rdquo; searches</a></li>
-</ul></li>
-<li><a href="#3-navigating-the-tree">3. Navigating the tree</a>
-<ul>
-<li><a href="#search-using-xml-id-or-feature">Search using xml:id or feature</a></li>
-</ul></li>
-<li><a href="#4-working-with-tables">4. Working with tables</a></li>
-<li><a href="#5-recipe-book">5. Recipe book</a>
-<ul>
-<li><a href="#searching-for-instances-of-particular-words">Searching for instances of particular words</a></li>
-<li><a href="#counting-instances">Counting instances</a></li>
-<li><a href="#item-length">Item length</a></li>
-<li><a href="#exclude-section-div-page">Exclude Section/div/Page</a></li>
-<li><a href="#search-for-one-word-but-not-another">Search for one word but not another</a></li>
-</ul></li>
-<li><a href="#6-searching-with-regular-expressions">6. Searching with regular expressions</a></li>
-<li><a href="#7-export-and-manipulate-results">7. Export and manipulate results</a></li>
-<li><a href="#8-xquery">8. XQuery</a></li>
-<li><a href="#9-resources">9. Resources</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#objective">Objective</a></li>
+    <li><a href="#1-setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor</a>
+      <ul>
+        <li><a href="#a-find-and-replace">A) Find and Replace</a></li>
+        <li><a href="#b-xpath-query-bar">B) XPath query bar</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-the-what-and-where-of-xpath">2. The What and Where of XPath</a>
+      <ul>
+        <li><a href="#where-searches">&ldquo;Where&rdquo; searches</a></li>
+        <li><a href="#what-searches">&ldquo;What&rdquo; searches</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-navigating-the-tree">3. Navigating the tree</a>
+      <ul>
+        <li><a href="#search-using-xmlid-or-feature">Search using xml:id or feature</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-working-with-tables">4. Working with tables</a></li>
+    <li><a href="#5-recipe-book">5. Recipe book</a>
+      <ul>
+        <li><a href="#searching-for-instances-of-particular-words">Searching for instances of particular words</a></li>
+        <li><a href="#counting-instances">Counting instances</a></li>
+        <li><a href="#item-length">Item length</a></li>
+        <li><a href="#exclude-sectiondivpage">Exclude Section/div/Page</a></li>
+        <li><a href="#search-for-one-word-but-not-another">Search for one word but not another</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-searching-with-regular-expressions">6. Searching with regular expressions</a></li>
+    <li><a href="#7-export-and-manipulate-results">7. Export and manipulate results</a></li>
+    <li><a href="#8-xquery">8. XQuery</a></li>
+    <li><a href="#9-resources">9. Resources</a></li>
+  </ul>
 </nav>
 
       
@@ -489,118 +485,69 @@
           <h1 itemprop="name">Querying the Digital Egyptian Gazette</h1>
 
           <div class="article-style" itemprop="articleBody">
-            
-
-<h2 id="objective">Objective</h2>
-
+            <h2 id="objective">Objective</h2>
 <p>We are digitizing the <em>Egyptian Gazette</em> to make its contents searchable. Plain text can be searched with keywords, but TEI-XML encoded text can be searched in more precise ways. For example, if you search for &ldquo;London&rdquo; in plain text, you would find hundreds and hundreds of repeated references to London in ads and tables. TEI-XML allows you to search for &ldquo;London&rdquo; in <em>specific parts</em> of the newspaper: page 3, for example, or local news. Restricting your search to these locations can give you more useful results.</p>
-
-<p>The two main query (search) languages for XML are <a href="https://www.w3.org/TR/xpath-datamodel-30/" target="_blank">XPath and XQuery</a>. This tutorial focuses on XPath as used in the Oxygen XML editor. An XPath is a series of terms (words) separated by slashes (/) and other punctuation that describes a specific location or locations in an XML file. For example, the XPath <code>//div[@type=&quot;section&quot;]/div/p[contains(., 'cotton')]</code> describes paragraphs containing the word &ldquo;cotton&rdquo; that are contained in any <code>div</code> that is itself contained in a <code>div</code> that is defined as a section. This tutorial explains how to use this powerful tool.</p>
-
+<p>The two main query (search) languages for XML are <a href="https://www.w3.org/TR/xpath-datamodel-30/">XPath and XQuery</a>. This tutorial focuses on XPath as used in the Oxygen XML editor. An XPath is a series of terms (words) separated by slashes (/) and other punctuation that describes a specific location or locations in an XML file. For example, the XPath <code>//div[@type=&quot;section&quot;]/div/p[contains(., 'cotton')]</code> describes paragraphs containing the word &ldquo;cotton&rdquo; that are contained in any <code>div</code> that is itself contained in a <code>div</code> that is defined as a section. This tutorial explains how to use this powerful tool.</p>
 <h2 id="1-setting-up-queries-in-the-oxygen-xml-editor">1. Setting up queries in the Oxygen XML editor</h2>
-
 <p>Oxygen XML Editor allows you to run queries in several different ways. For our purposes, the most useful are a) Find and Replace and b) the XPath query bar</p>
-
 <h3 id="a-find-and-replace">A) Find and Replace</h3>
-
-<p>If you are searching for a specific word or phrase, or searching using regular expressions, it&rsquo;s easiest to use Find and Replace. You can search for the word everywhere in a file, or in specific parts of that file, by restricting the search to a certain XPath.</p>
-
+<p>If you are searching for a specific word or phrase, or searching using regular expressions, it's easiest to use Find and Replace. You can search for the word everywhere in a file, or in specific parts of that file, by restricting the search to a certain XPath.</p>
 <h4 id="searching-a-single-file">Searching a single file</h4>
-
 <p>Open the file that you wish to search in the Oxygen XML editor. Then, click on Find/Replace (the magnifying glass). This will allow you to search for a keyword in the open file. The results will be displayed at the bottom of the editor. Click on any item in this list to be taken to that location in your file.</p>
-
 <p>As an example, search for <code>Egypt</code>. Then, search for <code>Egypt</code>, but restrict your XPath to <code>div[@type=&quot;page&quot;][@n=&quot;3&quot;]</code>, which will restrict your search to page 3 only. Copmpare the results of these two searches.</p>
-
 <h4 id="searching-several-files">Searching several files</h4>
-
 <p>Open all of the files that you wish to search, then click on Find/Replace in Files:
-<img src="/img/find-replace-oxygen.png" alt="find replace oxygen" />
+<img src="/img/find-replace-oxygen.png" alt="find replace oxygen">
 This will open a dialogue box. Under &ldquo;Scope,&rdquo; choose &ldquo;All opened files,&rdquo; then proceed with your search.</p>
-
 <h4 id="searching-the-full-contents-of-the-digital-egyptian-gazette">Searching the full contents of the digital Egyptian Gazette</h4>
-
-<p>To search everything in the <a href="https://github.com/dig-eg-gaz/content" target="_blank">Digital Egyptian Gazette content repository</a>, under Find/Replace in Files &gt; Scope, choose &ldquo;Specified path,&rdquo; then navigate to the location where you&rsquo;ve cloned your fork of the content repository. For more information about how to find this location, consult the <a href="/how-to/digitization/github-instructions/">Github tutorial</a>.</p>
-
+<p>To search everything in the <a href="https://github.com/dig-eg-gaz/content">Digital Egyptian Gazette content repository</a>, under Find/Replace in Files &gt; Scope, choose &ldquo;Specified path,&rdquo; then navigate to the location where you've cloned your fork of the content repository. For more information about how to find this location, consult the <a href="/how-to/digitization/github-instructions/">Github tutorial</a>.</p>
 <h3 id="b-xpath-query-bar">B) XPath query bar</h3>
-
-<p>If you are searching for particular nodes rather than words, or counting nodes, it&rsquo;s easiest to use the XPath query bar, which is located near the top left of your screen.</p>
-
-<p><img src="/img/xpath-query-box-oxygen.png" alt="xpath query box oxygen" /></p>
-
-<p>The drop-down icon on the left of this box allows you to choose the scope of your search: current file, all opened files, and other options. To search the full contents of the digital Egyptian Gazette, you&rsquo;ll need to use a &ldquo;working set.&rdquo;</p>
-
-<p><img src="/img/xpath-query-box-scope.png" alt="xpath query box scope" /></p>
-
+<p>If you are searching for particular nodes rather than words, or counting nodes, it's easiest to use the XPath query bar, which is located near the top left of your screen.</p>
+<p><img src="/img/xpath-query-box-oxygen.png" alt="xpath query box oxygen"></p>
+<p>The drop-down icon on the left of this box allows you to choose the scope of your search: current file, all opened files, and other options. To search the full contents of the digital Egyptian Gazette, you'll need to use a &ldquo;working set.&rdquo;</p>
+<p><img src="/img/xpath-query-box-scope.png" alt="xpath query box scope"></p>
 <h4 id="set-up-a-working-set">Set up a working set</h4>
-
-<p>To create a working set of files for your search, click on &ldquo;Configure XPath working sets&hellip;&rdquo; in the drop down menu pictured above. Create a &ldquo;New working set&rdquo;, give it a name, then press enter. Now click &ldquo;Add resources,&rdquo; then &ldquo;Folders,&rdquo; then select the content folder you&rsquo;ve cloned from GitHub. Click &ldquo;Done&rdquo; and &ldquo;Ok&rdquo;, and you should be ready to query the full contents.</p>
-
+<p>To create a working set of files for your search, click on &ldquo;Configure XPath working sets&hellip;&rdquo; in the drop down menu pictured above. Create a &ldquo;New working set&rdquo;, give it a name, then press enter. Now click &ldquo;Add resources,&rdquo; then &ldquo;Folders,&rdquo; then select the content folder you've cloned from GitHub. Click &ldquo;Done&rdquo; and &ldquo;Ok&rdquo;, and you should be ready to query the full contents.</p>
 <h4 id="basic-xpath-queries">Basic XPath queries</h4>
-
 <p>Set the scope to &ldquo;Current File,&rdquo; then try these basic queries:</p>
-
 <ul>
 <li><code>//div</code> returns a list of all the &ldquo;divs&rdquo; in your file</li>
 <li><code>//div[@type=&quot;item&quot;]</code> returns a list of all the item-type divs in your file</li>
 <li><code>//div[@type=&quot;item&quot;][contains(., 'cotton')]</code> returns a list of all the item-type divs in your file containing the word &ldquo;cotton&rdquo;</li>
 </ul>
-
 <h2 id="2-the-what-and-where-of-xpath">2. The What and Where of XPath</h2>
-
-<p>Once you have the basic parameters set up, it&rsquo;s time to look a bit more carefully at the logic of XPath. XPath asks you to do two things: specify <strong>where</strong> you want to search, and specify <strong>what</strong> you want to search for.</p>
-
+<p>Once you have the basic parameters set up, it's time to look a bit more carefully at the logic of XPath. XPath asks you to do two things: specify <strong>where</strong> you want to search, and specify <strong>what</strong> you want to search for.</p>
 <h3 id="where-searches">&ldquo;Where&rdquo; searches</h3>
-
 <p>We use XML to structure our issues of the <em>Egyptian Gazette</em> by page, section, item, and so on. For example, we use nesting pairs of tags to put <code>&lt;div type=&quot;item&quot;&gt; &lt;/div&gt;</code> inside <code>&lt;div type=&quot;section&quot;&gt; &lt;/div&gt;</code>, and <code>&lt;div type=&quot;section&quot;&gt; &lt;/div&gt;</code> inside <code>&lt;div type=&quot;page&quot;&gt; &lt;/div&gt;</code>.</p>
-
 <p>This structure is commonly described as a &ldquo;tree.&rdquo; The root is the issue, which branches into six or eight pages, and each page branches into sections and items and paragraphs.</p>
-
 <p>An XPath query shows the tree parts separated by slashes, starting from root and heading towards the branches, like so:</p>
-
 <p><code>//div[@type=&quot;page&quot;]/div[@type=&quot;section&quot;]/div[@type=&quot;item&quot;]/p</code></p>
-
 <p>A double slash (<strong>//</strong>) tells the computer to look anywhere in the document for the item that comes next. A single slash (<strong>/</strong>) tells the computer to look only one level up the tree. What difference does this make?</p>
-
 <ul>
 <li><code>//div//head</code> would return any headline in any div in the whole document. This would not be a very good search, because it would return a huge number of results.</li>
 <li><code>//div/div/div/div/head</code> would return any paragraph that is inside four divisions (for instance, a paragraph in an item in a section in a page). This would return fewer results.</li>
 </ul>
-
-<p>The best way to say exactly where you want to look is by using <strong>attributes</strong>. These are contained in square brackets. For example, if you want to search for the headlines within page 1 only, you would say <code>//div[@type=&quot;page&quot;][@n=&quot;1&quot;]//head</code>. What goes in the square brackets is the attributes you put in the <code>&lt;div&gt;</code> tag when you&rsquo;re encoding the issues.</p>
-
-<p>With a little practice, you&rsquo;ll learn to search for results only in the relevant parts of the newspaper.</p>
-
+<p>The best way to say exactly where you want to look is by using <strong>attributes</strong>. These are contained in square brackets. For example, if you want to search for the headlines within page 1 only, you would say <code>//div[@type=&quot;page&quot;][@n=&quot;1&quot;]//head</code>. What goes in the square brackets is the attributes you put in the <code>&lt;div&gt;</code> tag when you're encoding the issues.</p>
+<p>With a little practice, you'll learn to search for results only in the relevant parts of the newspaper.</p>
 <h3 id="what-searches">&ldquo;What&rdquo; searches</h3>
-
 <p>After you tell XPath <em>where</em> you want it to search, you can tell it <em>what</em> you want it to return. (This is optional.) Probably the most common thing to search for is a word or words. To do this, add <code>[contains(., &quot;searchtext&quot;)]</code> to the end of your search, putting your search word(s) between the quotation marks. For example, <code>//div[contains(., &quot;plague&quot;)]</code> will return all divs that contain the word &ldquo;plague.&rdquo; Note that this search is case sensitive, and will not return &ldquo;PLAGUE&rdquo; and &ldquo;Plague.&rdquo; To remedy this ,use the <code>matches</code> function with the <code>'i'</code> flag, which makes the search case insensitive: <code>//div[matches(.,'the plague', 'i')]</code>.</p>
-
 <p>You can also search for particular kinds of information. Add a slash to the end of the location, then tell it you want</p>
-
 <ul>
 <li><code>count()</code> &ndash; how many of these things are there?</li>
 <li><code>string()</code> &ndash; what is the string of text this thing contains?</li>
 <li><code>number()</code> &ndash; what number is found on this branch?</li>
 </ul>
-
 <h2 id="3-navigating-the-tree">3. Navigating the tree</h2>
-
 <p>You can navigate around the tree by using commands like <code>parent::</code> or <code>following-sibling::</code> instead of the slash. These will move you up and down the tree.</p>
-
 <p>For example:</p>
-
 <ul>
 <li>Return all datelines contained in a &ldquo;wireReport&rdquo; div type: <code>//div[@type=&quot;wireReport&quot;]/parent::div//dateline</code></li>
 <li>Return all placeNames in wireReports: <code>//div[@type=&quot;wireReport&quot;]/parent::div//dateline//placeName</code></li>
 </ul>
-
-<h3 id="search-using-xml-id-or-feature">Search using xml:id or feature</h3>
-
+<h3 id="search-using-xmlid-or-feature">Search using xml:id or feature</h3>
 <p>Many ads, templates, and sections have <code>xml:id</code> or <code>feature</code> tags embedded in them. These are meant to simplify your search. For features, use <code>//div[@feature=&quot;shippingMovements&quot;]</code>. For tables, use <code>//table[@xml:id=&quot;deg-ta-cppa01&quot;]</code>.</p>
-
 <h2 id="4-working-with-tables">4. Working with tables</h2>
-
 <p>Tables are a powerful part of the XML-encoded <em>Egyptian Gazette</em>. XPath gives us tools to return precise parts of the information these tables contain. For example:</p>
-
 <ul>
 <li>return the text contained in the cell after a cell containing the text &ldquo;P.T.&rdquo; <code>//table//cell[contains(.,'P.T.')]/following-sibling::cell[1]/text()</code>. Does not work for numbers, it seems.</li>
 <li>return the number contained in the cell after a cell containing the text &ldquo;Augment.&rdquo; <code>//table//cell[contains(.,'Augment.')]/following-sibling::cell[1]/number()</code>. Does not work if number appears as a string (i.e. contains a comma after the thousands for example).</li>
@@ -608,80 +555,51 @@ This will open a dialogue box. Under &ldquo;Scope,&rdquo; choose &ldquo;All open
 <li>return the string text of the first paragraph of the div with the heading &ldquo;MARCHE DE MINET&rdquo; <code>//div//head[contains(.,'MARCHE DE MINET')]/following-sibling::p[1]/string()</code></li>
 <li>return the value of the &ldquo;when&rdquo; attribute of dates in the third line of the Orient-Royal Mail Line ad: <code>//div[@xml:id=&quot;deg-ad-orm01&quot;]//head/following-sibling::p[3]/date/@when</code></li>
 </ul>
-
 <p>An example of working your way through table cells, looking at prices for cotton:</p>
-
 <ul>
 <li>This query will look at all tables and return the value in the fourth cell to the right of the cell containing the word &ldquo;Cotton&rdquo;: <code>//table//cell[contains(.,'Cotton')]/following-sibling::cell[4]</code></li>
 <li>This query will look at the &ldquo;Coton&rdquo; table (which has an xml:id of &ldquo;deg-ta-cotn01&rdquo;), and return the value in the cell to the right of the cell containing the word &ldquo;Russie&rdquo;:  <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Russie')]/following-sibling::cell[1]</code></li>
 </ul>
-
 <h2 id="5-recipe-book">5. Recipe book</h2>
-
 <p>The possibilities are endless. Here are some samples.</p>
-
 <h3 id="searching-for-instances-of-particular-words">Searching for instances of particular words</h3>
-
 <ul>
 <li>Return all placename items that contain the word &ldquo;Aden&rdquo;: <code>//placeName[contains(.,'Aden')]</code></li>
 </ul>
-
 <h3 id="counting-instances">Counting instances</h3>
-
 <ul>
 <li>Count the number of items containing the term &lsquo;native&rsquo;: <code>count(//div[contains(., 'native')])</code></li>
-<li>count the number of ads (divs) on page 1 (div n=&ldquo;1&rdquo;): <code>count(//div[@n=&quot;1&quot;]//div)</code></li>
+<li>count the number of ads (divs) on page 1 (div n=&quot;1&rdquo;): <code>count(//div[@n=&quot;1&quot;]//div)</code></li>
 <li>count the number of paragraphs in the division whose heading contains &ldquo;MARCHE DE MINET&rdquo;: <code>count(//div/head[contains(.,'MARCHE DE MINET')]/following-sibling::p)</code></li>
 </ul>
-
 <h3 id="item-length">Item length</h3>
-
 <ul>
 <li>Find all paragraphs longer than 5000 characters: <code>//p[string-length() &gt; 5000]</code></li>
 </ul>
-
-<h3 id="exclude-section-div-page">Exclude Section/div/Page</h3>
-
+<h3 id="exclude-sectiondivpage">Exclude Section/div/Page</h3>
 <ul>
 <li>Search all the divs after Page 1: <code>//div[not(descendant::div[@n=&quot;1&quot;]) and not(ancestor-or-self::div[@n=&quot;1&quot;])]</code></li>
 </ul>
-
 <h3 id="search-for-one-word-but-not-another">Search for one word but not another</h3>
-
 <ul>
 <li>Search for paragraphs containing the word &ldquo;theatre&rdquo; but not the word &ldquo;performance&rdquo;: <code>//p[contains(.,'theatre')]/text() | //p[contains(.,'theatre')]/*[not(contains(.,'performance'))]/text()</code></li>
 </ul>
-
 <h2 id="6-searching-with-regular-expressions">6. Searching with regular expressions</h2>
-
-<p>It is possible to combine regular expression and XPath searches by using the find/replace menu. Enter the regular expression you wish to search for in the Find box, and the XPath location in which you wish to search in the XPath box. <!--- explain further ---></p>
-
+<p>It is possible to combine regular expression and XPath searches by using the find/replace menu. Enter the regular expression you wish to search for in the Find box, and the XPath location in which you wish to search in the XPath box. &lt;!&mdash; explain further &mdash;&gt;</p>
 <h2 id="7-export-and-manipulate-results">7. Export and manipulate results</h2>
-
-<p>Right click on results, then export file. You can then <a href="https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/#cleaning-xpath-results" target="_blank">clean up these results with regular expressions</a> to remove the parts you don&rsquo;t want. After this, you can work with the results in a spreadsheet.</p>
-
+<p>Right click on results, then export file. You can then <a href="https://dig-eg-gaz.github.io/how-to/digitization/regular-expression-instructions/#cleaning-xpath-results">clean up these results with regular expressions</a> to remove the parts you don't want. After this, you can work with the results in a spreadsheet.</p>
 <h2 id="8-xquery">8. XQuery</h2>
-
 <p>More complex querying can be accomplished using XQuery.</p>
-
 <p>Example, returning the date of every issue with a page 7:
-<code>for $a in collection(&quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&quot;)
-where $a//*:div[@n=&quot;7&quot;]
-return $a//*:bibl/*:date</code></p>
-
+<code>for $a in collection(&quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&quot;) where $a//*:div[@n=&quot;7&quot;] return $a//*:bibl/*:date</code></p>
 <p>Identify six versus eight page issues:
-<code>for $a in collection(&quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&quot;)
-return if ($a//*:div[@n=&quot;7&quot;])
-then &lt;eight-page&gt;{data($a//*:bibl/*:date)}&lt;/eight-page&gt;
-else &lt;six-page&gt;{data($a//*:bibl/*:date)}&lt;/six-page&gt;</code></p>
-
+<code>for $a in collection(&quot;file:/Users/whanley/GitHub/DEG-content/?select=1905-*.xml;recurse=yes&quot;) return if ($a//*:div[@n=&quot;7&quot;]) then &lt;eight-page&gt;{data($a//*:bibl/*:date)}&lt;/eight-page&gt; else &lt;six-page&gt;{data($a//*:bibl/*:date)}&lt;/six-page&gt;</code></p>
 <h2 id="9-resources">9. Resources</h2>
-
 <ul>
-<li><a href="http://www.w3schools.com/xml/xsl_functions.asp" target="_blank">XPath functions list</a></li>
-<li><a href="https://www.w3.org/TR/2010/REC-xpath-functions-20101214/#func-number" target="_blank">W3C XPath functions list</a></li>
-<li><a href="http://www.w3schools.com/xml/xpath_intro.asp" target="_blank">XPath tutorial</a></li>
-<li>Got a question or comment? File an issue <a href="https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/_pages/how-to/query-instructions.md" target="_blank">here</a>.</li>
+<li><a href="http://www.w3schools.com/xml/xsl_functions.asp">XPath functions list</a></li>
+<li><a href="https://www.w3.org/TR/2010/REC-xpath-functions-20101214/#func-number">W3C XPath functions list</a></li>
+<li><a href="http://www.w3schools.com/xml/xpath_intro.asp">XPath tutorial</a></li>
+<li>Got a question or comment? File an issue <a href="https://github.com/dig-eg-gaz/dig-eg-gaz.github.io/blob/master/_pages/how-to/query-instructions.md">here</a>.</li>
 </ul>
 
           </div>

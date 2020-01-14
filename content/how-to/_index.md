@@ -23,7 +23,8 @@ menu:
 
 ## Digital Egyptian Gazette project instructions
 
-1. [How to scan microfilm](/how-to/digitization/microfilm-instructions)
+1. [How to set up your computer](/how-to/digitization/setup-instructions)
+2. [How to scan microfilm](/how-to/digitization/microfilm-instructions)
 2. [How to perform structural markup in TEI-XML](/how-to/digitization/tei-xml-instructions)
 3. [How to use templates](/how-to/digitization/templating-instructions)
 4. [How to use GitHub](/how-to/digitization/github-instructions)

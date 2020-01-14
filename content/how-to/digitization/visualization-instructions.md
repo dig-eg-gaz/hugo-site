@@ -17,7 +17,7 @@ weight: 120
 Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.
 
 ## Installation
-1. Your FSU emails allow you free access to Tableau’s full Desktop suite. Navigate to [this page](https://www.tableau.com/academic/students) and its instructions to download your copy of Tableau. **Be sure to use your FSU email address**.
+1. Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to [this page](https://www.tableau.com/academic/students) and its instructions to download your copy of Tableau. **Be sure to use your FSU email address**.
 
 2. You will receive a download link via email. Download Tableau and follow installation instructions.
 

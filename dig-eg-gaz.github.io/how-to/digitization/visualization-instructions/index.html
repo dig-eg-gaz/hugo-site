@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.
-Installation  Your FSU emails allow you free access to Tableau’s full Desktop suite. Navigate to this page and its instructions to download your copy of Tableau. Be sure to use your FSU email address.">
+Installation   Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to this page and its instructions to download your copy of Tableau. Be sure to use your FSU email address.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/">
@@ -83,7 +83,7 @@ Installation  Your FSU emails allow you free access to Tableau’s full Desktop 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.d7c1c7c6227d9d525a45bb05712a391e.css">
+  <link rel="stylesheet" href="/css/academic.min.0e63a2d4cbb51cb21f28fb74861e16b4.css">
 
   
 
@@ -113,7 +113,7 @@ Installation  Your FSU emails allow you free access to Tableau’s full Desktop 
   <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/visualization-instructions/">
   <meta property="og:title" content="Data Visualization Tutorial | Digital Egyptian Gazette">
   <meta property="og:description" content="Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.
-Installation  Your FSU emails allow you free access to Tableau’s full Desktop suite. Navigate to this page and its instructions to download your copy of Tableau. Be sure to use your FSU email address."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
+Installation   Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to this page and its instructions to download your copy of Tableau. Be sure to use your FSU email address."><meta property="og:image" content="https://dig-eg-gaz.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://dig-eg-gaz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -367,8 +367,12 @@ Installation  Your FSU emails allow you free access to Tableau’s full Desktop 
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/how-to/digitization/microfilm-instructions/">Digitization</a>
+    <a class="docs-toc-link" href="/how-to/digitization/setup-instructions/">Digitization</a>
     <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/how-to/digitization/setup-instructions/">Set-up</a>
+      </li>
       
       <li >
         <a href="/how-to/digitization/microfilm-instructions/">Microfilm</a>
@@ -435,14 +439,11 @@ Installation  Your FSU emails allow you free access to Tableau’s full Desktop 
       </ul>
 
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#installation">Installation</a></li>
-<li><a href="#walkthrough">Walkthrough</a></li>
-<li><a href="#conclusion">Conclusion</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#walkthrough">Walkthrough</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
 </nav>
 
       
@@ -457,75 +458,76 @@ Installation  Your FSU emails allow you free access to Tableau’s full Desktop 
           <h1 itemprop="name">Data Visualization Tutorial</h1>
 
           <div class="article-style" itemprop="articleBody">
-            
-
-<p>Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.</p>
-
+            <p>Tableau is a powerful tool that can be used to view, manipulate, explore, and analyze data. For the purposes of this course, Tableau is useful to engage with the results from our Xpath queries.</p>
 <h2 id="installation">Installation</h2>
-
 <ol>
-<li><p>Your FSU emails allow you free access to Tableau’s full Desktop suite. Navigate to <a href="https://www.tableau.com/academic/students" target="_blank">this page</a> and its instructions to download your copy of Tableau. <strong>Be sure to use your FSU email address</strong>.</p></li>
-
-<li><p>You will receive a download link via email. Download Tableau and follow installation instructions.</p></li>
-
-<li><p>After downloading and installing the software, you can follow <a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html" target="_blank">video tutorials</a> to get up to speed with more advanced functions. But for now, let&rsquo;s look at some simple examples using data from the digital Egyptian Gazette.</p></li>
+<li>
+<p>Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to <a href="https://www.tableau.com/academic/students">this page</a> and its instructions to download your copy of Tableau. <strong>Be sure to use your FSU email address</strong>.</p>
+</li>
+<li>
+<p>You will receive a download link via email. Download Tableau and follow installation instructions.</p>
+</li>
+<li>
+<p>After downloading and installing the software, you can follow <a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html">video tutorials</a> to get up to speed with more advanced functions. But for now, let's look at some simple examples using data from the digital Egyptian Gazette.</p>
+</li>
 </ol>
-
 <h2 id="walkthrough">Walkthrough</h2>
-
 <ol>
-<li><p>First, let&rsquo;s gather data to explore in Tableau. This data comes from the <a href="/contents/templates/#coton">Coton</a> table, which appears regularly in the financial news section of the Egyptian Gazette.</p></li>
-
-<li><p>Using this query: <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'balles')]/following-sibling::cell[1]</code>, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.</p></li>
-
-<li><p>We will want to do more than just explore total cotton exports so let&rsquo;s also run this query:<code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]</code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.</p></li>
-
-<li><p>The resulting data from each of these queries will be quite raw. We can use <a href="/how-to/digitization/regular-expression-instructions/">Regular Expressions</a> to clean up our data before putting it into Tableau.</p></li>
-
-<li><p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample <a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx" target="_blank">spreadsheet</a> containing these data.</p></li>
-
-<li><p>Now that we have data representing monthly total cotton exports and where they are being shipped we want to visualize this data.</p></li>
-
-<li><p>Open Tableau, and click &ldquo;Connect to a File&rdquo; in the upper left corner, and select the spreadsheet from your hard drive.</p></li>
-
-<li><p>Make sure that Tableau is recognizing the data types in your spreadsheet (dates, country names, numbers, etc). While in the Data Source interface, change the “Month” column from string to date value by Clicking on the “Abc” icon and selecting “Date” from the drop down menu. Set the “Country” column&rsquo;s geographic role to &ldquo;Country/Region&rdquo;.</p></li>
-
-<li><p>At the bottom, click Sheet 1. After dragging and dropping the “Total Cotton Export (Bales)” cell in the row slot, place the “Month” cell in the column slot, under Marks select “Bar”.</p></li>
+<li>
+<p>First, let's gather data to explore in Tableau. This data comes from the <a href="/contents/templates/#coton">Coton</a> table, which appears regularly in the financial news section of the Egyptian Gazette.</p>
+</li>
+<li>
+<p>Using this query: <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'balles')]/following-sibling::cell[1]</code>, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.</p>
+</li>
+<li>
+<p>We will want to do more than just explore total cotton exports so let's also run this query:<code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]</code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.</p>
+</li>
+<li>
+<p>The resulting data from each of these queries will be quite raw. We can use <a href="/how-to/digitization/regular-expression-instructions/">Regular Expressions</a> to clean up our data before putting it into Tableau.</p>
+</li>
+<li>
+<p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample <a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx">spreadsheet</a> containing these data.</p>
+</li>
+<li>
+<p>Now that we have data representing monthly total cotton exports and where they are being shipped we want to visualize this data.</p>
+</li>
+<li>
+<p>Open Tableau, and click &ldquo;Connect to a File&rdquo; in the upper left corner, and select the spreadsheet from your hard drive.</p>
+</li>
+<li>
+<p>Make sure that Tableau is recognizing the data types in your spreadsheet (dates, country names, numbers, etc). While in the Data Source interface, change the “Month” column from string to date value by Clicking on the “Abc” icon and selecting “Date” from the drop down menu. Set the “Country” column's geographic role to &ldquo;Country/Region&rdquo;.</p>
+</li>
+<li>
+<p>At the bottom, click Sheet 1. After dragging and dropping the “Total Cotton Export (Bales)” cell in the row slot, place the “Month” cell in the column slot, under Marks select “Bar”.</p>
+</li>
 </ol>
-
-<p><img src="/img/tableau-1905-cotton-export-total.png" alt="Cotton Exports" /></p>
-
+<p><img src="/img/tableau-1905-cotton-export-total.png" alt="Cotton Exports"></p>
 <p>The resulting visual gives us an annual total of exports, but we can go deeper.</p>
-
-<ol>
-<li><p>In the column slot, click the “Date” cell and select “Month”. This provides a clearer representation of fluctuations in the cotton export value during the year. <!-- If we select the second “Month” in the drop down menu it provides a visualization that includes zero value months. -->
-<img src="/img/tableau-1905-monthly-cotton-exports.png" alt="Cotton Exports" /></p></li>
-
-<li><p>In the &ldquo;Marks&rdquo; box select &ldquo;Label&rdquo;, and click the box next to &ldquo;Show Mark Labels&rdquo;. Now our data is effectively communicating the monthly totals of cotton exports. Now let&rsquo;s incorporate each destination to further increase the accuracy of the data.</p></li>
-
-<li><p>Drag and drop the &ldquo;Country&rdquo; cell into the Color box. Now we can see that a majority of the cotton exported every month was shipped to England.</p></li>
+<ol start="10">
+<li>
+<p>In the column slot, click the “Date” cell and select “Month”. This provides a clearer representation of fluctuations in the cotton export value during the year. <!-- raw HTML omitted -->
+<img src="/img/tableau-1905-monthly-cotton-exports.png" alt="Cotton Exports"></p>
+</li>
+<li>
+<p>In the &ldquo;Marks&rdquo; box select &ldquo;Label&rdquo;, and click the box next to &ldquo;Show Mark Labels&rdquo;. Now our data is effectively communicating the monthly totals of cotton exports. Now let's incorporate each destination to further increase the accuracy of the data.</p>
+</li>
+<li>
+<p>Drag and drop the &ldquo;Country&rdquo; cell into the Color box. Now we can see that a majority of the cotton exported every month was shipped to England.</p>
+</li>
 </ol>
-
-<p><img src="/img/tableau-cotton-exports-by-country.png" alt="Cotton Exports" /></p>
-
-<ol>
-<li>For a simpler comparative drag and drop the &ldquo;Country&rdquo; cell into the Filters box, click none, then select which countries you want to compare. For now let&rsquo;s look at the difference between cotton exports to England and France.</li>
+<p><img src="/img/tableau-cotton-exports-by-country.png" alt="Cotton Exports"></p>
+<ol start="13">
+<li>For a simpler comparative drag and drop the &ldquo;Country&rdquo; cell into the Filters box, click none, then select which countries you want to compare. For now let's look at the difference between cotton exports to England and France.</li>
 </ol>
-
-<p><img src="/img/tableau-cotton-exports-england-france.png" alt="Cotton Exports to England and France" />.</p>
-
-<ol>
+<p><img src="/img/tableau-cotton-exports-england-france.png" alt="Cotton Exports to England and France">.</p>
+<ol start="14">
 <li>To create a different kind of visualization clear the Columns and Rows then drag and drop the &ldquo;Country&rdquo; cell into the Columns slot and &ldquo;Total Cotton Export&rdquo; into the Rows slot. (You may need to remove the filter to display all countries). On the right hand side of the interface click &ldquo;Show Me&rdquo;, and select the Symbol Map option. The resulting image depicts the amount of comparative cotton exported to each location.</li>
 </ol>
-
-<p><img src="/img/tableau-global-cotton-exports.png" alt="Global Cotton Exports" /></p>
-
-<ol>
+<p><img src="/img/tableau-global-cotton-exports.png" alt="Global Cotton Exports"></p>
+<ol start="15">
 <li>To save our visualizations, click “Story”, “New Story”. Drag the desired sheet to the designated location. Click “Story”, “Export Image”.</li>
 </ol>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <p>Tableau is great for creating visualisations from your data, but it also is useful for data exploration. When we create data visualisations it is important to remember to keep graphics simple and self-explanatory. For independent data exploration, however, we can try simple as well as complex approaches. Experiment with your data in the software to not only create graphics, but to see how different visualisations help you think about your research.</p>
 
           </div>

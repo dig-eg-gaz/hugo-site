@@ -29,12 +29,11 @@ You can approach GitHub three ways:
 We'll be using the Desktop client mostly, but in a pinch you can use the web browser.
 
 ## 3. How to use the organization repository and your own fork of it
-1. Create an account, and email me your username so that I can add you to the dig-eg-gaz organization..
-2. Navigate to the organization [content repository](https://github.com/dig-eg-gaz/content), and **fork** the repository by clicking on the "fork" icon on the top right. You will be offered the chance to fork the repository under your own username--do so. This will make a copy of the repository in your own GitHub account.
-3. Clone this repository in your Desktop.
-4. In GitHub Desktop, right click the "content" repository, and choose "Show in Finder." This will show where the content files you've just cloned are stored on your hard drive. Move your xml files here, and continue to edit and save them in this location. Desktop will help you to send these edits to Github.
+1. Navigate to the organization [content repository](https://github.com/dig-eg-gaz/content), and **fork** the repository by clicking on the "fork" icon on the top right. You will be offered the chance to fork the repository under your own username--do so. This will make a copy of the repository in your own GitHub account.
+2. Clone this repository in your Desktop.
+3. In GitHub Desktop, right click the "content" repository, and choose "Show in Finder." This will show where the content files you've just cloned are stored on your hard drive. Move your xml files here, and continue to edit and save them in this location. Desktop will help you to send these edits to Github.
 ![show in finder](/img/content-show-in-finder.png)
-5. When you're ready to sync your changes with the GitHub cloud, write a summary of your changes (e.g., "creating page 1"), hit "Commit to Master", then hit "Fetch origin" (on the top right). This will backup your work onto your fork on GitHub's servers.
+4. When you're ready to sync your changes with the GitHub cloud, write a summary of your changes (e.g., "creating page 1"), hit "Commit to Master", then hit "Fetch origin" (on the top right). This will backup your work onto your fork on GitHub's servers.
 ![fetch origin desktop](/img/fetch-origin-desktop.png)
 
 ## 4. How to submit your deliverables
