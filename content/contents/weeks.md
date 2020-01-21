@@ -84,9 +84,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 42|October 17, 1906||[Kailen Chapple](https://github.com/wavyncurly)||1|
 44|October 30, 1906||[Gillian D’Onofrio](https://github.com/gillidonof)||1|
 52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)||1|
--|February 4, 1907|||page 1 split|
-11|March 11, 1907|March 16, 1907|[Tyler Kolby](https://github.com/Tkolby)|8?||pages 7-8?
-13|March 25, 1907|March 30, 1907|[Greyson Porter](https://github.com/gporter1)|15?|2|1907-03-29 missing?
+-|April 1, 1907|||2||pp. 7-8
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|1||lacking 1907-05-03-p3.jpg
 20|May 13, 1907|May 18, 1907|[Sami Squires](https://github.com/samisquires)|28||
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)||2|
@@ -106,6 +104,10 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 - May 1, 1907
 - October 31, 1907
 - January 14, 1908
+
+## Dates without publication (numbers continuous)
+
+- Friday, March 29, 1907
 
 ## Empty weeks (to be assigned next course)
 
