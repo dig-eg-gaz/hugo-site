@@ -7,7 +7,7 @@
     <description>Digital Egyptian Gazette</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Dec 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Digital Egyptian Gazette</title>
       <link>https://dig-eg-gaz.github.io/authors/jacobstefonek/</link>
     </image>
@@ -18,7 +18,9 @@
       <pubDate>Wed, 07 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/16-analysis-stefonek/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;stefonek-Serial-Example.PNG&#34; alt=&#34;figure&#34; title=&#34;figure&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Please click &lt;a href=&#34;https://www.google.com/maps/@15.4200469,40.3520146,3z/data=!3m1!4b1!4m2!6m1!1s1CWd7cdi_tApAVJFwYXbqsVxbDYM&#34;&gt;here&lt;/a&gt; to access my full data visualization.&lt;/p&gt;
+&lt;p&gt;Please click 
+&lt;a href=&#34;https://www.google.com/maps/@15.4200469,40.3520146,3z/data=!3m1!4b1!4m2!6m1!1s1CWd7cdi_tApAVJFwYXbqsVxbDYM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+ to access my full data visualization.&lt;/p&gt;
 &lt;p&gt;My serial question is, &amp;ldquo;Where were the Russian and Japanese fleets during the year of 1905?&amp;rdquo; I am asking this question because the Russo-Japanese war occurred during this time and the two military powers engaged in quite a bit of naval combat. We know the Japanese eventually won the war and we are aware of the major battles that occurred at sea. The information in the Egyptian Gazette can provide us with a wealth of ship names, smaller skirmishes, admirals and fleet movements that would otherwise go unmentioned in most historical collections. Querying the Digital Egyptian Gazette certainly produced an impressive micro-historical account of what happened on the seas.&lt;/p&gt;
 &lt;p&gt;The most difficult part of querying for this data was the large amount of inaccurate or conflicting information. With the recent advent of the wire system, naval news was rather hard to come by and often the wire reports would be delayed and coming from a variety of sources. Havas, Reuter and other correspondents would all have their available naval information published a day or two after the actual events transpired. I&#39;d have to comb through these clumps of naval news, cross checking conflicting reports and back-tracking to figure out the date that events transpired as opposed to when they were reported. On several occasions, information from one day would be edited or overturned in a publication one to two days later.&lt;/p&gt;
 &lt;p&gt;I searched the text for terms such as: &amp;ldquo;navy&amp;rdquo;, &amp;ldquo;Rodjestvensky&amp;rdquo;, &amp;ldquo;Togo&amp;rdquo;, &amp;ldquo;fleet&amp;rdquo; and &amp;ldquo;battle&amp;rdquo;. After searching with each key word, I search through the text XPath finds and collect each piece of naval information that relates to my question. I then transcribe the date, location and details of what occurred onto paper or a word document. Then, using Google Maps, I plot points at the various locations of naval action and tag them with a description of the available information. The points are numbered in order of date to provide logical progression of fleet movements.&lt;/p&gt;

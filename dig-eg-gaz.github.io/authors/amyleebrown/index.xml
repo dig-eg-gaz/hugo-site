@@ -7,7 +7,7 @@
     <description>Digital Egyptian Gazette</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Digital Egyptian Gazette</title>
       <link>https://dig-eg-gaz.github.io/authors/amyleebrown/</link>
     </image>
@@ -24,9 +24,15 @@
 &lt;p&gt;The article is not in any particular section of the paper, but is its own section. The writers of the article input their own opinions on the topic, which is something I have seen in many other articles in the newspaper.&lt;/p&gt;
 &lt;p&gt;Sources:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.laits.utexas.edu/cairo/history/modern/modern.html&#34;&gt;https://www.laits.utexas.edu/cairo/history/modern/modern.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.vqronline.org/essay/mixed-courts-egypt&#34;&gt;https://www.vqronline.org/essay/mixed-courts-egypt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-30403;jsessionid=848062D8750262DB8B32285B5E341BE5&#34;&gt;Dictionary of National Biography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.laits.utexas.edu/cairo/history/modern/modern.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.laits.utexas.edu/cairo/history/modern/modern.html&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.vqronline.org/essay/mixed-courts-egypt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.vqronline.org/essay/mixed-courts-egypt&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-30403;jsessionid=848062D8750262DB8B32285B5E341BE5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dictionary of National Biography&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

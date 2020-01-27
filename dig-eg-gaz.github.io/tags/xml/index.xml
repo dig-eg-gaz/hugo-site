@@ -7,7 +7,7 @@
     <description>XML</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://dig-eg-gaz.github.io/img/icon-192.png</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>XML</title>
       <link>https://dig-eg-gaz.github.io/tags/xml/</link>
     </image>
@@ -94,8 +94,12 @@ persname:
 &lt;span style=&#34;color:#a6e22e&#34;&gt;map&lt;/span&gt; f x&lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt;xs &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; f x &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; map xs
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It&#39;s pretty rad, it looks quite unlike most languages I&#39;ve seen in my day.  Haskell has some really interesting properties, though.  It&#39;s really easy to parse documents as a result, but it&#39;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
-&lt;p&gt;I did find one eventually: the &lt;a href=&#34;https://wiki.haskell.org/HXT&#34;&gt;Haskell XML Toolbox&lt;/a&gt;.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34;&gt;documentation&lt;/a&gt; has this example:&lt;/p&gt;
+&lt;p&gt;I did find one eventually: the 
+&lt;a href=&#34;https://wiki.haskell.org/HXT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Haskell XML Toolbox&lt;/a&gt;
+.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;
+ has this example:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Haskell&#34; data-lang=&#34;Haskell&#34;&gt;
 &lt;span style=&#34;color:#a6e22e&#34;&gt;isA&lt;/span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Bool&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; [a])
 &lt;span style=&#34;color:#a6e22e&#34;&gt;isA&lt;/span&gt; p x &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; p x       &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [x]
@@ -121,7 +125,9 @@ persname:
       <link>https://dig-eg-gaz.github.io/post/2016-10-25-stefonek-technical-reflection/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-25-stefonek-technical-reflection/</guid>
-      <description>&lt;p&gt;I suppose I&#39;ll start off with how much I&#39;ve learned so far through this course; taking digital images of film, running text recognition software, writing in Markdown and encoding in XML. Though it has all been incredibly interesting and fulfilling, the mention of those words along with &lt;a href=&#34;https://dig-eg-gaz.github.io/&#34;&gt;&amp;ldquo;Digital Egyptian Gazette&amp;rdquo;&lt;/a&gt;, will likely send chills down my spine for quite a while.&lt;/p&gt;
+      <description>&lt;p&gt;I suppose I&#39;ll start off with how much I&#39;ve learned so far through this course; taking digital images of film, running text recognition software, writing in Markdown and encoding in XML. Though it has all been incredibly interesting and fulfilling, the mention of those words along with 
+&lt;a href=&#34;https://dig-eg-gaz.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Digital Egyptian Gazette&amp;rdquo;&lt;/a&gt;
+, will likely send chills down my spine for quite a while.&lt;/p&gt;
 &lt;p&gt;To start, my largest technical obstacle was the poor job done by Fine Reader. While it truly saved me a lot of time by translating the text, it also made an overwhelming amount of errors that are incredibly time-consuming and painstaking to correct. If I were to make an estimate, correcting and encoding one page of the newspaper takes about three and a half hours. Aside from that I have had trouble with putting together the tables and advertisements in my week. Several of them do not yet exist as text files that I can pull from and for the ones that I do have access to, it takes about three copy and pastes before I trigger an &amp;ldquo;abuse mechanism&amp;rdquo; on GitHub. This locks me out for a couple of minutes before I can get back to work. But regardless, we push onward!&lt;/p&gt;
 </description>
     </item>
