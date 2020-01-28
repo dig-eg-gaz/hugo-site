@@ -22,7 +22,7 @@ menu:
 ---
 
 Dates available with completion status:
-<iframe src="https://www.gitcdn.xyz/cdn/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/95e1d77d0d47afba267a669c7db0a4b3682acea0/dig-eg-gaz-issues-calendar-chart.html" width="80%" height="400"></iframe>
+<iframe src="https://www.gitcdn.xyz/repo/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/95e1d77d0d47afba267a669c7db0a4b3682acea0/dig-eg-gaz-issues-calendar-chart.html" width="80%" height="400"></iframe>
 
 ## Key
 
