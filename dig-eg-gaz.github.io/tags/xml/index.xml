@@ -55,14 +55,15 @@ very small and it tends to be smudged and &lt;strong&gt;I hate it and it gives m
 &lt;li&gt;Take in input file that describes a set of commands&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;This would potentially allow me to update every xml file in the entire repository simultaneously, inserting the proper tags for a list of names, dates, and locations.  Something like:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;placename:
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;placename:
   - (Tokyo, ref, some-link-to-wikidata)
   - (London, ref, some-link-to-wikidata)
   - (St. Petersburg, ref, some-link-to-wikidata)
   - (Port Said, ref, some-link-to-wikidata)
 persname:
   - (Lord Cromer, ref, some-link-to-person-data)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.&lt;/p&gt;
 &lt;h2 id=&#34;a-quick-note-on-xml&#34;&gt;A quick note on XML&lt;/h2&gt;
 &lt;p&gt;XML can be visualized as a &amp;ldquo;rose tree&amp;rdquo; made of nodes.  This basically means that every part of the XML document is some sort of node, which has other nodes inside of it.  The nodes can be any type of tag, or any plain text, and any number of both in any order.&lt;/p&gt;
 &lt;p&gt;Here&#39;s what some XML in your issue might look like as a Tree&lt;/p&gt;
@@ -72,50 +73,56 @@ persname:
      |
      *- p         - Text
      *- byline    - Text
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And here it is as XML&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-XML&#34; data-lang=&#34;XML&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;div&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;dateline&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;date&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;2nd October 1905&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/date&amp;gt;&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;placename&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;Port Said&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/placename&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/dateline&amp;gt;&lt;/span&gt;
-    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;p&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;Here is some text, detailing an amazing story about something.&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;byline&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;(Reuter.)&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/byline&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;functional-programming&#34;&gt;Functional Programming&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And here it is as XML&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-XML&#34;&gt;&amp;lt;div&amp;gt;
+    &amp;lt;dateline&amp;gt;&amp;lt;date&amp;gt;2nd October 1905&amp;lt;/date&amp;gt;, &amp;lt;placename&amp;gt;Port Said&amp;lt;/placename&amp;gt;&amp;lt;/dateline&amp;gt;
+    &amp;lt;p&amp;gt;Here is some text, detailing an amazing story about something.&amp;lt;/p&amp;gt;
+    &amp;lt;byline&amp;gt;(Reuter.)&amp;lt;/byline&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;functional-programming&#34;&gt;Functional Programming&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.haskell.org/static/img/haskell-logo.svg?etag=ukf3Fg7-&#34; alt=&#34;Haskell Logo&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I program in Haskell mostly.  Haskell is a pure functional language, which just means it&#39;s not the same as the traditional programming languages you see day-to-day, and it&#39;s not something FSU teaches currently.&lt;/p&gt;
 &lt;p&gt;It looks something like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Haskell&#34; data-lang=&#34;Haskell&#34;&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Bool&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Bool&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Bool&lt;/span&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;and&lt;/span&gt; c t &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; c &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt; t &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;False&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
+and :: Bool -&amp;gt; Bool -&amp;gt; Bool
+and c t = if c then t else False
 
-&lt;span style=&#34;color:#a6e22e&#34;&gt;filter&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Bool&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; [a] &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; [a]
-&lt;span style=&#34;color:#a6e22e&#34;&gt;filter&lt;/span&gt; p xs &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [x &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; xs, p x]
+filter :: (a -&amp;gt; Bool) -&amp;gt; [a] -&amp;gt; [a]
+filter p xs = [x | x &amp;lt;- xs, p x]
 
-&lt;span style=&#34;color:#a6e22e&#34;&gt;map&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; b) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; [a] &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; [b]
-&lt;span style=&#34;color:#a6e22e&#34;&gt;map&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;_&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;[]&lt;/span&gt;   &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;[]&lt;/span&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;map&lt;/span&gt; f x&lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt;xs &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; f x &lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt; map xs
+map :: (a -&amp;gt; b) -&amp;gt; [a] -&amp;gt; [b]
+map _ []   = []
+map f x:xs = f x : map xs
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It&#39;s pretty rad, it looks quite unlike most languages I&#39;ve seen in my day.  Haskell has some really interesting properties, though.  It&#39;s really easy to parse documents as a result, but it&#39;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It&#39;s pretty rad, it looks quite unlike most languages I&#39;ve seen in my day.  Haskell has some really interesting properties, though.  It&#39;s really easy to parse documents as a result, but it&#39;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
 &lt;p&gt;I did find one eventually: the 
 &lt;a href=&#34;https://wiki.haskell.org/HXT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Haskell XML Toolbox&lt;/a&gt;
 .  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
 &lt;p&gt;The 
 &lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;
  has this example:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Haskell&#34; data-lang=&#34;Haskell&#34;&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;isA&lt;/span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Bool&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; [a])
-&lt;span style=&#34;color:#a6e22e&#34;&gt;isA&lt;/span&gt; p x &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; p x       &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [x]
-        &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; otherwise &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;[]&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
+isA  :: (a -&amp;gt; Bool) -&amp;gt; (a -&amp;gt; [a])
+isA p x | p x       = [x]
+        | otherwise = []
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It takes a function (called a predicate) that returns a True/False value, and creates a new function that can process, or filter, values.  Essentially, these arrows let us process parts of a tree into no results, one result, or many results.  By using different types of filters, and by putting these filters together, with some relatively simple structure we can create some &lt;em&gt;extremely&lt;/em&gt; complex instructions to parse and transform the document.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It takes a function (called a predicate) that returns a True/False value, and creates a new function that can process, or filter, values.  Essentially, these arrows let us process parts of a tree into no results, one result, or many results.  By using different types of filters, and by putting these filters together, with some relatively simple structure we can create some &lt;em&gt;extremely&lt;/em&gt; complex instructions to parse and transform the document.&lt;/p&gt;
 &lt;p&gt;Again, an example from the documentation:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Haskell&#34; data-lang=&#34;Haskell&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;getGrandChildren&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;XmlFilter&lt;/span&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;getGrandChildren&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; getChildren &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; getChildren
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;(&amp;gt;&amp;gt;&amp;gt;)&lt;/code&gt; operator makes it extremely trivial to chain filters together to make new filters.  The ability to compose functions like this is the hallmark of functional programming, and works extremely well in this case.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;getGrandChildren :: XmlFilter
+getGrandChildren = getChildren &amp;gt;&amp;gt;&amp;gt; getChildren
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;(&amp;gt;&amp;gt;&amp;gt;)&lt;/code&gt; operator makes it extremely trivial to chain filters together to make new filters.  The ability to compose functions like this is the hallmark of functional programming, and works extremely well in this case.&lt;/p&gt;
 &lt;p&gt;By defining a few more combination operators, the HXT library quickly builds up sufficient capability to tackle some really complicated parsing, as in:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Haskell&#34; data-lang=&#34;Haskell&#34;&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;getTextChildren2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;XmlFilter&lt;/span&gt;
-&lt;span style=&#34;color:#a6e22e&#34;&gt;getTextChildren2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; getChildren &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; ( isXText &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;+&amp;gt;&lt;/span&gt; ( getChildren &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; isXText ) )
+&lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
+getTextChildren2 :: XmlFilter
+getTextChildren2 = getChildren &amp;gt;&amp;gt;&amp;gt; ( isXText &amp;lt;+&amp;gt; ( getChildren &amp;gt;&amp;gt;&amp;gt; isXText ) )
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;which only gets the text children for of the current tag, and the text of any tags inside the current one.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;which only gets the text children for of the current tag, and the text of any tags inside the current one.&lt;/p&gt;
 &lt;p&gt;Using this extremely flexible library, I hope to find a practical way to automate much of the task of TEI indexing the Egyptian Gazette!&lt;/p&gt;
 </description>
     </item>

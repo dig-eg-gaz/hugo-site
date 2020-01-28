@@ -24,7 +24,7 @@
 &lt;h1 id=&#34;tableau-table&#34;&gt;Tableau Table&lt;/h1&gt;
 &lt;p&gt;Using Tableau I organized my results into features vs. years. I choose to get remove the year 1907 because there were little results and most of the results were prepaid advertisements. I made this table to see what feature of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; contained the most articles with children in them. If I could better pinpoint a section of the newspaper I could better collect data that would allow for me to see how children were described in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;richardson-screenshot.png&#34; alt=&#34;Years Vs. Features of child&#34;&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;iframe src=&#34;https://public.tableau.com/views/ChildrenVisualization_0/Sheet1?:showVizHome=no&amp;:embed=true&#34; align=&#34;center&#34; width=&#34;90%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
 &lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
 &lt;p&gt;After creating the graph I found out that the most mentions of child was in the local and general section of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Prepaid Advertisements was the second highest, but most of these were advertisements that were repeated throughout the weeks. Advertisements told me about what children could wear and toys they had, but not much information about children themselves.&lt;/p&gt;
 &lt;h2 id=&#34;local-and-general&#34;&gt;Local and General&lt;/h2&gt;

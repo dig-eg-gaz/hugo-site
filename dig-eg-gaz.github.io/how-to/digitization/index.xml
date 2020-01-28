@@ -318,7 +318,11 @@ Click on the tab, and on the pull request, and then merge the pull request.&lt;/
  to work with free text wherever we encounter it in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Once we&#39;ve transformed OCRed text and performed basic corrections, it will be ready for 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/tei-xml-instructions/&#34;&gt;TEI-XML markup&lt;/a&gt;
 .&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    You will not need to use OCR on text that has been &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;templated&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;There are many OCR options. Each has strengths and weaknesses. I&#39;ll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week. Some issues are clearer than others, both in terms of the printing of the original newspaper itself and its transfer to microfilm. The quality of type varies, as does the white balance and background noise in the microfilm images. Always start with the clearest, straightest images you can produce.&lt;/p&gt;
 &lt;h1 id=&#34;option-a-google-drive&#34;&gt;Option A: Google Drive&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Strengths:&lt;/strong&gt;&lt;/p&gt;
@@ -458,7 +462,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 &lt;/ol&gt;
 &lt;p&gt;You should now be able to paste this text into XML without errors.&lt;/p&gt;
 &lt;h2 id=&#34;4-move-the-text-into-your-xml-file&#34;&gt;4. Move the text into your XML file&lt;/h2&gt;
-&lt;p&gt;Copy the contents of the first column in the text file you&#39;ve prepared. Open Oxygen. In the xml file that you&#39;re preparing, put a &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt; &amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt; &amp;lt;/div&amp;gt;&lt;/code&gt; pair of tags after the &lt;!-- raw HTML omitted --&gt; tag corresponding to the page you&#39;ve OCRed. Paste the text in between these tags.&lt;/p&gt;
+&lt;p&gt;Copy the contents of the first column in the text file you&#39;ve prepared. Open Oxygen. In the xml file that you&#39;re preparing, put a &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt; &amp;lt;cb n=&amp;quot;1&amp;quot;/&amp;gt; &amp;lt;/div&amp;gt;&lt;/code&gt; pair of tags after the &lt;pb n=&#34;?&#34;/&gt; tag corresponding to the page you&#39;ve OCRed. Paste the text in between these tags.&lt;/p&gt;
 &lt;p&gt;Proceed to copy the second column in your text file. In Oxygen, add an &lt;code&gt;&amp;lt;cb n=&amp;quot;2&amp;quot;/&amp;gt;&lt;/code&gt; tag, then paste the contents of the second column. Proceed in the same way for the next four columns of the page.&lt;/p&gt;
 &lt;p&gt;You should have a green box, indicating a well-formed document. If not, correct any errors you find.&lt;/p&gt;
 &lt;h1 id=&#34;option-c-abby-finereader&#34;&gt;Option C: ABBY Finereader&lt;/h1&gt;
@@ -702,7 +706,8 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
  &amp;lt;forename&amp;gt;Evelyn&amp;lt;/forename&amp;gt;
  &amp;lt;surname&amp;gt;Baring&amp;lt;/surname&amp;gt;, &amp;lt;roleName&amp;gt;1st Earl of Cromer&amp;lt;/roleName&amp;gt;
 &amp;lt;/persName&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For persons not named, but who have a reference that you can supply (either an external authority or an xml:id), use &lt;code&gt;&amp;lt;rs&amp;gt;&lt;/code&gt; (refering string).&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For persons not named, but who have a reference that you can supply (either an external authority or an xml:id), use &lt;code&gt;&amp;lt;rs&amp;gt;&lt;/code&gt; (refering string).&lt;/p&gt;
 &lt;h2 id=&#34;3-tagging-events&#34;&gt;3. Tagging events&lt;/h2&gt;
 &lt;p&gt;To label an event, use a variant of the &lt;code&gt;&amp;lt;interp xml:id=&amp;quot;&amp;quot;&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
 </description>
@@ -867,7 +872,7 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;using-regex-in-atom&#34;&gt;Using regex in Atom&lt;/h2&gt;
 &lt;p&gt;To put &lt;code&gt;&amp;lt;persName&amp;gt;&lt;/code&gt; around passenger names in a list: find &lt;code&gt;Mr. [A-Z][a-z, 0-9]+,&lt;/code&gt; replace with &lt;code&gt;&amp;lt;persName&amp;gt;$&amp;amp;&amp;lt;/persName&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;!-- To convert `&lt;p&gt;Budapest, January 4.&lt;/p&gt;` to `&lt;dateline&gt;Budapest, January 4.&lt;/dateline&gt;`: find `&lt;p&gt;[A-Z][a-z]+, [A-Z][a-z]+ [0-9]+\.&lt;\/p&gt;` and replace with `&lt;dateline&gt;$&amp;&lt;/dateline&gt;`. --&gt;
 &lt;h2 id=&#34;cleaning-xpath-results&#34;&gt;Cleaning XPath results&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -967,7 +972,7 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;p&gt;The resulting visual gives us an annual total of exports, but we can go deeper.&lt;/p&gt;
 &lt;ol start=&#34;10&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;In the column slot, click the “Date” cell and select “Month”. This provides a clearer representation of fluctuations in the cotton export value during the year. &lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;In the column slot, click the “Date” cell and select “Month”. This provides a clearer representation of fluctuations in the cotton export value during the year. &lt;!-- If we select the second “Month” in the drop down menu it provides a visualization that includes zero value months. --&gt;
 &lt;img src=&#34;https://dig-eg-gaz.github.io/img/tableau-1905-monthly-cotton-exports.png&#34; alt=&#34;Cotton Exports&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;

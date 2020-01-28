@@ -72,7 +72,8 @@ authors: [YourName]
 date: YYYY-MM-DDD
 categories: [analysis]
 ---
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Name this file &lt;code&gt;index.md&lt;/code&gt;.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Name this file &lt;code&gt;index.md&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;what-about-images&#34;&gt;What about images?&lt;/h2&gt;
 &lt;p&gt;Please produce data visualization(s) to accompany your analysis.&lt;/p&gt;
 &lt;p&gt;You may use a variety of tools:&lt;/p&gt;
@@ -106,8 +107,9 @@ categories: [analysis]
 &lt;p&gt;A complete version of embedding instructions is included in this 
 &lt;a href=&#34;https://www.datavizforall.org/embed/tableau/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;excellent tutorial&lt;/a&gt;
 . Briefly, you need to click the share icon at the bottom right hand side of your web-hosted visualization. Take the link that it offers and paste it into this code:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&amp;amp;:embed=true&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;align=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;center&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;width=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;90%&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;height=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;500&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(For the &lt;code&gt;YOURURLHERE&lt;/code&gt; part, include everything to the right of &lt;code&gt;views/&lt;/code&gt; and to the left of the question mark. Your line should look something like this: &lt;code&gt;&amp;lt;iframe src=&amp;quot;https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&amp;amp;:embed=true&amp;quot; align=&amp;quot;center&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;500&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;.) Paste this code into your markdown file.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-xml&#34;&gt;&amp;lt;iframe src=&amp;quot;https://public.tableau.com/views/YOURURLHERE?:showVizHome=no&amp;amp;:embed=true&amp;quot; align=&amp;quot;center&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;500&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(For the &lt;code&gt;YOURURLHERE&lt;/code&gt; part, include everything to the right of &lt;code&gt;views/&lt;/code&gt; and to the left of the question mark. Your line should look something like this: &lt;code&gt;&amp;lt;iframe src=&amp;quot;https://public.tableau.com/views/MESAPresentation/Honorifics?:showVizHome=no&amp;amp;:embed=true&amp;quot; align=&amp;quot;center&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;500&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;.) Paste this code into your markdown file.&lt;/p&gt;
 &lt;p&gt;For &lt;strong&gt;Google Charts&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;Place the following bit of code in a markdown file, and your visualization should appear: &lt;code&gt;&amp;lt;iframe src=&amp;quot;your-githack-link&amp;quot; width=&amp;quot;90%&amp;quot; height=&amp;quot;400&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-do-i-submit-my-individual-project&#34;&gt;How do I submit my individual project?&lt;/h2&gt;

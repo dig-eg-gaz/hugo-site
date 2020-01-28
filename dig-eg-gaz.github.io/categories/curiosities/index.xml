@@ -156,7 +156,7 @@
 &lt;p&gt;Even though there were no new drugs on the market for tuberculosis, action was being taken in other avenues. A village in Italy named Salsomaggiore became famous for its waters rich in various nutrients such as bromine, iodine, and lithium that were used to treat rheumatism, tuberculosis, and ladies’ complaints. The Anti-Tuberculosis League worked to educate the public when news headlines disclosed that tuberculosis was a concern in Egypt. This group blamed the outbreak of the disease on the ignorance of natives and part of the European population to hygiene.&lt;/p&gt;
 &lt;p&gt;In a telegram I found a heading referring to “Bovine tuberculosis” and that it had been discovered to be communicable through raw milk in 1907 which left me to infer that at this time Egypt and Europe had not yet created any pasteurization laws or pasteurized milk was difficult to obtain for certain populations. However, I recalled an ad entitled “Howie’s Sterilized Milk or Cream” which was targeted to those traveling to Europe as well as young children. This ad starting to appear in the Gazette even in the year 1905, before it was circulated in telegrams in sent in 1907. Perhaps no laws yet required the pasteurization of milk and only those that could afford sterilized milk bought it and the rest were left more susceptible to tuberculosis.&lt;/p&gt;
 &lt;p&gt;I used the query //div[(@type=&amp;quot;advert&amp;rdquo;) or (@type=&amp;quot;advertisement&amp;rdquo;)]/p originally to see if there were any advertisements that contained either TB or Tuberculosis, and I came up with only one ad in the local and general section that was not really supposed to be tagged as an ad. After that, I was curious as to how many times just the word “tuberculosis” appeared with no restriction and got 78 results. I then decided that since there were so little results, that I would just go through these one at a time to see what information I could gather most of which I touched on above. Furthermore, I created a visualization comparing the frequency of tuberculosis per month and per year.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;iframe src=&#34;https://public.tableau.com/views/Tuberculosisstats/Story1?:display_count=y&amp;publish=yes&amp;:origin=viz_share_link?:showVizHome=no&amp;:embed=true&#34; align=&#34;center&#34; width=&#34;90%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;In the years 1905-1907 September, October, and May had the most mentions of tuberculosis. This may be correlated to weather conditions or an overall decrease in cases due to the establishment of more hospitals and sanatoriums. In October of 1905 a Professor by the name of Behring claimed of a new remedy, but this new remedy was never officially disclosed. This new remedy could have possibly been revealed as insufficient and was therefore not retouched in the Gazette.&lt;/p&gt;
 &lt;p&gt;With many ads like Dr. William’s Pink Pills for Pale People, which claimed to be the cure all by purifying the blood or even making new blood, since at the time bad blood was thought to be a trigger for disease, you would think tuberculosis would be included in their long list of curable diseases. I personally do not know a lot about tuberculosis and its status in the medical world today, so I decided to do a little more digging to see how medical breakthroughs have altered the occurrence and elimination of the disease currently and how this is compares to Egypt in the early 1900s. What I found from an article by the 
 &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3125027/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;US National Library of Medicine and the National Institute of Health&lt;/a&gt;
@@ -248,10 +248,10 @@ For example:&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2019-10-20-alvinchen/</link>
       <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2019-10-20-alvinchen/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;thomas_cook_logo.jpg&#34; alt=&#34;thomas_cook_logo&#34; title=&#34;Thomas Cook Logo&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;thomas_cook_logo.jpg&#34; alt=&#34;thomas_cook_logo&#34; title=&#34;Thomas Cook Logo&#34;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
 Thomas Cook was an English businessman. He started up his business from a small local shop in London. The shop sold traveling related products such as guidebooks, traveling wears, and maps. Several years later in 1872, he expanded his business with his son John, reformed the company as “Thomas Cook &amp;amp; Son”. 
 &lt;a href=&#34;https://www.telegraph.co.uk/travel/tours/history-of-thomas-cook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(1)&lt;/a&gt;
- &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+ &lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Throughout the course, we found that Thomas Cook &amp;amp; Son travel company had frequent updates on their advertisements. And they also sponsored the Egyptian Gazette profoundly by putting their advertisements on the title page banner. The company had various travel package options in the Middle East. It was the early age that civilians could afford the expenses and take ships to another continent. In parallel to the analysis of advertisement on the Egyptian Gazette by Olivia Evanoff 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/post/16-analysis-evanoff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(2)&lt;/a&gt;
 , she wrote that&lt;/p&gt;
@@ -264,26 +264,26 @@ Thomas Cook was an English businessman. He started up his business from a small 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;It is a new concept … a product of the industrial revolution.&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;img src=&#34;company_ceases_trading.jpg&#34; alt=&#34;company_ceases_trading&#34; title=&#34;Thomas Cook ceases trading&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;img src=&#34;company_ceases_trading.jpg&#34; alt=&#34;company_ceases_trading&#34; title=&#34;Thomas Cook ceases trading&#34;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;However, the glory of this family business could not thrive with the competitions in travel markets in 2019. Nowadays, people have more options for traveling. They gradually not rely on package-tours or travel agents. The way people used to travel is changed since it has became more accessible and easier to go foreign places without tour companies. Thomas Cook failed to transfer its tactics with modern travel behaviors, was defeated by other LCC (low-cost company) airlines competitors. It was bought in low stock value due to its 2.1 billion U.S. Dollars debt 
 &lt;a href=&#34;https://www.reuters.com/article/us-thomas-cook-grp-investment-explainer/thomas-cook-collapses-why-and-what-happens-now-idUSKBN1W804O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(4)&lt;/a&gt;
 . The bankruptcy also interrupted approximate 500 thousand travelers’ plans. And about 30 thousand Thomas Cook employees lost their jobs. Here is a footage about a pilot of Thomas Cook Airlines in his last day job 
 &lt;a href=&#34;https://www.youtube.com/watch?v=rGyd8jtroHo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(5)&lt;/a&gt;
 . The company sinks into debt, but its employee tries their best to serve their passengers with professionalism.&lt;/p&gt;
 &lt;p&gt;Though it is the oldest travel company in Britain, the British government refuses to offer it bankruptcy protection. It may no longer have value to people, and the government can’t waste taxpayers’ money on an obselete industry. Let it pass with history.&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;References&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;br /&gt;
 
 &lt;a href=&#34;https://www.telegraph.co.uk/travel/tours/history-of-thomas-cook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(1) History article, &amp;ldquo;The history of Thomas Cook, from tours for teetotallers to boozy packages in Spain&amp;rdquo;&lt;/a&gt;
- &lt;!-- raw HTML omitted --&gt;
+ &lt;br /&gt;
 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/post/16-analysis-evanoff/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(2) Blog post by Kailen Chapple, &amp;ldquo;Hotels in Cairo&amp;rdquo;&lt;/a&gt;
- &lt;!-- raw HTML omitted --&gt;
+ &lt;br /&gt;
 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/post/18-analysis-chapple/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(3) Blog post by Olivia Evanoff, &amp;ldquo;Advertising in Alexandria Egypt 1905&amp;rdquo;&lt;/a&gt;
- &lt;!-- raw HTML omitted --&gt;
+ &lt;br /&gt;
 
 &lt;a href=&#34;https://www.reuters.com/article/us-thomas-cook-grp-investment-explainer/thomas-cook-collapses-why-and-what-happens-now-idUSKBN1W804O&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(4) News article, &amp;ldquo;Thomas Cook collapses: Why and what happens now?&amp;quot;&lt;/a&gt;
- &lt;!-- raw HTML omitted --&gt;
+ &lt;br /&gt;
 
 &lt;a href=&#34;https://www.youtube.com/watch?v=rGyd8jtroHo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(5) Youtube video, &amp;ldquo;Thomas Cook Crew Gives Emotional Speech to Passengers After Touching Down in Mancheste&amp;rdquo;&lt;/a&gt;
 &lt;/p&gt;
@@ -1865,7 +1865,7 @@ I was immediately curious about this, because
 .&amp;rdquo; It was a versatile song in global terms, as Ocean recorded versions that charted in other markets: &amp;ldquo;African Queen&amp;rdquo; and &amp;ldquo;European Queen&amp;rdquo; didn&#39;t require much extra reworking to benefit from 
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Internationalization_and_localization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;internationalization and localization&lt;/a&gt;
 .&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Cahch0_M06c&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;I got to thinking about &amp;ldquo;Caribbean Queen&amp;rdquo; while I was preparing an 
 &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/pri01.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xml version of the Prince Lines advertisement&lt;/a&gt;
  that appeared on the front page of most issues of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; in 1905.&lt;/p&gt;

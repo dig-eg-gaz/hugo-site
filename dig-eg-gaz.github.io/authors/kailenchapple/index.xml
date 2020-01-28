@@ -44,7 +44,7 @@
 &lt;p&gt;
 &lt;a href=&#34;https://public.tableau.com/views/visitList/Story1?:showVizHome=no&amp;amp;:embed=true&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visitors in Cairo Egypt in 1905&lt;/a&gt;
 &lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;iframe src=&#34;https://public.tableau.com/views/visitList/Story1?:showVizHome=no&amp;:embed=true&#34; align=&#34;center&#34; width=&#34;90%&#34; height=&#34;500&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;The strengths that I found with using Xpath and generating results using regular expression were that it was able to find a specific answer for me if I asked it the right question, however if I asked the right question some of the results would not populate if others did not put on their end the same exact XML markdown.&lt;/p&gt;
 &lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 &lt;p&gt;When thinking about a topic such as hotels in Egypt, it is important to find scholarly reviewed text for a more accurate understanding of the topic at hand. I was able to find three articles to assist me in answering the question about tourism and hotels within Cairo.

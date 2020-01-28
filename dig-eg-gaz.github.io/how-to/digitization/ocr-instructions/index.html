@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="Objective This lesson explains how to turn images of text into editable files. We will use &ldquo;optical character recognition&rdquo; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&#39;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup .
-There are many OCR options. Each has strengths and weaknesses. I&#39;ll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week.">
+ You will not need to use OCR on text that has been templated.   There are many OCR options.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/">
@@ -231,7 +231,7 @@ There are many OCR options. Each has strengths and weaknesses. I&#39;ll outline 
   <meta property="og:url" content="https://dig-eg-gaz.github.io/how-to/digitization/ocr-instructions/">
   <meta property="og:title" content="OCR instructions | Digital Egyptian Gazette">
   <meta property="og:description" content="Objective This lesson explains how to turn images of text into editable files. We will use &ldquo;optical character recognition&rdquo; (OCR) to work with free text wherever we encounter it in the Egyptian Gazette. Once we&#39;ve transformed OCRed text and performed basic corrections, it will be ready for TEI-XML markup .
-There are many OCR options. Each has strengths and weaknesses. I&#39;ll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+ You will not need to use OCR on text that has been templated.   There are many OCR options."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
@@ -655,7 +655,11 @@ There are many OCR options. Each has strengths and weaknesses. I&#39;ll outline 
  to work with free text wherever we encounter it in the <em>Egyptian Gazette</em>. Once we've transformed OCRed text and performed basic corrections, it will be ready for 
 <a href="/how-to/digitization/tei-xml-instructions/">TEI-XML markup</a>
 .</p>
-<!-- raw HTML omitted -->
+<div class="alert alert-note">
+  <div>
+    You will not need to use OCR on text that has been <a href="/how-to/digitization/templating-instructions/">templated</a>.
+  </div>
+</div>
 <p>There are many OCR options. Each has strengths and weaknesses. I'll outline a few choices below. I encourage you to experiment with a combination of approaches to see what works best with your particular week. Some issues are clearer than others, both in terms of the printing of the original newspaper itself and its transfer to microfilm. The quality of type varies, as does the white balance and background noise in the microfilm images. Always start with the clearest, straightest images you can produce.</p>
 <h1 id="option-a-google-drive">Option A: Google Drive</h1>
 <p><strong>Strengths:</strong></p>
@@ -795,7 +799,7 @@ Copy the whole bottom line <em>except</em> the final <code>&gt;</code>.</li>
 </ol>
 <p>You should now be able to paste this text into XML without errors.</p>
 <h2 id="4-move-the-text-into-your-xml-file">4. Move the text into your XML file</h2>
-<p>Copy the contents of the first column in the text file you've prepared. Open Oxygen. In the xml file that you're preparing, put a <code>&lt;div type=&quot;item&quot;&gt; &lt;cb n=&quot;1&quot;/&gt; &lt;/div&gt;</code> pair of tags after the <!-- raw HTML omitted --> tag corresponding to the page you've OCRed. Paste the text in between these tags.</p>
+<p>Copy the contents of the first column in the text file you've prepared. Open Oxygen. In the xml file that you're preparing, put a <code>&lt;div type=&quot;item&quot;&gt; &lt;cb n=&quot;1&quot;/&gt; &lt;/div&gt;</code> pair of tags after the <pb n="?"/> tag corresponding to the page you've OCRed. Paste the text in between these tags.</p>
 <p>Proceed to copy the second column in your text file. In Oxygen, add an <code>&lt;cb n=&quot;2&quot;/&gt;</code> tag, then paste the contents of the second column. Proceed in the same way for the next four columns of the page.</p>
 <p>You should have a green box, indicating a well-formed document. If not, correct any errors you find.</p>
 <h1 id="option-c-abby-finereader">Option C: ABBY Finereader</h1>

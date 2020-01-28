@@ -642,14 +642,15 @@
 <li>Take in input file that describes a set of commands</li>
 </ol>
 <p>This would potentially allow me to update every xml file in the entire repository simultaneously, inserting the proper tags for a list of names, dates, and locations.  Something like:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">placename:
+<pre><code class="language-yaml">placename:
   - (Tokyo, ref, some-link-to-wikidata)
   - (London, ref, some-link-to-wikidata)
   - (St. Petersburg, ref, some-link-to-wikidata)
   - (Port Said, ref, some-link-to-wikidata)
 persname:
   - (Lord Cromer, ref, some-link-to-person-data)
-</code></pre></div><p>This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.</p>
+</code></pre>
+<p>This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.</p>
 <h2 id="a-quick-note-on-xml">A quick note on XML</h2>
 <p>XML can be visualized as a &ldquo;rose tree&rdquo; made of nodes.  This basically means that every part of the XML document is some sort of node, which has other nodes inside of it.  The nodes can be any type of tag, or any plain text, and any number of both in any order.</p>
 <p>Here's what some XML in your issue might look like as a Tree</p>
@@ -659,50 +660,56 @@ persname:
      |
      *- p         - Text
      *- byline    - Text
-</code></pre><p>And here it is as XML</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-XML" data-lang="XML"><span style="color:#f92672">&lt;div</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;dateline</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">&lt;date</span><span style="color:#f92672">&gt;</span>2nd October 1905<span style="color:#f92672">&lt;/date&gt;</span>, <span style="color:#f92672">&lt;placename</span><span style="color:#f92672">&gt;</span>Port Said<span style="color:#f92672">&lt;/placename&gt;</span><span style="color:#f92672">&lt;/dateline&gt;</span>
-    <span style="color:#f92672">&lt;p</span><span style="color:#f92672">&gt;</span>Here is some text, detailing an amazing story about something.<span style="color:#f92672">&lt;/p&gt;</span>
-    <span style="color:#f92672">&lt;byline</span><span style="color:#f92672">&gt;</span>(Reuter.)<span style="color:#f92672">&lt;/byline&gt;</span>
-<span style="color:#f92672">&lt;/div&gt;</span>
-</code></pre></div><h2 id="functional-programming">Functional Programming</h2>
+</code></pre>
+<p>And here it is as XML</p>
+<pre><code class="language-XML">&lt;div&gt;
+    &lt;dateline&gt;&lt;date&gt;2nd October 1905&lt;/date&gt;, &lt;placename&gt;Port Said&lt;/placename&gt;&lt;/dateline&gt;
+    &lt;p&gt;Here is some text, detailing an amazing story about something.&lt;/p&gt;
+    &lt;byline&gt;(Reuter.)&lt;/byline&gt;
+&lt;/div&gt;
+</code></pre>
+<h2 id="functional-programming">Functional Programming</h2>
 <p><img src="https://www.haskell.org/static/img/haskell-logo.svg?etag=ukf3Fg7-" alt="Haskell Logo"></p>
 <p>I program in Haskell mostly.  Haskell is a pure functional language, which just means it's not the same as the traditional programming languages you see day-to-day, and it's not something FSU teaches currently.</p>
 <p>It looks something like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Haskell" data-lang="Haskell">
-<span style="color:#a6e22e">and</span> <span style="color:#f92672">::</span> <span style="color:#66d9ef">Bool</span> <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">Bool</span> <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">Bool</span>
-<span style="color:#a6e22e">and</span> c t <span style="color:#f92672">=</span> <span style="color:#66d9ef">if</span> c <span style="color:#66d9ef">then</span> t <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">False</span>
+<pre><code class="language-Haskell">
+and :: Bool -&gt; Bool -&gt; Bool
+and c t = if c then t else False
 
-<span style="color:#a6e22e">filter</span> <span style="color:#f92672">::</span> (a <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">Bool</span>) <span style="color:#f92672">-&gt;</span> [a] <span style="color:#f92672">-&gt;</span> [a]
-<span style="color:#a6e22e">filter</span> p xs <span style="color:#f92672">=</span> [x <span style="color:#f92672">|</span> x <span style="color:#f92672">&lt;-</span> xs, p x]
+filter :: (a -&gt; Bool) -&gt; [a] -&gt; [a]
+filter p xs = [x | x &lt;- xs, p x]
 
-<span style="color:#a6e22e">map</span> <span style="color:#f92672">::</span> (a <span style="color:#f92672">-&gt;</span> b) <span style="color:#f92672">-&gt;</span> [a] <span style="color:#f92672">-&gt;</span> [b]
-<span style="color:#a6e22e">map</span> <span style="color:#66d9ef">_</span> <span style="color:#66d9ef">[]</span>   <span style="color:#f92672">=</span> <span style="color:#66d9ef">[]</span>
-<span style="color:#a6e22e">map</span> f x<span style="color:#66d9ef">:</span>xs <span style="color:#f92672">=</span> f x <span style="color:#66d9ef">:</span> map xs
+map :: (a -&gt; b) -&gt; [a] -&gt; [b]
+map _ []   = []
+map f x:xs = f x : map xs
 
-</code></pre></div><p>It's pretty rad, it looks quite unlike most languages I've seen in my day.  Haskell has some really interesting properties, though.  It's really easy to parse documents as a result, but it's difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.</p>
+</code></pre>
+<p>It's pretty rad, it looks quite unlike most languages I've seen in my day.  Haskell has some really interesting properties, though.  It's really easy to parse documents as a result, but it's difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.</p>
 <p>I did find one eventually: the 
 <a href="https://wiki.haskell.org/HXT" target="_blank" rel="noopener">Haskell XML Toolbox</a>
 .  It lets you do some pretty interesting things.  It uses something called arrows (a <em>very</em> trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.</p>
 <p>The 
 <a href="https://wiki.haskell.org/HXT#The_concept_of_filters" target="_blank" rel="noopener">documentation</a>
  has this example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Haskell" data-lang="Haskell">
-<span style="color:#a6e22e">isA</span>  <span style="color:#f92672">::</span> (a <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">Bool</span>) <span style="color:#f92672">-&gt;</span> (a <span style="color:#f92672">-&gt;</span> [a])
-<span style="color:#a6e22e">isA</span> p x <span style="color:#f92672">|</span> p x       <span style="color:#f92672">=</span> [x]
-        <span style="color:#f92672">|</span> otherwise <span style="color:#f92672">=</span> <span style="color:#66d9ef">[]</span>
+<pre><code class="language-Haskell">
+isA  :: (a -&gt; Bool) -&gt; (a -&gt; [a])
+isA p x | p x       = [x]
+        | otherwise = []
 
-</code></pre></div><p>It takes a function (called a predicate) that returns a True/False value, and creates a new function that can process, or filter, values.  Essentially, these arrows let us process parts of a tree into no results, one result, or many results.  By using different types of filters, and by putting these filters together, with some relatively simple structure we can create some <em>extremely</em> complex instructions to parse and transform the document.</p>
+</code></pre>
+<p>It takes a function (called a predicate) that returns a True/False value, and creates a new function that can process, or filter, values.  Essentially, these arrows let us process parts of a tree into no results, one result, or many results.  By using different types of filters, and by putting these filters together, with some relatively simple structure we can create some <em>extremely</em> complex instructions to parse and transform the document.</p>
 <p>Again, an example from the documentation:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Haskell" data-lang="Haskell"><span style="color:#a6e22e">getGrandChildren</span> <span style="color:#f92672">::</span> <span style="color:#66d9ef">XmlFilter</span>
-<span style="color:#a6e22e">getGrandChildren</span> <span style="color:#f92672">=</span> getChildren <span style="color:#f92672">&gt;&gt;&gt;</span> getChildren
-</code></pre></div><p>The <code>(&gt;&gt;&gt;)</code> operator makes it extremely trivial to chain filters together to make new filters.  The ability to compose functions like this is the hallmark of functional programming, and works extremely well in this case.</p>
+<pre><code class="language-Haskell">getGrandChildren :: XmlFilter
+getGrandChildren = getChildren &gt;&gt;&gt; getChildren
+</code></pre>
+<p>The <code>(&gt;&gt;&gt;)</code> operator makes it extremely trivial to chain filters together to make new filters.  The ability to compose functions like this is the hallmark of functional programming, and works extremely well in this case.</p>
 <p>By defining a few more combination operators, the HXT library quickly builds up sufficient capability to tackle some really complicated parsing, as in:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Haskell" data-lang="Haskell">
-<span style="color:#a6e22e">getTextChildren2</span> <span style="color:#f92672">::</span> <span style="color:#66d9ef">XmlFilter</span>
-<span style="color:#a6e22e">getTextChildren2</span> <span style="color:#f92672">=</span> getChildren <span style="color:#f92672">&gt;&gt;&gt;</span> ( isXText <span style="color:#f92672">&lt;+&gt;</span> ( getChildren <span style="color:#f92672">&gt;&gt;&gt;</span> isXText ) )
+<pre><code class="language-Haskell">
+getTextChildren2 :: XmlFilter
+getTextChildren2 = getChildren &gt;&gt;&gt; ( isXText &lt;+&gt; ( getChildren &gt;&gt;&gt; isXText ) )
 
-</code></pre></div><p>which only gets the text children for of the current tag, and the text of any tags inside the current one.</p>
+</code></pre>
+<p>which only gets the text children for of the current tag, and the text of any tags inside the current one.</p>
 <p>Using this extremely flexible library, I hope to find a practical way to automate much of the task of TEI indexing the Egyptian Gazette!</p>
 
     </div>

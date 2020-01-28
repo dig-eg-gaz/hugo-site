@@ -22,19 +22,20 @@ menu:
 ---
 
 Dates available with completion status:
-<iframe src="https://www.gitcdn.xyz/cdn/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/e906fae5077c5b204df140afe58b00e5484166ec/dig-eg-gaz-issues-calendar-chart.html"  width="120%" height="650"></iframe>
+<iframe src="https://www.gitcdn.xyz/cdn/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/95e1d77d0d47afba267a669c7db0a4b3682acea0/dig-eg-gaz-issues-calendar-chart.html"  width="130%" height="650"></iframe>
 
 ### Key
-- 1 (blue), `plain text box`: complete, corrected issue
-- 0 (white), *italics*: (mostly) complete, uncorrected issue
-- -1 (red), **bold text**: partial issue
+
+- 3 (dark blue), `plain text box`: complete, well-formatted issue
+- 2 (light blue), *italics*: (mostly) complete, uncorrected issue
+- 1 (white), **bold text**: partial issue
 - hashed box, ~~strikethrough~~: no issue
 
 Page **images** are [here](https://github.com/dig-eg-gaz/page-images), listed by date and page number.
 
 The pages below represent TEI documents transformed to HTML using XSL and CSS customizations by [Sarah Stanley](https://github.com/scstanley7).
 
-# 1905
+## 1905
 
 Week|Mon|Tues|Wed|Thur|Fri|Sat
 ---|---|---|---|---|---|---
@@ -91,7 +92,7 @@ Week|Mon|Tues|Wed|Thur|Fri|Sat
 51|[*Dec 18*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-18.xml)|[*Dec 19*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-19.xml)|[*Dec 20*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-20.xml)|[*Dec 21*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-21.xml)|[**Dec 22**](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-22.xml)|[**Dec 23**](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-23.xml)
 52|[~~Dec 25~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-25.xml)|[*Dec 26*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-26.xml)|[**Dec 27**](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-27.xml)|[*Dec 28*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-28.xml)|[*Dec 29*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-29.xml)|[*Dec 30*](https://gitcdn.link/repo/dig-eg-gaz/content/master/1905-12-30.xml)
 
-# 1906
+## 1906
 
 Week|Mon|Tues|Wed|Thur|Fri|Sat
 ---|---|---|---|---|---|---
@@ -148,7 +149,7 @@ Week|Mon|Tues|Wed|Thur|Fri|Sat
 51|[~~Dec 17~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-17.xml)|[~~Dec 18~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-18.xml)|[~~Dec 19~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-19.xml)|[~~Dec 20~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-20.xml)|[~~Dec 21~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-21.xml)|[~~Dec 22~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-22.xml)
 52|[~~Dec 24~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-24.xml)|[~~Dec 25~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-25.xml)|[~~Dec 26~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-26.xml)|[~~Dec 27~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-27.xml)|[~~Dec 28~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-28.xml)|[~~Dec 29~~](https://gitcdn.link/repo/dig-eg-gaz/content/master/1906-12-29.xml)
 
-# 1907
+## 1907
 
 Week|Mon|Tues|Wed|Thur|Fri|Sat
 ---|---|---|---|---|---|---
@@ -205,7 +206,7 @@ Week|Mon|Tues|Wed|Thur|Fri|Sat
 51|[Dec 16](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-16.xml)|[Dec 17](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-17.xml)|[Dec 18](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-18.xml)|[Dec 19](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-19.xml)|[Dec 20](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-20.xml)|[Dec 21](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-21)
 52|[Dec 23](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-23.xml)|[Dec 24](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-24.xml)|[Dec 25](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-25.xml)|[Dec 26](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-26.xml)|[Dec 27](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-27.xml)|[Dec 28](https://gitcdn.link/repo/dig-eg-gaz/content/master/1907-12-28)
 
-# 1908
+## 1908
 
 Week|Mon|Tues|Wed|Thur|Fri|Sat
 ---|---|---|---|---|---|---
