@@ -22,14 +22,15 @@ menu:
 ---
 
 Dates available with completion status:
-<iframe src="https://www.gitcdn.xyz/repo/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/95e1d77d0d47afba267a669c7db0a4b3682acea0/dig-eg-gaz-issues-calendar-chart.html" width="80%" height="400"></iframe>
+<iframe src="https://www.gitcdn.xyz/cdn/whanley/71bc1fac509a23b93a3a89b51af32bf8/raw/53a3a7f814643a601dc39d379dc226deed56a9bc/dig-eg-gaz-issues-calendar-chart.html" width="80%" height="400"></iframe>
 
 ## Key
 
 - 3 (dark blue), `plain text box`: complete, well-formatted issue
-- 2 (light blue), *italics*: (mostly) complete, uncorrected issue
-- 1 (white), **bold text**: partial issue
-- hashed box, ~~strikethrough~~: no issue
+- 2 (medium blue), *italics*: (mostly) complete, uncorrected issue
+- 1 (light blue), **bold text**: partial issue
+- 0 (white): no issue published on this date
+- hashed box, ~~strikethrough~~: no issue in repository
 
 Page **images** are [here](https://github.com/dig-eg-gaz/page-images), listed by date and page number.
 

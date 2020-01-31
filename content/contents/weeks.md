@@ -59,7 +59,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 24|June 12, 1905|June 17, 1905|[Thomas Corzo](https://github.com/ThomasC24)||2|
 4|January 22, 1906|January 27, 1906|[Parker Beasley](https://github.com/ParkerB21)|8|1|missing Saturday issue (1906-01-27)
 13|March 26, 1906|March 31, 1906|[Hannah Bridges](https://github.com/hlb17)|7||
--|April 13, 1906|||6|1|missing from microfilm?
 16|April 16, 1906|April 21, 1906|[Mia Meixner](https://github.com/Miameixner)|10|1|1906-04-16 lacking from microfilm
 -|April 30, 1906|||2||
 -|May 9, 1906|||2||
@@ -89,17 +88,25 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 ## Images lacking from microfilm
 
-- May 1, 1905
-- November 28, 1905
-- April 13, 1906?
-- April 16, 1906?
-- May 1, 1907
-- October 31, 1907
-- January 14, 1908
+- Thursday, October 31, 1907 (#7905)
 
-## Dates without publication (numbers continuous)
+## No paper published
 
+Issue numbers on the days before and after these dates are continuous.
+
+- Monday, May 1, 1905
+- Tuesday, November 28, 1905
+- Monday, December 25, 1905
+- Monday, January 1, 1906
+- Friday, April 13, 1906
+- Monday, April 16, 1906
+- Tuesday, December 25, 1906
+- Tuesday, January 1, 1907
 - Friday, March 29, 1907
+- Wednesday, May 1, 1907
+- Wednesday, December 25, 1907
+- Wednesday, January 1, 1907
+- Tuesday, January 14, 1908
 
 ## Empty weeks (to be assigned next course)
 
