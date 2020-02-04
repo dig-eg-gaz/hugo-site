@@ -12,15 +12,15 @@ menu:
 
 weight: 4
 ---
-The *Egyptian Gazette* contains a large number of recurring elements, which this project identifies using the `feature` attribute. Some of this material is captured in [templates](/contents/templates/), and others are [advertisements](/contents/advertisements). This pages lists recurring free-text features, which are described using terms from the [Digital Egyptian Gazette schema](/resources/schema/). Many of the features listed (ought to) contain sub-items with their own headlines, often also bylines and datelines.
+The *Egyptian Gazette* contains a large number of recurring elements. Some of this material is captured in [templates](/contents/templates/), and others are [advertisements](/contents/advertisements). This pages lists recurring free-text elements, which this project identifies using the `feature` attribute. This visualization shows the frequency with which features are distributed:
 
 <iframe src="https://public.tableau.com/views/EgyptianGazettefeaturesdistribution/Commonfeaturesday?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>
 
-Section Name|feature|Usual page(s)|Frequency|Notes
+Recurring Element Name(s)|Feature attribute|Usual Page(s)|Frequency|Notes
 ---|---|---|---|---
-**[Advertisements](/contents/advertisements/)** |various|1,2|daily|Use [templates](/contents/advertisements/)
+**[Advertisements](/contents/advertisements/)** |none--identified using `xml:id` attribute|1, 2|daily|Use [templates](/contents/advertisements/)
 **[Daily Weather Report](/contents/templates/#daily-weather-report)** |"weather"|2|daily|[tempate](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report.xml) [alternate tempate](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report-02.xml)
-**Telegrams / Wire Reports** (international news)|"wire"|2,3|daily|Sometimes appears as "To-day's telegrams", but typically there is no heading for this section. Treat wire reports as individual divs (`type="wireReport"`), each with its own `<dateline>` and `<title>`. This section is sometimes spread over two pages; when this is the case, you can use the `next` and `prev` attributes.
+**Telegrams / Wire Reports / To-day's telegrams** (international news)|"wire"|3, 4, 5|daily|Sometimes there is no headline for this section. Treat wire reports as individual divs (`type="wireReport"`), each with its own `<dateline>` and `<title>`. This section is sometimes spread over two pages; when this is the case, you can use the `next` and `prev` attributes.
 **Local and General** |"local"|3|daily|Treat individual paragraphs as individual divs (`type="item"`), each with its own `<head>`.
 **Sport and Play** |"sport"|3|daily?|Treat contents as items, each with own headline.
 **Personal and Social** |"social"|3|daily?|Treat contents as paragraphs
