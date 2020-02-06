@@ -31,12 +31,12 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 44B|October 31, 1906|November 2-3, 1906|[Alexis Sharpe](https://github.com/alexissharpe07)|||
 45A|November 5, 1906|November 7, 1906|[Amy Bronzwaig](https://github.com/amybronzwaig)|||
 45B|November 8, 1906|November 10, 1906|[Hari Radadia](https://github.com/haradadia)|||
-49A|December 3, 1906|December 5, 1906|[Ryan Williams](https://github.com/)|||
-49B|December 6, 1906|December 8, 1906|[Daniel Shaw](https://github.com/)|||
+49A|December 3, 1906|December 5, 1906|[Ryan Williams](https://github.com/rlw16b)|||
+49B|December 6, 1906|December 8, 1906|*[Daniel Shaw](https://github.com/)*|||
 3A|January 14, 1907|January 16, 1907|[Celine Benedico](https://github.com/celinebenedico)|||
 3B|January 17, 1907|January 19, 1907|[Christine Kraybill](https://github.com/cak16b)|||
 14B|April 4, 1907|April 6, 1907|[Steven Saxton](https://github.com/stevensaxt)|||
-19A|May 6, 1907|May 8, 1907|[Kai Cooper](https://github.com/kbcooper18)|||
+19A|May 7, 1907|May 8, 1907|[Kai Cooper](https://github.com/kbcooper18)|||
 19B|May 9, 1907|May 11, 1907|[Felicia Reich](https://github.com/fmr16)|||
 28B|July 11, 1907|July 13, 1907|[Courtney Yost](https://github.com/cay1819)|||
 30B|July 25, 1907|July 27, 1907|[Kenneth Hills](https://github.com/AgricolaKJ)|all||
@@ -48,8 +48,8 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 38A|September 16, 1907|September 18, 1907|[Thomas Windisch](https://github.com/tw19e)|all||
 38B|September 19, 1907|September 21, 1907|[Aidan Smyth](https://github.com/ags16)|all||
 39B|September 26, 1907|September 28, 1907|[Justin Torres-Ortega](https://github.com/justintimex47)|all||
-40A|September 30, 1907|October 2, 1907|[James Hunter](https://github.com/jah18h)|||
-40B|October 3, 1907|October 5, 1907|[Annie Palladino](https://github.com/AnniePalladino)||||||
+40A|September 30, 1907|October 2, 1907|[James Hunter](https://github.com/jah18h)|6||
+40B|October 3, 1907|October 5, 1907|[Annie Palladino](https://github.com/AnniePalladino)|||
 
 ## Items lacking (previous semesters)
 
@@ -65,26 +65,20 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 21|May 21, 1906|May 26, 1906|[Sabrina Nuñez](https://github.com/sabrinanunez)||2|
 23|June 4, 1906|June 9, 1906|[William Ortiz](https://github.com/williamseortiz)||2||
 25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|8|1|missing Monday, pp 7-8 of Saturday
-27A|July 2, 1906|July 4, 1906|[Huaqing Shi](https://github.com/huoyanzhizhou)|14|2|
-30|July 23, 1906|July 28, 1906|[Gretchen Sandorf](https://github.com/gretchensandorf)|5||
-31|July 30, 1906|August 4, 1906|[Jaime Sepulveda](https://github.com/jsepulveda43)|2|1|
--|August 4, 1906|||1|
-32|August 6, 1906|August 11, 1906|[Jonathan Cannon](https://github.com/alexandriaman)|32|2|
-33|August 13, 1906|August 15, 1906|[Quin Smith](https://github.com/quinelaine)|All||3 days
--|September 15, 1906|||2|
-42|October 17, 1906||[Kailen Chapple](https://github.com/wavyncurly)||1|
-44|October 30, 1906||[Gillian D’Onofrio](https://github.com/gillidonof)||1|
-52|December 24, 1906|December 29, 1906|[Alain Hernandez Corrales](https://github.com/ah18k)||1|
+27A|July 3, 1906|July 4, 1906||14|2|
+31|August 4, 1906||||1|
+32B|August 10, 1906|August 11, 1906||14|2|
+33A|August 13, 1906|August 15, 1906|[Quin Smith](https://github.com/quinelaine)|20||
+42|October 17, 1906||||1|
+44|October 30, 1906||||1|
 -|April 1, 1907|||2||pp. 7-8
 18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|1||lacking 1907-05-03-p3.jpg
 20|May 13, 1907|May 18, 1907|[Sami Squires](https://github.com/samisquires)|28||
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)||2|
-28|July 8, 1907|July 10, 1907|[Patrick Mason](https://github.com/patrickmason8)|All||3 days
+28A|July 8, 1907|July 10, 1907|[Patrick Mason](https://github.com/patrickmason8)|20||
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)||3|
 34|August 21, 1907||[Damamli Dorsey](https://github.com/DDorsey-bit)||1|
-47|November 18, 1907|November 23, 1907|[Mikayla Monaco](https://github.com/mcm18)|1||missing Sat p7
 49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)||1|
-52|December 23, 1907|December 28, 1907|[Mitch Reynolds](https://github.com/mitchreynolds)|6|1|
 
 ## Images lacking from microfilm
 
@@ -104,6 +98,7 @@ Issue numbers on the days before and after these dates are continuous.
 - Tuesday, January 1, 1907
 - Friday, March 29, 1907
 - Wednesday, May 1, 1907
+- Monday, May 6, 1907
 - Wednesday, December 25, 1907
 - Wednesday, January 1, 1907
 - Tuesday, January 14, 1908

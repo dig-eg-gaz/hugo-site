@@ -28,8 +28,8 @@
   
     
   
-  <meta name="description" content="The Egyptian Gazette contains a large number of recurring elements, which this project identifies using the feature attribute. Some of this material is captured in templates , and others are advertisements . This pages lists recurring free-text features, which are described using terms from the Digital Egyptian Gazette schema . Many of the features listed (ought to) contain sub-items with their own headlines, often also bylines and datelines.
-    Section Name feature Usual page(s) Frequency Notes      Advertisements  various 1,2 daily Use templates     Daily Weather Report  &quot;weather&rdquo; 2 daily  tempate alternate tempate    Telegrams / Wire Reports (international news) &quot;wire&rdquo; 2,3 daily Sometimes appears as &ldquo;To-day&#39;s telegrams&rdquo;, but typically there is no heading for this section.">
+  <meta name="description" content="The Egyptian Gazette contains a large number of recurring elements. Some of this material is captured in templates , and others are advertisements . This pages lists recurring free-text elements, which this project identifies using the feature attribute. This visualization shows the frequency with which features are distributed:
+    Recurring Element Name(s) Feature attribute Usual Page(s) Frequency Notes      Advertisements  none&ndash;identified using xml:id attribute 1, 2 daily Use templates     Daily Weather Report  &quot;weather&rdquo; 2 daily  tempate alternate tempate    Telegrams / Wire Reports / To-day&#39;s telegrams (international news) &quot;wire&rdquo; 3, 4, 5 daily Sometimes there is no headline for this section.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/contents/features/">
@@ -230,8 +230,8 @@
   <meta property="og:site_name" content="Digital Egyptian Gazette">
   <meta property="og:url" content="https://dig-eg-gaz.github.io/contents/features/">
   <meta property="og:title" content="Features | Digital Egyptian Gazette">
-  <meta property="og:description" content="The Egyptian Gazette contains a large number of recurring elements, which this project identifies using the feature attribute. Some of this material is captured in templates , and others are advertisements . This pages lists recurring free-text features, which are described using terms from the Digital Egyptian Gazette schema . Many of the features listed (ought to) contain sub-items with their own headlines, often also bylines and datelines.
-    Section Name feature Usual page(s) Frequency Notes      Advertisements  various 1,2 daily Use templates     Daily Weather Report  &quot;weather&rdquo; 2 daily  tempate alternate tempate    Telegrams / Wire Reports (international news) &quot;wire&rdquo; 2,3 daily Sometimes appears as &ldquo;To-day&#39;s telegrams&rdquo;, but typically there is no heading for this section."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:description" content="The Egyptian Gazette contains a large number of recurring elements. Some of this material is captured in templates , and others are advertisements . This pages lists recurring free-text elements, which this project identifies using the feature attribute. This visualization shows the frequency with which features are distributed:
+    Recurring Element Name(s) Feature attribute Usual Page(s) Frequency Notes      Advertisements  none&ndash;identified using xml:id attribute 1, 2 daily Use templates     Daily Weather Report  &quot;weather&rdquo; 2 daily  tempate alternate tempate    Telegrams / Wire Reports / To-day&#39;s telegrams (international news) &quot;wire&rdquo; 3, 4, 5 daily Sometimes there is no headline for this section."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
@@ -581,20 +581,18 @@
           <h1>Features</h1>
 
           <div class="article-style">
-            <p>The <em>Egyptian Gazette</em> contains a large number of recurring elements, which this project identifies using the <code>feature</code> attribute. Some of this material is captured in 
+            <p>The <em>Egyptian Gazette</em> contains a large number of recurring elements. Some of this material is captured in 
 <a href="/contents/templates/">templates</a>
 , and others are 
 <a href="/contents/advertisements">advertisements</a>
-. This pages lists recurring free-text features, which are described using terms from the 
-<a href="/resources/schema/">Digital Egyptian Gazette schema</a>
-. Many of the features listed (ought to) contain sub-items with their own headlines, often also bylines and datelines.</p>
+. This pages lists recurring free-text elements, which this project identifies using the <code>feature</code> attribute. This visualization shows the frequency with which features are distributed:</p>
 <iframe src="https://public.tableau.com/views/EgyptianGazettefeaturesdistribution/Commonfeaturesday?:showVizHome=no&:embed=true" align="center" width="90%" height="500"></iframe>
 <table>
 <thead>
 <tr>
-<th>Section Name</th>
-<th>feature</th>
-<th>Usual page(s)</th>
+<th>Recurring Element Name(s)</th>
+<th>Feature attribute</th>
+<th>Usual Page(s)</th>
 <th>Frequency</th>
 <th>Notes</th>
 </tr>
@@ -604,8 +602,8 @@
 <td><strong>
 <a href="/contents/advertisements/">Advertisements</a>
 </strong></td>
-<td>various</td>
-<td>1,2</td>
+<td>none&ndash;identified using <code>xml:id</code> attribute</td>
+<td>1, 2</td>
 <td>daily</td>
 <td>Use 
 <a href="/contents/advertisements/">templates</a>
@@ -625,11 +623,11 @@
 </td>
 </tr>
 <tr>
-<td><strong>Telegrams / Wire Reports</strong> (international news)</td>
+<td><strong>Telegrams / Wire Reports / To-day's telegrams</strong> (international news)</td>
 <td>&quot;wire&rdquo;</td>
-<td>2,3</td>
+<td>3, 4, 5</td>
 <td>daily</td>
-<td>Sometimes appears as &ldquo;To-day's telegrams&rdquo;, but typically there is no heading for this section. Treat wire reports as individual divs (<code>type=&quot;wireReport&quot;</code>), each with its own <code>&lt;dateline&gt;</code> and <code>&lt;title&gt;</code>. This section is sometimes spread over two pages; when this is the case, you can use the <code>next</code> and <code>prev</code> attributes.</td>
+<td>Sometimes there is no headline for this section. Treat wire reports as individual divs (<code>type=&quot;wireReport&quot;</code>), each with its own <code>&lt;dateline&gt;</code> and <code>&lt;title&gt;</code>. This section is sometimes spread over two pages; when this is the case, you can use the <code>next</code> and <code>prev</code> attributes.</td>
 </tr>
 <tr>
 <td><strong>Local and General</strong></td>
@@ -641,7 +639,7 @@
 <tr>
 <td><strong>Sport and Play</strong></td>
 <td>&quot;sport&rdquo;</td>
-<td>3</td>
+<td>3, 5</td>
 <td>daily?</td>
 <td>Treat contents as items, each with own headline.</td>
 </tr>
