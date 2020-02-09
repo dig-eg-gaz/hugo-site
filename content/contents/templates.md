@@ -35,7 +35,7 @@ Use the menu on the right to find the templates you need. Use the links below, o
 
 xml:id `deg-el-agpc01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-cotton.xml)|Example: 1905-03-01
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton.png)|**Notes**: Prepared by [Jacob Baenen](/authors/jacobbaenen).|Earliest: 1905-03-01<br><br>Latest: 1907-06-19
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton.png)|**Notes**: Prepared by [Jacob Baenen](/authors/jacobbaenen).<br><br>Do not confuse with the Alexandria General Produce Association [Weekly Report](https://dig-eg-gaz.github.io/contents/templates/#alexandria-general-produce-association-weekly-report)|Earliest: 1905-03-01<br><br>Latest: 1907-06-19
 
 ## Association des Courtiers en Marchandises
 
@@ -131,11 +131,17 @@ xml:id `deg-el-rmco01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 - [Association des Courtiers en Marchandises](/contents/templates/#association-des-courtiers-en-marchandises)
 - [Exterieur](/contents/templates/#exterieur)
 
-## Alexandria General Produce Association
+## Alexandria General Produce Association Weekly Report
 
+### Variant 1 (mid-1905)
 xml:id `deg-el-agpa01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce.xml)|Example: 1905-07-14
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: <br><br>Latest:
+
+### Variant 2 (early 1905)
+xml:id `deg-el-agpa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-2.xml)|Example: 1905-02-24
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: <br><br>Latest:
 
 ## Arrivages a Minet-el-Bassal
 
@@ -364,9 +370,15 @@ xml:id `deg-el-egev01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 ## Egyptian Gazette masthead
 
+### Variant 1
 xml:id `deg-el-egpi01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/masthead.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead.png)|**Notes**: This feature usually comes immediately after the "Subscriptions and Advertisements" feature on page 2, though sometimes other material is placed between them.<br><br>|Earliest: 1905-01-02 <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead.png)|**Notes**: This feature usually comes immediately after the "Subscriptions and Advertisements" feature on page 2, though sometimes other material is placed between them.<br><br>|Earliest: 1905-01-02 <br><br>Latest: 1906-08-27
+
+### Variant 2
+xml:id `deg-el-egpi02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/masthead-02.xml)|Example: 1906-10-03
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/masthead-02.png)|**Notes**: This feature usually comes immediately after the "Subscriptions and Advertisements" feature on page 2, though sometimes other material is placed between them.<br><br>|Earliest: 1906-08-28 <br><br>Latest:
 
 ## Egyptian Gazette Subscriptions and Advertisements
 

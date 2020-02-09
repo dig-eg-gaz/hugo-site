@@ -55,30 +55,31 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
-16|April 17, 1905|April 22, 1905|[Riley Ouellette](https://github.com/rouellette07/dig-eg-gaz)|All|1|
-24|June 12, 1905|June 17, 1905|[Thomas Corzo](https://github.com/ThomasC24)||2|
-4|January 22, 1906|January 27, 1906|[Parker Beasley](https://github.com/ParkerB21)|8|1|missing Saturday issue (1906-01-27)
-13|March 26, 1906|March 31, 1906|[Hannah Bridges](https://github.com/hlb17)|7||
-16|April 16, 1906|April 21, 1906|[Mia Meixner](https://github.com/Miameixner)|10|1|1906-04-16 lacking from microfilm
+16|April 18, 1905|April 21, 1905||24||
+16|April 22, 1905|||8|1|
+4|January 27, 1906|||8|1|
+13|March 26, 1906|March 31, 1906||7||
+16|April 16, 1906|April 21, 1906||4||pp 7-8
 -|April 30, 1906|||2||
 -|May 9, 1906|||2||
-21|May 21, 1906|May 26, 1906|[Sabrina Nuñez](https://github.com/sabrinanunez)||2|
-23|June 4, 1906|June 9, 1906|[William Ortiz](https://github.com/williamseortiz)||2||
+21B|May 25, 1906|May 26, 1906|||2|
+23A|June 6, 1906||||1||
+23B|June 9, 1906||||1||
 25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|8|1|missing Monday, pp 7-8 of Saturday
 27A|July 3, 1906|July 4, 1906||14|2|
 31|August 4, 1906||||1|
 32B|August 10, 1906|August 11, 1906||14|2|
-33A|August 13, 1906|August 15, 1906|[Quin Smith](https://github.com/quinelaine)|20||
+33A|August 13, 1906|August 15, 1906||20||
 42|October 17, 1906||||1|
 44|October 30, 1906||||1|
 -|April 1, 1907|||2||pp. 7-8
-18|April 29, 1907|May 4, 1907|[Moriah House](https://github.com/mgh19i)|1||lacking 1907-05-03-p3.jpg
-20|May 13, 1907|May 18, 1907|[Sami Squires](https://github.com/samisquires)|28||
+18|May 3, 1907|||1||lacking p3
+20|May 13, 1907|May 18, 1907||28||
 23|June 3, 1907|June 8, 1907|[Bailee Ku](https://github.com/BaileeKu)||2|
-28A|July 8, 1907|July 10, 1907|[Patrick Mason](https://github.com/patrickmason8)|20||
+28A|July 8, 1907|July 10, 1907||20||
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)||3|
-34|August 21, 1907||[Damamli Dorsey](https://github.com/DDorsey-bit)||1|
-49|December 2, 1907|December 7, 1907|[Victor Faynberg](https://github.com/VFaynberg)||1|
+34|August 21, 1907||||1|
+49|December 7, 1907||||1|
 
 ## Images lacking from microfilm
 
@@ -107,6 +108,7 @@ Issue numbers on the days before and after these dates are continuous.
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
+24|June 12, 1905|June 17, 1905||All|4|only p3 encoded
 41A|October 7, 1907|October 9, 1907||||
 41B|October 10, 1907|October 12, 1907||||
 48A|November 25, 1907|November 27, 1907||||
