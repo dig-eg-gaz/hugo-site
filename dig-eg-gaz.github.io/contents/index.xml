@@ -26685,8 +26685,8 @@
 &lt;a href=&#34;https://dig-eg-gaz.github.io/authors/jacobbaenen&#34;&gt;Jacob Baenen&lt;/a&gt;
 .&lt;br&gt;&lt;br&gt;Do not confuse with the Alexandria General Produce Association 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/contents/templates/#alexandria-general-produce-association-weekly-report&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Weekly Report&lt;/a&gt;
-&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-03-01&lt;br&gt;&lt;br&gt;Latest: 1907-06-19&lt;/td&gt;
+.&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-03-01&lt;br&gt;&lt;br&gt;Latest: 1907-06-19&lt;br&gt;&lt;br&gt;Frequency: W Th F Tu S&lt;br&gt;&lt;br&gt;Rare/never: M&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -26771,7 +26771,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/coton.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This item lists total exports of the previous month, and changes only once per month.&lt;br&gt;&lt;br&gt;Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-cotn01&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;br&gt;&lt;br&gt;Frequency: W Th M Tu F&lt;br&gt;&lt;br&gt;Rare/never: S&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -26792,7 +26792,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cotons.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-ctns01&lt;/code&gt;, &lt;code&gt;deg-ta-ctns02&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;br&gt;&lt;br&gt;Frequency: Daily&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -26800,7 +26800,7 @@
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;xml:id &lt;code&gt;deg-el-dehe1&lt;/code&gt;&lt;/th&gt;
+&lt;th&gt;xml:id &lt;code&gt;deg-el-dehe01&lt;/code&gt;&lt;/th&gt;
 &lt;th&gt;
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/derniere-heure.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XML Template&lt;/a&gt;
 &lt;/th&gt;
@@ -26813,7 +26813,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/derniere-heure.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-dehe1&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-06-18&lt;br&gt;&lt;br&gt;Frequency: Daily&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -26834,7 +26834,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-04&lt;br&gt;&lt;br&gt;Latest: 1907-05-22&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-04&lt;br&gt;&lt;br&gt;Latest: 1907-05-22&lt;br&gt;&lt;br&gt;Frequency: Daily&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -26855,7 +26855,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/primes-des-contrats.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: It the figures in this table appear to remain constant over consecutive issues.&lt;br&gt;&lt;br&gt;Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-pdco01&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-04-24&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: 1907-04-24&lt;br&gt;&lt;br&gt;Frequency: W Tu S M F Th&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -26983,7 +26983,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-de-la-situation-cotonniere.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-07-18 &lt;br&gt;&lt;br&gt;Latest: 1907-04-23&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-07-18 &lt;br&gt;&lt;br&gt;Latest: 1907-04-23&lt;br&gt;&lt;br&gt;Frequency: Tu M W F S Th&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27008,6 +27008,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;resume-mouvement-graines-de-coton&#34;&gt;Resume Mouvement Graines de Coton&lt;/h2&gt;
+&lt;p&gt;no template as yet&lt;/p&gt;
 &lt;h1 id=&#34;other-commodities&#34;&gt;Other Commodities&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -27036,7 +27038,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-agpa01&lt;/code&gt;.&lt;br&gt;&lt;br&gt;Always appears on Saturdays.&lt;/td&gt;
-&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-05-20 &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27057,7 +27059,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-agpa01&lt;/code&gt;.&lt;br&gt;&lt;br&gt;Always appears on Saturdays.&lt;/td&gt;
-&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest: 1905-05-13&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27078,7 +27080,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/arrivages-minet-el-bassal.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This table lists the amount of cotton, cotton seed, and beans arriving on each day of the same month of the &lt;em&gt;previous&lt;/em&gt; year. The table changes only twelve times per year, so can usually be copied wholesale.&lt;br&gt;&lt;br&gt;Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-ameb01&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-02&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-02&lt;br&gt;&lt;br&gt;Latest:&lt;br&gt;&lt;br&gt;Frequency: W Tu Th F M&lt;br&gt;&lt;br&gt;Rare/never: S&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27099,7 +27101,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cereal-market.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:At least one of the &amp;ldquo;Cereals in Boat&amp;rdquo; items changes from issue to issue: Barley Mariuti changes to Barley Shami. Keep an eye out for other changes.&lt;br&gt;&lt;br&gt;Locate internal table(s) using the xml:id &lt;code&gt;deg-ta-cema01&lt;/code&gt;, &lt;code&gt;deg-ta-cema02&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-02&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-02&lt;br&gt;&lt;br&gt;Latest:&lt;br&gt;&lt;br&gt;Frequency: Most days, but not Feb-Nov 1906?&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27319,7 +27321,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;:&lt;/td&gt;
-&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: November 1906&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27350,7 +27352,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;xml:id &lt;code&gt;deg-el-clbk01&lt;/code&gt;&lt;/th&gt;
-&lt;th&gt;[XML Template](&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la&#34;&gt;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la&lt;/a&gt; bourse-khediviale.xml)&lt;/th&gt;
+&lt;th&gt;
+&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la-bourse-khediviale.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XML Template&lt;/a&gt;
+&lt;/th&gt;
 &lt;th&gt;Example: 1905-07-12&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -27405,7 +27409,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-shli01&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: 1905-01-03&lt;br&gt;&lt;br&gt;Latest: November 1906 (superceded by ssab01 and bduc01)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27468,7 +27472,7 @@
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-ssab01&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: November 1906&lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -27745,7 +27749,7 @@
 &lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Produced by 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/authors/johnwhite&#34;&gt;John White&lt;/a&gt;
 &lt;br&gt;&lt;br&gt;Locate internal table(s) using the xml:id(s) &lt;code&gt;deg-ta-wept01&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
+&lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;br&gt;&lt;br&gt;Frequency: Saturdays only&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

@@ -35,7 +35,7 @@ Use the menu on the right to find the templates you need. Use the links below, o
 
 xml:id `deg-el-agpc01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-cotton.xml)|Example: 1905-03-01
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton.png)|**Notes**: Prepared by [Jacob Baenen](/authors/jacobbaenen).<br><br>Do not confuse with the Alexandria General Produce Association [Weekly Report](https://dig-eg-gaz.github.io/contents/templates/#alexandria-general-produce-association-weekly-report)|Earliest: 1905-03-01<br><br>Latest: 1907-06-19
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton.png)|**Notes**: Prepared by [Jacob Baenen](/authors/jacobbaenen).<br><br>Do not confuse with the Alexandria General Produce Association [Weekly Report](https://dig-eg-gaz.github.io/contents/templates/#alexandria-general-produce-association-weekly-report).|Earliest: 1905-03-01<br><br>Latest: 1907-06-19<br><br>Frequency: W Th F Tu S<br><br>Rare/never: M
 
 ## Association des Courtiers en Marchandises
 
@@ -58,31 +58,31 @@ xml:id `deg-el-acms01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 xml:id `deg-el-cotn01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/coton.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/coton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/coton.png)|**Notes**: This item lists total exports of the previous month, and changes only once per month.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-cotn01`|Earliest: 1905-01-03<br><br>Latest: 1907-06-18
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/coton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/coton.png)|**Notes**: This item lists total exports of the previous month, and changes only once per month.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-cotn01`|Earliest: 1905-01-03<br><br>Latest: 1907-06-18<br><br>Frequency: W Th M Tu F<br><br>Rare/never: S
 
 ## Cotons
 
 xml:id `deg-el-ctns01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cotons.xml)|Example: 1905-07-15
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cotons_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cotons.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-ctns01`, `deg-ta-ctns02`|Earliest: 1905-01-03<br><br>Latest: 1907-06-18
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cotons_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cotons.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-ctns01`, `deg-ta-ctns02`|Earliest: 1905-01-03<br><br>Latest: 1907-06-18<br><br>Frequency: Daily
 
 ## Derniere Heure
 
-xml:id `deg-el-dehe1`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/derniere-heure.xml)|Example: 1905-07-13
+xml:id `deg-el-dehe01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/derniere-heure.xml)|Example: 1905-07-13
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/derniere-heure_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/derniere-heure.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-dehe1`|Earliest: 1905-01-03<br><br>Latest: 1907-06-18
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/derniere-heure_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/derniere-heure.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-dehe1`|Earliest: 1905-01-03<br><br>Latest: 1907-06-18<br><br>Frequency: Daily
 
 ## Exterieur
 
 xml:id `deg-el-extr01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/exterieur.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur.png)|**Notes**: |Earliest: 1905-01-04<br><br>Latest: 1907-05-22
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/exterieur.png)|**Notes**: |Earliest: 1905-01-04<br><br>Latest: 1907-05-22<br><br>Frequency: Daily
 
 ## Primes des Contrats
 
 xml:id `deg-el-pdco01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/primes-des-contrats.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/primes-des-contrats_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/primes-des-contrats.png)|**Notes**: It the figures in this table appear to remain constant over consecutive issues.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-pdco01`|Earliest: 1905-01-03<br><br>Latest: 1907-04-24
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/primes-des-contrats_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/primes-des-contrats.png)|**Notes**: It the figures in this table appear to remain constant over consecutive issues.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-pdco01`|Earliest: 1905-01-03<br><br>Latest: 1907-04-24<br><br>Frequency: W Tu S M F Th
 
 ## Reuter's Telegrams
 This table varies in lines from day to day. Sometimes too a list of Arrivals appears under the first (Liverpool) section. Certain days of the week contain weekly summaries--see variants 2 to 5 below.
@@ -116,13 +116,17 @@ xml:id `deg-el-reut01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 xml:id `deg-el-rsco01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/resume-de-la-situation-cotonniere.xml)|Example: 1906-10-02
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-de-la-situation-cotonniere_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-de-la-situation-cotonniere.png)|**Notes**: |Earliest: 1905-07-18 <br><br>Latest: 1907-04-23
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-de-la-situation-cotonniere_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-de-la-situation-cotonniere.png)|**Notes**: |Earliest: 1905-07-18 <br><br>Latest: 1907-04-23<br><br>Frequency: Tu M W F S Th
 
 ## Resume Mouvement Coton
 
 xml:id `deg-el-rmco01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/resume-mouvement-coton.xml)|Example: 1907-04-01
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-mouvement-coton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/resume-mouvement-coton.png)|**Notes**: |Earliest: 1906-07-27 <br><br>Latest: 1907-04-01
+
+## Resume Mouvement Graines de Coton
+
+no template as yet
 
 # Other Commodities
 
@@ -136,24 +140,24 @@ xml:id `deg-el-rmco01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ### Variant 1 (mid-1905)
 xml:id `deg-el-agpa01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce.xml)|Example: 1905-07-14
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: 1905-05-20 <br><br>Latest:
 
 ### Variant 2 (early 1905)
 xml:id `deg-el-agpa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-2.xml)|Example: 1905-02-24
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: <br><br>Latest: 1905-05-13
 
 ## Arrivages a Minet-el-Bassal
 
 xml:id `deg-el-ameb01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/arrivages-minet-el-bassal.xml)|Example: 1905-07-14
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/arrivages-minet-el-bassal_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/arrivages-minet-el-bassal.png)|**Notes**: This table lists the amount of cotton, cotton seed, and beans arriving on each day of the same month of the _previous_ year. The table changes only twelve times per year, so can usually be copied wholesale.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-ameb01`|Earliest: 1905-01-02<br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/arrivages-minet-el-bassal_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/arrivages-minet-el-bassal.png)|**Notes**: This table lists the amount of cotton, cotton seed, and beans arriving on each day of the same month of the _previous_ year. The table changes only twelve times per year, so can usually be copied wholesale.<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-ameb01`|Earliest: 1905-01-02<br><br>Latest:<br><br>Frequency: W Tu Th F M<br><br>Rare/never: S
 
 ## Cereal Market
 
 xml:id `deg-el-cema01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cereal-market.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cereal-market_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cereal-market.png)|**Notes**:At least one of the "Cereals in Boat" items changes from issue to issue: Barley Mariuti changes to Barley Shami. Keep an eye out for other changes.<br><br>Locate internal table(s) using the xml:id `deg-ta-cema01`, `deg-ta-cema02`|Earliest: 1905-01-02<br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cereal-market_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cereal-market.png)|**Notes**:At least one of the "Cereals in Boat" items changes from issue to issue: Barley Mariuti changes to Barley Shami. Keep an eye out for other changes.<br><br>Locate internal table(s) using the xml:id `deg-ta-cema01`, `deg-ta-cema02`|Earliest: 1905-01-02<br><br>Latest:<br><br>Frequency: Most days, but not Feb-Nov 1906?
 
 ## Coals
 
@@ -217,7 +221,7 @@ xml:id `deg-el-amss01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 xml:id `deg-el-bduc01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/bourse-du-caire.xml)|Example: 1907-04-01
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire.png)|**Notes**: |Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire.png)|**Notes**: |Earliest: November 1906<br><br>Latest:
 
 ## Bourse Khediviale
 
@@ -227,7 +231,7 @@ xml:id `deg-el-bokh01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale.png)|**Notes**: |Earliest: <br><br>Latest:
 
 ### Variant 2 (Cloture de la Bourse Khediviale)
-xml:id `deg-el-clbk01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la bourse-khediviale.xml)|Example: 1905-07-12
+xml:id `deg-el-clbk01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la-bourse-khediviale.xml)|Example: 1905-07-12
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale.jpg)|**Notes**: Prepared by [Brett Crawford](/authors/brettcrawford)<br><br>|Earliest: <br><br>Latest:
 
@@ -242,7 +246,7 @@ xml:id `deg-el-lsex01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ### Variant 1
 xml:id `deg-el-shli01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/share-list.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-shli01`|Earliest: 1905-01-03<br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/share-list.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-shli01`|Earliest: 1905-01-03<br><br>Latest: November 1906 (superceded by ssab01 and bduc01)
 
 ### Variant 2
 xml:id `deg-el-shli02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/share-list-02.xml)|Example: 1906-07-02
@@ -259,7 +263,7 @@ xml:id `deg-el-stsh01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 xml:id `deg-el-ssab01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/stocks-and-shares-alexandria-bourse.xml)|Example: 1907-04-02
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-ssab01`|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-ssab01`|Earliest: November 1906<br><br>Latest:
 
 ## Telegrammes Havas
 
@@ -338,7 +342,7 @@ feature `bureauPlacement`|[XML Template](https://github.com/dig-eg-gaz/boilerpla
 
 xml:id `deg-el-wept01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/weekly-postal-table.xml)|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/weekly-postal-table_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/weekly-postal-table.png)|**Notes**: Produced by [John White](/authors/johnwhite)<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-wept01`|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/weekly-postal-table_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/weekly-postal-table.png)|**Notes**: Produced by [John White](/authors/johnwhite)<br><br>Locate internal table(s) using the xml:id(s) `deg-ta-wept01`|Earliest: <br><br>Latest:<br><br>Frequency: Saturdays only
 
 # Transportation
 
