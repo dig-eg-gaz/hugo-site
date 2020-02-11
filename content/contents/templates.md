@@ -137,15 +137,15 @@ no template as yet
 
 ## Alexandria General Produce Association Weekly Report
 
-### Variant 1 (mid-1905)
-xml:id `deg-el-agpa01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce.xml)|Example: 1905-07-14
+### Variant 1 (early 1905)
+xml:id `alexandria-general-produce-weekly`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-01.xml)|Example: 1905-02-24
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: 1905-05-20 <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-01_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-01.jpg)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: 1905-01-07<br><br>Latest: 1905-05-13
 
-### Variant 2 (early 1905)
-xml:id `deg-el-agpa02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-2.xml)|Example: 1905-02-24
+### Variant 2 (mid-1905)
+xml:id `alexandria-general-produce-weekly`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-02.xml)|Example: 1905-07-14
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-association-02.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: <br><br>Latest: 1905-05-13
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-02.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa02`.<br><br>Always appears on Saturdays.|Earliest: 1905-05-20 <br><br>Latest:
 
 ## Arrivages a Minet-el-Bassal
 
