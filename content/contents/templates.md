@@ -444,9 +444,3 @@ feature `exportManifests`|No template|Example: 1905-07-12
 feature `mouvementMaritime`|No template|Example: 1905-07-12
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime.png)|**Notes**: This model [xml text](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml) doesn't contain much useful formatting, but it shows that places, persons, dates, and tonnage should be tagged.<br><br>|Earliest: <br><br>Latest:
-
-## Municipalité Avis
-
-xml:id `deg-el-maav01`|No template|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/municipalite-avis_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/municipalite-avis.png) (image is currently lacking)|**Notes**: This model [xml text](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/municipalite-avis.xml) call for tenders varies according to the construction project and dates. Municipal tenders appear in a formulaic fashion; it is necessary to change dates and particulars of the project being tendered.|Earliest: <br><br>Latest:

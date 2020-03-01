@@ -28,12 +28,11 @@ Recurring Element Name(s)|Feature attribute|Usual Page(s)|Frequency|Notes
 **Council of Ministers** |"councilMinisters"|3||
 **Letters to the Editor** |"letters"|3||Treat each letter as an item, with `<byline>` and `<dateline>`
 **Native Press Comments** |"nativePress"|3||
-**Naval Notes** |"navalNotes"|3||
 **Band Performance / Esbekieh Gardens** |"bandPerformance"|3||Lists concert program. Format concert program as a `list`
 **Passenger List** |"passList"|3,4,5,6,7||Treat arrivals and departures as items.
 **Steamer Movements** |"steamerMovements"|3|Almost daily.|Treat contents as paragraphs.
 **Shipping Movements** and **[Mouvement Maritime](/contents/templates/#mouvement-maritime)**  |"shippingMovements"|4,6|Almost daily. |French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; see [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml) for format.
-**Army and Navy / Army of Occupation / Egyptian Army** |"army"|3,4,5,7||
+**Army and Navy / Army of Occupation / Egyptian Army / Naval Notes** |"army"|3,4,5,7|Often contain a `<dateline>`.|
 **[Calendar of Coming Events](/contents/templates/#calendar-of-coming-events)** |"comingEvents"|5|daily|see [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/calendar-of-coming-events.xml) for format
 **[Cheap Prepaid Advertisements](/contents/templates/#cheap-prepaid-advertisements)** |"prepaidAdvertisements"|2,5,7||Also listed as "Cheap Advertisements." Section template [here](/contents/templates/#cheap-prepaid-advertisements). Treat each advertisement as an item.
 **Chronique Theatrale / Abbas Helmy Theatre / Alhambra Theatre / Zizinia Theatre / etc.** |"theatre"|||Coverage of theatre performances
@@ -43,12 +42,13 @@ Recurring Element Name(s)|Feature attribute|Usual Page(s)|Frequency|Notes
 **Our London Letter** |"londonLetter"|7||
 **Our Paris Letter** |"parisLetter"|7||
 **Egyptological Notes** |"egyptological"|||
-**Egyptian Share Market / Money and Share Market** |"shareMarket"|3,5|Usually Thursday|contains items (Egyptians, Mining, Consols, Rails, etc.) with own heads; often closes with a table. Ends January 1906.
+**Egyptian Share Market / Money and Share Market** |"shareMarket"|3,5|Usually Thursday|Section containing items (Egyptians, Mining, Consols, Rails, etc.) with own heads; often closes with a table. Name changes from Egyptian Share Market to Money and Share Market in February 1906.
 **The Cotton Market** |"cottonMarket"|4||Kearsley and Cunningham’s Weekly Report
-**Chronique Financiere** |"chroniqueFinanciere"|3,4||French language
+**Chronique Financiere** |"chroniqueFinanciere"|3,4|Usually Saturday|French language. Includes dateline.
 **Circulaire H. de Vries et Boutigny. Notes et Critiques**  |"circulaire"|3,4||French language
 **Bulletin de la Bourse**  |"bulletinBourse"|||French language
 **[Export Manifests](/contents/templates/#export-manifests)** |"exportManifests"|||Use OCR and break each line into its own `<p>`.
+**Notice / AVIS**  |"notice"|||Annoucements of tenders and other business. Typically also feature the company or government (often the Alexandria Municipality) in the headline. AVIS is French language version, which is most common.
 
 ## "Notes from" section:
 These notes typically appear on page 3. They are sourced to "Our Own Correspondent". Treat individual stories as `<div type="item">`, each with its own `<head>`. It is not always clear how many stories belong to the section.

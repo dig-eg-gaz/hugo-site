@@ -685,12 +685,8 @@ map f x:xs = f x : map xs
 
 </code></pre>
 <p>It's pretty rad, it looks quite unlike most languages I've seen in my day.  Haskell has some really interesting properties, though.  It's really easy to parse documents as a result, but it's difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.</p>
-<p>I did find one eventually: the 
-<a href="https://wiki.haskell.org/HXT" target="_blank" rel="noopener">Haskell XML Toolbox</a>
-.  It lets you do some pretty interesting things.  It uses something called arrows (a <em>very</em> trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.</p>
-<p>The 
-<a href="https://wiki.haskell.org/HXT#The_concept_of_filters" target="_blank" rel="noopener">documentation</a>
- has this example:</p>
+<p>I did find one eventually: the <a href="https://wiki.haskell.org/HXT">Haskell XML Toolbox</a>.  It lets you do some pretty interesting things.  It uses something called arrows (a <em>very</em> trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.</p>
+<p>The <a href="https://wiki.haskell.org/HXT#The_concept_of_filters">documentation</a> has this example:</p>
 <pre><code class="language-Haskell">
 isA  :: (a -&gt; Bool) -&gt; (a -&gt; [a])
 isA p x | p x       = [x]
