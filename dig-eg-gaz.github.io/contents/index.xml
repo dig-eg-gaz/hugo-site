@@ -14067,6 +14067,13 @@
 &lt;td&gt;Lists concert program. Format concert program as a &lt;code&gt;list&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Obituary&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;quot;obituary&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Article on life of a resident of Egypt. Do not use for one-line obituary items in the Telegram section.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Passenger List&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&amp;quot;passList&amp;rdquo;&lt;/td&gt;
 &lt;td&gt;3,4,5,6,7&lt;/td&gt;
@@ -14088,11 +14095,11 @@
 &lt;td&gt;French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; see &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml&#34;&gt;template&lt;/a&gt; for format.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Obituary&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&amp;quot;obituary&amp;rdquo;&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Délégation Municipale / Questions Municipales / Municipality&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;quot;municipality&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;3,4,6&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Article on life of a resident of Egypt. Do not use for one-line obituary items in the Telegram section.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Army and Navy / Army of Occupation / Egyptian Army / Naval Notes&lt;/strong&gt;&lt;/td&gt;
@@ -14118,7 +14125,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Chronique Theatrale / Abbas Helmy Theatre / Alhambra Theatre / Zizinia Theatre / etc.&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&amp;quot;theatre&amp;rdquo;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;3,4&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Coverage of theatre performances&lt;/td&gt;
 &lt;/tr&gt;
@@ -14195,21 +14202,21 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Bulletin de la Bourse&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&amp;quot;bulletinBourse&amp;rdquo;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;3,4,6&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;French language&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/templates/#export-manifests&#34;&gt;Export Manifests&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&amp;quot;exportManifests&amp;rdquo;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;4,6,8&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Use OCR and break each line into its own &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Notice / AVIS&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&amp;quot;notice&amp;rdquo;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;4,5,6,7&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Annoucements of tenders and other business. Typically also feature the company or government (often the Alexandria Municipality) in the headline. AVIS is French language version, which is most common.&lt;/td&gt;
 &lt;/tr&gt;
@@ -14283,10 +14290,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Others infrequently occurring features, not yet assigned a &lt;code&gt;feature&lt;/code&gt; value:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Questions municipales&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
