@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="The Egyptian Gazette contains a large number of recurring elements. Some of this material is captured in templates, and others are advertisements. This pages lists recurring free-text elements, which this project identifies using the feature attribute. This visualization shows the frequency with which features are distributed:
-    Recurring Element Name(s) Feature attribute Usual Page(s) Frequency Notes     Advertisements none&ndash;identified using xml:id attribute 1, 2 daily Use templates   Daily Weather Report &quot;weather&rdquo; 2 daily tempate alternate tempate   Telegrams / Wire Reports / To-day&#39;s telegrams (international news) &quot;wire&rdquo; 3, 4, 5 daily Sometimes there is no headline for this section.">
+    Recurring Element Name(s) Feature attribute Usual Page(s) Frequency Notes     Advertisements none&ndash;identified using xml:id attribute 1, 2 daily Use templates   Daily Weather Report &quot;weather&rdquo; 2 daily tempate alternate tempate   Birth / Death / Marriage &quot;birthDeathMarriage&rdquo; 2  Single-line paid announcements   Telegrams / Wire Reports / To-day&#39;s telegrams (international news) &quot;wire&rdquo; 3, 4, 5 daily Sometimes there is no headline for this section.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dig-eg-gaz.github.io/contents/features/">
@@ -231,7 +231,7 @@
   <meta property="og:url" content="https://dig-eg-gaz.github.io/contents/features/">
   <meta property="og:title" content="Features | Digital Egyptian Gazette">
   <meta property="og:description" content="The Egyptian Gazette contains a large number of recurring elements. Some of this material is captured in templates, and others are advertisements. This pages lists recurring free-text elements, which this project identifies using the feature attribute. This visualization shows the frequency with which features are distributed:
-    Recurring Element Name(s) Feature attribute Usual Page(s) Frequency Notes     Advertisements none&ndash;identified using xml:id attribute 1, 2 daily Use templates   Daily Weather Report &quot;weather&rdquo; 2 daily tempate alternate tempate   Telegrams / Wire Reports / To-day&#39;s telegrams (international news) &quot;wire&rdquo; 3, 4, 5 daily Sometimes there is no headline for this section."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+    Recurring Element Name(s) Feature attribute Usual Page(s) Frequency Notes     Advertisements none&ndash;identified using xml:id attribute 1, 2 daily Use templates   Daily Weather Report &quot;weather&rdquo; 2 daily tempate alternate tempate   Birth / Death / Marriage &quot;birthDeathMarriage&rdquo; 2  Single-line paid announcements   Telegrams / Wire Reports / To-day&#39;s telegrams (international news) &quot;wire&rdquo; 3, 4, 5 daily Sometimes there is no headline for this section."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
@@ -609,6 +609,13 @@
 <td><a href="https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report.xml">tempate</a> <a href="https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report-02.xml">alternate tempate</a></td>
 </tr>
 <tr>
+<td><strong>Birth / Death / Marriage</strong></td>
+<td>&quot;birthDeathMarriage&rdquo;</td>
+<td>2</td>
+<td></td>
+<td>Single-line paid announcements</td>
+</tr>
+<tr>
 <td><strong>Telegrams / Wire Reports / To-day's telegrams</strong> (international news)</td>
 <td>&quot;wire&rdquo;</td>
 <td>3, 4, 5</td>
@@ -693,11 +700,18 @@
 <td>French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; see <a href="https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml">template</a> for format.</td>
 </tr>
 <tr>
+<td><strong>Obituary</strong></td>
+<td>&quot;obituary&rdquo;</td>
+<td>3</td>
+<td></td>
+<td>Article on life of a resident of Egypt. Do not use for one-line obituary items in the Telegram section.</td>
+</tr>
+<tr>
 <td><strong>Army and Navy / Army of Occupation / Egyptian Army / Naval Notes</strong></td>
 <td>&quot;army&rdquo;</td>
 <td>3,4,5,7</td>
-<td>Often contain a <code>&lt;dateline&gt;</code>.</td>
 <td></td>
+<td>Often contain a <code>&lt;dateline&gt;</code>.</td>
 </tr>
 <tr>
 <td><strong><a href="/contents/templates/#calendar-of-coming-events">Calendar of Coming Events</a></strong></td>

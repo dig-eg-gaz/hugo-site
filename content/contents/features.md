@@ -20,6 +20,7 @@ Recurring Element Name(s)|Feature attribute|Usual Page(s)|Frequency|Notes
 ---|---|---|---|---
 **[Advertisements](/contents/advertisements/)** |none--identified using `xml:id` attribute|1, 2|daily|Use [templates](/contents/advertisements/)
 **[Daily Weather Report](/contents/templates/#daily-weather-report)** |"weather"|2|daily|[tempate](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report.xml) [alternate tempate](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report-02.xml)
+**Birth / Death / Marriage** |"birthDeathMarriage"|2||Single-line paid announcements
 **Telegrams / Wire Reports / To-day's telegrams** (international news)|"wire"|3, 4, 5|daily|Sometimes there is no headline for this section. Treat wire reports as individual divs (`type="wireReport"`), each with its own `<dateline>` and `<title>`. This section is sometimes spread over two pages; when this is the case, you can use the `next` and `prev` attributes.
 **Local and General** |"local"|3|daily|Treat individual paragraphs as individual divs (`type="item"`), each with its own `<head>`.
 **Sport and Play** |"sport"|3, 5|daily?|Treat contents as items, each with own headline.
@@ -32,7 +33,8 @@ Recurring Element Name(s)|Feature attribute|Usual Page(s)|Frequency|Notes
 **Passenger List** |"passList"|3,4,5,6,7||Treat arrivals and departures as items.
 **Steamer Movements** |"steamerMovements"|3|Almost daily.|Treat contents as paragraphs.
 **Shipping Movements** and **[Mouvement Maritime](/contents/templates/#mouvement-maritime)**  |"shippingMovements"|4,6|Almost daily. |French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; see [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml) for format.
-**Army and Navy / Army of Occupation / Egyptian Army / Naval Notes** |"army"|3,4,5,7|Often contain a `<dateline>`.|
+**Obituary** |"obituary"|3||Article on life of a resident of Egypt. Do not use for one-line obituary items in the Telegram section.
+**Army and Navy / Army of Occupation / Egyptian Army / Naval Notes** |"army"|3,4,5,7||Often contain a `<dateline>`.
 **[Calendar of Coming Events](/contents/templates/#calendar-of-coming-events)** |"comingEvents"|5|daily|see [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/calendar-of-coming-events.xml) for format
 **[Cheap Prepaid Advertisements](/contents/templates/#cheap-prepaid-advertisements)** |"prepaidAdvertisements"|2,5,7||Also listed as "Cheap Advertisements." Section template [here](/contents/templates/#cheap-prepaid-advertisements). Treat each advertisement as an item.
 **Chronique Theatrale / Abbas Helmy Theatre / Alhambra Theatre / Zizinia Theatre / etc.** |"theatre"|||Coverage of theatre performances

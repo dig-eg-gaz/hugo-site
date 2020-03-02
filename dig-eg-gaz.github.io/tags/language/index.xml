@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Language | Digital Egyptian Gazette</title>
+    <title>language | Digital Egyptian Gazette</title>
     <link>https://dig-eg-gaz.github.io/tags/language/</link>
       <atom:link href="https://dig-eg-gaz.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
-    <description>Language</description>
+    <description>language</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Mar 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Language</title>
+      <title>language</title>
       <link>https://dig-eg-gaz.github.io/tags/language/</link>
     </image>
     
