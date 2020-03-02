@@ -59,6 +59,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 16|April 22, 1905|||8|1|
 4|January 27, 1906|||8|1|
 13|March 26, 1906|March 31, 1906||7||
+-|April 9, 1906|||||p3 missing column
 16|April 16, 1906|April 21, 1906||4||pp 7-8
 -|April 30, 1906|||2||
 -|May 9, 1906|||2||
