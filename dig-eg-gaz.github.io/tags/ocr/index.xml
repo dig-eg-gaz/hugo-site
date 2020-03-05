@@ -37,7 +37,9 @@
 &lt;p&gt;Always press Ctrl+S or &amp;ldquo;Save&amp;rdquo; after every page you finish in your issues: It&#39;s been about 3 times that I&#39;ve been so caught up in encoding that I forget to save for a few pages. Inevitably my computer updates or Oxygen crashes, and all that work is lost, leading to one too many instances of my palm colliding with my forehead.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The &lt;a href=&#34;http://www.tei-c.org/index.xml&#34;&gt;TEI webpage&lt;/a&gt; should be considered the holy text of this class. It is referenced by Dr. Hanley, and simple guides are available on dig-eg-gaz. But if you need find anything specific, get spiritual and make a journey into the rabbit hole.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;http://www.tei-c.org/index.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEI webpage&lt;/a&gt;
+ should be considered the holy text of this class. It is referenced by Dr. Hanley, and simple guides are available on dig-eg-gaz. But if you need find anything specific, get spiritual and make a journey into the rabbit hole.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -94,7 +96,13 @@ aggravating and stressful. Rant over.&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2016-11-09-sain-technical-reflection/</link>
       <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-11-09-sain-technical-reflection/</guid>
-      <description>&lt;p&gt;Although the whole process of learning new word processing and encoding programs was challenging, the most frustrating aspect was the &lt;a href=&#34;https://www.abbyy.com/en-us/finereader/about-ocr/what-is-ocr/&#34;&gt;OCR&lt;/a&gt;. It is supposed to be a faster way to translate the newspaper pages into plain text, it turned out to take up about as much time as it would have to hand type it all. I felt as if no matter how many times I scanned the &lt;a href=&#34;https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche&#34;&gt;microfilm&lt;/a&gt; images and changed the focus, brightness, contrast, or zoomed in on the page, it would not run through &lt;a href=&#34;https://www.abbyy.com/en-us/&#34;&gt;ABBYY&lt;/a&gt; in the way I was expecting it to. I was hoping to have to make minimal corrections after the scanned images were OCRed, but with all the pages I have done up to this point, I have had to make a minimum of two hours’ worth of corrections per page. The word processing software may read a majority of the words (I would estimate around 85%), I still spent a majority of my time in this class fixing the mistakes the OCR made. I also found the other programs in this class easier to use than ABBYY. Sometimes while editing a word, the image it received it from would disappear, I also found the ordering of the paragraphs challenging at times. Overall, the program may have saved me some time, but another OCR processor may be more efficient, from my experience.&lt;/p&gt;
+      <description>&lt;p&gt;Although the whole process of learning new word processing and encoding programs was challenging, the most frustrating aspect was the 
+&lt;a href=&#34;https://www.abbyy.com/en-us/finereader/about-ocr/what-is-ocr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OCR&lt;/a&gt;
+. It is supposed to be a faster way to translate the newspaper pages into plain text, it turned out to take up about as much time as it would have to hand type it all. I felt as if no matter how many times I scanned the 
+&lt;a href=&#34;https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;microfilm&lt;/a&gt;
+ images and changed the focus, brightness, contrast, or zoomed in on the page, it would not run through 
+&lt;a href=&#34;https://www.abbyy.com/en-us/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ABBYY&lt;/a&gt;
+ in the way I was expecting it to. I was hoping to have to make minimal corrections after the scanned images were OCRed, but with all the pages I have done up to this point, I have had to make a minimum of two hours’ worth of corrections per page. The word processing software may read a majority of the words (I would estimate around 85%), I still spent a majority of my time in this class fixing the mistakes the OCR made. I also found the other programs in this class easier to use than ABBYY. Sometimes while editing a word, the image it received it from would disappear, I also found the ordering of the paragraphs challenging at times. Overall, the program may have saved me some time, but another OCR processor may be more efficient, from my experience.&lt;/p&gt;
 </description>
     </item>
     

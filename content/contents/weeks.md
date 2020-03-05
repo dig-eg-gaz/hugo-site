@@ -59,22 +59,16 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 16|April 22, 1905|||8|1|
 4|January 27, 1906|||8|1|
 13|March 26, 1906|March 31, 1906||7||
--|April 9, 1906|||||p3 missing column
-16|April 16, 1906|April 21, 1906||4||pp 7-8
--|April 30, 1906|||2||
--|May 9, 1906|||2||
 21B|May 25, 1906|May 26, 1906|||2|
 23A|June 6, 1906||||1||
 23B|June 9, 1906||||1||
-25|June 18, 1906|June 23, 1906|[Madi Hayes](https://github.com/smh18h)|8|1|missing Monday, pp 7-8 of Saturday
+25|June 23, 1906||||1||
 27A|July 3, 1906|July 4, 1906||14|2|
 31|August 4, 1906||||1|
 32B|August 10, 1906|August 11, 1906||14|2|
 33A|August 13, 1906|August 15, 1906||20||
 42|October 17, 1906||||1|
 44|October 30, 1906||||1|
--|April 1, 1907|||2||pp. 7-8
-18|May 3, 1907|||1||lacking p3
 20|May 13, 1907|May 18, 1907||28||
 28A|July 8, 1907|July 10, 1907||20||
 29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)||3|
@@ -83,7 +77,11 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 ## Images lacking from microfilm
 
-- Thursday, October 31, 1907 (#7905)
+Date|Weekday|Issue number|Missing
+---|---|---|---
+April 1, 1907|Monday|7724|pp. 7-8
+October 31, 1907|Thursday|7905|whole issue
+
 
 ## No paper published
 

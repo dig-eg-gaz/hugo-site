@@ -631,12 +631,16 @@
 <li>anything else not in a <code>&lt;div&gt;</code>, and not in a <code>&lt;p&gt;</code> or a <code>&lt;head&gt;</code>.</li>
 </ul>
 <h2 id="2-add-feature-attributes">2. Add feature attributes</h2>
-<p>There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked <code>&lt;div type=&quot;section&quot;&gt;</code> rather than <code>&lt;div type=&quot;item&quot;&gt;</code>. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is <a href="/contents/features/">here</a>. To add an feature attribute, place it within the <code>&lt;div&gt;</code> tag, after the <code>type=&quot;section&quot;</code> attribute, thus: <code>&lt;div type=&quot;section&quot; feature=&quot;local&quot;&gt;</code>. If you type <code>feature</code> inside the tag, Oxygen should offer you an autocomplete menu of features.</p>
+<p>There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked <code>&lt;div type=&quot;section&quot;&gt;</code> rather than <code>&lt;div type=&quot;item&quot;&gt;</code>. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is 
+<a href="/contents/features/">here</a>
+. To add an feature attribute, place it within the <code>&lt;div&gt;</code> tag, after the <code>type=&quot;section&quot;</code> attribute, thus: <code>&lt;div type=&quot;section&quot; feature=&quot;local&quot;&gt;</code>. If you type <code>feature</code> inside the tag, Oxygen should offer you an autocomplete menu of features.</p>
 <h2 id="3-add-more-complex-structural-tags">3. Add more complex structural tags</h2>
 <p>There are more tags that you can add:</p>
 <ul>
 <li>If the article or item is in French, add the attribute <code>xml:lang=&quot;fr&quot;</code> to the <code>&lt;div&gt;</code> tag.</li>
-<li><strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see <a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb">this guidance</a>.</li>
+<li><strong><code>&lt;cb/&gt;</code></strong> for column breaks. Be sure to put this tag at the <em>beginning</em> of the column. Add the number of the column, as well, thus: <code>&lt;cb n=&quot;1&quot;/&gt;</code> For mixed columns, see 
+<a href="http://dcs.library.virginia.edu/digital-stewardship-services/tei-encoding-guidelines/#cb" target="_blank" rel="noopener">this guidance</a>
+.</li>
 <li><strong><code>&lt;div type=&quot;section&quot;&gt;</code></strong> to wrap multiple items that belong together, for instance in the international or local news sections.</li>
 <li><strong><code>&lt;dateline&gt;</code></strong> for datelines. There can only be one dateline per division. In the international news section, this means that you must make a new <code>&lt;div type=&quot;item&quot;&gt;</code> for each newswire report.</li>
 <li><strong><code>&lt;byline&gt;</code></strong> for authors. There can only be one byline per division.</li>
@@ -645,7 +649,9 @@
 <li>the <strong><code>&lt;figure&gt;</code></strong> element will be useful for the <em>Egyptian Gazette</em>, but I have not yet worked out how to use it.</li>
 </ul>
 <h2 id="4-add-advanced-content-tags">4. Add advanced content tags</h2>
-<p>This is a more advanced undertaking. See the separate tutorial <a href="/how-to/digitization/tagging-people-and-places-instructions/">here</a>.</p>
+<p>This is a more advanced undertaking. See the separate tutorial 
+<a href="/how-to/digitization/tagging-people-and-places-instructions/">here</a>
+.</p>
 
           </div>
 

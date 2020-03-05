@@ -614,19 +614,25 @@ Installation   Your FSU email allow you free access to Tableau’s full Desktop 
 <h2 id="installation">Installation</h2>
 <ol>
 <li>
-<p>Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to <a href="https://www.tableau.com/academic/students">this page</a> and its instructions to download your copy of Tableau. <strong>Be sure to use your FSU email address</strong>.</p>
+<p>Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to 
+<a href="https://www.tableau.com/academic/students" target="_blank" rel="noopener">this page</a>
+ and its instructions to download your copy of Tableau. <strong>Be sure to use your FSU email address</strong>.</p>
 </li>
 <li>
 <p>You will receive a download link via email. Download Tableau and follow installation instructions.</p>
 </li>
 <li>
-<p>After downloading and installing the software, you can follow <a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html">video tutorials</a> to get up to speed with more advanced functions. But for now, let's look at some simple examples using data from the digital Egyptian Gazette.</p>
+<p>After downloading and installing the software, you can follow 
+<a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html" target="_blank" rel="noopener">video tutorials</a>
+ to get up to speed with more advanced functions. But for now, let's look at some simple examples using data from the digital Egyptian Gazette.</p>
 </li>
 </ol>
 <h2 id="walkthrough">Walkthrough</h2>
 <ol>
 <li>
-<p>First, let's gather data to explore in Tableau. This data comes from the <a href="/contents/templates/#coton">Coton</a> table, which appears regularly in the financial news section of the Egyptian Gazette.</p>
+<p>First, let's gather data to explore in Tableau. This data comes from the 
+<a href="/contents/templates/#coton">Coton</a>
+ table, which appears regularly in the financial news section of the Egyptian Gazette.</p>
 </li>
 <li>
 <p>Using this query: <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'balles')]/following-sibling::cell[1]</code>, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.</p>
@@ -635,10 +641,14 @@ Installation   Your FSU email allow you free access to Tableau’s full Desktop 
 <p>We will want to do more than just explore total cotton exports so let's also run this query:<code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]</code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.</p>
 </li>
 <li>
-<p>The resulting data from each of these queries will be quite raw. We can use <a href="/how-to/digitization/regular-expression-instructions/">Regular Expressions</a> to clean up our data before putting it into Tableau.</p>
+<p>The resulting data from each of these queries will be quite raw. We can use 
+<a href="/how-to/digitization/regular-expression-instructions/">Regular Expressions</a>
+ to clean up our data before putting it into Tableau.</p>
 </li>
 <li>
-<p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample <a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx">spreadsheet</a> containing these data.</p>
+<p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample 
+<a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx" target="_blank" rel="noopener">spreadsheet</a>
+ containing these data.</p>
 </li>
 <li>
 <p>Now that we have data representing monthly total cotton exports and where they are being shipped we want to visualize this data.</p>

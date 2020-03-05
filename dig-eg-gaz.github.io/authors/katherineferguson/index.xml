@@ -18,7 +18,9 @@
       <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/17-analysis-ferguson/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ferguson-malaria.jpg&#34; alt=&#34;malaria&#34;&gt;
-Source: &lt;a href=&#34;http://digital.ncdcr.gov/cdm/ref/collection/p249901coll22/id/70479&#34;&gt;North Carolina Sanitary Engineering Division. 1955. Mosquitoes, and their control&lt;/a&gt;&lt;/p&gt;
+Source: 
+&lt;a href=&#34;http://digital.ncdcr.gov/cdm/ref/collection/p249901coll22/id/70479&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;North Carolina Sanitary Engineering Division. 1955. Mosquitoes, and their control&lt;/a&gt;
+&lt;/p&gt;
 &lt;p&gt;Disease ran rampant in Egypt during the early 20th century due to a lack of education concerning proper mosquito repellent techniques. Malaria and Yellow Fever were among the greatest threats to human health mainly because citizens refused to believe that mosquitos could not only spread disease, but also cause it. At this time the Yellow Fever epidemic was coming to an end in America, however Malaria in Egypt was barely being addressed, much less eradicated.&lt;/p&gt;
 &lt;p&gt;In order to create a better understanding of mosquito control efforts in 1905-1906, I have written an XPath Query that has searched the &lt;em&gt;Egyptian Gazette&lt;/em&gt; Newspaper Catalogue throughout 1905 and 1906. The XPath Query &lt;code&gt;//div[@type=&amp;quot;section&amp;quot;]/div/p[contains(., &#39;mosquitoes&#39;)]&lt;/code&gt; returned approximately 22 results, of which only 3 were vital to this analysis project. Many queries require a ‘Where’ component, but since mosquitoes were barely spoken of in these issues, if I were to include a specific section or page for XPath to look for, my results would have amounted to zero. To introduce mosquito/disease prophylaxis, as well as the context in which the yellow fever and malaria epidemic was raging, I have included a quotation taken from a concerned reader who wrote to the editor:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -31,7 +33,9 @@ Source: &lt;a href=&#34;http://digital.ncdcr.gov/cdm/ref/collection/p249901coll2
 &lt;p&gt;&lt;img src=&#34;malaria-timeline.png&#34; alt=&#34;malaria timeline&#34;&gt;&lt;/p&gt;
 &lt;p&gt;More information is needed on this topic, it was extremely difficult to collect data on mosquitoes in Egypt. Most historical data had to be gathered from Centers of Disease Control- Malaria website, while the cultural and social opinion of mosquito born disease was found in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. The &lt;em&gt;Egyptian Gazette&lt;/em&gt; provides raw data that is without contextual information, hence only small parts are useful to this analysis project. Web sites, on the other hand, take information from multiple different sources and provide a more complete historical picture. It is important to denote historical advances in medicine and technology in order to help advance present day medicine. The digitization of historical documents is especially important in developing countries, for these countries did not have the resources to immortalize their data as we in America did. For example, if one Google searches “Malaria in America” a plethora of information, pictures, anecdotes, and other historical documents are presented, but Google searching “Malaria in Egypt” presents the viewer with fewer than 10 websites to collect data from. Digitized versions of smaller countries’ historical works is vital to the public domain for research. The public domain is missing decades of documented societal progression in most of the countries around the world.&lt;/p&gt;
 &lt;h2 id=&#34;works-cited&#34;&gt;Works Cited&lt;/h2&gt;
-&lt;p&gt;CDC - &lt;a href=&#34;https://www.cdc.gov/malaria/about/history&#34;&gt;Malaria - About Malaria - History&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;CDC - 
+&lt;a href=&#34;https://www.cdc.gov/malaria/about/history&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Malaria - About Malaria - History&lt;/a&gt;
+.&lt;/p&gt;
 </description>
     </item>
     

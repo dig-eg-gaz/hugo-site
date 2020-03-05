@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="The data I used for this project was gathered from two separate tables within the Daily Weather Report.
+  <meta name="description" content="The data I used for this project was gathered from two separate tables within the Daily Weather Report .
 The Alexandria temperatures were retrieved from the bottom of the first table in this section, appropriately titled &ldquo;Alexandria&rdquo;. Acquiring this section of the data required two X-Path queries as follows- //table[@xml:id=&quot;deg-ta-dawr01&quot;]//cell[contains(.,&quot;Min. Temp in the shade&quot;)]/following-sibling::cell[1]/number() and //table[@xml:id=&quot;deg-ta-dawr01&quot;]//cell[contains(.,&quot;Max. Temp in the shade&quot;)]/following-sibling::cell[1]/number(). These gave me both sets of temperatures for Alexandra, the maximum and minimum.">
 
   
@@ -230,7 +230,7 @@ The Alexandria temperatures were retrieved from the bottom of the first table in
   <meta property="og:site_name" content="Digital Egyptian Gazette">
   <meta property="og:url" content="https://dig-eg-gaz.github.io/post/17-analysis-vaverek/">
   <meta property="og:title" content="Making Sense of the Daily Weather Report | Digital Egyptian Gazette">
-  <meta property="og:description" content="The data I used for this project was gathered from two separate tables within the Daily Weather Report.
+  <meta property="og:description" content="The data I used for this project was gathered from two separate tables within the Daily Weather Report .
 The Alexandria temperatures were retrieved from the bottom of the first table in this section, appropriately titled &ldquo;Alexandria&rdquo;. Acquiring this section of the data required two X-Path queries as follows- //table[@xml:id=&quot;deg-ta-dawr01&quot;]//cell[contains(.,&quot;Min. Temp in the shade&quot;)]/following-sibling::cell[1]/number() and //table[@xml:id=&quot;deg-ta-dawr01&quot;]//cell[contains(.,&quot;Max. Temp in the shade&quot;)]/following-sibling::cell[1]/number(). These gave me both sets of temperatures for Alexandra, the maximum and minimum."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
@@ -283,7 +283,7 @@ The Alexandria temperatures were retrieved from the bottom of the first table in
       "url": "img/https://dig-eg-gaz.github.io/"
     }
   },
-  "description": "The data I used for this project was gathered from two separate tables within the Daily Weather Report.\nThe Alexandria temperatures were retrieved from the bottom of the first table in this section, appropriately titled \u0026ldquo;Alexandria\u0026rdquo;. Acquiring this section of the data required two X-Path queries as follows- //table[@xml:id=\u0026quot;deg-ta-dawr01\u0026quot;]//cell[contains(.,\u0026quot;Min. Temp in the shade\u0026quot;)]/following-sibling::cell[1]/number() and //table[@xml:id=\u0026quot;deg-ta-dawr01\u0026quot;]//cell[contains(.,\u0026quot;Max. Temp in the shade\u0026quot;)]/following-sibling::cell[1]/number(). These gave me both sets of temperatures for Alexandra, the maximum and minimum."
+  "description": "The data I used for this project was gathered from two separate tables within the Daily Weather Report .\nThe Alexandria temperatures were retrieved from the bottom of the first table in this section, appropriately titled \u0026ldquo;Alexandria\u0026rdquo;. Acquiring this section of the data required two X-Path queries as follows- //table[@xml:id=\u0026quot;deg-ta-dawr01\u0026quot;]//cell[contains(.,\u0026quot;Min. Temp in the shade\u0026quot;)]/following-sibling::cell[1]/number() and //table[@xml:id=\u0026quot;deg-ta-dawr01\u0026quot;]//cell[contains(.,\u0026quot;Max. Temp in the shade\u0026quot;)]/following-sibling::cell[1]/number(). These gave me both sets of temperatures for Alexandra, the maximum and minimum."
 }
 </script>
 
@@ -626,7 +626,9 @@ The Alexandria temperatures were retrieved from the bottom of the first table in
   <div class="article-container">
 
     <div class="article-style">
-      <p>The data I used for this project was gathered from two separate tables within the <a href="https://dig-eg-gaz.github.io/templates/#daily-weather-report">Daily Weather Report</a>.</p>
+      <p>The data I used for this project was gathered from two separate tables within the 
+<a href="https://dig-eg-gaz.github.io/templates/#daily-weather-report" target="_blank" rel="noopener">Daily Weather Report</a>
+.</p>
 <p><img src="vaverek-DWR.png" alt="Daily Weather Report 1906-09-04"></p>
 <p>The Alexandria temperatures were retrieved from the bottom of the first table in this section, appropriately titled &ldquo;Alexandria&rdquo;. Acquiring this section of the data required two X-Path queries as follows- <code>//table[@xml:id=&quot;deg-ta-dawr01&quot;]//cell[contains(.,&quot;Min. Temp in the shade&quot;)]/following-sibling::cell[1]/number()</code> and <code>//table[@xml:id=&quot;deg-ta-dawr01&quot;]//cell[contains(.,&quot;Max. Temp in the shade&quot;)]/following-sibling::cell[1]/number()</code>. These gave me both sets of temperatures for Alexandra, the maximum and minimum.</p>
 <p>All other data was gathered from the &ldquo;Other Stations&rdquo; table, as each location reporting data corresponds to a weather station in Egypt. For these stations I used a similar query to the one used for Alexandria, just with a different xml:id. These were all some variation of <code>//table[@xml:id=&quot;deg-ta-dawr02&quot;]//cell[contains(.,&quot;Port Said&quot;)]/following-sibling::cell[1]/number()</code>. I manipulated this query, changing the <code>[contains(.,&quot;-&quot;)]</code> to different station names, also using both <code>cell[1]</code> and <code>cell[2]</code> to obtain the maximum temperature values as well as the minimum.</p>
@@ -644,7 +646,11 @@ at all useful.</p>
 <p><img src="vaverek-AvgMin05-06.png" alt="Average Minimum Monthly Temperature 1905-1906"></p>
 <p>The same gap in data for the maximum temperatures in January 1906 exists for the minimum, breaking up the data for all stations other than Alexandria. Both Port Said and Suakin stations have similar gaps in data for August 1906 because of data limitations- there are only two days of data for October.</p>
 <h4 id="conclusions">Conclusions</h4>
-<p>Speaking to the accuracy of this data, the only other source I could locate that had records of temperatures in Egypt in 1905/1906 was the NOAA Library of Records. Annual Meteorological reports on Egypt are available in pdf form; linked here is <a href="ftp://ftp.library.noaa.gov/docs.lib/htdocs/rescue/cd006_pdf/00233A82.pdf">1905</a> and <a href="ftp://ftp.library.noaa.gov/docs.lib/htdocs/rescue/cd006_pdf/00233A83.pdf">1906</a>. It appears from their reports that August of 1905 was the hottest month, while the data from the <em>Egyptian Gazette</em> suggests that October had the highest temperatures. It should be noted that the reports from the NOAA library are from the Helwan Observatory, located in Cairo, Egypt. We would expect the reported temperatures in these annual reports to then reflect most closely to the Cairo station, Ghizeh and Halouan. In general, the data from the <em>Egyptian Gazette</em> seems to line up with that from the Helwan Observatory reports. This is a promising development, as it means that the flaws inherent to the sort of data analysis we're embarking on are not detrimental to the usefulness of the data itself once certain measures are taken to &ldquo;clean up&rdquo; query results as necessary.</p>
+<p>Speaking to the accuracy of this data, the only other source I could locate that had records of temperatures in Egypt in 1905/1906 was the NOAA Library of Records. Annual Meteorological reports on Egypt are available in pdf form; linked here is 
+<a href="ftp://ftp.library.noaa.gov/docs.lib/htdocs/rescue/cd006_pdf/00233A82.pdf">1905</a>
+ and 
+<a href="ftp://ftp.library.noaa.gov/docs.lib/htdocs/rescue/cd006_pdf/00233A83.pdf">1906</a>
+. It appears from their reports that August of 1905 was the hottest month, while the data from the <em>Egyptian Gazette</em> suggests that October had the highest temperatures. It should be noted that the reports from the NOAA library are from the Helwan Observatory, located in Cairo, Egypt. We would expect the reported temperatures in these annual reports to then reflect most closely to the Cairo station, Ghizeh and Halouan. In general, the data from the <em>Egyptian Gazette</em> seems to line up with that from the Helwan Observatory reports. This is a promising development, as it means that the flaws inherent to the sort of data analysis we're embarking on are not detrimental to the usefulness of the data itself once certain measures are taken to &ldquo;clean up&rdquo; query results as necessary.</p>
 <p>As the text of the <em>Egyptian Gazette</em> is updated and edited, the data for this analysis will grow in size and will (hopefully) become increasingly accurate. There are a lot of problems that come up when dealing with a large amount of data compiled from crowd-sourced type documents. Human error, neglection of updated contents, and gaps in the editions of the Gazette itself lead to a sort of haphazard compilation and analysis of these temperatures recorded in the Daily Weather Report. Add to that the consideration that the dates currently in existence span only a portion of a two year period, and the data itself can easily be considered as barely accurate at best. That being said, I worked to the best of my ability with the resources available, and was able to study this vast amount of temperature ranges in some form.</p>
 
     </div>
