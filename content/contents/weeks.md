@@ -23,28 +23,33 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 7B|February 15, 1906|February 17, 1906|[Marianne La Rosa](https://github.com/marilarosa4)|||
 12A|March 19, 1906|March 21, 1906|[Isanze Nudalo](https://github.com/Isanze526)|||
 12B|March 22, 1906|March 24, 1906|[Kyle Liberatore](https://github.com/kml18f)|||
+---|---|---|---|---|---|---
 18|May 1, 1906|May 5, 1906|[Gabrielle Murray](https://github.com/gam18g)|30||
 27B|July 5, 1906|July 7, 1906|[Milly Wensley](https://github.com/MillyW19)|||
 33B|August 16, 1906|August 18, 1906|[John Justice](https://github.com/Johnw321)|||
 40B|October 4, 1906|October 6, 1906|[Joshua Kendrick](https://github.com/Josh-LK)|20||
 42B|October 18, 1906|October 20, 1906|[Samuel Pagan](https://github.com/SamuelPagan)|6||
 44B|October 31, 1906|November 2-3, 1906|[Alexis Sharpe](https://github.com/alexissharpe07)|||
+---|---|---|---|---|---|---
 45A|November 5, 1906|November 7, 1906|[Amy Bronzwaig](https://github.com/amybronzwaig)|12||
 45B|November 8, 1906|November 10, 1906|[Hari Radadia](https://github.com/haradadia)|||
 49A|December 3, 1906|December 5, 1906|[Ryan Williams](https://github.com/rlw16b)|||
 49B|December 6, 1906|December 8, 1906|*[Daniel Shaw](https://github.com/)*|||
 3A|January 14, 1907|January 16, 1907|[Celine Benedico](https://github.com/celinebenedico)|||
 3B|January 17, 1907|January 19, 1907|[Christine Kraybill](https://github.com/cak16b)|||
+---|---|---|---|---|---|---
 14B|April 4, 1907|April 6, 1907|[Steven Saxton](https://github.com/stevensaxt)|||
 19A|May 7, 1907|May 8, 1907|[Kai Cooper](https://github.com/kbcooper18)|||
 19B|May 9, 1907|May 11, 1907|[Felicia Reich](https://github.com/fmr16)|||
 28B|July 11, 1907|July 13, 1907|[Courtney Yost](https://github.com/cay1819)|||
 30B|July 25, 1907|July 27, 1907|[Kenneth Hills](https://github.com/AgricolaKJ)|all||
+---|---|---|---|---|---|---
 33A|August 12, 1907|August 14, 1907|[Jake McLeod](https://github.com/jakemcleod1999)
 33B|August 15, 1907|August 17, 1907|[Selina Nevin](https://github.com/selinanevin)|||
 34B|August 22, 1907|August 24, 1907|[Robert McGhee](https://github.com/robmcghee)|all||
 36A|September 2, 1907|September 4, 1907|[Robert Klein](https://github.com/skylartheswimmer)|||
 36B|September 5, 1907|September 7, 1907|[Sam Perez](https://github.com/Samuel102014)|||
+---|---|---|---|---|---|---
 38A|September 16, 1907|September 18, 1907|[Thomas Windisch](https://github.com/tw19e)|all||
 38B|September 19, 1907|September 21, 1907|[Aidan Smyth](https://github.com/ags16)|all||
 39B|September 26, 1907|September 28, 1907|[Justin Torres-Ortega](https://github.com/justintimex47)|all||
