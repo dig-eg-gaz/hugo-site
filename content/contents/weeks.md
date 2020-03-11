@@ -42,6 +42,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 19A|May 7, 1907|May 8, 1907|[Kai Cooper](https://github.com/kbcooper18)|||
 19B|May 9, 1907|May 11, 1907|[Felicia Reich](https://github.com/fmr16)|||
 28B|July 11, 1907|July 13, 1907|[Courtney Yost](https://github.com/cay1819)|||
+29B|July 18, 1907|July 20, 1907|[Kayley Cox](https://github.com/kayleycox)|all||
 30B|July 25, 1907|July 27, 1907|[Kenneth Hills](https://github.com/AgricolaKJ)|all||
 ---|---|---|---|---|---|---
 33A|August 12, 1907|August 14, 1907|[Jake McLeod](https://github.com/jakemcleod1999)
@@ -76,7 +77,6 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 44|October 30, 1906||||1|
 20|May 13, 1907|May 18, 1907||28||
 28A|July 8, 1907|July 10, 1907||20||
-29|July 15, 1907|July 20, 1907|[Phuong Nguyen](https://github.com/PCN19)||3|
 34|August 21, 1907||||1|
 49|December 7, 1907||||1|
 
