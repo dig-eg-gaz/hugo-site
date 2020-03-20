@@ -28,13 +28,13 @@ Week|Start date|End date|Assigned to|Images|Files|Notes
 27B|July 5, 1906|July 7, 1906|[Milly Wensley](https://github.com/MillyW19)|||
 33B|August 16, 1906|August 18, 1906|[John Justice](https://github.com/Johnw321)|||
 40B|October 4, 1906|October 6, 1906|[Joshua Kendrick](https://github.com/Josh-LK)|all||
-42B|October 18, 1906|October 20, 1906|[Samuel Pagan](https://github.com/SamuelPagan)|6||
+42B|October 18, 1906|October 20, 1906|[Samuel Pagan](https://github.com/SamuelPagan)|18||missing Sat pp7-8
 44B|October 31, 1906|November 2-3, 1906|[Alexis Sharpe](https://github.com/alexissharpe07)|||
 ---|---|---|---|---|---|---
 45A|November 5, 1906|November 7, 1906|[Amy Bronzwaig](https://github.com/amybronzwaig)|12||
 45B|November 8, 1906|November 10, 1906|[Hari Radadia](https://github.com/haradadia)|||
 49A|December 3, 1906|December 5, 1906|[Ryan Williams](https://github.com/rlw16b)|||
-49B|December 6, 1906|December 8, 1906|[Daniel Shaw](https://github.com/)|||
+49B|December 6, 1906|December 8, 1906|[Daniel Shaw](https://github.com/das16k)|all||
 3A|January 14, 1907|January 16, 1907|[Celine Benedico](https://github.com/celinebenedico)|||
 3B|January 17, 1907|January 19, 1907|[Christine Kraybill](https://github.com/cak16b)|||
 ---|---|---|---|---|---|---
