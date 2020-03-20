@@ -15,7 +15,7 @@ weight: 2
 
 ## Current semester
 
-Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
+Week|Start date|End date|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 7|February 13, 1905|February 18, 1905|[Suryia Staton](https://github.com/suryiastaton)|all||
 23B|June 8, 1905|June 10, 1905|[Caroline Banks](https://github.com/carolinebanks)|all||
@@ -41,7 +41,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 14B|April 4, 1907|April 6, 1907|[Steven Saxton](https://github.com/stevensaxt)|||
 19A|May 7, 1907|May 8, 1907|[Kai Cooper](https://github.com/kbcooper18)|||
 19B|May 9, 1907|May 11, 1907|[Felicia Reich](https://github.com/fmr16)|||
-28B|July 11, 1907|July 13, 1907|[Courtney Yost](https://github.com/cay1819)|||
+28B|July 11, 1907|July 13, 1907|[Courtney Yost](https://github.com/cay1819)|all||
 29B|July 18, 1907|July 20, 1907|[Kayley Cox](https://github.com/kayleycox)|all||
 30B|July 25, 1907|July 27, 1907|[Kenneth Hills](https://github.com/AgricolaKJ)|all||
 ---|---|---|---|---|---|---
