@@ -48,7 +48,7 @@ Week|Start date|End date|Assigned to|Images|Files|Notes
 33A|August 12, 1907|August 14, 1907|[Jake McLeod](https://github.com/jakemcleod1999)|||
 33B|August 15, 1907|August 17, 1907|[Selina Nevin](https://github.com/selinanevin)|||
 36A|September 2, 1907|September 4, 1907|[Robert Klein](https://github.com/skylartheswimmer)|||
-36B|September 5, 1907|September 7, 1907|[Sam Perez](https://github.com/Samuel102014)|||
+36B|September 5, 1907|September 7, 1907|[Sam Perez](https://github.com/Samuel102014)|all||
 ---|---|---|---|---|---|---
 38A|September 16, 1907|September 18, 1907|[Thomas Windisch](https://github.com/tw19e)|all||
 38B|September 19, 1907|September 21, 1907|[Aidan Smyth](https://github.com/ags16)|all||
