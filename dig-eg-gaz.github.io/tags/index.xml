@@ -5,12 +5,108 @@
     <link>https://dig-eg-gaz.github.io/tags/</link>
       <atom:link href="https://dig-eg-gaz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 10 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
       <link>https://dig-eg-gaz.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Athens</title>
+      <link>https://dig-eg-gaz.github.io/tags/athens/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/athens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>burglary</title>
+      <link>https://dig-eg-gaz.github.io/tags/burglary/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/burglary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cairo</title>
+      <link>https://dig-eg-gaz.github.io/tags/cairo/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/cairo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crime</title>
+      <link>https://dig-eg-gaz.github.io/tags/crime/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/crime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>danger</title>
+      <link>https://dig-eg-gaz.github.io/tags/danger/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/danger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lodging</title>
+      <link>https://dig-eg-gaz.github.io/tags/lodging/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/lodging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>olympicgames</title>
+      <link>https://dig-eg-gaz.github.io/tags/olympicgames/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/olympicgames/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police</title>
+      <link>https://dig-eg-gaz.github.io/tags/police/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/police/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>https://dig-eg-gaz.github.io/tags/technology/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transportation</title>
+      <link>https://dig-eg-gaz.github.io/tags/transportation/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/transportation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>accidents</title>
+      <link>https://dig-eg-gaz.github.io/tags/accidents/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/accidents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cars</title>
+      <link>https://dig-eg-gaz.github.io/tags/cars/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/tags/cars/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cures</title>
@@ -169,14 +265,6 @@
       <link>https://dig-eg-gaz.github.io/tags/pilgrimage/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/pilgrimage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Police</title>
-      <link>https://dig-eg-gaz.github.io/tags/police/</link>
-      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/police/</guid>
       <description></description>
     </item>
     
@@ -677,26 +765,10 @@
     </item>
     
     <item>
-      <title>crime</title>
-      <link>https://dig-eg-gaz.github.io/tags/crime/</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/crime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>critics</title>
       <link>https://dig-eg-gaz.github.io/tags/critics/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/critics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>danger</title>
-      <link>https://dig-eg-gaz.github.io/tags/danger/</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/danger/</guid>
       <description></description>
     </item>
     
@@ -849,14 +921,6 @@
       <link>https://dig-eg-gaz.github.io/tags/typhoid/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/typhoid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cairo</title>
-      <link>https://dig-eg-gaz.github.io/tags/cairo/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/cairo/</guid>
       <description></description>
     </item>
     
@@ -1697,14 +1761,6 @@
       <link>https://dig-eg-gaz.github.io/tags/sucks/</link>
       <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/tags/sucks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technology</title>
-      <link>https://dig-eg-gaz.github.io/tags/technology/</link>
-      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/tags/technology/</guid>
       <description></description>
     </item>
     
