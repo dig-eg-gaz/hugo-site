@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Politics | Digital Egyptian Gazette</title>
+    <title>politics | Digital Egyptian Gazette</title>
     <link>https://dig-eg-gaz.github.io/tags/politics/</link>
       <atom:link href="https://dig-eg-gaz.github.io/tags/politics/index.xml" rel="self" type="application/rss+xml" />
-    <description>Politics</description>
+    <description>politics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Politics</title>
+      <title>politics</title>
       <link>https://dig-eg-gaz.github.io/tags/politics/</link>
     </image>
     

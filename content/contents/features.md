@@ -32,8 +32,8 @@ Recurring Element Name(s)|Feature attribute|Usual Page(s)|Frequency|Notes
 **Band Performance / Esbekieh Gardens** |"bandPerformance"|3||Lists concert program. Format concert program as a `list`
 **Obituary** |"obituary"|3||Article on life of a resident of Egypt. Do not use for one-line obituary items in the Telegram section.
 **Passenger List** |"passList"|3,4,5,6,7||Treat arrivals and departures as items.
-**Steamer Movements** |"steamerMovements"|3|Almost daily.|Treat contents as paragraphs.
-**Shipping Movements** and **[Mouvement Maritime](/contents/templates/#mouvement-maritime)**  |"shippingMovements"|4,6|Almost daily. |French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; see [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml) for format.
+**Steamer Movements** |"steamerMovements"|3|Almost daily.|Arrivals and departures of passenger ships. Treat contents as paragraphs.
+**Shipping Movements** and **[Mouvement Maritime](/contents/templates/#mouvement-maritime)**  |"shippingMovements"|4,6|Almost daily. |Arrivals and departures of cargo ships. French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; see [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml) for format.
 **Délégation Municipale / Questions Municipales / Municipality** |"municipality"|3,4,6||
 **Army and Navy / Army of Occupation / Egyptian Army / Naval Notes** |"army"|3,4,5,7||Often contain a `<dateline>`.
 **[Calendar of Coming Events](/contents/templates/#calendar-of-coming-events)** |"comingEvents"|5|daily|see [template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/calendar-of-coming-events.xml) for format
