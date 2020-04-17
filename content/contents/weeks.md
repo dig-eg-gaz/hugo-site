@@ -78,6 +78,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 28A|July 8, 1907|July 10, 1907||20||
 34|August 21, 1907||||1|
 49|December 7, 1907||||1|
+2|January 10, 1908|||1||p3
 
 ## Images lacking from microfilm
 
