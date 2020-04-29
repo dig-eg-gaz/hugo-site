@@ -1,6 +1,7 @@
 ---
 title: IDS2681 Fall 2019 Weeks
 ---
+This is an archived record of the weeks assigned in fall 2019.
 
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---

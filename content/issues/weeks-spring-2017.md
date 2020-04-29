@@ -1,6 +1,8 @@
 ---
 title: IFS2116 Spring 2017 Weeks
 ---
+This is an archived record of the weeks assigned in spring 2017.
+
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Pages|Notes
 ---|---|---|---|---|---|---|---
 3|January 16, 1905|January 21, 1905|[Andres Acosta](https://github.com/aaa15g)|All|6|28|

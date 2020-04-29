@@ -1,6 +1,8 @@
 ---
 title: IFS2116 Spring 2018 Weeks
 ---
+This is an archived record of the weeks assigned in spring 2018.
+
 Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 7|February 13, 1905|February 18, 1905|[India Anderson](https://github.com/Indiaa)|All||

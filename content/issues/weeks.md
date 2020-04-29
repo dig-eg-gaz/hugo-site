@@ -6,8 +6,8 @@ type: docs
 date: "2019-08-29"
 draft: false
 menu:
-  contents:
-    parent: Contents
+  issues:
+    parent: Issues
     weight: 2
 
 weight: 2
@@ -19,7 +19,7 @@ Week|Start date|End date|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 7|February 13, 1905|February 18, 1905|[Suryia Staton](https://github.com/suryiastaton)|all||
 23B|June 8, 1905|June 10, 1905|[Caroline Banks](https://github.com/carolinebanks)|all||
-3B|January 18, 1906|January 20, 1906|[Connor Bishop](https://github.com/bishopconnor59)|all||
+3B|January 18, 1906|January 20, 1906|[Connor Bishop](https://github.com/bishopconnor59)|all|3|
 7B|February 15, 1906|February 17, 1906|[Marianne La Rosa](https://github.com/marilarosa4)|all||
 12A|March 19, 1906|March 21, 1906|[Isanze Nudalo](https://github.com/Isanze526)|all||
 12B|March 22, 1906|March 24, 1906|[Kyle Liberatore](https://github.com/kml18f)|23||missing 23-p7; incomplete 22-p1 23-p3 23-p6
@@ -40,7 +40,7 @@ Week|Start date|End date|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 14B|April 4, 1907|April 6, 1907|[Steven Saxton](https://github.com/stevensaxt)|all||
 19A|May 7, 1907|May 8, 1907|[Kai Cooper](https://github.com/kbcooper18)|||
-19B|May 9, 1907|May 11, 1907|[Felicia Reich](https://github.com/fmr16)|||
+19B|May 9, 1907|May 11, 1907|[Felicia Reich](https://github.com/fmr16)||0|
 28B|July 11, 1907|July 13, 1907|[Courtney Yost](https://github.com/cay1819)|all||
 29B|July 18, 1907|July 20, 1907|[Kayley Cox](https://github.com/kayleycox)|all||
 30B|July 25, 1907|July 27, 1907|[Kenneth Hills](https://github.com/AgricolaKJ)|all|3|
@@ -53,7 +53,7 @@ Week|Start date|End date|Assigned to|Images|Files|Notes
 38A|September 16, 1907|September 18, 1907|[Thomas Windisch](https://github.com/tw19e)|all|3|
 38B|September 19, 1907|September 21, 1907|[Aidan Smyth](https://github.com/ags16)|all||
 39B|September 26, 1907|September 28, 1907|[Justin Torres-Ortega](https://github.com/justintimex47)|all||
-40A|September 30, 1907|October 2, 1907|[James Hunter](https://github.com/jah18h)|all||
+40A|September 30, 1907|October 2, 1907|[James Hunter](https://github.com/jah18h)|all|0|
 40B|October 3, 1907|October 5, 1907|[Annie Palladino](https://github.com/AnniePalladino)|all||
 
 ## Items lacking (previous semesters)
@@ -62,7 +62,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 16|April 18, 1905|April 21, 1905||24||
 16|April 22, 1905|||8|1|
-4|January 27, 1906|||8|1|
+4|January 27, 1906|January 29, 1906||9|1|1906-09-29-p3 mis-stitched
 13|March 26, 1906|March 31, 1906||7||
 21B|May 25, 1906|May 26, 1906|||2|
 23A|June 6, 1906||||1||
@@ -74,6 +74,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 33A|August 13, 1906|August 15, 1906||20||
 42|October 17, 1906||||1|
 44|October 30, 1906||||1|
+44|November 27, 1906|||1||p3 file broken
 20|May 13, 1907|May 18, 1907||28||
 28A|July 8, 1907|July 10, 1907||20||
 34|August 21, 1907||||1|
@@ -123,7 +124,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 ## Previous courses
 
-- [IFS 2116 Fall 2019](/contents/weeks-fall-2019/)
-- [IFS 2116 Spring 2018](/contents/weeks-spring-2018/)
-- [IFS 2116 Spring 2017](/contents/weeks-spring-2017/)
-- [IFS 2116 Fall 2016](/contents/weeks-fall-2016/)
+- [IFS 2116 Fall 2019](/issues/weeks-fall-2019/)
+- [IFS 2116 Spring 2018](/issues/weeks-spring-2018/)
+- [IFS 2116 Spring 2017](/issues/weeks-spring-2017/)
+- [IFS 2116 Fall 2016](/issues/weeks-fall-2016/)

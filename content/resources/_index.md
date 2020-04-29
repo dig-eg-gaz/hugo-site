@@ -1,10 +1,8 @@
 ---
-# Course title, summary, and position.
 linktitle: Resources
 summary: Resources for the use of the Digital Egyptian Gazette.
 weight: 1
 
-# Page metadata.
 title: Resources
 date: "2016-09-09T00:00:00Z"
 lastmod: "2019-08-28"
@@ -16,7 +14,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  contents:
+  resources:
     name: Resources
     weight: 1
 ---

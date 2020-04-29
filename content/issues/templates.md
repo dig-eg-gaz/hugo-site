@@ -6,8 +6,8 @@ type: docs
 date: "2019-09-20"
 draft: false
 menu:
-  contents:
-    parent: Contents
+  issues:
+    parent: Issues
     weight: 5
 
 weight: 5
@@ -28,14 +28,14 @@ Use the menu on the right to find the templates you need. Use the links below, o
 
 **See also**:
 
-- [Marché de Minet el Bassal](/contents/templates/#marche-de-minet-el-bassal)
-- [Nolis](/contents/templates/#nolis)
+- [Marché de Minet el Bassal](/issues/templates/#marche-de-minet-el-bassal)
+- [Nolis](/issues/templates/#nolis)
 
 ## Alexandria General Produce Association (Cotton)
 
 xml:id `deg-el-agpc01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-cotton.xml)|Example: 1905-03-01
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton.png)|**Notes**: Prepared by [Jacob Baenen](/authors/jacobbaenen).<br><br>Do not confuse with the Alexandria General Produce Association [Weekly Report](https://dig-eg-gaz.github.io/contents/templates/#alexandria-general-produce-association-weekly-report).|Earliest: 1905-03-01<br><br>Latest: 1907-06-19<br><br>Frequency: W Th F Tu S<br><br>Rare/never: M
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-cotton.png)|**Notes**: Prepared by [Jacob Baenen](/authors/jacobbaenen).<br><br>Do not confuse with the Alexandria General Produce Association [Weekly Report](https://dig-eg-gaz.github.io/issues/templates/#alexandria-general-produce-association-weekly-report).|Earliest: 1905-03-01<br><br>Latest: 1907-06-19<br><br>Frequency: W Th F Tu S<br><br>Rare/never: M
 
 ## Association des Courtiers en Marchandises
 
@@ -132,8 +132,8 @@ no template as yet
 
 **See also**
 
-- [Association des Courtiers en Marchandises](/contents/templates/#association-des-courtiers-en-marchandises)
-- [Exterieur](/contents/templates/#exterieur)
+- [Association des Courtiers en Marchandises](/issues/templates/#association-des-courtiers-en-marchandises)
+- [Exterieur](/issues/templates/#exterieur)
 
 ## Alexandria General Produce Association Weekly Report
 
@@ -209,7 +209,7 @@ xml:id `deg-el-tdex02`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 **See also**:
 
-- [Reuter's Telegrams](/contents/templates/#reuters-telegrams)
+- [Reuter's Telegrams](/issues/templates/#reuters-telegrams)
 
 ## American Stocks & Shares
 

@@ -43,6 +43,7 @@ menu:
 3. [How to submit serial question analysis](/how-to/course-specific/serial-question-instructions)
 4. [How to revise data and elements](/how-to/course-specific/data-revision-instruction)
 2. [How to write small tutorials](/how-to/course-specific/tutorials-instructions)
+3. [How to contribute to Wikipedia](/how-to/course-specific/wikipedia-instructions)
 
 ## Further instructions (to come in future semesters)
 

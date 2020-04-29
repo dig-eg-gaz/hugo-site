@@ -6,8 +6,8 @@ type: docs
 date: "2016-09-30"
 draft: false
 menu:
-  contents:
-    parent: Contents
+  issues:
+    parent: Issues
     weight: 6
 
 weight: 6
@@ -2016,6 +2016,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  | 
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc01-whitehead-morris-co_tn.jpg?raw=true)|xml text: [wmc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wmc01.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc01-whitehead-morris-co.png)<br><br>paste as cell in nameplate table
+
+## wmc02 Whitehead Morris & Co.
+ | 
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc02-whitehead-morris-co_tn.jpg?raw=true)|xml text: [wmc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/wmc02.xml)<br><br>Example: 1907-01-04<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/wmc02-whitehead-morris-co.png)<br><br>paste as cell in nameplate table
 
 ## wsl01 White Star Line
  | 

@@ -27,6 +27,7 @@ menu:
 2. [How to write small tutorials](tutorials-instructions)
 3. [How to submit serial question analysis](serial-question-instructions)
 4. [How to revise templates](data-revision-instructions)
+5. [How to contribute to Wikipedia](wikipedia-instructions)
 
 ## Further instructions (to come in future semesters)
 

@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/</loc>
-    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/how-to/digitization/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
   </url>
@@ -20,6 +15,11 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/how-to/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/issues/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/weeks/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/weeks/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -45,11 +45,6 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/how-to/course-specific/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/contents/images/</loc>
-    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/features/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/features/</loc>
     <lastmod>2016-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,12 +73,17 @@
   </url>
   
   <url>
+    <loc>https://dig-eg-gaz.github.io/how-to/course-specific/wikipedia-instructions/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dig-eg-gaz.github.io/how-to/digitization/setup-instructions/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/templates/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/templates/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/advertisements/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/advertisements/</loc>
     <lastmod>2016-09-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,6 +178,11 @@
   </url>
   
   <url>
+    <loc>https://dig-eg-gaz.github.io/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/carolinebanks/</loc>
     <lastmod>2020-03-10T00:00:00+00:00</lastmod>
   </url>
@@ -239,11 +244,6 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/tags/danger/</loc>
-    <lastmod>2020-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/</loc>
     <lastmod>2020-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -513,6 +513,11 @@
   </url>
   
   <url>
+    <loc>https://dig-eg-gaz.github.io/authors/nickolaspiraino/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dig-eg-gaz.github.io/authors/oscarnaranjo/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
@@ -564,6 +569,11 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/post/19-analysis-reynolds/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/post/19-analysis-piraino/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -3784,10 +3794,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/authors/nickolaspiraino/</loc>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/authors/student/</loc>
   </url>
   
@@ -3796,19 +3802,19 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/weeks-fall-2019/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/weeks-fall-2019/</loc>
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/weeks-fall-2016/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/weeks-fall-2016/</loc>
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/weeks-spring-2017/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/weeks-spring-2017/</loc>
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/contents/weeks-spring-2018/</loc>
+    <loc>https://dig-eg-gaz.github.io/issues/weeks-spring-2018/</loc>
   </url>
   
   <url>

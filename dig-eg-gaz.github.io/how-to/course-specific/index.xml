@@ -740,5 +740,43 @@ content repository updated. (&lt;a href=&#34;https://dig-eg-gaz.github.io/how-to
 </description>
     </item>
     
+    <item>
+      <title>Wikipedia instructions</title>
+      <link>https://dig-eg-gaz.github.io/how-to/course-specific/wikipedia-instructions/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/how-to/course-specific/wikipedia-instructions/</guid>
+      <description>&lt;p&gt;Much of the information that Wikipedia offers us about turn-of-the-century Egypt is derived from earlier, top-down sources (for example, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition&#34;&gt;&lt;em&gt;Encyclopedia Britannica&lt;/em&gt; of 1911&lt;/a&gt;). The &lt;em&gt;Egyptian Gazette&lt;/em&gt; contains a wealth of microhistorical data that can enrich the&lt;/p&gt;
+&lt;h2 id=&#34;1-identify-a-subject&#34;&gt;1. Identify a subject&lt;/h2&gt;
+&lt;p&gt;The first step is to find a Wikipedia page that needs your help. One way to get there is to use category pages, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Category:Egyptian_politician_stubs&#34;&gt;Egyptian politician stubs&lt;/a&gt; (a stub is &amp;ldquo;an article deemed too short to provide encyclopedic coverage of a subject&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Category:People_from_Cairo&#34;&gt;People from Cairo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Category:Pashas&#34;&gt;Pashas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you are working on a person stub, you can search for that individuals in the &lt;em&gt;Digital Egyptian Gazette&lt;/em&gt; content repository. Identify a news story that informs us of an important event in their lives, ideally something unaccounted for on the page. (Of course, you can also add the &lt;em&gt;Gazette&lt;/em&gt; as a reference in support of information already given in Wikipedia.)&lt;/p&gt;
+&lt;p&gt;You might wish to work on an event or a place, or to create a new Wikipedia page for someone of significance. All of this is worthwhile work.&lt;/p&gt;
+&lt;h2 id=&#34;2-edit-the-page&#34;&gt;2. Edit the page&lt;/h2&gt;
+&lt;p&gt;Sign up for Wikipedia and log in. Click &amp;ldquo;edit&amp;rdquo; near the top right of the page, and you will see the page&#39;s text encoded in &lt;a href=&#34;https://en.wikipedia.org/wiki/Help:Wikitext&#34;&gt;wikitext&lt;/a&gt; (Wikipedia&#39;s syntax). It&#39;s a simple language, not so different from Markdown, and there are lots of tips and tutorials available&amp;ndash;here&#39;s a &lt;a href=&#34;https://en.wikipedia.org/wiki/Help:Editing&#34;&gt;good place to start&lt;/a&gt;. Proceed to add the necessary text to the page.&lt;/p&gt;
+&lt;h2 id=&#34;3-cite-your-source&#34;&gt;3. Cite your source&lt;/h2&gt;
+&lt;p&gt;At the end of the information that you add, provide a reference to your source article in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. Use this basic format (updated to reflect your source):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;ref&amp;gt;{{cite news |author=&amp;lt;!--Staff writer(s); no by-line.--&amp;gt; |title=Personal and Social. |url=https://raw.githubusercontent.com/dig-eg-gaz/page-images/master/1906-page-images-4/1906-12-27-p3.jpg |work=The Egyptian Gazette |date=27 December 1906}}&amp;lt;/ref&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(The url I&#39;ve linked to is the page image of the article I&#39;ve used.)&lt;/p&gt;
+&lt;h2 id=&#34;4-save-your-edit&#34;&gt;4. Save your edit&lt;/h2&gt;
+&lt;p&gt;You will want to preview it first to check if the format is correct. You might also wish to watch the page, just in case someone removes your change&amp;ndash;when this happens, it often happens in the first 24 hours.&lt;/p&gt;
+&lt;h2 id=&#34;5-let-me-know-what-youve-edited&#34;&gt;5. Let me know what you&#39;ve edited&lt;/h2&gt;
+&lt;p&gt;The best way to do this is to send me the link to your &amp;ldquo;user contributions&amp;rdquo; page. My link looks like this: &lt;code&gt;https://en.wikipedia.org/wiki/Special:Contributions/Will_Hanley&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;an-example&#34;&gt;An example&lt;/h1&gt;
+&lt;p&gt;I found this mention of the funeral of the daughter of Joseph Cattaui in the &amp;ldquo;Personal and Social&amp;rdquo; section on page 3 of the December 27, 1906 issue.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/cattaui-funeral.png&#34; alt=&#34;funeral blurb&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This prominent businessman has &lt;a href=&#34;https://en.wikipedia.org/wiki/Joseph_Cattaui&#34;&gt;his own Wikipedia page&lt;/a&gt;. It names some of his family members in the box on the right, but I&#39;m not sure which daughter it is who died. I decided to add a new section mentioning this information about his private life. Here&#39;s the code I used:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;==Personal life==
+
+Cattaui&#39;s daughter died of typhoid fever at the age of 18 at the end of December, 1906.&amp;lt;ref&amp;gt;{{cite news |author=&amp;lt;!--Staff writer(s); no by-line.--&amp;gt; |title=Personal and Social. |url=https://raw.githubusercontent.com/dig-eg-gaz/page-images/master/1906-page-images-4/1906-12-27-p3.jpg |work=The Egyptian Gazette |date=27 December 1906}}&amp;lt;/ref&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The edit is recorded in the page history &lt;a href=&#34;https://en.wikipedia.org/w/index.php?title=Joseph_Cattaui&amp;amp;type=revision&amp;amp;diff=952696886&amp;amp;oldid=950009046&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -6,8 +6,8 @@ type: docs
 date: "2016-09-30"
 draft: false
 menu:
-  contents:
-    parent: Contents
+  issues:
+    parent: Issues
     weight: 4
 
 weight: 4
