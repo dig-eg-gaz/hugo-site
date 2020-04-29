@@ -37,7 +37,7 @@ persname:
 &lt;p&gt;This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.&lt;/p&gt;
 &lt;h2 id=&#34;a-quick-note-on-xml&#34;&gt;A quick note on XML&lt;/h2&gt;
 &lt;p&gt;XML can be visualized as a &amp;ldquo;rose tree&amp;rdquo; made of nodes.  This basically means that every part of the XML document is some sort of node, which has other nodes inside of it.  The nodes can be any type of tag, or any plain text, and any number of both in any order.&lt;/p&gt;
-&lt;p&gt;Here&#39;s what some XML in your issue might look like as a Tree&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what some XML in your issue might look like as a Tree&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;div -*- dateline -*- date - Text
      |            *- Text
      |            *- placename - Text
@@ -54,7 +54,7 @@ persname:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;functional-programming&#34;&gt;Functional Programming&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.haskell.org/static/img/haskell-logo.svg?etag=ukf3Fg7-&#34; alt=&#34;Haskell Logo&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I program in Haskell mostly.  Haskell is a pure functional language, which just means it&#39;s not the same as the traditional programming languages you see day-to-day, and it&#39;s not something FSU teaches currently.&lt;/p&gt;
+&lt;p&gt;I program in Haskell mostly.  Haskell is a pure functional language, which just means it&amp;rsquo;s not the same as the traditional programming languages you see day-to-day, and it&amp;rsquo;s not something FSU teaches currently.&lt;/p&gt;
 &lt;p&gt;It looks something like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
 and :: Bool -&amp;gt; Bool -&amp;gt; Bool
@@ -68,9 +68,13 @@ map _ []   = []
 map f x:xs = f x : map xs
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It&#39;s pretty rad, it looks quite unlike most languages I&#39;ve seen in my day.  Haskell has some really interesting properties, though.  It&#39;s really easy to parse documents as a result, but it&#39;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
-&lt;p&gt;I did find one eventually: the &lt;a href=&#34;https://wiki.haskell.org/HXT&#34;&gt;Haskell XML Toolbox&lt;/a&gt;.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34;&gt;documentation&lt;/a&gt; has this example:&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s pretty rad, it looks quite unlike most languages I&amp;rsquo;ve seen in my day.  Haskell has some really interesting properties, though.  It&amp;rsquo;s really easy to parse documents as a result, but it&amp;rsquo;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
+&lt;p&gt;I did find one eventually: the 
+&lt;a href=&#34;https://wiki.haskell.org/HXT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Haskell XML Toolbox&lt;/a&gt;
+.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;
+ has this example:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
 isA  :: (a -&amp;gt; Bool) -&amp;gt; (a -&amp;gt; [a])
 isA p x | p x       = [x]

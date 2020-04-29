@@ -653,7 +653,7 @@ persname:
 <p>This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.</p>
 <h2 id="a-quick-note-on-xml">A quick note on XML</h2>
 <p>XML can be visualized as a &ldquo;rose tree&rdquo; made of nodes.  This basically means that every part of the XML document is some sort of node, which has other nodes inside of it.  The nodes can be any type of tag, or any plain text, and any number of both in any order.</p>
-<p>Here's what some XML in your issue might look like as a Tree</p>
+<p>Here&rsquo;s what some XML in your issue might look like as a Tree</p>
 <pre><code>div -*- dateline -*- date - Text
      |            *- Text
      |            *- placename - Text
@@ -670,7 +670,7 @@ persname:
 </code></pre>
 <h2 id="functional-programming">Functional Programming</h2>
 <p><img src="https://www.haskell.org/static/img/haskell-logo.svg?etag=ukf3Fg7-" alt="Haskell Logo"></p>
-<p>I program in Haskell mostly.  Haskell is a pure functional language, which just means it's not the same as the traditional programming languages you see day-to-day, and it's not something FSU teaches currently.</p>
+<p>I program in Haskell mostly.  Haskell is a pure functional language, which just means it&rsquo;s not the same as the traditional programming languages you see day-to-day, and it&rsquo;s not something FSU teaches currently.</p>
 <p>It looks something like this:</p>
 <pre><code class="language-Haskell">
 and :: Bool -&gt; Bool -&gt; Bool
@@ -684,9 +684,13 @@ map _ []   = []
 map f x:xs = f x : map xs
 
 </code></pre>
-<p>It's pretty rad, it looks quite unlike most languages I've seen in my day.  Haskell has some really interesting properties, though.  It's really easy to parse documents as a result, but it's difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.</p>
-<p>I did find one eventually: the <a href="https://wiki.haskell.org/HXT">Haskell XML Toolbox</a>.  It lets you do some pretty interesting things.  It uses something called arrows (a <em>very</em> trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.</p>
-<p>The <a href="https://wiki.haskell.org/HXT#The_concept_of_filters">documentation</a> has this example:</p>
+<p>It&rsquo;s pretty rad, it looks quite unlike most languages I&rsquo;ve seen in my day.  Haskell has some really interesting properties, though.  It&rsquo;s really easy to parse documents as a result, but it&rsquo;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.</p>
+<p>I did find one eventually: the 
+<a href="https://wiki.haskell.org/HXT" target="_blank" rel="noopener">Haskell XML Toolbox</a>
+.  It lets you do some pretty interesting things.  It uses something called arrows (a <em>very</em> trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.</p>
+<p>The 
+<a href="https://wiki.haskell.org/HXT#The_concept_of_filters" target="_blank" rel="noopener">documentation</a>
+ has this example:</p>
 <pre><code class="language-Haskell">
 isA  :: (a -&gt; Bool) -&gt; (a -&gt; [a])
 isA p x | p x       = [x]

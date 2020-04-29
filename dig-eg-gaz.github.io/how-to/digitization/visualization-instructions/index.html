@@ -614,31 +614,41 @@ Installation   Your FSU email allow you free access to Tableau’s full Desktop 
 <h2 id="installation">Installation</h2>
 <ol>
 <li>
-<p>Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to <a href="https://www.tableau.com/academic/students">this page</a> and its instructions to download your copy of Tableau. <strong>Be sure to use your FSU email address</strong>.</p>
+<p>Your FSU email allow you free access to Tableau’s full Desktop suite. Navigate to 
+<a href="https://www.tableau.com/academic/students" target="_blank" rel="noopener">this page</a>
+ and its instructions to download your copy of Tableau. <strong>Be sure to use your FSU email address</strong>.</p>
 </li>
 <li>
 <p>You will receive a download link via email. Download Tableau and follow installation instructions.</p>
 </li>
 <li>
-<p>After downloading and installing the software, you can follow <a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html">video tutorials</a> to get up to speed with more advanced functions. But for now, let's look at some simple examples using data from the digital Egyptian Gazette.</p>
+<p>After downloading and installing the software, you can follow 
+<a href="https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html" target="_blank" rel="noopener">video tutorials</a>
+ to get up to speed with more advanced functions. But for now, let&rsquo;s look at some simple examples using data from the digital Egyptian Gazette.</p>
 </li>
 </ol>
 <h2 id="walkthrough">Walkthrough</h2>
 <ol>
 <li>
-<p>First, let's gather data to explore in Tableau. This data comes from the <a href="/contents/templates/#coton">Coton</a> table, which appears regularly in the financial news section of the Egyptian Gazette.</p>
+<p>First, let&rsquo;s gather data to explore in Tableau. This data comes from the 
+<a href="/contents/templates/#coton">Coton</a>
+ table, which appears regularly in the financial news section of the Egyptian Gazette.</p>
 </li>
 <li>
 <p>Using this query: <code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'balles')]/following-sibling::cell[1]</code>, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.</p>
 </li>
 <li>
-<p>We will want to do more than just explore total cotton exports so let's also run this query:<code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]</code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.</p>
+<p>We will want to do more than just explore total cotton exports so let&rsquo;s also run this query:<code>//table[@xml:id=&quot;deg-ta-cotn01&quot;]//cell[contains(.,'Angleterre')]/following-sibling::cell[1]</code>, along with France, Russie, Autriche, Italie, Allemagne, Espagne, and other countries to acquire the cotton export numbers to each respective destination.</p>
 </li>
 <li>
-<p>The resulting data from each of these queries will be quite raw. We can use <a href="/how-to/digitization/regular-expression-instructions/">Regular Expressions</a> to clean up our data before putting it into Tableau.</p>
+<p>The resulting data from each of these queries will be quite raw. We can use 
+<a href="/how-to/digitization/regular-expression-instructions/">Regular Expressions</a>
+ to clean up our data before putting it into Tableau.</p>
 </li>
 <li>
-<p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample <a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx">spreadsheet</a> containing these data.</p>
+<p>The spreadsheet we create from these results should contain the following variables: Month, Country, and Total Cotton Export (Bales). You can download a sample 
+<a href="https://raw.githubusercontent.com/dig-eg-gaz/samples/master/tableau-cotton-exports.xlsx" target="_blank" rel="noopener">spreadsheet</a>
+ containing these data.</p>
 </li>
 <li>
 <p>Now that we have data representing monthly total cotton exports and where they are being shipped we want to visualize this data.</p>
@@ -647,7 +657,7 @@ Installation   Your FSU email allow you free access to Tableau’s full Desktop 
 <p>Open Tableau, and click &ldquo;Connect to a File&rdquo; in the upper left corner, and select the spreadsheet from your hard drive.</p>
 </li>
 <li>
-<p>Make sure that Tableau is recognizing the data types in your spreadsheet (dates, country names, numbers, etc). While in the Data Source interface, change the “Month” column from string to date value by Clicking on the “Abc” icon and selecting “Date” from the drop down menu. Set the “Country” column's geographic role to &ldquo;Country/Region&rdquo;.</p>
+<p>Make sure that Tableau is recognizing the data types in your spreadsheet (dates, country names, numbers, etc). While in the Data Source interface, change the “Month” column from string to date value by Clicking on the “Abc” icon and selecting “Date” from the drop down menu. Set the “Country” column&rsquo;s geographic role to &ldquo;Country/Region&rdquo;.</p>
 </li>
 <li>
 <p>At the bottom, click Sheet 1. After dragging and dropping the “Total Cotton Export (Bales)” cell in the row slot, place the “Month” cell in the column slot, under Marks select “Bar”.</p>
@@ -661,7 +671,7 @@ Installation   Your FSU email allow you free access to Tableau’s full Desktop 
 <img src="/img/tableau-1905-monthly-cotton-exports.png" alt="Cotton Exports"></p>
 </li>
 <li>
-<p>In the &ldquo;Marks&rdquo; box select &ldquo;Label&rdquo;, and click the box next to &ldquo;Show Mark Labels&rdquo;. Now our data is effectively communicating the monthly totals of cotton exports. Now let's incorporate each destination to further increase the accuracy of the data.</p>
+<p>In the &ldquo;Marks&rdquo; box select &ldquo;Label&rdquo;, and click the box next to &ldquo;Show Mark Labels&rdquo;. Now our data is effectively communicating the monthly totals of cotton exports. Now let&rsquo;s incorporate each destination to further increase the accuracy of the data.</p>
 </li>
 <li>
 <p>Drag and drop the &ldquo;Country&rdquo; cell into the Color box. Now we can see that a majority of the cotton exported every month was shipped to England.</p>
@@ -669,7 +679,7 @@ Installation   Your FSU email allow you free access to Tableau’s full Desktop 
 </ol>
 <p><img src="/img/tableau-cotton-exports-by-country.png" alt="Cotton Exports"></p>
 <ol start="13">
-<li>For a simpler comparative drag and drop the &ldquo;Country&rdquo; cell into the Filters box, click none, then select which countries you want to compare. For now let's look at the difference between cotton exports to England and France.</li>
+<li>For a simpler comparative drag and drop the &ldquo;Country&rdquo; cell into the Filters box, click none, then select which countries you want to compare. For now let&rsquo;s look at the difference between cotton exports to England and France.</li>
 </ol>
 <p><img src="/img/tableau-cotton-exports-england-france.png" alt="Cotton Exports to England and France">.</p>
 <ol start="14">

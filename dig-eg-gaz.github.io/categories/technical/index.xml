@@ -17,7 +17,7 @@
       <link>https://dig-eg-gaz.github.io/post/2016-12-11-into-the-rabbit-hole-technical/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-12-11-into-the-rabbit-hole-technical/</guid>
-      <description>&lt;p&gt;I feel like this second blog post is going to saturated with negatives, so I&#39;ll try to keep mine a little brighter by starting with the fact that this initially pain-staking process has really grown on me. At first it was a total chore, slowly trouble shooting every single issue that I had with the multiple programs I had no familiarity with (Oxygen, ABBYY Finereader, and Github), wishing that my advisor would&#39;ve warned better beforehand of such things and hoping that I would have a free weekend again.&lt;/p&gt;
+      <description>&lt;p&gt;I feel like this second blog post is going to saturated with negatives, so I&amp;rsquo;ll try to keep mine a little brighter by starting with the fact that this initially pain-staking process has really grown on me. At first it was a total chore, slowly trouble shooting every single issue that I had with the multiple programs I had no familiarity with (Oxygen, ABBYY Finereader, and Github), wishing that my advisor would&amp;rsquo;ve warned better beforehand of such things and hoping that I would have a free weekend again.&lt;/p&gt;
 &lt;p&gt;But after about 3 solid weeks of working, something clicked. I started enjoying this previously arduous work. The trouble-shooting became enjoyable, as every issue came to me as an interesting puzzle rather than a pace-breaking wall. Also, the whole philosophy behind this encoding became much clearer to me, and in a way, inspired me to take special care when it came to encoding.&lt;/p&gt;
 &lt;p&gt;Some things on the tech side that I believe led me to enjoying this process more were:&lt;/p&gt;
 &lt;ul&gt;
@@ -31,13 +31,15 @@
 &lt;p&gt;&amp;hellip;and some other technical mishaps/advice&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Make sure you take the highest quality scans of your microfilm as possible: Because I was foolish and decided to separate my scanning sessions into different days, I ended up getting two different qualities of scans. This made OCR&#39;ing extremely frustrating as it made some pages correctable in about 20 minutes and other pages taking over an hour and a half. In short, SCAN HIGHEST DPI POSSIBLE AND MAKE SURE THE SCANNER GLASS DOES NOT HAVE EXCESSIVE SMUDGING.&lt;/p&gt;
+&lt;p&gt;Make sure you take the highest quality scans of your microfilm as possible: Because I was foolish and decided to separate my scanning sessions into different days, I ended up getting two different qualities of scans. This made OCR&amp;rsquo;ing extremely frustrating as it made some pages correctable in about 20 minutes and other pages taking over an hour and a half. In short, SCAN HIGHEST DPI POSSIBLE AND MAKE SURE THE SCANNER GLASS DOES NOT HAVE EXCESSIVE SMUDGING.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Always press Ctrl+S or &amp;ldquo;Save&amp;rdquo; after every page you finish in your issues: It&#39;s been about 3 times that I&#39;ve been so caught up in encoding that I forget to save for a few pages. Inevitably my computer updates or Oxygen crashes, and all that work is lost, leading to one too many instances of my palm colliding with my forehead.&lt;/p&gt;
+&lt;p&gt;Always press Ctrl+S or &amp;ldquo;Save&amp;rdquo; after every page you finish in your issues: It&amp;rsquo;s been about 3 times that I&amp;rsquo;ve been so caught up in encoding that I forget to save for a few pages. Inevitably my computer updates or Oxygen crashes, and all that work is lost, leading to one too many instances of my palm colliding with my forehead.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The &lt;a href=&#34;http://www.tei-c.org/index.xml&#34;&gt;TEI webpage&lt;/a&gt; should be considered the holy text of this class. It is referenced by Dr. Hanley, and simple guides are available on dig-eg-gaz. But if you need find anything specific, get spiritual and make a journey into the rabbit hole.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;http://www.tei-c.org/index.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TEI webpage&lt;/a&gt;
+ should be considered the holy text of this class. It is referenced by Dr. Hanley, and simple guides are available on dig-eg-gaz. But if you need find anything specific, get spiritual and make a journey into the rabbit hole.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -48,7 +50,7 @@
       <link>https://dig-eg-gaz.github.io/post/2016-12-08-numerical-nonsense/</link>
       <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-12-08-numerical-nonsense/</guid>
-      <description>&lt;p&gt;I&#39;ve encountered many problems during the course of this class.  From
+      <description>&lt;p&gt;I&amp;rsquo;ve encountered many problems during the course of this class.  From
 my flash drive, containing all of my microfilm scans becoming corrupted to
 running out of trial time on just about every application we needed.  But the one
 thing that stands above all else, is translating the minuscule blurred text,
@@ -77,7 +79,7 @@ very funny.&lt;/p&gt;
       <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-12-05-crawford-technical-post/</guid>
       <description>&lt;p&gt;Balancing a logical, accessible, and user friendly xml-encodation of the Egyptian Gazette with preserving its historical visual format is a delicate enterprise. I initially tried to do this with a plaintext editor, and later directly within the Oxygen program itself. I found myself constantly switching between windows on my computer, going back and forth and then back again between the image of the page and the xml-in-progress. By chance, I had to go and re-OCR a page three about a month into the class, and discovered something that greatly decreased the time it took me to structure a page with XML tags.&lt;/p&gt;
-&lt;p&gt;By placing individual text boxes over individual paragraphs on the page, Finereader would output the OCRed text in a form that was sectionally pre-divided within the plain-text-viewer. By easily distinguishing the divisions with physical space, it allowed me to rapidly go through and paste repetitive structural elements. Additionally, the image of the page (that would automatically relocate to the plain text&#39;s location when I selected it) that was always visible aided me in determining how exactly to structure the divisions to both best maintain the paper&#39;s original appearance and take advantage of the power of XML coding to analyze it. I then used Oxygen to functionally check and edit the code. Combined, I found that these factors greatly reduced the amount of time it took me to structurally code the text.&lt;/p&gt;
+&lt;p&gt;By placing individual text boxes over individual paragraphs on the page, Finereader would output the OCRed text in a form that was sectionally pre-divided within the plain-text-viewer. By easily distinguishing the divisions with physical space, it allowed me to rapidly go through and paste repetitive structural elements. Additionally, the image of the page (that would automatically relocate to the plain text&amp;rsquo;s location when I selected it) that was always visible aided me in determining how exactly to structure the divisions to both best maintain the paper&amp;rsquo;s original appearance and take advantage of the power of XML coding to analyze it. I then used Oxygen to functionally check and edit the code. Combined, I found that these factors greatly reduced the amount of time it took me to structurally code the text.&lt;/p&gt;
 </description>
     </item>
     
@@ -159,15 +161,15 @@ aggravating and stressful. Rant over.&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2016-11-14-fling-technical-reflection/</link>
       <pubDate>Mon, 14 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-11-14-fling-technical-reflection/</guid>
-      <description>&lt;p&gt;I&#39;ll admit, this has been a tasking adventure into the unknown world of
+      <description>&lt;p&gt;I&amp;rsquo;ll admit, this has been a tasking adventure into the unknown world of
 MicroHistory. This class has introduced to me: Microfilms, XML Coding
 and the how to use systems such as ATOM, Github, FineReader and Oxygen
 XML Editor. I felt as if I was tech savvy before, but this class has
-taught me how wrong I was about that. I&#39;ve been certified in the basics
+taught me how wrong I was about that. I&amp;rsquo;ve been certified in the basics
 such as word, excel, powerpoint, photoshop and indesign. This class
 broadened my sight on what computers are capable of. This class taught
 me a whole new level From converting Film into Microfilm screenshot,
-to text, to XML coding has been a task; but it&#39;s an achievable one. I&#39;ll
+to text, to XML coding has been a task; but it&amp;rsquo;s an achievable one. I&amp;rsquo;ll
 admit, the time consumption of these processes is large. It can take
 over an hour to convert each page to text and then another hour to convert
 the text to XML code.&lt;/p&gt;
@@ -194,7 +196,13 @@ aspect of the class is difficult, but the challenge is well worth it.&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2016-11-09-sain-technical-reflection/</link>
       <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-11-09-sain-technical-reflection/</guid>
-      <description>&lt;p&gt;Although the whole process of learning new word processing and encoding programs was challenging, the most frustrating aspect was the &lt;a href=&#34;https://www.abbyy.com/en-us/finereader/about-ocr/what-is-ocr/&#34;&gt;OCR&lt;/a&gt;. It is supposed to be a faster way to translate the newspaper pages into plain text, it turned out to take up about as much time as it would have to hand type it all. I felt as if no matter how many times I scanned the &lt;a href=&#34;https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche&#34;&gt;microfilm&lt;/a&gt; images and changed the focus, brightness, contrast, or zoomed in on the page, it would not run through &lt;a href=&#34;https://www.abbyy.com/en-us/&#34;&gt;ABBYY&lt;/a&gt; in the way I was expecting it to. I was hoping to have to make minimal corrections after the scanned images were OCRed, but with all the pages I have done up to this point, I have had to make a minimum of two hours’ worth of corrections per page. The word processing software may read a majority of the words (I would estimate around 85%), I still spent a majority of my time in this class fixing the mistakes the OCR made. I also found the other programs in this class easier to use than ABBYY. Sometimes while editing a word, the image it received it from would disappear, I also found the ordering of the paragraphs challenging at times. Overall, the program may have saved me some time, but another OCR processor may be more efficient, from my experience.&lt;/p&gt;
+      <description>&lt;p&gt;Although the whole process of learning new word processing and encoding programs was challenging, the most frustrating aspect was the 
+&lt;a href=&#34;https://www.abbyy.com/en-us/finereader/about-ocr/what-is-ocr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OCR&lt;/a&gt;
+. It is supposed to be a faster way to translate the newspaper pages into plain text, it turned out to take up about as much time as it would have to hand type it all. I felt as if no matter how many times I scanned the 
+&lt;a href=&#34;https://www.nedcc.org/free-resources/preservation-leaflets/6.-reformatting/6.1-microfilm-and-microfiche&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;microfilm&lt;/a&gt;
+ images and changed the focus, brightness, contrast, or zoomed in on the page, it would not run through 
+&lt;a href=&#34;https://www.abbyy.com/en-us/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ABBYY&lt;/a&gt;
+ in the way I was expecting it to. I was hoping to have to make minimal corrections after the scanned images were OCRed, but with all the pages I have done up to this point, I have had to make a minimum of two hours’ worth of corrections per page. The word processing software may read a majority of the words (I would estimate around 85%), I still spent a majority of my time in this class fixing the mistakes the OCR made. I also found the other programs in this class easier to use than ABBYY. Sometimes while editing a word, the image it received it from would disappear, I also found the ordering of the paragraphs challenging at times. Overall, the program may have saved me some time, but another OCR processor may be more efficient, from my experience.&lt;/p&gt;
 </description>
     </item>
     
@@ -253,7 +261,7 @@ persname:
 &lt;p&gt;This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.&lt;/p&gt;
 &lt;h2 id=&#34;a-quick-note-on-xml&#34;&gt;A quick note on XML&lt;/h2&gt;
 &lt;p&gt;XML can be visualized as a &amp;ldquo;rose tree&amp;rdquo; made of nodes.  This basically means that every part of the XML document is some sort of node, which has other nodes inside of it.  The nodes can be any type of tag, or any plain text, and any number of both in any order.&lt;/p&gt;
-&lt;p&gt;Here&#39;s what some XML in your issue might look like as a Tree&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what some XML in your issue might look like as a Tree&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;div -*- dateline -*- date - Text
      |            *- Text
      |            *- placename - Text
@@ -270,7 +278,7 @@ persname:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;functional-programming&#34;&gt;Functional Programming&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.haskell.org/static/img/haskell-logo.svg?etag=ukf3Fg7-&#34; alt=&#34;Haskell Logo&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I program in Haskell mostly.  Haskell is a pure functional language, which just means it&#39;s not the same as the traditional programming languages you see day-to-day, and it&#39;s not something FSU teaches currently.&lt;/p&gt;
+&lt;p&gt;I program in Haskell mostly.  Haskell is a pure functional language, which just means it&amp;rsquo;s not the same as the traditional programming languages you see day-to-day, and it&amp;rsquo;s not something FSU teaches currently.&lt;/p&gt;
 &lt;p&gt;It looks something like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
 and :: Bool -&amp;gt; Bool -&amp;gt; Bool
@@ -284,9 +292,13 @@ map _ []   = []
 map f x:xs = f x : map xs
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It&#39;s pretty rad, it looks quite unlike most languages I&#39;ve seen in my day.  Haskell has some really interesting properties, though.  It&#39;s really easy to parse documents as a result, but it&#39;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
-&lt;p&gt;I did find one eventually: the &lt;a href=&#34;https://wiki.haskell.org/HXT&#34;&gt;Haskell XML Toolbox&lt;/a&gt;.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34;&gt;documentation&lt;/a&gt; has this example:&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s pretty rad, it looks quite unlike most languages I&amp;rsquo;ve seen in my day.  Haskell has some really interesting properties, though.  It&amp;rsquo;s really easy to parse documents as a result, but it&amp;rsquo;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
+&lt;p&gt;I did find one eventually: the 
+&lt;a href=&#34;https://wiki.haskell.org/HXT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Haskell XML Toolbox&lt;/a&gt;
+.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;
+ has this example:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
 isA  :: (a -&amp;gt; Bool) -&amp;gt; (a -&amp;gt; [a])
 isA p x | p x       = [x]
@@ -316,17 +328,23 @@ getTextChildren2 = getChildren &amp;gt;&amp;gt;&amp;gt; ( isXText &amp;lt;+&amp;
       <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-11-06-cyr-whenapatchwontdo/</guid>
       <description>&lt;p&gt;Attempting to digitize a year of the Egyptian Gazette newspaper proves difficult as students find their individual difficulties in attempting the task.&lt;/p&gt;
-&lt;p&gt;The year to be digitized is 1905, and each student has been given a week to digitize and examine the newspaper&#39;s contents as the task is completed. Getting the pages from the microfilm to a more reader friendly medium is a task for a patient soul!&lt;/p&gt;
+&lt;p&gt;The year to be digitized is 1905, and each student has been given a week to digitize and examine the newspaper&amp;rsquo;s contents as the task is completed. Getting the pages from the microfilm to a more reader friendly medium is a task for a patient soul!&lt;/p&gt;
 &lt;p&gt;One problem encountered is a large hole that the &lt;em&gt;original&lt;/em&gt; print newspaper had just before it was scanned. Information lost at this stage is detrimental as there are only two copies of microfilm in the country (both copies are most likely identical copies) and a trip to London to see the original remaining Egyptian Gazette copies was, unfortunately, declined by our instructor!&lt;/p&gt;
 &lt;p&gt;An important lesson has been learned in preserving past information when possible. Microhistorical details can be lost, when in some rare instances, one bit of information is all it takes to piece together a puzzle that has plagued historians since the time the articles have been written.&lt;/p&gt;
 &lt;p&gt;The result is simply accepting our realities and a great lesson towards preservation.&lt;/p&gt;
 &lt;h4 id=&#34;for-further-study&#34;&gt;For further study:&lt;/h4&gt;
 &lt;p&gt;Best Way to Preserve Your Newspaper:
-&lt;a href=&#34;http://www.mnhs.org/preserve/conservation/reports/nytimes_preserving.pdf&#34;&gt;http://www.mnhs.org/preserve/conservation/reports/nytimes_preserving.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;http://www.mnhs.org/preserve/conservation/reports/nytimes_preserving.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.mnhs.org/preserve/conservation/reports/nytimes_preserving.pdf&lt;/a&gt;
+&lt;/p&gt;
 &lt;p&gt;Getting Started with Microfilm:
-&lt;a href=&#34;http://www.archives.state.al.us/officials/microfilmbasics02.html&#34;&gt;http://www.archives.state.al.us/officials/microfilmbasics02.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;http://www.archives.state.al.us/officials/microfilmbasics02.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.archives.state.al.us/officials/microfilmbasics02.html&lt;/a&gt;
+&lt;/p&gt;
 &lt;p&gt;A Word About Microhistory:
-&lt;a href=&#34;http://historynewsnetwork.org/article/23720&#34;&gt;http://historynewsnetwork.org/article/23720&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;http://historynewsnetwork.org/article/23720&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://historynewsnetwork.org/article/23720&lt;/a&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -335,10 +353,10 @@ getTextChildren2 = getChildren &amp;gt;&amp;gt;&amp;gt; ( isXText &amp;lt;+&amp;
       <link>https://dig-eg-gaz.github.io/post/2016-11-01-xml-izing/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-11-01-xml-izing/</guid>
-      <description>&lt;p&gt;I can&#39;t say that around fifty hours of work in Oxygen was what I expected when I signed up for this class, but it&#39;s certainly what I&#39;ve been given. Work in Oxygen can be rewarding, tedious, and frustrating in one package, usually at the same time. While I have sympathies for my classmates who saw massive technical issues, I never
+      <description>&lt;p&gt;I can&amp;rsquo;t say that around fifty hours of work in Oxygen was what I expected when I signed up for this class, but it&amp;rsquo;s certainly what I&amp;rsquo;ve been given. Work in Oxygen can be rewarding, tedious, and frustrating in one package, usually at the same time. While I have sympathies for my classmates who saw massive technical issues, I never
 had anything that problematic when I was XML-izing my files.&lt;/p&gt;
-&lt;p&gt;The most difficult part of this class was largely typing most of my week by hand. FineReader&#39;s trial ran out on my desktop, and when I tried to download it on my Mac, I found that it didn&#39;t work anywhere near as well as it did on my desktop. So I would up typing the entirety of my week under my own manpower, rather than relying on AABBY.&lt;/p&gt;
-&lt;p&gt;Beyond that, it was a fairly methodical, sensible process. There were instances of annoyance, like when I would accidentally delete a div and the entire thing would collapse, but I&#39;m pretty sure that part&#39;s past me now. I&#39;m looking forward to going more in-depth into the Gazette.&lt;/p&gt;
+&lt;p&gt;The most difficult part of this class was largely typing most of my week by hand. FineReader&amp;rsquo;s trial ran out on my desktop, and when I tried to download it on my Mac, I found that it didn&amp;rsquo;t work anywhere near as well as it did on my desktop. So I would up typing the entirety of my week under my own manpower, rather than relying on AABBY.&lt;/p&gt;
+&lt;p&gt;Beyond that, it was a fairly methodical, sensible process. There were instances of annoyance, like when I would accidentally delete a div and the entire thing would collapse, but I&amp;rsquo;m pretty sure that part&amp;rsquo;s past me now. I&amp;rsquo;m looking forward to going more in-depth into the Gazette.&lt;/p&gt;
 </description>
     </item>
     
@@ -355,13 +373,13 @@ forced me to either go back to the library and look to rescan the microfilm
 or I had to attempt to enhance the quality of the picture using editing. This
 has added a lot of extra work on my part just to get the files to the point
 that they can be scanned or read by my eyes.&lt;/p&gt;
-&lt;p&gt;In addition to this the OCR wouldn&#39;t pick up the actual words, so a lot
+&lt;p&gt;In addition to this the OCR wouldn&amp;rsquo;t pick up the actual words, so a lot
 of the time I was making minor or major changes to the text files. The pages
 have been taking me around 3-4 hours to correct because the OCR application
-didn&#39;t correctly fix or correct my document. Some of the words it confused or
+didn&amp;rsquo;t correctly fix or correct my document. Some of the words it confused or
 misspelled were correct and very easy to see. The reader failed to correctly
 identify a very clear word. It mixes up the letters &amp;ldquo;o&amp;rdquo; and &amp;ldquo;c&amp;rdquo; a lot as well.
-For such an intelligent software I am surprised that it can&#39;t correctly
+For such an intelligent software I am surprised that it can&amp;rsquo;t correctly
 differentiate between certain letters and words.&lt;/p&gt;
 </description>
     </item>
@@ -372,7 +390,11 @@ differentiate between certain letters and words.&lt;/p&gt;
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-28-thompson-finereader-rage/</guid>
       <description>&lt;p&gt;So my biggest technical difficulty while working on this project has to have been the multiple errors that I encountered while using he OCR. Overall it worked ok, but when it failed, it failed big time. For instance, while correcting some of the errors in one page I was on the very last paragraph and went to save it, and Finereader crashed. Two hours of work, two hours of my life, gone, down the drain, and there was nothing I could do about it. I was understandably irate, but after I took some time for cathartic expression and collected myself, I felt much better. I also found out that I was not alone in my anger, some of my fellow students had been experiencing troubles as well.&lt;/p&gt;
-&lt;p&gt;However, from what I have seen online, things could have actually been much worse. Apparently it could actually cause other Microsoft programs to crash, at least according to &lt;a href=&#34;https://support.microsoft.com/en-us/kb/2755838&#34;&gt;this support article on Microsoft’s website&lt;/a&gt;. I could also have run into errors that wouldn’t have allowed me to do any work within Finereader, such as the &lt;a href=&#34;http://knowledgebase.ocrsdk.com/article/1096&#34;&gt;license not reading&lt;/a&gt;, so that fact that it worked for me relatively well is a good thing in general.&lt;/p&gt;
+&lt;p&gt;However, from what I have seen online, things could have actually been much worse. Apparently it could actually cause other Microsoft programs to crash, at least according to 
+&lt;a href=&#34;https://support.microsoft.com/en-us/kb/2755838&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this support article on Microsoft’s website&lt;/a&gt;
+. I could also have run into errors that wouldn’t have allowed me to do any work within Finereader, such as the 
+&lt;a href=&#34;http://knowledgebase.ocrsdk.com/article/1096&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;license not reading&lt;/a&gt;
+, so that fact that it worked for me relatively well is a good thing in general.&lt;/p&gt;
 &lt;p&gt;Overall, Finereader was a useful program that, while annoying at times, did enable me to do my work properly and relatively quickly.&lt;/p&gt;
 </description>
     </item>
@@ -382,7 +404,7 @@ differentiate between certain letters and words.&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2016-10-27-column-formatting/</link>
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-27-column-formatting/</guid>
-      <description>&lt;p&gt;In &lt;img src=&#34;https://github.com/dig-eg-gaz/content&#34; alt=&#34;The Egyptian Gazette&#34;&gt; (and other newspapers and documents with visual formatting), the relationship between content and formatting is an important issue, especially when analyzing the text and the motives of the authors. In general, the more space devoted to an item, the greater its importance, especially if there&#39;s a font change involved. In The Egyptian Gazette, a pattern is well established in formatting the columns in relation to content within those columns. Generally, articles are divided into 6 columns and ads are divided into 3 columns and given a larger font than articles. This either means that the ads are more important to the editors of the paper, deserving of more space; or that the articles simply need to be smaller so that more of them can be included in the paper. However, under the assumption that the second is true, then room for the articles could be made from the comparably luxurious space provided to ads by simply making the ads a bit smaller or more compact. Therefore, the former assumption makes more sense: that the editors give more importance to ads in the paper than content. There are a variety of things that could be the reason for this: money or readers&amp;rsquo; preference being of the most obvious. Since ads are the biggest source of income for newspapers, it makes sense to give them priority to ensure companies will want their ads posted in the paper as sort of an investment in the future income of the paper. Concurrently, in a business town such as Alexandria, businesses are of utmost import, with individuals wanting to see of their competitors and resources available.&lt;/p&gt;
+      <description>&lt;p&gt;In &lt;img src=&#34;https://github.com/dig-eg-gaz/content&#34; alt=&#34;The Egyptian Gazette&#34;&gt; (and other newspapers and documents with visual formatting), the relationship between content and formatting is an important issue, especially when analyzing the text and the motives of the authors. In general, the more space devoted to an item, the greater its importance, especially if there&amp;rsquo;s a font change involved. In The Egyptian Gazette, a pattern is well established in formatting the columns in relation to content within those columns. Generally, articles are divided into 6 columns and ads are divided into 3 columns and given a larger font than articles. This either means that the ads are more important to the editors of the paper, deserving of more space; or that the articles simply need to be smaller so that more of them can be included in the paper. However, under the assumption that the second is true, then room for the articles could be made from the comparably luxurious space provided to ads by simply making the ads a bit smaller or more compact. Therefore, the former assumption makes more sense: that the editors give more importance to ads in the paper than content. There are a variety of things that could be the reason for this: money or readers&amp;rsquo; preference being of the most obvious. Since ads are the biggest source of income for newspapers, it makes sense to give them priority to ensure companies will want their ads posted in the paper as sort of an investment in the future income of the paper. Concurrently, in a business town such as Alexandria, businesses are of utmost import, with individuals wanting to see of their competitors and resources available.&lt;/p&gt;
 </description>
     </item>
     
@@ -391,7 +413,9 @@ differentiate between certain letters and words.&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2016-10-25-stefonek-technical-reflection/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-25-stefonek-technical-reflection/</guid>
-      <description>&lt;p&gt;I suppose I&#39;ll start off with how much I&#39;ve learned so far through this course; taking digital images of film, running text recognition software, writing in Markdown and encoding in XML. Though it has all been incredibly interesting and fulfilling, the mention of those words along with &lt;a href=&#34;https://dig-eg-gaz.github.io/&#34;&gt;&amp;ldquo;Digital Egyptian Gazette&amp;rdquo;&lt;/a&gt;, will likely send chills down my spine for quite a while.&lt;/p&gt;
+      <description>&lt;p&gt;I suppose I&amp;rsquo;ll start off with how much I&amp;rsquo;ve learned so far through this course; taking digital images of film, running text recognition software, writing in Markdown and encoding in XML. Though it has all been incredibly interesting and fulfilling, the mention of those words along with 
+&lt;a href=&#34;https://dig-eg-gaz.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Digital Egyptian Gazette&amp;rdquo;&lt;/a&gt;
+, will likely send chills down my spine for quite a while.&lt;/p&gt;
 &lt;p&gt;To start, my largest technical obstacle was the poor job done by Fine Reader. While it truly saved me a lot of time by translating the text, it also made an overwhelming amount of errors that are incredibly time-consuming and painstaking to correct. If I were to make an estimate, correcting and encoding one page of the newspaper takes about three and a half hours. Aside from that I have had trouble with putting together the tables and advertisements in my week. Several of them do not yet exist as text files that I can pull from and for the ones that I do have access to, it takes about three copy and pastes before I trigger an &amp;ldquo;abuse mechanism&amp;rdquo; on GitHub. This locks me out for a couple of minutes before I can get back to work. But regardless, we push onward!&lt;/p&gt;
 </description>
     </item>
@@ -401,11 +425,11 @@ differentiate between certain letters and words.&lt;/p&gt;
       <link>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</link>
       <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</guid>
-      <description>&lt;p&gt;When I first produced my image scans using the library&#39;s microfilm
+      <description>&lt;p&gt;When I first produced my image scans using the library&amp;rsquo;s microfilm
 of the Egyptian Gazette, I thought that by feeding the material into
 the OCR software, my computer would automatically spit back the
 entire transcription completed error-free. At first I attempted to use
-FineReader on my roommate&#39;s laptop, hoping it would yield results, but
+FineReader on my roommate&amp;rsquo;s laptop, hoping it would yield results, but
 when her computer began to lag and I realized how time consuming the
 process would be, I switched to using my Mac.&lt;/p&gt;
 &lt;p&gt;When the class discovered Cisdem PDF Converter for Mac, I quickly
@@ -417,7 +441,7 @@ charts are still not completed.&lt;/p&gt;
 &lt;p&gt;After I had completed the vast majority of the transcription, I learned
 that by scanning in a higher resolution and stitching multiple images
 together, I probably could have produced the paper and a much faster rate.&lt;/p&gt;
-&lt;p&gt;Nevertheless, I&#39;m continuing to work on completing certain advertisements
+&lt;p&gt;Nevertheless, I&amp;rsquo;m continuing to work on completing certain advertisements
 and charts, as well as TEI-tagging people and places.&lt;/p&gt;
 </description>
     </item>

@@ -66,7 +66,7 @@ persname:
 &lt;p&gt;This would allow me to just keep an up-to-date set of location names, attribute names, and links that I could then very easily update or apply to any issue in the entire year, and perhaps even set it to run every time I changed a file, so I would never have to worry about manually changing this information.&lt;/p&gt;
 &lt;h2 id=&#34;a-quick-note-on-xml&#34;&gt;A quick note on XML&lt;/h2&gt;
 &lt;p&gt;XML can be visualized as a &amp;ldquo;rose tree&amp;rdquo; made of nodes.  This basically means that every part of the XML document is some sort of node, which has other nodes inside of it.  The nodes can be any type of tag, or any plain text, and any number of both in any order.&lt;/p&gt;
-&lt;p&gt;Here&#39;s what some XML in your issue might look like as a Tree&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what some XML in your issue might look like as a Tree&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;div -*- dateline -*- date - Text
      |            *- Text
      |            *- placename - Text
@@ -83,7 +83,7 @@ persname:
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;functional-programming&#34;&gt;Functional Programming&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.haskell.org/static/img/haskell-logo.svg?etag=ukf3Fg7-&#34; alt=&#34;Haskell Logo&#34;&gt;&lt;/p&gt;
-&lt;p&gt;I program in Haskell mostly.  Haskell is a pure functional language, which just means it&#39;s not the same as the traditional programming languages you see day-to-day, and it&#39;s not something FSU teaches currently.&lt;/p&gt;
+&lt;p&gt;I program in Haskell mostly.  Haskell is a pure functional language, which just means it&amp;rsquo;s not the same as the traditional programming languages you see day-to-day, and it&amp;rsquo;s not something FSU teaches currently.&lt;/p&gt;
 &lt;p&gt;It looks something like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
 and :: Bool -&amp;gt; Bool -&amp;gt; Bool
@@ -97,9 +97,13 @@ map _ []   = []
 map f x:xs = f x : map xs
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It&#39;s pretty rad, it looks quite unlike most languages I&#39;ve seen in my day.  Haskell has some really interesting properties, though.  It&#39;s really easy to parse documents as a result, but it&#39;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
-&lt;p&gt;I did find one eventually: the &lt;a href=&#34;https://wiki.haskell.org/HXT&#34;&gt;Haskell XML Toolbox&lt;/a&gt;.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34;&gt;documentation&lt;/a&gt; has this example:&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s pretty rad, it looks quite unlike most languages I&amp;rsquo;ve seen in my day.  Haskell has some really interesting properties, though.  It&amp;rsquo;s really easy to parse documents as a result, but it&amp;rsquo;s difficult to transform them easily.  Many libraries exist to extract data easily and reliably from xml documents, but few to transform or modify them in a programatic way.&lt;/p&gt;
+&lt;p&gt;I did find one eventually: the 
+&lt;a href=&#34;https://wiki.haskell.org/HXT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Haskell XML Toolbox&lt;/a&gt;
+.  It lets you do some pretty interesting things.  It uses something called arrows (a &lt;em&gt;very&lt;/em&gt; trippy functional programming concept), to allow the programmer to compose filters together to navigate the XML tree.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://wiki.haskell.org/HXT#The_concept_of_filters&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;
+ has this example:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Haskell&#34;&gt;
 isA  :: (a -&amp;gt; Bool) -&amp;gt; (a -&amp;gt; [a])
 isA p x | p x       = [x]
@@ -128,7 +132,9 @@ getTextChildren2 = getChildren &amp;gt;&amp;gt;&amp;gt; ( isXText &amp;lt;+&amp;
       <link>https://dig-eg-gaz.github.io/post/2016-10-25-stefonek-technical-reflection/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-25-stefonek-technical-reflection/</guid>
-      <description>&lt;p&gt;I suppose I&#39;ll start off with how much I&#39;ve learned so far through this course; taking digital images of film, running text recognition software, writing in Markdown and encoding in XML. Though it has all been incredibly interesting and fulfilling, the mention of those words along with &lt;a href=&#34;https://dig-eg-gaz.github.io/&#34;&gt;&amp;ldquo;Digital Egyptian Gazette&amp;rdquo;&lt;/a&gt;, will likely send chills down my spine for quite a while.&lt;/p&gt;
+      <description>&lt;p&gt;I suppose I&amp;rsquo;ll start off with how much I&amp;rsquo;ve learned so far through this course; taking digital images of film, running text recognition software, writing in Markdown and encoding in XML. Though it has all been incredibly interesting and fulfilling, the mention of those words along with 
+&lt;a href=&#34;https://dig-eg-gaz.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Digital Egyptian Gazette&amp;rdquo;&lt;/a&gt;
+, will likely send chills down my spine for quite a while.&lt;/p&gt;
 &lt;p&gt;To start, my largest technical obstacle was the poor job done by Fine Reader. While it truly saved me a lot of time by translating the text, it also made an overwhelming amount of errors that are incredibly time-consuming and painstaking to correct. If I were to make an estimate, correcting and encoding one page of the newspaper takes about three and a half hours. Aside from that I have had trouble with putting together the tables and advertisements in my week. Several of them do not yet exist as text files that I can pull from and for the ones that I do have access to, it takes about three copy and pastes before I trigger an &amp;ldquo;abuse mechanism&amp;rdquo; on GitHub. This locks me out for a couple of minutes before I can get back to work. But regardless, we push onward!&lt;/p&gt;
 </description>
     </item>
@@ -138,11 +144,11 @@ getTextChildren2 = getChildren &amp;gt;&amp;gt;&amp;gt; ( isXText &amp;lt;+&amp;
       <link>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</link>
       <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</guid>
-      <description>&lt;p&gt;When I first produced my image scans using the library&#39;s microfilm
+      <description>&lt;p&gt;When I first produced my image scans using the library&amp;rsquo;s microfilm
 of the Egyptian Gazette, I thought that by feeding the material into
 the OCR software, my computer would automatically spit back the
 entire transcription completed error-free. At first I attempted to use
-FineReader on my roommate&#39;s laptop, hoping it would yield results, but
+FineReader on my roommate&amp;rsquo;s laptop, hoping it would yield results, but
 when her computer began to lag and I realized how time consuming the
 process would be, I switched to using my Mac.&lt;/p&gt;
 &lt;p&gt;When the class discovered Cisdem PDF Converter for Mac, I quickly
@@ -154,7 +160,7 @@ charts are still not completed.&lt;/p&gt;
 &lt;p&gt;After I had completed the vast majority of the transcription, I learned
 that by scanning in a higher resolution and stitching multiple images
 together, I probably could have produced the paper and a much faster rate.&lt;/p&gt;
-&lt;p&gt;Nevertheless, I&#39;m continuing to work on completing certain advertisements
+&lt;p&gt;Nevertheless, I&amp;rsquo;m continuing to work on completing certain advertisements
 and charts, as well as TEI-tagging people and places.&lt;/p&gt;
 </description>
     </item>
