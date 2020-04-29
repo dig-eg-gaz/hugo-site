@@ -6,8 +6,8 @@ type: docs
 date: "2019-08-29"
 draft: false
 menu:
-  issues:
-    parent: Issues
+  contents:
+    parent: Contents
     weight: 2
 
 weight: 2
@@ -124,7 +124,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 
 ## Previous courses
 
-- [IFS 2116 Fall 2019](/issues/weeks-fall-2019/)
-- [IFS 2116 Spring 2018](/issues/weeks-spring-2018/)
-- [IFS 2116 Spring 2017](/issues/weeks-spring-2017/)
-- [IFS 2116 Fall 2016](/issues/weeks-fall-2016/)
+- [IFS 2116 Fall 2019](/contents/weeks-fall-2019/)
+- [IFS 2116 Spring 2018](/contents/weeks-spring-2018/)
+- [IFS 2116 Spring 2017](/contents/weeks-spring-2017/)
+- [IFS 2116 Fall 2016](/contents/weeks-fall-2016/)
