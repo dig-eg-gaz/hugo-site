@@ -1,5 +1,6 @@
 ---
 title: IDS2681 Fall 2019 Weeks
+date: "2020-01-06"
 ---
 This is an archived record of the weeks assigned in fall 2019.
 

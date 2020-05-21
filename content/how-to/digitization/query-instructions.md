@@ -94,8 +94,8 @@ You can navigate around the tree by using commands like `parent::` or `following
 
 For example:
 
-- Return all datelines contained in a "wireReport" div type: `//div[@type="wireReport"]/parent::div//dateline`
-- Return all placeNames in wireReports: `//div[@type="wireReport"]/parent::div//dateline//placeName`
+- Return all datelines contained in a "cable" div type: `//div[@type="cable"]/parent::div//dateline`
+- Return all placeNames in cable: `//div[@type="cable"]/parent::div//dateline//placeName`
 
 ### Search using xml:id or feature
 Many ads, templates, and sections have `xml:id` or `feature` tags embedded in them. These are meant to simplify your search. For features, use `//div[@feature="shippingMovements"]`. For tables, use `//table[@xml:id="deg-ta-cppa01"]`.

@@ -699,8 +699,8 @@ This will open a dialogue box. Under &ldquo;Scope,&rdquo; choose &ldquo;All open
 <p>You can navigate around the tree by using commands like <code>parent::</code> or <code>following-sibling::</code> instead of the slash. These will move you up and down the tree.</p>
 <p>For example:</p>
 <ul>
-<li>Return all datelines contained in a &ldquo;wireReport&rdquo; div type: <code>//div[@type=&quot;wireReport&quot;]/parent::div//dateline</code></li>
-<li>Return all placeNames in wireReports: <code>//div[@type=&quot;wireReport&quot;]/parent::div//dateline//placeName</code></li>
+<li>Return all datelines contained in a &ldquo;cable&rdquo; div type: <code>//div[@type=&quot;cable&quot;]/parent::div//dateline</code></li>
+<li>Return all placeNames in cable: <code>//div[@type=&quot;cable&quot;]/parent::div//dateline//placeName</code></li>
 </ul>
 <h3 id="search-using-xmlid-or-feature">Search using xml:id or feature</h3>
 <p>Many ads, templates, and sections have <code>xml:id</code> or <code>feature</code> tags embedded in them. These are meant to simplify your search. For features, use <code>//div[@feature=&quot;shippingMovements&quot;]</code>. For tables, use <code>//table[@xml:id=&quot;deg-ta-cppa01&quot;]</code>.</p>

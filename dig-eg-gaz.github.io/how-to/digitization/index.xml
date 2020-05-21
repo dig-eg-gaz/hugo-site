@@ -780,8 +780,8 @@ This will open a dialogue box. Under &amp;ldquo;Scope,&amp;rdquo; choose &amp;ld
 &lt;p&gt;You can navigate around the tree by using commands like &lt;code&gt;parent::&lt;/code&gt; or &lt;code&gt;following-sibling::&lt;/code&gt; instead of the slash. These will move you up and down the tree.&lt;/p&gt;
 &lt;p&gt;For example:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Return all datelines contained in a &amp;ldquo;wireReport&amp;rdquo; div type: &lt;code&gt;//div[@type=&amp;quot;wireReport&amp;quot;]/parent::div//dateline&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Return all placeNames in wireReports: &lt;code&gt;//div[@type=&amp;quot;wireReport&amp;quot;]/parent::div//dateline//placeName&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Return all datelines contained in a &amp;ldquo;cable&amp;rdquo; div type: &lt;code&gt;//div[@type=&amp;quot;cable&amp;quot;]/parent::div//dateline&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Return all placeNames in cable: &lt;code&gt;//div[@type=&amp;quot;cable&amp;quot;]/parent::div//dateline//placeName&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;search-using-xmlid-or-feature&#34;&gt;Search using xml:id or feature&lt;/h3&gt;
 &lt;p&gt;Many ads, templates, and sections have &lt;code&gt;xml:id&lt;/code&gt; or &lt;code&gt;feature&lt;/code&gt; tags embedded in them. These are meant to simplify your search. For features, use &lt;code&gt;//div[@feature=&amp;quot;shippingMovements&amp;quot;]&lt;/code&gt;. For tables, use &lt;code&gt;//table[@xml:id=&amp;quot;deg-ta-cppa01&amp;quot;]&lt;/code&gt;.&lt;/p&gt;

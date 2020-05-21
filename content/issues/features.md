@@ -21,7 +21,7 @@ Recurring Element Name(s)|Feature attribute|Usual Page(s)|Frequency|Notes
 **[Advertisements](/contents/advertisements/)** |none--identified using `xml:id` attribute|1, 2|daily|Use [templates](/contents/advertisements/)
 **[Daily Weather Report](/contents/templates/#daily-weather-report)** |"weather"|2|daily|[tempate](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report.xml) [alternate tempate](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/daily-weather-report-02.xml)
 **Birth / Death / Marriage** |"birthDeathMarriage"|2||Single-line paid announcements
-**Telegrams / Wire Reports / To-day's telegrams** (international news)|"wire"|3, 4, 5|daily|Sometimes there is no headline for this section. Treat wire reports as individual divs (`type="wireReport"`), each with its own `<dateline>` and `<title>`. This section is sometimes spread over two pages; when this is the case, you can use the `next` and `prev` attributes.
+**Telegrams / Wire Reports / To-day's telegrams** (international news)|"wire"|3, 4, 5|daily|Sometimes there is no headline for this section. Treat cables as individual divs (`type="cable"`), each with its own `<dateline>` and `<title>`. This section is sometimes spread over two pages; when this is the case, you can use the `next` and `prev` attributes.
 **Local and General** |"local"|3|daily|Treat individual paragraphs as individual divs (`type="item"`), each with its own `<head>`.
 **Sport and Play** |"sport"|3, 5|daily?|Treat contents as items, each with own headline.
 **Personal and Social** |"social"|3|daily?|Treat contents as paragraphs

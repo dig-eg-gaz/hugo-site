@@ -21,13 +21,12 @@ In addition to the tags offered by the [TEI P5 guidelines](http://www.tei-c.org/
 ## `<div>` attributes
 
 ### Type
-- masthead: use for the first page of the paper only
+- nameplate: use for the first page of the paper only
 - page: always use the `n=""` attribute
 - item: the default and most generic `div` type
 - section: a `div` containing other `div`s, typically of the `item` type.
 - subsection: a `div` within a `section` itself containing other `div`s, typically of the `item` type.
-- article: use for longer pieces
-- wireReport: a single wire report with a `<dateline>` and the name of the wireservice (typically Reuters or Havas)
+- cable: a single wire report with a `<dateline>` and the name of the wireservice (typically Reuters or Havas)
 - advert: any advertisement; templates are listed [here](https://dig-eg-gaz.github.io/advertisements)
 
 ### Feature

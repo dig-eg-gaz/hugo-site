@@ -83,13 +83,12 @@
 &lt;h2 id=&#34;div-attributes&#34;&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; attributes&lt;/h2&gt;
 &lt;h3 id=&#34;type&#34;&gt;Type&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;masthead: use for the first page of the paper only&lt;/li&gt;
+&lt;li&gt;nameplate: use for the first page of the paper only&lt;/li&gt;
 &lt;li&gt;page: always use the &lt;code&gt;n=&amp;quot;&amp;quot;&lt;/code&gt; attribute&lt;/li&gt;
 &lt;li&gt;item: the default and most generic &lt;code&gt;div&lt;/code&gt; type&lt;/li&gt;
 &lt;li&gt;section: a &lt;code&gt;div&lt;/code&gt; containing other &lt;code&gt;div&lt;/code&gt;s, typically of the &lt;code&gt;item&lt;/code&gt; type.&lt;/li&gt;
 &lt;li&gt;subsection: a &lt;code&gt;div&lt;/code&gt; within a &lt;code&gt;section&lt;/code&gt; itself containing other &lt;code&gt;div&lt;/code&gt;s, typically of the &lt;code&gt;item&lt;/code&gt; type.&lt;/li&gt;
-&lt;li&gt;article: use for longer pieces&lt;/li&gt;
-&lt;li&gt;wireReport: a single wire report with a &lt;code&gt;&amp;lt;dateline&amp;gt;&lt;/code&gt; and the name of the wireservice (typically Reuters or Havas)&lt;/li&gt;
+&lt;li&gt;cable: a single wire report with a &lt;code&gt;&amp;lt;dateline&amp;gt;&lt;/code&gt; and the name of the wireservice (typically Reuters or Havas)&lt;/li&gt;
 &lt;li&gt;advert: any advertisement; templates are listed 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/advertisements&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
 &lt;/li&gt;
