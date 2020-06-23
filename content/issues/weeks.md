@@ -47,6 +47,7 @@ July 20, 1907|||1|
 August 21, 1907|||1|
 September 2, 1907|September 4, 1907|some|1|missing some nameplates
 September 6, 1907|September 7, 1907||2|
+December 7, 1907||1||page 5 negative
 December 7, 1907|||1|
 January 10, 1908||1||p3
 
