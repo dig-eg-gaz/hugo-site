@@ -74,7 +74,7 @@
 -readable images from microfilm of a historical newspaper. &lt;strong&gt;Note:&lt;/strong&gt; Library staff may offer you some help in using the microfilm readers, but they are not responsible to do the work for you. This tutorial explains everything you need to know to do this task.&lt;/p&gt;
 &lt;h2 id=&#34;1-setup&#34;&gt;1. Setup&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Get film NP 486 for the appropriate month and year from the reserve desk in the basement in Strozier. You can sign it out for two hours. Each film contains three months&amp;rsquo; worth of issues. You might have to scroll through a lot of film to find your date.&lt;/li&gt;
+&lt;li&gt;Get film NP 486 for the appropriate month and year from the reserve desk in the basement in Strozier. You can sign it out for two hours. Each film contains three months&#39; worth of issues. You might have to scroll through a lot of film to find your date.&lt;/li&gt;
 &lt;li&gt;Log on to one of the six microfilm-enabled computers, and open the &amp;ldquo;Microform PowerScan/PowerScan&amp;rdquo; program. Indicate that you are using microfilm or, if you are using PowerScan 2200, select the &amp;ldquo;Expert User + New Features&amp;rdquo; mode so you can change the resolution. Thread the film into the microfilm reader (a &amp;ldquo;ScanPro 1000/2200&amp;rdquo;), carefully following the threading route mapped on the table or the machine itself. Run a bit of film through the machine until you begin to see page images&amp;ndash;the first foot of film is only black.&lt;/li&gt;
 &lt;li&gt;Familiarize yourself with the controls at the bottom of the program. The &amp;ldquo;Motorized Roll Film Control&amp;rdquo; allows you to move through the film and find the issue you need. The toggle switch at the top moves the film slowly, and is useful to make exact adjustments. The larger &amp;ldquo;Adjust Image&amp;rdquo; menu has numerous controls. If your image is only displaying as half screen, click the &amp;ldquo;Film Orientation&amp;rdquo; button (or &amp;ldquo;Fill to Width&amp;rdquo; under the &amp;ldquo;Home&amp;rdquo; menu if you are using Powerscan 2200) and it will shift to full screen. You can play with the zoom until you see a whole page on the screen&amp;ndash;you may have to move the carriage in the microfilm reader itself to center the image. You can focus, change the brightness, and so on, which will give you a more readable result.&lt;/li&gt;
 &lt;/ol&gt;
@@ -417,7 +417,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 &lt;p&gt;First, you must make sure that you are working in the &amp;ldquo;directory&amp;rdquo; (location) on your computer that contains the image file that you want to process. Enter the command &lt;code&gt;ls&lt;/code&gt; (OSX) or &lt;code&gt;dir&lt;/code&gt; (Windows) to see a list of the files in the directory you&amp;rsquo;re currently in. It&amp;rsquo;s probably not the right directory. You can learn how to navigate using the command line, but it may be easiest at first to use shortcuts:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;OSX&lt;/strong&gt;: Type &lt;code&gt;cd&lt;/code&gt; (&amp;ldquo;change directory&amp;rdquo;) at the prompt, then drag the folder containing the text file from Finder into the Terminal, then press enter. The terminal will switch to that location.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: From the File Explorer window that contains the image file, click on the “File” menu, then &amp;ldquo;Open Windows PowerShell&amp;rdquo;. Or, if you are more comfortable with command line, you can use &lt;code&gt;cd&lt;/code&gt; in console to navigate to your images&amp;rsquo; directory.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows&lt;/strong&gt;: From the File Explorer window that contains the image file, click on the “File” menu, then &amp;ldquo;Open Windows PowerShell&amp;rdquo;. Or, if you are more comfortable with command line, you can use &lt;code&gt;cd&lt;/code&gt; in console to navigate to your images&#39; directory.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Once you&amp;rsquo;ve done this, type &lt;code&gt;ls&lt;/code&gt; (in OSX) or &lt;code&gt;dir&lt;/code&gt; (in Windows) at the prompt in the Terminal. This will list the files in the current directory. If your image file (which should be in &lt;code&gt;YYYY-MM-DD.jpg&lt;/code&gt; format) is listed, you&amp;rsquo;re ready for the next step.&lt;/p&gt;
 &lt;h3 id=&#34;2b-run-ocr&#34;&gt;2b. Run OCR&lt;/h3&gt;
@@ -671,7 +671,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/how-to/digitization/tagging-people-and-places-instructions/</guid>
       <description>&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
-&lt;p&gt;The greatest use for the encoded &lt;em&gt;Egyptian Gazette&lt;/em&gt; will come in linking its content to other data sets. There are wonderful datasets listing people and places of the past.  This tutorial explains how we will link our project to those projects. To do so, we will use the Text Encoding Initiative (TEI)&amp;lsquo;s 
+&lt;p&gt;The greatest use for the encoded &lt;em&gt;Egyptian Gazette&lt;/em&gt; will come in linking its content to other data sets. There are wonderful datasets listing people and places of the past.  This tutorial explains how we will link our project to those projects. To do so, we will use the Text Encoding Initiative (TEI)&amp;rsquo;s 
 &lt;a href=&#34;http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rich schema for tagging people and places&lt;/a&gt;
 .&lt;/p&gt;
 &lt;h2 id=&#34;1-tagging-places&#34;&gt;1. Tagging places&lt;/h2&gt;
@@ -808,7 +808,7 @@ This will open a dialogue box. Under &amp;ldquo;Scope,&amp;rdquo; choose &amp;ld
 &lt;h3 id=&#34;counting-instances&#34;&gt;Counting instances&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Count the number of items containing the term &amp;lsquo;native&amp;rsquo;: &lt;code&gt;count(//div[contains(., &#39;native&#39;)])&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;count the number of ads (divs) on page 1 (div n=&amp;quot;1&amp;rdquo;): &lt;code&gt;count(//div[@n=&amp;quot;1&amp;quot;]//div)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;count the number of ads (divs) on page 1 (div n=&amp;ldquo;1&amp;rdquo;): &lt;code&gt;count(//div[@n=&amp;quot;1&amp;quot;]//div)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;count the number of paragraphs in the division whose heading contains &amp;ldquo;MARCHE DE MINET&amp;rdquo;: &lt;code&gt;count(//div/head[contains(.,&#39;MARCHE DE MINET&#39;)]/following-sibling::p)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;item-length&#34;&gt;Item length&lt;/h3&gt;

@@ -31,7 +31,7 @@
  written by Nino Fricano, a bale of cotton at this time was approximately 20% smaller than the standard modern bale.&lt;/p&gt;
 &lt;p&gt;I ran the following XPath query to obtain the total monthly cotton export value from every &lt;strong&gt;cotn01&lt;/strong&gt; table currently within &lt;em&gt;The Digital Egyptian Gazette’s&lt;/em&gt; content repository:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;//div[@xml:id=&amp;quot;deg-el-cotn01&amp;rdquo;]/table//cell[contains(.,&amp;lsquo;balles&amp;rsquo;)]/following-sibling::cell&lt;/p&gt;
+&lt;p&gt;//div[@xml:id=&amp;ldquo;deg-el-cotn01&amp;rdquo;]/table//cell[contains(.,&amp;lsquo;balles&amp;rsquo;)]/following-sibling::cell&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Isolating only the dates and values in Atom and importing them into Tableau, I was able to create the following line graph of cotton export trends from 1905 to 1907.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Original-Unedited-Cotton-Exports.png&#34; alt=&#34;Original Unedited Cotton Exports&#34; title=&#34;Line graph showing original, unedited cotton export values by month&#34;&gt;&lt;/p&gt;

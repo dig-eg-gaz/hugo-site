@@ -102,7 +102,7 @@
 &lt;li&gt;social: Personal and Social&lt;/li&gt;
 &lt;li&gt;comingEvents: Calendar of Coming Events&lt;/li&gt;
 &lt;li&gt;passList: Passenger List&lt;/li&gt;
-&lt;li&gt;visitList: Visitors&amp;rsquo; List&lt;/li&gt;
+&lt;li&gt;visitList: Visitors&#39; List&lt;/li&gt;
 &lt;li&gt;letters: Letters to the Editor&lt;/li&gt;
 &lt;li&gt;mattersMoment: Matters of Moment. Pith of the Press Comments.&lt;/li&gt;
 &lt;li&gt;nativePress: Native Press Comments&lt;/li&gt;
@@ -282,7 +282,7 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; deploy 
 &lt;a href=&#34;https://srophe.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;srophe&lt;/a&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; publication of weeks, under editors&amp;rsquo; names, on 
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; publication of weeks, under editors&#39; names, on 
 &lt;a href=&#34;https://fsu.digital.flvc.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;diginole&lt;/a&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; integration of page images in XML text&lt;/li&gt;

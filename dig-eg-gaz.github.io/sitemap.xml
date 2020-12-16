@@ -313,11 +313,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/tags/accident/</loc>
-    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/tags/accidents/</loc>
     <lastmod>2020-03-09T00:00:00+00:00</lastmod>
   </url>
@@ -554,11 +549,6 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/authors/tryfongerasimostheophilopoulos/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/authors/will/</loc>
     <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -989,6 +979,11 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2019-10-17-alainhernandezcorrales/</loc>
+    <lastmod>2019-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tags/accident/</loc>
     <lastmod>2019-10-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -2403,11 +2398,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/tags/ott/</loc>
-    <lastmod>2017-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/tags/ottoman/</loc>
     <lastmod>2017-04-07T00:00:00+00:00</lastmod>
   </url>
@@ -2623,11 +2613,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/tags/mac/</loc>
-    <lastmod>2017-03-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/tags/machines/</loc>
     <lastmod>2017-03-06T00:00:00+00:00</lastmod>
   </url>
@@ -2819,11 +2804,6 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/tags/premature-aging/</loc>
-    <lastmod>2016-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dig-eg-gaz.github.io/tags/stress/</loc>
     <lastmod>2016-12-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -3078,11 +3058,6 @@
   </url>
   
   <url>
-    <loc>https://dig-eg-gaz.github.io/tags/international/</loc>
-    <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dig-eg-gaz.github.io/tags/international-news/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
   </url>
@@ -3258,6 +3233,16 @@
   </url>
   
   <url>
+    <loc>https://dig-eg-gaz.github.io/tags/international/</loc>
+    <lastmod>2016-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tags/ott/</loc>
+    <lastmod>2016-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dig-eg-gaz.github.io/tags/post/</loc>
     <lastmod>2016-11-28T00:00:00+00:00</lastmod>
   </url>
@@ -3294,6 +3279,11 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/tags/encoding/</loc>
+    <lastmod>2016-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tags/stress/</loc>
     <lastmod>2016-11-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -3394,6 +3384,11 @@
   
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2016-11-09-black-difficulties-with-ocr/</loc>
+    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/tags/mac/</loc>
     <lastmod>2016-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -3765,6 +3760,11 @@
   <url>
     <loc>https://dig-eg-gaz.github.io/post/2016-10-06-technical-difficulties-in-ocr/</loc>
     <lastmod>2016-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dig-eg-gaz.github.io/authors/will/</loc>
+    <lastmod>2019-08-28T17:57:10-04:00</lastmod>
   </url>
   
   <url>
