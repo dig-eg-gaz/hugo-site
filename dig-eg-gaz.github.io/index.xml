@@ -85,6 +85,24 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;March 19, 1906&lt;/td&gt;
+&lt;td&gt;March 20, 1906&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;pp 7,8&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 5, 1906&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;May 25, 1906&lt;/td&gt;
 &lt;td&gt;May 26, 1906&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -1804,15 +1822,11 @@ content repository updated. (
 &lt;td&gt;Arrivals and departures of passenger ships. Treat contents as paragraphs.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Shipping Movements&lt;/strong&gt; and &lt;strong&gt;
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/templates/#mouvement-maritime&#34;&gt;Mouvement Maritime&lt;/a&gt;
-&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Shipping Movements&lt;/strong&gt; and &lt;strong&gt;Mouvement Maritime&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&amp;ldquo;shippingMovements&amp;rdquo;&lt;/td&gt;
 &lt;td&gt;4,6&lt;/td&gt;
 &lt;td&gt;Almost daily.&lt;/td&gt;
-&lt;td&gt;Arrivals and departures of cargo ships. French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; see 
-&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template&lt;/a&gt;
- for format.&lt;/td&gt;
+&lt;td&gt;Arrivals and departures of cargo ships. French-language Mouvement Maritime runs to October 1905; English-language Shipping Movements begins November 1905; format as paragraphs.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Délégation Municipale / Questions Municipales / Municipality&lt;/strong&gt;&lt;/td&gt;
@@ -3599,11 +3613,11 @@ Cattaui&#39;s daughter died of typhoid fever at the age of 18 at the end of Dece
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;mouvement-maritime&#34;&gt;Mouvement Maritime&lt;/h2&gt;
+&lt;h2 id=&#34;mouvement-maritime--shipping-movements&#34;&gt;Mouvement Maritime / Shipping Movements&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;feature &lt;code&gt;mouvementMaritime&lt;/code&gt;&lt;/th&gt;
+&lt;th&gt;feature &lt;code&gt;shippingMovements&lt;/code&gt;&lt;/th&gt;
 &lt;th&gt;No template&lt;/th&gt;
 &lt;th&gt;Example: 1905-07-12&lt;/th&gt;
 &lt;/tr&gt;
@@ -3613,9 +3627,7 @@ Cattaui&#39;s daughter died of typhoid fever at the age of 18 at the end of Dece
 &lt;td&gt;&lt;img src=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime_tn.jpg?raw=true&#34; alt=&#34;Thumbnail&#34;&gt; 
 &lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full size image&lt;/a&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This model 
-&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xml text&lt;/a&gt;
- doesn&amp;rsquo;t contain much useful formatting, but it shows that places, persons, dates, and tonnage should be tagged.&lt;br&gt;&lt;br&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Notes&lt;/strong&gt;: This item is unique in each issue. Use OCR, and when formatting ensure that each line is its own &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, and preserve the punctuation pattern (which is regular).&lt;br&gt;&lt;br&gt;&lt;/td&gt;
 &lt;td&gt;Earliest: &lt;br&gt;&lt;br&gt;Latest:&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;

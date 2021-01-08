@@ -439,8 +439,8 @@ feature `exportManifests`|No template|Example: 1905-07-12
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/export-manifests.png)|**Notes**: This item is unique in each issue. Use OCR, and when formatting ensure that each line is its own `<p>`. No further formatting required|Earliest: <br><br>Latest:
 
-## Mouvement Maritime
+## Mouvement Maritime / Shipping Movements
 
-feature `mouvementMaritime`|No template|Example: 1905-07-12
+feature `shippingMovements`|No template|Example: 1905-07-12
 ---|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime.png)|**Notes**: This model [xml text](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/mouvement-maritime.xml) doesn't contain much useful formatting, but it shows that places, persons, dates, and tonnage should be tagged.<br><br>|Earliest: <br><br>Latest:
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/mouvement-maritime.png)|**Notes**: This item is unique in each issue. Use OCR, and when formatting ensure that each line is its own `<p>`, and preserve the punctuation pattern (which is regular).<br><br>|Earliest: <br><br>Latest:
