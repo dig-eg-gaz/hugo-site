@@ -30,11 +30,8 @@ August 4, 1906|||1|
 August 10, 1906|August 11, 1906||2|
 October 5, 1906|October 6, 1906||2|
 October 17, 1906|||1|
-October 20, 1906||2||missing Sat pp7-8
 October 30, 1906|||1|
 November 2, 1906|November 3, 1906||2|
-November 7, 1906||8||
-November 27, 1906||1||p3 file broken
 July 20, 1907|||1|
 August 21, 1907|||1|
 September 6, 1907|September 7, 1907||2|
