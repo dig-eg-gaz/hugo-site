@@ -19,8 +19,6 @@ Date|End date|Images|Files|Notes
 ---|---|---|---|---|---|---
 January 27, 1906|||1|
 February 17, 1906|||1|
-March 19, 1906|March 20, 1906|4||pp 7,8
-May 5, 1906||6||
 May 25, 1906|May 26, 1906||2|
 June 6, 1906|||1||
 June 9, 1906|||1||
