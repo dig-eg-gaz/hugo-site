@@ -69,11 +69,11 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 7|February 14, 1905|February 18, 1905||all|5|
 24|June 12, 1905|June 17, 1905||all||only four p3s encoded
-18B|May 3, 1906|May 5, 1906||12||missing 1906-05-05 images
+18B|May 3, 1906|May 5, 1906||all||
 33B|August 16, 1906|August 18, 1906||||
 49B|December 6, 1906|December 8, 1906||all||
 19B|May 9, 1907|May 11, 1907||||
-33A|August 12, 1907|August 14, 1907||17||missing Mon p6
+33A|August 12, 1907|August 14, 1907||all||
 38B|September 19, 1907|September 21, 1907||all||
 39B|September 26, 1907|September 28, 1907||all||
 40A|September 30, 1907|October 2, 1907||all||
