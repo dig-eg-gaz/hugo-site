@@ -1,9 +1,9 @@
 ---
 # Display name
-name: Will Pearce
+name: Leyna Castro
 
 authors:
-- willpearce
+- leynacastro
 
 superuser: no
 
@@ -48,5 +48,3 @@ user_groups:
 - Writers
 ---
 The author, a student at Florida State University, was enrolled in the digital microhistory lab in spring 2018.
-
-
