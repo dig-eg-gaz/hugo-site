@@ -5,7 +5,7 @@
     <link>https://dig-eg-gaz.github.io/</link>
       <atom:link href="https://dig-eg-gaz.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Egyptian Gazette</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Digital Egyptian Gazette</title>
@@ -48,11 +48,134 @@
     </item>
     
     <item>
+      <title>Syllabus</title>
+      <link>https://dig-eg-gaz.github.io/resources/syllabus/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/resources/syllabus/</guid>
+      <description>&lt;p&gt;The course syllabus for the current semester (downloadable in PDF 
+&lt;a href=&#34;https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
+):&lt;/p&gt;
+&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/document/d/e/2PACX-1vTRghO5oK-co1DipF0wl955Yk6rzgVTPFMKJj1WugjHyN8BbrGEtGoR5-9CqMSa3D1mkzlp4lB5hzPo/pub?embedded=true&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;previous-semesters&#34;&gt;Previous semesters&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1HyJsg__dSROb3-uT9GJOeYinfFMXVWfRH0-jBedG4gY/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fall 2021&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1Ei9dAWXOpi2VcQxkmgIUowxvnDQW1VnqX0v15wA4ob8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spring 2020&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fall 2019&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spring 2018&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spring 2017&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fall 2016&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Status by week</title>
       <link>https://dig-eg-gaz.github.io/issues/weeks/</link>
-      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/issues/weeks/</guid>
-      <description>&lt;h2 id=&#34;items-lacking-previous-semesters&#34;&gt;Items lacking (previous semesters)&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;current-semester&#34;&gt;Current semester&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Week&lt;/th&gt;
+&lt;th&gt;Start date&lt;/th&gt;
+&lt;th&gt;End date&lt;/th&gt;
+&lt;th&gt;Assigned to&lt;/th&gt;
+&lt;th&gt;Images&lt;/th&gt;
+&lt;th&gt;Files&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;41A&lt;/td&gt;
+&lt;td&gt;October 7, 1907&lt;/td&gt;
+&lt;td&gt;October 9, 1907&lt;/td&gt;
+&lt;td&gt;Adrian Barone&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;41B&lt;/td&gt;
+&lt;td&gt;October 10, 1907&lt;/td&gt;
+&lt;td&gt;October 12, 1907&lt;/td&gt;
+&lt;td&gt;Brett Barry&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;48A&lt;/td&gt;
+&lt;td&gt;November 25, 1907&lt;/td&gt;
+&lt;td&gt;November 27, 1907&lt;/td&gt;
+&lt;td&gt;Natalie Ives&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;48B&lt;/td&gt;
+&lt;td&gt;November 28, 1907&lt;/td&gt;
+&lt;td&gt;November 30, 1907&lt;/td&gt;
+&lt;td&gt;Nicole Morini&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1A&lt;/td&gt;
+&lt;td&gt;December 30, 1907&lt;/td&gt;
+&lt;td&gt;January 1, 1908&lt;/td&gt;
+&lt;td&gt;Tyler Roy&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1B&lt;/td&gt;
+&lt;td&gt;January 2, 1907&lt;/td&gt;
+&lt;td&gt;January 4, 1908&lt;/td&gt;
+&lt;td&gt;Faith Jankowski&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4A&lt;/td&gt;
+&lt;td&gt;January 20, 1908&lt;/td&gt;
+&lt;td&gt;January 22, 1908&lt;/td&gt;
+&lt;td&gt;Josh Walton&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4B&lt;/td&gt;
+&lt;td&gt;January 23, 1908&lt;/td&gt;
+&lt;td&gt;January 25, 1908&lt;/td&gt;
+&lt;td&gt;Owen Yanevich&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;items-lacking-previous-semesters&#34;&gt;Items lacking (previous semesters)&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -375,82 +498,13 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;41A&lt;/td&gt;
-&lt;td&gt;October 7, 1907&lt;/td&gt;
-&lt;td&gt;October 9, 1907&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;41B&lt;/td&gt;
-&lt;td&gt;October 10, 1907&lt;/td&gt;
-&lt;td&gt;October 12, 1907&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;48A&lt;/td&gt;
-&lt;td&gt;November 25, 1907&lt;/td&gt;
-&lt;td&gt;November 27, 1907&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;48B&lt;/td&gt;
-&lt;td&gt;November 28, 1907&lt;/td&gt;
-&lt;td&gt;November 30, 1907&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1A&lt;/td&gt;
-&lt;td&gt;December 30, 1907&lt;/td&gt;
-&lt;td&gt;January 1, 1908&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;1B&lt;/td&gt;
-&lt;td&gt;January 2, 1907&lt;/td&gt;
-&lt;td&gt;January 4, 1908&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4A&lt;/td&gt;
-&lt;td&gt;January 20, 1908&lt;/td&gt;
-&lt;td&gt;January 22, 1908&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;4B&lt;/td&gt;
-&lt;td&gt;January 23, 1908&lt;/td&gt;
-&lt;td&gt;January 25, 1908&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;previous-courses&#34;&gt;Previous courses&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/weeks-fall-2021/&#34;&gt;IDS 2681 Fall 2021&lt;/a&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://dig-eg-gaz.github.io/issues/weeks-spring-2020/&#34;&gt;IDS 2681 Spring 2020&lt;/a&gt;
 &lt;/li&gt;
@@ -465,38 +519,6 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://dig-eg-gaz.github.io/issues/weeks-fall-2016/&#34;&gt;IFS 2116 Fall 2016&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>https://dig-eg-gaz.github.io/resources/syllabus/</link>
-      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://dig-eg-gaz.github.io/resources/syllabus/</guid>
-      <description>&lt;p&gt;The course syllabus for the current semester (downloadable in PDF 
-&lt;a href=&#34;https://docs.google.com/document/d/1Ei9dAWXOpi2VcQxkmgIUowxvnDQW1VnqX0v15wA4ob8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;
-):&lt;/p&gt;
-&lt;div class=&#34;responsive-wrap&#34;&gt;
-  &lt;iframe src=&#34;https://docs.google.com/document/d/e/2PACX-1vSLiYmAXjJ2UHkZNUL5LzrG0NwN2n3anId0-6Dq2tTJNssHIcH1kWdBRX0oPdc72g0VmNPw7w9xX26x/pub?embedded=true&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;previous-semesters&#34;&gt;Previous semesters&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/1Ei9dAWXOpi2VcQxkmgIUowxvnDQW1VnqX0v15wA4ob8/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spring 2020&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/184qfDzNI3aX_B_942p923CMc1uvrgULrPVGOgGdKeRY/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fall 2019&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://drive.google.com/open?id=1nU-y2JAcwRfUN5FX-wLhUBpTncVaLBYTxYxlhe2Wq-I&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spring 2018&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://drive.google.com/open?id=142jYs2uAe8RhPSjnogT7NZm9VcYOGi6mCbOyDQnv-EI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spring 2017&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://docs.google.com/document/d/1HRh9jvHUBwWkuWcWJAZOQMQqMI8PFhut0MMUiUSEsag/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fall 2016&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -12547,6 +12569,103 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Tableau is great for creating visualisations from your data, but it also is useful for data exploration. When we create data visualisations it is important to remember to keep graphics simple and self-explanatory. For independent data exploration, however, we can try simple as well as complex approaches. Experiment with your data in the software to not only create graphics, but to see how different visualisations help you think about your research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IDS2681 Fall 2021 Weeks</title>
+      <link>https://dig-eg-gaz.github.io/issues/weeks-fall-2021/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://dig-eg-gaz.github.io/issues/weeks-fall-2021/</guid>
+      <description>&lt;p&gt;This is an archived record of the weeks assigned in fall 2021.&lt;/p&gt;
+&lt;h2 id=&#34;current-semester&#34;&gt;Current semester&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Week&lt;/th&gt;
+&lt;th&gt;Start date&lt;/th&gt;
+&lt;th&gt;End date&lt;/th&gt;
+&lt;th&gt;Assigned to&lt;/th&gt;
+&lt;th&gt;Images&lt;/th&gt;
+&lt;th&gt;Files&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;41A&lt;/td&gt;
+&lt;td&gt;October 7, 1907&lt;/td&gt;
+&lt;td&gt;October 9, 1907&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;41B&lt;/td&gt;
+&lt;td&gt;October 10, 1907&lt;/td&gt;
+&lt;td&gt;October 12, 1907&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;48A&lt;/td&gt;
+&lt;td&gt;November 25, 1907&lt;/td&gt;
+&lt;td&gt;November 27, 1907&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;48B&lt;/td&gt;
+&lt;td&gt;November 28, 1907&lt;/td&gt;
+&lt;td&gt;November 30, 1907&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1A&lt;/td&gt;
+&lt;td&gt;December 30, 1907&lt;/td&gt;
+&lt;td&gt;January 1, 1908&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1B&lt;/td&gt;
+&lt;td&gt;January 2, 1907&lt;/td&gt;
+&lt;td&gt;January 4, 1908&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4A&lt;/td&gt;
+&lt;td&gt;January 20, 1908&lt;/td&gt;
+&lt;td&gt;January 22, 1908&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4B&lt;/td&gt;
+&lt;td&gt;January 23, 1908&lt;/td&gt;
+&lt;td&gt;January 25, 1908&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
