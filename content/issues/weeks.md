@@ -17,14 +17,14 @@ weight: 2
 
 Week|Start date|End date|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
-41A|October 7, 1907|October 9, 1907|Adrian Barone|||
-41B|October 10, 1907|October 12, 1907|Brett Barry|||
-48A|November 25, 1907|November 27, 1907|Natalie Ives|||
-48B|November 28, 1907|November 30, 1907|Nicole Morini|||
-1A|December 30, 1907|January 1, 1908|Tyler Roy|||
-1B|January 2, 1907|January 4, 1908|Faith Jankowski|||
-4A|January 20, 1908|January 22, 1908|Josh Walton|||
-4B|January 23, 1908|January 25, 1908|Owen Yanevich|||
+41A|October 7, 1907|October 9, 1907|[Adrian Barone](https://github.com/AdrianBarone )|||
+41B|October 10, 1907|October 12, 1907|[Brett Barry](https://github.com/brettbarry36)|||
+48A|November 25, 1907|November 27, 1907|[Natalie Ives](https://github.com/Natalieives)|||
+48B|November 28, 1907|November 30, 1907|[Nicole Morini](https://github.com/Nicolemorini)|||
+1A|December 30, 1907|January 1, 1908|[Tyler Roy](https://github.com/TylerRoy)|||
+1B|January 2, 1907|January 4, 1908|[Faith Jankowski](https://github.com/faithjankowski )|||
+4A|January 20, 1908|January 22, 1908|[Josh Walton](https://github.com/WALTJO)|||
+4B|January 23, 1908|January 25, 1908|[Owen Yanevich](https://github.com/owenyanevich)|||
 
 ## Items lacking (previous semesters)
 
