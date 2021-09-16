@@ -131,6 +131,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/alf02_tn.jpg?raw=true)|xml text: [alf02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/alf02.xml)<br><br>Example: 1907-02-09<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/alf02.jpg)
 
+## alf03 Allenburys Foods
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/alf03_tn.jpg?raw=true)|xml text: [alf03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/alf03.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/alf03.png)
+
 ## all01 Anchor Line, Limited
  |
 ---|---
@@ -480,6 +485,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/csh01-cairo-savoy-hotel_tn.jpg?raw=true)|xml text: [csh01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/csh01.xml)<br><br>Example: 1905-01-02<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/csh01-cairo-savoy-hotel.png)
+
+## csh01 Savoy Hotel, Cairo
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/csh02_tn.jpg?raw=true)|xml text: [csh02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/csh02.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/csh02.png)
 
 ## csr01 Cassa di Sconto e di Risparmio
  |
@@ -836,6 +846,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ghk01-grand-hotel-khartoum_tn.jpg?raw=true)|xml text: [ghk01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/ghk01.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ghk01-grand-hotel-khartoum.png)
+
+## ghk02 Grand Hotel Khartoum
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ghk02_tn.jpg?raw=true)|xml text: [ghk02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/ghk02.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/ghk02.png)
 
 ## ghl01 Marseille Grand Hotel du Louvre & Paix
  |
@@ -1247,6 +1262,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lsh01-london-salisbury-hotel_tn.jpg?raw=true)|xml text: [lsh01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lsh01.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lsh01-london-salisbury-hotel.png)<br><br>paste as cell in nameplate table
 
+## lsh02 London Salisbury Hotel
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lsh02_tn.jpg?raw=true)|xml text: [lsh02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/lsh02.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/lsh02.png)
+
 ## luc01 Law Union & Crown Insurance Co.
  |
 ---|---
@@ -1401,6 +1421,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nkh03-new-khedivial-hotel-cairo_tn.jpg?raw=true)|xml text: [nkh03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nkh03.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nkh03-new-khedivial-hotel-cairo.png)
+
+## nkh04 New Khedivial Hotel Cairo
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nkh04_tn.jpg?raw=true)|xml text: [nkh04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nkh04.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nkh04.png)
 
 ## nll01 Norddeutscher Lloyd
  |
@@ -1906,6 +1931,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tph02-tewfik-palace-hotel_tn.jpg?raw=true)|xml text: [tph02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/tph02.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tph02-tewfik-palace-hotel.png)
+
+## tph03 Tewfik Palace Hotel
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tph03_tn.jpg?raw=true)|xml text: [tph03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/tph03.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/tph03.png)
 
 ## tss01 Thomas & Sons
  |
