@@ -46,7 +46,6 @@ November 2, 1906|November 3, 1906||2|
 July 20, 1907|||1|
 August 21, 1907|||1|
 September 6, 1907|September 7, 1907||2|
-December 7, 1907|||1|
 
 ## Images lacking from microfilm
 
