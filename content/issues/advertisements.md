@@ -792,6 +792,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/etc02-eastern-telegraph-company_tn.jpg?raw=true)|xml text: [etc02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/etc02.xml)<br><br>Example: 1905-01-02<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/etc02-eastern-telegraph-company.png)<br><br>paste as cell in nameplate table. French language
 
+## fdr01 F. Davidson & O. Regenstreif
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fdr01_tn.jpg?raw=true)|xml text: [fdr01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/fdr01.xml)<br><br>Example: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/fdr01.png)
+
 ## fmh01 Foster, Mason & Harvey
  |
 ---|---
@@ -1407,6 +1412,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes01_tn.jpg?raw=true)|xml text: [nes01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nes01.xml)<br><br>Example: 1907-10-16<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes01.png)
 
+## nes02 Cacao Nestle
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes02_tn.jpg?raw=true)|xml text: [nes02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/nes02.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/nes02.png)
+
 ## nfc01 Nile Flotilla Co
  |
 ---|---
@@ -2021,6 +2031,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vjs01_tn.jpg?raw=true)|xml text: [vjs01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/vjs01.xml)<br><br>Example: 1907-02-06<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vjs01.jpg)
+
+## vjs02 Vaughan-Jones' Standard
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vjs02_tn.jpg?raw=true)|xml text: [vjs02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/vjs02.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vjs02.jpg)
 
 ## vul01 Vulpera Tarasp
  |
