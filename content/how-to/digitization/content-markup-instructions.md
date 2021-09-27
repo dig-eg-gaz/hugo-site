@@ -32,7 +32,7 @@ Once you add these tags to your page, you might have a valid document (and thus 
 - anything else not in a `<div>`, and not in a `<p>` or a `<head>`.
 
 ## 2. Add feature attributes
-There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked `<div type="section">` rather than `<div type="item">`. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is [here](/contents/features/). To add an feature attribute, place it within the `<div>` tag, after the `type="section"` attribute, thus: `<div type="section" feature="local">`. If you type `feature` inside the tag, Oxygen should offer you an autocomplete menu of features.
+There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked `<div type="section">` rather than `<div type="item">`. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is [here](/issues/features/). To add an feature attribute, place it within the `<div>` tag, after the `type="section"` attribute, thus: `<div type="section" feature="local">`. If you type `feature` inside the tag, Oxygen should offer you an autocomplete menu of features.
 
 ## 3. Add more complex structural tags
 There are more tags that you can add:

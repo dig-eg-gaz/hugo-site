@@ -146,7 +146,7 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 &lt;p&gt;The &amp;ldquo;nameplate&amp;rdquo; &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; that you see here represents the banner at the top of page 1, which contains the title of the newspaper, the number, date, number of pages, and price, and is flanked by two advertisements:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://dig-eg-gaz.github.io/img/nameplate.png&#34; alt=&#34;nameplate&#34;&gt;&lt;/p&gt;
 &lt;p&gt;You will need to update your xml file to reflect the content of your own issue. First, you need to look in the 
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/advertisements&#34;&gt;advertisements directory&lt;/a&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/advertisements&#34;&gt;advertisements directory&lt;/a&gt;
  to find templates that correspond to the ads that appear in your issue. Following the detailed indications 
 &lt;a href=&#34;https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/&#34;&gt;here&lt;/a&gt;
 , copy the xml text of templates you need.&lt;/p&gt;
@@ -177,16 +177,16 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
       <guid>https://dig-eg-gaz.github.io/how-to/digitization/templating-instructions/</guid>
       <description>&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
 &lt;p&gt;While 
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/features/&#34;&gt;features&lt;/a&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/features/&#34;&gt;features&lt;/a&gt;
  of the &lt;em&gt;Egyptian Gazette&lt;/em&gt; were composed fresh each day, much of each issue consisted of templates reapplied with minor or no modifications from issue to issue. As we produce our marked-up version of the newspaper, we can save effort by reusing templates in our own work. We must remain alert to minor variations, however.&lt;/p&gt;
 &lt;h2 id=&#34;1-identifying-recurring-features&#34;&gt;1. Identifying recurring features&lt;/h2&gt;
 &lt;p&gt;The first step is to determine if you are looking at something that is a template. Advertisements, tables, and other material that is not free text is probably templated. Check these indexes to see if you can find something identical or similar to what you want to find:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The complete catalog of advertisements is 
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/advertisements/&#34;&gt;here&lt;/a&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/advertisements/&#34;&gt;here&lt;/a&gt;
 .&lt;/li&gt;
 &lt;li&gt;The complete catalog of financial tables and other boilerplates is 
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/templates/&#34;&gt;here&lt;/a&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/templates/&#34;&gt;here&lt;/a&gt;
 .&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;These indexes contain images of the templated items, links to TEI-XML documents representing the templated item, and (sometimes) a comment or two about the template.&lt;/p&gt;
@@ -225,7 +225,7 @@ Make sure that you leave a bit of overlap, so that the image stitching software 
 &lt;/ul&gt;
 &lt;h2 id=&#34;4-an-overview-of-features-from-page-to-page-and-day-to-day&#34;&gt;4. An overview of &amp;ldquo;features&amp;rdquo; from page to page and day to day&lt;/h2&gt;
 &lt;p&gt;For a general summary of recurring features, see the tables 
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/features/&#34;&gt;here&lt;/a&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/features/&#34;&gt;here&lt;/a&gt;
 . Every numbered page of the &lt;em&gt;Gazette&lt;/em&gt; held similar material every day. The slides below offer an overview of the format over a typical week in July 1905. Page numbers are indicated on the bottom right. The main boilerplate is six pages long. On Wednesday and Saturday, when issues are eight pages, the extra pages are the fourth and fifth pages. Pages 6-8 of extended editions correspond to pages 4-6 of regular editions.&lt;/p&gt;
 &lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSoNMUJRV31l_qJ-hWRQwU3JHdGi8wLNv5nEndc6eeQWcRqbo9womcWCRDlgRJmumWR7i-RL5G2rFRv/embed?start=true&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
@@ -568,7 +568,7 @@ Copy the whole bottom line &lt;em&gt;except&lt;/em&gt; the final &lt;code&gt;&am
 &lt;/ul&gt;
 &lt;h2 id=&#34;2-add-feature-attributes&#34;&gt;2. Add feature attributes&lt;/h2&gt;
 &lt;p&gt;There are many recurring sections that show up issue after issue: local news, international news, sports, and many more. These should be marked &lt;code&gt;&amp;lt;div type=&amp;quot;section&amp;quot;&amp;gt;&lt;/code&gt; rather than &lt;code&gt;&amp;lt;div type=&amp;quot;item&amp;quot;&amp;gt;&lt;/code&gt;. It is important to mark these using the feature attribute, so that we can find them in XPath searches. The complete list of features is 
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/features/&#34;&gt;here&lt;/a&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/features/&#34;&gt;here&lt;/a&gt;
 . To add an feature attribute, place it within the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag, after the &lt;code&gt;type=&amp;quot;section&amp;quot;&lt;/code&gt; attribute, thus: &lt;code&gt;&amp;lt;div type=&amp;quot;section&amp;quot; feature=&amp;quot;local&amp;quot;&amp;gt;&lt;/code&gt;. If you type &lt;code&gt;feature&lt;/code&gt; inside the tag, Oxygen should offer you an autocomplete menu of features.&lt;/p&gt;
 &lt;h2 id=&#34;3-add-more-complex-structural-tags&#34;&gt;3. Add more complex structural tags&lt;/h2&gt;
 &lt;p&gt;There are more tags that you can add:&lt;/p&gt;
@@ -936,7 +936,7 @@ Some examples of commonly used regex codes:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;First, let&amp;rsquo;s gather data to explore in Tableau. This data comes from the 
-&lt;a href=&#34;https://dig-eg-gaz.github.io/contents/templates/#coton&#34;&gt;Coton&lt;/a&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/issues/templates/#coton&#34;&gt;Coton&lt;/a&gt;
  table, which appears regularly in the financial news section of the Egyptian Gazette.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;

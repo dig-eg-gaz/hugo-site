@@ -34,7 +34,7 @@ The "nameplate" `<div>` that you see here represents the banner at the top of pa
 
 ![nameplate](/img/nameplate.png)
 
-You will need to update your xml file to reflect the content of your own issue. First, you need to look in the [advertisements directory](/contents/advertisements) to find templates that correspond to the ads that appear in your issue. Following the detailed indications [here](/how-to/digitization/templating-instructions/), copy the xml text of templates you need.
+You will need to update your xml file to reflect the content of your own issue. First, you need to look in the [advertisements directory](/issues/advertisements) to find templates that correspond to the ads that appear in your issue. Following the detailed indications [here](/how-to/digitization/templating-instructions/), copy the xml text of templates you need.
 
 You must paste this text into the correct spot in the nameplate of your xml document. The two ads flanking the title take the form of `<cell>`s that go in the first `<row>` of the nameplate. The second `<row>` of the nameplate lists the number, date, and number of pages of the issue. Update this information.
 

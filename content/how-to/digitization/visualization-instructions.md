@@ -24,7 +24,7 @@ Tableau is a powerful tool that can be used to view, manipulate, explore, and an
 3. After downloading and installing the software, you can follow [video tutorials](https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html) to get up to speed with more advanced functions. But for now, let's look at some simple examples using data from the digital Egyptian Gazette.
 
 ## Walkthrough
-1. First, let's gather data to explore in Tableau. This data comes from the [Coton](/contents/templates/#coton) table, which appears regularly in the financial news section of the Egyptian Gazette.
+1. First, let's gather data to explore in Tableau. This data comes from the [Coton](/issues/templates/#coton) table, which appears regularly in the financial news section of the Egyptian Gazette.
 
 2. Using this query: `//table[@xml:id="deg-ta-cotn01"]//cell[contains(.,'balles')]/following-sibling::cell[1]`, returns the number of bales of cotton exported. Right click on the results and save to a temporary file.
 

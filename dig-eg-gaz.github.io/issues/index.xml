@@ -1222,7 +1222,7 @@
 &lt;tr&gt;
 &lt;th&gt;xml:id &lt;code&gt;alexandria-general-produce-weekly&lt;/code&gt;&lt;/th&gt;
 &lt;th&gt;
-&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-01.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XML Template&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-weekly-01.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XML Template&lt;/a&gt;
 &lt;/th&gt;
 &lt;th&gt;Example: 1905-02-24&lt;/th&gt;
 &lt;/tr&gt;
@@ -1243,7 +1243,7 @@
 &lt;tr&gt;
 &lt;th&gt;xml:id &lt;code&gt;alexandria-general-produce-weekly&lt;/code&gt;&lt;/th&gt;
 &lt;th&gt;
-&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-02.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XML Template&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-weekly-02.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XML Template&lt;/a&gt;
 &lt;/th&gt;
 &lt;th&gt;Example: 1905-07-14&lt;/th&gt;
 &lt;/tr&gt;
@@ -1671,7 +1671,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;telegrammes-havas&#34;&gt;Telegrammes Havas&lt;/h2&gt;
+&lt;h2 id=&#34;telegramme-havas&#34;&gt;Telegramme Havas&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

@@ -138,12 +138,12 @@ no template as yet
 ## Alexandria General Produce Association Weekly Report
 
 ### Variant 1 (early 1905)
-xml:id `alexandria-general-produce-weekly`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-01.xml)|Example: 1905-02-24
+xml:id `alexandria-general-produce-weekly`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-weekly-01.xml)|Example: 1905-02-24
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-01_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-01.jpg)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa01`.<br><br>Always appears on Saturdays.|Earliest: 1905-01-07<br><br>Latest: 1905-05-13
 
 ### Variant 2 (mid-1905)
-xml:id `alexandria-general-produce-weekly`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-02.xml)|Example: 1905-07-14
+xml:id `alexandria-general-produce-weekly`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/alexandria-general-produce-weekly-02.xml)|Example: 1905-07-14
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-02_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/alexandria-general-produce-weekly-02.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-agpa02`.<br><br>Always appears on Saturdays.|Earliest: 1905-05-20 <br><br>Latest:
 
@@ -265,7 +265,7 @@ xml:id `deg-el-ssab01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/stocks-and-shares-alexandria-bourse.png)|**Notes**: Locate internal table(s) using the xml:id(s) `deg-ta-ssab01`|Earliest: November 1906<br><br>Latest:
 
-## Telegrammes Havas
+## Telegramme Havas
 
 xml:id `deg-el-teha01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/telegramme-havas.xml)|Example: 1905-07-12
 ---|---|---
