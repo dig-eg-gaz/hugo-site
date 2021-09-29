@@ -251,6 +251,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bdc01-banque-du-caire_tn.jpg?raw=true)|xml text: [bdc01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/bdc01.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bdc01-banque-du-caire.png)
 
+## bec01 British Engineering Co. of Egypt, Ld.
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bec01_tn.jpg?raw=true)|xml text: [bec01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/bec01.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/bec01.png)
+
 ## ben01 Benger's Food
  |
 ---|---
@@ -355,6 +360,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cah03-carlton-hotel_tn.jpg?raw=true)|xml text: [cah03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/cah03.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cah03-carlton-hotel.png)
+
+## cah04 Carlton Hotel
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cah04_tn.jpg?raw=true)|xml text: [cah04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/cah04.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/cah04.png)
 
 ## cbb01 Callard & Bowser's Butter-Scotch
  |
@@ -650,6 +660,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/eec04-egyptian-engineering-co_tn.jpg?raw=true)|xml text: [eec04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/eec04.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/eec04-egyptian-engineering-co.png)
+
+## eec05 Lancashire and Cornish Boilers / The Egyptian Engineering Co. Ltd.
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/eec05_tn.jpg?raw=true)|xml text: [eec05](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/eec05.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/eec05.png)
 
 ## eeh01 Eastern Exchange Hotel
  |
@@ -1357,6 +1372,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mol01-molassine_tn.jpg?raw=true)|xml text: [mol01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/mol01.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mol01-molassine.png)
 
+## mpl01 Mather & Platt, Ltd.
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mpl01_tn.jpg?raw=true)|xml text: [mpl01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/mpl01.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/mpl01.png)
+
 ## msp01 McLaren's Steam Ploughs
  |
 ---|---
@@ -1686,6 +1706,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rsn02-Russian-Steam-Navigation_tn.jpg?raw=true)|xml text: [rsn02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/rsn02.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rsn02-Russian-Steam-Navigation.png)
+
+## rup01 Ruston, Proctor & Co.
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rup01_tn.jpg?raw=true)|xml text: [rup01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/rup01.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/rup01.png)
 
 ## rwc01 R. Warner & Co.
  |
@@ -2026,6 +2051,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vhb02-vienna-hotel-bristol_tn.jpg?raw=true)|xml text: [vhb02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/vhb02.xml)<br><br>Example: 1905-01-02<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vhb02-vienna-hotel-bristol.png)
+
+## vhm01 Vienna Hotel Metropole
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vhm01_tn.jpg?raw=true)|xml text: [vhm01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/vhm01.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/vhm01.png)
 
 ## vjs01 Vaughan-Jones' Standard
  |
