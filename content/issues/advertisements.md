@@ -96,6 +96,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/adr03_tn.jpg?raw=true)|xml text: [adr03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/adr03.xml)<br><br>Example: 1907-10-15<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/adr03-Au-de-Rouge.jpg)
 
+## adr04 Au de Rouge
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/adr04_tn.jpg?raw=true)|xml text: [adr04](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/adr04.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/adr04-Au-de-Rouge.jpg)
+
 ## aeb01 The Anglo-Egyptian Bank
  |
 ---|---
@@ -560,6 +565,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/dbc02_tn.jpg?raw=true)|xml text: [dbc02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/dbc02.xml)<br><br>Example: 1907-10-15<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/dbc02.jpg)
+
+## dbc03 Davies Bryan & Co.
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/dbc03_tn.jpg?raw=true)|xml text: [dbc03](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/dbc03.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/dbc03-Au-de-Rouge.jpg)
 
 ## dcl01 DCL Scotch Whisky
  |
@@ -1312,6 +1322,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/map01-Maple-and-Co_tn.jpg?raw=true)|xml text: [map01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/map01.xml)<br><br>Example: 1905-07-15<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/map01-Maple-and-Co.png)
 
+## map01 Maple & Co.
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/map01_tn.jpg?raw=true)|xml text: [map01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/map01.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/map01-Au-de-Rouge.jpg)
+
 ## mas01 Maspero Freres
  |
 ---|---
@@ -1731,6 +1746,11 @@ Every ad template has an XML id embedded in it, following this format: `xml:id="
  |
 ---|---
 ![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/scf01-supplement-commercial-financier_tn.jpg?raw=true)|xml text: [scf01](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/scf01.xml)<br><br>Example: 0000-00-00<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/scf01-supplement-commercial-financier.png)
+
+## scf02 Commercial & Financial Supplement
+ |
+---|---
+![Thumbnail is loading...](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/scf02_tn.jpg?raw=true)|xml text: [scf02](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/scf02.xml)<br><br>Example: 1907-12-07<br><br>[Full size image](https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/scf02-Au-de-Rouge.jpg)
 
 ## sdc01 Smokeless Diamond Cartridges
  |

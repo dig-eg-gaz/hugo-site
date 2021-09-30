@@ -334,8 +334,9 @@ xml:id `deg-el-nile01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 ## Société Internationale des Employés d'Alexandrie Bureau de Placement
 
-feature `bureauPlacement`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes.xml) (first lines only)|Example: 1905-07-15
+feature `bureauPlacement`|[1905 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes.xml) (first and last lines only)|Example: 1905-07-15
 ---|---|---
+--|[1907 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes-1907.xml) (first and last lines only)|Example: 1907-12-07
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes.png)|**Notes**: Add each advertisement as a `<p>` within its section.<br><br>|Earliest: <br><br>Latest:
 
 ## Weekly Postal Table
