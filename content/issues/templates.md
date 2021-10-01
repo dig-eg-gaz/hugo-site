@@ -54,6 +54,18 @@ xml:id `deg-el-acms01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-courtiers-service-special_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/association-courtiers-service-special.png)|**Notes**: |Earliest: 1905-01-03<br><br>Latest: 1907-06-18
 
+## Bourse Khediviale
+
+### Variant 1
+xml:id `deg-el-bokh01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/bourse-khediviale.xml)|Example: 1905-07-12
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale.png)|**Notes**: |Earliest: <br><br>Latest:
+
+### Variant 2 (Cloture de la Bourse Khediviale)
+xml:id `deg-el-clbk01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la-bourse-khediviale.xml)|Example: 1905-07-12
+---|---|---
+![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale.jpg)|**Notes**: Prepared by [Brett Crawford](/authors/brettcrawford)<br><br>|Earliest: <br><br>Latest:
+
 ## Coton
 
 xml:id `deg-el-cotn01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/coton.xml)|Example: 1905-07-12
@@ -133,6 +145,8 @@ no template as yet
 **See also**
 
 - [Association des Courtiers en Marchandises](/issues/templates/#association-des-courtiers-en-marchandises)
+- [Bourse Khediviale](/issues/templates/#bourse-khediviale)
+- [Derniere Heure](/issues/templates/#derniere-heure)
 - [Exterieur](/issues/templates/#exterieur)
 
 ## Alexandria General Produce Association Weekly Report
@@ -222,18 +236,6 @@ xml:id `deg-el-amss01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 xml:id `deg-el-bduc01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/bourse-du-caire.xml)|Example: 1907-04-01
 ---|---|---
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-du-caire.png)|**Notes**: |Earliest: November 1906<br><br>Latest:
-
-## Bourse Khediviale
-
-### Variant 1
-xml:id `deg-el-bokh01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/bourse-khediviale.xml)|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/bourse-khediviale.png)|**Notes**: |Earliest: <br><br>Latest:
-
-### Variant 2 (Cloture de la Bourse Khediviale)
-xml:id `deg-el-clbk01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/cloture-de-la-bourse-khediviale.xml)|Example: 1905-07-12
----|---|---
-![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/cloture-de-la-bourse-khediviale.jpg)|**Notes**: Prepared by [Brett Crawford](/authors/brettcrawford)<br><br>|Earliest: <br><br>Latest:
 
 ## London Stock Exchange
 
@@ -336,7 +338,7 @@ xml:id `deg-el-nile01`|[XML Template](https://github.com/dig-eg-gaz/boilerplates
 
 feature `bureauPlacement`|[1905 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes.xml) (first and last lines only)|Example: 1905-07-15
 ---|---|---
---|[1907 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes-1907.xml) (first and last lines only)|Example: 1907-12-07
+`bureauPlacement`|[1907 XML Template](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-text/societe-internationale-des-employes-1907.xml) (first and last lines only)|1907-12-07
 ![Thumbnail](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes_tn.jpg?raw=true) [Full size image](https://github.com/dig-eg-gaz/boilerplates/blob/master/boilerplates-images/societe-internationale-des-employes.png)|**Notes**: Add each advertisement as a `<p>` within its section.<br><br>|Earliest: <br><br>Latest:
 
 ## Weekly Postal Table
