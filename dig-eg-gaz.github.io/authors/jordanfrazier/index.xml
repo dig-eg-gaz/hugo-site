@@ -29,10 +29,18 @@
 &lt;p&gt;&lt;code&gt;//table[@xml:id=&amp;quot;deg-ta-dawr01&amp;quot;]/row[5]/cell[2]/measure[text()]&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dictionary.com/browse/climate?s=t&#34;&gt;http://www.dictionary.com/browse/climate?s=t&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;amp;req_state=FL&amp;amp;reqdb.zip=32301&amp;amp;reqdb.magic=1&amp;amp;reqdb.wmo=99999&amp;amp;MR=1&#34;&gt;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;amp;req_state=FL&amp;amp;reqdb.zip=32301&amp;amp;reqdb.magic=1&amp;amp;reqdb.wmo=99999&amp;amp;MR=1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_weather_records&#34;&gt;https://en.wikipedia.org/wiki/List_of_weather_records&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dictionary.com/browse/almanac&#34;&gt;http://www.dictionary.com/browse/almanac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.dictionary.com/browse/climate?s=t&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.dictionary.com/browse/climate?s=t&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;amp;req_state=FL&amp;amp;reqdb.zip=32301&amp;amp;reqdb.magic=1&amp;amp;reqdb.wmo=99999&amp;amp;MR=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;req_state=FL&amp;reqdb.zip=32301&amp;reqdb.magic=1&amp;reqdb.wmo=99999&amp;MR=1&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_weather_records&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://en.wikipedia.org/wiki/List_of_weather_records&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.dictionary.com/browse/almanac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.dictionary.com/browse/almanac&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

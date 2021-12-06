@@ -332,15 +332,6 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;August 17, 1907&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;August 21, 1907&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -6035,10 +6026,14 @@ Cattaui&#39;s daughter died of typhoid fever at the age of 18 at the end of Dece
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;![Thumbnail is loading&amp;hellip;](&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt; Ost-Afrika-Linie_tn.jpg?raw=true)&lt;/td&gt;
+&lt;td&gt;![Thumbnail is loading&amp;hellip;](
+&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt;
+ Ost-Afrika-Linie_tn.jpg?raw=true)&lt;/td&gt;
 &lt;td&gt;xml text: 
 &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/doa01.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doa01&lt;/a&gt;
-&lt;br&gt;&lt;br&gt;Example: 1905-07-13&lt;br&gt;&lt;br&gt;[Full size image](&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt; Ost-Afrika-Linie.png)&lt;/td&gt;
+&lt;br&gt;&lt;br&gt;Example: 1905-07-13&lt;br&gt;&lt;br&gt;[Full size image](
+&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt;
+ Ost-Afrika-Linie.png)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -15328,7 +15323,9 @@ Note: for 1906 and 1907, there was no report of the number of children used in t
 Here is a map showing the Egyptian provinces. Spelling of the province names may slightly vary.
 &lt;img src=&#34;egyptian-provinces.jpg&#34; alt=&#34;Map of Egyptian Provinces&#34;&gt;
 There may be errors in the data due to cotton worm infestations that were not reported in the Egyptian Gazette, problems with OCR, the existence of articles that did not show up in any of the xpath queries, or various other forms of human error. Regardless, I believe that the graphs serve their purpose in giving a general understanding of when the cotton worm epidemic was most prevalent in Egypt from 1905 to 1907 and which provinces were most affected. It also gives an idea of the sheer number of local children that were conscripted to go out in the fields and pick the worms and larvae; in 1905 there were at least 250,000 children, although the real number is likely much higher. From 1905 to 1906, the amount of land affected by the worm seems to slowly decline, revealing a steady success from the worm picking and cotton burning conscripted force. 1907 shows a sharp decrease in the number of attacked and cleansed feddans, but I think this is extremely exaggerated from the truth because of data that has not yet been entered into the content repository.
-Further contextual information and analysis can be found in the essay [Boom, Bugs, Bust: Egypt’s Ecology of Interest, 1882-1914] (&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/anti.12216&#34;&gt;https://onlinelibrary.wiley.com/doi/abs/10.1111/anti.12216&lt;/a&gt;) of A Radical Journal of Geography. In the essay, author Aaron Jakes tells of the cotton worm infestation that took root in 1904. He explains that it posed a devastating outcome to the Egyptian economy and, as a result, the Ministry of Interior drafted all boys from ages 9 to 17 to do gang work in picking the worm off of cotton stalks, stripping the plants of their leaves, then transport them to a site to be burned. He also addresses the fact that most of these boys came from poor farming families that depended on their children’s labor.
+Further contextual information and analysis can be found in the essay [Boom, Bugs, Bust: Egypt’s Ecology of Interest, 1882-1914] (
+&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/anti.12216&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://onlinelibrary.wiley.com/doi/abs/10.1111/anti.12216&lt;/a&gt;
+) of A Radical Journal of Geography. In the essay, author Aaron Jakes tells of the cotton worm infestation that took root in 1904. He explains that it posed a devastating outcome to the Egyptian economy and, as a result, the Ministry of Interior drafted all boys from ages 9 to 17 to do gang work in picking the worm off of cotton stalks, stripping the plants of their leaves, then transport them to a site to be burned. He also addresses the fact that most of these boys came from poor farming families that depended on their children’s labor.
 The cotton worm targeted the vast fields of cotton in the provinces near and along the Nile and its delta. In order to combat the epidemic infestation, Egypt issued a decree forcing young boys to go out in the fields and manually pick the cotton worms off the plants, strip the stalks, then transport and burn them. After the khedivial decree in 1905, cotton worm combat forces surged, and the amount of land affected to slowly and steadily declined as the epidemic seemed to be taken under control. Over the years, hundreds of thousands, if not millions, of boys were drafted into the cotton worm destruction force.&lt;/p&gt;
 </description>
     </item>
@@ -15512,7 +15509,9 @@ The cotton worm targeted the vast fields of cotton in the provinces near and alo
 &lt;p&gt;Charles McCabe  (1979)  The Decline of Things,  Clinical Toxicology,  15:3,  341-342,  DOI:  
 &lt;a href=&#34;https://doi.org/10.3109/15563657908989883&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10.3109/15563657908989883&lt;/a&gt;
 &lt;/p&gt;
-&lt;p&gt;Cholera. (n.d.). Retrieved December 4, 2019, from &lt;a href=&#34;https://www.who.int/news-room/fact-sheets/detail/cholera&#34;&gt;https://www.who.int/news-room/fact-sheets/detail/cholera&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cholera. (n.d.). Retrieved December 4, 2019, from 
+&lt;a href=&#34;https://www.who.int/news-room/fact-sheets/detail/cholera&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.who.int/news-room/fact-sheets/detail/cholera&lt;/a&gt;
+.&lt;/p&gt;
 </description>
     </item>
     
@@ -16225,8 +16224,12 @@ was another story with the headline “Train Collision” with yet another descr
 &lt;p&gt;This erased the dates of the articles, so I had to go back and find them. This is mostly at the fault of the Egyptian Gazette writers, since weddings were not consistently reported on, not the program itself, but it still would have saved me a lot of time and stress if I had a way to search within. That being said, it was definitely a lot better than having to find the Egyptian gazette scans and go through them one by one to find data on weddings. Digitizing the gazette will help research tremendously, as there is a lot of information in there, and newspapers are the most accurate way to get glimpses into the daily lives of citizens, plus they cover very broad topics. I could have done my project on anything due to how many things are talked about in this gazette. If I had to use another source, such as Google or an academic database, it would have been nearly impossible. Even though there was not a lot of data to work with in the two years, I still feel like I was able to pull out a lot of information to analyze. Without the Digital Egyptian Gazette, I could not have gone as in-depth.&lt;/p&gt;
 &lt;h1 id=&#34;sources&#34;&gt;Sources:&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;The Art of Dress in the Victorian and Edwardian Eras, Otto Charles Thieme &lt;a href=&#34;http://www.jstor.org/stable/1504015&#34;&gt;http://www.jstor.org/stable/1504015&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Late-Nineteenth-Century Ottoman Wedding Costumes as Indicators of Social Change, Nancy Micklewright &lt;a href=&#34;http://www.jstor.org/stable/1602288&#34;&gt;http://www.jstor.org/stable/1602288&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Art of Dress in the Victorian and Edwardian Eras, Otto Charles Thieme 
+&lt;a href=&#34;http://www.jstor.org/stable/1504015&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.jstor.org/stable/1504015&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Late-Nineteenth-Century Ottoman Wedding Costumes as Indicators of Social Change, Nancy Micklewright 
+&lt;a href=&#34;http://www.jstor.org/stable/1602288&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.jstor.org/stable/1602288&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -16389,9 +16392,15 @@ was another story with the headline “Train Collision” with yet another descr
 &lt;p&gt;It is very intriguing to see how using technology now such as Oxygen XML Editor, Tableau, and Atom can take information from the past and create a much greater understanding of previously recorded information. New technology has created a great new platform to present information that in the past would be much more tedious and time consuming. With all of this gathered information researchers alike can present this information to keep societies growing with knowledge and to help improve the health and welfare of future generations to come.&lt;/p&gt;
 &lt;p&gt;Sources:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://share.upmc.com/2014/06/effects-humidity-body/&#34;&gt;https://share.upmc.com/2014/06/effects-humidity-body/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.sensorpush.com/articles/the-effects-of-low-humidity-on-your-health-and-comfort&#34;&gt;http://www.sensorpush.com/articles/the-effects-of-low-humidity-on-your-health-and-comfort&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.hvac.com/faq/recommended-humidity-level-home/&#34;&gt;https://www.hvac.com/faq/recommended-humidity-level-home/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://share.upmc.com/2014/06/effects-humidity-body/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://share.upmc.com/2014/06/effects-humidity-body/&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.sensorpush.com/articles/the-effects-of-low-humidity-on-your-health-and-comfort&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.sensorpush.com/articles/the-effects-of-low-humidity-on-your-health-and-comfort&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.hvac.com/faq/recommended-humidity-level-home/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.hvac.com/faq/recommended-humidity-level-home/&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -16410,7 +16419,7 @@ was another story with the headline “Train Collision” with yet another descr
 &lt;p&gt;This query helped me draw a relationship between the weather temperatures were livable conditions to survive without the technology we have now. The graph I produced from the query shows recorded temperatures around Alexandria. Alexandria&amp;rsquo;s average temperature mean was 25.81* Celsius or 78.5 degrees Fahrenheit. The coldest temperature is even higher than the average temperature for Earth (57*). These temperatures demonstrate that the climate was much warmer than many other habitable places in the world.&lt;/p&gt;
 &lt;p&gt;The seasons in Egypt are quite minimal. Alexandria is close to the coast so they tend to have a higher humidity than the surrounding desert. Since it is hot all year around, and many people escaped the heat in the summer. Especially the British who were not used to the heat, since the UK has a maritime climate. Winter and summer align with the U.S., since Alexandria is in the northern hemisphere, but Egypt&amp;rsquo;s location is an important part of the heat they receive.&lt;/p&gt;
 &lt;p&gt;Besides the abnormally warm temperatures, precipitation is also an important factor for the climate. Alexandria tends to have a higher amount of precipitation than the majority of Egypt, but rain has always been very minimal to around a maximum average of 200 mm a year. Although Alexandria is close to the Mediterranean sea, the water was not sufficient to drink, nor did they have the proper technology to extract the water for drinking. This means they had to transport most of their water from the Nile. Besides water, shelter is also very important for living. Homes and businesses were built from stone and clay which are materials that help keep the area cooler. Since refrigerators and air- conditioning were not yet accessible during this time, citizens probably had a harder time cooling off during the summer months. Hence, why the wealthier population tended to leave during the summer months.&lt;/p&gt;
-&lt;p&gt;The results I received from my data can be conclusive. The average temperature was 25.81*, while the high and low temperatures were 39* and 10.5*. This means that the temperatures were 102.2* and 50.9* in Fahrenheit, giving the average to be. A few data points were taken out of the graph due to being outliers. The first outlying point was a mistake in the _Egyptian Gazette_. The printed high temperature in the shade displayed on the issue from March 5th 1906, said it was 7.5*. This can only be a mistake considering below it says the low temperature was 11.3*. Therefore the point was taken out. seventy-six other values were also extracted due to the inaccuracy of duplicating the template.&lt;/p&gt;
+&lt;p&gt;The results I received from my data can be conclusive. The average temperature was 25.81*, while the high and low temperatures were 39* and 10.5*. This means that the temperatures were 102.2* and 50.9* in Fahrenheit, giving the average to be. A few data points were taken out of the graph due to being outliers. The first outlying point was a mistake in the &lt;em&gt;Egyptian Gazette&lt;/em&gt;. The printed high temperature in the shade displayed on the issue from March 5th 1906, said it was 7.5*. This can only be a mistake considering below it says the low temperature was 11.3*. Therefore the point was taken out. seventy-six other values were also extracted due to the inaccuracy of duplicating the template.&lt;/p&gt;
 &lt;p&gt;These temperatures recorded would make it hard to live in especially within the summer months. Without proper electricity and water, Alexandria would be a hard environment to live in. Combining the results of the data with the knowledge of technology and resources, Alexandria was most likely a difficult place to live. The harsh climactic conditions could have contributed to a decline in population after the early 1900s. While many of the people who grew up in Alexandria were used to the climate, Europeans who immigrated there could have had a much harder time adjusting. Although the climate in Alexandria, Egypt was much harder to live in, it doesn&amp;rsquo;t mean it was unlivable for the early 1900s. The high temperatures and lack of rainfall would make it harder for farmers and the rest of the working class but overall the climate could be deemed acceptable, especially for the wealthy.&lt;/p&gt;
 </description>
     </item>
@@ -16545,9 +16554,15 @@ was another story with the headline “Train Collision” with yet another descr
 &lt;p&gt;&lt;img src=&#34;Table.png&#34; alt=&#34;Table&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;sources&#34;&gt;Sources&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.topendsports.com/world/countries/egypt.htm&#34;&gt;https://www.topendsports.com/world/countries/egypt.htm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.skysports.com/football/news/12098/11299870/world-cup-2018-egypt-team-profile&#34;&gt;http://www.skysports.com/football/news/12098/11299870/world-cup-2018-egypt-team-profile&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/263848323_The_final_whistle_how_football_terminology_took_root_in_Egypt&#34;&gt;https://www.researchgate.net/publication/263848323_The_final_whistle_how_football_terminology_took_root_in_Egypt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.topendsports.com/world/countries/egypt.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.topendsports.com/world/countries/egypt.htm&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.skysports.com/football/news/12098/11299870/world-cup-2018-egypt-team-profile&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.skysports.com/football/news/12098/11299870/world-cup-2018-egypt-team-profile&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.researchgate.net/publication/263848323_The_final_whistle_how_football_terminology_took_root_in_Egypt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.researchgate.net/publication/263848323_The_final_whistle_how_football_terminology_took_root_in_Egypt&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -16924,7 +16939,9 @@ Figure 1&lt;/p&gt;
 &lt;p&gt;The amount of data had been sufficient in determining the changes in the times needed for messages to be sent to the assessed locations from Alexandria/ Cairo. Though, if the research were to be continued on the topic the manner of collection would need to be improved. To attain the data a program had been made which analyzed data in an excel document and converted it into a format that could be converted into a chart. The current data being added onto could be done so with more efficiency by utilizing a general text editor to organize the information that would forma it in the correct manner to be converted into a chart. Attaining more information on the actions of the British Occupation Army such as the times they returned and the thoughts of the soldiers in relating t the incident and the way that it had been treated. Though, the messages had been sent it was rather difficult to attain one that would have kept.&lt;/p&gt;
 &lt;p&gt;This was attempted by the current researcher but was not able to be performed due to technological miscommunication of information of different systems (Mac and Windows). To improve the presentation of the information in a visual context different forms of the time presented could be used, as the other styles would cause the information of the graph to be too large to quickly observe.  Along with this the use of the map feature would aid in providing a vivid example of the data in relation to the areas in the United Kingdom. Also assessing the units would aid in conserving time and increasing understanding of the information analyzed. Along with assessing data as true by association of similar information, though the actuality of the events may be properly represented in the data. Although as time, years, increases the performances and speed of the devices would likely increase causing the amount of time to decrease.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;Luscombe, S. (n.d.). Egypt and the British Empire. Retrieved April 02, 2018, from &lt;a href=&#34;http://www.britishempire.co.uk/maproom/egypt.htm&#34;&gt;http://www.britishempire.co.uk/maproom/egypt.htm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Luscombe, S. (n.d.). Egypt and the British Empire. Retrieved April 02, 2018, from 
+&lt;a href=&#34;http://www.britishempire.co.uk/maproom/egypt.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.britishempire.co.uk/maproom/egypt.htm&lt;/a&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -17095,9 +17112,15 @@ This story has a theme similar to Shakespeare’s &lt;em&gt;Romeo and Juliet&lt;
 &lt;p&gt;This should be compared to other points of British influence to determine if the British were took a long time to get this far with only this issue or if this was a common time frame for how long it could take for an effort such as this one to come to fruition.&lt;/p&gt;
 &lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://digitalcommons.law.uga.edu/cgi/viewcontent.cgi?article=2283&amp;amp;context=gjicl&#34;&gt;http://digitalcommons.law.uga.edu/cgi/viewcontent.cgi?article=2283&amp;amp;context=gjicl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.britishempire.co.uk/maproom/egypt.htm&#34;&gt;http://www.britishempire.co.uk/maproom/egypt.htm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/British-Imperialism/&#34;&gt;https://dig-eg-gaz.github.io/curiosities/British-Imperialism/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://digitalcommons.law.uga.edu/cgi/viewcontent.cgi?article=2283&amp;amp;context=gjicl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://digitalcommons.law.uga.edu/cgi/viewcontent.cgi?article=2283&amp;context=gjicl&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.britishempire.co.uk/maproom/egypt.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.britishempire.co.uk/maproom/egypt.htm&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/British-Imperialism/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dig-eg-gaz.github.io/curiosities/British-Imperialism/&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -17366,10 +17389,18 @@ and well known by the audiences and the critique.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;//table[@xml:id=&amp;quot;deg-ta-dawr01&amp;quot;]/row[5]/cell[2]/measure[text()]&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;sources&#34;&gt;Sources&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dictionary.com/browse/climate?s=t&#34;&gt;http://www.dictionary.com/browse/climate?s=t&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;amp;req_state=FL&amp;amp;reqdb.zip=32301&amp;amp;reqdb.magic=1&amp;amp;reqdb.wmo=99999&amp;amp;MR=1&#34;&gt;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;amp;req_state=FL&amp;amp;reqdb.zip=32301&amp;amp;reqdb.magic=1&amp;amp;reqdb.wmo=99999&amp;amp;MR=1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_weather_records&#34;&gt;https://en.wikipedia.org/wiki/List_of_weather_records&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dictionary.com/browse/almanac&#34;&gt;http://www.dictionary.com/browse/almanac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.dictionary.com/browse/climate?s=t&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.dictionary.com/browse/climate?s=t&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;amp;req_state=FL&amp;amp;reqdb.zip=32301&amp;amp;reqdb.magic=1&amp;amp;reqdb.wmo=99999&amp;amp;MR=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wunderground.com/history/airport/KTLH/2017/05/07/DailyHistory.html?req_city=Tallahassee&amp;req_state=FL&amp;reqdb.zip=32301&amp;reqdb.magic=1&amp;reqdb.wmo=99999&amp;MR=1&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_weather_records&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://en.wikipedia.org/wiki/List_of_weather_records&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.dictionary.com/browse/almanac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.dictionary.com/browse/almanac&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -17479,7 +17510,9 @@ and well known by the audiences and the critique.&lt;/p&gt;
 &lt;a href=&#34;1905-12-28-p5.jpg&#34;&gt;The Situation in Russia&lt;/a&gt;
  protesters most likely would have led strikes in St. Petersburg to be a direct link to reform that would be executed by the Russian Government.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;johnson-strikes-map.png&#34; alt=&#34;Maps of Strikes&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Moreover the months of October and November witnessed the formation of several labor unions, probably explaining the increase in yielded results for the word “Strike” among these two months. The question then becomes, why are the strikes in Russia relevant or newsworthy to the readers of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;? Egypt had amicable ties to Russia, which was exemplified by the construction of the [Egyptian Bridge](&lt;a href=&#34;https://en.wikipedia.org/wiki/Egyptian_Bridge&#34;&gt;https://en.wikipedia.org/wiki/Egyptian_Bridge&lt;/a&gt; Besides) in January 1905. The success of the union strikes in Russia would more than likely yield hope for the union movements coexisting in Egypt.&lt;/p&gt;
+&lt;p&gt;Moreover the months of October and November witnessed the formation of several labor unions, probably explaining the increase in yielded results for the word “Strike” among these two months. The question then becomes, why are the strikes in Russia relevant or newsworthy to the readers of the &lt;em&gt;Egyptian Gazette&lt;/em&gt;? Egypt had amicable ties to Russia, which was exemplified by the construction of the [Egyptian Bridge](
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Egyptian_Bridge&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://en.wikipedia.org/wiki/Egyptian_Bridge&lt;/a&gt;
+ Besides) in January 1905. The success of the union strikes in Russia would more than likely yield hope for the union movements coexisting in Egypt.&lt;/p&gt;
 &lt;p&gt;Two other cities that also returned several results from the query were the British city of London, England (United Kingdom) and the French city of Paris, France. It is not a surprise that these two cities, in addition to Rome, and Warsaw, cities yielded the second highest results, because these are all territories of the dominating European powers, particularly the French, Germans, and the British. During this time period, these major European powers were somewhat competing for control of Egyptian territory particularly for control over the Suez Canal, which was a mechanism that allowed for trade and productivity to continue.&lt;/p&gt;
 &lt;p&gt;According, Hodgson Pratt, a British pacifist, Great Britain wanted peace whereas the French were irritated with British presence in Egypt (
 &lt;a href=&#34;http://www.jstor.org/stable/20665297&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Advocate for Peace&lt;/a&gt;
@@ -17523,7 +17556,9 @@ Mustafa Kamil Pasha, Lawyer at the French law school in Cairo&lt;/p&gt;
 &lt;li&gt;“
 &lt;a href=&#34;www.jstor.org/stable/20665294&#34;&gt;Front Matter&lt;/a&gt;
 .” &lt;em&gt;The Advocate of Peace&lt;/em&gt; (1894-1920), vol. 57, no. 5, 1895.&lt;/li&gt;
-&lt;li&gt;Smith, S. A. JStor.com. Taylor &amp;amp; Francis, Ltd. , n.d. Web. 5 May 2017. &amp;lt;(&lt;a href=&#34;http://www.jstor.org/stable/151392)%3E&#34;&gt;http://www.jstor.org/stable/151392)&amp;gt;&lt;/a&gt;. Vol. 36, No. 2 (Apr., 1984), pp. 282-289&lt;/li&gt;
+&lt;li&gt;Smith, S. A. JStor.com. Taylor &amp;amp; Francis, Ltd. , n.d. Web. 5 May 2017. &amp;lt;(
+&lt;a href=&#34;http://www.jstor.org/stable/151392%29%3e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.jstor.org/stable/151392)&gt;&lt;/a&gt;
+. Vol. 36, No. 2 (Apr., 1984), pp. 282-289&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -17675,7 +17710,9 @@ Upper Fence|11.75&lt;/p&gt;
 &lt;a href=&#34;http://www.al-monitor.com/pulse/originals/2016/06/egypt-cotton-production-decline-agriculture-crops.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Why Egypt&amp;rsquo;s &amp;lsquo;white gold&amp;rsquo; production is now in decline&lt;/a&gt;
 ,&amp;rdquo; &lt;em&gt;Al-Monitor&lt;/em&gt; (June 24, 2016).&lt;/li&gt;
 &lt;li&gt;Norris, P. (1934). COTTON PRODUCTION IN EGYPT. BUREAU OF AGRICULTURAL ECONOMICS, 1-43.&lt;/li&gt;
-&lt;li&gt;The British Empire. (n.d.). The British Empire. Retrieved from Egypt: &lt;a href=&#34;http://www.britishempire.co.uk/maproom/egypt.htm&#34;&gt;http://www.britishempire.co.uk/maproom/egypt.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The British Empire. (n.d.). The British Empire. Retrieved from Egypt: 
+&lt;a href=&#34;http://www.britishempire.co.uk/maproom/egypt.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.britishempire.co.uk/maproom/egypt.htm&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -18743,11 +18780,19 @@ Source:
 , Petra was ideally placed on what is known today as the The King’s Highway in Jordan. This is significant because the Highway lies on a natural fault line, which made the city easily found by traders. I would like to inquire what economic benefit Petra offered Egypt and its people in 1906.&lt;/p&gt;
 &lt;p&gt;##sources&lt;/p&gt;
 &lt;p&gt;Outside Links:
-&lt;a href=&#34;http://www.robertfulford.com/petra.html&#34;&gt;http://www.robertfulford.com/petra.html&lt;/a&gt;
-&lt;a href=&#34;http://www.smithsonianmag.com/lifelists/guarding-petra-11031077/&#34;&gt;http://www.smithsonianmag.com/lifelists/guarding-petra-11031077/&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;http://www.robertfulford.com/petra.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.robertfulford.com/petra.html&lt;/a&gt;
+
+
+&lt;a href=&#34;http://www.smithsonianmag.com/lifelists/guarding-petra-11031077/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.smithsonianmag.com/lifelists/guarding-petra-11031077/&lt;/a&gt;
+&lt;/p&gt;
 &lt;p&gt;Blog Post Links:
-&lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/doublemurder/&#34;&gt;https://dig-eg-gaz.github.io/curiosities/doublemurder/&lt;/a&gt;
-&lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/Egyptology/&#34;&gt;https://dig-eg-gaz.github.io/curiosities/Egyptology/&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/doublemurder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dig-eg-gaz.github.io/curiosities/doublemurder/&lt;/a&gt;
+
+
+&lt;a href=&#34;https://dig-eg-gaz.github.io/curiosities/Egyptology/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dig-eg-gaz.github.io/curiosities/Egyptology/&lt;/a&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -19972,7 +20017,9 @@ unnecessary conflict and consistently in pursuit of economic benefits.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Copy and paste this line into an editor software, save it, upload to page in next URL:&lt;/strong&gt;
 {&amp;ldquo;version&amp;rdquo;:&amp;ldquo;1.2.4&amp;rdquo;,&amp;ldquo;files&amp;rdquo;:[{&amp;ldquo;loadFromURL&amp;rdquo;:false,&amp;ldquo;label&amp;rdquo;:&amp;ldquo;Untitled&amp;rdquo;,&amp;ldquo;id&amp;rdquo;:0,&amp;ldquo;autoFields&amp;rdquo;:[],&amp;ldquo;fields&amp;rdquo;:[{&amp;ldquo;key&amp;rdquo;:&amp;ldquo;Place&amp;rdquo;,&amp;ldquo;description&amp;rdquo;:&amp;ldquo;Place&amp;rdquo;,&amp;ldquo;cardinality&amp;rdquo;:11,&amp;ldquo;type&amp;rdquo;:&amp;ldquo;text&amp;rdquo;,&amp;ldquo;blanks&amp;rdquo;:0,&amp;ldquo;uniques&amp;rdquo;:[],&amp;ldquo;uniqueKey&amp;rdquo;:false,&amp;ldquo;special&amp;rdquo;:[],&amp;ldquo;unassignedSpecialChars&amp;rdquo;:[],&amp;ldquo;countBy&amp;rdquo;:false,&amp;ldquo;errors&amp;rdquo;:[],&amp;ldquo;descriptiveField&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;quot;$$hashKey&amp;quot;:&amp;ldquo;object:116&amp;rdquo;},{&amp;ldquo;key&amp;rdquo;:&amp;ldquo;Latitude, Longtitude&amp;rdquo;,&amp;ldquo;description&amp;rdquo;:&amp;ldquo;Latitude, Longtitude&amp;rdquo;,&amp;ldquo;cardinality&amp;rdquo;:11,&amp;ldquo;type&amp;rdquo;:&amp;ldquo;latlong&amp;rdquo;,&amp;ldquo;blanks&amp;rdquo;:0,&amp;ldquo;uniques&amp;rdquo;:[],&amp;ldquo;uniqueKey&amp;rdquo;:false,&amp;ldquo;special&amp;rdquo;:[&amp;quot;,&amp;quot;,&amp;quot;-&amp;quot;],&amp;ldquo;unassignedSpecialChars&amp;rdquo;:[],&amp;ldquo;countBy&amp;rdquo;:false,&amp;ldquo;errors&amp;rdquo;:[],&amp;ldquo;descriptiveField&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;quot;$$hashKey&amp;quot;:&amp;ldquo;object:117&amp;rdquo;,&amp;ldquo;existenceDimension&amp;rdquo;:&amp;ldquo;0.u97dbp6td49&amp;rdquo;},{&amp;ldquo;key&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;ldquo;description&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;ldquo;cardinality&amp;rdquo;:12,&amp;ldquo;type&amp;rdquo;:&amp;ldquo;text&amp;rdquo;,&amp;ldquo;blanks&amp;rdquo;:0,&amp;ldquo;uniques&amp;rdquo;:[],&amp;ldquo;uniqueKey&amp;rdquo;:true,&amp;ldquo;special&amp;rdquo;:[&amp;quot;-&amp;quot;,&amp;quot;,&amp;quot;,&amp;quot;/&amp;quot;],&amp;ldquo;unassignedSpecialChars&amp;rdquo;:[&amp;quot;-&amp;quot;,&amp;quot;,&amp;quot;,&amp;quot;/&amp;quot;],&amp;ldquo;countBy&amp;rdquo;:true,&amp;ldquo;errors&amp;rdquo;:[],&amp;quot;$$hashKey&amp;quot;:&amp;ldquo;object:118&amp;rdquo;,&amp;ldquo;verifiedSpecialChars&amp;rdquo;:[&amp;quot;-&amp;quot;,&amp;quot;,&amp;quot;,&amp;quot;/&amp;quot;],&amp;ldquo;confirmed&amp;rdquo;:true,&amp;ldquo;countable&amp;rdquo;:true,&amp;ldquo;countDescription&amp;rdquo;:&amp;ldquo;Untitled&amp;rdquo;},{&amp;ldquo;key&amp;rdquo;:&amp;quot;&amp;quot;,&amp;ldquo;description&amp;rdquo;:&amp;quot;&amp;quot;,&amp;ldquo;cardinality&amp;rdquo;:0,&amp;ldquo;type&amp;rdquo;:&amp;ldquo;null&amp;rdquo;,&amp;ldquo;blanks&amp;rdquo;:12,&amp;ldquo;uniques&amp;rdquo;:[],&amp;ldquo;uniqueKey&amp;rdquo;:false,&amp;ldquo;special&amp;rdquo;:[],&amp;ldquo;unassignedSpecialChars&amp;rdquo;:[],&amp;ldquo;countBy&amp;rdquo;:false,&amp;ldquo;errors&amp;rdquo;:[],&amp;ldquo;descriptiveField&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;quot;$$hashKey&amp;quot;:&amp;ldquo;object:119&amp;rdquo;,&amp;ldquo;delete&amp;rdquo;:true}],&amp;ldquo;data&amp;rdquo;:[{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Frankfurt&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;50.1109221,8.6821267&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Treaty of Frankfurt/Ended Franco-Prussian War, but would have lasting diplomatic impacts&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Paris&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;48.856614,2.3522219&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Treaty of Paris/Spain ending reliquinshing almost all its territory in the Americas&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;London&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;51.5073509,-0.1277583&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Anglo-Japanese Treaty/Represented a friendship between England and Japan, and was the first of its kind&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Paris&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;48.856614,2.3522219&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Hispano-American Treaty of Peace/Treaty between U.S and Spain than ended Spanish colonies in America&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Panama City&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;9.1011785,-79.4028639&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Panama Canal Treaty/Established the Panama Canal zone for U.S and Panama&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Pourtsmouth&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;50.8197675,-1.0879769&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Treaty of Portsmouth/Officially ended the Russo-Japanese War&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Hanseong&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;37.566535,126.9779692&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Japan-Korea Treaty of 1905/Created an aliiance between Korea and Japan to protect against Russia&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Berezovye Islands&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;61.6816667,90.5466667&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Treaty of Bjorko/Secret Treaty of defense between the German Empire and Russia&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;L�shunkou&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;38.851705,121.261953&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Battle of Port Arthur/Marked the commencment of the Russo-Japanese War&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Tokyo&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;35.6894875,139.6917064&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;BATTLE OF HEI-KOU-TAI/Major battle resulting in a stalemate, and started the downfall of Russia in the War&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Sevastopol&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;44.61665,33.525367&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Sevastopol Mutiny/Major armed revolt in the Black Sea Fleet against Russia&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;},{&amp;ldquo;Place&amp;rdquo;:&amp;ldquo;Straits of Tsushima&amp;rdquo;,&amp;ldquo;Latitude, Longtitude&amp;rdquo;:&amp;ldquo;34.0,129.5&amp;rdquo;,&amp;ldquo;Name of Event/Description&amp;rdquo;:&amp;ldquo;Battle of Tsushima/Another Japanese decisive victory spelling the end for Russia&amp;rsquo;s chances of victory&amp;rdquo;,&amp;quot;&amp;quot;:&amp;quot;&amp;quot;}],&amp;ldquo;uniqueId&amp;rdquo;:0,&amp;quot;$$hashKey&amp;quot;:&amp;ldquo;object:110&amp;rdquo;}],&amp;ldquo;links&amp;rdquo;:[],&amp;ldquo;layout&amp;rdquo;:&amp;ldquo;geo&amp;rdquo;,&amp;ldquo;metadata&amp;rdquo;:{&amp;ldquo;title&amp;rdquo;:null,&amp;ldquo;author&amp;rdquo;:null,&amp;ldquo;date&amp;rdquo;:null,&amp;ldquo;description&amp;rdquo;:null},&amp;ldquo;vis&amp;rdquo;:[{&amp;ldquo;type&amp;rdquo;:&amp;ldquo;palladioFilters&amp;rdquo;,&amp;ldquo;importJson&amp;rdquo;:{&amp;ldquo;facets&amp;rdquo;:[],&amp;ldquo;timelines&amp;rdquo;:[],&amp;ldquo;partimes&amp;rdquo;:[],&amp;ldquo;timesteps&amp;rdquo;:[]}},{&amp;ldquo;type&amp;rdquo;:&amp;ldquo;graphView&amp;rdquo;,&amp;ldquo;importJson&amp;rdquo;:{&amp;ldquo;showLinks&amp;rdquo;:true,&amp;ldquo;showLabels&amp;rdquo;:true,&amp;ldquo;aggregateKey&amp;rdquo;:null,&amp;ldquo;aggregationType&amp;rdquo;:&amp;ldquo;COUNT&amp;rdquo;,&amp;ldquo;nodeSize&amp;rdquo;:false,&amp;ldquo;highlightSource&amp;rdquo;:false,&amp;ldquo;highlightTarget&amp;rdquo;:false,&amp;ldquo;aggDimKey&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;ldquo;sourceDimension&amp;rdquo;:null,&amp;ldquo;targetDimension&amp;rdquo;:null,&amp;ldquo;fixedNodes&amp;rdquo;:false}},{&amp;ldquo;type&amp;rdquo;:&amp;ldquo;mapView&amp;rdquo;,&amp;ldquo;importJson&amp;rdquo;:{&amp;ldquo;tileSets&amp;rdquo;:[{&amp;ldquo;url&amp;rdquo;:null,&amp;ldquo;mbId&amp;rdquo;:&amp;ldquo;cesta.k8gof2np&amp;rdquo;,&amp;ldquo;enabled&amp;rdquo;:true,&amp;ldquo;description&amp;rdquo;:&amp;ldquo;Latitude, Longtitude&amp;rdquo;},{&amp;ldquo;url&amp;rdquo;:null,&amp;ldquo;mbId&amp;rdquo;:&amp;ldquo;cesta.k8ghh462&amp;rdquo;,&amp;ldquo;enabled&amp;rdquo;:true,&amp;ldquo;description&amp;rdquo;:&amp;ldquo;Latitude, Longtitude&amp;rdquo;},{&amp;ldquo;url&amp;rdquo;:null,&amp;ldquo;mbId&amp;rdquo;:&amp;ldquo;cesta.hd9ak6ie&amp;rdquo;,&amp;ldquo;enabled&amp;rdquo;:true,&amp;ldquo;description&amp;rdquo;:&amp;ldquo;Land&amp;rdquo;}],&amp;ldquo;layers&amp;rdquo;:[{&amp;ldquo;aggDescription&amp;rdquo;:&amp;ldquo;Number of Untitled&amp;rdquo;,&amp;ldquo;aggregateKey&amp;rdquo;:null,&amp;ldquo;aggregationType&amp;rdquo;:&amp;ldquo;COUNT&amp;rdquo;,&amp;ldquo;color&amp;rdquo;:&amp;quot;#000000&amp;quot;,&amp;ldquo;countBy&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;ldquo;description&amp;rdquo;:&amp;ldquo;Latitude, Longtitude&amp;rdquo;,&amp;ldquo;enabled&amp;rdquo;:true,&amp;ldquo;layerType&amp;rdquo;:&amp;ldquo;data&amp;rdquo;,&amp;ldquo;descriptiveDimKey&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;,&amp;ldquo;mapping&amp;rdquo;:{&amp;ldquo;sourceCoordinatesKey&amp;rdquo;:&amp;ldquo;Latitude, Longtitude&amp;rdquo;,&amp;ldquo;sourceCoordinatesType&amp;rdquo;:null,&amp;ldquo;sourceCoordinatesDescription&amp;rdquo;:&amp;ldquo;Latitude,Longtitude&amp;rdquo;,&amp;ldquo;destinationCoordinatesKey&amp;rdquo;:null,&amp;ldquo;destinationCoordinatesType&amp;rdquo;:null,&amp;ldquo;destinationCoordinatesDescription&amp;rdquo;:null},&amp;ldquo;showLinks&amp;rdquo;:false,&amp;ldquo;type&amp;rdquo;:&amp;ldquo;points&amp;rdquo;}]}},{&amp;ldquo;type&amp;rdquo;:&amp;ldquo;tableView&amp;rdquo;,&amp;ldquo;importJson&amp;rdquo;:{&amp;ldquo;tableDimensions&amp;rdquo;:[],&amp;ldquo;countDim&amp;rdquo;:null,&amp;ldquo;maxDisplay&amp;rdquo;:1000}},{&amp;ldquo;type&amp;rdquo;:&amp;ldquo;listView&amp;rdquo;,&amp;ldquo;importJson&amp;rdquo;:{&amp;ldquo;titleDim&amp;rdquo;:&amp;ldquo;Name of Event/Description&amp;rdquo;}}]}&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;URL to upload saved file to:&lt;/strong&gt;
-&lt;a href=&#34;http://hdlab.stanford.edu/palladio-app/#/upload&#34;&gt;http://hdlab.stanford.edu/palladio-app/#/upload&lt;/a&gt;&lt;/p&gt;
+
+&lt;a href=&#34;http://hdlab.stanford.edu/palladio-app/#/upload&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://hdlab.stanford.edu/palladio-app/#/upload&lt;/a&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -20908,7 +20955,9 @@ very small and it tends to be smudged and &lt;strong&gt;I hate it and it gives m
       <link>https://dig-eg-gaz.github.io/post/2016-11-06-soap/</link>
       <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://dig-eg-gaz.github.io/post/2016-11-06-soap/</guid>
-      <description>&lt;p&gt;During a time when merchandise regulation is not nearly as controlled as it is now, it can be expected that there will be defaults in the products produced. [Salicylate of soda](&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2220712/?page=1&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2220712/?page=1&lt;/a&gt; Define Salicylate of Soda&amp;quot;) was thought to have restorative effects during the mid to late 19th century. It was often recommended to people with joint disease, such as rheumatism, to alleviate pain.  At first the 
+      <description>&lt;p&gt;During a time when merchandise regulation is not nearly as controlled as it is now, it can be expected that there will be defaults in the products produced. [Salicylate of soda](
+&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2220712/?page=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2220712/?page=1&lt;/a&gt;
+ Define Salicylate of Soda&amp;quot;) was thought to have restorative effects during the mid to late 19th century. It was often recommended to people with joint disease, such as rheumatism, to alleviate pain.  At first the 
 &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1322509/?page=7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;negative side effects&lt;/a&gt;
  associated with salicylate of soda reported were minor, like a relapse in pain after the salicylate of soda was no longer being used. Many users had to be gradually weaned from the chemical.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;soap-ad.png&#34; alt=&#34;Sunlight Soap&#34;&gt;&lt;/p&gt;

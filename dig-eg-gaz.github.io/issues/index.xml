@@ -262,15 +262,6 @@
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;August 17, 1907&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;August 21, 1907&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -4632,10 +4623,14 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;![Thumbnail is loading&amp;hellip;](&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt; Ost-Afrika-Linie_tn.jpg?raw=true)&lt;/td&gt;
+&lt;td&gt;![Thumbnail is loading&amp;hellip;](
+&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt;
+ Ost-Afrika-Linie_tn.jpg?raw=true)&lt;/td&gt;
 &lt;td&gt;xml text: 
 &lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-text/doa01.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doa01&lt;/a&gt;
-&lt;br&gt;&lt;br&gt;Example: 1905-07-13&lt;br&gt;&lt;br&gt;[Full size image](&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt; Ost-Afrika-Linie.png)&lt;/td&gt;
+&lt;br&gt;&lt;br&gt;Example: 1905-07-13&lt;br&gt;&lt;br&gt;[Full size image](
+&lt;a href=&#34;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/dig-eg-gaz/advertisements/blob/master/ad-images/doa01-Deutsche&lt;/a&gt;
+ Ost-Afrika-Linie.png)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
