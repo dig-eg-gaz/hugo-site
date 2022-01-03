@@ -9,7 +9,7 @@ This is an archived record of the weeks assigned in fall 2021.
 Week|Start date|End date|Assigned to|Images|Files|Notes
 ---|---|---|---|---|---|---
 41A|October 7, 1907|October 9, 1907|[Adrian Barone](https://github.com/AdrianBarone )|||
-41B|October 10, 1907|October 12, 1907|[Brett Barry](https://github.com/brettbarry36)|||
+41B|October 10, 1907|October 12, 1907|[Brett Barry](https://github.com/brettbarry36)|14|3|did 1907-10-07 instead of 10-10
 48A|November 25, 1907|November 27, 1907|[Natalie Ives](https://github.com/Natalieives)|20||
 48B|November 28, 1907|November 30, 1907|[Nicole Morini](https://github.com/Nicolemorini)|20|3|
 1A|December 30, 1907|January 1, 1908|[Tyler Roy](https://github.com/TylerRoy)|14|2|

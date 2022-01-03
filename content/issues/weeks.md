@@ -33,6 +33,7 @@ November 2, 1906|November 3, 1906||2|
 July 20, 1907|||1|
 August 21, 1907|||1|
 September 6, 1907|September 7, 1907||2|
+October 12, 1907||6||
 
 ## Images lacking from microfilm
 
@@ -76,8 +77,7 @@ Week|Start date (Monday)|End date (Saturday)|Assigned to|Images|Files|Notes
 38B|September 19, 1907|September 21, 1907||all||
 39B|September 26, 1907|September 28, 1907||all||
 40A|September 30, 1907|October 2, 1907||all||
-41A|October 7, 1907|October 9, 1907||||
-41B|October 10, 1907|October 12, 1907||||
+41A|October 8, 1907|October 10, 1907||||Tu We Th
 
 
 ## Previous courses
