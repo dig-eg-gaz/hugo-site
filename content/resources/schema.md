@@ -25,7 +25,7 @@ In addition to the tags offered by the [TEI P5 guidelines](http://www.tei-c.org/
 - page: always use the `n=""` attribute
 - item: the default and most generic `div` type
 - section: a `div` containing other `div`s, typically of the `item` type.
-- subsection: a `div` within a `section` itself containing other `div`s, typically of the `item` type.
+- subsection: a `div` within a `section` itself containing other `div`s, typically of the `item` type. Use sparingly
 - cable: a single wire report with a `<dateline>` and the name of the wireservice (typically Reuters or Havas)
 - advert: any advertisement; templates are listed [here](https://dig-eg-gaz.github.io/advertisements)
 
@@ -64,34 +64,16 @@ In addition to the tags offered by the [TEI P5 guidelines](http://www.tei-c.org/
 - notesFayoum: Notes from Fayoum
 - notesOther: Notes from other places in Egypt
 
-### Scope
-- advertisement
-- international
-- local
-- financial
-- weather
-- newspaper
-- social
-- sporting
-- official
-- maritime
-- classifieds
-- letters
-- calendar
-- measurements
-- announcements
-- municipality
+### Status
+Do not use any status as default--leave out the attribute altogether.
 
-### Site
-- Alexandria
-- Cairo
-- Suez
-- Port Said
-- Suakin
-
-### Source
-- local
-- wire
+- verified: Complete and correct, verified by third editor.
+- unverified: Has not been checked. 
+- uncorrectedOCR: Div contains pasted OCR text that has not been corrected or formatted.
+- irregularFormat: Div contains valid content, but formatting differs from standard.
+- templateDefault: Div is identical to the template, and does not correspond to the content of the issue.
+- empty: Div is empty, often because an editor deleted default template.
+- incomplete: Div contains some but not all of the material it should.
 
 ## `<measure>` attributes
 

@@ -611,9 +611,7 @@ In addition to the tags offered by the TEI P5 guidelines , the customized schema
       <ul>
         <li><a href="#type">Type</a></li>
         <li><a href="#feature">Feature</a></li>
-        <li><a href="#scope">Scope</a></li>
-        <li><a href="#site">Site</a></li>
-        <li><a href="#source">Source</a></li>
+        <li><a href="#status">Status</a></li>
       </ul>
     </li>
     <li><a href="#measure-attributes"><code>&lt;measure&gt;</code> attributes</a>
@@ -663,7 +661,7 @@ In addition to the tags offered by the TEI P5 guidelines , the customized schema
 <li>page: always use the <code>n=&quot;&quot;</code> attribute</li>
 <li>item: the default and most generic <code>div</code> type</li>
 <li>section: a <code>div</code> containing other <code>div</code>s, typically of the <code>item</code> type.</li>
-<li>subsection: a <code>div</code> within a <code>section</code> itself containing other <code>div</code>s, typically of the <code>item</code> type.</li>
+<li>subsection: a <code>div</code> within a <code>section</code> itself containing other <code>div</code>s, typically of the <code>item</code> type. Use sparingly</li>
 <li>cable: a single wire report with a <code>&lt;dateline&gt;</code> and the name of the wireservice (typically Reuters or Havas)</li>
 <li>advert: any advertisement; templates are listed 
 <a href="https://dig-eg-gaz.github.io/advertisements" target="_blank" rel="noopener">here</a>
@@ -705,37 +703,16 @@ In addition to the tags offered by the TEI P5 guidelines , the customized schema
 <li>notesFayoum: Notes from Fayoum</li>
 <li>notesOther: Notes from other places in Egypt</li>
 </ul>
-<h3 id="scope">Scope</h3>
+<h3 id="status">Status</h3>
+<p>Do not use any status as default&ndash;leave out the attribute altogether.</p>
 <ul>
-<li>advertisement</li>
-<li>international</li>
-<li>local</li>
-<li>financial</li>
-<li>weather</li>
-<li>newspaper</li>
-<li>social</li>
-<li>sporting</li>
-<li>official</li>
-<li>maritime</li>
-<li>classifieds</li>
-<li>letters</li>
-<li>calendar</li>
-<li>measurements</li>
-<li>announcements</li>
-<li>municipality</li>
-</ul>
-<h3 id="site">Site</h3>
-<ul>
-<li>Alexandria</li>
-<li>Cairo</li>
-<li>Suez</li>
-<li>Port Said</li>
-<li>Suakin</li>
-</ul>
-<h3 id="source">Source</h3>
-<ul>
-<li>local</li>
-<li>wire</li>
+<li>verified: Complete and correct, verified by third editor.</li>
+<li>unverified: Has not been checked.</li>
+<li>uncorrectedOCR: Div contains pasted OCR text that has not been corrected or formatted.</li>
+<li>irregularFormat: Div contains valid content, but formatting differs from standard.</li>
+<li>templateDefault: Div is identical to the template, and does not correspond to the content of the issue.</li>
+<li>empty: Div is empty, often because an editor deleted default template.</li>
+<li>incomplete: Div contains some but not all of the material it should.</li>
 </ul>
 <h2 id="measure-attributes"><code>&lt;measure&gt;</code> attributes</h2>
 <h3 id="units">Units</h3>
