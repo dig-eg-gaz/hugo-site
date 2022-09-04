@@ -625,7 +625,7 @@ content repository updated. (
 <p>Use more specific queries to search for the possible values that might appear. For example, the first value in the Share List (template 1) on our website is &ldquo;13 13/16&rdquo;. And it is always in the 3rd cell of the 1st row of the first table of the Share List. Thus, we can use <code>//div[table[@xml:id=&quot;deg-ta-shli01&quot;]/row[1]/cell[3]/measure</code> to locate all the unchanged &ldquo;13 13/16&rdquo; in our files by using Find/Replace in Files.</p>
 <p>After you get all the possible result, compare more values in your targets and make sure that you only deal with those unchanged ones. Keep it mind that it is very possible that your result has the same value with the template by accident. Play with other values or queries to get the best result.</p>
 <h2 id="3-avoiding-conflicts">3. Avoiding Conflicts</h2>
-<p>Because you will be changing a large number of files, we need to proceed carefully in order to avoid creating conflicts with others' changes. We will do this in two ways. First, you will write a markdown file documenting your revision logic, findings, and process. This process must be replicable and duplicable. Obviously you may be doing some work by hand as well, but describe the general process in this way. Second, we will make all of our changes on the same day, during a class period. We will do this together to ensure that we avoid conflicts.</p>
+<p>Because you will be changing a large number of files, we need to proceed carefully in order to avoid creating conflicts with others&rsquo; changes. We will do this in two ways. First, you will write a markdown file documenting your revision logic, findings, and process. This process must be replicable and duplicable. Obviously you may be doing some work by hand as well, but describe the general process in this way. Second, we will make all of our changes on the same day, during a class period. We will do this together to ensure that we avoid conflicts.</p>
 <h2 id="4-tagging-problems">4. Tagging Problems</h2>
 <p>Once you find a good query that allows you to locate all unchanged divs, you will need to add a comment in the very beginning of them to let others know the risk of using such bad sources. Here is an easy way to add comments to all of them instead of doing that manually.</p>
 <p>Using the Share List part as an example, you can use <code>//div[child::table[@xml:id=&quot;deg-ta-shli01&quot;]/row[1]/cell[3]/measure[contains(., &quot;13 13/16&quot;)]]</code> in the Find/Replace in File tool to tell Oxygen to look at the div itself instead of the table inside the div.</p>
@@ -811,7 +811,7 @@ content repository updated. (
     
     
     
-    <script src="/js/academic.min.dd3bd320b283a236b60c707f537377b7.js"></script>
+    <script src="/js/academic.min.946cacb7918c5cc5ead99accf3e34d41.js"></script>
 
     
 
